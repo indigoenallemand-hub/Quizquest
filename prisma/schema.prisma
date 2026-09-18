@@ -1,0 +1,166 @@
+// Prisma schema for the quiz-app-web project.
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum QuizStatus {
+  PUBLIC
+  PRIVATE
+}
+
+enum QuestionType {
+  QCM_SIMPLE
+  QCM_MULTIPLE
+  DATE
+  CALCUL
+}
+
+enum BadgeType {
+  EXPLORATEUR
+  QCM
+  REPONSE_LIBRE
+}
+
+enum AttemptMode {
+  ENTRAINEMENT
+  QCM
+  REPONSE_LIBRE
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  quizzes  Quiz[]
+  badges   Badge[]
+  attempts Attempt[]
+}
+
+model Quiz {
+  id          String     @id @default(cuid())
+  title       String
+  description String?
+  imageUrl    String?
+  status      QuizStatus @default(PRIVATE)
+  // Token used to build the share link / QR code / access key. Null means
+  // sharing is disabled. Regenerating it revokes whatever link/QR/key was
+  // handed out before.
+  shareToken  String?    @unique
+  // Per-quiz UI color overrides: { primary?, success?, error?, warning? },
+  // hex strings. Absent keys fall back to the site-wide defaults.
+  themeColors Json?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  creatorId   String
+  creator     User         @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  themes      QuizTheme[]
+  guestAccess GuestAccess?
+}
+
+model Theme {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  createdAt   DateTime @default(now())
+
+  quizzes   QuizTheme[]
+  questions Question[]
+  badges    Badge[]
+}
+
+// Join table for the many-to-many Quiz <-> Theme relation.
+model QuizTheme {
+  quizId  String
+  themeId String
+  // Display position of this chapter within the quiz, set by the creator via
+  // drag-and-drop. No @@unique constraint: a reorder updates many rows in one
+  // transaction and could transiently collide with a uniqueness check.
+  // Consistency is enforced at the application layer instead.
+  order   Int
+
+  quiz  Quiz  @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  theme Theme @relation(fields: [themeId], references: [id], onDelete: Cascade)
+
+  @@id([quizId, themeId])
+  @@index([quizId, order])
+}
+
+model Question {
+  id        String       @id @default(cuid())
+  themeId   String
+  type      QuestionType
+  content   Json
+  // Sub-topic within the theme/chapter, used to let training sessions be
+  // scoped to a subset of questions. Optional — not every question has one.
+  section   String?
+  createdAt DateTime     @default(now())
+
+  theme    Theme     @relation(fields: [themeId], references: [id], onDelete: Cascade)
+  attempts Attempt[]
+
+  @@index([themeId])
+}
+
+model Badge {
+  id       String    @id @default(cuid())
+  userId   String
+  themeId  String
+  type     BadgeType
+  earnedAt DateTime  @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  theme Theme @relation(fields: [themeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, themeId, type])
+}
+
+// The single active "guest" slot for a quiz's share link. Created on first
+// visit to /share/[token] and its activeToken is overwritten every time the
+// link is opened again — that's what makes a previously-issued cookie stale.
+// One quiz has at most one active guest at a time (no badges for guests).
+model GuestAccess {
+  id          String   @id @default(cuid())
+  quizId      String   @unique
+  activeToken String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  quiz     Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  attempts Attempt[]
+}
+
+model Attempt {
+  id            String      @id @default(cuid())
+  userId        String?
+  guestAccessId String?
+  questionId    String
+  mode          AttemptMode
+  // Groups the attempts of one full QCM / réponse libre session together, so
+  // the "100% on a single session" badge rule can be checked. Null for
+  // untimed ENTRAINEMENT-mode attempts, which aren't part of a session.
+  sessionId     String?
+  answerGiven   Json
+  isCorrect     Boolean
+  createdAt     DateTime    @default(now())
+
+  user        User?        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guestAccess GuestAccess? @relation(fields: [guestAccessId], references: [id], onDelete: Cascade)
+  question    Question     @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([guestAccessId])
+  @@index([questionId])
+  @@index([sessionId])
+}
