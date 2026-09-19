@@ -70,7 +70,7 @@ export default async function QuizDetailPage({
         </div>
       )}
 
-      {isOwner && <ShareSection quizId={quiz.id} initialShareToken={quiz.shareToken} />}
+      {isOwner && <ShareSection quizId={quiz.id} initialShareToken={quiz.shareToken} initialGuestName={quiz.guestName} />}
     </div>
   );
 }

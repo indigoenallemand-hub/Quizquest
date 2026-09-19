@@ -57,6 +57,10 @@ model Quiz {
   // sharing is disabled. Regenerating it revokes whatever link/QR/key was
   // handed out before.
   shareToken  String?    @unique
+  // First name of the person the current share link was made for, set by the
+  // creator when generating it. Purely informational (reminder of who a link
+  // was handed out to); cleared alongside the token on regenerate/disable.
+  guestName   String?
   // Per-quiz UI color overrides: { primary?, success?, error?, warning? },
   // hex strings. Absent keys fall back to the site-wide defaults.
   themeColors Json?

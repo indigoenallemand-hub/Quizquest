@@ -3,8 +3,17 @@
 import { useEffect, useState } from "react";
 import QRCode from "qrcode";
 
-export default function ShareSection({ quizId, initialShareToken }: { quizId: string; initialShareToken: string | null }) {
+export default function ShareSection({
+  quizId,
+  initialShareToken,
+  initialGuestName,
+}: {
+  quizId: string;
+  initialShareToken: string | null;
+  initialGuestName: string | null;
+}) {
   const [shareToken, setShareToken] = useState(initialShareToken);
+  const [guestName, setGuestName] = useState(initialGuestName ?? "");
   const [qrDataUrl, setQrDataUrl] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [copied, setCopied] = useState<"link" | "key" | null>(null);
@@ -25,9 +34,14 @@ export default function ShareSection({ quizId, initialShareToken }: { quizId: st
   async function generate() {
     setBusy(true);
     setQrDataUrl(null);
-    const res = await fetch(`/api/quizzes/${quizId}/share`, { method: "POST" });
-    const data: { shareToken: string } = await res.json();
+    const res = await fetch(`/api/quizzes/${quizId}/share`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ guestName: guestName.trim() || null }),
+    });
+    const data: { shareToken: string; guestName: string | null } = await res.json();
     setShareToken(data.shareToken);
+    setGuestName(data.guestName ?? "");
     setBusy(false);
   }
 
@@ -35,6 +49,7 @@ export default function ShareSection({ quizId, initialShareToken }: { quizId: st
     setBusy(true);
     await fetch(`/api/quizzes/${quizId}/share`, { method: "DELETE" });
     setShareToken(null);
+    setGuestName("");
     setQrDataUrl(null);
     setBusy(false);
   }
@@ -54,14 +69,26 @@ export default function ShareSection({ quizId, initialShareToken }: { quizId: st
       </p>
 
       {!shareToken ? (
-        <button
-          type="button"
-          onClick={generate}
-          disabled={busy}
-          className="mt-3 rounded bg-zinc-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
-        >
-          Générer un lien de partage
-        </button>
+        <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-end">
+          <div className="flex-1">
+            <label className="text-xs font-medium text-zinc-500">Prénom de la personne (optionnel)</label>
+            <input
+              type="text"
+              value={guestName}
+              onChange={(e) => setGuestName(e.target.value)}
+              placeholder="Ex: Marie"
+              className="mt-1 w-full rounded border border-zinc-300 px-2 py-1.5 text-sm"
+            />
+          </div>
+          <button
+            type="button"
+            onClick={generate}
+            disabled={busy}
+            className="rounded bg-zinc-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+          >
+            Générer un lien de partage
+          </button>
+        </div>
       ) : (
         <div className="mt-3 flex flex-col gap-4 sm:flex-row sm:items-start">
           {qrDataUrl && (
@@ -69,6 +96,7 @@ export default function ShareSection({ quizId, initialShareToken }: { quizId: st
             <img src={qrDataUrl} alt="QR code d'accès au quiz" className="h-32 w-32 rounded border border-zinc-200" />
           )}
           <div className="flex flex-1 flex-col gap-3">
+            {guestName && <p className="text-sm text-zinc-700">Lien généré pour <span className="font-medium">{guestName}</span></p>}
             <div>
               <label className="text-xs font-medium text-zinc-500">Lien</label>
               <div className="mt-1 flex gap-2">
