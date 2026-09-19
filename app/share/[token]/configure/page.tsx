@@ -16,10 +16,14 @@ export default async function SharedConfigureTrainingPage({
   const { themeId } = await searchParams;
   if (!themeId) notFound();
 
-  const quiz = await prisma.quiz.findUnique({ where: { shareToken: token }, select: { id: true, themeColors: true } });
-  if (!quiz) notFound();
+  const link = await prisma.guestAccess.findUnique({
+    where: { token },
+    select: { quiz: { select: { id: true, themeColors: true } } },
+  });
+  if (!link) notFound();
+  const quiz = link.quiz;
 
-  const guestAccessId = await readGuestAccess(quiz.id);
+  const guestAccessId = await readGuestAccess(token);
   if (!guestAccessId) {
     return (
       <div className="mx-auto w-full max-w-2xl px-6 py-16 text-center">

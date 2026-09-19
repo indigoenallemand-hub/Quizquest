@@ -28,6 +28,10 @@ export default async function QuizDetailPage({
         orderBy: { order: "asc" },
         include: { theme: { include: { questions: true } } },
       },
+      guestLinks: {
+        select: { id: true, token: true, guestName: true },
+        orderBy: { createdAt: "asc" },
+      },
     },
   });
   if (!quiz || !canAccessQuiz(quiz, userId)) notFound();
@@ -70,7 +74,7 @@ export default async function QuizDetailPage({
         </div>
       )}
 
-      {isOwner && <ShareSection quizId={quiz.id} initialShareToken={quiz.shareToken} initialGuestName={quiz.guestName} />}
+      {isOwner && <ShareSection quizId={quiz.id} initialLinks={quiz.guestLinks} />}
     </div>
   );
 }

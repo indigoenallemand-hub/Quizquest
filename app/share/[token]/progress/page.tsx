@@ -27,15 +27,20 @@ export default async function SharedQuizProgressPage({
   const { token } = await params;
   const { themeId } = await searchParams;
 
-  const quiz = await prisma.quiz.findUnique({
-    where: { shareToken: token },
+  const link = await prisma.guestAccess.findUnique({
+    where: { token },
     include: {
-      themes: { orderBy: { order: "asc" }, include: { theme: { select: { id: true, title: true, questions: true } } } },
+      quiz: {
+        include: {
+          themes: { orderBy: { order: "asc" }, include: { theme: { select: { id: true, title: true, questions: true } } } },
+        },
+      },
     },
   });
-  if (!quiz) notFound();
+  if (!link) notFound();
+  const quiz = link.quiz;
 
-  const guestAccessId = await readGuestAccess(quiz.id);
+  const guestAccessId = await readGuestAccess(token);
   if (!guestAccessId) {
     return (
       <div className="mx-auto w-full max-w-2xl px-6 py-16 text-center">

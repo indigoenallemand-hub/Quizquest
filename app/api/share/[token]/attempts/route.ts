@@ -18,10 +18,10 @@ const submitAttemptSchema = z.object({
 export async function POST(request: Request, { params }: { params: Promise<{ token: string }> }) {
   const { token } = await params;
 
-  const quiz = await prisma.quiz.findUnique({ where: { shareToken: token }, select: { id: true } });
-  if (!quiz) return NextResponse.json({ error: "Lien invalide." }, { status: 404 });
+  const link = await prisma.guestAccess.findUnique({ where: { token }, select: { id: true } });
+  if (!link) return NextResponse.json({ error: "Lien invalide." }, { status: 404 });
 
-  const guestAccessId = await readGuestAccess(quiz.id);
+  const guestAccessId = await readGuestAccess(token);
   if (!guestAccessId) return NextResponse.json({ error: "Accès expiré." }, { status: 401 });
 
   const parsed = submitAttemptSchema.safeParse(await request.json());

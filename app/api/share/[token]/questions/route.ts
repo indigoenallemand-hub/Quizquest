@@ -7,30 +7,34 @@ export async function GET(request: Request, { params }: { params: Promise<{ toke
   const { token } = await params;
   const themeId = new URL(request.url).searchParams.get("themeId");
 
-  const quiz = await prisma.quiz.findUnique({
-    where: { shareToken: token },
+  const link = await prisma.guestAccess.findUnique({
+    where: { token },
     select: {
-      id: true,
-      themes: {
-        orderBy: { order: "asc" },
+      quiz: {
         select: {
-          theme: {
+          id: true,
+          themes: {
+            orderBy: { order: "asc" },
             select: {
-              id: true,
-              title: true,
-              questions: { select: { id: true, type: true, content: true, section: true } },
+              theme: {
+                select: {
+                  id: true,
+                  title: true,
+                  questions: { select: { id: true, type: true, content: true, section: true } },
+                },
+              },
             },
           },
         },
       },
     },
   });
-  if (!quiz) return NextResponse.json({ error: "Lien invalide." }, { status: 404 });
+  if (!link) return NextResponse.json({ error: "Lien invalide." }, { status: 404 });
 
-  const guestAccessId = await readGuestAccess(quiz.id);
+  const guestAccessId = await readGuestAccess(token);
   if (!guestAccessId) return NextResponse.json({ error: "Accès expiré." }, { status: 401 });
 
-  const selectedThemes = themeId ? quiz.themes.filter((t) => t.theme.id === themeId) : quiz.themes;
+  const selectedThemes = themeId ? link.quiz.themes.filter((t) => t.theme.id === themeId) : link.quiz.themes;
 
   const themes = selectedThemes.map(({ theme }) => ({
     id: theme.id,

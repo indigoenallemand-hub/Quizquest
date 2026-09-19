@@ -10,10 +10,10 @@ export default async function SharedSessionPage({
   searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string }>;
 }) {
   const { token } = await params;
-  const quiz = await prisma.quiz.findUnique({ where: { shareToken: token }, select: { themeColors: true } });
+  const link = await prisma.guestAccess.findUnique({ where: { token }, select: { quiz: { select: { themeColors: true } } } });
 
   return (
-    <div style={buildThemeStyle(quiz?.themeColors)}>
+    <div style={buildThemeStyle(link?.quiz.themeColors)}>
       <SessionPageClient params={params} searchParams={searchParams} />
     </div>
   );

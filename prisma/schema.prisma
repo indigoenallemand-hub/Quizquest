@@ -56,21 +56,16 @@ model Quiz {
   // Token used to build the share link / QR code / access key. Null means
   // sharing is disabled. Regenerating it revokes whatever link/QR/key was
   // handed out before.
-  shareToken  String?    @unique
-  // First name of the person the current share link was made for, set by the
-  // creator when generating it. Purely informational (reminder of who a link
-  // was handed out to); cleared alongside the token on regenerate/disable.
-  guestName   String?
   // Per-quiz UI color overrides: { primary?, success?, error?, warning? },
   // hex strings. Absent keys fall back to the site-wide defaults.
   themeColors Json?
   createdAt   DateTime   @default(now())
   updatedAt   DateTime   @updatedAt
 
-  creatorId   String
-  creator     User         @relation(fields: [creatorId], references: [id], onDelete: Cascade)
-  themes      QuizTheme[]
-  guestAccess GuestAccess?
+  creatorId  String
+  creator    User          @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  themes     QuizTheme[]
+  guestLinks GuestAccess[]
 }
 
 model Theme {
@@ -130,19 +125,23 @@ model Badge {
   @@unique([userId, themeId, type])
 }
 
-// The single active "guest" slot for a quiz's share link. Created on first
-// visit to /share/[token] and its activeToken is overwritten every time the
-// link is opened again — that's what makes a previously-issued cookie stale.
-// One quiz has at most one active guest at a time (no badges for guests).
+// One named share link for a quiz. A quiz can have several — one per person
+// it's been shared with — each with its own token, progress and cookie.
+// activeToken is overwritten every time the link is opened, which is what
+// makes a previously-issued cookie for THIS link stale (no badges for guests).
 model GuestAccess {
   id          String   @id @default(cuid())
-  quizId      String   @unique
+  quizId      String
+  token       String   @unique
+  guestName   String?
   activeToken String
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
   quiz     Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
   attempts Attempt[]
+
+  @@index([quizId])
 }
 
 model Attempt {
