@@ -266,7 +266,13 @@
 
 .qz-question-comment { display: flex; flex-direction: column; gap: 0.375rem; }
 .qz-question-comment-label { font-size: 0.8125rem; font-weight: 500; color: var(--qz-muted); }
-.qz-question-comment textarea.qz-calc-input { font-size: 0.9375rem; font-weight: 400; resize: vertical; }
+.qz-question-comment textarea.qz-calc-input {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  resize: vertical;
+  border: 1.5px solid #94a3b8;
+}
+.qz-question-comment textarea.qz-calc-input:disabled { border-color: var(--qz-border); }
 
 /* ── Choices ── */
 .qz-choices { display: flex; flex-direction: column; gap: 0.625rem; }
@@ -277,7 +283,7 @@
   gap: 0.875rem;
   padding: 0.875rem 1.125rem;
   background: var(--qz-card);
-  border: 1.5px solid var(--qz-border);
+  border: 2px solid #94a3b8;
   border-radius: var(--qz-radius-sm);
   cursor: pointer;
   text-align: left;

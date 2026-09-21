@@ -320,21 +320,6 @@ export default function QuizSession({
         )}
       </div>
 
-      <div className="qz-question-comment">
-        <label className="qz-question-comment-label" htmlFor="qz-question-comment">
-          Un commentaire sur cette question ? (optionnel)
-        </label>
-        <textarea
-          id="qz-question-comment"
-          value={comment}
-          onChange={(e) => setComment(e.target.value)}
-          rows={2}
-          className="qz-calc-input"
-          placeholder="Ecrivez votre message ici..."
-          disabled={!!result}
-        />
-      </div>
-
       {!result && (
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           {mode === "REPONSE_LIBRE" ? (
@@ -421,6 +406,21 @@ export default function QuizSession({
           )}
         </div>
       )}
+
+      <div className="qz-question-comment">
+        <label className="qz-question-comment-label" htmlFor="qz-question-comment">
+          Un commentaire sur cette question ? (optionnel)
+        </label>
+        <textarea
+          id="qz-question-comment"
+          value={comment}
+          onChange={(e) => setComment(e.target.value)}
+          rows={2}
+          className="qz-calc-input"
+          placeholder="Ecrivez votre message ici..."
+          disabled={!!result}
+        />
+      </div>
 
       {result && (
         <>
