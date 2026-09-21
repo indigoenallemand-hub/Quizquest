@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quiz Droit du Bail",
+  title: "Quizquest",
   description: "Quiz de révision sur le droit du bail",
 };
 
@@ -31,7 +31,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-b border-zinc-200 bg-white">
           <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
             <Link href="/" className="font-semibold">
-              Quiz Droit du Bail
+              Quizquest
             </Link>
             <div className="flex items-center gap-4 text-sm">
               <Link href="/quizzes" className="hover:underline">
