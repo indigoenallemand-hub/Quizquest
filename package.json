@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma migrate deploy && next build",
+    "build": "npm run db:baseline; prisma migrate deploy && next build",
     "start": "next start",
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:migrate": "prisma migrate dev",
+    "db:baseline": "prisma migrate resolve --applied 20260808212038_init; prisma migrate resolve --applied 20260809083315_quiz_scoped_badges_and_sharing; prisma migrate resolve --applied 20260809092441_badges_scoped_to_theme; prisma migrate resolve --applied 20260809133250_question_section; prisma migrate resolve --applied 20260810034251_quiz_theme_colors; prisma migrate resolve --applied 20260810183217_add_quiz_theme_order",
     "db:studio": "prisma studio",
     "db:seed": "tsx prisma/seed.ts"
   },
