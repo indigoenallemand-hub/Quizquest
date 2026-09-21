@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
-import Link from "next/link";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -61,9 +60,6 @@ export default function LoginPage() {
           {loading ? "Connexion..." : "Se connecter"}
         </button>
       </form>
-      <p className="mt-4 text-sm text-zinc-600">
-        Pas de compte ? <Link href="/register" className="underline">S&apos;inscrire</Link>
-      </p>
     </div>
   );
 }

@@ -23,10 +23,10 @@ export default async function Home() {
           </Link>
           {!userId && (
             <Link
-              href="/register"
+              href="/login"
               className="rounded-md border border-zinc-300 bg-white px-5 py-2.5 text-sm font-medium hover:bg-zinc-50"
             >
-              Créer un compte
+              Se connecter
             </Link>
           )}
         </div>

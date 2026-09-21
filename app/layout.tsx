@@ -52,14 +52,9 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
                   </form>
                 </>
               ) : (
-                <>
-                  <Link href="/login" className="hover:underline">
-                    Connexion
-                  </Link>
-                  <Link href="/register" className="hover:underline">
-                    Inscription
-                  </Link>
-                </>
+                <Link href="/login" className="hover:underline">
+                  Connexion
+                </Link>
               )}
             </div>
           </nav>
