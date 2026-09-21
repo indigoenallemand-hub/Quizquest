@@ -67,9 +67,12 @@ export default async function QuizDetailPage({
       </div>
 
       {isOwner && (
-        <div className="mt-6 text-center">
+        <div className="mt-6 flex justify-center gap-3">
           <Link href={`/quizzes/${quiz.id}/edit`} className="qz-btn-secondary" style={{ display: "inline-block", width: "auto" }}>
             Editer le quiz
+          </Link>
+          <Link href={`/quizzes/${quiz.id}/comments`} className="qz-btn-secondary" style={{ display: "inline-block", width: "auto" }}>
+            Commentaires des invites
           </Link>
         </div>
       )}

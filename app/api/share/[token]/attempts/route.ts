@@ -10,6 +10,7 @@ const submitAttemptSchema = z.object({
   sessionId: z.string().optional(),
   answer: z.unknown().optional(),
   text: z.string().optional(),
+  comment: z.string().optional(),
 });
 
 // Guest counterpart of /api/attempts: identity comes from the share cookie
@@ -28,7 +29,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { questionId, mode, sessionId, answer, text } = parsed.data;
+  const { questionId, mode, sessionId, answer, text, comment } = parsed.data;
 
   const question = await prisma.question.findUnique({
     where: { id: questionId },
@@ -53,6 +54,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
       sessionId,
       answerGiven: answerGiven as never,
       isCorrect,
+      comment: comment?.trim() ? comment.trim() : undefined,
     },
   });
 

@@ -83,6 +83,7 @@ export default function QuizSession({
   const [dateValue, setDateValue] = useState("");
   const [numberValue, setNumberValue] = useState("");
   const [freeText, setFreeText] = useState("");
+  const [comment, setComment] = useState("");
 
   useEffect(() => {
     fetch(questionsUrl)
@@ -115,6 +116,7 @@ export default function QuizSession({
     setDateValue("");
     setNumberValue("");
     setFreeText("");
+    setComment("");
     setResult(null);
   }
 
@@ -122,6 +124,7 @@ export default function QuizSession({
     if (!current || submitting) return;
     setSubmitting(true);
 
+    const trimmedComment = comment.trim() || undefined;
     const body =
       mode === "REPONSE_LIBRE"
         ? {
@@ -130,8 +133,9 @@ export default function QuizSession({
             sessionId,
             text: freeText,
             answer: current.type === "CALCUL" ? { variables: current.variables } : undefined,
+            comment: trimmedComment,
           }
-        : { questionId: current.id, mode, sessionId, answer };
+        : { questionId: current.id, mode, sessionId, answer, comment: trimmedComment };
 
     const res = await fetch(attemptsUrl, {
       method: "POST",
@@ -314,6 +318,21 @@ export default function QuizSession({
             ✏️
           </Link>
         )}
+      </div>
+
+      <div className="qz-question-comment">
+        <label className="qz-question-comment-label" htmlFor="qz-question-comment">
+          Un commentaire sur cette question ? (optionnel)
+        </label>
+        <textarea
+          id="qz-question-comment"
+          value={comment}
+          onChange={(e) => setComment(e.target.value)}
+          rows={2}
+          className="qz-calc-input"
+          placeholder="Ecrivez votre message ici..."
+          disabled={!!result}
+        />
       </div>
 
       {!result && (

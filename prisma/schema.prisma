@@ -156,6 +156,9 @@ model Attempt {
   sessionId     String?
   answerGiven   Json
   isCorrect     Boolean
+  // Optional free-text message left by the person answering, shown to the
+  // quiz creator alongside the question it was written under.
+  comment       String?
   createdAt     DateTime    @default(now())
 
   user        User?        @relation(fields: [userId], references: [id], onDelete: Cascade)
