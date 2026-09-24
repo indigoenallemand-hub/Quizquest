@@ -112,23 +112,32 @@ model Question {
   @@index([themeId])
 }
 
+// userId/guestAccessId: exactly one is set, matching how Attempt attributes
+// answers. Uniqueness within each identity (one badge per type per theme) is
+// enforced by two partial indexes in the migration SQL — Prisma's schema
+// language has no way to express a "WHERE column IS NOT NULL" unique index,
+// and a single @@unique([userId, guestAccessId, themeId, type]) wouldn't
+// work here since Postgres never treats two NULLs as equal.
 model Badge {
-  id       String    @id @default(cuid())
-  userId   String
-  themeId  String
-  type     BadgeType
-  earnedAt DateTime  @default(now())
+  id            String    @id @default(cuid())
+  userId        String?
+  guestAccessId String?
+  themeId       String
+  type          BadgeType
+  earnedAt      DateTime  @default(now())
 
-  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
-  theme Theme @relation(fields: [themeId], references: [id], onDelete: Cascade)
+  user        User?        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guestAccess GuestAccess? @relation(fields: [guestAccessId], references: [id], onDelete: Cascade)
+  theme       Theme        @relation(fields: [themeId], references: [id], onDelete: Cascade)
 
-  @@unique([userId, themeId, type])
+  @@index([guestAccessId])
 }
 
 // One named share link for a quiz. A quiz can have several — one per person
 // it's been shared with — each with its own token, progress and cookie.
 // activeToken is overwritten every time the link is opened, which is what
-// makes a previously-issued cookie for THIS link stale (no badges for guests).
+// makes a previously-issued cookie for THIS link stale on other devices;
+// guestAccessId itself (and its attempts/badges) persists across reopens.
 model GuestAccess {
   id          String   @id @default(cuid())
   quizId      String
@@ -140,6 +149,7 @@ model GuestAccess {
 
   quiz     Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
   attempts Attempt[]
+  badges   Badge[]
 
   @@index([quizId])
 }

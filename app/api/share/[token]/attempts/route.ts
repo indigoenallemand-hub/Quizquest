@@ -3,6 +3,7 @@ import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
 import { gradeAttempt, InvalidAnswerError } from "@/lib/attempt-grading";
+import { syncBadgesForTheme } from "@/lib/badge-sync";
 
 const submitAttemptSchema = z.object({
   questionId: z.string(),
@@ -14,8 +15,7 @@ const submitAttemptSchema = z.object({
 });
 
 // Guest counterpart of /api/attempts: identity comes from the share cookie
-// instead of a NextAuth session, and no badges are awarded (badges are a
-// signed-in-user concept in this app).
+// instead of a NextAuth session, but badges work the same way.
 export async function POST(request: Request, { params }: { params: Promise<{ token: string }> }) {
   const { token } = await params;
 
@@ -58,5 +58,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
     },
   });
 
-  return NextResponse.json({ attempt, isCorrect, feedback, correctAnswerText, correctChoices, newlyEarnedBadges: [] });
+  const newlyEarnedBadges = await syncBadgesForTheme({ guestAccessId }, question.themeId, mode);
+
+  return NextResponse.json({ attempt, isCorrect, feedback, correctAnswerText, correctChoices, newlyEarnedBadges });
 }

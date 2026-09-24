@@ -52,11 +52,11 @@ export default async function SharedQuizPlayPage({
     quiz.themes.map((t) => t.theme),
     { guestAccessId }
   );
-  const { earned, max } = getGlobalPoints(chapters, { includeBadges: false });
+  const { earned, max } = getGlobalPoints(chapters);
 
   return (
     <div className="mx-auto w-full max-w-4xl px-6 py-10" style={{ position: "relative", ...buildThemeStyle(quiz.themeColors) }}>
-      <PointsSummary earned={earned} max={max} entryPoints={points ? Number(points) : undefined} showBadges={false} />
+      <PointsSummary earned={earned} max={max} entryPoints={points ? Number(points) : undefined} />
 
       <div className="qz-start-header">
         <h1 className="qz-start-title">{quiz.title}</h1>
@@ -73,7 +73,6 @@ export default async function SharedQuizPlayPage({
           <QuizCarousel
             basePath={`/share/${token}`}
             chapters={chapters}
-            showBadges={false}
             initialChapterId={chapter}
             pointsBefore={earned}
             entryGrid={grid}

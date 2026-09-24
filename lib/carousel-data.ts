@@ -23,9 +23,9 @@ function questionText(question: QuestionRow): string {
   return parseQuestionContent(question).content.enonce;
 }
 
-// Shared between the owner's quiz carousel and the guest share-link carousel:
-// per-chapter progress bar / grid data, plus badges (owner only — guests
-// don't have an account to earn them against).
+// Shared between the owner's quiz carousel and the guest share-link
+// carousel: per-chapter progress bar / grid data, plus badges (badges work
+// the same way for both — see lib/badge-sync.ts).
 export async function buildCarouselChapters(
   themes: ThemeWithQuestions[],
   identity: { userId: string } | { guestAccessId: string } | null
@@ -37,10 +37,9 @@ export async function buildCarouselChapters(
     const statuses = identity ? await getQuestionStatuses(identity, questions.map((q) => q.id)) : new Map();
     const stats = summarizeStatuses(questions.map((q) => statuses.get(q.id) ?? "unanswered"));
 
-    const badges =
-      identity && "userId" in identity
-        ? await prisma.badge.findMany({ where: { userId: identity.userId, themeId: theme.id }, select: { type: true } })
-        : [];
+    const badges = identity
+      ? await prisma.badge.findMany({ where: { ...identity, themeId: theme.id }, select: { type: true } })
+      : [];
 
     const cells: GridCell[] = questions.map((q, i) => ({
       id: q.id,
