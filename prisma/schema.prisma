@@ -48,19 +48,23 @@ model User {
 }
 
 model Quiz {
-  id          String     @id @default(cuid())
-  title       String
-  description String?
-  imageUrl    String?
-  status      QuizStatus @default(PRIVATE)
+  id                       String     @id @default(cuid())
+  title                    String
+  description              String?
+  imageUrl                 String?
+  status                   QuizStatus @default(PRIVATE)
   // Token used to build the share link / QR code / access key. Null means
   // sharing is disabled. Regenerating it revokes whatever link/QR/key was
   // handed out before.
   // Per-quiz UI color overrides: { primary?, success?, error?, warning? },
   // hex strings. Absent keys fall back to the site-wide defaults.
-  themeColors Json?
-  createdAt   DateTime   @default(now())
-  updatedAt   DateTime   @updatedAt
+  themeColors              Json?
+  // Lets the creator turn off the "Reponse libre parfaite" badge for this
+  // quiz (e.g. when it doesn't use AI-graded free-text questions). Hidden
+  // from the badge row and excluded from the points-system maximum when off.
+  reponseLibreBadgeEnabled Boolean    @default(true)
+  createdAt                DateTime   @default(now())
+  updatedAt                DateTime   @updatedAt
 
   creatorId  String
   creator    User          @relation(fields: [creatorId], references: [id], onDelete: Cascade)

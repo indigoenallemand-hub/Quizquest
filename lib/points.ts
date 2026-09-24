@@ -15,7 +15,13 @@ interface ChapterPointsInput {
 // Points earned so far and the theoretical maximum, across every chapter of
 // a quiz: POINTS_PER_QUESTION for each question ever answered correctly
 // (sticky, like the progress grid), plus each chapter's badge values.
-export function getGlobalPoints(chapters: ChapterPointsInput[]): { earned: number; max: number } {
+// reponseLibreBadgeEnabled false (Quiz.reponseLibreBadgeEnabled) drops that
+// badge's points from both earned and max, since the creator turned it off.
+export function getGlobalPoints(
+  chapters: ChapterPointsInput[],
+  options?: { reponseLibreBadgeEnabled?: boolean }
+): { earned: number; max: number } {
+  const reponseLibreBadgeEnabled = options?.reponseLibreBadgeEnabled ?? true;
   let earned = 0;
   let max = 0;
 
@@ -24,6 +30,7 @@ export function getGlobalPoints(chapters: ChapterPointsInput[]): { earned: numbe
     max += chapter.questionCount * POINTS_PER_QUESTION;
 
     for (const [badgeType, value] of Object.entries(POINTS_PER_BADGE)) {
+      if (badgeType === "REPONSE_LIBRE" && !reponseLibreBadgeEnabled) continue;
       if (chapter.earnedBadges.includes(badgeType)) earned += value;
       max += value;
     }

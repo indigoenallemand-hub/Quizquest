@@ -4,10 +4,11 @@ const BADGE_DEFS = [
   { type: "REPONSE_LIBRE" as const, icon: "/badges/qr.png", label: "Reponse libre parfaite", description: "Toutes les questions repondues correctement en une seule tentative en mode Reponse libre." },
 ];
 
-export default function BadgeRow({ earned }: { earned: Set<string> }) {
+export default function BadgeRow({ earned, reponseLibreBadgeEnabled = true }: { earned: Set<string>; reponseLibreBadgeEnabled?: boolean }) {
+  const badges = reponseLibreBadgeEnabled ? BADGE_DEFS : BADGE_DEFS.filter((b) => b.type !== "REPONSE_LIBRE");
   return (
     <div className="qz-badge-row">
-      {BADGE_DEFS.map((badge) => {
+      {badges.map((badge) => {
         const isEarned = earned.has(badge.type);
         return (
           <div key={badge.type} className={`qz-badge-item ${isEarned ? "is-earned" : ""}`}>

@@ -22,6 +22,7 @@ export default function QuizCarousel({
   basePath,
   chapters,
   showBadges = true,
+  reponseLibreBadgeEnabled = true,
   initialChapterId,
   pointsBefore,
   entryGrid,
@@ -29,6 +30,7 @@ export default function QuizCarousel({
   basePath: string;
   chapters: CarouselChapter[];
   showBadges?: boolean;
+  reponseLibreBadgeEnabled?: boolean;
   initialChapterId?: string;
   pointsBefore?: number;
   entryGrid?: string;
@@ -85,7 +87,9 @@ export default function QuizCarousel({
           {chapter.description && <p className="qz-chapter-questions-count">{chapter.description}</p>}
           <p className="qz-chapter-questions-count">{chapter.questionCount} questions</p>
 
-          {showBadges && <BadgeRow key={`badges-${chapter.id}`} earned={earned} />}
+          {showBadges && (
+            <BadgeRow key={`badges-${chapter.id}`} earned={earned} reponseLibreBadgeEnabled={reponseLibreBadgeEnabled} />
+          )}
           <RecapProgressBar key={`bar-${chapter.id}`} {...chapter.stats} fromStats={fromStats} />
           <QuestionGrid key={`grid-${chapter.id}`} cells={chapter.cells} entryStatuses={entryStatuses} />
 

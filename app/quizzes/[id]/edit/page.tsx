@@ -4,6 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { getSessionUserId } from "@/lib/session-user";
 import { buildThemeStyle, type QuizThemeColors } from "@/lib/quiz-theme-style";
 import QuizThemeColorForm from "@/components/QuizThemeColorForm";
+import QuizBadgeSettingsForm from "@/components/QuizBadgeSettingsForm";
 import ChapterReorderList from "@/components/ChapterReorderList";
 
 export default async function EditQuizPage({ params }: { params: Promise<{ id: string }> }) {
@@ -34,6 +35,8 @@ export default async function EditQuizPage({ params }: { params: Promise<{ id: s
       </div>
 
       <QuizThemeColorForm quizId={quiz.id} initialColors={(quiz.themeColors as QuizThemeColors | null) ?? {}} />
+
+      <QuizBadgeSettingsForm quizId={quiz.id} initialReponseLibreBadgeEnabled={quiz.reponseLibreBadgeEnabled} />
 
       <div>
         <h2 style={{ fontWeight: 700, marginBottom: "0.75rem" }}>Chapitres</h2>

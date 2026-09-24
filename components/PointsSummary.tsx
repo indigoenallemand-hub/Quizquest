@@ -10,10 +10,12 @@ export default function PointsSummary({
   earned,
   max,
   entryPoints,
+  reponseLibreBadgeEnabled = true,
 }: {
   earned: number;
   max: number;
   entryPoints?: number;
+  reponseLibreBadgeEnabled?: boolean;
 }) {
   const [display, setDisplay] = useState(entryPoints ?? earned);
   const [gain, setGain] = useState(0);
@@ -58,7 +60,7 @@ export default function PointsSummary({
         <span>{POINTS_PER_QUESTION} pts par question deja repondue correctement</span>
         <span>{POINTS_PER_BADGE.EXPLORATEUR} pts par badge Explorateur</span>
         <span>{POINTS_PER_BADGE.QCM} pts par badge QCM</span>
-        <span>{POINTS_PER_BADGE.REPONSE_LIBRE} pts par badge Reponse libre</span>
+        {reponseLibreBadgeEnabled && <span>{POINTS_PER_BADGE.REPONSE_LIBRE} pts par badge Reponse libre</span>}
         <span>{max} pts maximum theorique pour ce quiz</span>
       </div>
     </div>

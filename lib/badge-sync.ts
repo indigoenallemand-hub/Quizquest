@@ -7,17 +7,21 @@ export type BadgeIdentity = { userId: string } | { guestAccessId: string };
 // user or a guest link alike — shared by /api/attempts and
 // /api/share/[token]/attempts.
 export async function syncBadgesForTheme(identity: BadgeIdentity, themeId: string, mode: AttemptMode): Promise<BadgeType[]> {
-  const badgeTypesToCheck: BadgeType[] =
+  let badgeTypesToCheck: BadgeType[] =
     mode === "QCM" ? ["EXPLORATEUR", "QCM"] : mode === "REPONSE_LIBRE" ? ["EXPLORATEUR", "REPONSE_LIBRE"] : ["EXPLORATEUR"];
 
-  const [themeQuestions, attempts, existingBadges] = await Promise.all([
+  const [themeQuestions, attempts, existingBadges, quizTheme] = await Promise.all([
     prisma.question.findMany({ where: { themeId }, select: { id: true } }),
     prisma.attempt.findMany({
       where: { ...identity, question: { themeId } },
       select: { questionId: true, isCorrect: true, sessionId: true, mode: true },
     }),
     prisma.badge.findMany({ where: { ...identity, themeId }, select: { type: true } }),
+    prisma.quizTheme.findFirst({ where: { themeId }, select: { quiz: { select: { reponseLibreBadgeEnabled: true } } } }),
   ]);
+  if (quizTheme?.quiz.reponseLibreBadgeEnabled === false) {
+    badgeTypesToCheck = badgeTypesToCheck.filter((t) => t !== "REPONSE_LIBRE");
+  }
 
   const themeQuestionIds = themeQuestions.map((q) => q.id);
   const attemptRecords: AttemptRecord[] = attempts.map((a) => ({
