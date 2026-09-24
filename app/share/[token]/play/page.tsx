@@ -4,9 +4,11 @@ import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
 import { buildCarouselChapters } from "@/lib/carousel-data";
 import { getGlobalPoints } from "@/lib/points";
+import { getGuestLeaderboard } from "@/lib/guest-leaderboard";
 import { buildThemeStyle } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
+import GuestLeaderboard from "@/components/GuestLeaderboard";
 
 export default async function SharedQuizPlayPage({
   params,
@@ -24,6 +26,7 @@ export default async function SharedQuizPlayPage({
       quiz: {
         include: {
           themes: { orderBy: { order: "asc" }, include: { theme: { include: { questions: true } } } },
+          guestLinks: { select: { id: true, guestName: true } },
         },
       },
     },
@@ -54,6 +57,13 @@ export default async function SharedQuizPlayPage({
   );
   const { earned, max } = getGlobalPoints(chapters, { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
 
+  const leaderboard = await getGuestLeaderboard(
+    quiz.guestLinks,
+    quiz.themes.flatMap((t) => t.theme.questions.map((q) => q.id)),
+    quiz.themes.map((t) => t.theme.id),
+    quiz.reponseLibreBadgeEnabled
+  );
+
   return (
     <div className="mx-auto w-full max-w-4xl px-6 py-10" style={{ position: "relative", ...buildThemeStyle(quiz.themeColors) }}>
       <PointsSummary
@@ -70,6 +80,12 @@ export default async function SharedQuizPlayPage({
           Vous testez ce quiz en tant qu&apos;invite, via un lien partage.
         </p>
       </div>
+
+      {leaderboard.length > 0 && (
+        <div className="mt-6">
+          <GuestLeaderboard entries={leaderboard} />
+        </div>
+      )}
 
       <div className="mt-8">
         {chapters.length === 0 ? (
