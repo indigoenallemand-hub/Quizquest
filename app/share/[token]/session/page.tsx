@@ -7,7 +7,7 @@ export default async function SharedSessionPage({
   searchParams,
 }: {
   params: Promise<{ token: string }>;
-  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string }>;
+  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string; points?: string; grid?: string }>;
 }) {
   const { token } = await params;
   const link = await prisma.guestAccess.findUnique({ where: { token }, select: { quiz: { select: { themeColors: true } } } });

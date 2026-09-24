@@ -3,18 +3,20 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
 import { buildCarouselChapters } from "@/lib/carousel-data";
+import { getGlobalPoints } from "@/lib/points";
 import { buildThemeStyle } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
+import PointsSummary from "@/components/PointsSummary";
 
 export default async function SharedQuizPlayPage({
   params,
   searchParams,
 }: {
   params: Promise<{ token: string }>;
-  searchParams: Promise<{ chapter?: string }>;
+  searchParams: Promise<{ chapter?: string; points?: string; grid?: string }>;
 }) {
   const { token } = await params;
-  const { chapter } = await searchParams;
+  const { chapter, points, grid } = await searchParams;
 
   const link = await prisma.guestAccess.findUnique({
     where: { token },
@@ -50,9 +52,12 @@ export default async function SharedQuizPlayPage({
     quiz.themes.map((t) => t.theme),
     { guestAccessId }
   );
+  const { earned, max } = getGlobalPoints(chapters, { includeBadges: false });
 
   return (
-    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={buildThemeStyle(quiz.themeColors)}>
+    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={{ position: "relative", ...buildThemeStyle(quiz.themeColors) }}>
+      <PointsSummary earned={earned} max={max} entryPoints={points ? Number(points) : undefined} showBadges={false} />
+
       <div className="qz-start-header">
         <h1 className="qz-start-title">{quiz.title}</h1>
         {quiz.description && <p className="qz-start-subtitle">{quiz.description}</p>}
@@ -65,7 +70,14 @@ export default async function SharedQuizPlayPage({
         {chapters.length === 0 ? (
           <p className="text-center text-zinc-600">Ce quiz n&apos;a pas encore de chapitre.</p>
         ) : (
-          <QuizCarousel basePath={`/share/${token}`} chapters={chapters} showBadges={false} initialChapterId={chapter} />
+          <QuizCarousel
+            basePath={`/share/${token}`}
+            chapters={chapters}
+            showBadges={false}
+            initialChapterId={chapter}
+            pointsBefore={earned}
+            entryGrid={grid}
+          />
         )}
       </div>
     </div>

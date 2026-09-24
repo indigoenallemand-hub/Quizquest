@@ -10,10 +10,10 @@ export default async function SharedConfigureTrainingPage({
   searchParams,
 }: {
   params: Promise<{ token: string }>;
-  searchParams: Promise<{ themeId?: string }>;
+  searchParams: Promise<{ themeId?: string; points?: string; grid?: string }>;
 }) {
   const { token } = await params;
-  const { themeId } = await searchParams;
+  const { themeId, points, grid } = await searchParams;
   if (!themeId) notFound();
 
   const link = await prisma.guestAccess.findUnique({
@@ -59,6 +59,8 @@ export default async function SharedConfigureTrainingPage({
         chapterTitle={theme.title}
         totalCount={theme.questions.length}
         sections={sections}
+        pointsBefore={points ? Number(points) : undefined}
+        entryGrid={grid}
       />
     </div>
   );
