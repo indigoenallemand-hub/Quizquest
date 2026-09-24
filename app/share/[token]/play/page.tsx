@@ -81,12 +81,6 @@ export default async function SharedQuizPlayPage({
         </p>
       </div>
 
-      {leaderboard.length > 0 && (
-        <div className="mt-6">
-          <GuestLeaderboard entries={leaderboard} />
-        </div>
-      )}
-
       <div className="mt-8">
         {chapters.length === 0 ? (
           <p className="text-center text-zinc-600">Ce quiz n&apos;a pas encore de chapitre.</p>
@@ -101,6 +95,12 @@ export default async function SharedQuizPlayPage({
           />
         )}
       </div>
+
+      {leaderboard.length > 0 && (
+        <div className="mt-6">
+          <GuestLeaderboard entries={leaderboard} />
+        </div>
+      )}
     </div>
   );
 }

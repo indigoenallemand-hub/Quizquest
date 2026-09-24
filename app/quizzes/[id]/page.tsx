@@ -70,12 +70,6 @@ export default async function QuizDetailPage({
         {quiz.description && <p className="qz-start-subtitle">{quiz.description}</p>}
       </div>
 
-      {isOwner && leaderboard.length > 0 && (
-        <div className="mt-6">
-          <GuestLeaderboard entries={leaderboard} />
-        </div>
-      )}
-
       <div className="mt-8">
         {chapters.length === 0 ? (
           <p className="text-center text-zinc-600">Ce quiz n&apos;a pas encore de chapitre.</p>
@@ -90,6 +84,12 @@ export default async function QuizDetailPage({
           />
         )}
       </div>
+
+      {isOwner && leaderboard.length > 0 && (
+        <div className="mt-6">
+          <GuestLeaderboard entries={leaderboard} />
+        </div>
+      )}
 
       {isOwner && (
         <div className="mt-6 flex justify-center gap-3">
