@@ -5,9 +5,11 @@ import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
 import { buildCarouselChapters } from "@/lib/carousel-data";
 import { getGlobalPoints } from "@/lib/points";
+import { getGuestLeaderboard } from "@/lib/guest-leaderboard";
 import { buildThemeStyle } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
+import GuestLeaderboard from "@/components/GuestLeaderboard";
 import ShareSection from "@/components/ShareSection";
 
 export default async function QuizDetailPage({
@@ -43,6 +45,15 @@ export default async function QuizDetailPage({
   );
   const { earned, max } = getGlobalPoints(chapters, { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
 
+  const leaderboard = isOwner
+    ? await getGuestLeaderboard(
+        quiz.guestLinks,
+        quiz.themes.flatMap((t) => t.theme.questions.map((q) => q.id)),
+        quiz.themes.map((t) => t.theme.id),
+        quiz.reponseLibreBadgeEnabled
+      )
+    : [];
+
   return (
     <div className="mx-auto w-full max-w-4xl px-6 py-10" style={{ position: "relative", ...buildThemeStyle(quiz.themeColors) }}>
       {userId && (
@@ -58,6 +69,12 @@ export default async function QuizDetailPage({
         <h1 className="qz-start-title">{quiz.title}</h1>
         {quiz.description && <p className="qz-start-subtitle">{quiz.description}</p>}
       </div>
+
+      {isOwner && leaderboard.length > 0 && (
+        <div className="mt-6">
+          <GuestLeaderboard entries={leaderboard} />
+        </div>
+      )}
 
       <div className="mt-8">
         {chapters.length === 0 ? (
