@@ -1,0 +1,808 @@
+{
+  "title": "Coopératives",
+  "description": "Immobase — Les coopératives d'habitation : histoire, particularités juridiques, organisation, financement, projets, aides des pouvoirs publics et perspectives.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise une société coopérative par rapport à une société par actions ?",
+        "propositions": [
+          "L'intérêt des membres prime, indépendamment du capital souscrit",
+          "Le pouvoir de vote de chaque membre est proportionnel au nombre de parts sociales qu'il détient, afin de récompenser ceux qui investissent le plus",
+          "Le bénéfice est distribué aux membres sous forme de dividendes et de tantièmes, au prorata du capital souscrit par chacun",
+          "Seules les personnes physiques peuvent en être membres"
+        ],
+        "reponse_correcte": "L'intérêt des membres prime, indépendamment du capital souscrit",
+        "explication": "Contrairement aux sociétés par actions, c'est l'intérêt des membres qui prime indépendamment du capital souscrit. Chaque sociétaire dispose d'une voix en AG et le bénéfice ne sert qu'à accomplir les buts de la société."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "De quand et d'où date l'origine du système coopératif moderne ?",
+        "propositions": [
+          "1843, en Angleterre",
+          "1918, à Genève, avec la création de la première coopérative d'habitation de Suisse romande",
+          "1907, avec l'adoption du Code civil suisse qui a introduit la forme juridique de la coopérative",
+          "1965, en Suisse"
+        ],
+        "reponse_correcte": "1843, en Angleterre",
+        "explication": "L'origine du système coopératif remonte à 1843 en Angleterre. En Suisse, le principe de la coopération remonterait au Moyen Âge (exploitation des alpages par les paysans)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Dans quel domaine trouve-t-on les premières coopératives en Suisse ?",
+        "propositions": [
+          "Le monde agricole (exploitation des alpages)",
+          "Le logement ouvrier dans les grandes villes industrielles, pour répondre à l'insalubrité des logements bon marché",
+          "Le secteur bancaire, avec les premières caisses d'épargne mutualistes créées par les cantons",
+          "La grande distribution"
+        ],
+        "reponse_correcte": "Le monde agricole (exploitation des alpages)",
+        "explication": "Il s'agit d'une idée libérale d'entraide ; les premières coopératives se trouvent dans le monde agricole. Se sont ensuite développées les coopératives de production et de distribution (ex. Coop)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Quand les coopératives d'habitation sont-elles apparues en Suisse ?",
+        "propositions": [
+          "Après la guerre de 1914 (le Conseil fédéral décide en 1918 de promouvoir la construction de logements)",
+          "Au Moyen Âge",
+          "Après la Seconde Guerre mondiale, avec l'introduction de la propriété par étages dans le Code civil",
+          "En 1843"
+        ],
+        "reponse_correcte": "Après la guerre de 1914 (le Conseil fédéral décide en 1918 de promouvoir la construction de logements)",
+        "explication": "Après 1914, il y a pénurie : les logements bon marché sont insalubres et les logements convenables trop chers. En 1918, le Conseil fédéral décide de promouvoir la construction de logements."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Quelle a été la première coopérative d'habitation créée en Suisse romande ?",
+        "propositions": [
+          "La Coopérative d'Habitation de Genève (1918)",
+          "La Société Coopérative d'Habitation Lausanne (SCHL), fondée au lendemain de la Seconde Guerre mondiale pour loger les familles ouvrières vaudoises",
+          "L'ARMOUP, l'association romande des maîtres d'ouvrage d'utilité publique",
+          "Coop"
+        ],
+        "reponse_correcte": "La Coopérative d'Habitation de Genève (1918)",
+        "explication": "En Suisse romande, la Coopérative d'Habitation de Genève a été la première créée, en 1918."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Quelle part du parc immobilier suisse les quelque 1'500 coopératives d'habitation possèdent-elles ?",
+        "propositions": [
+          "Environ 4 % (environ 180'000 logements)",
+          "Environ 25 %, ce qui en fait le premier propriétaire de logements locatifs du pays devant les caisses de pensions",
+          "Environ 11,6 %, soit la même proportion dans tous les cantons",
+          "Moins de 1 %"
+        ],
+        "reponse_correcte": "Environ 4 % (environ 180'000 logements)",
+        "explication": "Les 1'500 coopératives possèdent environ 180'000 logements, soit 4 % du parc suisse, et logent environ 1 million de personnes. Zurich atteint 11,6 %, Vaud environ 4,4 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Quel canton compte la plus forte proportion de logements coopératifs ?",
+        "propositions": [
+          "Zurich (11,6 %)",
+          "Genève, grâce à son système mixte d'aide à la pierre et à la personne et à la mise à disposition de terrains",
+          "Vaud, où la SCHL et les nombreuses coopératives lausannoises détiennent la majorité du parc locatif",
+          "Valais"
+        ],
+        "reponse_correcte": "Zurich (11,6 %)",
+        "explication": "ZH 11,6 %, VD 4,4 %, NE 2,88 %, FR entre 2 et 2,5 %, GE 1,9 %, VS 0,6 %. À Zurich, les logements sont en grande partie propriété des coopératives et de la Ville."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Pourquoi qualifie-t-on la coopérative d'habitation de « 3e voie » ?",
+        "propositions": [
+          "Parce qu'elle se situe entre location et propriété : les coopérateurs sont « propriétaires » de la coopérative, elle-même propriétaire des immeubles",
+          "Parce qu'elle est la troisième forme de propriété collective reconnue par le Code civil, après la copropriété ordinaire et la propriété par étages",
+          "Parce qu'elle est gérée à parts égales par l'État, les locataires et les banques",
+          "Parce qu'elle est un intermédiaire entre le bailleur et la régie"
+        ],
+        "reponse_correcte": "Parce qu'elle se situe entre location et propriété : les coopérateurs sont « propriétaires » de la coopérative, elle-même propriétaire des immeubles",
+        "explication": "La 3e voie entre location et propriété permet d'éviter la spéculation ; les locataires sauvegardent leurs intérêts et il est impossible de « prendre » le pouvoir au sein d'une coopérative."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "De combien les loyers des coopératives sont-ils en moyenne inférieurs à ceux du marché ?",
+        "propositions": [
+          "15 à 20 % (VD : 19 %)",
+          "40 à 50 %, grâce aux subventions fédérales systématiquement versées à toutes les coopératives d'habitation reconnues d'utilité publique",
+          "Ils sont identiques à ceux du marché, seule la sécurité du logement diffère",
+          "5 %"
+        ],
+        "reponse_correcte": "15 à 20 % (VD : 19 %)",
+        "explication": "Le principe de l'utilité publique écarte toute spéculation et garantit un loyer fondé sur les coûts : en moyenne 15 à 20 % de moins que le marché (19 % dans le canton de Vaud)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Quel rôle jouent les associations faîtières comme l'ARMOUP ou Wohnen Schweiz ?",
+        "propositions": [
+          "Elles sont les interlocutrices principales de l'Office fédéral du logement et les principales bénéficiaires de l'aide encore disponible",
+          "Elles fixent les loyers de toutes les coopératives de leur région",
+          "Elles tranchent en dernière instance les litiges entre coopératives et locataires-sociétaires, à la place des tribunaux des baux ordinaires",
+          "Elles gèrent directement les immeubles de leurs membres"
+        ],
+        "reponse_correcte": "Elles sont les interlocutrices principales de l'Office fédéral du logement et les principales bénéficiaires de l'aide encore disponible",
+        "explication": "ARMOUP : environ 1'200 membres et 150'000 logements. Wohnen Schweiz : environ 400 membres et 30'000 logements."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Histoire",
+      "content": {
+        "enonce": "Que signifie le sigle ARMOUP ?",
+        "propositions": [
+          "Association romande des maîtres d'ouvrage d'utilité publique",
+          "Association régionale des mandataires et organismes d'urbanisme public, rattachée à l'Office fédéral du logement",
+          "Association romande des mutuelles d'occupation et d'usage partagé",
+          "Alliance romande des propriétaires"
+        ],
+        "reponse_correcte": "Association romande des maîtres d'ouvrage d'utilité publique",
+        "explication": "L'ARMOUP (Association romande des maîtres d'ouvrage d'utilité publique) compte environ 1'200 membres possédant 150'000 logements."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Par quels articles du Code des obligations la société coopérative est-elle définie ?",
+        "propositions": [
+          "Art. 828 à 926 CO",
+          "Art. 253 à 274g CO, qui régissent aussi le bail à loyer des locataires-sociétaires",
+          "Art. 620 à 763 CO",
+          "Art. 712a à 712t CC, relatifs à la propriété par étages et à la propriété collective des immeubles"
+        ],
+        "reponse_correcte": "Art. 828 à 926 CO",
+        "explication": "La coopérative est définie par les articles 828 et suivants du CO (jusqu'à 926 CO). Les art. 620 ss CO concernent la SA, les art. 253 ss CO le bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Selon le CO, quel est le but principal d'une société coopérative ?",
+        "propositions": [
+          "Favoriser ou garantir, par une action commune, des intérêts économiques déterminés de ses membres",
+          "Réaliser un bénéfice maximal",
+          "Maximiser la valeur de son patrimoine immobilier afin de pouvoir revendre ses immeubles avec une plus-value au moment le plus favorable",
+          "Offrir des logements subventionnés à toute la population, sans condition d'adhésion, sur mandat des pouvoirs publics"
+        ],
+        "reponse_correcte": "Favoriser ou garantir, par une action commune, des intérêts économiques déterminés de ses membres",
+        "explication": "« La société coopérative est celle que forment des personnes ou des sociétés commerciales d'un nombre variable, organisées corporativement, et qui poursuit principalement le but de favoriser ou de garantir, par une action commune, les intérêts économiques déterminés de ses membres. »"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Quel est le but recherché par une coopérative d'habitation en tant que propriétaire de logements ?",
+        "propositions": [
+          "Procurer à ses membres des logements au meilleur prix, avec un rendement juste pour couvrir les frais",
+          "Obtenir un rendement attractif, comme les institutionnels (caisses de pensions, assurances) qui investissent dans l'immobilier pour servir leurs assurés",
+          "Maximiser la prise de valeur du bien en vue d'une revente ultérieure, pour augmenter le patrimoine de ses sociétaires",
+          "Spéculer sur les terrains"
+        ],
+        "reponse_correcte": "Procurer à ses membres des logements au meilleur prix, avec un rendement juste pour couvrir les frais",
+        "explication": "Pour les coopératives, l'intérêt des membres est le but recherché ; le rendement doit couvrir les frais. La valeur du bien a peu d'importance car il n'est pas prévu de le revendre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Combien de voix un sociétaire détenant 10 parts sociales a-t-il à l'assemblée générale ?",
+        "propositions": [
+          "1 voix",
+          "10 voix, puisque le droit de vote est proportionnel au nombre de parts sociales souscrites",
+          "Autant de voix que de pièces dans son logement, les parts étant calculées par pièce",
+          "Aucune"
+        ],
+        "reponse_correcte": "1 voix",
+        "explication": "La gestion est démocratique : chaque sociétaire dispose d'une voix à l'AG, quel que soit le nombre de parts qu'il détient. L'organisation n'est pas liée au pouvoir économique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Quelles règles éthiques les statuts d'une coopérative doivent-ils impérativement prévoir pour être reconnue d'utilité publique ?",
+        "propositions": [
+          "Pas de but lucratif et interdiction de la spéculation",
+          "Revente des immeubles soumise à l'autorisation de l'AG",
+          "Pas de tantièmes ni d'avantages aux administrateurs (indemnités modérées tolérées)",
+          "En cas de dissolution, l'actif net va à l'État ou à une société poursuivant les mêmes buts",
+          "En cas de dissolution, l'actif net est réparti entre les sociétaires au prorata de leurs parts sociales, majoré d'un intérêt équitable",
+          "Une rémunération des administrateurs proportionnelle aux bénéfices réalisés, afin de les motiver à bien gérer le parc immobilier"
+        ],
+        "reponses_correctes": [
+          "Pas de but lucratif et interdiction de la spéculation",
+          "Revente des immeubles soumise à l'autorisation de l'AG",
+          "Pas de tantièmes ni d'avantages aux administrateurs (indemnités modérées tolérées)",
+          "En cas de dissolution, l'actif net va à l'État ou à une société poursuivant les mêmes buts"
+        ],
+        "explication": "Règles éthiques : pas de but lucratif, pas de spéculation, revente soumise à l'AG, pas de tantièmes, actif net de liquidation à l'État ou à une société aux buts identiques, nombre de personnes par type d'appartement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Quelle est la seule obligation imposée par la loi aux coopérateurs ?",
+        "propositions": [
+          "L'obligation de fidélité (art. 866 CO)",
+          "L'obligation de souscrire au moins trois parts sociales par pièce louée et de les conserver jusqu'à la dissolution de la coopérative",
+          "L'obligation d'habiter un logement de la coopérative",
+          "L'obligation de participer à toutes les assemblées générales sous peine d'exclusion et de résiliation du bail"
+        ],
+        "reponse_correcte": "L'obligation de fidélité (art. 866 CO)",
+        "explication": "L'obligation de fidélité (art. 866 CO) est la seule imposée par la loi. Toutes les autres obligations doivent avoir une base statutaire (art. 832 ch. 3, 867 al. 1 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "En matière de fixation des loyers, comment les tribunaux traitent-ils en principe une coopérative ?",
+        "propositions": [
+          "Comme un propriétaire ordinaire",
+          "Ils appliquent systématiquement ses statuts plutôt que le droit du bail, car les locataires sont aussi sociétaires et ont accepté les règles internes",
+          "Ils se déclarent toujours incompétents et renvoient à l'AG",
+          "Ils appliquent automatiquement une réduction de 20 % par rapport aux loyers usuels du quartier"
+        ],
+        "reponse_correcte": "Comme un propriétaire ordinaire",
+        "explication": "Les tribunaux ne font en principe pas de différence entre une coopérative et un propriétaire ordinaire. Une interprétation plus « souple » existe pour les règles d'usage de la chose louée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Particularités juridiques",
+      "content": {
+        "enonce": "Qu'a apporté l'arrêt du Conseil fédéral de septembre 2001 concernant les coopératives ?",
+        "propositions": [
+          "La reconnaissance fédérale de leur particularité : dans l'application du contrat-cadre romand, leurs buts et statuts sont à respecter",
+          "L'exonération fiscale totale de toutes les coopératives",
+          "L'interdiction pour les coopératives de résilier le bail d'un sociétaire, même en cas de violation grave de ses obligations statutaires",
+          "La suppression du droit du bail pour les locataires-sociétaires"
+        ],
+        "reponse_correcte": "La reconnaissance fédérale de leur particularité : dans l'application du contrat-cadre romand, leurs buts et statuts sont à respecter",
+        "explication": "Cet arrêt a créé une « première » : la reconnaissance, au niveau fédéral, de la particularité des coopératives dans l'application du contrat-cadre romand."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Faut-il être membre pour louer un appartement dans une coopérative ?",
+        "propositions": [
+          "Oui : il faut acheter une ou plusieurs parts sociales et payer une finance d'admission ; la coopérative peut refuser une candidature",
+          "Non, n'importe qui peut louer",
+          "Oui, et l'adhésion donne automatiquement droit à un logement dans l'ordre d'inscription",
+          "Non, il suffit d'être domicilié dans la commune où se trouve l'immeuble depuis au moins deux ans"
+        ],
+        "reponse_correcte": "Oui : il faut acheter une ou plusieurs parts sociales et payer une finance d'admission ; la coopérative peut refuser une candidature",
+        "explication": "Être membre est nécessaire, mais ne donne pas droit à un logement : l'attribution se fait selon des règles internes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Pourquoi une coopérative ne demande-t-elle en général pas de garantie de loyer ?",
+        "propositions": [
+          "Parce que la part sociale joue le rôle de garantie de loyer",
+          "Parce que la loi interdit aux coopératives d'exiger une garantie de loyer de leurs sociétaires-locataires, en vertu de l'obligation de fidélité",
+          "Parce que les loyers sont payés d'avance pour toute l'année",
+          "Parce que l'État garantit systématiquement les loyers impayés des coopératives reconnues d'utilité publique"
+        ],
+        "reponse_correcte": "Parce que la part sociale joue le rôle de garantie de loyer",
+        "explication": "Lors de la location, le sociétaire peut devoir acquérir des parts supplémentaires (ex. SCHL : 3 parts par pièce). Elles varient de quelques centaines de francs à plus de 10'000.- par pièce."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Quand les parts sociales liées à la location peuvent-elles être remboursées ?",
+        "propositions": [
+          "À l'échéance du bail ; les statuts peuvent prévoir un délai de 3 ans pour ne pas mettre en péril la coopérative",
+          "Jamais",
+          "Immédiatement, dès la demande du sociétaire, même en cours de bail, avec les intérêts accumulés depuis la souscription",
+          "Uniquement lors de la dissolution de la coopérative, après paiement de toutes les dettes"
+        ],
+        "reponse_correcte": "À l'échéance du bail ; les statuts peuvent prévoir un délai de 3 ans pour ne pas mettre en péril la coopérative",
+        "explication": "Les parts liées au logement peuvent être remboursées à l'échéance du bail ; un délai statutaire de 3 ans est possible."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Selon l'exemple du cours, combien de parts sociales la SCHL exige-t-elle lors de la location d'un logement ?",
+        "propositions": [
+          "3 parts par pièce",
+          "1 part par logement, quelle que soit sa taille",
+          "10 parts par logement, remboursables après 20 ans minimum",
+          "Aucune part : seule la finance d'admission est exigée, la garantie de loyer étant versée sur un compte bloqué"
+        ],
+        "reponse_correcte": "3 parts par pièce",
+        "explication": "Exemple : la SCHL demande 3 parts sociales par pièce lors de la location d'un logement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Le bail d'une coopérative diffère-t-il beaucoup d'un bail ordinaire ?",
+        "propositions": [
+          "Non, il n'y figure que quelques clauses particulières liées à la coopérative",
+          "Oui, il est remplacé par un contrat de sociétaire régi uniquement par le droit des sociétés, sans protection contre les loyers abusifs",
+          "Oui, il est toujours conclu pour une durée indéterminée non résiliable",
+          "Oui, il doit être approuvé individuellement par l'assemblée générale"
+        ],
+        "reponse_correcte": "Non, il n'y figure que quelques clauses particulières liées à la coopérative",
+        "explication": "Le bail est très peu différent d'un bail « ordinaire » ; seules quelques clauses particulières liées à la coopérative y figurent."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Dans une grande coopérative, quelles sont les compétences de l'ASSEMBLÉE GÉNÉRALE ?",
+        "propositions": [
+          "Élire les organes (Conseil d'administration)",
+          "Approuver la gestion et les comptes, et décider de l'intérêt versé sur les parts",
+          "Modifier les statuts",
+          "Attribuer les logements aux sociétaires et décider des admissions de nouveaux membres",
+          "Désigner les architectes et ingénieurs mandatés pour les projets de construction"
+        ],
+        "reponses_correctes": [
+          "Élire les organes (Conseil d'administration)",
+          "Approuver la gestion et les comptes, et décider de l'intérêt versé sur les parts",
+          "Modifier les statuts"
+        ],
+        "explication": "L'AG élit les organes, approuve la gestion et les comptes, fixe l'intérêt sur les parts et modifie les statuts. Admissions, attribution des logements et désignation des mandataires relèvent du Comité de direction."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Quelles sont les compétences du CONSEIL D'ADMINISTRATION d'une grande coopérative ?",
+        "propositions": [
+          "Autoriser les achats, investissements et emprunts",
+          "Fixer les loyers",
+          "Décider de la politique générale",
+          "Désigner le président, le vice-président, le secrétaire et le Comité de direction",
+          "Adjuger les travaux de construction ou de rénovation",
+          "Assurer la gestion opérationnelle quotidienne, répondre aux locataires et organiser le travail des collaborateurs"
+        ],
+        "reponses_correctes": [
+          "Autoriser les achats, investissements et emprunts",
+          "Fixer les loyers",
+          "Décider de la politique générale",
+          "Désigner le président, le vice-président, le secrétaire et le Comité de direction",
+          "Adjuger les travaux de construction ou de rénovation"
+        ],
+        "explication": "Le CA autorise achats/emprunts, fixe les loyers, décide de la politique générale, approuve comptes et budget d'entretien, désigne le bureau et adjuge les travaux. La gestion opérationnelle relève de l'administration."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Quel organe d'une grande coopérative décide des admissions et attribue les logements ?",
+        "propositions": [
+          "Le Comité de direction (ou bureau)",
+          "L'assemblée générale, qui vote sur chaque nouvelle candidature et chaque attribution à la majorité des sociétaires présents",
+          "L'Office fédéral du logement",
+          "La régie mandatée, qui choisit librement les locataires selon leur solvabilité et leur dossier"
+        ],
+        "reponse_correcte": "Le Comité de direction (ou bureau)",
+        "explication": "Le Comité de direction s'occupe de la gestion courante, décide des admissions, nomme le directeur, attribue les logements et désigne les mandataires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Organisation",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue une petite coopérative d'une grande ?",
+        "propositions": [
+          "Dans une petite coopérative, ce sont les organes qui assument la gestion ; une grande dispose d'une administration",
+          "Une petite coopérative n'a pas d'assemblée générale",
+          "Une petite coopérative ne peut pas être reconnue d'utilité publique, faute d'atteindre le nombre minimal de logements exigé par la loi fédérale",
+          "Une grande coopérative doit obligatoirement confier la gérance de ses immeubles à une régie externe"
+        ],
+        "reponse_correcte": "Dans une petite coopérative, ce sont les organes qui assument la gestion ; une grande dispose d'une administration",
+        "explication": "Grandes coopératives : une administration. Petites : les organes assument la gestion. Certaines confient l'administration à une régie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "De quoi sont constitués en priorité les fonds propres d'une coopérative ?",
+        "propositions": [
+          "Du capital social, soit les parts sociales que chaque coopérateur est tenu de détenir",
+          "D'hypothèques en 1er rang accordées par les banques",
+          "Des subventions fédérales non remboursables versées à la création de chaque coopérative reconnue d'utilité publique",
+          "Des dividendes non distribués aux actionnaires et des plus-values réalisées lors de la revente d'immeubles"
+        ],
+        "reponse_correcte": "Du capital social, soit les parts sociales que chaque coopérateur est tenu de détenir",
+        "explication": "Les fonds propres proviennent en priorité du capital social (parts sociales), complété par les fonds et provisions accumulés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Quelle part des parts sociales certaines coopératives demandent-elles aux artisans (ou à l'entreprise générale) de prendre ?",
+        "propositions": [
+          "5 à 8 %",
+          "20 %, comme le canton de Neuchâtel",
+          "50 %, afin de réduire la part bancaire en premier rang",
+          "Aucune : il est interdit de faire participer les entreprises au capital d'une coopérative d'utilité publique"
+        ],
+        "reponse_correcte": "5 à 8 %",
+        "explication": "Certaines coopératives demandent aux artisans de prendre 5 à 8 % des parts sociales (remboursables après 20 ans minimum, voire non remboursables). Seul NE peut acquérir 20 % des PS émises."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Quel est le taux d'intérêt des prêts du fonds de la Confédération accordés via les organisations faîtières ?",
+        "propositions": [
+          "0,5 % de moins que le taux de référence, mais au minimum 1 %",
+          "Le taux de référence majoré de 2 %, comme pour les calculs de rendement admissible selon la méthode Fracheboud",
+          "0 %, sans remboursement",
+          "Le même taux que les hypothèques bancaires ordinaires"
+        ],
+        "reponse_correcte": "0,5 % de moins que le taux de référence, mais au minimum 1 %",
+        "explication": "Ces prêts (rénovations, constructions, acquisitions de terrains) peuvent se substituer aux fonds propres ; ils doivent être remboursés rapidement, sur 18 à 25 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Sur quelle durée les prêts du fonds de la Confédération doivent-ils être remboursés ?",
+        "propositions": [
+          "18 à 25 ans",
+          "5 ans",
+          "Ils ne sont jamais remboursés tant que la coopérative conserve le statut d'utilité publique",
+          "70 à 99 ans, soit la durée du droit de superficie"
+        ],
+        "reponse_correcte": "18 à 25 ans",
+        "explication": "Le remboursement doit se faire rapidement, sur une période de 18 à 25 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Qu'est-ce que la CCL ?",
+        "propositions": [
+          "La Centrale d'émission pour la construction de logements : elle permet de participer à des emprunts obligataires cautionnés par la Confédération",
+          "Une caisse cantonale de logement qui verse des subventions à fonds perdu aux locataires à revenus modestes",
+          "La commission de conciliation en matière de loyers",
+          "Le contrat-cadre romand"
+        ],
+        "reponse_correcte": "La Centrale d'émission pour la construction de logements : elle permet de participer à des emprunts obligataires cautionnés par la Confédération",
+        "explication": "La CCL permet d'obtenir de l'argent pratiquement aux mêmes conditions que les banques. Elle offre des prêts sans remboursement les 15 premières années pour les nouvelles coopératives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Pourquoi est-il conseillé d'amortir les prêts CCL lors de leur renouvellement ?",
+        "propositions": [
+          "Parce qu'à la fin du droit de superficie (DDP), l'immeuble doit être franc d'hypothèque",
+          "Parce que la loi interdit de renouveler un prêt CCL",
+          "Parce que les intérêts deviennent alors supérieurs à ceux du marché et que la Confédération retire son cautionnement après 15 ans dans tous les cas",
+          "Pour pouvoir distribuer des dividendes aux sociétaires"
+        ],
+        "reponse_correcte": "Parce qu'à la fin du droit de superficie (DDP), l'immeuble doit être franc d'hypothèque",
+        "explication": "La CCL offre des prêts sans remboursement les 15 premières années ; au renouvellement, il est conseillé d'amortir, car à la fin du DDP l'immeuble doit être franc d'hypothèque."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Quelles sources de financement avantageuses existent pour les coopératives ?",
+        "propositions": [
+          "Le fonds de roulement de la Confédération via les organisations faîtières",
+          "La CCL (emprunts obligataires cautionnés par la Confédération)",
+          "Le fonds de solidarité de Coopératives d'habitation Suisse",
+          "Une coopérative de cautionnement",
+          "L'émission d'actions au porteur cotées en bourse, dont le rendement est garanti par la Confédération",
+          "Des crédits sans intérêt accordés d'office par la Banque nationale suisse"
+        ],
+        "reponses_correctes": [
+          "Le fonds de roulement de la Confédération via les organisations faîtières",
+          "La CCL (emprunts obligataires cautionnés par la Confédération)",
+          "Le fonds de solidarité de Coopératives d'habitation Suisse",
+          "Une coopérative de cautionnement"
+        ],
+        "explication": "Sources avantageuses : fonds de la Confédération, CCL, fonds de solidarité, coopérative de cautionnement, et aides ponctuelles des pouvoirs publics."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "En fonction de quels paramètres les loyers sans aide des pouvoirs publics évoluent-ils ?",
+        "propositions": [
+          "L'IPC (indice des prix à la consommation)",
+          "Le taux hypothécaire de référence",
+          "Les charges",
+          "Les loyers usuels du quartier, adaptés à chaque changement de locataire pour suivre le marché",
+          "Le nombre de parts sociales détenues par le locataire"
+        ],
+        "reponses_correctes": ["L'IPC (indice des prix à la consommation)", "Le taux hypothécaire de référence", "Les charges"],
+        "explication": "Trois paramètres : IPC, taux hypothécaire de référence, charges. Rien n'oblige une coopérative à appliquer systématiquement les hausses ; elles font généralement preuve de modération."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Finances et financement",
+      "content": {
+        "enonce": "Pourquoi les loyers d'une coopérative deviennent-ils de plus en plus intéressants avec le temps par rapport au marché ?",
+        "propositions": [
+          "Parce qu'ils sont les mêmes pour tous (égalité de traitement) et ne varient pas à chaque changement de locataire",
+          "Parce qu'ils sont gelés par la loi pendant toute la durée du droit de superficie",
+          "Parce que les coopératives reçoivent chaque année une subvention fédérale indexée qui compense automatiquement toutes les hausses de l'IPC et du taux de référence",
+          "Parce que les locataires paient une partie du loyer en parts sociales"
+        ],
+        "reponse_correcte": "Parce qu'ils sont les mêmes pour tous (égalité de traitement) et ne varient pas à chaque changement de locataire",
+        "explication": "Principe de l'égalité de traitement : pas de hausse au changement de locataire. Après quelques années, l'écart avec le marché atteint 15 à 20 %, voire 30 % dans de rares cas."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Projets des coopératives",
+      "content": {
+        "enonce": "Qu'est-ce qui freine principalement aujourd'hui le développement des coopératives ?",
+        "propositions": [
+          "La pénurie de terrains à des prix acceptables",
+          "Le manque d'intérêt de la population pour ce type de logement, les listes d'attente des coopératives étant pratiquement vides",
+          "L'interdiction légale de construire de nouveaux logements coopératifs",
+          "Le manque de financement bancaire, les banques refusant par principe de prêter aux coopératives"
+        ],
+        "reponse_correcte": "La pénurie de terrains à des prix acceptables",
+        "explication": "Le terrain devient rare et cher ; la recherche de terrains à des prix acceptables est ce qui freine principalement le développement des coopératives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Projets des coopératives",
+      "content": {
+        "enonce": "Pourquoi le droit de superficie (DDP) convient-il bien aux coopératives ?",
+        "propositions": [
+          "Parce qu'elles ne recherchent pas de prise de valeur et que leurs statuts interdisent souvent la revente",
+          "Parce qu'il leur permet de revendre le terrain avec une plus-value à l'échéance du droit",
+          "Parce que les propriétaires privés proposent très souvent leurs terrains en DDP, ce qui garantit aux coopératives un accès facile et bon marché au foncier",
+          "Parce qu'il dispense de payer toute rente"
+        ],
+        "reponse_correcte": "Parce qu'elles ne recherchent pas de prise de valeur et que leurs statuts interdisent souvent la revente",
+        "explication": "Le DDP convient aux coopératives ; mais les propriétaires privés disposés à céder un terrain en DDP sont très rares : c'est souvent le fait des pouvoirs publics."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Projets des coopératives",
+      "content": {
+        "enonce": "À quoi une coopérative doit-elle utiliser en priorité sa capacité d'investissement ?",
+        "propositions": [
+          "À la conservation de la valeur du parc existant (rénovations, voire démolitions-reconstructions)",
+          "À la construction de nouveaux logements, qui passe toujours avant l'entretien du parc existant puisque la mission est de loger toujours plus de membres",
+          "À l'achat d'actions",
+          "Au remboursement anticipé des parts sociales"
+        ],
+        "reponse_correcte": "À la conservation de la valeur du parc existant (rénovations, voire démolitions-reconstructions)",
+        "explication": "Priorité à la conservation du parc (confort, isolation, installations techniques). Démolition-reconstruction si la rénovation n'apporte pas d'amélioration suffisante ou coûte trop, et qu'une construction neuve permet une nette densification. Le solde sert aux constructions neuves."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Projets des coopératives",
+      "content": {
+        "enonce": "Quel est le premier critère déterminant pour décider de construire ?",
+        "propositions": [
+          "Le besoin",
+          "Le rendement attendu",
+          "La disponibilité d'un terrain en droit de superficie cédé gratuitement par la commune pendant au moins 15 ans",
+          "La possibilité de revente"
+        ],
+        "reponse_correcte": "Le besoin",
+        "explication": "Construisant principalement pour ses membres, la coopérative peut plus facilement déterminer si un besoin existe ; une étude du marché reste nécessaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Quand les autorités prennent-elles conscience d'un réel problème de logement ?",
+        "propositions": [
+          "Au début du 20e siècle",
+          "Au Moyen Âge",
+          "Au milieu du 19e siècle, dès l'arrivée des ouvriers dans les villes, avec l'adoption immédiate d'une loi fédérale sur le logement",
+          "Après 1965"
+        ],
+        "reponse_correcte": "Au début du 20e siècle",
+        "explication": "Les conditions de logement se dégradent dès le milieu du 19e siècle avec l'industrialisation, mais c'est au début du 20e siècle que les autorités prennent conscience du problème."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Quelles sont les 5 catégories d'aides au logement ?",
+        "propositions": [
+          "L'aide foncière",
+          "La fiscalité",
+          "L'aide financière directe",
+          "L'aide financière indirecte",
+          "La réglementation du droit du bail",
+          "La nationalisation des terrains à bâtir",
+          "Le blocage général des loyers"
+        ],
+        "reponses_correctes": [
+          "L'aide foncière",
+          "La fiscalité",
+          "L'aide financière directe",
+          "L'aide financière indirecte",
+          "La réglementation du droit du bail"
+        ],
+        "explication": "5 catégories : aide foncière, fiscalité, aide financière directe, aide financière indirecte, réglementation du droit du bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "La mise à disposition d'un terrain en droit de superficie est un exemple de :",
+        "propositions": [
+          "Aide foncière",
+          "Aide financière indirecte, au même titre que les cautionnements et les prêts à taux réduit accordés par les pouvoirs publics",
+          "Aide fiscale",
+          "Aide à la personne"
+        ],
+        "reponse_correcte": "Aide foncière",
+        "explication": "L'aide foncière comprend la donation de terrains et la mise à disposition en droit de superficie, gratuite ou onéreuse (ex. NE : 15 premières années gratuites)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Les prêts à taux réduit et les cautionnements accordés par les pouvoirs publics relèvent de :",
+        "propositions": [
+          "L'aide financière indirecte",
+          "L'aide financière directe, qui comprend tous les versements d'argent des pouvoirs publics, qu'ils soient remboursables ou non",
+          "L'aide foncière",
+          "La réglementation du droit du bail"
+        ],
+        "reponse_correcte": "L'aide financière indirecte",
+        "explication": "Aide indirecte : donations, mise à disposition de capitaux, prêts à taux réduit ou sans intérêt, cautionnements, aide à des institutions de prêt. L'aide directe comprend les subventions et l'aide à la personne."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Qui peut bénéficier d'une exonération fiscale partielle ou totale selon le cours ?",
+        "propositions": [
+          "Uniquement les fondations d'utilité publique",
+          "Toutes les coopératives d'habitation, dès leur inscription au registre du commerce",
+          "Tous les propriétaires qui louent à des loyers inférieurs au marché",
+          "Les sociétaires qui détiennent plus de 10 parts sociales, sur le revenu de ces parts"
+        ],
+        "reponse_correcte": "Uniquement les fondations d'utilité publique",
+        "explication": "L'exonération partielle ou totale concerne uniquement les fondations d'utilité publique ; d'autres aides fiscales existent (exonération de taxes, émoluments, droits de timbre)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Qui est compétent pour édicter des lois en matière de logement ?",
+        "propositions": [
+          "La Confédération et les cantons ; les communes ne peuvent édicter que des règlements",
+          "Uniquement les communes, qui connaissent le mieux les besoins locaux",
+          "Les associations faîtières comme l'ARMOUP, par délégation de l'Office fédéral du logement et avec force obligatoire pour toutes les coopératives",
+          "Uniquement la Confédération"
+        ],
+        "reponse_correcte": "La Confédération et les cantons ; les communes ne peuvent édicter que des règlements",
+        "explication": "Les lois sont de la compétence des cantons et de la Confédération. La Constitution (art. 41 al. 1 let. e) engage Confédération et cantons à ce que chacun puisse trouver un logement approprié à des conditions supportables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Quel canton pratique une aide à la pierre d'une durée de 15 ans, en collaboration avec les communes, abaissant les loyers d'environ 20 à 30 % ?",
+        "propositions": [
+          "Vaud",
+          "Valais, qui a adopté une loi cantonale spécifique sur l'aide à la pierre pour compenser l'absence d'aide à la personne",
+          "Fribourg",
+          "Jura"
+        ],
+        "reponse_correcte": "Vaud",
+        "explication": "Vaud : aide à la pierre sur 15 ans avec les communes (baisse de loyer d'environ 20 à 30 %) et aide à la personne (environ 15 à 20 % du loyer)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Quelle est la situation de Fribourg en matière d'aide au logement ?",
+        "propositions": [
+          "L'aide cantonale était liée à l'aide fédérale (LCAP) ; depuis sa disparition, il n'y a plus d'aide",
+          "Un système mixte d'aide à la pierre et à la personne, avec mise à disposition de terrains",
+          "Des aides indirectes (cautionnements, prêts à taux réduits ou gratuits, achat de parts sociales) liées à la LOG",
+          "Une aide à la pierre de 15 ans"
+        ],
+        "reponse_correcte": "L'aide cantonale était liée à l'aide fédérale (LCAP) ; depuis sa disparition, il n'y a plus d'aide",
+        "explication": "Genève : système mixte. Neuchâtel : aides indirectes (LAL2 liée à la LOG). Vaud : aide à la pierre 15 ans. Valais : aide à la personne. Jura : pas d'aide cantonale, mise à disposition de terrains."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pouvoirs publics et aides",
+      "content": {
+        "enonce": "Quel canton a la particularité de pouvoir acquérir jusqu'à 20 % des parts sociales émises par une coopérative ?",
+        "propositions": [
+          "Neuchâtel",
+          "Genève, dans le cadre de son système mixte d'aide à la pierre et à la personne et de mise à disposition de terrains",
+          "Vaud, en collaboration avec les communes pendant les 15 années de l'aide à la pierre",
+          "Valais"
+        ],
+        "reponse_correcte": "Neuchâtel",
+        "explication": "Neuchâtel pratique des aides indirectes, dont l'achat de parts sociales (seul NE peut acquérir 20 % des PS émises)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Perspectives d'avenir",
+      "content": {
+        "enonce": "Selon le cours, quelle proportion des logements en Suisse est adaptée à la mobilité réduite ?",
+        "propositions": [
+          "Seulement 4 %",
+          "Environ 50 %, puisque tous les logements construits depuis 2010 respectent la norme SIA 500",
+          "Plus de 80 %, grâce aux rénovations systématiques imposées par la LHand",
+          "Aucun"
+        ],
+        "reponse_correcte": "Seulement 4 %",
+        "explication": "Seuls 4 % des logements sont adaptés à la mobilité réduite ; avec le vieillissement de la population, il faut soutenir les MOUP pour des logements adaptés (AVS/AI) à prix modérés. Les logements neufs depuis 2010 sont aux normes SIA 500, mais souvent chers."
+      }
+    }
+  ]
+}

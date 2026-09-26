@@ -1,0 +1,848 @@
+{
+  "title": "Communication",
+  "description": "Immobase — Support de cours Communication (A. Binggeli) : communication interpersonnelle, conflit, questionnement, émotions et feedback.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Sur quel type d'échange la communication interpersonnelle est-elle fondée ?",
+        "propositions": [
+          "1 émetteur - 1 récepteur",
+          "1 émetteur - plusieurs récepteurs",
+          "Plusieurs émetteurs - 1 récepteur",
+          "Un échange exclusivement écrit"
+        ],
+        "reponse_correcte": "1 émetteur - 1 récepteur",
+        "explication": "La communication interpersonnelle est fondée sur l'échange 1 émetteur - 1 récepteur. C'est la base de la vie en société."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Selon le cours, dans quelle situation la compréhension est-elle en général la meilleure ?",
+        "propositions": [
+          "Lorsque le nombre de récepteurs est limité à une seule personne",
+          "Lorsque le message est diffusé à une large audience",
+          "Lorsque le message est transmis uniquement par écrit",
+          "Lorsque l'émetteur parle sans être interrompu par une rétroaction"
+        ],
+        "reponse_correcte": "Lorsque le nombre de récepteurs est limité à une seule personne",
+        "explication": "Lorsque le nombre de récepteurs est limité à une seule personne, c'est là en général que la compréhension est la meilleure ; la rétroaction y est quasi systématique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Qu'est-ce que la communication para-verbale ?",
+        "propositions": [
+          "Une communication non verbale qui accompagne la vocalisation (geste, ton de la voix…)",
+          "Une communication exclusivement écrite, qui remplace la parole par des supports comme les courriels, les notes ou les rapports",
+          "Une communication entre machines (télécommunications)",
+          "Une communication verbale adressée simultanément à un large public hétérogène, par un procédé médiatique"
+        ],
+        "reponse_correcte": "Une communication non verbale qui accompagne la vocalisation (geste, ton de la voix…)",
+        "explication": "La communication non verbale peut être para-verbale, c'est-à-dire qu'elle accompagne la vocalisation : par exemple bouger la main vers la droite en disant « à droite ». Le ton d'un message est aussi une forme de para-verbal."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Quels éléments font partie de la communication non verbale selon le cours ?",
+        "propositions": [
+          "Les mimiques",
+          "La posture",
+          "Les gestes (ex. croiser les bras)",
+          "Le ton du message",
+          "Le vocabulaire choisi"
+        ],
+        "reponses_correctes": [
+          "Les mimiques",
+          "La posture",
+          "Les gestes (ex. croiser les bras)",
+          "Le ton du message"
+        ],
+        "explication": "Mimiques et posture font partie de la communication ; croiser les bras est une communication non verbale ; le ton d'un message est une forme de para-verbal. Le vocabulaire relève de la communication verbale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Que signifie généralement le fait de croiser les bras en signe de protection ?",
+        "propositions": [
+          "« Je me retranche derrière mes idées, laissez-moi tranquille »",
+          "« Je suis d'accord avec vous et je vous laisse poursuivre, votre point de vue me convient parfaitement »",
+          "« Je vous invite à continuer »",
+          "« Je n'ai pas compris votre question »"
+        ],
+        "reponse_correcte": "« Je me retranche derrière mes idées, laissez-moi tranquille »",
+        "explication": "Croiser les bras dans un signe de protection est une communication non verbale qui signifie : « je me retranche derrière mes idées, laissez-moi tranquille »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "La communication",
+      "content": {
+        "enonce": "Quel risque présentent les gestes qui accompagnent un message ?",
+        "propositions": [
+          "Faire passer le message comme plus fort, plus prononcé que ce que l'on dit",
+          "Rendre le message totalement incompréhensible pour l'interlocuteur, qui ne sait plus s'il doit se fier aux mots ou aux gestes",
+          "Annuler systématiquement le contenu verbal",
+          "Aucun, les gestes sont neutres"
+        ],
+        "reponse_correcte": "Faire passer le message comme plus fort, plus prononcé que ce que l'on dit",
+        "explication": "Des gestes risquent de faire passer un message comme plus fort, plus prononcé que ce que l'on dit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Quelle est, selon le cours, une des caractéristiques essentielles des conflits ?",
+        "propositions": [
+          "L'implication émotionnelle, qui a pour principal effet de nous priver de choix comportemental",
+          "Le fait qu'ils portent toujours sur des éléments matériels (objets, territoire), jamais sur des valeurs ou des besoins",
+          "Le fait qu'ils se règlent toujours d'eux-mêmes avec le temps, à condition de ne pas intervenir et de laisser les émotions retomber",
+          "Le fait qu'ils soient toujours conscients et maîtrisés"
+        ],
+        "reponse_correcte": "L'implication émotionnelle, qui a pour principal effet de nous priver de choix comportemental",
+        "explication": "L'implication émotionnelle prive de choix comportemental. C'est un processus automatique, très rapide et échappant souvent à la conscience, qui se produit lorsqu'une valeur importante est violée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "En situation de conflit, quelle est la réponse spontanée de l'humain, comparé à un animal dont on aurait envahi le territoire ?",
+        "propositions": [
+          "La fuite ou l'agressivité",
+          "La négociation ou le compromis",
+          "L'indifférence",
+          "La reformulation"
+        ],
+        "reponse_correcte": "La fuite ou l'agressivité",
+        "explication": "En situation de conflit, l'humain réagit comme un animal à qui on aurait envahi le territoire. Sa réponse spontanée est la fuite ou l'agressivité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Sur quoi un conflit peut-il porter ?",
+        "propositions": [
+          "Des éléments matériels (objets, territoire…)",
+          "Des besoins (sécurité, reconnaissance, liberté…)",
+          "Des valeurs (harmonie, éducation, politesse…)",
+          "Des types de personnalités",
+          "Uniquement des questions d'argent"
+        ],
+        "reponses_correctes": [
+          "Des éléments matériels (objets, territoire…)",
+          "Des besoins (sécurité, reconnaissance, liberté…)",
+          "Des valeurs (harmonie, éducation, politesse…)",
+          "Des types de personnalités"
+        ],
+        "explication": "Le conflit peut porter sur des éléments matériels, des besoins, des valeurs et des types de personnalités."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Comment appelle-t-on la valeur abstraite attachée à la chose pour laquelle nous entrons en conflit, et dont la violation provoque le conflit ?",
+        "propositions": [
+          "Une croyance",
+          "Un besoin",
+          "Une émotion",
+          "Un territoire"
+        ],
+        "reponse_correcte": "Une croyance",
+        "explication": "À la chose pour laquelle nous entrons en conflit correspond une valeur abstraite appelée croyance. Un conflit est le résultat de la violation de cette croyance ; nous nous sentons niés dans notre identité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Parmi les causes du conflit, lesquelles sont des éléments INDIVIDUELS ?",
+        "propositions": [
+          "Une faible estime de soi",
+          "Un sentiment d'insécurité, de vulnérabilité",
+          "Une attitude dogmatique et autoritaire",
+          "Des ressources limitées",
+          "Un manque de reconnaissance"
+        ],
+        "reponses_correctes": [
+          "Une faible estime de soi",
+          "Un sentiment d'insécurité, de vulnérabilité",
+          "Une attitude dogmatique et autoritaire"
+        ],
+        "explication": "Les éléments individuels sont : faible estime de soi, sentiment d'insécurité / de vulnérabilité, attitude dogmatique et autoritaire. Ces traits peuvent induire des processus de défense engendrant de l'agressivité. Les ressources limitées sont structurelles, le manque de reconnaissance est relationnel."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Parmi les causes du conflit, lesquelles sont des éléments STRUCTURELS ?",
+        "propositions": [
+          "Une différence dans les objectifs poursuivis",
+          "Une ambiguïté sur les tâches, responsabilités et attributions (conflit de territoire)",
+          "Une répartition inégale du pouvoir considérée comme injuste",
+          "Des ressources limitées",
+          "Des règles du jeu floues, changeantes ou appliquées de manière partiale",
+          "Une faible estime de soi"
+        ],
+        "reponses_correctes": [
+          "Une différence dans les objectifs poursuivis",
+          "Une ambiguïté sur les tâches, responsabilités et attributions (conflit de territoire)",
+          "Une répartition inégale du pouvoir considérée comme injuste",
+          "Des ressources limitées",
+          "Des règles du jeu floues, changeantes ou appliquées de manière partiale"
+        ],
+        "explication": "Les éléments structurels : objectifs différents, ambiguïté sur les tâches (conflit de territoire), répartition inégale du pouvoir, ressources limitées, règles du jeu floues ou partiales. La faible estime de soi est un élément individuel."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Parmi les causes du conflit, lesquelles sont des éléments RELATIONNELS ?",
+        "propositions": [
+          "Une limitation de la marge d'autonomie par la pression, le chantage ou la manipulation",
+          "Un manque de reconnaissance, voire une négation des besoins de la personne",
+          "Des manques, surcharges ou distorsions de l'information menant à des malentendus",
+          "Une distance dans la communication (éloignement spatial ou relationnel)",
+          "Une différence dans les objectifs poursuivis"
+        ],
+        "reponses_correctes": [
+          "Une limitation de la marge d'autonomie par la pression, le chantage ou la manipulation",
+          "Un manque de reconnaissance, voire une négation des besoins de la personne",
+          "Des manques, surcharges ou distorsions de l'information menant à des malentendus",
+          "Une distance dans la communication (éloignement spatial ou relationnel)"
+        ],
+        "explication": "Les éléments relationnels : limitation de l'autonomie (pression, chantage, manipulation), manque de reconnaissance, problèmes d'information, distance dans la communication (manque d'authenticité, stratégie indirecte). La différence d'objectifs est un élément structurel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Une ambiguïté sur les tâches, responsabilités et attributions de chacun correspond à quel type de conflit ?",
+        "propositions": [
+          "Un conflit de territoire",
+          "Un conflit de valeurs",
+          "Un conflit de personnalités",
+          "Une escalade symétrique"
+        ],
+        "reponse_correcte": "Un conflit de territoire",
+        "explication": "L'ambiguïté sur les tâches, responsabilités et attributions de chacun est un élément structurel qualifié de conflit de territoire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le conflit interpersonnel",
+      "content": {
+        "enonce": "Qu'est-ce qu'une escalade symétrique ?",
+        "propositions": [
+          "Une situation où chacun des partenaires veut prendre l'ascendant sur l'autre, provoquant un emballement du système",
+          "Une situation où l'un des partenaires cède immédiatement",
+          "Une technique de négociation consistant à faire des concessions égales et successives de part et d'autre, jusqu'à ce que les deux positions se rejoignent au centre",
+          "Une méthode de feedback en trois temps"
+        ],
+        "reponse_correcte": "Une situation où chacun des partenaires veut prendre l'ascendant sur l'autre, provoquant un emballement du système",
+        "explication": "Exemple classique : la scène de ménage. La rivalité provoque un « emballement » qui peut dégénérer (violence verbale, insultes, coups) si l'un des deux ne cède pas ; chacun campe sur ses positions."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quelles sont les « règles d'or » d'un questionnement efficace, quelle que soit la relation hiérarchique ?",
+        "propositions": [
+          "Écouter, écouter, écouter",
+          "Ne pas donner ses propres solutions ou points de vue",
+          "Accepter les points de vue différents du partenaire",
+          "Poser plusieurs questions à la fois pour gagner du temps",
+          "Orienter les réponses par des sous-entendus"
+        ],
+        "reponses_correctes": [
+          "Écouter, écouter, écouter",
+          "Ne pas donner ses propres solutions ou points de vue",
+          "Accepter les points de vue différents du partenaire"
+        ],
+        "explication": "Règles d'or : écouter, écouter, écouter ; ne pas donner ses propres solutions ou points de vue ; accepter les points de vue différents. Il faut poser une seule question à la fois et ne pas émettre de jugement ou de sous-entendus."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Pourquoi est-il préférable de poser une seule question à la fois ?",
+        "propositions": [
+          "Cela permet au questionné de se concentrer sur un sujet et de donner une réponse en adéquation avec la question",
+          "Cela permet de raccourcir l'entretien",
+          "Cela évite d'avoir à écouter la réponse",
+          "Cela permet au questionné de choisir librement, parmi les sujets abordés, la question qui l'intéresse le plus et d'y répondre en détail"
+        ],
+        "reponse_correcte": "Cela permet au questionné de se concentrer sur un sujet et de donner une réponse en adéquation avec la question",
+        "explication": "Une seule question à la fois permet de se concentrer sur un sujet. Poser plusieurs questions laisse au questionné la possibilité de répondre à celle qui l'intéresse le plus."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Lorsqu'une réponse paraît confuse ou ne répond pas directement à la question, quel outil le questionneur doit-il utiliser ?",
+        "propositions": [
+          "La reformulation",
+          "La question fermée",
+          "Le feedback",
+          "La question de calibration"
+        ],
+        "reponse_correcte": "La reformulation",
+        "explication": "Le questionneur utilise la reformulation afin de vérifier les deux niveaux de compréhension de la situation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quel élément est indissociable de la bonne question ?",
+        "propositions": [
+          "L'écoute active",
+          "La rapidité de la réponse",
+          "Le lien hiérarchique",
+          "La prise de notes"
+        ],
+        "reponse_correcte": "L'écoute active",
+        "explication": "Celui qui pose les questions doit garder à l'esprit que la réponse peut prendre du temps et que son écoute active est l'élément indissociable de la bonne question."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Dans une relation hiérarchique collaborateur / supérieur, quelle règle de répartition du temps de parole favorise la collaboration ?",
+        "propositions": [
+          "70% pour le collaborateur, 30% pour le supérieur",
+          "30% pour le collaborateur, 70% pour le supérieur",
+          "50% / 50%",
+          "80% pour le collaborateur, 20% pour le supérieur"
+        ],
+        "reponse_correcte": "70% pour le collaborateur, 30% pour le supérieur",
+        "explication": "La règle du 70/30 s'applique : 70% du temps de parole au collaborateur et 30% au supérieur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quels sont les buts des questions ouvertes ?",
+        "propositions": [
+          "Explorer avec le partenaire le sujet concerné et l'inviter à parler",
+          "Amener le partenaire à exprimer la situation de manière concrète",
+          "Faire préciser au partenaire les points qui sont flous ou globaux",
+          "Obtenir une réponse précise de type oui / non dans un délai très court"
+        ],
+        "reponses_correctes": [
+          "Explorer avec le partenaire le sujet concerné et l'inviter à parler",
+          "Amener le partenaire à exprimer la situation de manière concrète",
+          "Faire préciser au partenaire les points qui sont flous ou globaux"
+        ],
+        "explication": "Les questions ouvertes visent à explorer le sujet et inviter à parler, faire exprimer la situation concrètement et faire préciser les points flous. Obtenir un oui/non rapide est le rôle des questions fermées."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Que risque-t-il de se passer si, en posant des questions ouvertes, le questionneur affiche ses intentions ?",
+        "propositions": [
+          "La réponse du partenaire peut s'avérer plus vague, voire complètement hors du contexte de la question",
+          "La réponse sera plus précise",
+          "Le partenaire se sentira davantage mis en valeur, car il comprend immédiatement où le questionneur veut en venir et peut y répondre de façon ciblée",
+          "La question devient automatiquement une question fermée"
+        ],
+        "reponse_correcte": "La réponse du partenaire peut s'avérer plus vague, voire complètement hors du contexte de la question",
+        "explication": "Si en posant des questions ouvertes le questionneur affiche ses intentions, la réponse du partenaire peut s'avérer plus vague, voire hors contexte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "À quoi sert la méthode QQOQCCP (ou CQQCOQP) ?",
+        "propositions": [
+          "À rester dans le questionnement ouvert",
+          "À formuler un feedback",
+          "À évaluer un niveau sur une échelle",
+          "À désamorcer une escalade symétrique"
+        ],
+        "reponse_correcte": "À rester dans le questionnement ouvert",
+        "explication": "La méthode QQOQCCP permet de rester dans le questionnement ouvert : il suffit de commencer la question par Qui, Quoi, Où, Quand, Comment, Combien, Pourquoi ou Pour quoi."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quels mots-clés font partie de la méthode QQOQCCP ?",
+        "propositions": [
+          "Qui ?",
+          "Quoi ?",
+          "Où ?",
+          "Quand ?",
+          "Comment ?",
+          "Combien ?",
+          "Pourquoi ?",
+          "Est-ce que… ?"
+        ],
+        "reponses_correctes": [
+          "Qui ?",
+          "Quoi ?",
+          "Où ?",
+          "Quand ?",
+          "Comment ?",
+          "Combien ?",
+          "Pourquoi ?"
+        ],
+        "explication": "QQOQCCP : Qui, Quoi, Où, Quand, Comment, Combien, Pourquoi / Pour quoi. « Est-ce que » introduit une question fermée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Dans la méthode QQOQCCP, à quoi faut-il faire attention avec la question « Pourquoi ? » ?",
+        "propositions": [
+          "Elle engendre une justification",
+          "Elle ferme la discussion (réponse oui / non)",
+          "Elle est interdite dans un cadre hiérarchique",
+          "Elle ne peut être posée qu'en fin d'entretien"
+        ],
+        "reponse_correcte": "Elle engendre une justification",
+        "explication": "« Pourquoi ? » vise la cause, le facteur déclenchant ; attention cependant, car le pourquoi engendre une justification."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Dans la méthode QQOQCCP, quelle est la différence entre « Pourquoi ? » et « Pour quoi ? » ?",
+        "propositions": [
+          "« Pourquoi » vise la cause / le facteur déclenchant, « Pour quoi » vise le motif / la finalité / l'objectif",
+          "« Pourquoi » vise l'objectif et la finalité recherchée, alors que « Pour quoi » vise la cause ou le facteur déclenchant de la situation",
+          "Il n'y a aucune différence",
+          "« Pour quoi » est une question fermée"
+        ],
+        "reponse_correcte": "« Pourquoi » vise la cause / le facteur déclenchant, « Pour quoi » vise le motif / la finalité / l'objectif",
+        "explication": "Pourquoi ? : cause, facteur déclenchant. Pour quoi ? : motif, finalité, objectif."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "« Qu'est-ce qui a généré cette situation ? » est un exemple de quel type de question ?",
+        "propositions": [
+          "Question ouverte axée sur le problème",
+          "Question ouverte axée sur la solution",
+          "Question de calibration",
+          "Question fermée"
+        ],
+        "reponse_correcte": "Question ouverte axée sur le problème",
+        "explication": "Les questions ouvertes axées sur le problème ne sont pas orientées solutions : elles permettent uniquement de cerner avec précision la situation et de se construire sa propre opinion."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quel est l'intérêt des questions ouvertes axées sur la solution (ex. « Comment allez-vous solutionner ce problème ? ») ?",
+        "propositions": [
+          "Permettre au partenaire de chercher les solutions à mettre en place et de ne pas transférer la responsabilité à une autre personne",
+          "Cerner avec précision la situation sans chercher de solution",
+          "Obtenir une réponse de type oui / non",
+          "Identifier clairement le responsable du problème afin que le questionneur puisse lui attribuer la tâche de trouver et de mettre en œuvre la solution"
+        ],
+        "reponse_correcte": "Permettre au partenaire de chercher les solutions à mettre en place et de ne pas transférer la responsabilité à une autre personne",
+        "explication": "Les questions ouvertes axées sur la solution permettent au partenaire de chercher lui-même les solutions et de ne pas transférer la responsabilité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "« Sur une échelle de 1 à 10, comment évalueriez-vous votre niveau de… ? » est un exemple de :",
+        "propositions": [
+          "Question de calibration",
+          "Question fermée",
+          "Question ouverte axée sur le problème",
+          "Reformulation"
+        ],
+        "reponse_correcte": "Question de calibration",
+        "explication": "Les questions de calibration permettent d'évaluer un niveau sur une échelle donnée, et donc la progression ou la marge de progression du partenaire ; elles s'axent sur les solutions."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Quelles affirmations sur les questions fermées sont correctes ?",
+        "propositions": [
+          "Ce sont des questions de validation qui laissent un choix limité",
+          "Elles permettent de diriger le sens de l'échange ou de clarifier certains éléments",
+          "Elles sont très utiles avec les bavards",
+          "Elles sont utiles pour obtenir une réponse précise dans un délai très court",
+          "Elles encouragent le partenaire à développer ses réponses"
+        ],
+        "reponses_correctes": [
+          "Ce sont des questions de validation qui laissent un choix limité",
+          "Elles permettent de diriger le sens de l'échange ou de clarifier certains éléments",
+          "Elles sont très utiles avec les bavards",
+          "Elles sont utiles pour obtenir une réponse précise dans un délai très court"
+        ],
+        "explication": "Les questions fermées (oui/non, vrai/faux) découragent au contraire le partenaire à développer ses réponses."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poser les bonnes questions",
+      "content": {
+        "enonce": "Laquelle de ces questions est une question fermée ?",
+        "propositions": [
+          "Est-ce que cette tâche est terminée ?",
+          "Comment évaluez-vous la situation ?",
+          "De quoi avez-vous besoin ?",
+          "Quelle est la première action à entreprendre ?"
+        ],
+        "reponse_correcte": "Est-ce que cette tâche est terminée ?",
+        "explication": "« Est-ce que cette tâche est terminée ? » appelle une réponse oui/non : c'est une question fermée. Les autres sont des questions ouvertes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Comment le cours définit-il une émotion ?",
+        "propositions": [
+          "Une réaction psychologique et physique à une situation, provoquée par la confrontation à une situation et à l'interprétation de la réalité",
+          "Une pensée rationnelle consciente, construite à partir d'une analyse objective de la situation et indépendante de toute réaction corporelle ou de l'interprétation de la réalité",
+          "Un trait de personnalité stable",
+          "Un comportement exclusivement extérieur, sans manifestation interne"
+        ],
+        "reponse_correcte": "Une réaction psychologique et physique à une situation, provoquée par la confrontation à une situation et à l'interprétation de la réalité",
+        "explication": "L'émotion a d'abord une manifestation interne et génère une réaction extérieure. Elle est provoquée par la confrontation à une situation et à l'interprétation de la réalité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "De quoi les émotions sont-elles l'expression ?",
+        "propositions": [
+          "D'un besoin",
+          "D'une croyance",
+          "D'un trait de caractère",
+          "D'un conflit"
+        ],
+        "reponse_correcte": "D'un besoin",
+        "explication": "Les émotions sont l'expression d'un besoin. Toujours présentes, elles accompagnent nos actions ; elles sont authentiques et fonctionnelles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Quelle est l'origine du mot « émotion » ?",
+        "propositions": [
+          "Du latin emovere : e (ex) = « hors de » et movere = « mouvement »",
+          "Du grec emotikos = « sentiment »",
+          "Du latin emittere = « envoyer »",
+          "Du latin motus = « immobile »"
+        ],
+        "reponse_correcte": "Du latin emovere : e (ex) = « hors de » et movere = « mouvement »",
+        "explication": "Le mot « émotion » provient du français « émouvoir », basé sur le latin emovere : e (variante de ex) signifie « hors de » et movere signifie « mouvement »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Selon le cours, quelle est la bonne manière de gérer ses émotions ?",
+        "propositions": [
+          "Les reconnaître, vivre avec elles, les repérer et les nommer",
+          "Les ignorer pour rester professionnel",
+          "Les réprimer jusqu'à la fin de l'entretien",
+          "Les exprimer immédiatement sans filtre"
+        ],
+        "reponse_correcte": "Les reconnaître, vivre avec elles, les repérer et les nommer",
+        "explication": "Inutile de les ignorer : elles font partie de notre être. Les reconnaître, vivre avec elles, les repérer et les nommer permet de réagir avec tact et efficacité. Se mettre à l'écoute de son corps (cœur qui bat plus vite, muscles qui se raidissent)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "À quelle temporalité la peur est-elle liée ?",
+        "propositions": [
+          "L'avenir",
+          "Le présent",
+          "Le passé",
+          "Le présent ou le futur immédiat"
+        ],
+        "reponse_correcte": "L'avenir",
+        "explication": "La peur concerne l'avenir : elle avertit d'un danger et permet d'y réagir. Elle est dysfonctionnelle quand le danger est fantasmé ou dramatisé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "À quelle temporalité la colère est-elle liée ?",
+        "propositions": [
+          "Le présent",
+          "L'avenir",
+          "Le passé",
+          "Aucune temporalité particulière"
+        ],
+        "reponse_correcte": "Le présent",
+        "explication": "La colère est en rapport avec le présent : elle vise à obtenir un changement dans l'environnement. Elle est dysfonctionnelle quand elle concerne le passé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "À quelle temporalité la tristesse est-elle liée ?",
+        "propositions": [
+          "Le passé",
+          "Le présent",
+          "L'avenir",
+          "Le futur immédiat"
+        ],
+        "reponse_correcte": "Le passé",
+        "explication": "La tristesse est liée au passé. Les larmes sont un moyen de digérer la perte, de métaboliser le deuil."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "À quelle temporalité la joie est-elle liée ?",
+        "propositions": [
+          "Le présent ou le futur immédiat",
+          "Le passé",
+          "L'avenir lointain",
+          "Uniquement le passé récent"
+        ],
+        "reponse_correcte": "Le présent ou le futur immédiat",
+        "explication": "La joie est liée au présent ou au futur immédiat. Elle est dysfonctionnelle quand elle sert à ne pas sentir les choses douloureuses."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Quand la colère est-elle fonctionnelle ?",
+        "propositions": [
+          "Quand elle permet de se faire entendre et de montrer à l'autre quelles sont nos limites",
+          "Quand elle concerne une blessure passée non réparée, car elle permet enfin d'exprimer ce qui n'a jamais pu l'être",
+          "Quand elle se traduit par des cris et des coups",
+          "Jamais, la colère est toujours dysfonctionnelle"
+        ],
+        "reponse_correcte": "Quand elle permet de se faire entendre et de montrer à l'autre quelles sont nos limites",
+        "explication": "La colère est fonctionnelle quand elle permet de se faire entendre et de poser ses limites. Elle est dysfonctionnelle quand elle concerne le passé : elle est alors inefficace et n'apporte pas de changement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Quand la peur est-elle dysfonctionnelle ?",
+        "propositions": [
+          "Quand le danger est fantasmé ou dramatisé et qu'une inquiétude exagérée inhibe l'action",
+          "Quand elle est liée à un réel danger",
+          "Quand elle permet de prendre une décision rapide pour assurer sa survie face à une menace bien présente et identifiée",
+          "Quand elle avertit d'un danger"
+        ],
+        "reponse_correcte": "Quand le danger est fantasmé ou dramatisé et qu'une inquiétude exagérée inhibe l'action",
+        "explication": "La peur est fonctionnelle quand elle est liée à un réel danger ; dysfonctionnelle quand le danger est fantasmé ou dramatisé et que l'inquiétude exagérée inhibe l'action."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "Quand la tristesse est-elle dysfonctionnelle ?",
+        "propositions": [
+          "Quand elle s'apparente à la dépression et que la personne reste bloquée dans un chagrin qui n'évolue pas",
+          "Quand elle fait partie d'un processus de deuil lié à une perte réelle, et que la personne exprime son chagrin par des larmes",
+          "Quand elle est liée à une perte réelle",
+          "Quand elle s'exprime par des larmes"
+        ],
+        "reponse_correcte": "Quand elle s'apparente à la dépression et que la personne reste bloquée dans un chagrin qui n'évolue pas",
+        "explication": "La tristesse est fonctionnelle quand elle fait partie d'un processus de deuil lié à une perte réelle. Dysfonctionnelle, ce chagrin sans solution affaiblit peu à peu la personne."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "En situation de conflit, quels sont les trois types d'émotions principalement rencontrés ?",
+        "propositions": [
+          "La colère",
+          "La peur",
+          "La tristesse",
+          "La joie",
+          "Le dégoût"
+        ],
+        "reponses_correctes": [
+          "La colère",
+          "La peur",
+          "La tristesse"
+        ],
+        "explication": "En situation de conflit, les émotions sont principalement la colère, la peur et la tristesse."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "« Je suis responsable de mes actes et de mes paroles, j'ai le droit de dire NON, de ne pas être d'accord. » Il s'agit de :",
+        "propositions": [
+          "La colère positive",
+          "La colère négative",
+          "La peur",
+          "La tristesse"
+        ],
+        "reponse_correcte": "La colère positive",
+        "explication": "Colère positive : « J'ai le droit de dire NON ». Colère négative : « Je suis impuissant, frustré, alors je crie, je frappe »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "En situation de conflit, à quoi peut aboutir la peur face à un danger ou une menace ?",
+        "propositions": [
+          "À la paralysie (absence de réaction) ou à la fuite",
+          "À un comportement agressif pour défendre son territoire",
+          "Au deuil",
+          "À une réaction de joie"
+        ],
+        "reponse_correcte": "À la paralysie (absence de réaction) ou à la fuite",
+        "explication": "La peur peut aboutir à la paralysie ou à la fuite, comme les réactions de la proie confrontée au prédateur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les émotions",
+      "content": {
+        "enonce": "En situation de conflit, avec quelle autre émotion la tristesse va-t-elle très souvent de pair ?",
+        "propositions": [
+          "La colère",
+          "La joie",
+          "La peur",
+          "La surprise"
+        ],
+        "reponse_correcte": "La colère",
+        "explication": "La tristesse peut se muer en colère pour permettre un comportement actif ; tristesse et colère vont très souvent de pair."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le feedback",
+      "content": {
+        "enonce": "Qu'est-ce que le feedback ?",
+        "propositions": [
+          "Le moyen de transmettre un « retour » à une personne sur ses actions présentes, pour maintenir, renforcer et améliorer ses actions à l'avenir",
+          "Une sanction disciplinaire",
+          "Un entretien d'évaluation annuel au cours duquel le supérieur hiérarchique passe en revue l'ensemble des erreurs commises par le collaborateur durant l'année écoulée",
+          "Une réponse à une question fermée"
+        ],
+        "reponse_correcte": "Le moyen de transmettre un « retour » à une personne sur ses actions présentes, pour maintenir, renforcer et améliorer ses actions à l'avenir",
+        "explication": "Donné de manière bienveillante, le feedback consolide la confiance et permet à chacun d'évoluer, sans distinction hiérarchique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le feedback",
+      "content": {
+        "enonce": "Quand le feedback doit-il être donné ?",
+        "propositions": [
+          "Tout de suite après",
+          "Lors de l'entretien annuel",
+          "Une semaine plus tard, à tête reposée",
+          "Uniquement par écrit, à la fin du projet"
+        ],
+        "reponse_correcte": "Tout de suite après",
+        "explication": "Le feedback se donne tout de suite après l'action concernée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le feedback",
+      "content": {
+        "enonce": "Quelles règles s'appliquent à celui qui DONNE le feedback ?",
+        "propositions": [
+          "Le contenu se donne en « JE »",
+          "Il décrit des éléments factuels que l'interlocuteur peut vérifier",
+          "Il commence par un point positif, puis un point d'amélioration (ou une synthèse de plusieurs)",
+          "Il se termine par un point positif",
+          "Il commence par la liste de tout ce qui ne va pas"
+        ],
+        "reponses_correctes": [
+          "Le contenu se donne en « JE »",
+          "Il décrit des éléments factuels que l'interlocuteur peut vérifier",
+          "Il commence par un point positif, puis un point d'amélioration (ou une synthèse de plusieurs)",
+          "Il se termine par un point positif"
+        ],
+        "explication": "Le donneur : tout de suite après, en « JE », éléments factuels vérifiables, point positif → point(s) d'amélioration → point positif."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le feedback",
+      "content": {
+        "enonce": "Quelles attitudes sont attendues de celui qui REÇOIT le feedback ?",
+        "propositions": [
+          "L'écouter jusqu'au bout sans faire de commentaires",
+          "L'accueillir comme une information utile pour apprendre et évoluer",
+          "Valider les informations reçues et demander des précisions en cas de doute",
+          "Donner un retour sur la façon dont le feedback a été ressenti",
+          "Remercier l'interlocuteur",
+          "Se justifier immédiatement point par point"
+        ],
+        "reponses_correctes": [
+          "L'écouter jusqu'au bout sans faire de commentaires",
+          "L'accueillir comme une information utile pour apprendre et évoluer",
+          "Valider les informations reçues et demander des précisions en cas de doute",
+          "Donner un retour sur la façon dont le feedback a été ressenti",
+          "Remercier l'interlocuteur"
+        ],
+        "explication": "Le receveur écoute jusqu'au bout sans commenter, accueille l'information, valide et demande des précisions, dit comment il l'a ressenti et remercie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le feedback",
+      "content": {
+        "enonce": "Paul arrive systématiquement en retard aux séances hebdomadaires, mais documente bien ses points et communique de manière bienveillante. Quel feedback respecte la méthode du cours ?",
+        "propositions": [
+          "« Paul, j'apprécie le soin que tu mets à documenter tes points, et j'apprécierais qu'à partir de la semaine prochaine tu sois présent au début de la séance à 8h30. J'apprécie également ta communication bienveillante. »",
+          "« Paul, tu es toujours en retard, ce n'est pas acceptable. »",
+          "« Paul, toute l'équipe a remarqué que tu arrivais systématiquement en retard aux séances, et franchement on en a tous assez ; je te demande de faire un effort à partir de maintenant, sinon je devrai en parler plus haut. Pour le reste, ça va. »",
+          "« Paul, tu documentes bien, mais tu es toujours en retard. »"
+        ],
+        "reponse_correcte": "« Paul, j'apprécie le soin que tu mets à documenter tes points, et j'apprécierais qu'à partir de la semaine prochaine tu sois présent au début de la séance à 8h30. J'apprécie également ta communication bienveillante. »",
+        "explication": "Structure : point positif (« j'apprécie… ») → demande d'amélioration factuelle et vérifiable (« j'apprécierais que… ») → point positif final (« j'apprécie également… »), le tout en « JE »."
+      }
+    }
+  ]
+}
