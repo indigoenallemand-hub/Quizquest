@@ -14,6 +14,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ toke
         select: {
           id: true,
           themes: {
+            where: { enabled: true },
             orderBy: { order: "asc" },
             select: {
               theme: {

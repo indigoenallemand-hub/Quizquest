@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { getSessionUserId } from "@/lib/session-user";
+import { userOwnsThemeQuiz } from "@/lib/question-ownership";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -28,6 +29,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
   if (!userId) return NextResponse.json({ error: "Non authentifié." }, { status: 401 });
 
   const { id } = await params;
+  if (!(await userOwnsThemeQuiz(userId, id))) return NextResponse.json({ error: "Interdit." }, { status: 403 });
   const parsed = updateThemeSchema.safeParse(await request.json());
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
@@ -42,6 +44,7 @@ export async function DELETE(_request: Request, { params }: { params: Promise<{ 
   if (!userId) return NextResponse.json({ error: "Non authentifié." }, { status: 401 });
 
   const { id } = await params;
+  if (!(await userOwnsThemeQuiz(userId, id))) return NextResponse.json({ error: "Interdit." }, { status: 403 });
   await prisma.theme.delete({ where: { id } });
   return NextResponse.json({ ok: true });
 }

@@ -25,7 +25,7 @@ export default async function SharedQuizPlayPage({
     include: {
       quiz: {
         include: {
-          themes: { orderBy: { order: "asc" }, include: { theme: { include: { questions: true } } } },
+          themes: { where: { enabled: true }, orderBy: { order: "asc" }, include: { theme: { include: { questions: true } } } },
           guestLinks: { select: { id: true, guestName: true } },
         },
       },

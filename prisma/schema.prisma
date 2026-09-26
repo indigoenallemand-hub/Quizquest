@@ -92,6 +92,10 @@ model QuizTheme {
   // transaction and could transiently collide with a uniqueness check.
   // Consistency is enforced at the application layer instead.
   order   Int
+  // Lets the creator hide a chapter from this quiz without deleting it (or its
+  // questions/attempts): disabled chapters are left out of the chapter
+  // selection, the question sets, progress pages and points totals.
+  enabled Boolean @default(true)
 
   quiz  Quiz  @relation(fields: [quizId], references: [id], onDelete: Cascade)
   theme Theme @relation(fields: [themeId], references: [id], onDelete: Cascade)

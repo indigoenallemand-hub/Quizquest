@@ -21,7 +21,7 @@ export default async function ConfigureTrainingPage({
   if (!quiz || !canAccessQuiz(quiz, userId)) notFound();
 
   const theme = await prisma.theme.findFirst({
-    where: { id: themeId, quizzes: { some: { quizId: id } } },
+    where: { id: themeId, quizzes: { some: { quizId: id, enabled: true } } },
     select: { title: true, questions: { select: { section: true } } },
   });
   if (!theme) notFound();

@@ -39,7 +39,7 @@ export default async function SharedConfigureTrainingPage({
   }
 
   const theme = await prisma.theme.findFirst({
-    where: { id: themeId, quizzes: { some: { quizId: quiz.id } } },
+    where: { id: themeId, quizzes: { some: { quizId: quiz.id, enabled: true } } },
     select: { title: true, questions: { select: { section: true } } },
   });
   if (!theme) notFound();

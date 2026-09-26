@@ -42,8 +42,9 @@ export default async function EditQuizPage({ params }: { params: Promise<{ id: s
         <h2 style={{ fontWeight: 700, marginBottom: "0.75rem" }}>Chapitres</h2>
         <ChapterReorderList
           quizId={quiz.id}
-          initialChapters={quiz.themes.map(({ theme }) => ({
+          initialChapters={quiz.themes.map(({ theme, enabled }) => ({
             id: theme.id,
+            enabled,
             title: theme.title,
             questionCount: theme._count.questions,
           }))}

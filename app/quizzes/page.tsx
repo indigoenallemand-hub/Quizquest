@@ -14,7 +14,7 @@ export default async function QuizzesPage() {
       id: true,
       title: true,
       description: true,
-      themes: { select: { theme: { select: { _count: { select: { questions: true } } } } } },
+      themes: { where: { enabled: true }, select: { theme: { select: { _count: { select: { questions: true } } } } } },
     },
   });
 

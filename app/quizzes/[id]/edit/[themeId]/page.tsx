@@ -6,6 +6,7 @@ import { userOwnsThemeQuiz } from "@/lib/question-ownership";
 import { buildThemeStyle } from "@/lib/quiz-theme-style";
 import { parseQuestionContent } from "@/lib/question-resolver";
 import QuestionListActions from "@/components/QuestionListActions";
+import ChapterDescriptionForm from "@/components/ChapterDescriptionForm";
 
 const TYPE_LABEL: Record<string, string> = {
   QCM_SIMPLE: "QCM simple",
@@ -29,7 +30,7 @@ export default async function EditThemeQuestionsPage({
 
   const [quiz, theme] = await Promise.all([
     prisma.quiz.findUnique({ where: { id }, select: { title: true, themeColors: true } }),
-    prisma.theme.findUnique({ where: { id: themeId }, select: { title: true, questions: true } }),
+    prisma.theme.findUnique({ where: { id: themeId }, select: { title: true, description: true, questions: true } }),
   ]);
   if (!quiz || !theme) notFound();
 
@@ -55,6 +56,8 @@ export default async function EditThemeQuestionsPage({
         </h1>
         <p className="qz-start-subtitle">{questions.length} questions</p>
       </div>
+
+      <ChapterDescriptionForm quizId={id} themeId={themeId} initialDescription={theme.description ?? ""} />
 
       <Link href={`/quizzes/${id}/edit/${themeId}/new`} className="qz-btn-primary" style={{ width: "auto", display: "inline-block" }}>
         + Ajouter une question

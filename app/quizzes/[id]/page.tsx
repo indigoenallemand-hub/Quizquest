@@ -27,6 +27,7 @@ export default async function QuizDetailPage({
     where: { id },
     include: {
       themes: {
+        where: { enabled: true },
         orderBy: { order: "asc" },
         include: { theme: { include: { questions: true } } },
       },

@@ -17,6 +17,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
       status: true,
       creatorId: true,
       themes: {
+        where: { enabled: true },
         orderBy: { order: "asc" },
         select: {
           theme: {

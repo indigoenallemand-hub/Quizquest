@@ -32,7 +32,7 @@ export default async function SharedQuizProgressPage({
     include: {
       quiz: {
         include: {
-          themes: { orderBy: { order: "asc" }, include: { theme: { select: { id: true, title: true, questions: true } } } },
+          themes: { where: { enabled: true }, orderBy: { order: "asc" }, include: { theme: { select: { id: true, title: true, questions: true } } } },
         },
       },
     },

@@ -34,6 +34,7 @@ export default async function QuizProgressPage({
     where: { id },
     include: {
       themes: {
+        where: { enabled: true },
         orderBy: { order: "asc" },
         include: { theme: { select: { id: true, title: true, questions: true } } },
       },

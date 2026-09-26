@@ -24,9 +24,18 @@ interface Chapter {
   id: string;
   title: string;
   questionCount: number;
+  enabled: boolean;
 }
 
-function Row({ quizId, chapter }: { quizId: string; chapter: Chapter }) {
+function Row({
+  quizId,
+  chapter,
+  onToggle,
+}: {
+  quizId: string;
+  chapter: Chapter;
+  onToggle: (chapter: Chapter, enabled: boolean) => void;
+}) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: chapter.id });
 
   return (
@@ -40,7 +49,7 @@ function Row({ quizId, chapter }: { quizId: string; chapter: Chapter }) {
         gap: "0.75rem",
         transform: CSS.Transform.toString(transform),
         transition,
-        opacity: isDragging ? 0.5 : 1,
+        opacity: isDragging ? 0.5 : chapter.enabled ? 1 : 0.55,
       }}
     >
       <button
@@ -65,9 +74,26 @@ function Row({ quizId, chapter }: { quizId: string; chapter: Chapter }) {
         href={`/quizzes/${quizId}/edit/${chapter.id}`}
         style={{ flex: 1, display: "flex", justifyContent: "space-between", alignItems: "center" }}
       >
-        <span style={{ fontWeight: 600 }}>{chapter.title}</span>
+        <span style={{ fontWeight: 600 }}>
+          {chapter.title}
+          {!chapter.enabled && (
+            <span style={{ fontWeight: 400, fontSize: "0.8rem", color: "var(--qz-muted)" }}> — désactivé</span>
+          )}
+        </span>
         <span className="qz-chapter-questions-count">{chapter.questionCount} questions</span>
       </Link>
+      <label
+        title="Un chapitre désactivé n'apparaît plus dans la sélection de chapitres et n'est plus compté dans les points."
+        style={{ display: "flex", alignItems: "center", gap: "0.375rem", fontSize: "0.8rem", cursor: "pointer", whiteSpace: "nowrap" }}
+      >
+        <input
+          type="checkbox"
+          checked={chapter.enabled}
+          onChange={(e) => onToggle(chapter, e.target.checked)}
+          style={{ width: "16px", height: "16px" }}
+        />
+        Actif
+      </label>
     </li>
   );
 }
@@ -107,6 +133,23 @@ export default function ChapterReorderList({ quizId, initialChapters }: { quizId
     setSaving(false);
   }
 
+  async function handleToggle(chapter: Chapter, enabled: boolean) {
+    const setEnabled = (value: boolean) =>
+      setChapters((prev) => prev.map((c) => (c.id === chapter.id ? { ...c, enabled: value } : c)));
+    setEnabled(enabled);
+    setError(null);
+
+    const res = await fetch(`/api/quizzes/${quizId}/chapters/${chapter.id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ enabled }),
+    });
+    if (!res.ok) {
+      setEnabled(!enabled);
+      setError("Échec de l'activation / désactivation du chapitre.");
+    }
+  }
+
   async function handleAddChapter(e: React.FormEvent) {
     e.preventDefault();
     if (!newTitle.trim()) return;
@@ -124,7 +167,7 @@ export default function ChapterReorderList({ quizId, initialChapters }: { quizId
       return;
     }
     const { theme } = await res.json();
-    setChapters((prev) => [...prev, { id: theme.id, title: theme.title, questionCount: 0 }]);
+    setChapters((prev) => [...prev, { id: theme.id, title: theme.title, questionCount: 0, enabled: true }]);
     setNewTitle("");
     setAdding(false);
   }
@@ -135,7 +178,7 @@ export default function ChapterReorderList({ quizId, initialChapters }: { quizId
         <SortableContext items={chapters.map((c) => c.id)} strategy={verticalListSortingStrategy}>
           <ul style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {chapters.map((chapter) => (
-              <Row key={chapter.id} quizId={quizId} chapter={chapter} />
+              <Row key={chapter.id} quizId={quizId} chapter={chapter} onToggle={handleToggle} />
             ))}
           </ul>
         </SortableContext>
