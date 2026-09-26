@@ -1,0 +1,861 @@
+{
+  "title": "Conciergerie",
+  "description": "Immobase — Conciergerie : historique, compétences, cahier des charges, contrats, salaire, nettoyage, stockage, sécurité au travail, déchets et formations.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Historique et tendances",
+      "content": {
+        "enonce": "Qui assurait principalement la conciergerie entre 1960 et 1990 ?",
+        "propositions": [
+          "Des concierges privés, souvent à temps partiel et habitant l'immeuble (contrat mixte bail/loyer)",
+          "Des sociétés multi-services (facility management)",
+          "Chaque habitant, selon le principe « que chacun balaie devant sa porte »",
+          "Des employés communaux détachés par la voirie, rémunérés par une taxe d'entretien prélevée sur les loyers et reversée à la commune"
+        ],
+        "reponse_correcte": "Des concierges privés, souvent à temps partiel et habitant l'immeuble (contrat mixte bail/loyer)",
+        "explication": "Avant 1960 : « que chacun balaie devant sa porte ». 1960-1990 : monopole des concierges privés, souvent à temps partiel et habitant l'immeuble. Années 90 : arrivée des sociétés multi-services (FM)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Historique et tendances",
+      "content": {
+        "enonce": "À partir de quand les sociétés multi-services (facility management) arrivent-elles sur le marché de la conciergerie ?",
+        "propositions": [
+          "Dans les années 1990",
+          "Avant 1960",
+          "Dans les années 2010, avec les nouvelles filières AFP et CFC d'agent de propreté et d'agent d'exploitation",
+          "En 2023"
+        ],
+        "reponse_correcte": "Dans les années 1990",
+        "explication": "Les sociétés multi-services (FM) arrivent dans les années 90 ; les années 2000 voient une mise à niveau des relations de travail avec les concierges privés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Historique et tendances",
+      "content": {
+        "enonce": "Quelle est la répartition estimée en 2023 entre concierges et sociétés de facility management en Suisse romande ?",
+        "propositions": [
+          "Environ 50/50",
+          "Environ 30 % de concierges et 70 % de sociétés de facility management, comme en Suisse alémanique",
+          "Environ 90 % de concierges privés habitant l'immeuble",
+          "Environ 10 % de concierges et 90 % de sociétés"
+        ],
+        "reponse_correcte": "Environ 50/50",
+        "explication": "Estimation 2023 : Suisse romande 50/50 concierges vs FM ; Suisse alémanique 30/70."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Historique et tendances",
+      "content": {
+        "enonce": "Quelles sont les tendances actuelles des services de conciergerie ?",
+        "propositions": [
+          "Réduction des petits temps partiels au profit de concierges professionnels ou de sociétés",
+          "Meilleure administration des contrats de travail et disparition des contrats mixtes (bail et loyer)",
+          "Intégration verticale du service d'entretien par le propriétaire ou la gérance",
+          "Retour généralisé au concierge bénévole logé gratuitement dans l'immeuble en échange de ses services",
+          "Multiplication des contrats mixtes"
+        ],
+        "reponses_correctes": [
+          "Réduction des petits temps partiels au profit de concierges professionnels ou de sociétés",
+          "Meilleure administration des contrats de travail et disparition des contrats mixtes (bail et loyer)",
+          "Intégration verticale du service d'entretien par le propriétaire ou la gérance"
+        ],
+        "explication": "Trois tendances : moins de petits temps partiels, meilleure administration des contrats (disparition des contrats mixtes), intégration verticale de l'entretien par le propriétaire ou la gérance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compétences requises",
+      "content": {
+        "enonce": "Qui le concierge représente-t-il dans l'immeuble ?",
+        "propositions": [
+          "Le propriétaire et la gérance",
+          "Les locataires",
+          "La commune",
+          "L'association des locataires"
+        ],
+        "reponse_correcte": "Le propriétaire et la gérance",
+        "explication": "Le concierge représente le propriétaire et la gérance. Il assure l'entretien, rend service aux habitants mais les surveille aussi, et fait le lien au sein de l'immeuble et avec l'extérieur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compétences requises",
+      "content": {
+        "enonce": "En quels trois ordres se répartissent les compétences requises d'un concierge ?",
+        "propositions": [
+          "Professionnelles, méthodologiques, sociales et personnelles",
+          "Juridiques, comptables et commerciales",
+          "Techniques, administratives et financières, comme pour l'administrateur de PPE",
+          "Manuelles uniquement"
+        ],
+        "reponse_correcte": "Professionnelles, méthodologiques, sociales et personnelles",
+        "explication": "Les compétences sont professionnelles, méthodologiques, et sociales/personnelles."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Compétences requises",
+      "content": {
+        "enonce": "Lesquelles sont des compétences PROFESSIONNELLES du concierge ?",
+        "propositions": [
+          "Nettoyage",
+          "Maintenance et contrôle des installations techniques",
+          "Entretien et petites réparations dans et autour du bâtiment",
+          "Entretien des espaces verts",
+          "Gestion des déchets",
+          "Capacité à gérer des conflits et à se faire respecter"
+        ],
+        "reponses_correctes": [
+          "Nettoyage",
+          "Maintenance et contrôle des installations techniques",
+          "Entretien et petites réparations dans et autour du bâtiment",
+          "Entretien des espaces verts",
+          "Gestion des déchets"
+        ],
+        "explication": "La gestion des conflits relève des compétences sociales et personnelles."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Compétences requises",
+      "content": {
+        "enonce": "Lesquelles sont des compétences MÉTHODOLOGIQUES du concierge ?",
+        "propositions": [
+          "Techniques de travail et résolution de problèmes",
+          "Créativité et adaptation à l'environnement",
+          "Gestion des produits et sécurité au travail",
+          "Comportement rationnel et écologique",
+          "Résistance physique et psychique",
+          "Civilité et diplomatie"
+        ],
+        "reponses_correctes": [
+          "Techniques de travail et résolution de problèmes",
+          "Créativité et adaptation à l'environnement",
+          "Gestion des produits et sécurité au travail",
+          "Comportement rationnel et écologique"
+        ],
+        "explication": "Résistance physique et psychique, civilité et diplomatie sont des compétences sociales et personnelles."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Compétences requises",
+      "content": {
+        "enonce": "Lesquelles sont des compétences SOCIALES ET PERSONNELLES du concierge ?",
+        "propositions": [
+          "Autonomie et responsabilité",
+          "Aptitude à la communication",
+          "Capacité à gérer des conflits et à se faire respecter",
+          "Travail en équipe, mais aussi capacité à fonctionner seul",
+          "Résistance physique et psychique",
+          "Entretien des espaces verts"
+        ],
+        "reponses_correctes": [
+          "Autonomie et responsabilité",
+          "Aptitude à la communication",
+          "Capacité à gérer des conflits et à se faire respecter",
+          "Travail en équipe, mais aussi capacité à fonctionner seul",
+          "Résistance physique et psychique"
+        ],
+        "explication": "S'y ajoutent civilité et diplomatie. L'entretien des espaces verts est une compétence professionnelle."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Quels aspects le cahier des charges du concierge couvre-t-il ?",
+        "propositions": [
+          "Nettoyage intérieur",
+          "Nettoyage extérieur",
+          "Maintenance des installations techniques",
+          "Surveillance et contrôle",
+          "Service aux habitants et tâches administratives",
+          "Fixation des loyers et encaissement des garanties de loyer"
+        ],
+        "reponses_correctes": [
+          "Nettoyage intérieur",
+          "Nettoyage extérieur",
+          "Maintenance des installations techniques",
+          "Surveillance et contrôle",
+          "Service aux habitants et tâches administratives"
+        ],
+        "explication": "Cinq aspects : nettoyage intérieur, nettoyage extérieur, maintenance des installations techniques, surveillance et contrôle, service aux habitants et tâches administratives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Le déneigement et le salage des accès communs au bâtiment font partie de quelle rubrique du cahier des charges ?",
+        "propositions": [
+          "Nettoyage extérieur",
+          "Maintenance des installations techniques",
+          "Surveillance et contrôle, au même titre que la surveillance de la fermeture des portes d'accès et des fenêtres",
+          "Service aux habitants"
+        ],
+        "reponse_correcte": "Nettoyage extérieur",
+        "explication": "Le nettoyage extérieur comprend balayage, débroussaillage, tonte, taille des haies, désherbage, arrosage, nettoyage haute pression, gestion des containers, déneigement et salage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "La vidange et la fermeture des robinets et conduites d'eau extérieures avant le gel relèvent de :",
+        "propositions": [
+          "La maintenance des installations techniques",
+          "Le nettoyage extérieur, puisque ces conduites servent à l'arrosage du gazon, des plates-bandes et des arbustes",
+          "Le service aux habitants",
+          "Les tâches administratives"
+        ],
+        "reponse_correcte": "La maintenance des installations techniques",
+        "explication": "La maintenance technique comprend fusibles et ampoules, chauffage, bouilleur, ventilation, alarme, vidange des conduites extérieures avant gel, entretien des machines de buanderie, portes, ascenseurs, sprinklers, interventions urgentes et matériel d'entretien."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Lesquelles de ces tâches relèvent de la SURVEILLANCE ET DU CONTRÔLE ?",
+        "propositions": [
+          "Signalement des sous-locations ou locations de type Airbnb",
+          "Contrôle de l'uniformité des plaquettes de boîtes aux lettres",
+          "Contrôle des travaux effectués par des tiers mandatés",
+          "Contrôle de tout usage non autorisé de l'électricité (ex. prises « voleuses »)",
+          "Accueil des nouveaux habitants et remise des clés et cartes de lessive",
+          "Chargement des cartes de lessive"
+        ],
+        "reponses_correctes": [
+          "Signalement des sous-locations ou locations de type Airbnb",
+          "Contrôle de l'uniformité des plaquettes de boîtes aux lettres",
+          "Contrôle des travaux effectués par des tiers mandatés",
+          "Contrôle de tout usage non autorisé de l'électricité (ex. prises « voleuses »)"
+        ],
+        "explication": "L'accueil des nouveaux habitants et le chargement des cartes de lessive relèvent du service aux habitants et des tâches administratives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "L'accueil des nouveaux habitants (clés, cartes de lessive, informations) fait partie de :",
+        "propositions": [
+          "Service aux habitants et tâches administratives",
+          "Surveillance et contrôle, car le concierge doit vérifier l'identité des nouveaux occupants et signaler toute sous-location à la gérance",
+          "Nettoyage intérieur",
+          "Maintenance des installations techniques"
+        ],
+        "reponse_correcte": "Service aux habitants et tâches administratives",
+        "explication": "Le service aux habitants comprend l'accueil, l'animation de la vie sociale, les petits services, la gestion des clés, les visites des appartements vacants, les rapports, les cartes de lessive, le stock de matériel, la vitrinette et la communication avec la régie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Par quels éléments le cahier des charges peut-il être complété selon les spécificités de l'immeuble ?",
+        "propositions": [
+          "Un plan de situation (zones de verdure, accès, parking…)",
+          "La distinction des parties communes et privatives (PPE)",
+          "Un planning horaire (mensuel, hebdomadaire ou saisonnier)",
+          "Un descriptif détaillé des tâches (journalières, hebdomadaires, mensuelles…)",
+          "La liste des loyers de chaque appartement"
+        ],
+        "reponses_correctes": [
+          "Un plan de situation (zones de verdure, accès, parking…)",
+          "La distinction des parties communes et privatives (PPE)",
+          "Un planning horaire (mensuel, hebdomadaire ou saisonnier)",
+          "Un descriptif détaillé des tâches (journalières, hebdomadaires, mensuelles…)"
+        ],
+        "explication": "Le cahier des charges peut être complété par un plan de situation, la distinction parties communes/privatives, un planning horaire et un descriptif détaillé des tâches."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Selon le cahier des charges type, que doit faire le concierge en cas de bruits suspects pouvant provenir d'un cambriolage ?",
+        "propositions": [
+          "Avertir immédiatement la police, mais ne pas intervenir lui-même",
+          "Intervenir personnellement pour arrêter les suspects, puisqu'il est chargé de la surveillance générale de l'immeuble",
+          "Attendre le lendemain et en informer la gérance",
+          "Réunir les locataires pour organiser une ronde de surveillance nocturne dans les parties communes"
+        ],
+        "reponse_correcte": "Avertir immédiatement la police, mais ne pas intervenir lui-même",
+        "explication": "Vols et déprédations sont signalés immédiatement à la police et à la gérance. En cas de bruits suspects, le concierge avertit la police mais n'intervient pas lui-même."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Selon le cahier des charges type, que doit faire le concierge en cas d'inondation ou de rupture de tuyaux ?",
+        "propositions": [
+          "Fermer immédiatement les vannes du bâtiment et aviser la gérance",
+          "Attendre l'arrivée du plombier désigné par la gérance sans rien toucher, afin de ne pas engager sa responsabilité",
+          "Couper l'électricité de tout le quartier",
+          "Demander aux locataires de contacter eux-mêmes leur assurance ménage"
+        ],
+        "reponse_correcte": "Fermer immédiatement les vannes du bâtiment et aviser la gérance",
+        "explication": "En cas d'inondation ou de rupture de tuyaux, il ferme immédiatement les vannes. En dehors des heures de bureau, il peut faire appel aux entreprises attribuées à l'immeuble par la gérance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Selon le cahier des charges type, quelle température maximale l'eau chaude ne doit-elle pas dépasser ?",
+        "propositions": [
+          "55 °C",
+          "35 °C",
+          "80 °C, afin d'éviter tout risque de légionellose dans les conduites de l'immeuble",
+          "100 °C"
+        ],
+        "reponse_correcte": "55 °C",
+        "explication": "Le cahier des charges type prévoit de ne pas dépasser 55° pour l'eau chaude."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cahier des charges",
+      "content": {
+        "enonce": "Selon le cahier des charges type, quand le concierge doit-il transmettre le rapport de conciergerie à la gérance ?",
+        "propositions": [
+          "À la fin du mois, avant le 5 du mois suivant",
+          "Une fois par année, avec le décompte de chauffage et de frais accessoires",
+          "Chaque jour",
+          "Uniquement en cas de problème"
+        ],
+        "reponse_correcte": "À la fin du mois, avant le 5 du mois suivant",
+        "explication": "Le concierge remplit le rapport de conciergerie à la fin du mois et le transmet à la gérance avant le 5 du mois suivant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Sous quelle forme le contrat de conciergerie peut-il être conclu ?",
+        "propositions": [
+          "Oral, tacite ou écrit, la forme écrite étant recommandée",
+          "Uniquement par écrit, sous peine de nullité",
+          "Uniquement en la forme authentique devant notaire",
+          "Uniquement sur formule officielle"
+        ],
+        "reponse_correcte": "Oral, tacite ou écrit, la forme écrite étant recommandée",
+        "explication": "Le contrat peut être oral, tacite ou écrit ; la forme écrite est recommandée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Dans un contrat MIXTE de conciergerie, le concierge :",
+        "propositions": [
+          "Perçoit un salaire et paie un loyer",
+          "Perçoit uniquement un salaire",
+          "Est lui-même entrepreneur et facture ses prestations au propriétaire sur la base d'un contrat de mandat (art. 394 ss CO)",
+          "Est logé gratuitement sans salaire"
+        ],
+        "reponse_correcte": "Perçoit un salaire et paie un loyer",
+        "explication": "Contrat de travail : salaire. Contrat mixte : salaire + loyer. Contrat de mandat : le concierge est lui-même entrepreneur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Quelles sont les bases légales du contrat de conciergerie ?",
+        "propositions": [
+          "Le contrat de travail (art. 319 ss CO) et le contrat de mandat (art. 394 ss CO)",
+          "Le bail à loyer (art. 253 ss CO) exclusivement",
+          "La loi sur le travail et la convention collective nationale de l'hôtellerie-restauration, applicables à tous les services aux habitants",
+          "Le Code civil (art. 712a ss CC)"
+        ],
+        "reponse_correcte": "Le contrat de travail (art. 319 ss CO) et le contrat de mandat (art. 394 ss CO)",
+        "explication": "Le droit des contrats : contrat de travail (art. 319 ss CO) et contrat de mandat (art. 394 ss CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Lorsque le concierge est logé dans l'immeuble, qu'est-il recommandé de faire ?",
+        "propositions": [
+          "Conclure deux contrats distincts : un bail pour le logement et un contrat pour le service d'immeuble",
+          "Conclure un seul contrat mixte, plus simple à gérer, qui regroupe le salaire et le loyer",
+          "Ne rien écrire, un accord oral suffit",
+          "Déduire le loyer du salaire sans aucun contrat de bail, afin d'éviter l'application des règles de protection des locataires"
+        ],
+        "reponse_correcte": "Conclure deux contrats distincts : un bail pour le logement et un contrat pour le service d'immeuble",
+        "explication": "Deux contrats distincts sont recommandés : le contrat mixte pose des problèmes (prédominance des prestations bail vs travail)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Dans un litige entre le propriétaire et le concierge au bénéfice d'un contrat mixte, peut-on appliquer simultanément le droit du bail et le droit du travail ?",
+        "propositions": [
+          "Non, aucune application simultanée n'est possible",
+          "Oui, le juge applique toujours les deux droits cumulativement, en choisissant pour chaque question la règle la plus favorable au concierge",
+          "Oui, mais uniquement pour la résiliation",
+          "Non, seul le droit du bail s'applique"
+        ],
+        "reponse_correcte": "Non, aucune application simultanée n'est possible",
+        "explication": "Pendant la durée du contrat, chaque prestation est soumise aux règles du contrat dont elle relève ; il n'y a pas d'application simultanée des normes du bail et du travail dans un litige."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Que devient le contrat du concierge en cas de vente de l'immeuble ?",
+        "propositions": [
+          "Il est transféré au nouveau propriétaire (transfert d'entreprise)",
+          "Il prend fin automatiquement le jour du transfert de propriété",
+          "Il prend fin à la prochaine échéance contractuelle",
+          "Il est suspendu jusqu'à décision de l'assemblée générale"
+        ],
+        "reponse_correcte": "Il est transféré au nouveau propriétaire (transfert d'entreprise)",
+        "explication": "La vente de l'immeuble entraîne le transfert du contrat du concierge au nouveau propriétaire (transfert d'entreprise)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Lesquelles de ces situations sont des sources potentielles de conflits dans un contrat de conciergerie ?",
+        "propositions": [
+          "Le concierge travaille le week-end ou effectue des travaux hors cahier des charges",
+          "Le concierge engage et rémunère lui-même son remplaçant",
+          "Le concierge cumule des temps partiels dépassant 100 %",
+          "Les prestations sont confiées à un couple",
+          "Les prestations réciproques sont sous-évaluées (petit salaire contre petit loyer)",
+          "Le contrat est conclu par écrit avec un cahier des charges annexé"
+        ],
+        "reponses_correctes": [
+          "Le concierge travaille le week-end ou effectue des travaux hors cahier des charges",
+          "Le concierge engage et rémunère lui-même son remplaçant",
+          "Le concierge cumule des temps partiels dépassant 100 %",
+          "Les prestations sont confiées à un couple",
+          "Les prestations réciproques sont sous-évaluées (petit salaire contre petit loyer)"
+        ],
+        "explication": "Ces « morceaux choisis » sont des sources de conflits ; la sous-évaluation entraîne notamment une LPP limitée et une faible valeur locative. Le contrat écrit avec cahier des charges est au contraire recommandé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Selon le contrat type, qui engage et rémunère le remplaçant du concierge pendant ses vacances ?",
+        "propositions": [
+          "Le propriétaire ou son représentant, le concierge participant à la recherche du remplaçant",
+          "Le concierge lui-même, sur son propre salaire",
+          "Les locataires, au prorata de leurs loyers",
+          "La commune, dans le cadre de l'aide sociale aux personnes en recherche d'emploi qui effectuent des remplacements temporaires"
+        ],
+        "reponse_correcte": "Le propriétaire ou son représentant, le concierge participant à la recherche du remplaçant",
+        "explication": "Le concierge participe activement à la recherche de son remplaçant, mais celui-ci est engagé et rémunéré par le propriétaire ou son représentant. Le concierge qui engage et paie lui-même son remplaçant est une source de conflit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Selon le contrat type, quelle est la durée de la période d'essai ?",
+        "propositions": [
+          "Trois mois",
+          "Un mois",
+          "Six mois, renouvelable une fois d'entente entre les parties si le cahier des charges n'est pas encore maîtrisé",
+          "Il n'y a pas de période d'essai"
+        ],
+        "reponse_correcte": "Trois mois",
+        "explication": "Les trois premiers mois sont une période d'essai (art. 335b CO). Ensuite, le contrat peut être dénoncé par lettre recommandée, moyennant un préavis de trois mois pour la fin d'un mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Selon le contrat type, s'il existe un bail séparé pour le logement de service, comment les deux contrats peuvent-ils être résiliés ?",
+        "propositions": [
+          "Pour la même date : la résiliation de l'un entraîne celle de l'autre, le bail devant être résilié sur formule officielle",
+          "Indépendamment l'un de l'autre, à des dates différentes",
+          "Le bail ne peut jamais être résilié tant que le concierge est en fonction, même en cas de faute grave de sa part",
+          "Uniquement par décision du juge"
+        ],
+        "reponse_correcte": "Pour la même date : la résiliation de l'un entraîne celle de l'autre, le bail devant être résilié sur formule officielle",
+        "explication": "Le terme du contrat de conciergerie est celui du bail ; les deux ne peuvent être résiliés que pour la même date. La résiliation du bail doit se faire sur formule officielle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Selon le contrat type, à partir de quel montant d'achat de fournitures un « bon » délivré par le propriétaire est-il nécessaire ?",
+        "propositions": [
+          "Plus de Fr. 300.-",
+          "Plus de Fr. 50.-",
+          "Plus de Fr. 3'000.-, les achats inférieurs pouvant être remboursés sur simple présentation du ticket de caisse",
+          "Jamais"
+        ],
+        "reponse_correcte": "Plus de Fr. 300.-",
+        "explication": "Les fournitures sont à la charge du propriétaire ; pour tout achat supérieur à Fr. 300.-, des « bons » sont délivrés. Le matériel commandé sans bon n'est pas remboursé."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contrat de conciergerie",
+      "content": {
+        "enonce": "Quels éléments le contrat de conciergerie doit-il prévoir ?",
+        "propositions": [
+          "L'identité de l'immeuble, de l'employeur et de l'employé",
+          "La durée du contrat, l'entrée en fonction et les jours travaillés",
+          "L'état des lieux et l'inventaire du matériel d'entretien",
+          "Accidents, maladie, LPP, vacances et absences",
+          "La rémunération et le droit applicable",
+          "Le montant des loyers des autres locataires de l'immeuble"
+        ],
+        "reponses_correctes": [
+          "L'identité de l'immeuble, de l'employeur et de l'employé",
+          "La durée du contrat, l'entrée en fonction et les jours travaillés",
+          "L'état des lieux et l'inventaire du matériel d'entretien",
+          "Accidents, maladie, LPP, vacances et absences",
+          "La rémunération et le droit applicable"
+        ],
+        "explication": "S'y ajoutent les obligations, les dispositions particulières, la date et la signature."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Salaire du concierge",
+      "content": {
+        "enonce": "Selon la méthode de l'état locatif, quelle part de l'état locatif net compte-t-on idéalement pour le salaire du concierge ?",
+        "propositions": [
+          "Entre 1 et 6 %",
+          "Entre 10 et 15 %",
+          "Entre 0,1 et 0,5 %, comme pour l'attribution annuelle minimale au fonds de rénovation d'une PPE",
+          "25 %"
+        ],
+        "reponse_correcte": "Entre 1 et 6 %",
+        "explication": "Méthode 1 : selon l'état locatif net, idéalement entre 1 et 6 %, en fonction du cahier des charges, de la fréquence des passages et des conditions complémentaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Salaire du concierge",
+      "content": {
+        "enonce": "Selon la méthode forfaitaire du cours, quel est le salaire mensuel d'un concierge pour un immeuble de 2 entrées et 30 appartements ?",
+        "propositions": [
+          "CHF 950.-",
+          "CHF 3'000.-",
+          "CHF 1'550.- (CHF 100.- par appartement plus CHF 25.- par entrée, puis majoration de 50 % pour le travail du week-end)",
+          "CHF 750.-"
+        ],
+        "reponse_correcte": "CHF 950.-",
+        "explication": "Méthode 2 : CHF 100.- par entrée + CHF 25.- par appartement, soit 2 × 100 + 30 × 25 = CHF 950.-/mois."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Salaire du concierge",
+      "content": {
+        "enonce": "Un immeuble compte {entrees} entrées (cages d'escalier) et {appartements} appartements. Selon la méthode forfaitaire (CHF 100.- par entrée + CHF 25.- par appartement), quel est le salaire mensuel du concierge (en CHF) ?",
+        "variables": [
+          {
+            "nom": "entrees",
+            "min": 1,
+            "max": 5,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "appartements",
+            "min": 6,
+            "max": 60,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "entrees * 100 + appartements * 25",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 0,
+        "tolerance": 0,
+        "explication": "Salaire = entrées × CHF 100.- + appartements × CHF 25.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Salaire du concierge",
+      "content": {
+        "enonce": "Selon la méthode du minutage, dans quelle fourchette horaire convertit-on le temps du cahier des charges ?",
+        "propositions": [
+          "CHF 25.- à 50.-/h",
+          "CHF 10.- à 15.-/h",
+          "CHF 80.- à 120.-/h, soit le tarif d'une entreprise de nettoyage mandatée, TVA et frais de déplacement compris",
+          "CHF 200.-/h"
+        ],
+        "reponse_correcte": "CHF 25.- à 50.-/h",
+        "explication": "Méthode 3 : convertir le minutage du cahier des charges en heures, avec une fourchette de CHF 25.- à 50.-/h."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Nettoyage et matériel",
+      "content": {
+        "enonce": "Quels sont, selon le cours, les deux facteurs-clés du nettoyage ?",
+        "propositions": [
+          "L'organisation et la régularité",
+          "La quantité de produit et la température de l'eau",
+          "Le prix du matériel et la marque des détergents",
+          "La vitesse et la puissance des machines"
+        ],
+        "reponse_correcte": "L'organisation et la régularité",
+        "explication": "Entretien = bon sens + motivation + produit adapté. Le nettoyage d'un bâtiment d'habitation est simple ; l'organisation et la régularité sont les facteurs-clés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Nettoyage et matériel",
+      "content": {
+        "enonce": "Quelles bonnes pratiques s'appliquent au choix du matériel de conciergerie ?",
+        "propositions": [
+          "Impliquer le concierge dans les choix et demander une visite du fournisseur",
+          "Privilégier la qualité plutôt que la quantité",
+          "Penser à l'ergonomie et au rendement (ex. aspirateur dorsal)",
+          "Faire un inventaire des outils et machines au moment du contrat",
+          "Commander le matériel 1 à 2 fois par année",
+          "Utiliser un kit et un budget standard identiques pour tous les immeubles"
+        ],
+        "reponses_correctes": [
+          "Impliquer le concierge dans les choix et demander une visite du fournisseur",
+          "Privilégier la qualité plutôt que la quantité",
+          "Penser à l'ergonomie et au rendement (ex. aspirateur dorsal)",
+          "Faire un inventaire des outils et machines au moment du contrat",
+          "Commander le matériel 1 à 2 fois par année"
+        ],
+        "explication": "Il n'y a pas de kit ni de budget standard : chaque immeuble est différent."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Nettoyage et matériel",
+      "content": {
+        "enonce": "Dans un ancien immeuble, qui paie l'achat d'une tondeuse et qui paie son entretien ?",
+        "propositions": [
+          "Achat : le bailleur ; entretien : les locataires (consommables, via les frais accessoires)",
+          "Achat et entretien : les locataires",
+          "Achat : les locataires via les frais accessoires ; entretien : le bailleur, puisque l'entretien de la chose louée lui incombe toujours",
+          "Achat et entretien : le concierge"
+        ],
+        "reponse_correcte": "Achat : le bailleur ; entretien : les locataires (consommables, via les frais accessoires)",
+        "explication": "Ancien immeuble : machines et équipement à charge du bailleur, consommables généralement à charge des locataires (le détail des frais de conciergerie doit figurer dans le bail). Nouvel immeuble : machines sur le budget de construction, consommables sur le budget d'exploitation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Nettoyage et matériel",
+      "content": {
+        "enonce": "Le salaire et la formation continue du concierge peuvent-ils être répercutés dans les charges ?",
+        "propositions": [
+          "Oui, ils font partie des charges admises, à condition de rester à un niveau raisonnable",
+          "Non, ils sont toujours à la charge exclusive du bailleur",
+          "Seulement le salaire, la formation continue étant une dépense d'investissement que le bailleur doit amortir sur la durée de vie du bâtiment",
+          "Seulement si les locataires l'acceptent en assemblée"
+        ],
+        "reponse_correcte": "Oui, ils font partie des charges admises, à condition de rester à un niveau raisonnable",
+        "explication": "Le salaire et la formation continue du concierge font partie des charges admises ; les coûts du service de conciergerie doivent rester raisonnables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Nettoyage et matériel",
+      "content": {
+        "enonce": "Quel budget annuel de matériel le cours indique-t-il pour un nouveau petit immeuble ?",
+        "propositions": [
+          "CHF 1'000.- à 2'000.-",
+          "CHF 100.- à 200.-",
+          "CHF 2'500.- à 5'000.-, soit le budget indiqué pour un grand immeuble",
+          "CHF 20'000.-"
+        ],
+        "reponse_correcte": "CHF 1'000.- à 2'000.-",
+        "explication": "Nouveau petit immeuble : CHF 1'000.- à 2'000.- ; grand immeuble : CHF 2'500.- à 5'000.-. Les sacs taxés représentent une part élevée du budget d'exploitation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stockage et sécurité",
+      "content": {
+        "enonce": "Quelles sont les caractéristiques du local de stockage idéal des produits de nettoyage ?",
+        "propositions": [
+          "Un local sous clé, frais, aéré, avec un point d'eau et une grille d'écoulement",
+          "Des étagères en métal ou en plastique",
+          "Les produits dangereux stockés en bas (éventuellement dans un bac de rétention)",
+          "Un dossier avec l'inventaire du stock et les fiches de données de sécurité (FDS)",
+          "Un local situé dans la chaufferie pour que les produits ne gèlent pas en hiver",
+          "Des produits reconditionnés dans des bouteilles de soda pour en faciliter l'usage"
+        ],
+        "reponses_correctes": [
+          "Un local sous clé, frais, aéré, avec un point d'eau et une grille d'écoulement",
+          "Des étagères en métal ou en plastique",
+          "Les produits dangereux stockés en bas (éventuellement dans un bac de rétention)",
+          "Un dossier avec l'inventaire du stock et les fiches de données de sécurité (FDS)"
+        ],
+        "explication": "À éviter : local dans la chaufferie, détergents hors de leur emballage d'origine (bouteilles de soda), local sans clé unique, produits par terre, produits périmés, stocks disproportionnés. « Local bien ordonné = immeuble bien nettoyé. »"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Stockage et sécurité",
+      "content": {
+        "enonce": "Pourquoi le local de conciergerie ne doit-il pas être fermé par une « clé 5000 » ?",
+        "propositions": [
+          "Parce qu'il doit être sécurisé par une clé unique, et non par une clé commune accessible à beaucoup de monde",
+          "Parce que la clé 5000 est réservée aux pompiers",
+          "Parce que la loi impose un cadenas à code pour tous les locaux contenant des produits chimiques, contrôlé chaque année par la commune",
+          "Parce que la clé 5000 ne ferme que les locaux extérieurs"
+        ],
+        "reponse_correcte": "Parce qu'il doit être sécurisé par une clé unique, et non par une clé commune accessible à beaucoup de monde",
+        "explication": "Parmi ce qu'il faut éviter : un local qui n'est pas sécurisé par une clé unique (pas de clé 5000)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stockage et sécurité",
+      "content": {
+        "enonce": "Quels mélanges de produits de nettoyage sont dangereux selon le cours ?",
+        "propositions": [
+          "Deux déboucheurs de marques différentes",
+          "Eau de Javel et vinaigre ou ammoniaque",
+          "Eau de Javel et détergent sanitaire ou détartrant acide",
+          "Eau claire et savon neutre"
+        ],
+        "reponses_correctes": [
+          "Deux déboucheurs de marques différentes",
+          "Eau de Javel et vinaigre ou ammoniaque",
+          "Eau de Javel et détergent sanitaire ou détartrant acide"
+        ],
+        "explication": "Ces mélanges peuvent provoquer des réactions dangereuses ; d'où l'importance des FDS, des étiquettes et d'outils comme l'app Infochim."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stockage et sécurité",
+      "content": {
+        "enonce": "À quels risques le concierge est-il exposé dans son travail ?",
+        "propositions": [
+          "Produits chimiques de nettoyage",
+          "Contacts électriques",
+          "Machines et matériel de nettoyage",
+          "Travaux en hauteur et chutes (escaliers, gel)",
+          "Mauvaise ergonomie au travail",
+          "Risques psychologiques (harcèlement, conflits, pression)"
+        ],
+        "reponses_correctes": [
+          "Produits chimiques de nettoyage",
+          "Contacts électriques",
+          "Machines et matériel de nettoyage",
+          "Travaux en hauteur et chutes (escaliers, gel)",
+          "Mauvaise ergonomie au travail",
+          "Risques psychologiques (harcèlement, conflits, pression)"
+        ],
+        "explication": "Tous ces risques sont cités dans le cours ; les équipements de protection individuelle (EPI) contribuent à les limiter."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Stockage et sécurité",
+      "content": {
+        "enonce": "Que signifie le sigle FDS, document à conserver pour chaque produit de nettoyage ?",
+        "propositions": [
+          "Fiche de données de sécurité",
+          "Facture de départ du stock",
+          "Formulaire de déclaration sanitaire à remettre chaque année à l'Office fédéral de la santé publique",
+          "Fonds de solidarité"
+        ],
+        "reponse_correcte": "Fiche de données de sécurité",
+        "explication": "Sources d'information sur les produits : étiquette, FDS (fiche de données de sécurité), registre des produits chimiques (RPC), fournisseur, tutoriels, app Infochim."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déchets",
+      "content": {
+        "enonce": "Depuis quand les sacs taxés sont-ils en vigueur dans le canton de Vaud selon le cours ?",
+        "propositions": [
+          "2013",
+          "1990",
+          "2023, en même temps que la généralisation des éco-points dans toutes les communes vaudoises",
+          "2005"
+        ],
+        "reponse_correcte": "2013",
+        "explication": "Le coût de traitement des déchets fait partie des questions à se poser (sacs taxés dans le canton de Vaud dès 2013)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Déchets",
+      "content": {
+        "enonce": "Quelles questions faut-il se poser pour organiser le tri et la gestion des déchets d'un immeuble ?",
+        "propositions": [
+          "Qui produit quoi, en quelle quantité, déchets privés ou communs ?",
+          "Quel est le règlement communal et le planning des ramassages ?",
+          "Les lieux de stockage sont-ils conformes et exclusifs ?",
+          "Comment gérer les encombrants et le nettoyage des containers ?",
+          "Quel est le rendement locatif net de l'immeuble ?"
+        ],
+        "reponses_correctes": [
+          "Qui produit quoi, en quelle quantité, déchets privés ou communs ?",
+          "Quel est le règlement communal et le planning des ramassages ?",
+          "Les lieux de stockage sont-ils conformes et exclusifs ?",
+          "Comment gérer les encombrants et le nettoyage des containers ?"
+        ],
+        "explication": "Autres questions : éco-points disponibles, coût de traitement (sacs taxés), poubelles dans les communs, conscience et bonne volonté des habitants."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déchets",
+      "content": {
+        "enonce": "Selon le cahier des charges type, quand le concierge doit-il rentrer les conteneurs à ordures ?",
+        "propositions": [
+          "Sitôt après le passage du camion de la voirie",
+          "Le lendemain matin",
+          "Jamais, les conteneurs restent en permanence sur le trottoir afin que les locataires puissent y déposer leurs sacs à toute heure",
+          "Une fois par semaine"
+        ],
+        "reponse_correcte": "Sitôt après le passage du camion de la voirie",
+        "explication": "Il sort les conteneurs aux jours et heures de passage de la voirie et les rentre sitôt après ; il les maintient propres et veille à ce qu'aucun sac ne soit entreposé dans les locaux communs."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formations",
+      "content": {
+        "enonce": "Quelles formations diplômantes existent en Suisse dans le domaine de la conciergerie ?",
+        "propositions": [
+          "AFP d'agent d'entretien",
+          "CFC d'agent d'exploitation",
+          "Brevet fédéral de concierge",
+          "Diplôme supérieur de gardien d'immeuble (maîtrise)",
+          "Diplôme supérieur de dirigeant en facility management",
+          "Brevet fédéral de gérant d'immeuble obligatoire pour tout concierge"
+        ],
+        "reponses_correctes": [
+          "AFP d'agent d'entretien",
+          "CFC d'agent d'exploitation",
+          "Brevet fédéral de concierge",
+          "Diplôme supérieur de gardien d'immeuble (maîtrise)",
+          "Diplôme supérieur de dirigeant en facility management"
+        ],
+        "explication": "S'y ajoute l'AFP ou CFC selon l'article 32 (adultes). Le brevet de gérant d'immeuble n'est pas une formation de concierge, et aucun diplôme n'est obligatoire."
+      }
+    }
+  ]
+}
