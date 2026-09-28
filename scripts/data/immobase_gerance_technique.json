@@ -1,0 +1,945 @@
+{
+  "title": "Gérance technique",
+  "description": "Immobase — Gérance technique : entretien du bâtiment, lecture de plans et échelles, coûts de construction (CFC), modes de construction, installations techniques, vieillissement et défauts, lois et normes, subventions et gestion des sinistres.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Entretien du bâtiment",
+      "content": {
+        "enonce": "Selon le cours, quelle part du mandat de gérance représente la part technique ?",
+        "propositions": [
+          "50 %",
+          "10 %",
+          "90 %, la gestion administrative et comptable étant presque entièrement automatisée par les logiciels de gérance",
+          "25 %"
+        ],
+        "reponse_correcte": "50 %",
+        "explication": "La part technique du mandat (50 %) comprend l'entretien courant et les réparations, la surveillance et la maintenance des installations techniques, la gestion de la conciergerie et la réalisation des états des lieux."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Entretien du bâtiment",
+      "content": {
+        "enonce": "Par quels moyens la gérance technique assure-t-elle la pérennité des biens immobiliers ?",
+        "propositions": [
+          "L'entretien courant",
+          "La rénovation des appartements, des parties communes et des extérieurs",
+          "La surveillance et la maintenance des installations techniques",
+          "L'amélioration de la performance énergétique des bâtiments",
+          "La revente systématique des immeubles de plus de 30 ans pour éviter les frais de rénovation"
+        ],
+        "reponses_correctes": [
+          "L'entretien courant",
+          "La rénovation des appartements, des parties communes et des extérieurs",
+          "La surveillance et la maintenance des installations techniques",
+          "L'amélioration de la performance énergétique des bâtiments"
+        ],
+        "explication": "Définition : assurer la pérennité des biens à court, moyen et long terme, et préserver les intérêts des propriétaires, par l'entretien courant, la rénovation, la maintenance des installations et l'amélioration énergétique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Quelles dimensions les cotes inscrites sur un plan indiquent-elles ?",
+        "propositions": [
+          "Toujours les dimensions réelles de l'objet, quelle que soit l'échelle",
+          "Les dimensions mesurées sur le papier, qu'il faut ensuite multiplier par le dénominateur de l'échelle pour obtenir la réalité",
+          "Uniquement les surfaces en m²",
+          "Les dimensions réduites, sauf sur les plans à l'échelle 1:1"
+        ],
+        "reponse_correcte": "Toujours les dimensions réelles de l'objet, quelle que soit l'échelle",
+        "explication": "Quelle que soit l'échelle adoptée, les cotes inscrites sur un plan sont toujours les dimensions réelles. Une cote indique une dimension, un niveau, une altitude ou une coordonnée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Sur un plan à l'échelle 1:50, quelle longueur représente 1 mètre réel ?",
+        "propositions": [
+          "2 cm",
+          "5 cm",
+          "50 cm",
+          "1 cm, comme sur tous les plans d'étage établis selon la norme SIA 400"
+        ],
+        "reponse_correcte": "2 cm",
+        "explication": "1 m = 100 cm ; 100 / 50 = 2 cm. Pour mémoire : 1:20 → 5 cm, 1:100 → 1 cm, 1:500 → 2 mm, 1:1000 → 1 mm."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Un meuble de 60 cm de largeur est représenté sur un plan par 3 cm. Quelle est l'échelle du plan ?",
+        "propositions": [
+          "1:20",
+          "1:50",
+          "1:200",
+          "1:30, car on divise la largeur réelle par la moitié de la longueur mesurée sur le plan"
+        ],
+        "reponse_correcte": "1:20",
+        "explication": "Échelle = dimension réelle / dimension sur le plan = 60 / 3 = 20, soit 1:20."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Un mur de 2,4 m est représenté sur un plan par 1,2 cm. Quelle est l'échelle du plan ?",
+        "propositions": [
+          "1:200",
+          "1:20",
+          "1:2",
+          "1:2000, puisqu'il faut d'abord convertir les mètres en millimètres avant de diviser"
+        ],
+        "reponse_correcte": "1:200",
+        "explication": "240 cm / 1,2 cm = 200, soit une échelle 1:200. Il faut exprimer les deux longueurs dans la même unité."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Sur un plan d'étage à l'échelle 1:50, une pièce mesure {plan} cm de longueur. Quelle est sa longueur réelle (en mètres) ?",
+        "variables": [{ "nom": "plan", "min": 4, "max": 16, "unite": "cm", "arrondi": 1 }],
+        "formule": "plan * 50 / 100",
+        "unite_reponse": "m",
+        "arrondi_reponse": 2,
+        "tolerance": 0.01,
+        "explication": "Longueur réelle = longueur sur le plan × 50 (en cm), puis ÷ 100 pour obtenir des mètres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Que signifie une échelle 5:1 ?",
+        "propositions": [
+          "Le dessin est 5 fois plus grand que l'objet réel (objet très petit dessiné agrandi)",
+          "Le dessin est 5 fois plus petit que l'objet réel",
+          "Le plan représente 5 étages sur une seule feuille",
+          "C'est l'échelle normalisée des plans de situation établis par le géomètre officiel et disponibles au cadastre"
+        ],
+        "reponse_correcte": "Le dessin est 5 fois plus grand que l'objet réel (objet très petit dessiné agrandi)",
+        "explication": "Pour un objet très petit, on dessine agrandi (5:1, 10:1…). L'échelle 1:1 correspond au dessin « grandeur nature »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "À quelle échelle établit-on habituellement un plan de situation ?",
+        "propositions": [
+          "1:500 ou 1:1000",
+          "1:20",
+          "1:100 ou 1:50, comme les plans d'étage, les élévations et les coupes générales",
+          "1:1"
+        ],
+        "reponse_correcte": "1:500 ou 1:1000",
+        "explication": "Plan de situation : 1:500 ou 1:1000. Plan d'étage, élévation, coupe : 1:100 ou 1:50. Détails cuisine/salle de bain : 1:20. Détails de fenêtres, poutres, balustrades : 1:10."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Qui établit le plan de situation et où peut-on l'obtenir ?",
+        "propositions": [
+          "Un géomètre officiel ; il s'obtient au cadastre",
+          "L'architecte ; il s'obtient auprès de la commune avec le permis de construire, après approbation par la police des constructions",
+          "Le gérant d'immeuble",
+          "L'ECA, avec la police d'assurance incendie"
+        ],
+        "reponse_correcte": "Un géomètre officiel ; il s'obtient au cadastre",
+        "explication": "Le plan de situation (limites, surface, n° de parcelle, n° ECA, servitudes, orientation, accès, implantation…) est établi par un géomètre officiel et peut être obtenu au cadastre."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Quelles informations figurent sur un plan de situation ?",
+        "propositions": [
+          "Limite de propriété et surface du bien-fonds",
+          "N° de parcelle et n° ECA",
+          "Servitudes",
+          "Orientation, immeubles voisins, accès et implantation du bâtiment",
+          "Le détail des installations électriques de chaque appartement"
+        ],
+        "reponses_correctes": [
+          "Limite de propriété et surface du bien-fonds",
+          "N° de parcelle et n° ECA",
+          "Servitudes",
+          "Orientation, immeubles voisins, accès et implantation du bâtiment"
+        ],
+        "explication": "Les installations électriques figurent sur les plans techniques, pas sur le plan de situation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Quel type de plan indique les hauteurs, le nombre de niveaux intérieurs et le profil du terrain ?",
+        "propositions": [
+          "La coupe",
+          "L'élévation",
+          "Le plan d'étage, qui est une coupe horizontale du bâtiment montrant la disposition des pièces",
+          "Le plan de situation"
+        ],
+        "reponse_correcte": "La coupe",
+        "explication": "La coupe indique hauteurs, niveaux, volumes, profil du terrain. L'élévation montre les façades. Le plan d'étage (coupe horizontale) montre la disposition et les dimensions des pièces."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Sur un plan de transformation, que signifient les couleurs jaune et rouge ?",
+        "propositions": [
+          "Jaune : à démolir ; rouge : à construire",
+          "Jaune : à construire ; rouge : à démolir",
+          "Jaune : installations électriques ; rouge : installations de chauffage",
+          "Jaune : parties privatives ; rouge : parties communes d'une PPE"
+        ],
+        "reponse_correcte": "Jaune : à démolir ; rouge : à construire",
+        "explication": "Les éléments à démolir sont indiqués en jaune, ceux à construire en rouge."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Plans et échelles",
+      "content": {
+        "enonce": "Selon quelle norme les plans d'architecte sont-ils établis ?",
+        "propositions": [
+          "SIA 400",
+          "SIA 118",
+          "SIA 181, qui fixe les règles de représentation graphique et de protection contre le bruit",
+          "AEAI"
+        ],
+        "reponse_correcte": "SIA 400",
+        "explication": "Les plans d'architecte sont établis selon la norme SIA 400 (Société suisse des ingénieurs et des architectes)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Coûts de construction",
+      "content": {
+        "enonce": "Qu'est-ce que le CFC ?",
+        "propositions": [
+          "Le Code des frais de construction : un plan comptable normalisé d'environ 1'300 postes",
+          "Une classification d'environ 140 éléments servant à établir un premier plan financier en phase d'avant-projet",
+          "Un certificat de fin de chantier",
+          "Le Code des frais courants, qui répartit les charges d'exploitation entre les locataires"
+        ],
+        "reponse_correcte": "Le Code des frais de construction : un plan comptable normalisé d'environ 1'300 postes",
+        "explication": "Le CFC sert de dénominateur commun pour les devis, appels d'offres et contrats. Le CFE (~140 éléments) sert au premier plan financier ; l'eCCC tend à remplacer le CFE."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Coûts de construction",
+      "content": {
+        "enonce": "Quel code tend à remplacer le CFE (Code des frais par éléments) ?",
+        "propositions": [
+          "L'eCCC (Code des coûts de construction)",
+          "Le CFC",
+          "La norme SIA 118, qui fixe les conditions générales d'exécution des travaux de construction",
+          "Le CECB"
+        ],
+        "reponse_correcte": "L'eCCC (Code des coûts de construction)",
+        "explication": "L'eCCC ajoute un niveau dans le découpage du projet et donne une meilleure vue d'ensemble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Coûts de construction",
+      "content": {
+        "enonce": "Quel poste CFC correspond aux installations sanitaires ?",
+        "propositions": [
+          "250",
+          "230",
+          "240",
+          "211, qui regroupe les travaux de maçonnerie et de béton armé du gros œuvre"
+        ],
+        "reponse_correcte": "250",
+        "explication": "CFC 230 : électricité ; 240 : chauffage ; 244 : ventilation ; 250 : sanitaire ; 258 : agencement de cuisine ; 261 : ascenseurs ; 211 : maçonnerie ; 291 : honoraires architecte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Coûts de construction",
+      "content": {
+        "enonce": "Que règle la norme SIA 118 ?",
+        "propositions": [
+          "Les conditions générales pour l'exécution des travaux de construction (contrat d'entreprise, réception, défauts…)",
+          "La protection contre le bruit",
+          "Le calcul des surfaces et volumes des bâtiments",
+          "Les prescriptions de protection incendie des bâtiments"
+        ],
+        "reponse_correcte": "Les conditions générales pour l'exécution des travaux de construction (contrat d'entreprise, réception, défauts…)",
+        "explication": "La SIA 118 traite du contrat d'entreprise, de l'exécution des travaux, du métré et décompte final, de la réception de l'ouvrage et de la responsabilité pour les défauts, et de l'extinction prématurée du contrat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Plus le sol a une mauvaise portance, comment doivent être les fondations ?",
+        "propositions": [
+          "Plus profondes",
+          "Plus superficielles, pour limiter le poids total de l'ouvrage reposant sur un terrain instable",
+          "Identiques, la portance du sol n'a pas d'influence",
+          "Remplacées par un drainage"
+        ],
+        "reponse_correcte": "Plus profondes",
+        "explication": "L'étude du sol est faite par un ingénieur géologue. Les fondations peuvent être superficielles, semi-profondes ou profondes : plus le sol porte mal, plus elles doivent être profondes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Qu'est-ce qu'un radier ?",
+        "propositions": [
+          "Une épaisse couche de béton armé coulée sur le sol pour constituer l'assise du bâtiment",
+          "Une cloison non porteuse",
+          "Un tuyau horizontal d'évacuation des eaux usées",
+          "Une pièce de bois horizontale de la charpente qui supporte les éléments de couverture de la toiture"
+        ],
+        "reponse_correcte": "Une épaisse couche de béton armé coulée sur le sol pour constituer l'assise du bâtiment",
+        "explication": "Le radier est un type de fondation, comme la semelle filante."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Comment appelle-t-on un mur porteur situé à l'intérieur d'une construction ?",
+        "propositions": [
+          "Un mur de refend",
+          "Un galandage",
+          "Un mur mitoyen, qui appartient pour moitié aux propriétaires des deux fonds contigus",
+          "Un mur pignon"
+        ],
+        "reponse_correcte": "Un mur de refend",
+        "explication": "Murs porteurs : mur d'échiffre, mur mitoyen, mur de refend (intérieur), mur de façade. Non porteurs : galandages ou cloisons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Qu'est-ce qu'un galandage ?",
+        "propositions": [
+          "Une cloison non porteuse de distribution intérieure",
+          "Un mur porteur de façade",
+          "Une poutre en béton armé qui reprend les charges de la dalle au-dessus d'une ouverture de grande portée",
+          "Un conduit de fumée"
+        ],
+        "reponse_correcte": "Une cloison non porteuse de distribution intérieure",
+        "explication": "Le galandage est une cloison légère non porteuse (brique ou carreaux de plâtre)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Quels indices aident à reconnaître un mur porteur d'une cloison ?",
+        "propositions": [
+          "Les murs de façade et de cage d'escalier sont très souvent porteurs",
+          "Un mur porteur mesure environ 15 à 20 cm d'épaisseur (béton, brique ciment ou terre cuite)",
+          "Une cloison mesure environ 8 à 10 cm (plâtre, brique ou bois)",
+          "On admet souvent une distance d'environ 4 m entre deux murs porteurs dans un logement",
+          "Un mur porteur est toujours peint en blanc"
+        ],
+        "reponses_correctes": [
+          "Les murs de façade et de cage d'escalier sont très souvent porteurs",
+          "Un mur porteur mesure environ 15 à 20 cm d'épaisseur (béton, brique ciment ou terre cuite)",
+          "Une cloison mesure environ 8 à 10 cm (plâtre, brique ou bois)",
+          "On admet souvent une distance d'environ 4 m entre deux murs porteurs dans un logement"
+        ],
+        "explication": "Ce sont des pistes : seul un ingénieur peut confirmer qu'un mur est porteur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Qu'est-ce qu'une chape ?",
+        "propositions": [
+          "Une couche de mortier, de résine ou de chaux appliquée au sol pour aplanir le support avant le revêtement final",
+          "La dalle porteuse en béton armé entre deux étages",
+          "Une couche d'isolant",
+          "Le revêtement final de sol (carrelage, parquet, sol souple) posé par le parqueteur ou le carreleur"
+        ],
+        "reponse_correcte": "Une couche de mortier, de résine ou de chaux appliquée au sol pour aplanir le support avant le revêtement final",
+        "explication": "La chape aplanit et nivelle le support, et peut enrober des éléments comme un chauffage au sol, avant de recevoir le carrelage, un sol souple ou un parquet."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Dans une toiture, quel est le rôle du frein-vapeur / pare-vapeur ?",
+        "propositions": [
+          "Empêcher la condensation « nuisible » dans la construction",
+          "Évacuer l'eau vers l'extérieur en cas d'infiltration",
+          "Protéger le bâtiment des intempéries",
+          "Protéger du froid en hiver et du chaud en été, grâce à une épaisse couche de laine minérale posée entre les chevrons"
+        ],
+        "reponse_correcte": "Empêcher la condensation « nuisible » dans la construction",
+        "explication": "Couverture : protège des intempéries. Sous-couverture : évacue l'eau en cas d'infiltration. Isolation : froid et chaud. Pare-vapeur : empêche la condensation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction",
+      "content": {
+        "enonce": "Selon le glossaire, en dessous de quelle pente parle-t-on de toiture plate (toiture-terrasse) ?",
+        "propositions": [
+          "7 %",
+          "0 %",
+          "30 %, pente à partir de laquelle les tuiles ne tiennent plus sans fixation mécanique",
+          "15 %"
+        ],
+        "reponse_correcte": "7 %",
+        "explication": "Toiture plate : toiture-terrasse dont la pente est inférieure à 7 %. Son étanchéité est réglée par la norme SIA 271."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Le circuit d'un chauffage central est-il ouvert ou fermé ?",
+        "propositions": [
+          "Fermé",
+          "Ouvert, l'eau des radiateurs étant renouvelée en permanence par le réseau d'eau potable",
+          "Ouvert en hiver, fermé en été",
+          "Cela dépend de l'énergie utilisée"
+        ],
+        "reponse_correcte": "Fermé",
+        "explication": "Le chauffage central chauffe toutes les pièces depuis un seul point (chaudière/chaufferie). La chaleur est distribuée par des tuyaux vers les radiateurs ou le sol, dans un circuit fermé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Qu'est-ce que la colonne de chute ?",
+        "propositions": [
+          "Le tuyau vertical qui reprend les eaux usées des appareils",
+          "La conduite verticale qui distribue l'eau chaude et l'eau froide dans les étages",
+          "La gaine de l'ascenseur",
+          "Le conduit de fumée de la chaufferie, qui évacue les gaz de combustion au-dessus de la toiture"
+        ],
+        "reponse_correcte": "Le tuyau vertical qui reprend les eaux usées des appareils",
+        "explication": "L'eau est distribuée dans les étages par des colonnes montantes ; les eaux usées sont reprises par la colonne de chute, qui rejoint les canalisations et la station d'épuration. La traînasse est la canalisation horizontale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "À quoi sert le vase d'expansion d'une installation de chauffage central ?",
+        "propositions": [
+          "Permettre à l'eau chauffée de se dilater sans créer de surpression",
+          "Stocker le mazout",
+          "Faire circuler l'eau chaude dans les colonnes montantes grâce à une pompe électrique à ailettes",
+          "Produire l'eau chaude sanitaire"
+        ],
+        "reponse_correcte": "Permettre à l'eau chauffée de se dilater sans créer de surpression",
+        "explication": "Le circulateur est la pompe qui fait circuler l'eau ; la citerne stocke le mazout ; le bouilleur (chauffe-eau) produit l'eau chaude sanitaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Qu'est-ce qu'un bouilleur ?",
+        "propositions": [
+          "Un chauffe-eau à accumulation produisant l'eau chaude sanitaire",
+          "Le brûleur de la chaudière",
+          "Un appareil qui fixe le mélange air + combustible pour la combustion du gaz ou du mazout",
+          "Un radiateur en fonte"
+        ],
+        "reponse_correcte": "Un chauffe-eau à accumulation produisant l'eau chaude sanitaire",
+        "explication": "Le bouilleur (chauffe-eau) est relié à la chaudière ou indépendant. Le brûleur dose le mélange air + combustible."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Pourquoi faut-il renouveler l'air intérieur d'un logement ?",
+        "propositions": [
+          "Maintenir le taux d'oxygène et limiter le développement des virus",
+          "Évacuer l'humidité (salpêtre, maladies respiratoires, dégradation du bâti)",
+          "Éliminer les polluants, dont le monoxyde de carbone (CO) issu d'une combustion incomplète",
+          "Parce que l'air intérieur est généralement plus pollué que l'air extérieur",
+          "Pour augmenter la consommation de chauffage et donc les frais accessoires facturés"
+        ],
+        "reponses_correctes": [
+          "Maintenir le taux d'oxygène et limiter le développement des virus",
+          "Évacuer l'humidité (salpêtre, maladies respiratoires, dégradation du bâti)",
+          "Éliminer les polluants, dont le monoxyde de carbone (CO) issu d'une combustion incomplète",
+          "Parce que l'air intérieur est généralement plus pollué que l'air extérieur"
+        ],
+        "explication": "Les polluants sont « piégés » à l'intérieur (formaldéhyde, benzène…), d'où l'importance de la ventilation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Quelle est la différence entre un panneau photovoltaïque et un panneau solaire thermique ?",
+        "propositions": [
+          "Le photovoltaïque produit de l'électricité ; le thermique produit de la chaleur (préchauffage de l'eau chaude)",
+          "Le photovoltaïque produit de la chaleur ; le thermique produit de l'électricité",
+          "Il n'y a aucune différence",
+          "Le thermique ne fonctionne qu'en été, le photovoltaïque toute l'année grâce à une batterie"
+        ],
+        "reponse_correcte": "Le photovoltaïque produit de l'électricité ; le thermique produit de la chaleur (préchauffage de l'eau chaude)",
+        "explication": "Une installation photovoltaïque peut être raccordée au réseau ou autonome ; le solaire thermique sert au préchauffage de l'eau chaude sanitaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Installations techniques",
+      "content": {
+        "enonce": "Qu'est-ce qu'une prise EFI ?",
+        "propositions": [
+          "Une prise sécurisée avec disjoncteur incorporé, par exemple pour les salles d'eau",
+          "Une prise pour courant fort (triphasé 380 V)",
+          "Une prise réservée à l'éclairage des parties communes, commandée par la minuterie",
+          "Une prise de téléréseau"
+        ],
+        "reponse_correcte": "Une prise sécurisée avec disjoncteur incorporé, par exemple pour les salles d'eau",
+        "explication": "Glossaire : prise EFI = prise sécurisée avec disjoncteur incorporé. Le fusible est aussi appelé « plomb » ou « stotz »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Quand débute le cycle de vie d'un immeuble ?",
+        "propositions": [
+          "Dès la réception de l'ouvrage ou sa mise en exploitation",
+          "Dès le dépôt de la demande de permis de construire",
+          "Dès la première rénovation importante",
+          "Dès que les premiers défauts de construction apparaissent, en général après la fin du délai de garantie de deux ans"
+        ],
+        "reponse_correcte": "Dès la réception de l'ouvrage ou sa mise en exploitation",
+        "explication": "Dès cet instant commencent le vieillissement des matériaux, les dégradations et l'obsolescence. Sans travaux, la valeur de l'ouvrage décline jusqu'à ce qu'il ne soit plus utilisable."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Par quels effets les éléments d'un bâtiment peuvent-ils se dégrader ?",
+        "propositions": [
+          "Le vieillissement ou l'usure normale",
+          "Les agressions externes",
+          "Les défauts de construction",
+          "L'augmentation du taux hypothécaire de référence"
+        ],
+        "reponses_correctes": ["Le vieillissement ou l'usure normale", "Les agressions externes", "Les défauts de construction"],
+        "explication": "Trois causes : vieillissement/usure normale, agressions externes, défaut de construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Qu'est-ce que la carbonatation du béton ?",
+        "propositions": [
+          "Une réaction avec le gaz carbonique de l'air qui fait rouiller les fers à béton et éclater le béton",
+          "Le séchage normal du béton après coulage",
+          "L'ajout de charbon dans le béton",
+          "Un traitement de surface destiné à imperméabiliser les façades en béton contre la pluie et le gel"
+        ],
+        "reponse_correcte": "Une réaction avec le gaz carbonique de l'air qui fait rouiller les fers à béton et éclater le béton",
+        "explication": "La carbonatation transforme l'oxyde de calcium en carbonate de calcium sous l'action du gaz carbonique ; les fers rouillent et font sauter le béton. C'est une dégradation typique des façades."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Qu'est-ce qu'un pont thermique, selon le cours ?",
+        "propositions": [
+          "Une erreur de conception provoquant humidité et moisissures",
+          "Un élément de liaison entre deux bâtiments",
+          "Un défaut d'usure normale",
+          "Un système de chauffage à distance reliant plusieurs immeubles à une même centrale de production de chaleur"
+        ],
+        "reponse_correcte": "Une erreur de conception provoquant humidité et moisissures",
+        "explication": "Pour les murs intérieurs, le cours cite l'humidité et les moisissures dues à un pont thermique, qualifié d'erreur de conception."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Qu'est-ce que l'obsolescence d'un équipement ?",
+        "propositions": [
+          "Sa dépréciation due au progrès technique, et non à son usure",
+          "Son usure normale liée à l'utilisation",
+          "Un défaut de construction constaté à la réception de l'ouvrage, qui ouvre droit à la garantie de l'entreprise",
+          "Sa destruction par un sinistre"
+        ],
+        "reponse_correcte": "Sa dépréciation due au progrès technique, et non à son usure",
+        "explication": "L'obsolescence programmée consiste à prévoir dès la conception une durée de fonctionnement limitée ou des mises à jour obligatoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Selon le cours, quel est le délai de prescription pour un défaut caché ?",
+        "propositions": [
+          "5 ans",
+          "2 ans",
+          "10 ans",
+          "1 an dès la réception de l'ouvrage, prolongeable d'un an si le défaut est annoncé par écrit à l'entreprise"
+        ],
+        "reponse_correcte": "5 ans",
+        "explication": "Défaut de garantie : 2 ans ; défaut caché : 5 ans ; défaut intentionnellement caché : 10 ans. Un défaut est un ouvrage livré non conforme au contrat ou à la qualité promise."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "Selon le cours, quel est le délai de prescription pour un défaut intentionnellement caché ?",
+        "propositions": [
+          "10 ans",
+          "2 ans",
+          "5 ans",
+          "Il n'y a aucune prescription"
+        ],
+        "reponse_correcte": "10 ans",
+        "explication": "Défaut de garantie : 2 ans ; caché : 5 ans ; intentionnellement caché : 10 ans."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Vieillissement et défauts",
+      "content": {
+        "enonce": "À quoi sert la tabelle paritaire des durées de vie moyennes des installations et équipements ?",
+        "propositions": [
+          "Définir la part du bailleur et celle du locataire en cas de dégâts constatés à l'état des lieux de sortie",
+          "Planifier les travaux de rénovation à moyen et long terme",
+          "Fixer le loyer initial",
+          "Calculer la prime d'assurance bâtiment"
+        ],
+        "reponses_correctes": [
+          "Définir la part du bailleur et celle du locataire en cas de dégâts constatés à l'état des lieux de sortie",
+          "Planifier les travaux de rénovation à moyen et long terme"
+        ],
+        "explication": "Ce document a été établi conjointement par les associations de bailleurs et de locataires."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du gérant et contrats d'entretien",
+      "content": {
+        "enonce": "Quels objectifs la mission du gérant technique permet-elle d'atteindre ?",
+        "propositions": [
+          "Limiter la dégradation de l'immeuble et augmenter sa durabilité",
+          "Maintenir, voire augmenter la valeur de l'immeuble",
+          "Optimiser les économies d'énergie",
+          "Réduire les dépenses dues à un manque d'entretien",
+          "Planifier les travaux pour lisser les investissements",
+          "Reporter tous les travaux au maximum pour augmenter le rendement à court terme"
+        ],
+        "reponses_correctes": [
+          "Limiter la dégradation de l'immeuble et augmenter sa durabilité",
+          "Maintenir, voire augmenter la valeur de l'immeuble",
+          "Optimiser les économies d'énergie",
+          "Réduire les dépenses dues à un manque d'entretien",
+          "Planifier les travaux pour lisser les investissements"
+        ],
+        "explication": "Reporter les travaux entraîne au contraire des frais plus importants par manque d'entretien."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du gérant et contrats d'entretien",
+      "content": {
+        "enonce": "Quels contrats d'entretien sont OBLIGATOIRES selon le cours ?",
+        "propositions": [
+          "Les installations de défense incendie (sprinkler, détection incendie, exutoires de fumée, extincteurs)",
+          "L'ascenseur",
+          "Le brûleur",
+          "Le curage des canalisations",
+          "Les machines de buanderie"
+        ],
+        "reponses_correctes": [
+          "Les installations de défense incendie (sprinkler, détection incendie, exutoires de fumée, extincteurs)",
+          "L'ascenseur"
+        ],
+        "explication": "Obligatoires : défense incendie et ascenseur. Recommandés : brûleur, toiture, portes automatisées. Facultatifs : curage des canalisations, machines de buanderie, autres installations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rôle du gérant et contrats d'entretien",
+      "content": {
+        "enonce": "Comment le cours conseille-t-il de considérer le coût des contrats d'entretien ?",
+        "propositions": [
+          "Comme un investissement à moyen et long terme, qui repousse le remplacement des installations",
+          "Comme une dépense inutile à supprimer",
+          "Comme une charge que le propriétaire peut toujours refacturer intégralement aux locataires en plus du loyer net",
+          "Comme une obligation légale pour toutes les installations"
+        ],
+        "reponse_correcte": "Comme un investissement à moyen et long terme, qui repousse le remplacement des installations",
+        "explication": "Un entretien régulier limite le vieillissement et évite d'engager trop tôt des frais importants."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Selon l'OIBT, à quelle fréquence le contrôle périodique des installations électriques d'une habitation doit-il être réalisé ?",
+        "propositions": [
+          "Tous les 20 ans, ou lors d'une transaction si le dernier contrôle date de 5 ans ou plus",
+          "Chaque année",
+          "Tous les 5 ans",
+          "Uniquement lors de la construction, puis jamais plus tant qu'aucun défaut n'est signalé par les occupants"
+        ],
+        "reponse_correcte": "Tous les 20 ans, ou lors d'une transaction si le dernier contrôle date de 5 ans ou plus",
+        "explication": "Le contrôle doit être réalisé par un organe indépendant et reconnu, qui établit le rapport de sécurité. Le propriétaire doit faire réparer les défauts sans retard (art. 5 OIBT)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Quel article du CO concerne la responsabilité du propriétaire d'un ouvrage envers les tiers, notamment en cas de défaut d'entretien ?",
+        "propositions": [
+          "Art. 58 CO",
+          "Art. 256 CO",
+          "Art. 398 CO, qui régit la responsabilité du mandataire pour la bonne et fidèle exécution du mandat",
+          "Art. 41 CO"
+        ],
+        "reponse_correcte": "Art. 58 CO",
+        "explication": "L'art. 58 CO fonde la responsabilité du propriétaire d'ouvrage envers les tiers, notamment en cas de défaut d'entretien."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Quelle ordonnance concerne les diagnostics radon et amiante ?",
+        "propositions": [
+          "L'OFST (ordonnance fédérale sur la santé au travail)",
+          "L'OIBT",
+          "Le MoPEC, qui fixe les prescriptions énergétiques des cantons pour les bâtiments neufs et existants",
+          "La norme SIA 180"
+        ],
+        "reponse_correcte": "L'OFST (ordonnance fédérale sur la santé au travail)",
+        "explication": "Le diagnostic amiante est exigé lors de travaux de rénovation et peut imposer d'importantes mesures de protection en cas de démolition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Selon les prescriptions AEAI citées dans le cours, quelle porte faut-il pour une chaufferie ?",
+        "propositions": [
+          "Une porte EI30",
+          "Une simple porte en bois",
+          "Une porte vitrée, afin que le concierge puisse contrôler l'installation sans entrer dans le local",
+          "Aucune exigence particulière"
+        ],
+        "reponse_correcte": "Une porte EI30",
+        "explication": "Chaufferie : porte EI30, ventilation du local, évacuation des fumées. Les prescriptions AEAI protègent personnes, animaux et biens contre l'incendie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Selon le MoPEC, qu'est-il interdit depuis 2015 dans les bâtiments construits avant 1990 ?",
+        "propositions": [
+          "Chauffer des locaux ou préparer l'eau chaude au moyen de résistances électriques (assainissement sous 10 ans)",
+          "Utiliser une pompe à chaleur",
+          "Installer des panneaux photovoltaïques sur une toiture en pente sans autorisation de la commune",
+          "Se raccorder à un chauffage à distance"
+        ],
+        "reponse_correcte": "Chauffer des locaux ou préparer l'eau chaude au moyen de résistances électriques (assainissement sous 10 ans)",
+        "explication": "Dès 2020, lors d'une rénovation importante, l'eau chaude doit provenir principalement d'énergies renouvelables. La Stratégie énergétique 2050 vise un approvisionnement en chaleur sans combustibles fossiles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Quelle norme SIA traite de la protection contre le bruit dans les bâtiments ?",
+        "propositions": [
+          "SIA 181",
+          "SIA 180",
+          "SIA 416",
+          "SIA 358, qui fixe les exigences de sécurité des garde-corps, balustrades et escaliers"
+        ],
+        "reponse_correcte": "SIA 181",
+        "explication": "SIA 180 : protection thermique et humidité ; SIA 181 : bruit ; SIA 358 : garde-corps ; SIA 380 : calculs énergétiques ; SIA 416 : surfaces et volumes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois et normes",
+      "content": {
+        "enonce": "Quels articles de la Constitution fédérale le cours cite-t-il ?",
+        "propositions": [
+          "Art. 26 (garantie de la propriété) et art. 41 (droit au logement)",
+          "Art. 8 (égalité) et art. 13 (sphère privée)",
+          "Art. 58 et 398, qui fixent la responsabilité du propriétaire d'ouvrage et celle du mandataire",
+          "Aucun"
+        ],
+        "reponse_correcte": "Art. 26 (garantie de la propriété) et art. 41 (droit au logement)",
+        "explication": "Constitution : art. 26 (propriété) et art. 41 (logement). Les art. 58 et 398 sont des articles du CO."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Subventions",
+      "content": {
+        "enonce": "Pourquoi une subvention doit-elle être « incitative » ?",
+        "propositions": [
+          "Parce qu'on ne subventionne pas ce qu'un propriétaire a l'obligation de faire",
+          "Parce qu'elle doit inciter les locataires à économiser l'eau",
+          "Parce qu'elle doit couvrir la totalité des travaux, afin que le propriétaire n'ait rien à payer de sa poche",
+          "Parce qu'elle doit être versée avant le début des travaux"
+        ],
+        "reponse_correcte": "Parce qu'on ne subventionne pas ce qu'un propriétaire a l'obligation de faire",
+        "explication": "Une subvention doit être incitative, énergétiquement efficace, bien ciblée (pas de double subvention) et rationnelle sur le plan administratif."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Subventions",
+      "content": {
+        "enonce": "Depuis le 1er janvier 2017, qui gère le Programme Bâtiments ?",
+        "propositions": [
+          "Entièrement les cantons",
+          "Uniquement la Confédération",
+          "Les communes, chacune définissant ses propres critères et versant elle-même les montants aux propriétaires",
+          "L'USPI"
+        ],
+        "reponse_correcte": "Entièrement les cantons",
+        "explication": "Le programme est financé par la Confédération et les cantons, mais géré entièrement par les cantons depuis 2017. La demande se fait sur une plateforme web commune à tous les cantons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Subventions",
+      "content": {
+        "enonce": "Pour l'isolation des bâtiments existants, avant quelle année le permis de construire doit-il avoir été délivré pour obtenir une subvention du Programme Bâtiments ?",
+        "propositions": [
+          "2000",
+          "1990",
+          "2017",
+          "1965, date à partir de laquelle les premières normes d'isolation thermique sont entrées en vigueur"
+        ],
+        "reponse_correcte": "2000",
+        "explication": "Subventions pour les bâtiments dont le permis date d'avant 2000 : isolation, remplacement d'un chauffage fossile ou électrique, raccordement à un CAD."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Subventions",
+      "content": {
+        "enonce": "En Valais, le Programme Bâtiments subventionne l'isolation des sols, murs et toiture à CHF 70.-/m². Un propriétaire isole {surface} m² de façade. Quel est le montant de la subvention (en CHF) ?",
+        "variables": [{ "nom": "surface", "min": 80, "max": 600, "unite": "m²", "arrondi": 0 }],
+        "formule": "surface * 70",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 0,
+        "tolerance": 0,
+        "explication": "Subvention = surface isolée × CHF 70.-/m² (exemple VS du cours ; NE : CHF 60.-/m²)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Sur quelle base la prime annuelle de l'assurance bâtiment est-elle calculée ?",
+        "propositions": [
+          "La valeur incendie de l'immeuble",
+          "L'état locatif net",
+          "Le nombre de sinistres des cinq dernières années et le nombre d'appartements de l'immeuble",
+          "La valeur fiscale"
+        ],
+        "reponse_correcte": "La valeur incendie de l'immeuble",
+        "explication": "Le propriétaire conclut une assurance bâtiment dont la prime est calculée sur la valeur incendie de l'immeuble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Lors d'un dégât d'eau, qu'est-ce que l'assurance exige avant d'entrer en matière sur la remise en état ?",
+        "propositions": [
+          "La preuve que la cause a été réparée (facture de réparation)",
+          "L'accord écrit de tous les locataires",
+          "Le rapport de l'inspecteur, dans tous les cas, quel que soit le montant du sinistre",
+          "Une expertise judiciaire"
+        ],
+        "reponse_correcte": "La preuve que la cause a été réparée (facture de réparation)",
+        "explication": "La facture de réparation de la cause doit être envoyée au plus vite : l'assurance n'entre pas en matière tant qu'elle n'a pas cette preuve. La visite d'un inspecteur n'est nécessaire que dans certains cas (sinistre coûteux)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Dans la procédure d'un dégât d'eau, quelle étape vient juste après la réparation de la cause ?",
+        "propositions": [
+          "L'assèchement des locaux",
+          "La clôture du sinistre",
+          "L'établissement immédiat des devis de remise en état, avant tout séchage, afin de gagner du temps",
+          "L'annonce du sinistre à l'assurance"
+        ],
+        "reponse_correcte": "L'assèchement des locaux",
+        "explication": "Ordre : annonce du sinistre → réparation de la cause → assèchement → devis de remise en état → réalisation des travaux → clôture. Un temps de séchage est nécessaire avant d'évaluer l'ampleur des dégâts."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Que fait le gérant lors de l'annonce d'un dégât d'eau ?",
+        "propositions": [
+          "Obtenir un maximum d'informations (lieu, évolution, pièces et étages voisins)",
+          "Contacter l'entreprise sanitaire et coordonner l'intervention avec les appartements voisins",
+          "Annoncer le cas à l'assurance de l'immeuble (n° de police, obtention d'un n° de sinistre)",
+          "Commander immédiatement la réfection complète des peintures de l'appartement sinistré"
+        ],
+        "reponses_correctes": [
+          "Obtenir un maximum d'informations (lieu, évolution, pièces et étages voisins)",
+          "Contacter l'entreprise sanitaire et coordonner l'intervention avec les appartements voisins",
+          "Annoncer le cas à l'assurance de l'immeuble (n° de police, obtention d'un n° de sinistre)"
+        ],
+        "explication": "La remise en état ne vient qu'après la réparation de la cause, l'assèchement et l'accord de l'assurance sur les devis."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Comment localise-t-on la cause d'une fuite dans un mur ?",
+        "propositions": [
+          "Par thermographie des murs ou ouverture des murs et gaines",
+          "En attendant que l'eau apparaisse au plafond de l'étage inférieur",
+          "En coupant l'eau de tout l'immeuble pendant une semaine et en observant l'évolution des taches d'humidité",
+          "Par un contrôle OIBT"
+        ],
+        "reponse_correcte": "Par thermographie des murs ou ouverture des murs et gaines",
+        "explication": "Dès la cause déterminée, le gérant ordonne la réparation de la conduite."
+      }
+    }
+  ]
+}
