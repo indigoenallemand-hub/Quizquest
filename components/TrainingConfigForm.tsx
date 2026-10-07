@@ -6,6 +6,8 @@ import Link from "next/link";
 export interface SectionOption {
   name: string;
   count: number;
+  // Questions of the section never answered correctly (unanswered or wrong).
+  missed: number;
 }
 
 // Snaps to a multiple of 5, except near the very top of the range where it
@@ -21,6 +23,7 @@ export default function TrainingConfigForm({
   themeId,
   chapterTitle,
   totalCount,
+  missedCount,
   sections,
   pointsBefore,
   entryGrid,
@@ -29,15 +32,20 @@ export default function TrainingConfigForm({
   themeId: string;
   chapterTitle: string;
   totalCount: number;
+  // Questions of the chapter never answered correctly. Undefined when the
+  // visitor has no progress to track (not signed in): the option is hidden.
+  missedCount?: number;
   sections: SectionOption[];
   pointsBefore?: number;
   entryGrid?: string;
 }) {
   const [section, setSection] = useState("all");
   const [count, setCount] = useState(Math.min(20, totalCount));
+  const [onlyMissed, setOnlyMissed] = useState(false);
 
   const available = section === "all" ? totalCount : (sections.find((s) => s.name === section)?.count ?? 0);
   const effectiveCount = Math.min(count, available);
+  const missed = section === "all" ? (missedCount ?? 0) : (sections.find((s) => s.name === section)?.missed ?? 0);
 
   function handleSectionChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const s = e.target.value;
@@ -48,7 +56,8 @@ export default function TrainingConfigForm({
 
   const pointsSuffix = pointsBefore != null ? `&points=${pointsBefore}` : "";
   const gridSuffix = entryGrid ? `&grid=${entryGrid}` : "";
-  const href = `${sessionUrl}?mode=ENTRAINEMENT&themeId=${themeId}&section=${encodeURIComponent(section)}&count=${effectiveCount}${pointsSuffix}${gridSuffix}`;
+  const missedSuffix = onlyMissed ? "&missed=1" : "";
+  const href = `${sessionUrl}?mode=ENTRAINEMENT&themeId=${themeId}&section=${encodeURIComponent(section)}&count=${effectiveCount}${missedSuffix}${pointsSuffix}${gridSuffix}`;
 
   return (
     <div className="qz-start-header" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2rem" }}>
@@ -93,6 +102,31 @@ export default function TrainingConfigForm({
             <span>{available} (toutes)</span>
           </div>
         </div>
+
+        {missedCount != null && (
+          <div className="qz-form-group">
+            <label htmlFor="only-missed" style={{ justifyContent: "flex-start", gap: "0.5rem", cursor: "pointer" }}>
+              <input
+                id="only-missed"
+                type="checkbox"
+                checked={onlyMissed}
+                onChange={(e) => setOnlyMissed(e.target.checked)}
+                style={{ width: "16px", height: "16px", accentColor: "var(--qz-primary)" }}
+              />
+              Seulement les questions répondues fausses
+              <span className="qz-count-badge">{missed}</span>
+            </label>
+            {onlyMissed && (
+              <p style={{ fontSize: "0.8rem", color: "var(--qz-muted)", margin: 0 }}>
+                {missed === 0
+                  ? "Toutes les questions ont déjà été répondues correctement : la série sera composée de questions réussies."
+                  : missed < effectiveCount
+                    ? `Questions non répondues ou fausses en premier, puis ${effectiveCount - missed} question${effectiveCount - missed > 1 ? "s" : ""} déjà réussie${effectiveCount - missed > 1 ? "s" : ""} pour compléter la série.`
+                    : "Uniquement des questions non répondues ou répondues fausses."}
+              </p>
+            )}
+          </div>
+        )}
 
         {available === 0 ? (
           <button type="button" className="qz-btn-primary" disabled>

@@ -8,15 +8,17 @@ export default function SessionPageClient({
   searchParams,
 }: {
   params: Promise<{ token: string }>;
-  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string; points?: string; grid?: string }>;
+  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string; missed?: string; points?: string; grid?: string }>;
 }) {
   const { token } = use(params);
-  const { mode: modeParam, themeId, section, count, points, grid } = use(searchParams);
+  const { mode: modeParam, themeId, section, count, missed, points, grid } = use(searchParams);
   const mode = modeParam === "QCM" || modeParam === "REPONSE_LIBRE" ? modeParam : "ENTRAINEMENT";
+  const onlyMissed = mode === "ENTRAINEMENT" && missed === "1";
 
-  const questionsUrl = themeId
-    ? `/api/share/${token}/questions?themeId=${themeId}`
-    : `/api/share/${token}/questions`;
+  const questionsParams = new URLSearchParams();
+  if (themeId) questionsParams.set("themeId", themeId);
+  if (onlyMissed) questionsParams.set("status", "1");
+  const questionsUrl = `/api/share/${token}/questions${questionsParams.size ? `?${questionsParams.toString()}` : ""}`;
   const backParams = new URLSearchParams();
   if (themeId) backParams.set("chapter", themeId);
   if (points) backParams.set("points", points);
@@ -31,6 +33,7 @@ export default function SessionPageClient({
       backHref={backHref}
       section={section}
       count={count ? Number(count) : undefined}
+      onlyMissed={onlyMissed}
     />
   );
 }

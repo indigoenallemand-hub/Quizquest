@@ -8,7 +8,7 @@ export default async function SessionPage({
   searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string; points?: string; grid?: string }>;
+  searchParams: Promise<{ mode?: string; themeId?: string; section?: string; count?: string; missed?: string; points?: string; grid?: string }>;
 }) {
   const { id } = await params;
   const [userId, quiz] = await Promise.all([

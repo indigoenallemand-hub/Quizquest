@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Calculator from "@/components/Calculator";
+import type { QuestionStatus } from "@/lib/status-summary";
 
 const LABELS = ["A", "B", "C", "D", "E", "F", "G", "H"];
 
@@ -32,7 +33,7 @@ type PublicQuestion =
       themeId?: string;
     };
 
-type ThemeBlock = { id: string; title: string; questions: PublicQuestion[] };
+type ThemeBlock = { id: string; title: string; questions: (PublicQuestion & { status?: QuestionStatus })[] };
 
 interface AttemptResult {
   isCorrect: boolean;
@@ -57,6 +58,7 @@ export default function QuizSession({
   backHref,
   section,
   count,
+  onlyMissed,
   quizId,
 }: {
   mode: Mode;
@@ -65,6 +67,10 @@ export default function QuizSession({
   backHref: string;
   section?: string;
   count?: number;
+  // Draws the unanswered and wrongly answered questions first; when there
+  // are fewer of them than `count`, the series is topped up with questions
+  // already answered correctly. Needs `questionsUrl` to request statuses.
+  onlyMissed?: boolean;
   quizId?: string;
 }) {
   const [sessionId] = useState(() => (mode === "ENTRAINEMENT" ? undefined : crypto.randomUUID()));
@@ -91,7 +97,9 @@ export default function QuizSession({
       .then((data: { themes: ThemeBlock[] }) => {
         let pool = data.themes.flatMap((t) => t.questions);
         if (section && section !== "all") pool = pool.filter((q) => q.section === section);
-        pool = shuffleArray(pool);
+        pool = onlyMissed
+          ? [...shuffleArray(pool.filter((q) => q.status !== "correct")), ...shuffleArray(pool.filter((q) => q.status === "correct"))]
+          : shuffleArray(pool);
         if (count) pool = pool.slice(0, count);
         setQuestions(pool);
         setLoading(false);
