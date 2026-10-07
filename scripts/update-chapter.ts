@@ -4,11 +4,13 @@
  * their `enonce`, so their ids — and the attempts/comments attached to them —
  * are kept. Only questions whose content or section actually changed are
  * written; questions present in the file but not in the chapter (or the
- * reverse) are reported and left untouched.
+ * reverse) are reported and left untouched — unless --add-missing is passed,
+ * in which case the questions only present in the file are created.
  *
  * Usage:
  *   npx tsx scripts/update-chapter.ts --quiz=immobase --file=scripts/data/immobase_communication.json            # dry run
  *   npx tsx scripts/update-chapter.ts --quiz=immobase --file=scripts/data/immobase_communication.json --execute  # writes
+ *   ... --add-missing --execute  # also creates the questions not yet in the chapter
  */
 import "dotenv/config";
 import fs from "node:fs";
@@ -18,6 +20,7 @@ import { prisma } from "@/lib/prisma";
 import { themeImportSchema } from "@/lib/schemas";
 
 const EXECUTE = process.argv.includes("--execute");
+const ADD_MISSING = process.argv.includes("--add-missing");
 const arg = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=").slice(1).join("=");
 const quizQuery = arg("quiz");
 const file = arg("file");
@@ -58,11 +61,11 @@ async function main() {
   const byEnonce = new Map(existing.map((q) => [(q.content as { enonce: string }).enonce, q]));
 
   const updates: { id: string; content: object; section: string | undefined }[] = [];
-  const missing: string[] = [];
+  const missing: (typeof chapter.questions)[number][] = [];
   for (const q of chapter.questions) {
     const current = byEnonce.get(q.content.enonce);
     if (!current || current.type !== q.type) {
-      missing.push(q.content.enonce);
+      missing.push(q);
       continue;
     }
     byEnonce.delete(q.content.enonce);
@@ -72,7 +75,9 @@ async function main() {
   }
 
   console.log(`Chapitre "${theme.title}" du quiz "${quiz.title}" : ${existing.length} questions en base, ${updates.length} à mettre à jour.`);
-  if (missing.length) console.log(`Introuvables en base (ignorées) :\n  - ${missing.join("\n  - ")}`);
+  if (missing.length) {
+    console.log(`Introuvables en base (${ADD_MISSING ? "à créer" : "ignorées"}) :\n  - ${missing.map((q) => q.content.enonce).join("\n  - ")}`);
+  }
   if (byEnonce.size) console.log(`En base mais absentes du fichier (inchangées) :\n  - ${[...byEnonce.keys()].join("\n  - ")}`);
 
   if (!EXECUTE) {
@@ -80,10 +85,13 @@ async function main() {
     return;
   }
 
-  await prisma.$transaction(
-    updates.map((u) => prisma.question.update({ where: { id: u.id }, data: { content: u.content, section: u.section } })),
-  );
-  console.log(`\n${updates.length} questions mises à jour.`);
+  await prisma.$transaction([
+    ...updates.map((u) => prisma.question.update({ where: { id: u.id }, data: { content: u.content, section: u.section } })),
+    ...(ADD_MISSING && missing.length
+      ? [prisma.question.createMany({ data: missing.map((q) => ({ themeId: theme.id, type: q.type, content: q.content, section: q.section })) })]
+      : []),
+  ]);
+  console.log(`\n${updates.length} questions mises à jour${ADD_MISSING ? `, ${missing.length} créées` : ""}.`);
 }
 
 main()
