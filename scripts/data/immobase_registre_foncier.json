@@ -1,0 +1,886 @@
+{
+  "title": "Registre foncier",
+  "description": "Immobase — Registre foncier : rôle et effets de l'inscription, notion d'immeuble et feuillet, servitudes, gages immobiliers, mentions et annotations, transfert de propriété, PPE, et lecture d'un extrait du registre foncier.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Selon l'art. 656 CC, quel est en principe l'effet de l'inscription au registre foncier pour l'acquisition de la propriété foncière ?",
+        "propositions": [
+          "Elle est constitutive : sans inscription, la propriété n'est pas acquise",
+          "Elle est purement déclarative : la propriété passe dès la signature de l'acte authentique",
+          "Elle est facultative et ne sert qu'à des fins fiscales",
+          "Elle n'a d'effet qu'à l'égard du fisc et de la commune, la propriété passant entre les parties dès le paiement du prix en main du notaire"
+        ],
+        "reponse_correcte": "Elle est constitutive : sans inscription, la propriété n'est pas acquise",
+        "explication": "L'inscription est nécessaire pour l'acquisition de la propriété foncière (art. 656 CC). Principe : l'inscription est constitutive de propriété."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Dans quels cas la propriété foncière est-elle acquise avant l'inscription, celle-ci n'ayant qu'un effet déclaratif ?",
+        "propositions": [
+          "Succession",
+          "Expropriation",
+          "Jugement",
+          "Exécution forcée",
+          "Vente immédiate signée devant notaire",
+          "Promesse de vente annotée au registre foncier"
+        ],
+        "reponses_correctes": ["Succession", "Expropriation", "Jugement", "Exécution forcée"],
+        "explication": "Exceptions au principe de l'inscription constitutive : succession, expropriation, jugement ou exécution forcée. L'inscription reste nécessaire pour opposer son droit aux tiers (et pour en disposer), mais n'a qu'un effet déclaratif sur le droit lui-même. La vente, elle, n'opère le transfert qu'à l'inscription."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "En droit suisse, à quel moment s'effectue le transfert de propriété lors d'une vente immobilière ?",
+        "propositions": [
+          "Lors de l'inscription au registre foncier",
+          "Lors de la conclusion du contrat de vente, comme en droit français",
+          "Lors de la remise des clés à l'acheteur",
+          "Lors du paiement complet du prix, l'inscription n'étant qu'une formalité de publicité accomplie ultérieurement par le notaire"
+        ],
+        "reponse_correcte": "Lors de l'inscription au registre foncier",
+        "explication": "En matière de vente immobilière, le transfert de propriété s'effectue par l'inscription au registre foncier et non par la conclusion du contrat (contrairement au droit français)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "A vend sa villa à B. L'acte est signé, mais l'inscription au registre foncier n'a pas encore eu lieu lorsque la villa est cambriolée. Le contrat ne prévoit rien de particulier. Qui supporte le risque ?",
+        "propositions": [
+          "B, l'acheteur, car les profits et les risques passent dès la conclusion du contrat",
+          "A, le vendeur, puisqu'il est encore propriétaire inscrit au registre foncier",
+          "Le notaire, tant qu'il n'a pas déposé la réquisition",
+          "A et B à parts égales, la loi prévoyant un partage des risques entre la signature de l'acte et l'inscription au registre foncier"
+        ],
+        "reponse_correcte": "B, l'acheteur, car les profits et les risques passent dès la conclusion du contrat",
+        "explication": "Sauf stipulation ou circonstances contraires, les profits et les risques passent à l'acquéreur dès la conclusion du contrat. B supporte donc le risque du vol alors même qu'il n'est pas encore propriétaire (pas d'inscription au registre foncier)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "C acquiert de bonne foi un immeuble de D, inscrit comme propriétaire au registre foncier. On découvre ensuite que D était inscrit à tort et que le véritable propriétaire est E. Quelle est la situation ?",
+        "propositions": [
+          "C est maintenu dans son acquisition ; E ne peut agir qu'en dommages-intérêts contre D",
+          "E peut revendiquer l'immeuble contre C, la vente étant nulle",
+          "C doit restituer l'immeuble à E mais peut se retourner contre le registre foncier",
+          "La vente est annulée d'office et le prix est restitué à C par le notaire, qui en répond sur sa garantie professionnelle"
+        ],
+        "reponse_correcte": "C est maintenu dans son acquisition ; E ne peut agir qu'en dommages-intérêts contre D",
+        "explication": "Celui qui acquiert en se fondant de bonne foi sur l'inscription au registre foncier est maintenu dans son acquisition. Le véritable propriétaire ne peut agir qu'en dommages-intérêts contre le vendeur inscrit à tort, mais non contre l'acquéreur de bonne foi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Quelle forme l'art. 216 al. 1 CO impose-t-il pour un contrat de vente immobilière, qui servira de titre pour l'inscription au registre foncier ?",
+        "propositions": [
+          "La forme authentique (acte passé devant notaire)",
+          "La forme écrite simple, signée des deux parties",
+          "Aucune forme particulière : un accord oral suffit",
+          "La forme écrite qualifiée, avec signature légalisée par la commune de situation de l'immeuble"
+        ],
+        "reponse_correcte": "La forme authentique (acte passé devant notaire)",
+        "explication": "L'art. 216 al. 1 CO impose la forme authentique pour la vente immobilière. Il en va de même pour l'avancement d'hoirie ou l'échange portant sur des immeubles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Lors d'une vente immédiate, qui transmet la réquisition de transfert de propriété au registre foncier ?",
+        "propositions": [
+          "Le notaire, de suite après la signature de l'acte",
+          "L'acheteur, dans les 30 jours suivant le paiement",
+          "Le courtier qui a négocié la vente",
+          "Le conservateur du registre foncier, qui procède d'office à l'inscription dès qu'il est informé de la vente par la commune"
+        ],
+        "reponse_correcte": "Le notaire, de suite après la signature de l'acte",
+        "explication": "Dans la vente immédiate, le prix est payé en main du notaire pour le jour de la signature, et le notaire transmet de suite la réquisition de transfert de propriété au registre foncier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Quelle ordonnance fédérale régit la tenue du registre foncier ?",
+        "propositions": [
+          "L'ORF (Ordonnance sur le registre foncier, 2011)",
+          "L'OBLF (1990)",
+          "La LFAIE (1983)",
+          "L'ORFI, qui règle à la fois la tenue du registre foncier et la réalisation forcée des immeubles"
+        ],
+        "reponse_correcte": "L'ORF (Ordonnance sur le registre foncier, 2011)",
+        "explication": "L'Ordonnance sur le registre foncier du 23 septembre 2011 (ORF, RS 211.432.1). L'OBLF concerne le bail, la LFAIE l'acquisition d'immeubles par des personnes à l'étranger et l'ORFI la réalisation forcée des immeubles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de l'inscription",
+      "content": {
+        "enonce": "Pourquoi les droits réels restreints en matière immobilière sont-ils inscrits sur le feuillet de l'immeuble concerné ?",
+        "propositions": [
+          "Pour être constitués et ainsi opposables à tous",
+          "Uniquement pour permettre leur taxation fiscale",
+          "Pour être opposables au seul propriétaire actuel, et non à ses successeurs",
+          "Pour informer la commune, l'inscription n'ayant aucun effet sur l'existence du droit lui-même"
+        ],
+        "reponse_correcte": "Pour être constitués et ainsi opposables à tous",
+        "explication": "Les droits restreints en matière immobilière sont constitués par l'inscription au registre foncier, sur le feuillet de l'immeuble concerné. Ils sont ainsi opposables à tous."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Immeuble et feuillet",
+      "content": {
+        "enonce": "Selon l'art. 655 CC, qu'est-ce qui constitue un immeuble ?",
+        "propositions": [
+          "Les biens-fonds",
+          "Les droits distincts et permanents immatriculés au registre foncier",
+          "Les mines",
+          "Les parts de copropriété d'un immeuble",
+          "Les constructions mobilières (chalets démontables, cabanons)",
+          "Les cédules hypothécaires au porteur"
+        ],
+        "reponses_correctes": [
+          "Les biens-fonds",
+          "Les droits distincts et permanents immatriculés au registre foncier",
+          "Les mines",
+          "Les parts de copropriété d'un immeuble"
+        ],
+        "explication": "L'art. 655 CC énumère exhaustivement les immeubles : biens-fonds, droits distincts et permanents immatriculés au registre foncier, mines, parts de copropriété d'un immeuble. Tout bien qui n'entre pas dans cette liste est mobilier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Immeuble et feuillet",
+      "content": {
+        "enonce": "La liste des immeubles de l'art. 655 CC est-elle exhaustive ?",
+        "propositions": [
+          "Oui : tout bien qui n'y figure pas est considéré comme mobilier",
+          "Non, les cantons peuvent la compléter librement",
+          "Non, le conservateur du registre foncier peut immatriculer d'autres biens sur demande",
+          "Oui, mais seulement pour les personnes physiques ; les sociétés peuvent faire immatriculer d'autres biens"
+        ],
+        "reponse_correcte": "Oui : tout bien qui n'y figure pas est considéré comme mobilier",
+        "explication": "La liste de l'art. 655 CC est exhaustive ; tout bien qui n'entre pas dans cette liste est considéré comme un bien mobilier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Immeuble et feuillet",
+      "content": {
+        "enonce": "Comment une part de copropriété par étages (lot de PPE) est-elle traitée au registre foncier ?",
+        "propositions": [
+          "Elle est elle-même un immeuble et reçoit son propre feuillet",
+          "Elle n'apparaît pas au registre foncier ; seul le bien-fonds de base y figure",
+          "Elle est inscrite au registre du commerce",
+          "Elle figure uniquement en annexe du règlement de PPE, déposé auprès de l'administrateur"
+        ],
+        "reponse_correcte": "Elle est elle-même un immeuble et reçoit son propre feuillet",
+        "explication": "La part de copropriété par étages est elle-même un immeuble, immatriculée comme tel au registre foncier : chaque copropriétaire reçoit un feuillet spécial (ex. feuillets 6678-1 à 6678-4 pour quatre lots)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Immeuble et feuillet",
+      "content": {
+        "enonce": "Comment les limites horizontales d'un immeuble sont-elles déterminées (art. 668 CC) ?",
+        "propositions": [
+          "Par le plan et par la démarcation sur le terrain",
+          "Par la hauteur et la profondeur utiles à l'exercice de la propriété",
+          "Par l'estimation fiscale",
+          "Par la déclaration du propriétaire lors de son inscription au registre foncier"
+        ],
+        "reponse_correcte": "Par le plan et par la démarcation sur le terrain",
+        "explication": "Délimitation horizontale : plan et démarcation sur le terrain (art. 668 CC). Délimitation verticale : la propriété du sol emporte celle du dessus et du dessous dans toute la hauteur et la profondeur utiles à son exercice (art. 667 CC)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Immeuble et feuillet",
+      "content": {
+        "enonce": "Par quels modes la propriété foncière peut-elle être acquise ?",
+        "propositions": [
+          "Par contrat (acte de vente en la forme authentique)",
+          "Par succession (testament, pacte successoral, acte de partage)",
+          "Par jugement (ex. attribution du logement à un époux lors d'un divorce)",
+          "Par adjudication lors d'une vente aux enchères de l'office des poursuites et faillites",
+          "Par la simple possession des clés durant cinq ans",
+          "Par un contrat de bail à loyer annoté au registre foncier"
+        ],
+        "reponses_correctes": [
+          "Par contrat (acte de vente en la forme authentique)",
+          "Par succession (testament, pacte successoral, acte de partage)",
+          "Par jugement (ex. attribution du logement à un époux lors d'un divorce)",
+          "Par adjudication lors d'une vente aux enchères de l'office des poursuites et faillites"
+        ],
+        "explication": "Le cours cite quatre modes d'acquisition : contrat, succession, jugement et adjudication. Un bail, même annoté, ne confère qu'un droit d'usage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Servitudes et charges foncières",
+      "content": {
+        "enonce": "Qu'est-ce qu'une servitude foncière ?",
+        "propositions": [
+          "Une charge imposée sur un immeuble en faveur d'un autre immeuble",
+          "Une charge imposée sur un immeuble en faveur d'une personne déterminée",
+          "Un gage garantissant une créance bancaire",
+          "Une restriction de droit public imposée par la commune, comme le plan de zone, inscrite d'office sur chaque feuillet"
+        ],
+        "reponse_correcte": "Une charge imposée sur un immeuble en faveur d'un autre immeuble",
+        "explication": "La servitude foncière oblige le propriétaire du fonds servant à souffrir certains actes d'usage ou à s'abstenir d'exercer certains droits inhérents à la propriété, en faveur du fonds dominant. Ex. : droit de passage, servitude de non-bâtir."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Servitudes et charges foncières",
+      "content": {
+        "enonce": "Parmi les exemples suivants, lesquels sont des servitudes personnelles (en faveur d'une personne) ?",
+        "propositions": [
+          "L'usufruit",
+          "Le droit d'habitation",
+          "Le droit de superficie",
+          "Le droit de passage en faveur de la parcelle voisine",
+          "La servitude de non-bâtir en faveur du fonds voisin"
+        ],
+        "reponses_correctes": ["L'usufruit", "Le droit d'habitation", "Le droit de superficie"],
+        "explication": "Servitudes personnelles : usufruit (usage et jouissance), droit d'habitation, droit de superficie (être propriétaire de constructions sur le fonds d'autrui). Le droit de passage et la servitude de non-bâtir sont des exemples de servitudes foncières."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Servitudes et charges foncières",
+      "content": {
+        "enonce": "Quelle servitude permet à une personne d'être propriétaire de constructions élevées sur un fonds qui appartient à autrui ?",
+        "propositions": [
+          "Le droit de superficie",
+          "L'usufruit",
+          "Le droit d'habitation",
+          "Le droit de préemption, qui confère la propriété des bâtiments au bénéficiaire jusqu'à la vente du terrain"
+        ],
+        "reponse_correcte": "Le droit de superficie",
+        "explication": "Le droit de superficie est une servitude en vertu de laquelle une personne a la faculté d'être propriétaire de constructions élevées sur le fonds grevé qui appartient à autrui. Lorsqu'il est distinct et permanent, il peut être immatriculé comme immeuble (art. 655 CC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Servitudes et charges foncières",
+      "content": {
+        "enonce": "Quelle servitude confère à une personne déterminée l'usage et la jouissance d'une chose immobilière ?",
+        "propositions": [
+          "L'usufruit",
+          "Le droit de superficie",
+          "La charge foncière",
+          "La servitude de passage, qui comprend automatiquement la jouissance des fruits du fonds servant"
+        ],
+        "reponse_correcte": "L'usufruit",
+        "explication": "L'usufruit est une servitude personnelle qui confère à une personne déterminée l'usage et la jouissance de la chose immobilière."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Servitudes et charges foncières",
+      "content": {
+        "enonce": "Quels droits sont des droits réels restreints (limités) ?",
+        "propositions": [
+          "Les servitudes",
+          "Les charges foncières",
+          "Les gages immobiliers",
+          "La propriété",
+          "Le bail à loyer"
+        ],
+        "reponses_correctes": ["Les servitudes", "Les charges foncières", "Les gages immobiliers"],
+        "explication": "Les droits réels restreints confèrent une maîtrise partielle sur la chose : servitudes, charges foncières, gages. La propriété confère une maîtrise totale ; le bail est un droit personnel (contrat), même s'il peut être annoté."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gages immobiliers",
+      "content": {
+        "enonce": "À quoi sert un gage immobilier ?",
+        "propositions": [
+          "À permettre au créancier de faire réaliser l'immeuble afin d'obtenir le paiement de sa créance",
+          "À conférer au créancier l'usage de l'immeuble jusqu'au remboursement",
+          "À interdire toute vente de l'immeuble tant que le prêt n'est pas remboursé",
+          "À transférer la propriété de l'immeuble à la banque jusqu'au remboursement complet de l'hypothèque"
+        ],
+        "reponse_correcte": "À permettre au créancier de faire réaliser l'immeuble afin d'obtenir le paiement de sa créance",
+        "explication": "Le gage immobilier fournit une garantie réelle d'exécution d'une obligation : il permet au titulaire de faire réaliser l'immeuble afin d'obtenir le paiement de sa créance. Il sert en principe à obtenir un financement bancaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gages immobiliers",
+      "content": {
+        "enonce": "Quels types de gages immobiliers le cours mentionne-t-il ?",
+        "propositions": [
+          "L'hypothèque",
+          "L'obligation hypothécaire au porteur",
+          "La cédule hypothécaire au porteur (sur papier)",
+          "La cédule hypothécaire de registre",
+          "Le nantissement d'un compte de garantie de loyer",
+          "Le droit de rétention du bailleur"
+        ],
+        "reponses_correctes": [
+          "L'hypothèque",
+          "L'obligation hypothécaire au porteur",
+          "La cédule hypothécaire au porteur (sur papier)",
+          "La cédule hypothécaire de registre"
+        ],
+        "explication": "Gages immobiliers : hypothèques, obligations hypothécaires au porteur, cédules hypothécaires au porteur, cédules hypothécaires au registre. Le droit de rétention du bailleur porte sur des meubles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gages immobiliers",
+      "content": {
+        "enonce": "Dans quel délai le vendeur doit-il faire inscrire son hypothèque légale au registre foncier pour garantir le paiement du prix de vente ?",
+        "propositions": [
+          "3 mois à compter du transfert de propriété",
+          "30 jours à compter de la signature de l'acte",
+          "1 an à compter de la remise des clés",
+          "10 ans, soit la durée de la prescription ordinaire de la créance du prix de vente"
+        ],
+        "reponse_correcte": "3 mois à compter du transfert de propriété",
+        "explication": "L'hypothèque légale du vendeur est une garantie offerte par la loi pour le paiement du prix ; le vendeur a 3 mois à compter du transfert de propriété pour la faire inscrire au registre foncier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Qu'est-ce qu'une annotation au registre foncier ?",
+        "propositions": [
+          "Une inscription qui renforce un droit personnel, une prétention ou une décision judiciaire exécutoire, pour en garantir l'exécution",
+          "Une inscription qui signale une restriction légale au droit de propriété",
+          "Une inscription qui constitue un gage en faveur d'une banque",
+          "Une remarque manuscrite du conservateur, sans aucun effet juridique, destinée à l'information des tiers"
+        ],
+        "reponse_correcte": "Une inscription qui renforce un droit personnel, une prétention ou une décision judiciaire exécutoire, pour en garantir l'exécution",
+        "explication": "L'annotation renforce un droit personnel (le rend opposable aux tiers). Exemples : droit d'emption, droit de préemption, contrat de bail à loyer annotés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Que peut signaler une mention au registre foncier ?",
+        "propositions": [
+          "Un fait dont découlent des conséquences juridiques",
+          "Une restriction légale au droit de propriété (ex. mention LPP)",
+          "Une dérogation exceptionnelle à une restriction légale",
+          "Un droit d'emption convenu entre le propriétaire et un acheteur",
+          "Une cédule hypothécaire de 1er rang"
+        ],
+        "reponses_correctes": [
+          "Un fait dont découlent des conséquences juridiques",
+          "Une restriction légale au droit de propriété (ex. mention LPP)",
+          "Une dérogation exceptionnelle à une restriction légale"
+        ],
+        "explication": "La mention signale un fait juridiquement pertinent, une restriction légale (ex. LPP) ou une dérogation exceptionnelle à une restriction légale (ex. non-changement d'affectation des locaux). Le droit d'emption s'annote ; la cédule figure sous les droits de gage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Sous quelle rubrique un droit d'emption ou de préemption convenu entre parties figure-t-il au registre foncier ?",
+        "propositions": [
+          "Annotations",
+          "Mentions",
+          "Servitudes",
+          "Charges foncières, car il grève l'immeuble au profit d'un tiers déterminé"
+        ],
+        "reponse_correcte": "Annotations",
+        "explication": "Les droits d'emption et de préemption (ainsi que le bail à loyer) sont des droits personnels qui peuvent être annotés au registre foncier pour être opposables aux tiers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Que se passe-t-il si un droit de préemption conventionnel n'est pas annoté au registre foncier ?",
+        "propositions": [
+          "Il ne lie que les parties et n'est pas opposable aux tiers",
+          "Il est nul",
+          "Il est automatiquement converti en servitude",
+          "Il reste opposable à tout acquéreur, l'annotation n'ayant qu'une valeur informative"
+        ],
+        "reponse_correcte": "Il ne lie que les parties et n'est pas opposable aux tiers",
+        "explication": "Les droits de préemption, de réméré et d'emption doivent être annotés au registre foncier pour être opposables aux tiers ; à défaut, ils ne lient que les parties."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Pour quelle durée maximale un droit d'emption peut-il être conclu ?",
+        "propositions": [
+          "10 ans",
+          "25 ans",
+          "5 ans",
+          "Sans limite de durée, pour autant qu'il soit annoté au registre foncier"
+        ],
+        "reponse_correcte": "10 ans",
+        "explication": "Le droit d'emption peut être conclu pour 10 ans au maximum ; les droits de préemption et de réméré pour 25 ans au maximum."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Pour quelle durée maximale un droit de préemption ou de réméré conventionnel peut-il être conclu ?",
+        "propositions": [
+          "25 ans",
+          "10 ans",
+          "50 ans",
+          "99 ans, comme le droit de superficie"
+        ],
+        "reponse_correcte": "25 ans",
+        "explication": "Préemption et réméré : 25 ans au maximum. Emption : 10 ans au maximum."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Lors d'un retrait anticipé du 2e pilier (LPP) pour financer un logement, que fait-on inscrire au registre foncier ?",
+        "propositions": [
+          "Une mention de restriction du droit d'aliéner",
+          "Une cédule hypothécaire en faveur de la caisse de pension",
+          "Une servitude d'usufruit en faveur de la caisse",
+          "Une annotation de droit de préemption au profit de la caisse de pension, valable 25 ans"
+        ],
+        "reponse_correcte": "Une mention de restriction du droit d'aliéner",
+        "explication": "En cas de retrait EPL (minimum CHF 20'000.–, 5 ans entre chaque retrait, consentement du conjoint), une mention est inscrite au registre foncier ; sur les extraits, elle apparaît comme « Restriction du droit d'aliéner LPP »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mentions et annotations",
+      "content": {
+        "enonce": "Sous quelle rubrique figure un contrat de bail à loyer inscrit au registre foncier ?",
+        "propositions": [
+          "Annotations",
+          "Mentions",
+          "Servitudes",
+          "Propriété, le locataire y étant inscrit comme titulaire d'un droit d'usage"
+        ],
+        "reponse_correcte": "Annotations",
+        "explication": "Le bail à loyer est un droit personnel qui peut être annoté au registre foncier, ce qui le rend opposable à un nouvel acquéreur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "PPE et registre foncier",
+      "content": {
+        "enonce": "Comment une propriété par étages est-elle constituée ?",
+        "propositions": [
+          "Par un acte authentique et l'inscription au feuillet du bien-fonds qui en est l'objet",
+          "Par une simple décision de l'assemblée des copropriétaires",
+          "Par l'inscription au registre du commerce",
+          "Par la signature d'un règlement d'administration et d'utilisation sous forme écrite simple"
+        ],
+        "reponse_correcte": "Par un acte authentique et l'inscription au feuillet du bien-fonds qui en est l'objet",
+        "explication": "Constitution d'une PPE = inscription au feuillet du bien-fonds qui en est l'objet, sur la base d'un acte constitutif en forme authentique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "PPE et registre foncier",
+      "content": {
+        "enonce": "Quelles conditions s'appliquent à la réquisition d'inscription d'une PPE au registre foncier ?",
+        "propositions": [
+          "Elle est adressée au registre foncier du lieu de situation de l'immeuble",
+          "Elle est faite par les personnes qui ont le pouvoir de disposer (propriétaires ou superficiaires)",
+          "Les requérants doivent produire un titre d'acquisition valable (l'acte constitutif)",
+          "Elle peut être adressée à n'importe quel registre foncier de Suisse",
+          "Elle peut être déposée par l'administrateur de la PPE de sa propre initiative"
+        ],
+        "reponses_correctes": [
+          "Elle est adressée au registre foncier du lieu de situation de l'immeuble",
+          "Elle est faite par les personnes qui ont le pouvoir de disposer (propriétaires ou superficiaires)",
+          "Les requérants doivent produire un titre d'acquisition valable (l'acte constitutif)"
+        ],
+        "explication": "La réquisition est adressée au RF du lieu de situation, par les personnes ayant le pouvoir de disposer (propriétaires de l'immeuble ou bénéficiaires du droit de superficie), qui produisent un titre d'acquisition valable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "PPE et registre foncier",
+      "content": {
+        "enonce": "Une PPE peut-elle être inscrite au registre foncier avant la construction du bâtiment ?",
+        "propositions": [
+          "Oui ; une fois le bâtiment achevé, les propriétaires doivent communiquer l'achèvement des travaux au registre foncier",
+          "Non, l'inscription n'est possible qu'une fois le permis d'habiter délivré",
+          "Oui, mais elle est radiée d'office si le bâtiment n'est pas terminé dans l'année",
+          "Non, seule une promesse de vente peut être annotée avant que le gros œuvre soit terminé"
+        ],
+        "reponse_correcte": "Oui ; une fois le bâtiment achevé, les propriétaires doivent communiquer l'achèvement des travaux au registre foncier",
+        "explication": "Après l'inscription, la PPE est constituée même si le bâtiment n'est pas achevé, voire pas commencé (vente sur plan). Une fois le bâtiment achevé, l'achèvement est communiqué au registre foncier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "PPE et registre foncier",
+      "content": {
+        "enonce": "Comment modifie-t-on l'acte constitutif d'une PPE ?",
+        "propositions": [
+          "À l'unanimité, par réouverture de l'acte devant notaire et réinscription au registre foncier",
+          "À la majorité simple de l'assemblée, sans passage devant notaire",
+          "Par décision de l'administrateur, communiquée au registre foncier",
+          "À la double majorité, par simple lettre recommandée au conservateur du registre foncier"
+        ],
+        "reponse_correcte": "À l'unanimité, par réouverture de l'acte devant notaire et réinscription au registre foncier",
+        "explication": "La modification de l'acte constitutif est possible mais nécessite l'unanimité des copropriétaires, la réouverture de l'acte devant notaire et la réinscription auprès du RF."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "PPE et registre foncier",
+      "content": {
+        "enonce": "Le règlement d'administration et d'utilisation (RAU) d'une PPE peut être mentionné au registre foncier (art. 712g al. 3 CC). Quel est l'effet de cette mention ?",
+        "propositions": [
+          "Elle assure la publicité du règlement ; son effet obligatoire envers les ayants droit existe indépendamment de la mention (art. 649a CC)",
+          "Sans mention, le règlement n'a aucun effet obligatoire",
+          "La mention transforme le règlement en servitude foncière",
+          "La mention n'est possible qu'avec l'accord unanime de tous les copropriétaires et de leurs créanciers gagistes"
+        ],
+        "reponse_correcte": "Elle assure la publicité du règlement ; son effet obligatoire envers les ayants droit existe indépendamment de la mention (art. 649a CC)",
+        "explication": "Le RAU est mentionné au registre foncier (l'administrateur fait mentionner les modifications), mais son effet obligatoire pour les propriétaires d'étages et leurs ayants droit est indépendant d'une mention (art. 649a CC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pratique immobilière",
+      "content": {
+        "enonce": "Qui doit l'impôt foncier pour l'année entière ?",
+        "propositions": [
+          "Le propriétaire inscrit au registre foncier au moment de la taxation",
+          "Celui qui a été propriétaire le plus longtemps durant l'année",
+          "Le locataire, au titre des frais accessoires",
+          "Le vendeur et l'acheteur au prorata, selon le décompte établi par le registre foncier"
+        ],
+        "reponse_correcte": "Le propriétaire inscrit au registre foncier au moment de la taxation",
+        "explication": "L'impôt foncier est dû par tout propriétaire d'immeuble (personne physique ou morale), sans tenir compte des dettes, pour l'année entière, par le propriétaire inscrit au RF au moment de la taxation (le prorata entre vendeur et acheteur se règle contractuellement)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pratique immobilière",
+      "content": {
+        "enonce": "En Valais, quelle est la taxe additionnelle communale prélevée lors des transferts immobiliers ?",
+        "propositions": [
+          "Un impôt pouvant représenter au maximum 50 % des droits du registre foncier, prélevé par le registre foncier au bénéfice des communes",
+          "Une taxe fixe de CHF 500.– par transfert, encaissée par la commune",
+          "Un impôt de 1 % du prix de vente prélevé par le notaire au profit du canton",
+          "Une taxe égale à 100 % des droits de mutation, perçue directement par la commune auprès du vendeur"
+        ],
+        "reponse_correcte": "Un impôt pouvant représenter au maximum 50 % des droits du registre foncier, prélevé par le registre foncier au bénéfice des communes",
+        "explication": "Les droits de mutation sont une taxe cantonale proportionnelle au prix de vente. En Valais s'y ajoute la taxe additionnelle communale, au maximum 50 % des droits du RF, prélevée par le RF au bénéfice des communes."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Pratique immobilière",
+      "content": {
+        "enonce": "Lors de la prise d'un mandat de vente d'un terrain constructible, quels documents liés au registre foncier et au cadastre le courtier doit-il réunir ?",
+        "propositions": [
+          "L'extrait du registre foncier",
+          "Le détail des servitudes, mentions, annotations et charges foncières",
+          "Le plan cadastral",
+          "Le plan de zone et le règlement communal des constructions",
+          "L'extrait du registre des poursuites de tous les voisins"
+        ],
+        "reponses_correctes": [
+          "L'extrait du registre foncier",
+          "Le détail des servitudes, mentions, annotations et charges foncières",
+          "Le plan cadastral",
+          "Le plan de zone et le règlement communal des constructions"
+        ],
+        "explication": "Pour un terrain constructible : extrait RF, détail des servitudes, mentions, annotations et charges foncières, plan cadastral, plan de zone et règlement de police des constructions de la commune. Pour un lot PPE s'ajoutent l'extrait RF du/des lots, le règlement et les plans PPE, les PV et comptes des 3 dernières années."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pratique immobilière",
+      "content": {
+        "enonce": "Lorsqu'une faillite est déclarée, révoquée ou clôturée, qui le juge en informe-t-il sans retard ?",
+        "propositions": [
+          "Les offices des poursuites et des faillites, le registre du commerce et le registre foncier",
+          "Uniquement le débiteur et ses créanciers",
+          "Le registre foncier seulement si le failli est propriétaire d'un immeuble dans le même canton",
+          "La banque cantonale, qui transmet l'information au registre foncier à sa prochaine mise à jour annuelle"
+        ],
+        "reponse_correcte": "Les offices des poursuites et des faillites, le registre du commerce et le registre foncier",
+        "explication": "Le juge communique sans retard aux offices des poursuites, aux offices des faillites, au registre du commerce et au registre foncier la déclaration, la révocation et la clôture de la faillite, l'effet suspensif accordé à un recours et les mesures conservatoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Un extrait du registre foncier imprimé depuis le portail cantonal porte la mention « Cet extrait ne jouit pas de la foi publique ». Qu'est-ce que cela signifie ?",
+        "propositions": [
+          "Il a une valeur informative ; seul le registre foncier lui-même (ou un extrait certifié) fait foi",
+          "Les inscriptions qu'il reproduit sont toutes provisoires",
+          "L'immeuble n'est pas encore immatriculé au registre foncier fédéral",
+          "Le propriétaire a refusé la publication de ses données, de sorte que l'extrait est incomplet"
+        ],
+        "reponse_correcte": "Il a une valeur informative ; seul le registre foncier lui-même (ou un extrait certifié) fait foi",
+        "explication": "L'extrait imprimé est un document d'information ; la foi publique s'attache au registre foncier lui-même, non à ce type d'impression."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Quelles rubriques trouve-t-on sur un extrait du registre foncier vaudois ?",
+        "propositions": [
+          "État descriptif de l'immeuble",
+          "Propriété",
+          "Mentions, Servitudes, Charges foncières, Annotations",
+          "Droits de gage immobilier",
+          "Affaires en suspens",
+          "Liste des locataires et montant des loyers",
+          "Montant de la dette hypothécaire actuellement due"
+        ],
+        "reponses_correctes": [
+          "État descriptif de l'immeuble",
+          "Propriété",
+          "Mentions, Servitudes, Charges foncières, Annotations",
+          "Droits de gage immobilier",
+          "Affaires en suspens"
+        ],
+        "explication": "Rubriques d'un extrait : état descriptif, propriété, mentions, servitudes, charges foncières, annotations, exercices des droits, droits de gage immobilier, affaires en suspens. Les locataires n'y figurent pas (sauf bail annoté), et le gage indique le montant du titre, pas la dette effective."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur un extrait RF, dans les rubriques Servitudes, Mentions, Charges foncières et Annotations, que signifient les lettres (C), (D) et (CD) ?",
+        "propositions": [
+          "C = charge ; D = droit ; CD = charge et droit",
+          "C = créancier ; D = débiteur ; CD = codébiteurs",
+          "C = cantonal ; D = droit fédéral ; CD = droit communal",
+          "C = constitué ; D = demandé ; CD = constitution en cours d'inscription"
+        ],
+        "reponse_correcte": "C = charge ; D = droit ; CD = charge et droit",
+        "explication": "Selon les explications imprimées sur l'extrait : C = charge (l'immeuble est grevé), D = droit (l'immeuble est bénéficiaire), CD = charge et droit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur un extrait RF, que contient la colonne de gauche des rubriques Mentions, Servitudes, Charges foncières, Annotations et Droits de gage ?",
+        "propositions": [
+          "La date et la pièce justificative de l'inscription (pour les gages : le rang)",
+          "Le nom du bénéficiaire du droit",
+          "La valeur fiscale du droit",
+          "La date d'échéance du droit, après laquelle il est radié d'office"
+        ],
+        "reponse_correcte": "La date et la pièce justificative de l'inscription (pour les gages : le rang)",
+        "explication": "La colonne de gauche contient la date et la pièce justificative de l'inscription sur l'immeuble (rang) ; la colonne de droite contient la date et la pièce justificative d'une inscription complémentaire. « ID » = numéro d'identification, « R » = radiation d'un droit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Qu'est-ce que l'E-GRID indiqué dans l'état descriptif d'un extrait RF (ex. « CH 80716 59865 68 ») ?",
+        "propositions": [
+          "L'identificateur fédéral unique de l'immeuble",
+          "Le numéro de la cédule hypothécaire",
+          "Le numéro d'assurance incendie (ECA) du bâtiment",
+          "Le numéro du logement dans le registre fédéral des bâtiments (EWID)"
+        ],
+        "reponse_correcte": "L'identificateur fédéral unique de l'immeuble",
+        "explication": "L'E-GRID est l'identificateur fédéral de l'immeuble, qui figure dans l'état descriptif à côté du numéro d'immeuble communal. Le numéro d'assurance figure sous « Bâtiments/Constructions »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Extrait RF « Propriété par étages Penthalaz / 675 » : immeuble de base B-F Penthalaz 5495/17, quote-part 158/1'000, droit exclusif sur un appartement d'environ 152 m² avec jardin, cave et galetas. Que représente 158/1'000 ?",
+        "propositions": [
+          "La part de copropriété du lot sur l'immeuble de base",
+          "La part de chacun des deux propriétaires du lot",
+          "La surface du lot en m² rapportée à 1'000 m² de terrain",
+          "Le taux d'intérêt maximal de la cédule, exprimé en pour mille"
+        ],
+        "reponse_correcte": "La part de copropriété du lot sur l'immeuble de base",
+        "explication": "La quote-part (en millièmes) mesure la part de copropriété du lot PPE sur l'immeuble de base (bien-fonds 5495/17). Le lot lui-même est un immeuble avec son propre feuillet (n° 675)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur l'extrait du lot PPE Penthalaz / 675, la rubrique Propriété indique deux personnes en « copropriété simple pour 1/2 », inscrites le 05.11.2014 « Achat ». Qu'en déduit-on ?",
+        "propositions": [
+          "Le lot appartient à deux copropriétaires, chacun pour une demie, qui l'ont acquis par achat",
+          "Le lot est divisé en deux appartements distincts",
+          "Les deux personnes sont en propriété commune (hoirie)",
+          "L'une est propriétaire et l'autre usufruitière, chacune pour moitié de la valeur fiscale"
+        ],
+        "reponse_correcte": "Le lot appartient à deux copropriétaires, chacun pour une demie, qui l'ont acquis par achat",
+        "explication": "La rubrique Propriété indique la forme de propriété (ici copropriété simple, 1/2 chacun), la date d'inscription et la cause d'acquisition (achat)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur l'extrait du lot PPE Penthalaz / 675 figure la servitude « (D) Usage de places de parc, à charge de B-F Penthalaz 5495/76 ». Quelle est la position du lot 675 ?",
+        "propositions": [
+          "Il est bénéficiaire (fonds dominant) : il a le droit d'utiliser les places de parc situées sur la parcelle 5495/76",
+          "Il est grevé (fonds servant) : il doit mettre des places de parc à disposition de la parcelle 5495/76",
+          "Il paie une charge foncière annuelle à la parcelle 5495/76",
+          "Il est créancier gagiste de la parcelle 5495/76 à hauteur de la valeur des places de parc"
+        ],
+        "reponse_correcte": "Il est bénéficiaire (fonds dominant) : il a le droit d'utiliser les places de parc situées sur la parcelle 5495/76",
+        "explication": "(D) = droit. La servitude est « à charge de » la parcelle 5495/76 (fonds servant) ; le lot 675 en est bénéficiaire. Les exercices des droits précisent qu'elle s'exerce sur 2 places teintées en violet, à charge d'entretien."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur l'extrait du lot PPE Penthalaz / 675, la rubrique Droits de gage indique : « Cédule hypothécaire de registre, Fr. 560'000.00, 1er rang, Intérêt max. 10 %, Créancier hypothécaire Banque Cantonale Vaudoise ». Quelles affirmations sont correctes ?",
+        "propositions": [
+          "Le gage est une cédule hypothécaire de registre (et non sur papier)",
+          "Le gage occupe le 1er rang",
+          "Le créancier gagiste inscrit est la Banque Cantonale Vaudoise",
+          "Les propriétaires doivent actuellement exactement CHF 560'000.– à la banque",
+          "Les propriétaires paient un intérêt de 10 % sur leur prêt"
+        ],
+        "reponses_correctes": [
+          "Le gage est une cédule hypothécaire de registre (et non sur papier)",
+          "Le gage occupe le 1er rang",
+          "Le créancier gagiste inscrit est la Banque Cantonale Vaudoise"
+        ],
+        "explication": "L'extrait indique le montant du titre (montant maximal garanti), pas la dette effective, et un intérêt maximal de 10 % garanti par le gage, pas le taux réellement payé (l'observation précise d'ailleurs que la cédule ne garantit que les intérêts effectivement dus)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur l'extrait du lot PPE Penthalaz / 675, la rubrique Mentions indique « Règlement de PPE ». Pourquoi cette mention figure-t-elle sur le feuillet ?",
+        "propositions": [
+          "Le règlement d'administration et d'utilisation de la PPE est mentionné au registre foncier (art. 712g al. 3 CC)",
+          "Le lot est soumis à une restriction LPP",
+          "Le lot fait l'objet d'un droit d'emption",
+          "Le règlement de PPE est une servitude grevant chacun des lots au profit de l'administrateur"
+        ],
+        "reponse_correcte": "Le règlement d'administration et d'utilisation de la PPE est mentionné au registre foncier (art. 712g al. 3 CC)",
+        "explication": "Le règlement de PPE est mentionné au registre foncier, sur le feuillet de chaque lot, ce qui en assure la publicité envers les acquéreurs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Extrait RF « Bien-fonds Pailly / 72 » : servitude « (C) Passage à pied, en faveur de B-F Pailly 97/71 ». Quelle est la situation de la parcelle 72 ?",
+        "propositions": [
+          "Elle est grevée (fonds servant) : elle doit tolérer le passage à pied au profit de la parcelle 71",
+          "Elle est bénéficiaire : elle peut passer à pied sur la parcelle 71",
+          "Elle et la parcelle 71 sont copropriétaires du chemin",
+          "Elle doit payer une indemnité annuelle à la parcelle 71 pour le passage"
+        ],
+        "reponse_correcte": "Elle est grevée (fonds servant) : elle doit tolérer le passage à pied au profit de la parcelle 71",
+        "explication": "(C) = charge : la parcelle 72 est grevée « en faveur de » la parcelle 71 (fonds dominant)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "L'extrait RF de la parcelle Pailly / 72 comporte, sous Mentions, trois inscriptions « Restriction du droit d'aliéner LPP ». Qu'en déduit un courtier ?",
+        "propositions": [
+          "Des fonds du 2e pilier ont été retirés (EPL) pour financer le logement ; la vente aura des conséquences vis-à-vis de la caisse de pension",
+          "L'immeuble ne peut en aucun cas être vendu",
+          "L'immeuble est grevé de trois cédules hypothécaires",
+          "Trois locataires bénéficient d'un bail annoté qui interdit l'aliénation pendant sa durée"
+        ],
+        "reponse_correcte": "Des fonds du 2e pilier ont été retirés (EPL) pour financer le logement ; la vente aura des conséquences vis-à-vis de la caisse de pension",
+        "explication": "La mention LPP signale un retrait anticipé du 2e pilier pour le logement. Elle ne rend pas la vente impossible, mais l'aliénation entraîne en principe le remboursement du montant retiré à l'institution de prévoyance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Extrait RF Pailly / 72, rubrique Annotations : « (C) Emption, jusqu'au 29.08.2019 ». Que signifie cette inscription ?",
+        "propositions": [
+          "Un tiers bénéficie d'un droit d'acheter l'immeuble jusqu'au 29.08.2019, opposable à tout acquéreur",
+          "L'immeuble est à vendre aux enchères jusqu'au 29.08.2019",
+          "La parcelle 72 a le droit d'acheter une parcelle voisine",
+          "Le propriétaire bénéficie d'un délai jusqu'au 29.08.2019 pour rembourser sa cédule"
+        ],
+        "reponse_correcte": "Un tiers bénéficie d'un droit d'acheter l'immeuble jusqu'au 29.08.2019, opposable à tout acquéreur",
+        "explication": "(C) = charge : la parcelle 72 est grevée d'un droit d'emption annoté (durée max. 10 ans). L'annotation rend ce droit personnel opposable aux tiers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur l'extrait Pailly / 72, la cédule hypothécaire de Fr. 700'000.– au 1er rang porte l'indication « Primé par servitude … Canalisation(s) » et « Primé par servitude … Voisinage ». Que signifie « primé » ?",
+        "propositions": [
+          "Ces servitudes passent avant le gage : en cas de réalisation forcée, elles subsistent et sont opposables au créancier gagiste",
+          "Le gage passe avant ces servitudes, qui seront radiées en cas de réalisation",
+          "Le créancier a reçu une prime en échange de ces servitudes",
+          "Les servitudes doivent être rachetées par le propriétaire avant tout remboursement de la cédule"
+        ],
+        "reponse_correcte": "Ces servitudes passent avant le gage : en cas de réalisation forcée, elles subsistent et sont opposables au créancier gagiste",
+        "explication": "« Primé par servitude » indique que le créancier a consenti à ce que la servitude prenne rang avant son droit de gage ; elle ne peut donc pas être purgée au détriment du bénéficiaire lors d'une réalisation forcée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "Sur un extrait RF, la rubrique « Affaires en suspens » indique « Aucun(e) ». Quelle information cela donne-t-il ?",
+        "propositions": [
+          "Aucune réquisition (par ex. vente ou nouveau gage) n'est en cours de traitement au registre foncier à la date indiquée",
+          "Aucune poursuite n'est en cours contre le propriétaire",
+          "Aucun litige de voisinage n'est pendant devant les tribunaux",
+          "Aucun locataire n'occupe l'immeuble à la date de l'extrait"
+        ],
+        "reponse_correcte": "Aucune réquisition (par ex. vente ou nouveau gage) n'est en cours de traitement au registre foncier à la date indiquée",
+        "explication": "Les affaires en suspens sont les réquisitions déposées au registre foncier mais pas encore inscrites (« affaires du registre foncier jusqu'au … »). Les poursuites relèvent du registre des poursuites."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lecture d'un extrait RF",
+      "content": {
+        "enonce": "L'état descriptif de l'extrait Pailly / 72 indique : surface 1'440 m², bâtiment(s) 243 m², jardin 1'197 m², estimation fiscale 820'000.00 (2007). Quelle affirmation est correcte ?",
+        "propositions": [
+          "L'estimation fiscale est une valeur fiscale datée qui ne correspond pas forcément à la valeur vénale actuelle",
+          "820'000.– est le prix de la dernière vente de l'immeuble",
+          "820'000.– est le montant total des gages grevant l'immeuble",
+          "La surface habitable de la villa est de 1'440 m²"
+        ],
+        "reponse_correcte": "L'estimation fiscale est une valeur fiscale datée qui ne correspond pas forcément à la valeur vénale actuelle",
+        "explication": "L'estimation fiscale (ici de 2007) sert à l'imposition ; le courtier doit estimer lui-même la valeur (hédoniste, intrinsèque, de rendement). 1'440 m² est la surface de la parcelle (243 m² de bâtiments + 1'197 m² de jardin)."
+      }
+    }
+  ]
+}
