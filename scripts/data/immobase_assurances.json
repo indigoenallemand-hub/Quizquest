@@ -1,0 +1,501 @@
+{
+  "title": "Assurances",
+  "description": "Immobase — Assurances : assurance des bâtiments (incendie et éléments naturels, dégâts d'eau, bris de glace, vol), RC immeuble, sous-assurance, assurance travaux de construction, RC du maître de l'ouvrage, installations techniques, RC privée et assurances de personnes (LPP, LAA, perte de gain maladie).",
+  "questions": [
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Du point de vue des assurances, quels critères caractérisent un bâtiment ?",
+        "propositions": [
+          "Il a un toit",
+          "Il est une construction à demeure et ne peut pas être déplacé",
+          "Il est le résultat de travaux de construction",
+          "Il comprend des locaux utilisables (habitation, dépôt, production, etc.)",
+          "Il est inscrit au registre foncier comme PPE"
+        ],
+        "reponses_correctes": [
+          "Il a un toit",
+          "Il est une construction à demeure et ne peut pas être déplacé",
+          "Il est le résultat de travaux de construction",
+          "Il comprend des locaux utilisables (habitation, dépôt, production, etc.)"
+        ],
+        "explication": "Les 5 critères : un toit, une construction à demeure, qui ne peut pas être déplacée (immobilier), résultant de travaux de construction et comprenant des locaux utilisables. Le régime de propriété ne joue aucun rôle."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Lesquels de ces objets ne sont PAS des bâtiments au sens de l'assurance ?",
+        "propositions": [
+          "Un mobilhome",
+          "Un pont",
+          "Un tunnel",
+          "Une église",
+          "Un hôtel",
+          "Une résidence secondaire"
+        ],
+        "reponses_correctes": [
+          "Un mobilhome",
+          "Un pont",
+          "Un tunnel"
+        ],
+        "explication": "Le mobilhome n'est ni le résultat de travaux de construction ni fixé à demeure. Le pont n'a ni toit ni locaux utilisables, et le tunnel n'a pas de locaux utilisables. Églises, hôtels et résidences secondaires sont des bâtiments."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Quelles sont les couvertures de base de l'assurance des bâtiments ?",
+        "propositions": [
+          "Incendie et dommages naturels",
+          "Dégâts d'eau",
+          "Bris de glace",
+          "Vol",
+          "Responsabilité civile (RC immeuble)",
+          "Perte de gain maladie"
+        ],
+        "reponses_correctes": [
+          "Incendie et dommages naturels",
+          "Dégâts d'eau",
+          "Bris de glace",
+          "Vol",
+          "Responsabilité civile (RC immeuble)"
+        ],
+        "explication": "Les couvertures de base sont : incendie et dommages naturels, dégâts d'eau, bris de glace, vol et RC immeuble. La perte de gain maladie est une assurance de personnes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "Parmi les risques de l'assurance des bâtiments, lequel est obligatoire dans la plupart des cantons ?",
+        "propositions": [
+          "Les dégâts d'eau",
+          "Le vol",
+          "L'incendie",
+          "Le bris de glace"
+        ],
+        "reponse_correcte": "L'incendie",
+        "explication": "L'assurance incendie des bâtiments est obligatoire, sauf au Tessin, en Valais, à Genève et en Appenzell Rhodes-Intérieures. Les dégâts d'eau, le vol et le bris de glace sont facultatifs."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "Dans quels cantons l'assurance incendie des bâtiments n'est-elle PAS obligatoire ?",
+        "propositions": [
+          "Tessin",
+          "Valais",
+          "Genève",
+          "Appenzell Rhodes-Intérieures",
+          "Vaud",
+          "Neuchâtel"
+        ],
+        "reponses_correctes": [
+          "Tessin",
+          "Valais",
+          "Genève",
+          "Appenzell Rhodes-Intérieures"
+        ],
+        "explication": "L'assurance incendie est obligatoire partout sauf au Tessin, en Valais, à Genève et en Appenzell Rhodes-Intérieures. Vaud (ECA) et Neuchâtel (ECAP) ont un établissement cantonal."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "Dans un canton où l'établissement cantonal d'assurance (ECA) a le monopole, que peut assurer un assureur privé ?",
+        "propositions": [
+          "Rien, l'ECA couvre tous les risques du bâtiment",
+          "Le risque incendie à la place de l'ECA, si le propriétaire le souhaite",
+          "Le risque incendie en complément de l'assurance obligatoire, ainsi que les dégâts d'eau, le vol et le bris de glace",
+          "Uniquement la RC immeuble"
+        ],
+        "reponse_correcte": "Le risque incendie en complément de l'assurance obligatoire, ainsi que les dégâts d'eau, le vol et le bris de glace",
+        "explication": "Dans les cantons à monopole, les assureurs privés peuvent couvrir l'incendie uniquement en complément de l'assurance obligatoire, ainsi que les trois autres risques du bâtiment : dégâts d'eau, vol et bris de glace."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "Lesquels de ces événements sont couverts au titre des événements naturels ?",
+        "propositions": [
+          "Grêle",
+          "Avalanche",
+          "Tempête (vent de plus de 75 km/h)",
+          "Glissement de terrain",
+          "Tremblement de terre",
+          "Inondation provoquée par l'eau d'un lac artificiel"
+        ],
+        "reponses_correctes": [
+          "Grêle",
+          "Avalanche",
+          "Tempête (vent de plus de 75 km/h)",
+          "Glissement de terrain"
+        ],
+        "explication": "Les événements naturels comprennent notamment la grêle, l'avalanche, la tempête (> 75 km/h), le glissement de terrain, les hautes eaux, l'inondation, la pression de la neige, l'éboulement et la chute de pierres. Le tremblement de terre fait partie des exclusions générales, et les inondations dues aux lacs artificiels sont exclues."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "À partir de quelle vitesse de vent la tempête est-elle couverte comme événement naturel ?",
+        "propositions": [
+          "50 km/h",
+          "75 km/h",
+          "100 km/h",
+          "120 km/h"
+        ],
+        "reponse_correcte": "75 km/h",
+        "explication": "La tempête est couverte lorsque le vent dépasse 75 km/h."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Incendie et éléments naturels",
+      "content": {
+        "enonce": "Un mur s'affaisse en raison d'une construction défectueuse et d'un manque d'entretien. Ce dommage est-il couvert au titre des événements naturels ?",
+        "propositions": [
+          "Oui, comme glissement de terrain",
+          "Oui, si le bâtiment est assuré auprès de l'ECA",
+          "Non, ces causes sont exclues",
+          "Oui, mais avec une franchise doublée"
+        ],
+        "reponse_correcte": "Non, ces causes sont exclues",
+        "explication": "Ne sont pas des dommages naturels ceux causés par un affaiblissement de terrain, le mauvais état du terrain à bâtir, une construction défectueuse, le manque d'entretien, l'omission de mesures de protection ou des travaux de terrassement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Dégâts d'eau",
+      "content": {
+        "enonce": "Quels dommages sont couverts par l'assurance dégâts d'eau du bâtiment ?",
+        "propositions": [
+          "L'eau s'échappant de conduites défectueuses",
+          "L'eau provenant d'un lave-linge raccordé aux conduites",
+          "L'eau de pluie infiltrée par le toit, les chéneaux ou les tuyaux de descente",
+          "Les frais de dégel de conduites gelées à l'intérieur du bâtiment",
+          "L'eau entrée par une lucarne laissée ouverte pendant des travaux"
+        ],
+        "reponses_correctes": [
+          "L'eau s'échappant de conduites défectueuses",
+          "L'eau provenant d'un lave-linge raccordé aux conduites",
+          "L'eau de pluie infiltrée par le toit, les chéneaux ou les tuyaux de descente",
+          "Les frais de dégel de conduites gelées à l'intérieur du bâtiment"
+        ],
+        "explication": "L'écoulement d'eau (conduites, appareils raccordés, eaux pluviales par le toit, nappe souterraine) et le gel sont couverts. Les infiltrations par des lucarnes ouvertes ou par des ouvertures pratiquées lors de travaux sont exclues."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts d'eau",
+      "content": {
+        "enonce": "Après une fuite, il faut ouvrir un mur pour trouver la conduite percée, puis le refermer. Ces frais sont-ils couverts ?",
+        "propositions": [
+          "Non, seule la conduite elle-même est indemnisée",
+          "Oui, les frais de recherche, de dégagement et de recouvrement des conduites sont couverts",
+          "Uniquement si la fuite dure depuis plus d'un mois",
+          "Non, ils sont à la charge du locataire"
+        ],
+        "reponse_correcte": "Oui, les frais de recherche, de dégagement et de recouvrement des conduites sont couverts",
+        "explication": "L'assurance dégâts d'eau prend en charge ces coûts indirects : recherche du dommage, dégagement et recouvrement des conduites."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts d'eau",
+      "content": {
+        "enonce": "Un refoulement de canalisation endommage la cave, et le propriétaire de la canalisation en est responsable. L'assurance dégâts d'eau du bâtiment intervient-elle ?",
+        "propositions": [
+          "Oui, sans restriction",
+          "Non, ces dommages sont exclus : c'est le propriétaire de la canalisation qui répond",
+          "Oui, mais seulement pour la perte de loyer",
+          "Non, c'est l'assurance incendie qui couvre"
+        ],
+        "reponse_correcte": "Non, ces dommages sont exclus : c'est le propriétaire de la canalisation qui répond",
+        "explication": "Les dommages causés par un refoulement dont le propriétaire de la canalisation est responsable sont exclus de l'assurance dégâts d'eau."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bris de glace et vol",
+      "content": {
+        "enonce": "Lequel de ces éléments n'est PAS un vitrage du bâtiment couvert par l'assurance bris de glace de base ?",
+        "propositions": [
+          "Une fenêtre",
+          "Une porte vitrée",
+          "Un lumidôme en plexiglas",
+          "Un plan de cuisson en vitrocéramique"
+        ],
+        "reponse_correcte": "Un plan de cuisson en vitrocéramique",
+        "explication": "Les vitrages du bâtiment (fenêtres, vitres isolantes, portes vitrées, lumidômes, y compris en plexiglas) sont couverts. Les vitrocéramiques, lavabos, WC ou plans de travail en pierre ne le sont que chez certains assureurs, comme objets particulièrement cassables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bris de glace et vol",
+      "content": {
+        "enonce": "Que couvre l'assurance vol du bâtiment ?",
+        "propositions": [
+          "Les objets volés appartenant au locataire",
+          "Les dégâts causés au bâtiment lors d'un vol par effraction",
+          "Le vol d'argent dans le coffre de la régie",
+          "Le vol de matériaux sur un chantier"
+        ],
+        "reponse_correcte": "Les dégâts causés au bâtiment lors d'un vol par effraction",
+        "explication": "Elle couvre les dommages au bâtiment dus à l'effraction : portes enfoncées, cadres endommagés, murs abîmés par l'arrachage d'un coffre-fort, vitres brisées, parquets rayés. Les objets du locataire relèvent de son assurance ménage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC immeuble",
+      "content": {
+        "enonce": "Qui est la personne assurée par l'assurance RC immeuble ?",
+        "propositions": [
+          "Le locataire",
+          "Le gérant d'immeuble",
+          "Le propriétaire du bâtiment ou de la propriété (bâtiment et terrain)",
+          "Le concierge"
+        ],
+        "reponse_correcte": "Le propriétaire du bâtiment ou de la propriété (bâtiment et terrain)",
+        "explication": "La RC immeuble couvre le propriétaire en sa qualité de propriétaire du bâtiment et du terrain, pour les dommages corporels et matériels causés à des tiers."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "RC immeuble",
+      "content": {
+        "enonce": "Quelles sont les prestations de l'assureur RC immeuble ?",
+        "propositions": [
+          "Payer les prétentions justifiées des tiers lorsque la responsabilité de l'assuré est engagée",
+          "Défendre l'assuré en écartant les prétentions non fondées",
+          "Réparer les dégâts d'eau causés au bâtiment lui-même",
+          "Verser une rente au propriétaire en cas d'invalidité"
+        ],
+        "reponses_correctes": [
+          "Payer les prétentions justifiées des tiers lorsque la responsabilité de l'assuré est engagée",
+          "Défendre l'assuré en écartant les prétentions non fondées"
+        ],
+        "explication": "Une assurance RC a une double fonction : indemniser les prétentions justifiées et défendre contre les prétentions infondées. Les dommages au bâtiment lui-même relèvent de l'assurance choses (bâtiment)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC immeuble",
+      "content": {
+        "enonce": "Quelle est la somme d'assurance usuelle d'une RC immeuble ?",
+        "propositions": [
+          "Entre 100'000 et 500'000 francs",
+          "Entre 1 et 2 millions",
+          "Entre 3 et 10 millions",
+          "Plus de 50 millions"
+        ],
+        "reponse_correcte": "Entre 3 et 10 millions",
+        "explication": "La somme assurée se situe usuellement entre 3 et 10 millions de francs, comme pour la RC du maître de l'ouvrage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC immeuble",
+      "content": {
+        "enonce": "Dans quel cas la RC privée du propriétaire peut-elle remplacer une RC immeuble ?",
+        "propositions": [
+          "Toujours, quel que soit le bâtiment",
+          "Si le bâtiment ne comporte pas plus de trois appartements et que le propriétaire occupe l'un d'eux",
+          "Si le bâtiment est assuré auprès de l'ECA",
+          "Jamais, la RC immeuble est obligatoire"
+        ],
+        "reponse_correcte": "Si le bâtiment ne comporte pas plus de trois appartements et que le propriétaire occupe l'un d'eux",
+        "explication": "La RC privée se substitue à la RC immeuble pour autant que le bien ne comporte pas plus de trois appartements et que le propriétaire en occupe un."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Indemnisation et sous-assurance",
+      "content": {
+        "enonce": "Quand y a-t-il sous-assurance ?",
+        "propositions": [
+          "Lorsque la prime n'a pas été payée",
+          "Lorsque la somme assurée est inférieure à la valeur de remplacement",
+          "Lorsque le bâtiment est assuré auprès de deux assureurs",
+          "Lorsque la franchise dépasse 10 % du dommage"
+        ],
+        "reponse_correcte": "Lorsque la somme assurée est inférieure à la valeur de remplacement",
+        "explication": "Il y a sous-assurance lorsque la somme assurée est inférieure à la valeur de remplacement. L'indexation annuelle de la valeur assurée à l'indice des frais de construction sert à l'éviter."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Indemnisation et sous-assurance",
+      "content": {
+        "enonce": "Un bâtiment d'une valeur de remplacement de Fr. {valeur}'000.- n'est assuré que pour Fr. {somme}'000.-. Un dommage partiel de Fr. {dommage}'000.- survient. Quelle indemnité l'assureur verse-t-il (en CHF, hors franchise) ?",
+        "variables": [
+          { "nom": "valeur", "min": 1500, "max": 3000, "unite": "", "arrondi": 0 },
+          { "nom": "somme", "min": 800, "max": 1400, "unite": "", "arrondi": 0 },
+          { "nom": "dommage", "min": 50, "max": 400, "unite": "", "arrondi": 0 }
+        ],
+        "formule": "dommage * 1000 * somme / valeur",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 0,
+        "tolerance": 1,
+        "explication": "En cas de dommage partiel avec sous-assurance, l'indemnité est réduite dans la proportion somme assurée / valeur de remplacement : indemnité = dommage × somme assurée / valeur de remplacement. Ex. : 200'000 × 1'500'000 / 2'000'000 = Fr. 150'000.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Indemnisation et sous-assurance",
+      "content": {
+        "enonce": "Avec une assurance au premier risque, comment est réglé un dommage en cas de sous-assurance ?",
+        "propositions": [
+          "Il est réduit proportionnellement",
+          "Il est réparé jusqu'à concurrence de la somme convenue, sans égard à la sous-assurance",
+          "Il n'est pas indemnisé",
+          "Il est indemnisé à la valeur vénale"
+        ],
+        "reponse_correcte": "Il est réparé jusqu'à concurrence de la somme convenue, sans égard à la sous-assurance",
+        "explication": "L'assurance au premier risque ne connaît pas la règle proportionnelle : le dommage est indemnisé jusqu'à la somme d'assurance convenue."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Indemnisation et sous-assurance",
+      "content": {
+        "enonce": "Un bâtiment détruit par un incendie n'est pas reconstruit (ni au même endroit ni sous la même forme). Sur quelle valeur l'indemnité est-elle calculée ?",
+        "propositions": [
+          "Les frais de reconstruction",
+          "La valeur vénale",
+          "La valeur de démolition",
+          "La valeur fiscale"
+        ],
+        "reponse_correcte": "La valeur vénale",
+        "explication": "Si le bâtiment est reconstruit, ce sont les frais de reconstruction qui comptent. S'il n'est pas reconstruit, c'est la valeur vénale. S'il était destiné à la démolition, c'est la valeur de démolition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Indemnisation et sous-assurance",
+      "content": {
+        "enonce": "Après un incendie, pendant combien de temps la perte de revenu locatif est-elle généralement indemnisée ?",
+        "propositions": [
+          "3 à 6 mois",
+          "12 mois",
+          "18 à 24 mois",
+          "5 ans"
+        ],
+        "reponse_correcte": "18 à 24 mois",
+        "explication": "Pour l'incendie, la durée des prestations est de 18 à 24 mois, sur la base du revenu locatif annuel. Pour les dégâts d'eau, la perte de loyer est en principe couverte 12 mois. À Neuchâtel (ECAP), les pertes de location sont exclues de l'assurance incendie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction et installations techniques",
+      "content": {
+        "enonce": "Que couvre l'assurance travaux de construction (TC) ?",
+        "propositions": [
+          "Les dommages causés aux voisins par le chantier",
+          "L'ouvrage en construction et les matériaux, en cas d'accident de chantier imprévu ou de vol d'éléments déjà incorporés",
+          "Les accidents des ouvriers sur le chantier",
+          "Les défauts de l'ouvrage découverts après la réception"
+        ],
+        "reponse_correcte": "L'ouvrage en construction et les matériaux, en cas d'accident de chantier imprévu ou de vol d'éléments déjà incorporés",
+        "explication": "La TC est une sorte d'assurance casco de l'ouvrage. Elle couvre le maître de l'ouvrage et les entreprises. Les dommages aux voisins relèvent de la RC du maître de l'ouvrage (RCMO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction et installations techniques",
+      "content": {
+        "enonce": "Des travaux de construction endommagent la maison voisine. Contre qui le voisin lésé se retourne-t-il, en vertu de l'art. 58 CO ?",
+        "propositions": [
+          "L'entrepreneur qui a causé le dommage",
+          "L'architecte",
+          "Le maître de l'ouvrage, même s'il n'a commis aucune faute",
+          "La commune qui a délivré le permis"
+        ],
+        "reponse_correcte": "Le maître de l'ouvrage, même s'il n'a commis aucune faute",
+        "explication": "Le maître de l'ouvrage a une responsabilité causale au sens strict (art. 58 CO). Il peut ensuite se retourner contre l'architecte, l'ingénieur ou l'entrepreneur, à condition de prouver leur faute. D'où l'intérêt de l'assurance RCMO."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Construction et installations techniques",
+      "content": {
+        "enonce": "La chaudière de l'immeuble est détruite à la suite d'une erreur de manipulation. Quelle assurance intervient ?",
+        "propositions": [
+          "L'assurance incendie",
+          "L'assurance des installations techniques (bris de machines)",
+          "La RC immeuble",
+          "L'assurance dégâts d'eau"
+        ],
+        "reponse_correcte": "L'assurance des installations techniques (bris de machines)",
+        "explication": "L'assurance des installations techniques (chaudières, ventilation, ascenseurs, pompes à chaleur, etc.) couvre la détérioration soudaine et imprévue : erreur de manipulation, vandalisme, matériel défectueux, court-circuit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC privée et assurances de personnes",
+      "content": {
+        "enonce": "Que couvre la RC privée du locataire en lien avec son logement ?",
+        "propositions": [
+          "Son mobilier en cas de vol",
+          "Les dommages qu'il cause à la chose louée et aux parties communes de l'immeuble",
+          "L'usure normale de l'appartement",
+          "Les loyers impayés"
+        ],
+        "reponse_correcte": "Les dommages qu'il cause à la chose louée et aux parties communes de l'immeuble",
+        "explication": "La RC privée couvre les prétentions de tiers. Pour le locataire, elle couvre les dommages causés à la chose louée, aux parties d'immeuble et aux installations communes. L'usure normale n'est pas un dommage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC privée et assurances de personnes",
+      "content": {
+        "enonce": "Un employé de la régie travaille 6 heures par semaine. Contre quoi est-il obligatoirement assuré selon la LAA ?",
+        "propositions": [
+          "Contre tous les accidents, professionnels ou non",
+          "Uniquement contre les accidents et maladies professionnels",
+          "Uniquement contre les accidents non professionnels",
+          "Il n'est pas assuré"
+        ],
+        "reponse_correcte": "Uniquement contre les accidents et maladies professionnels",
+        "explication": "Les personnes travaillant moins de 8 heures par semaine chez le même employeur ne sont obligatoirement assurées que contre les accidents et maladies professionnels, pas contre les accidents non professionnels."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC privée et assurances de personnes",
+      "content": {
+        "enonce": "Pourquoi la plupart des entreprises concluent-elles une assurance perte de gain maladie (PGM) ?",
+        "propositions": [
+          "Parce qu'elle est obligatoire selon la LAA",
+          "Pour couvrir l'obligation de verser le salaire d'un employé malade (art. 324a CO)",
+          "Pour financer la caisse de pension",
+          "Pour couvrir les frais médicaux des employés"
+        ],
+        "reponse_correcte": "Pour couvrir l'obligation de verser le salaire d'un employé malade (art. 324a CO)",
+        "explication": "L'employeur doit continuer à verser le salaire de l'employé empêché de travailler pour cause de maladie, pendant une durée qui dépend des années de service (art. 324a CO). L'assurance PGM couvre ce risque financier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "RC privée et assurances de personnes",
+      "content": {
+        "enonce": "Quels risques couvre la prévoyance professionnelle (LPP) ?",
+        "propositions": [
+          "Accident, maladie et chômage",
+          "Vieillesse, décès et invalidité",
+          "Incendie, vol et dégâts d'eau",
+          "Perte de gain et maternité"
+        ],
+        "reponse_correcte": "Vieillesse, décès et invalidité",
+        "explication": "La LPP (2e pilier) étend la couverture du 1er pilier contre les risques vieillesse, décès et invalidité. Elle est obligatoire pour presque tous les travailleurs et facultative pour les indépendants."
+      }
+    }
+  ]
+}
