@@ -1,0 +1,1316 @@
+{
+  "title": "Rédaction du contrat de bail",
+  "description": "Immobase — Rédaction du contrat de bail : bases légales (CO, OBLF, dispositions paritaires romandes, RULV), définition et formes du bail, marche à suivre, clauses essentielles (parties, objet, durée, résiliation, loyer, frais accessoires, garantie), formule officielle et contestation du loyer initial.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Quels articles du Code des obligations régissent principalement le bail à loyer ?",
+        "propositions": [
+          "Les art. 184 à 236 CO",
+          "Les art. 253 à 273 CO",
+          "Les art. 319 à 362 CO",
+          "Les art. 394 à 418 CO"
+        ],
+        "reponse_correcte": "Les art. 253 à 273 CO",
+        "explication": "Le droit du bail à loyer est principalement régi par les art. 253 à 273 CO, complétés par l'OBLF. Étant fédérales, ces dispositions s'appliquent dans toute la Suisse."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Que signifie l'abréviation OBLF ?",
+        "propositions": [
+          "Ordonnance sur les baux et loyers fonciers",
+          "Ordonnance fédérale sur la location de biens fonciers",
+          "Ordonnance sur le bail à loyer et le bail à ferme d'habitations et de locaux commerciaux",
+          "Office des baux et loyers fédéral"
+        ],
+        "reponse_correcte": "Ordonnance sur le bail à loyer et le bail à ferme d'habitations et de locaux commerciaux",
+        "explication": "L'OBLF est l'ordonnance fédérale qui complète les art. 253 ss CO, par exemple pour les modalités des frais de chauffage et d'eau chaude (art. 4 à 8 OBLF)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Depuis le 1er juillet 2020, dans quel canton les règles et usages locatifs conservent-ils une force obligatoire générale ?",
+        "propositions": [
+          "Genève",
+          "Fribourg",
+          "Neuchâtel",
+          "Vaud"
+        ],
+        "reponse_correcte": "Vaud",
+        "explication": "La déclaration de force obligatoire du contrat-cadre romand a pris fin au 30 juin 2020, hormis dans le canton de Vaud : les RULV s'appliquent à tous les baux (habitations et locaux commerciaux) signés dans le canton, quelle que soit leur date de conclusion."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Dans le canton de Vaud, que se passe-t-il si une clause d'un bail individuel est contraire aux RULV ?",
+        "propositions": [
+          "La clause du bail prime, car elle a été signée par les parties",
+          "Le bail entier est nul",
+          "La clause est nulle et remplacée par la disposition correspondante des RULV",
+          "La clause reste valable si le locataire ne la conteste pas dans les 30 jours"
+        ],
+        "reponse_correcte": "La clause est nulle et remplacée par la disposition correspondante des RULV",
+        "explication": "Les RULV ayant force obligatoire générale, toute disposition contraire d'un contrat individuel est nulle et remplacée par la disposition correspondante des RULV. Le reste du bail demeure valable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Depuis le 1er juillet 2020, comment un bailleur romand (hors Vaud) peut-il faire appliquer le contrat-cadre romand à un nouveau bail ?",
+        "propositions": [
+          "Il s'applique automatiquement à tous les baux romands",
+          "En le joignant au bail en annexe ou en l'intégrant dans le corps du texte",
+          "En le faisant homologuer par la commission de conciliation",
+          "Il ne peut plus du tout être utilisé"
+        ],
+        "reponse_correcte": "En le joignant au bail en annexe ou en l'intégrant dans le corps du texte",
+        "explication": "La force obligatoire ayant pris fin (sauf Vaud), le contrat-cadre romand ne s'applique plus que contractuellement : le bailleur doit le joindre au bail en annexe ou l'intégrer dans le texte du contrat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bases légales",
+      "content": {
+        "enonce": "Pour les baux signés avant le 1er juillet 2020 hors du canton de Vaud, le contrat-cadre romand reste-t-il applicable ?",
+        "propositions": [
+          "Oui, dans tous les cas",
+          "Non, il a cessé de s'appliquer à tous les baux",
+          "Oui, pour autant qu'il ait été intégré dans le contrat de bail",
+          "Uniquement pour les locaux commerciaux"
+        ],
+        "reponse_correcte": "Oui, pour autant qu'il ait été intégré dans le contrat de bail",
+        "explication": "Pour les baux signés avant le 1er juillet 2020, les dispositions du contrat-cadre romand continuent de s'appliquer pour autant qu'elles aient été intégrées dans le contrat de bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Quelle est la définition légale du bail à loyer (art. 253 CO) ?",
+        "propositions": [
+          "Un contrat par lequel le propriétaire transfère la propriété d'une chose contre un prix",
+          "Un contrat par lequel le bailleur s'oblige à céder l'usage d'une chose au locataire, moyennant un loyer",
+          "Un contrat par lequel le bailleur cède gratuitement l'usage d'une chose",
+          "Un contrat par lequel le gérant administre un immeuble pour le compte du propriétaire"
+        ],
+        "reponse_correcte": "Un contrat par lequel le bailleur s'oblige à céder l'usage d'une chose au locataire, moyennant un loyer",
+        "explication": "Art. 253 CO : « Le bail à loyer est un contrat par lequel le bailleur s'oblige à céder l'usage d'une chose au locataire, moyennant un loyer. » La cession gratuite de l'usage est un prêt à usage, pas un bail."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Quels sont les éléments caractéristiques d'un contrat de bail à loyer ?",
+        "propositions": [
+          "Une chose (mobilière ou immobilière)",
+          "La cession de l'usage",
+          "Une durée",
+          "Le paiement d'un loyer",
+          "Le transfert de la propriété",
+          "La forme écrite obligatoire"
+        ],
+        "reponses_correctes": [
+          "Une chose (mobilière ou immobilière)",
+          "La cession de l'usage",
+          "Une durée",
+          "Le paiement d'un loyer"
+        ],
+        "explication": "Le bail suppose une chose, la cession de son usage (et non de sa propriété), une durée et le paiement d'un loyer. La forme écrite n'est pas une condition de validité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Un bail à loyer peut-il porter sur une chose mobilière, par exemple des skis ou un casier de banque ?",
+        "propositions": [
+          "Non, le bail à loyer ne concerne que les immeubles",
+          "Oui, la chose louée peut être mobilière ou immobilière",
+          "Uniquement si la chose a une valeur supérieure à Fr. 1'000.-",
+          "Uniquement si elle est louée avec un logement"
+        ],
+        "reponse_correcte": "Oui, la chose louée peut être mobilière ou immobilière",
+        "explication": "L'usage cédé peut porter sur un meuble (livres, casier de banque, skis) ou sur un immeuble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Selon la loi, le contrat de bail doit-il respecter une forme particulière pour être valable ?",
+        "propositions": [
+          "Oui, il doit être conclu par écrit",
+          "Oui, il doit être passé devant notaire",
+          "Non, il peut être conclu par écrit, oralement ou par actes concluants",
+          "Oui, il doit être conclu sur le contrat-type cantonal"
+        ],
+        "reponse_correcte": "Non, il peut être conclu par écrit, oralement ou par actes concluants",
+        "explication": "Le bail est valable sans forme spéciale. Toutefois, dans les cantons qui imposent la formule officielle, le loyer initial doit être notifié par écrit sur cette formule."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Quelles formes peut prendre un contrat de bail ?",
+        "propositions": [
+          "Bail écrit",
+          "Bail oral",
+          "Bail tacite",
+          "Bail authentique devant notaire uniquement",
+          "Bail inscrit au registre foncier uniquement"
+        ],
+        "reponses_correctes": [
+          "Bail écrit",
+          "Bail oral",
+          "Bail tacite"
+        ],
+        "explication": "Le bail peut être écrit, oral ou tacite (par actes concluants). Aucune forme authentique ni inscription n'est exigée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Pourquoi le bail oral est-il déconseillé ?",
+        "propositions": [
+          "Parce qu'il est nul de plein droit",
+          "Parce que son existence est, par nature, difficile à prouver",
+          "Parce qu'il ne peut durer plus de trois mois",
+          "Parce qu'il ne permet pas d'exiger un loyer"
+        ],
+        "reponse_correcte": "Parce que son existence est, par nature, difficile à prouver",
+        "explication": "Le bail oral est valable, mais difficile à prouver. En l'absence d'accord écrit, ce sont les délais légaux et les échéances usuelles qui s'appliquent."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Le bailleur remet les clés, le locataire emménage et paie le loyer sans que le bailleur ne proteste, mais aucun contrat n'a été signé. Quelle est la situation ?",
+        "propositions": [
+          "Il n'y a aucun bail, le locataire occupe illicitement les locaux",
+          "Un bail tacite a été conclu par actes concluants",
+          "Il s'agit d'un prêt à usage",
+          "Le bail ne sera conclu qu'à la signature du contrat écrit"
+        ],
+        "reponse_correcte": "Un bail tacite a été conclu par actes concluants",
+        "explication": "La remise des clés, l'emménagement et le paiement du loyer sans protestation du bailleur constituent une conclusion tacite du bail, par actes concluants."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition et formes du bail",
+      "content": {
+        "enonce": "Il existe un contrat de bail officiel dont l'usage est obligatoire pour les parties.",
+        "propositions": [
+          "Vrai, il est édicté par la Confédération",
+          "Vrai, il est édicté par chaque canton",
+          "Faux, mais les associations de bailleurs ont élaboré des contrats-types",
+          "Faux, et il n'existe aucun modèle de contrat"
+        ],
+        "reponse_correcte": "Faux, mais les associations de bailleurs ont élaboré des contrats-types",
+        "explication": "Il n'existe pas de contrat officiel obligatoire. Les associations de bailleurs ont toutefois élaboré, dans la majorité des cantons romands, des contrats-types qui reprennent les rubriques essentielles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "Lors de l'examen des candidatures, quelle information le bailleur peut-il demander au candidat locataire selon le Préposé fédéral à la protection des données ?",
+        "propositions": [
+          "Son appartenance religieuse",
+          "Ses antécédents médicaux",
+          "Les poursuites éventuelles des deux dernières années",
+          "Son orientation politique"
+        ],
+        "reponse_correcte": "Les poursuites éventuelles des deux dernières années",
+        "explication": "Le bailleur ne peut récolter que les renseignements nécessaires à la conclusion du bail : identité, date de naissance, profession, employeur, catégorie de revenu, poursuites des deux dernières années, nombre d'occupants, animaux, activités bruyantes."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "Parmi ces renseignements, lesquels le bailleur peut-il demander dans une demande de location ?",
+        "propositions": [
+          "Nom, prénom, adresse et date de naissance",
+          "Profession et employeur",
+          "Catégorie de revenu",
+          "Présence d'animaux domestiques",
+          "Activités particulières bruyantes (ex. cours de piano)",
+          "Projet d'avoir des enfants"
+        ],
+        "reponses_correctes": [
+          "Nom, prénom, adresse et date de naissance",
+          "Profession et employeur",
+          "Catégorie de revenu",
+          "Présence d'animaux domestiques",
+          "Activités particulières bruyantes (ex. cours de piano)"
+        ],
+        "explication": "Ces données sont admises par le Préposé fédéral à la protection des données car utiles à la conclusion du bail. Les projets familiaux relèvent de la sphère privée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "En combien d'exemplaires originaux le contrat de bail doit-il être établi ?",
+        "propositions": [
+          "Un seul, conservé par le bailleur",
+          "Deux, un pour chaque partie",
+          "Trois, dont un pour la commune",
+          "Autant que de locataires plus un"
+        ],
+        "reponse_correcte": "Deux, un pour chaque partie",
+        "explication": "Le bail est établi en deux exemplaires originaux, un pour chaque partie. Après signature, l'original du locataire lui est remis avec les annexes (contrat-cadre, règles et usages locatifs, formule officielle)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "Avant de remettre les clés, quels éléments le bailleur vérifie-t-il pour s'assurer que le dossier est complet ?",
+        "propositions": [
+          "La constitution de la garantie de loyer",
+          "Le paiement du premier loyer",
+          "L'assurance responsabilité civile du locataire",
+          "Le certificat de salaire des cinq dernières années",
+          "L'annonce au contrôle des habitants faite par le locataire"
+        ],
+        "reponses_correctes": [
+          "La constitution de la garantie de loyer",
+          "Le paiement du premier loyer",
+          "L'assurance responsabilité civile du locataire"
+        ],
+        "explication": "Garantie de loyer, premier loyer et assurance RC doivent être prouvés avant la remise des clés, qui intervient à l'issue de l'état des lieux d'entrée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "À quel moment les clés sont-elles remises au nouveau locataire ?",
+        "propositions": [
+          "Dès la signature du bail",
+          "À l'issue de l'état des lieux d'entrée",
+          "Dès réception de la demande de location",
+          "Après l'expiration du délai de contestation du loyer initial"
+        ],
+        "reponse_correcte": "À l'issue de l'état des lieux d'entrée",
+        "explication": "La marche à suivre prévoit de fixer la date de l'état des lieux d'entrée, de vérifier le dossier, puis de remettre les clés à l'issue de l'état des lieux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "Après l'entrée du nouveau locataire, à qui la régie doit-elle annoncer son arrivée ?",
+        "propositions": [
+          "Au registre foncier",
+          "À l'office des poursuites",
+          "Au contrôle des habitants de la commune et aux fournisseurs d'électricité",
+          "À la commission de conciliation"
+        ],
+        "reponse_correcte": "Au contrôle des habitants de la commune et aux fournisseurs d'électricité",
+        "explication": "Dernière étape de la marche à suivre : annoncer l'arrivée du nouveau locataire au contrôle des habitants et aux fournisseurs d'électricité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion du contrat",
+      "content": {
+        "enonce": "Pourquoi le bailleur peut-il requérir lui-même un extrait auprès de l'Office des poursuites ?",
+        "propositions": [
+          "Pour inscrire le bail au registre des poursuites",
+          "Pour s'assurer que l'extrait transmis par le candidat est exact",
+          "Pour obtenir la garantie de loyer",
+          "C'est une obligation légale pour tout bail"
+        ],
+        "reponse_correcte": "Pour s'assurer que l'extrait transmis par le candidat est exact",
+        "explication": "Le bailleur peut éventuellement requérir lui-même un extrait du registre des poursuites concernant le candidat, afin de vérifier que celui transmis par le locataire est exact."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Le bailleur est une société immobilière (SA). Que doit vérifier la régie avant la signature du bail ?",
+        "propositions": [
+          "Que la société est inscrite au registre foncier",
+          "Que les personnes qui signent ont les pouvoirs d'engager la société, en consultant le registre du commerce",
+          "Que la société a son siège dans le même canton que l'immeuble",
+          "Rien, toute personne employée par la société peut signer"
+        ],
+        "reponse_correcte": "Que les personnes qui signent ont les pouvoirs d'engager la société, en consultant le registre du commerce",
+        "explication": "Pour une personne morale, il faut vérifier les pouvoirs de signature au registre du commerce (www.zefix.ch), ou dans les statuts s'il s'agit d'une association."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Lorsque la régie conclut le bail au nom du propriétaire, qui est partie au contrat ?",
+        "propositions": [
+          "La régie uniquement",
+          "La régie et le propriétaire conjointement",
+          "Le propriétaire (bailleur), représenté par la régie",
+          "Le locataire et la régie"
+        ],
+        "reponse_correcte": "Le propriétaire (bailleur), représenté par la régie",
+        "explication": "Le gérant d'immeubles n'est pas partie au contrat : il représente le bailleur et accomplit les actes d'administration en son nom (ex. « Hubert Paspresse, représenté par Régie Dutemps SA »)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Plusieurs personnes vont occuper l'appartement. Quelle clause est vivement conseillée ?",
+        "propositions": [
+          "Indiquer un seul locataire pour simplifier",
+          "Indiquer tous les locataires, qui s'engagent conjointement et solidairement",
+          "Établir un bail séparé par occupant",
+          "Répartir le loyer par parts égales entre les occupants"
+        ],
+        "reponse_correcte": "Indiquer tous les locataires, qui s'engagent conjointement et solidairement",
+        "explication": "Avec la solidarité, le bailleur peut se retourner contre chacun des locataires pour l'ensemble de la dette en cas de retard de paiement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Quel article du CO accorde des droits au conjoint ou au partenaire enregistré du locataire, même s'il n'a pas signé le bail ?",
+        "propositions": [
+          "Art. 253 CO",
+          "Art. 257e CO",
+          "Art. 270 CO",
+          "Art. 273a CO"
+        ],
+        "reponse_correcte": "Art. 273a CO",
+        "explication": "Dans le cadre de la protection de la famille, l'art. 273a CO permet au conjoint ou partenaire enregistré de contester un congé, de demander une prolongation et d'exercer les droits du locataire en cas de congé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Le bailleur souhaite résilier le bail d'un logement familial dont seul le mari a signé le contrat. Comment doit-il procéder ?",
+        "propositions": [
+          "Envoyer la formule officielle au mari uniquement",
+          "Envoyer une seule formule adressée aux deux époux",
+          "Envoyer la formule officielle par plis séparés et recommandés à chacun des deux époux",
+          "Envoyer une lettre simple à l'épouse et la formule officielle au mari"
+        ],
+        "reponse_correcte": "Envoyer la formule officielle par plis séparés et recommandés à chacun des deux époux",
+        "explication": "Art. 266n CO : le congé du logement familial doit être notifié séparément, par recommandé, à chacun des époux ou partenaires enregistrés, même si un seul a signé le bail."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Parties au contrat",
+      "content": {
+        "enonce": "Quels droits l'art. 273a CO confère-t-il au conjoint du locataire qui n'est pas partie au bail ?",
+        "propositions": [
+          "Contester un congé",
+          "Demander une prolongation du bail",
+          "Exercer les droits du locataire en cas de congé",
+          "Sous-louer librement le logement",
+          "Résilier seul le bail à la place du locataire"
+        ],
+        "reponses_correctes": [
+          "Contester un congé",
+          "Demander une prolongation du bail",
+          "Exercer les droits du locataire en cas de congé"
+        ],
+        "explication": "Le conjoint a une relation quasi-contractuelle avec le bailleur : il peut contester le congé, demander une prolongation et exercer les droits du locataire en cas de congé. Il ne peut ni sous-louer ni résilier à sa place."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Pourquoi est-il important de conserver le mot « approximative » dans la rubrique « surface habitable » du bail ?",
+        "propositions": [
+          "Pour pouvoir augmenter le loyer si la surface est plus grande",
+          "Parce qu'une surface approximative, sans présentation particulière, ne constitue pas une qualité promise",
+          "Parce que c'est exigé par l'OBLF",
+          "Pour éviter de devoir notifier la formule officielle"
+        ],
+        "reponse_correcte": "Parce qu'une surface approximative, sans présentation particulière, ne constitue pas une qualité promise",
+        "explication": "Si une surface précise est promise et se révèle inexacte, le locataire peut invoquer un défaut (réduction de loyer) ou une erreur essentielle (invalidation du contrat). Si le bailleur ne connaît pas la surface avec certitude, mieux vaut ne rien mentionner."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Une surface promise par le bailleur s'avère nettement inférieure. Que peut invoquer le locataire ?",
+        "propositions": [
+          "Un défaut de la chose louée, avec une réduction proportionnelle du loyer",
+          "Une erreur essentielle lui permettant d'invalider le contrat",
+          "La nullité du loyer initial pour défaut de formule officielle",
+          "Une résiliation pour justes motifs du bailleur"
+        ],
+        "reponses_correctes": [
+          "Un défaut de la chose louée, avec une réduction proportionnelle du loyer",
+          "Une erreur essentielle lui permettant d'invalider le contrat"
+        ],
+        "explication": "Lorsque la surface est une qualité promise (élément subjectivement essentiel), l'inexactitude peut être traitée soit comme un défaut (réduction de loyer), soit comme une erreur essentielle (invalidation)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Quelle est la meilleure description de l'objet du bail ?",
+        "propositions": [
+          "« Un logement »",
+          "« Un appartement à Lausanne »",
+          "« Un appartement au 1er étage comprenant 4 pièces, une cuisine agencée, une salle de bains avec baignoire/douche et un balcon »",
+          "« Un appartement d'environ 90 m² »"
+        ],
+        "reponse_correcte": "« Un appartement au 1er étage comprenant 4 pièces, une cuisine agencée, une salle de bains avec baignoire/douche et un balcon »",
+        "explication": "L'objet du bail doit être défini le plus clairement et précisément possible : situation, nombre de pièces, fonction et aménagement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Lesquels de ces locaux sont considérés comme des locaux d'habitation ?",
+        "propositions": [
+          "Une villa",
+          "Un studio",
+          "Une chambre meublée isolée",
+          "Une résidence secondaire louée pour un an",
+          "Un atelier de menuiserie",
+          "Un entrepôt"
+        ],
+        "reponses_correctes": [
+          "Une villa",
+          "Un studio",
+          "Une chambre meublée isolée",
+          "Une résidence secondaire louée pour un an"
+        ],
+        "explication": "Sont des habitations les locaux loués pour y accomplir les actes essentiels de la vie privée : villas, appartements, studios, chambres, meublées ou non, résidences principales ou secondaires louées pour plus de trois mois. Ateliers et entrepôts sont des locaux commerciaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Que risque le locataire qui utilise les locaux en violation de la destination prévue par le bail ?",
+        "propositions": [
+          "Rien, la destination n'est qu'indicative",
+          "Une augmentation automatique du loyer",
+          "Une résiliation extraordinaire du bail par le bailleur",
+          "La nullité du bail dès sa conclusion"
+        ],
+        "reponse_correcte": "Une résiliation extraordinaire du bail par le bailleur",
+        "explication": "La clause de destination indique les activités autorisées. Le bailleur peut résilier le bail de manière extraordinaire si le locataire use des locaux en violation du contrat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Une cave est mise à disposition « à titre gratuit et à bien plaire ». Quel contrat lie les parties sur ce point ?",
+        "propositions": [
+          "Un bail à loyer",
+          "Un bail à ferme",
+          "Un prêt à usage",
+          "Un contrat de dépôt"
+        ],
+        "reponse_correcte": "Un prêt à usage",
+        "explication": "La dépendance étant cédée gratuitement, il s'agit d'un prêt à usage et non d'un bail. Le bailleur peut en exiger la restitution sans accorder de réduction de loyer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Selon le contrat-type vaudois (clause 6.6), comment le bailleur peut-il reprendre une dépendance mise à disposition à bien plaire ?",
+        "propositions": [
+          "Uniquement pour l'échéance du bail, avec la formule officielle",
+          "En tout temps, moyennant un préavis de trente jours notifié par lettre recommandée, sans motif ni indemnité",
+          "Moyennant un préavis de trois mois et une réduction de loyer",
+          "Seulement avec l'accord du locataire"
+        ],
+        "reponse_correcte": "En tout temps, moyennant un préavis de trente jours notifié par lettre recommandée, sans motif ni indemnité",
+        "explication": "La clause 6.6 du contrat-type vaudois prévoit une reprise en tout temps, avec un préavis de trente jours par lettre recommandée, sans indication de motifs ni indemnité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Objet et destination des locaux",
+      "content": {
+        "enonce": "Une place de parc est mise gratuitement à disposition depuis de nombreuses années. Quel risque existe-t-il si le bailleur veut la reprendre ou la facturer ?",
+        "propositions": [
+          "Aucun, une mise à disposition gratuite reste toujours révocable sans formalité",
+          "Elle peut être considérée comme faisant partie du loyer, ce qui impose la formule officielle de nouvelles prétentions",
+          "Le locataire en devient propriétaire par prescription",
+          "Le bail devient automatiquement un bail commercial"
+        ],
+        "reponse_correcte": "Elle peut être considérée comme faisant partie du loyer, ce qui impose la formule officielle de nouvelles prétentions",
+        "explication": "Après plusieurs années, l'objet peut être considéré comme compris dans le loyer. Il faut alors utiliser la formule officielle de nouvelles prétentions, reçue par le locataire au moins 10 jours avant le début du délai de résiliation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Comment prend fin un bail de durée déterminée ?",
+        "propositions": [
+          "Par la notification d'un congé sur formule officielle",
+          "Sans congé, à l'expiration de la durée ou de la date convenue",
+          "Uniquement par accord écrit des deux parties",
+          "Par un congé donné au moins trois mois à l'avance"
+        ],
+        "reponse_correcte": "Sans congé, à l'expiration de la durée ou de la date convenue",
+        "explication": "Le seul écoulement du temps (ou la survenance de l'événement convenu) met fin au bail de durée déterminée, sans qu'il soit nécessaire de le résilier (art. 255 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "« Le contrat de bail commence le 1er février 2018 et s'éteindra à la mort du locataire. » De quel type de bail s'agit-il ?",
+        "propositions": [
+          "Un bail de durée indéterminée",
+          "Un bail de durée déterminée",
+          "Un bail tacite",
+          "Un contrat de prêt à usage"
+        ],
+        "reponse_correcte": "Un bail de durée déterminée",
+        "explication": "Les parties peuvent faire dépendre la fin du bail d'une date précise ou de la survenance d'un événement déterminé : c'est alors un bail de durée déterminée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Quel risque présente un bail de durée déterminée conclu sans motif valable justifiant cette durée ?",
+        "propositions": [
+          "Il est nul",
+          "Il peut être requalifié en bail de durée indéterminée",
+          "Le loyer devient automatiquement contestable",
+          "Il se transforme en bail commercial"
+        ],
+        "reponse_correcte": "Il peut être requalifié en bail de durée indéterminée",
+        "explication": "D'où l'intérêt de préciser que le bail est non renouvelable et d'en indiquer le motif dans les « autres dispositions » (ex. départ temporaire du bailleur pour raisons professionnelles)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Le locataire reste dans les locaux après l'échéance d'un bail de durée déterminée, au su et sans opposition du bailleur, qui encaisse le loyer sans réserve. Quelle est la conséquence ?",
+        "propositions": [
+          "Le locataire est en occupation illicite",
+          "Le bail est prolongé de la même durée déterminée",
+          "Le bail est assimilé à un bail de durée indéterminée",
+          "Un nouveau bail écrit doit obligatoirement être signé"
+        ],
+        "reponse_correcte": "Le bail est assimilé à un bail de durée indéterminée",
+        "explication": "C'est un cas de conclusion tacite : le locataire qui reste dans les lieux au su et sans opposition du bailleur après la fin du contrat est lié par un bail de durée indéterminée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Que faire de la rubrique « Résiliation et reconduction » dans un bail de durée déterminée ?",
+        "propositions": [
+          "La remplir avec un préavis de trois mois",
+          "La tracer, car elle n'a aucune utilité",
+          "Y indiquer la date de fin du bail",
+          "Y mentionner le loyer de reconduction"
+        ],
+        "reponse_correcte": "La tracer, car elle n'a aucune utilité",
+        "explication": "Cette rubrique ne sert que pour les baux de durée indéterminée (périodes de renouvellement et délai de résiliation). Dans un bail de durée déterminée, elle doit être tracée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Quelle est la différence entre l'échéance et le préavis de résiliation ?",
+        "propositions": [
+          "Ce sont deux termes synonymes",
+          "L'échéance est la date à laquelle le bail peut prendre fin ; le préavis est le temps qui doit s'écouler entre la réception du congé et l'échéance",
+          "L'échéance est le délai pour contester le congé ; le préavis est la date de fin du bail",
+          "L'échéance concerne le bailleur ; le préavis concerne le locataire"
+        ],
+        "reponse_correcte": "L'échéance est la date à laquelle le bail peut prendre fin ; le préavis est le temps qui doit s'écouler entre la réception du congé et l'échéance",
+        "explication": "L'échéance (terme de résiliation) est la première date pour laquelle on peut valablement mettre fin au bail, en général une fin de mois. Le préavis (délai) court entre la réception du congé et cette échéance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Quel est le préavis de résiliation minimal pour des locaux d'habitation ?",
+        "propositions": [
+          "Deux semaines",
+          "Un mois",
+          "Trois mois",
+          "Six mois"
+        ],
+        "reponse_correcte": "Trois mois",
+        "explication": "Préavis minimaux : 3 mois pour les habitations, 6 mois pour les locaux commerciaux, 2 semaines pour les chambres meublées et places de stationnement louées séparément, 3 mois pour les autres immeubles et constructions mobilières."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Quel est le préavis de résiliation minimal pour des locaux commerciaux ?",
+        "propositions": [
+          "Trois mois",
+          "Quatre mois",
+          "Six mois",
+          "Douze mois"
+        ],
+        "reponse_correcte": "Six mois",
+        "explication": "Le préavis légal minimal est de six mois pour les locaux commerciaux, contre trois mois pour les habitations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Durée, résiliation et reconduction",
+      "content": {
+        "enonce": "Quel est le préavis de résiliation minimal pour une place de stationnement louée séparément ?",
+        "propositions": [
+          "Deux semaines",
+          "Un mois",
+          "Trois mois",
+          "Six mois"
+        ],
+        "reponse_correcte": "Deux semaines",
+        "explication": "Pour les chambres meublées, places de stationnement et installations analogues louées séparément, le préavis minimal est de deux semaines."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Qu'est-ce que le loyer net ?",
+        "propositions": [
+          "Le loyer après déduction de la garantie",
+          "Le loyer expressément convenu pour la mise à disposition de la chose, sans les frais accessoires",
+          "Le loyer comprenant le chauffage, l'eau chaude et les taxes",
+          "Le loyer payé par le précédent locataire"
+        ],
+        "reponse_correcte": "Le loyer expressément convenu pour la mise à disposition de la chose, sans les frais accessoires",
+        "explication": "Le loyer net rémunère la mise à disposition de la chose. Les frais accessoires sont dus séparément par acompte ou forfait. Le loyer brut, lui, englobe toutes les prestations du bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Selon les dispositions paritaires romandes, quand le loyer doit-il être payé ?",
+        "propositions": [
+          "À la fin de chaque mois",
+          "Par mois d'avance, l'argent devant être sur le compte du bailleur le 1er du mois au plus tard",
+          "Par trimestre échu",
+          "Le 10 de chaque mois"
+        ],
+        "reponse_correcte": "Par mois d'avance, l'argent devant être sur le compte du bailleur le 1er du mois au plus tard",
+        "explication": "Le loyer, les acomptes ou forfaits de frais accessoires sont payables par mois d'avance (art. 1 CCR) : l'argent doit se trouver sur le compte du bailleur le 1er jour du mois au plus tard."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Le bail prévoit un acompte pour « chauffage, eau chaude et taxe d'épuration ». Le bailleur peut-il facturer en plus les frais de conciergerie au décompte annuel ?",
+        "propositions": [
+          "Oui, la conciergerie est toujours un frais accessoire",
+          "Oui, si le montant reste raisonnable",
+          "Non, les frais non mentionnés dans le bail sont réputés couverts par le loyer net",
+          "Oui, mais seulement avec la formule officielle"
+        ],
+        "reponse_correcte": "Non, les frais non mentionnés dans le bail sont réputés couverts par le loyer net",
+        "explication": "Les frais accessoires ne sont à la charge du locataire que s'ils sont expressément et suffisamment précisément mentionnés dans le bail. À défaut, le loyer net est réputé rémunérer ces prestations."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Quels frais peuvent être facturés comme frais accessoires, à condition d'être expressément prévus dans le bail ?",
+        "propositions": [
+          "Frais de chauffage et d'eau chaude",
+          "Taxes d'épuration des eaux et d'égout",
+          "Électricité des locaux communs",
+          "Frais d'exploitation de l'ascenseur",
+          "Frais de conciergerie",
+          "Intérêts hypothécaires du propriétaire"
+        ],
+        "reponses_correctes": [
+          "Frais de chauffage et d'eau chaude",
+          "Taxes d'épuration des eaux et d'égout",
+          "Électricité des locaux communs",
+          "Frais d'exploitation de l'ascenseur",
+          "Frais de conciergerie"
+        ],
+        "explication": "Les frais accessoires rémunèrent les prestations liées à l'usage de la chose (art. 257a CO). Les intérêts hypothécaires sont une charge du propriétaire couverte par le loyer net."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Le bailleur perçoit les frais accessoires par acomptes. Quelle est son obligation ?",
+        "propositions": [
+          "Aucune, l'acompte est définitivement acquis",
+          "Établir un décompte au moins une fois par an, restituer le trop-perçu ou réclamer le solde",
+          "Établir un décompte tous les trois ans",
+          "Établir un décompte uniquement à la fin du bail"
+        ],
+        "reponse_correcte": "Établir un décompte au moins une fois par an, restituer le trop-perçu ou réclamer le solde",
+        "explication": "Avec des acomptes, seuls les coûts effectifs peuvent être réclamés : le bailleur établit un décompte au moins annuel et restitue le trop-perçu ou réclame le solde."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Sur quelle base se calcule un forfait de frais accessoires ?",
+        "propositions": [
+          "Sur la base des valeurs moyennes des trois dernières années",
+          "Sur la base des frais de l'année précédente uniquement",
+          "Librement, selon l'appréciation du bailleur",
+          "Sur la base de 10 % du loyer net"
+        ],
+        "reponse_correcte": "Sur la base des valeurs moyennes des trois dernières années",
+        "explication": "Le forfait se calcule sur la moyenne des trois dernières années. Contrairement à l'acompte, il ne donne pas lieu à un décompte annuel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Le bail mentionne un loyer net de Fr. 1'200.- et ne prévoit ni acompte ni forfait pour le chauffage et les frais accessoires. Que peut réclamer le bailleur pour le chauffage ?",
+        "propositions": [
+          "Les frais effectifs selon décompte",
+          "Un forfait calculé sur trois ans",
+          "Rien : il s'agit d'un loyer tout compris",
+          "Un acompte fixé unilatéralement en cours de bail"
+        ],
+        "reponse_correcte": "Rien : il s'agit d'un loyer tout compris",
+        "explication": "Sans acompte ni forfait, le loyer est réputé tout compris : le bailleur ne peut réclamer aucun montant supplémentaire pour le chauffage, l'eau chaude ou les autres frais accessoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Loyer et frais accessoires",
+      "content": {
+        "enonce": "Selon le contrat-type vaudois, quel taux usuel s'applique aux frais administratifs du décompte annuel de frais accessoires ?",
+        "propositions": [
+          "2 % du montant global des frais (HT)",
+          "5 % du montant global des frais (HT)",
+          "7 % du montant global des frais (HT)",
+          "10 % du montant global des frais (HT)"
+        ],
+        "reponse_correcte": "5 % du montant global des frais (HT)",
+        "explication": "Les frais administratifs du décompte de frais accessoires s'élèvent au taux usuel de 5 % sur le montant global des frais (HT). Ceux du décompte de chauffage et eau chaude suivent les directives cantonales."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Critères de fixation du loyer",
+      "content": {
+        "enonce": "Quels éléments est-il conseillé d'indiquer sous la rubrique « critères de fixation du loyer » ?",
+        "propositions": [
+          "Le taux hypothécaire de référence",
+          "L'indice suisse des prix à la consommation",
+          "La date à laquelle les charges d'exploitation sont arrêtées",
+          "Le revenu du locataire",
+          "La valeur d'assurance ECA du bâtiment"
+        ],
+        "reponses_correctes": [
+          "Le taux hypothécaire de référence",
+          "L'indice suisse des prix à la consommation",
+          "La date à laquelle les charges d'exploitation sont arrêtées"
+        ],
+        "explication": "On indique le taux hypothécaire de référence et l'ISPC connus au jour de la signature, ainsi que la date d'arrêt des charges d'exploitation. Ces critères servent de base aux adaptations futures (méthode relative)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Critères de fixation du loyer",
+      "content": {
+        "enonce": "Le bail est signé le 27 mars 2017. Quelle date indiquer pour les « charges d'exploitation arrêtées au » ?",
+        "propositions": [
+          "27 mars 2017",
+          "1er janvier 2017",
+          "31 décembre 2016",
+          "31 décembre 2017"
+        ],
+        "reponse_correcte": "31 décembre 2016",
+        "explication": "On indique le 31 décembre de l'année précédant celle de la signature du bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Le bail ne contient aucune clause relative à la garantie de loyer. Le locataire doit-il en fournir une ?",
+        "propositions": [
+          "Oui, trois mois de loyer net",
+          "Oui, un mois de loyer brut",
+          "Non, la garantie n'est due que si le bail la prévoit et en fixe le montant",
+          "Oui, si le bailleur la demande dans les 30 jours"
+        ],
+        "reponse_correcte": "Non, la garantie n'est due que si le bail la prévoit et en fixe le montant",
+        "explication": "À défaut de clause expresse fixant son montant, le locataire n'a aucune obligation de fournir une garantie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Selon l'art. 257e al. 2 CO, quel est le montant maximal de la garantie pour des locaux d'habitation ?",
+        "propositions": [
+          "Un mois de loyer brut",
+          "Deux mois de loyer net",
+          "Trois mois de loyer brut",
+          "Six mois de loyer brut"
+        ],
+        "reponse_correcte": "Trois mois de loyer brut",
+        "explication": "Le CO limite la garantie à trois mois de loyer pour les habitations. Là où les dispositions paritaires romandes s'appliquent, la limite est de trois mois de loyer net (art. 2 al. 1 CCR)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Dans un bail soumis aux dispositions paritaires romandes, le loyer net est de Fr. 1'600.- et l'acompte de charges de Fr. 200.-. Quelle garantie maximale le bailleur peut-il exiger ?",
+        "propositions": [
+          "Fr. 4'800.-",
+          "Fr. 5'400.-",
+          "Fr. 3'200.-",
+          "Fr. 6'400.-"
+        ],
+        "reponse_correcte": "Fr. 4'800.-",
+        "explication": "Selon l'art. 2 al. 1 CCR, la garantie ne peut excéder trois mois de loyer net, sans les acomptes de charges : 3 × Fr. 1'600.- = Fr. 4'800.-. Selon le seul CO (trois mois de loyer brut), on aurait Fr. 5'400.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Quelle limite s'applique au montant de la garantie pour un bail commercial ?",
+        "propositions": [
+          "Trois mois de loyer brut",
+          "Six mois de loyer net",
+          "Aucune, le montant est librement déterminé par les parties",
+          "Douze mois de loyer brut"
+        ],
+        "reponse_correcte": "Aucune, le montant est librement déterminé par les parties",
+        "explication": "La limitation à trois mois ne vaut que pour les habitations. Pour les locaux commerciaux, le montant de la garantie est librement convenu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Le locataire remet sa garantie en espèces au bailleur. Que doit faire ce dernier ?",
+        "propositions": [
+          "La conserver dans le coffre de la régie jusqu'à la fin du bail",
+          "La déposer dans les 10 jours auprès d'une banque, sur un compte d'épargne ou de dépôt au nom du locataire",
+          "La verser sur le compte d'exploitation de l'immeuble",
+          "La déposer dans les 30 jours sur le compte du propriétaire"
+        ],
+        "reponse_correcte": "La déposer dans les 10 jours auprès d'une banque, sur un compte d'épargne ou de dépôt au nom du locataire",
+        "explication": "La garantie ne doit pas entrer dans le patrimoine du bailleur. Il doit la déposer dans les 10 jours sur un compte au nom du locataire, sous peine de sanctions pénales."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Le locataire n'a pas constitué la garantie prévue au bail. Que peut faire le bailleur ?",
+        "propositions": [
+          "Refuser la remise des locaux",
+          "Après la remise des locaux, le mettre en poursuite",
+          "Selon les cas, résilier le bail de manière extraordinaire",
+          "Doubler le loyer jusqu'à la constitution de la garantie",
+          "Changer les serrures sans autre formalité"
+        ],
+        "reponses_correctes": [
+          "Refuser la remise des locaux",
+          "Après la remise des locaux, le mettre en poursuite",
+          "Selon les cas, résilier le bail de manière extraordinaire"
+        ],
+        "explication": "Le bailleur peut refuser la remise des locaux. Si les locaux ont déjà été remis, il peut mettre le locataire en poursuite (art. 38 LP) ou résilier le bail de manière extraordinaire, selon les cas."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie de loyer",
+      "content": {
+        "enonce": "Le bailleur peut-il imposer au locataire un type de garantie (par exemple bancaire plutôt qu'un organisme de cautionnement) ?",
+        "propositions": [
+          "Oui, toujours",
+          "Non, jamais",
+          "Oui, mais seulement si c'est expressément mentionné dans le contrat de bail",
+          "Oui, mais seulement pour les baux commerciaux"
+        ],
+        "reponse_correcte": "Oui, mais seulement si c'est expressément mentionné dans le contrat de bail",
+        "explication": "En pratique, le locataire choisit sa banque ou un organisme de cautionnement. Le bailleur ne peut imposer un type de garantie que si le bail le prévoit expressément."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Dans quels cantons la formule officielle de notification du loyer lors de la conclusion d'un nouveau bail est-elle obligatoire ?",
+        "propositions": [
+          "Dans tous les cantons romands, y compris le Valais",
+          "Vaud, Fribourg, Genève et Neuchâtel",
+          "Vaud et Genève uniquement",
+          "Dans toute la Suisse"
+        ],
+        "reponse_correcte": "Vaud, Fribourg, Genève et Neuchâtel",
+        "explication": "En cas de pénurie de logements, les cantons peuvent rendre la formule obligatoire (art. 270 al. 2 CO). Vaud, Fribourg, Genève et Neuchâtel usent de cette possibilité ; le Valais non."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Sur quelle base légale les cantons peuvent-ils rendre obligatoire la formule officielle lors de la conclusion d'un bail ?",
+        "propositions": [
+          "Art. 253a CO",
+          "Art. 257e CO",
+          "Art. 270 al. 2 CO, en cas de pénurie de logements",
+          "Art. 273a CO"
+        ],
+        "reponse_correcte": "Art. 270 al. 2 CO, en cas de pénurie de logements",
+        "explication": "L'art. 270 al. 2 CO permet aux cantons touchés par la pénurie de logements d'imposer, sur tout ou partie de leur territoire, la formule de l'art. 269d CO pour tout nouveau bail."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Quels sont les buts de la formule officielle lors de la conclusion d'un nouveau bail ?",
+        "propositions": [
+          "Informer le nouveau locataire du loyer payé par son prédécesseur",
+          "Informer le locataire de son droit de contester le loyer initial",
+          "Inciter le bailleur à la modération lors du changement de locataire",
+          "Remplacer le contrat de bail écrit",
+          "Fixer le montant de la garantie de loyer"
+        ],
+        "reponses_correctes": [
+          "Informer le nouveau locataire du loyer payé par son prédécesseur",
+          "Informer le locataire de son droit de contester le loyer initial",
+          "Inciter le bailleur à la modération lors du changement de locataire"
+        ],
+        "explication": "La formule permet au locataire de décider en connaissance de cause de contester ou non le loyer initial, et incite le bailleur à la modération. Elle ne remplace pas le bail."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Dans un canton où elle est obligatoire, dans quels cas la formule officielle doit-elle être notifiée ?",
+        "propositions": [
+          "Nouveau bail d'un appartement dont le loyer augmente",
+          "Nouveau bail d'un appartement dont le loyer reste identique",
+          "Nouveau bail d'un appartement dont le loyer baisse",
+          "Première mise en location d'un appartement neuf",
+          "Bail de sous-location d'un logement",
+          "Bail d'un entrepôt commercial"
+        ],
+        "reponses_correctes": [
+          "Nouveau bail d'un appartement dont le loyer augmente",
+          "Nouveau bail d'un appartement dont le loyer reste identique",
+          "Nouveau bail d'un appartement dont le loyer baisse",
+          "Première mise en location d'un appartement neuf",
+          "Bail de sous-location d'un logement"
+        ],
+        "explication": "La formule doit être notifiée lors de tout nouveau bail d'habitation, même si le loyer est identique ou en baisse, lors d'une première location (en indiquant qu'il n'y a pas de précédent locataire) et en cas de sous-location d'un logement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Une place de parc fait l'objet d'un contrat distinct, mais elle est louée avec un appartement. La formule officielle est-elle nécessaire pour ce contrat ?",
+        "propositions": [
+          "Non, la formule ne concerne que les logements",
+          "Oui, car les dispositions sur les habitations s'appliquent aux choses dont l'usage est cédé avec elles (art. 253a al. 1 CO)",
+          "Non, car le préavis n'est que de deux semaines",
+          "Uniquement si le loyer de la place dépasse Fr. 100.-"
+        ],
+        "reponse_correcte": "Oui, car les dispositions sur les habitations s'appliquent aux choses dont l'usage est cédé avec elles (art. 253a al. 1 CO)",
+        "explication": "Selon l'art. 253a al. 1 CO, une place de stationnement liée à un bail d'habitation suit le régime de l'habitation : la formule officielle est donc obligatoire, même pour un contrat distinct."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Quels éléments le bailleur doit-il impérativement mentionner sur la formule officielle ?",
+        "propositions": [
+          "Le loyer et les frais accessoires du précédent locataire, avec leur date d'entrée en vigueur",
+          "Le nouveau loyer et les nouveaux frais accessoires",
+          "Les motifs précis de l'éventuelle hausse",
+          "Le nom et l'adresse du précédent locataire",
+          "Le revenu du nouveau locataire"
+        ],
+        "reponses_correctes": [
+          "Le loyer et les frais accessoires du précédent locataire, avec leur date d'entrée en vigueur",
+          "Le nouveau loyer et les nouveaux frais accessoires",
+          "Les motifs précis de l'éventuelle hausse"
+        ],
+        "explication": "La formule doit indiquer l'ancien loyer et ses frais accessoires (avec leur date d'entrée en vigueur), le nouveau loyer et ses frais accessoires, ainsi que les motifs précis d'une hausse. L'identité du précédent locataire n'y figure pas."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Quels critères le bailleur peut-il invoquer pour motiver une hausse du loyer au changement de locataire ?",
+        "propositions": [
+          "Rendement admissible de la chose louée (art. 269 CO)",
+          "Adaptation aux loyers usuels de la localité ou du quartier (art. 269a lit. a CO)",
+          "Variation du taux hypothécaire de référence",
+          "Variation de l'indice suisse des prix à la consommation",
+          "Augmentation des revenus du nouveau locataire"
+        ],
+        "reponses_correctes": [
+          "Rendement admissible de la chose louée (art. 269 CO)",
+          "Adaptation aux loyers usuels de la localité ou du quartier (art. 269a lit. a CO)",
+          "Variation du taux hypothécaire de référence",
+          "Variation de l'indice suisse des prix à la consommation"
+        ],
+        "explication": "Critères admis : rendement admissible, loyers usuels, et méthode relative (taux hypothécaire, ISPC, hausse des charges d'exploitation et d'entretien, prestations supplémentaires). La situation du locataire n'est pas un critère."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "La hausse de loyer repose sur plusieurs motifs. Comment doit-elle être présentée sur la formule officielle ?",
+        "propositions": [
+          "Un montant global suffit",
+          "Les montants correspondant à chaque motif doivent être détaillés",
+          "Seul le motif principal doit être mentionné",
+          "Les motifs peuvent être communiqués oralement"
+        ],
+        "reponse_correcte": "Les montants correspondant à chaque motif doivent être détaillés",
+        "explication": "Lorsque la hausse repose sur plusieurs motifs, le montant de chacun doit être détaillé (ex. taux hypothécaire + Fr. 90.-, ISPC + Fr. 15.-, charges + Fr. 8.-, etc.)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Le bailleur peut-il cumuler sur la formule officielle un critère absolu (rendement) avec des critères relatifs (taux hypothécaire, ISPC) ?",
+        "propositions": [
+          "Oui, il peut invoquer tous les critères à la fois",
+          "Non, il ne peut pas invoquer simultanément des critères antinomiques",
+          "Oui, si la hausse dépasse 10 %",
+          "Oui, si le locataire l'accepte par écrit"
+        ],
+        "reponse_correcte": "Non, il ne peut pas invoquer simultanément des critères antinomiques",
+        "explication": "Il peut cumuler des critères relatifs entre eux, mais pas des critères absolus entre eux ni avec des critères relatifs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Le bailleur a invoqué uniquement des critères relatifs sur la formule officielle. Le loyer initial est contesté. Que peut examiner le juge ?",
+        "propositions": [
+          "Tous les critères, absolus et relatifs, d'office",
+          "Seulement les critères relatifs, sauf si le locataire réclame un examen selon les critères absolus",
+          "Seulement le rendement admissible",
+          "Seulement les loyers usuels du quartier"
+        ],
+        "reponse_correcte": "Seulement les critères relatifs, sauf si le locataire réclame un examen selon les critères absolus",
+        "explication": "Le bailleur est lié par les motifs indiqués sur la formule : ils fixent le cadre des débats. Le juge ne peut examiner des critères absolus que si le locataire le demande."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Dans quels cas le loyer initial est-il nul et contestable à tout moment ?",
+        "propositions": [
+          "Absence de notification du nouveau loyer sur la formule officielle",
+          "Notification de la formule au-delà de 30 jours après la remise des locaux",
+          "Absence ou insuffisance de motivation en cas de hausse",
+          "Absence de signature manuscrite sur la formule",
+          "Indication erronée ou inexistante du précédent loyer",
+          "Formule remise le jour de la signature du bail"
+        ],
+        "reponses_correctes": [
+          "Absence de notification du nouveau loyer sur la formule officielle",
+          "Notification de la formule au-delà de 30 jours après la remise des locaux",
+          "Absence ou insuffisance de motivation en cas de hausse",
+          "Absence de signature manuscrite sur la formule",
+          "Indication erronée ou inexistante du précédent loyer"
+        ],
+        "explication": "Ces vices entraînent la nullité du loyer initial, contestable en tout temps. La remise de la formule à la signature du bail est au contraire la pratique correcte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Un appartement est loué à un couple de colocataires. Combien de formules officielles le bailleur doit-il remettre ?",
+        "propositions": [
+          "Une formule par locataire",
+          "Une seule formule, adressée à l'ensemble des locataires, par objet loué",
+          "Deux formules, dont une pour la régie",
+          "Aucune si les locataires sont solidaires"
+        ],
+        "reponse_correcte": "Une seule formule, adressée à l'ensemble des locataires, par objet loué",
+        "explication": "Une seule formule originale, remplie, datée et signée, adressée à l'ensemble des locataires, doit être remise par objet loué. Le bailleur diligent en conserve une copie contresignée « reçue le … »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Pourquoi indiquer dans le bail que la formule officielle est annexée et en fait partie intégrante ?",
+        "propositions": [
+          "Pour prolonger le délai de contestation du locataire",
+          "Pour renverser le fardeau de la preuve : c'est au locataire de prouver qu'il ne l'a pas reçue",
+          "Parce que sans cette mention la formule est nulle",
+          "Pour dispenser le bailleur de signer la formule"
+        ],
+        "reponse_correcte": "Pour renverser le fardeau de la preuve : c'est au locataire de prouver qu'il ne l'a pas reçue",
+        "explication": "Avec cette mention, le locataire qui conteste le loyer initial après le délai de 30 jours doit prouver que la formule ne lui a pas été remise."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formule officielle",
+      "content": {
+        "enonce": "Qui peut voir sa responsabilité engagée en cas d'oubli de la notification de la formule officielle ?",
+        "propositions": [
+          "Le locataire",
+          "La commission de conciliation",
+          "La régie",
+          "Le précédent locataire"
+        ],
+        "reponse_correcte": "La régie",
+        "explication": "L'oubli de la formule peut entraîner la nullité du loyer initial et engage la responsabilité de la régie envers le bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "La formule officielle a été remise à la signature du bail. Dans quel délai le locataire peut-il contester le loyer initial ?",
+        "propositions": [
+          "10 jours dès la signature",
+          "30 jours dès la prise de possession des locaux",
+          "3 mois dès la signature",
+          "En tout temps"
+        ],
+        "reponse_correcte": "30 jours dès la prise de possession des locaux",
+        "explication": "Lorsque la formule est notifiée lors de la conclusion du contrat, le locataire dispose de 30 jours dès la prise de possession pour saisir l'autorité de conciliation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "La formule officielle est notifiée 15 jours après l'entrée dans les locaux. Quel est le délai de contestation ?",
+        "propositions": [
+          "15 jours dès la notification",
+          "30 jours dès l'entrée dans les locaux",
+          "30 jours dès la notification de la formule",
+          "Le loyer est contestable en tout temps"
+        ],
+        "reponse_correcte": "30 jours dès la notification de la formule",
+        "explication": "Si la formule est notifiée dans les 30 jours suivant l'entrée, le locataire a 30 jours dès la notification pour contester. Au-delà de 30 jours, le loyer est contestable en tout temps."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "Le bailleur remet la formule officielle 45 jours après l'entrée du locataire dans les locaux. Quelle en est la conséquence ?",
+        "propositions": [
+          "Le locataire a 30 jours dès la notification pour contester",
+          "Le locataire ne peut plus contester le loyer",
+          "Le locataire peut contester le loyer initial en tout temps",
+          "Le loyer est automatiquement réduit de moitié"
+        ],
+        "reponse_correcte": "Le locataire peut contester le loyer initial en tout temps",
+        "explication": "Une formule non remise ou remise plus de 30 jours après l'entrée dans les locaux rend le loyer initial nul : le locataire peut le contester en tout temps."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "Auprès de quelle autorité le locataire conteste-t-il le loyer initial ?",
+        "propositions": [
+          "Le tribunal fédéral",
+          "L'autorité de conciliation",
+          "L'office des poursuites",
+          "Le registre foncier"
+        ],
+        "reponse_correcte": "L'autorité de conciliation",
+        "explication": "Le locataire qui estime le loyer abusif au sens des art. 269 et 269a CO saisit l'autorité de conciliation dans les 30 jours (art. 270 CO)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "Quelles conditions (alternatives) permettent au locataire de contester le loyer initial ?",
+        "propositions": [
+          "Il a été contraint de conclure le bail par nécessité personnelle ou familiale",
+          "Il a conclu le bail en raison de la situation sur le marché local du logement et des locaux commerciaux",
+          "Le bailleur a sensiblement augmenté le loyer par rapport au précédent loyer pour la même chose",
+          "Le locataire a trouvé un logement moins cher après la signature",
+          "Le locataire a changé d'emploi"
+        ],
+        "reponses_correctes": [
+          "Il a été contraint de conclure le bail par nécessité personnelle ou familiale",
+          "Il a conclu le bail en raison de la situation sur le marché local du logement et des locaux commerciaux",
+          "Le bailleur a sensiblement augmenté le loyer par rapport au précédent loyer pour la même chose"
+        ],
+        "explication": "Il suffit qu'une des trois conditions de l'art. 270 CO soit réalisée : nécessité personnelle ou familiale, situation du marché local, ou hausse sensible par rapport au loyer précédent."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contestation du loyer initial",
+      "content": {
+        "enonce": "La possibilité de contester le loyer initial est-elle réservée aux locataires d'habitations ?",
+        "propositions": [
+          "Oui, uniquement pour les habitations",
+          "Non, elle appartient aussi aux locataires de locaux commerciaux",
+          "Uniquement pour les habitations de moins de 6 pièces",
+          "Uniquement dans le canton de Vaud"
+        ],
+        "reponse_correcte": "Non, elle appartient aussi aux locataires de locaux commerciaux",
+        "explication": "La faculté de contester le loyer initial appartient tant aux locataires de locaux d'habitation qu'à ceux de locaux commerciaux."
+      }
+    }
+  ]
+}
