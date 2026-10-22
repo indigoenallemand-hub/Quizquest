@@ -14,7 +14,7 @@ export default async function QuizzesPage() {
       id: true,
       title: true,
       description: true,
-      themes: { where: { enabled: true }, select: { theme: { select: { _count: { select: { questions: true } } } } } },
+      themes: { where: { enabled: true }, select: { parentThemeId: true, theme: { select: { _count: { select: { questions: true } } } } } },
     },
   });
 
@@ -36,13 +36,15 @@ export default async function QuizzesPage() {
         <ul className="grid gap-4 sm:grid-cols-2">
           {quizzes.map((quiz) => {
             const questionCount = quiz.themes.reduce((sum, t) => sum + t.theme._count.questions, 0);
+            // Level-2 chapters live under their parent chapter, not as chapters of their own.
+            const chapterCount = quiz.themes.filter((t) => !t.parentThemeId).length;
             return (
               <li key={quiz.id} className="rounded-lg border border-zinc-200 bg-white p-4 shadow-sm">
                 <Link href={`/quizzes/${quiz.id}`} className="block">
                   <h2 className="font-medium">{quiz.title}</h2>
                   {quiz.description && <p className="mt-1 text-sm text-zinc-600">{quiz.description}</p>}
                   <p className="mt-2 text-xs text-zinc-500">
-                    {quiz.themes.length} chapitre{quiz.themes.length > 1 ? "s" : ""} · {questionCount} question
+                    {chapterCount} chapitre{chapterCount > 1 ? "s" : ""} · {questionCount} question
                     {questionCount > 1 ? "s" : ""}
                   </p>
                 </Link>

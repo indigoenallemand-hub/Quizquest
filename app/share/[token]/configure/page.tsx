@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildChapterStyle } from "@/lib/chapter-style";
 import TrainingConfigForm, { type SectionOption } from "@/components/TrainingConfigForm";
 
 export default async function SharedConfigureTrainingPage({
@@ -58,7 +58,7 @@ export default async function SharedConfigureTrainingPage({
   const missedCount = statuses ? theme.questions.filter((q) => isMissed(q.id)).length : undefined;
 
   return (
-    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={buildThemeStyle(quiz.themeColors)}>
+    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={await buildChapterStyle(quiz.id, quiz.themeColors, themeId)}>
       <TrainingConfigForm
         sessionUrl={`/share/${token}/session`}
         themeId={themeId}

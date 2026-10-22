@@ -2,10 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
-import { buildCarouselChapters } from "@/lib/carousel-data";
+import { buildCarouselChapters, flattenChapters } from "@/lib/carousel-data";
 import { getGlobalPoints } from "@/lib/points";
 import { getGuestLeaderboard } from "@/lib/guest-leaderboard";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildThemeStyle, buildLevel2Style } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
 import GuestLeaderboard from "@/components/GuestLeaderboard";
@@ -52,10 +52,10 @@ export default async function SharedQuizPlayPage({
   }
 
   const chapters = await buildCarouselChapters(
-    quiz.themes.map((t) => t.theme),
+    quiz.themes.map((t) => ({ ...t.theme, parentThemeId: t.parentThemeId })),
     { guestAccessId }
   );
-  const { earned, max } = getGlobalPoints(chapters, { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
+  const { earned, max } = getGlobalPoints(flattenChapters(chapters), { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
 
   const leaderboard = await getGuestLeaderboard(
     quiz.guestLinks,
@@ -92,6 +92,7 @@ export default async function SharedQuizPlayPage({
             initialChapterId={chapter}
             pointsBefore={earned}
             entryGrid={grid}
+            level2Style={buildLevel2Style(quiz.themeColors)}
           />
         )}
       </div>

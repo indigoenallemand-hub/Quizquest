@@ -9,6 +9,10 @@
  *   npx tsx scripts/add-chapter.ts --quiz=immobase --file=scripts/data/immobase_communication.json            # dry run
  *   npx tsx scripts/add-chapter.ts --quiz=immobase --file=scripts/data/immobase_communication.json --execute  # writes
  *
+ * --parent=<titre> (optional) adds it as the "niveau 2" of that existing
+ * chapter (exact title, case-insensitive) instead of as a regular chapter:
+ *   npx tsx scripts/add-chapter.ts --quiz=immobase --file=scripts/data/immobase_gerance_technique_niveau2.json --parent="Gérance technique" --execute
+ *
  * --quiz matches the quiz title case-insensitively (substring); it must match
  * exactly one quiz. Refuses to run if that quiz already has a chapter with the
  * same title, so re-running it can't create a duplicate.
@@ -23,6 +27,7 @@ const EXECUTE = process.argv.includes("--execute");
 const arg = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=").slice(1).join("=");
 const quizQuery = arg("quiz");
 const file = arg("file");
+const parentTitle = arg("parent");
 
 async function main() {
   if (!quizQuery || !file) {
@@ -55,7 +60,7 @@ async function main() {
       id: true,
       title: true,
       creator: { select: { email: true } },
-      themes: { select: { order: true, theme: { select: { title: true } } }, orderBy: { order: "asc" } },
+      themes: { select: { order: true, parentThemeId: true, theme: { select: { id: true, title: true } } }, orderBy: { order: "asc" } },
     },
   });
   if (quizzes.length !== 1) {
@@ -72,6 +77,27 @@ async function main() {
     return;
   }
 
+  let parentThemeId: string | null = null;
+  if (parentTitle) {
+    const parent = quiz.themes.find((t) => t.theme.title.trim().toLowerCase() === parentTitle.trim().toLowerCase());
+    if (!parent) {
+      console.error(`Aucun chapitre "${parentTitle}" dans le quiz "${quiz.title}". Rien n'a été modifié.`);
+      process.exitCode = 1;
+      return;
+    }
+    if (parent.parentThemeId) {
+      console.error(`"${parentTitle}" est lui-même un niveau 2. Rien n'a été modifié.`);
+      process.exitCode = 1;
+      return;
+    }
+    if (quiz.themes.some((t) => t.parentThemeId === parent.theme.id)) {
+      console.error(`"${parentTitle}" a déjà un niveau 2. Rien n'a été modifié.`);
+      process.exitCode = 1;
+      return;
+    }
+    parentThemeId = parent.theme.id;
+  }
+
   const nextOrder = quiz.themes.reduce((max, t) => Math.max(max, t.order + 1), 0);
   const counts = chapter.questions.reduce<Record<string, number>>((acc, q) => {
     acc[q.type] = (acc[q.type] ?? 0) + 1;
@@ -80,7 +106,9 @@ async function main() {
 
   console.log(`Quiz cible : "${quiz.title}" (${quiz.id}, créateur ${quiz.creator.email})`);
   console.log(`Chapitres existants (${quiz.themes.length}) : ${quiz.themes.map((t) => t.theme.title).join(" | ")}`);
-  console.log(`Chapitre à ajouter : "${chapter.title}" en position ${nextOrder}, ${chapter.questions.length} questions ${JSON.stringify(counts)}`);
+  console.log(
+    `Chapitre à ajouter : "${chapter.title}" ${parentThemeId ? `comme niveau 2 de "${parentTitle}"` : `en position ${nextOrder}`}, ${chapter.questions.length} questions ${JSON.stringify(counts)}`
+  );
 
   if (!EXECUTE) {
     console.log("\nDry run (par défaut) : rien n'a été écrit en base. Relancez avec --execute pour importer.");
@@ -89,7 +117,7 @@ async function main() {
 
   await prisma.$transaction(async (tx) => {
     const theme = await tx.theme.create({
-      data: { title: chapter.title, description: chapter.description, quizzes: { create: { quizId: quiz.id, order: nextOrder } } },
+      data: { title: chapter.title, description: chapter.description, quizzes: { create: { quizId: quiz.id, order: nextOrder, parentThemeId } } },
     });
     await tx.question.createMany({
       data: chapter.questions.map((q) => ({ themeId: theme.id, type: q.type, content: q.content, section: q.section })),

@@ -16,6 +16,8 @@ interface ThemeWithQuestions {
   title: string;
   description: string | null;
   questions: QuestionRow[];
+  // QuizTheme.parentThemeId: set when this theme is the "niveau 2" of another chapter.
+  parentThemeId?: string | null;
 }
 
 function questionText(question: QuestionRow): string {
@@ -26,11 +28,15 @@ function questionText(question: QuestionRow): string {
 // Shared between the owner's quiz carousel and the guest share-link
 // carousel: per-chapter progress bar / grid data, plus badges (badges work
 // the same way for both — see lib/badge-sync.ts).
+// Level-2 themes aren't returned as chapters of their own: each one is
+// attached as `level2` to its parent chapter (and dropped if that parent
+// isn't in `themes`, e.g. because it was disabled).
 export async function buildCarouselChapters(
   themes: ThemeWithQuestions[],
   identity: { userId: string } | { guestAccessId: string } | null
 ): Promise<CarouselChapter[]> {
   const chapters: CarouselChapter[] = [];
+  const level2ByParent = new Map<string, CarouselChapter>();
 
   for (const theme of themes) {
     const questions = theme.questions;
@@ -49,7 +55,7 @@ export async function buildCarouselChapters(
       answerText: q.type === "CALCUL" ? null : getCorrectAnswerText(q),
     }));
 
-    chapters.push({
+    const chapter: CarouselChapter = {
       id: theme.id,
       title: theme.title,
       description: theme.description,
@@ -57,8 +63,17 @@ export async function buildCarouselChapters(
       stats,
       earnedBadges: badges.map((b) => b.type),
       cells,
-    });
+      level2: null,
+    };
+    if (theme.parentThemeId) level2ByParent.set(theme.parentThemeId, chapter);
+    else chapters.push(chapter);
   }
 
+  for (const chapter of chapters) chapter.level2 = level2ByParent.get(chapter.id) ?? null;
   return chapters;
+}
+
+// Every chapter including the level-2 ones, for totals such as getGlobalPoints().
+export function flattenChapters(chapters: CarouselChapter[]): CarouselChapter[] {
+  return chapters.flatMap((c) => (c.level2 ? [c, c.level2] : [c]));
 }

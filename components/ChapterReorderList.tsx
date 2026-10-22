@@ -25,6 +25,8 @@ interface Chapter {
   title: string;
   questionCount: number;
   enabled: boolean;
+  // Title of the parent chapter when this one is its "niveau 2" (QuizTheme.parentThemeId).
+  level2Of?: string | null;
 }
 
 function Row({
@@ -75,6 +77,14 @@ function Row({
         style={{ flex: 1, display: "flex", justifyContent: "space-between", alignItems: "center" }}
       >
         <span style={{ fontWeight: 600 }}>
+          {chapter.level2Of && (
+            <span
+              title={`Débloqué sous « ${chapter.level2Of} » une fois tous ses badges obtenus.`}
+              style={{ fontSize: "0.7rem", fontWeight: 700, color: "#fff", background: "#7c3aed", borderRadius: "999px", padding: "0.1rem 0.5rem", marginRight: "0.5rem" }}
+            >
+              Niveau 2
+            </span>
+          )}
           {chapter.title}
           {!chapter.enabled && (
             <span style={{ fontWeight: 400, fontSize: "0.8rem", color: "var(--qz-muted)" }}> — désactivé</span>

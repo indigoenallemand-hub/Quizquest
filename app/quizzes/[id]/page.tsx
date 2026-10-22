@@ -3,10 +3,10 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
-import { buildCarouselChapters } from "@/lib/carousel-data";
+import { buildCarouselChapters, flattenChapters } from "@/lib/carousel-data";
 import { getGlobalPoints } from "@/lib/points";
 import { getGuestLeaderboard } from "@/lib/guest-leaderboard";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildThemeStyle, buildLevel2Style } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
 import GuestLeaderboard from "@/components/GuestLeaderboard";
@@ -41,10 +41,10 @@ export default async function QuizDetailPage({
 
   const isOwner = userId === quiz.creatorId;
   const chapters = await buildCarouselChapters(
-    quiz.themes.map((t) => t.theme),
+    quiz.themes.map((t) => ({ ...t.theme, parentThemeId: t.parentThemeId })),
     userId ? { userId } : null
   );
-  const { earned, max } = getGlobalPoints(chapters, { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
+  const { earned, max } = getGlobalPoints(flattenChapters(chapters), { reponseLibreBadgeEnabled: quiz.reponseLibreBadgeEnabled });
 
   const leaderboard = isOwner
     ? await getGuestLeaderboard(
@@ -82,6 +82,8 @@ export default async function QuizDetailPage({
             initialChapterId={chapter}
             pointsBefore={earned}
             entryGrid={grid}
+            level2Style={buildLevel2Style(quiz.themeColors)}
+            alwaysUnlockLevel2={isOwner}
           />
         )}
       </div>

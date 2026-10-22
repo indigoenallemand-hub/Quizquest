@@ -5,7 +5,7 @@ import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
 import { getQuestionStatuses, summarizeStatuses, type QuestionStatus } from "@/lib/question-progress";
 import { parseQuestionContent } from "@/lib/question-resolver";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildChapterStyle } from "@/lib/chapter-style";
 
 const STATUS_LABEL: Record<QuestionStatus, string> = {
   correct: "Juste",
@@ -41,7 +41,7 @@ export default async function QuizProgressPage({
     },
   });
   if (!quiz || !canAccessQuiz(quiz, userId)) notFound();
-  const themeStyle = buildThemeStyle(quiz.themeColors);
+  const themeStyle = await buildChapterStyle(quiz.id, quiz.themeColors, themeId);
 
   const selectedThemes = themeId ? quiz.themes.filter((t) => t.theme.id === themeId) : quiz.themes;
   const title = themeId && selectedThemes[0] ? selectedThemes[0].theme.title : quiz.title;

@@ -1,0 +1,1834 @@
+{
+  "title": "Gérance technique — Niveau 2",
+  "description": "Niveau 2 de la gérance technique : dessin et types de plans, normes SIA, CFE/eCCC/CFC, fondations et drainage, murs, escaliers, toiture, chauffage et sanitaires, gros et second œuvre, défauts, maintenance, subventions et gestion des sinistres.",
+  "questions": [
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mission de la gérance technique",
+      "content": {
+        "enonce": "Par quels moyens la gérance technique assure-t-elle la pérennité des biens immobiliers ? (4 réponses)",
+        "propositions": [
+          "L'entretien courant",
+          "La rénovation des appartements, des parties communes et des extérieurs",
+          "La surveillance et la maintenance des installations techniques",
+          "L'amélioration de la performance énergétique des bâtiments",
+          "La fixation des loyers initiaux",
+          "La tenue de la comptabilité PPE"
+        ],
+        "reponses_correctes": [
+          "L'entretien courant",
+          "La rénovation des appartements, des parties communes et des extérieurs",
+          "La surveillance et la maintenance des installations techniques",
+          "L'amélioration de la performance énergétique des bâtiments"
+        ],
+        "explication": "La pérennité passe par l'entretien courant, la rénovation (appartements, communs, extérieurs), la surveillance/maintenance des installations et l'amélioration énergétique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mission de la gérance technique",
+      "content": {
+        "enonce": "Quelles missions sont confiées au gérant technique ? (plusieurs réponses)",
+        "propositions": [
+          "Limiter la dégradation de l'immeuble et augmenter ainsi sa durabilité",
+          "Maintenir, voire augmenter, la valeur de l'immeuble",
+          "Optimiser les économies d'énergie",
+          "Réduire les dépenses causées par un manque d'entretien",
+          "Planifier les travaux d'entretien",
+          "Encaisser les loyers et relancer les locataires en retard",
+          "Rédiger les baux à loyer"
+        ],
+        "reponses_correctes": [
+          "Limiter la dégradation de l'immeuble et augmenter ainsi sa durabilité",
+          "Maintenir, voire augmenter, la valeur de l'immeuble",
+          "Optimiser les économies d'énergie",
+          "Réduire les dépenses causées par un manque d'entretien",
+          "Planifier les travaux d'entretien"
+        ],
+        "explication": "Missions du gérant technique : limiter la dégradation, maintenir/augmenter la valeur, optimiser l'énergie, réduire les dépenses dues au manque d'entretien, planifier les travaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mission de la gérance technique",
+      "content": {
+        "enonce": "Que permet l'entretien d'un bâtiment ?",
+        "propositions": [
+          "D'assurer sa viabilité et son bon fonctionnement : c'est la maintenance qui permet une exploitation optimisée et durable",
+          "D'augmenter automatiquement le loyer après chaque intervention",
+          "De reporter les rénovations lourdes au-delà de la durée de vie des équipements",
+          "De supprimer l'obligation d'assurer le bâtiment"
+        ],
+        "reponse_correcte": "D'assurer sa viabilité et son bon fonctionnement : c'est la maintenance qui permet une exploitation optimisée et durable",
+        "explication": "L'entretien assure la viabilité et le bon fonctionnement de l'ouvrage ; on parle de maintenance, qui permet une exploitation optimisée et durable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mission de la gérance technique",
+      "content": {
+        "enonce": "Pour entretenir correctement un immeuble, que faut-il conclure et qu'entreprendre ?",
+        "propositions": [
+          "Conclure des contrats d'entretien et entreprendre des travaux d'entretien",
+          "Conclure des baux à durée déterminée et entreprendre des hausses de loyer",
+          "Conclure une hypothèque et entreprendre une estimation",
+          "Conclure une assurance RC et entreprendre une expertise judiciaire"
+        ],
+        "reponse_correcte": "Conclure des contrats d'entretien et entreprendre des travaux d'entretien",
+        "explication": "Des contrats d'entretien doivent être conclus (ascenseur, chauffage, etc.) et des travaux d'entretien entrepris régulièrement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Quels sont les différents moyens de représenter un dessin (plan) ?",
+        "propositions": [
+          "À main levée (dessin à vue)",
+          "À l'aide d'instruments appropriés (dessin géométrique)",
+          "Par dessin assisté par ordinateur (DAO)",
+          "Par photographie aérienne uniquement",
+          "Par description écrite dans le registre foncier"
+        ],
+        "reponses_correctes": [
+          "À main levée (dessin à vue)",
+          "À l'aide d'instruments appropriés (dessin géométrique)",
+          "Par dessin assisté par ordinateur (DAO)"
+        ],
+        "explication": "Un plan peut être dessiné à main levée, avec des instruments (dessin géométrique) ou par ordinateur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Quelles conventions internationales le dessin technique doit-il respecter ?",
+        "propositions": [
+          "Le respect d'une échelle",
+          "La correspondance des vues",
+          "L'utilisation de traits continus ou en pointillé",
+          "L'usage obligatoire de la couleur bleue",
+          "L'orientation du nord toujours à droite"
+        ],
+        "reponses_correctes": [
+          "Le respect d'une échelle",
+          "La correspondance des vues",
+          "L'utilisation de traits continus ou en pointillé"
+        ],
+        "explication": "Conventions du dessin technique : échelle, correspondance des vues, types de traits (continus / pointillés)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Qu'indique une échelle ?",
+        "propositions": [
+          "Le rapport entre les dimensions du dessin et les dimensions réelles de l'objet représenté",
+          "La surface habitable totale du bâtiment",
+          "La hauteur du bâtiment par rapport au niveau de la mer",
+          "Le nombre de pièces représentées sur la feuille"
+        ],
+        "reponse_correcte": "Le rapport entre les dimensions du dessin et les dimensions réelles de l'objet représenté",
+        "explication": "L'échelle indique le rapport entre les dimensions dessinées et les dimensions réelles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Sur un plan à l'échelle 1:20, quelle longueur représente 1 mètre réel ?",
+        "propositions": [
+          "5 cm",
+          "2 cm",
+          "1 cm",
+          "20 cm"
+        ],
+        "reponse_correcte": "5 cm",
+        "explication": "1 m = 100 cm ; 100 / 20 = 5 cm."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Sur un plan à l'échelle 1:100, quelle longueur représente 1 mètre réel ?",
+        "propositions": [
+          "1 cm",
+          "10 cm",
+          "1 mm",
+          "5 cm"
+        ],
+        "reponse_correcte": "1 cm",
+        "explication": "1 m = 100 cm ; 100 / 100 = 1 cm."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "À quoi correspond l'échelle 1:1 ?",
+        "propositions": [
+          "À la grandeur nature",
+          "À une réduction de moitié",
+          "À un agrandissement de 10 fois",
+          "À l'échelle d'un plan de situation"
+        ],
+        "reponse_correcte": "À la grandeur nature",
+        "explication": "1:1 signifie que le dessin a exactement la taille réelle de l'objet (grandeur nature)."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Sur un plan à l'échelle 1:100, un mur mesure {plan} cm. Quelle est sa longueur réelle (en mètres) ?",
+        "variables": [
+          {
+            "nom": "plan",
+            "min": 3,
+            "max": 25,
+            "unite": "cm",
+            "arrondi": 1
+          }
+        ],
+        "formule": "plan * 100 / 100",
+        "unite_reponse": "m",
+        "arrondi_reponse": 2,
+        "tolerance": 0.01,
+        "explication": "À 1:100, 1 cm sur le plan = 100 cm réels = 1 m. Longueur réelle = cm sur le plan × 100 / 100."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Une pièce mesure {reel} m de longueur. Quelle sera sa longueur (en cm) sur un plan à l'échelle 1:50 ?",
+        "variables": [
+          {
+            "nom": "reel",
+            "min": 2,
+            "max": 9,
+            "unite": "m",
+            "arrondi": 1
+          }
+        ],
+        "formule": "reel * 100 / 50",
+        "unite_reponse": "cm",
+        "arrondi_reponse": 1,
+        "tolerance": 0.05,
+        "explication": "On convertit en cm (× 100), puis on divise par le dénominateur de l'échelle (50) : 1 m réel = 2 cm à 1:50."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Dessin technique et échelles",
+      "content": {
+        "enonce": "Sur un plan de détail de cuisine à l'échelle 1:20, un plan de travail mesure {plan} cm. Quelle est sa longueur réelle (en mètres) ?",
+        "variables": [
+          {
+            "nom": "plan",
+            "min": 8,
+            "max": 18,
+            "unite": "cm",
+            "arrondi": 1
+          }
+        ],
+        "formule": "plan * 20 / 100",
+        "unite_reponse": "m",
+        "arrondi_reponse": 2,
+        "tolerance": 0.01,
+        "explication": "À 1:20, 1 cm sur le plan = 20 cm réels. Longueur réelle (m) = cm sur le plan × 20 / 100."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "À quelle(s) échelle(s) établit-on un plan de situation ?",
+        "propositions": [
+          "1:500 ou 1:1000",
+          "1:100 ou 1:50",
+          "1:20",
+          "1:5 ou 1:1"
+        ],
+        "reponse_correcte": "1:500 ou 1:1000",
+        "explication": "Le plan de situation, qui montre la parcelle et ses abords, est à 1:500 ou 1:1000."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "À quelle(s) échelle(s) établit-on un plan d'étage, une élévation ou une coupe générale ?",
+        "propositions": [
+          "1:100 ou 1:50",
+          "1:500 ou 1:1000",
+          "1:20 uniquement",
+          "1:2000"
+        ],
+        "reponse_correcte": "1:100 ou 1:50",
+        "explication": "Plans d'étage, élévations et coupes générales : 1:100 ou 1:50."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "À quelle échelle établit-on un plan de détail (cuisine, salle de bain, etc.) ?",
+        "propositions": [
+          "1:20",
+          "1:100",
+          "1:500",
+          "1:1000"
+        ],
+        "reponse_correcte": "1:20",
+        "explication": "Les plans de détails sont plus précis : échelle 1:20."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Quelles informations trouve-t-on sur un plan de situation ? (plusieurs réponses)",
+        "propositions": [
+          "Les limites de propriété et la surface du bien-fonds",
+          "Le numéro de parcelle et le numéro ECA",
+          "Les servitudes",
+          "L'orientation et les immeubles voisins",
+          "Les accès, chemins, routes et alignements",
+          "L'emplacement des prises électriques de chaque pièce",
+          "Le détail des carrelages de la salle de bain"
+        ],
+        "reponses_correctes": [
+          "Les limites de propriété et la surface du bien-fonds",
+          "Le numéro de parcelle et le numéro ECA",
+          "Les servitudes",
+          "L'orientation et les immeubles voisins",
+          "Les accès, chemins, routes et alignements"
+        ],
+        "explication": "Le plan de situation montre : limites de propriété, surface, n° de parcelle, n° ECA, servitudes, n° d'entrée, orientation, voisins, accès, alignements, implantation du bâtiment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Par qui le plan de situation est-il établi ?",
+        "propositions": [
+          "Par un géomètre officiel",
+          "Par l'architecte du projet",
+          "Par le gérant technique",
+          "Par le notaire lors de la vente"
+        ],
+        "reponse_correcte": "Par un géomètre officiel",
+        "explication": "Le plan de situation est établi par un géomètre officiel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Que représente le plan d'étage ?",
+        "propositions": [
+          "L'espace des parties communes, des appartements ou des locaux divers d'un niveau",
+          "Les façades vues de l'extérieur",
+          "Le profil du terrain et les hauteurs",
+          "Le réseau de chauffage à distance du quartier"
+        ],
+        "reponse_correcte": "L'espace des parties communes, des appartements ou des locaux divers d'un niveau",
+        "explication": "Le plan d'étage représente, niveau par niveau, les parties communes, les appartements ou les locaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "À quoi servent les plans d'étage ?",
+        "propositions": [
+          "À connaître la disposition des lieux, les dimensions et surfaces des pièces et l'orientation, utiles pour une vente, une location ou une transformation",
+          "Uniquement à calculer les volumes SIA du bâtiment",
+          "À montrer l'aspect des façades",
+          "À déterminer la valeur ECA de l'immeuble"
+        ],
+        "reponse_correcte": "À connaître la disposition des lieux, les dimensions et surfaces des pièces et l'orientation, utiles pour une vente, une location ou une transformation",
+        "explication": "Les plans d'étage donnent dispositions, dimensions, surfaces, orientations… informations nécessaires à la vente, la location ou la transformation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Que permet l'élévation ?",
+        "propositions": [
+          "La visualisation des façades, du nombre d'étages, etc.",
+          "La visualisation des hauteurs intérieures en coupe",
+          "La lecture des limites de parcelle",
+          "La lecture du réseau de canalisations"
+        ],
+        "reponse_correcte": "La visualisation des façades, du nombre d'étages, etc.",
+        "explication": "L'élévation représente les façades : on y voit le nombre d'étages, les ouvertures, etc."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Qu'indique le plan de coupe ?",
+        "propositions": [
+          "Les hauteurs et le nombre de niveaux intérieurs ; il sert à calculer des volumes, le profil du terrain, etc.",
+          "Uniquement la surface habitable de chaque appartement",
+          "Les servitudes inscrites au registre foncier",
+          "L'aspect extérieur des façades et leurs couleurs"
+        ],
+        "reponse_correcte": "Les hauteurs et le nombre de niveaux intérieurs ; il sert à calculer des volumes, le profil du terrain, etc.",
+        "explication": "La coupe indique les hauteurs, les niveaux intérieurs et sert notamment au calcul des volumes et au profil du terrain."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Que permettent les plans de détails ?",
+        "propositions": [
+          "De connaître plus précisément certains détails techniques ; ils peuvent être réalisés en 3D, notamment pour les cuisines",
+          "De situer l'immeuble dans le quartier",
+          "De représenter toutes les façades à 1:500",
+          "D'établir le décompte de chauffage"
+        ],
+        "reponse_correcte": "De connaître plus précisément certains détails techniques ; ils peuvent être réalisés en 3D, notamment pour les cuisines",
+        "explication": "Les plans de détails précisent des éléments techniques (souvent à 1:20), parfois en 3D comme pour les cuisines."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Lesquels sont des plans techniques ?",
+        "propositions": [
+          "Plan d'ascenseur",
+          "Plan d'électricité",
+          "Plan des installations sanitaires",
+          "Plan de chauffage et de ventilation",
+          "Plan de situation",
+          "Élévation de façade"
+        ],
+        "reponses_correctes": [
+          "Plan d'ascenseur",
+          "Plan d'électricité",
+          "Plan des installations sanitaires",
+          "Plan de chauffage et de ventilation"
+        ],
+        "explication": "Les plans techniques concernent les installations : ascenseur, électricité, sanitaire, chauffage, ventilation, etc."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Sur un plan d'architecte (transformation), que signifie un élément dessiné en jaune ?",
+        "propositions": [
+          "À démolir",
+          "À construire",
+          "Existant à conserver",
+          "À assurer auprès de l'ECA"
+        ],
+        "reponse_correcte": "À démolir",
+        "explication": "Convention : jaune = à démolir, rouge = à construire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de plans",
+      "content": {
+        "enonce": "Sur un plan d'architecte (transformation), que signifie un élément dessiné en rouge ?",
+        "propositions": [
+          "À construire",
+          "À démolir",
+          "Élément porteur existant",
+          "Zone humide à assécher"
+        ],
+        "reponse_correcte": "À construire",
+        "explication": "Convention : rouge = à construire, jaune = à démolir."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Que signifie SIA ?",
+        "propositions": [
+          "Société suisse des ingénieurs et des architectes",
+          "Service immobilier des assurances",
+          "Système international d'architecture",
+          "Société immobilière d'administration"
+        ],
+        "reponse_correcte": "Société suisse des ingénieurs et des architectes",
+        "explication": "SIA = Société suisse des ingénieurs et des architectes, qui édite les normes de la construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Quelle norme établit les plans d'architecte ?",
+        "propositions": [
+          "La SIA 400",
+          "La SIA 118",
+          "La SIA 271",
+          "La SIA 181"
+        ],
+        "reponse_correcte": "La SIA 400",
+        "explication": "La norme SIA 400 règle l'élaboration des plans dans le domaine du bâtiment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "De quoi traite la norme SIA 118 ?",
+        "propositions": [
+          "Des conditions générales pour l'exécution des travaux de construction",
+          "De l'étanchéité des bâtiments",
+          "De l'établissement des plans d'architecte",
+          "De la protection contre le bruit"
+        ],
+        "reponse_correcte": "Des conditions générales pour l'exécution des travaux de construction",
+        "explication": "SIA 118 : conditions générales pour l'exécution des travaux de construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Quelle norme traite de l'étanchéité des bâtiments ?",
+        "propositions": [
+          "La SIA 271",
+          "La SIA 400",
+          "La SIA 118",
+          "La SIA 416"
+        ],
+        "reponse_correcte": "La SIA 271",
+        "explication": "La norme SIA 271 concerne l'étanchéité des bâtiments."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Que signifie CFE ?",
+        "propositions": [
+          "Code des frais par éléments",
+          "Code fédéral de l'énergie",
+          "Contrôle des fondations et étanchéités",
+          "Coût final d'exploitation"
+        ],
+        "reponse_correcte": "Code des frais par éléments",
+        "explication": "CFE = Code des frais par éléments."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi sert principalement le CFE ?",
+        "propositions": [
+          "À établir un premier plan financier lors d'une étude d'avant-projet ou de faisabilité",
+          "À établir le décompte final des travaux, poste par poste",
+          "À répartir les frais accessoires entre locataires",
+          "À calculer la prime d'assurance bâtiment"
+        ],
+        "reponse_correcte": "À établir un premier plan financier lors d'une étude d'avant-projet ou de faisabilité",
+        "explication": "Le CFE est une classification normalisée (environ 140 éléments) qui sert surtout au premier plan financier en phase d'avant-projet ou de faisabilité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Comment le CFE est-il structuré ?",
+        "propositions": [
+          "Par des lettres (groupes d'éléments), elles-mêmes subdivisées par des chiffres (éléments rattachés au groupe)",
+          "Par des chiffres de 0 à 9 correspondant aux corps de métier",
+          "Par ordre alphabétique des entreprises",
+          "Par étage du bâtiment"
+        ],
+        "reponse_correcte": "Par des lettres (groupes d'éléments), elles-mêmes subdivisées par des chiffres (éléments rattachés au groupe)",
+        "explication": "CFE : groupes d'éléments désignés par des lettres, subdivisés en éléments numérotés (environ 140 éléments)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Que signifie eCCC ?",
+        "propositions": [
+          "Code des coûts de construction",
+          "Contrôle énergétique des constructions cantonales",
+          "Certificat cantonal de conformité des chantiers",
+          "Code des contrats de conciergerie"
+        ],
+        "reponse_correcte": "Code des coûts de construction",
+        "explication": "eCCC = Code des coûts de construction (eCCC-Bât pour le bâtiment)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Quel code l'eCCC tend-il à remplacer ?",
+        "propositions": [
+          "Le CFE",
+          "Le CFC",
+          "La norme SIA 118",
+          "Le code des obligations"
+        ],
+        "reponse_correcte": "Le CFE",
+        "explication": "L'eCCC tend à remplacer le CFE (Code des frais par éléments)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Que signifie CFC ?",
+        "propositions": [
+          "Code des frais de construction",
+          "Code fédéral de la construction",
+          "Contrôle des fondations et charpentes",
+          "Coût final certifié"
+        ],
+        "reponse_correcte": "Code des frais de construction",
+        "explication": "CFC = Code des frais de construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Qu'est-ce que le CFC ?",
+        "propositions": [
+          "Un plan comptable de la construction, d'environ 1300 postes répartis par catégories de travaux et de prestations",
+          "Une norme sur l'étanchéité des toitures",
+          "Un code d'environ 140 éléments pour l'avant-projet",
+          "Un registre des entreprises agréées"
+        ],
+        "reponse_correcte": "Un plan comptable de la construction, d'environ 1300 postes répartis par catégories de travaux et de prestations",
+        "explication": "Le CFC est un plan comptable comportant près de 1300 postes, répartis par catégories de travaux et de prestations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi sert le CFC ?",
+        "propositions": [
+          "De dénominateur commun aux professionnels de la construction pour les devis, les appels d'offres et les contrats",
+          "À établir le premier plan financier d'un avant-projet",
+          "À fixer le taux hypothécaire de référence",
+          "À calculer la durée de vie des équipements"
+        ],
+        "reponse_correcte": "De dénominateur commun aux professionnels de la construction pour les devis, les appels d'offres et les contrats",
+        "explication": "Le CFC est le langage commun des professionnels pour établir devis, appels d'offres et contrats."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Pourquoi l'analyse des coûts par CFC est-elle moins aisée ?",
+        "propositions": [
+          "Parce qu'il manque la référence aux quantités",
+          "Parce que les postes changent à chaque chantier",
+          "Parce qu'il ne comporte qu'une dizaine de postes",
+          "Parce qu'il ne s'applique qu'aux bâtiments publics"
+        ],
+        "reponse_correcte": "Parce qu'il manque la référence aux quantités",
+        "explication": "Le CFC classe par corps de métier sans référence aux quantités ; on l'analyse donc via le coût d'une position rapporté aux surfaces, volumes ou en pourcentage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "Comment réalise-t-on malgré tout une analyse par CFC ?",
+        "propositions": [
+          "En rapportant le coût d'une position CFC à la surface de plancher, aux volumes, ou en pourcentage",
+          "En comparant le nombre d'entreprises intervenues",
+          "En comptant le nombre de pièces du logement",
+          "En se basant uniquement sur la valeur ECA"
+        ],
+        "reponse_correcte": "En rapportant le coût d'une position CFC à la surface de plancher, aux volumes, ou en pourcentage",
+        "explication": "Analyse CFC : coût d'une position par rapport à la surface de plancher et aux volumes, mais aussi en pourcentage du total."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 0 ?",
+        "propositions": [
+          "Le terrain",
+          "Les travaux préparatoires",
+          "Le bâtiment",
+          "Les frais secondaires"
+        ],
+        "reponse_correcte": "Le terrain",
+        "explication": "CFC 0 = Terrain (dont 01 : acquisition du terrain, droit de superficie)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 01 ?",
+        "propositions": [
+          "L'acquisition du terrain ou le droit de superficie",
+          "Les démolitions",
+          "Les échafaudages",
+          "Les honoraires d'architecte"
+        ],
+        "reponse_correcte": "L'acquisition du terrain ou le droit de superficie",
+        "explication": "CFC 01 = Acquisition du terrain / droit de superficie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 1 ?",
+        "propositions": [
+          "Les travaux préparatoires",
+          "Le terrain",
+          "Le bâtiment",
+          "Les aménagements extérieurs"
+        ],
+        "reponse_correcte": "Les travaux préparatoires",
+        "explication": "CFC 1 = Travaux préparatoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 2 ?",
+        "propositions": [
+          "Le bâtiment",
+          "Les équipements d'exploitation",
+          "Les frais secondaires",
+          "Le terrain"
+        ],
+        "reponse_correcte": "Le bâtiment",
+        "explication": "CFC 2 = Bâtiment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 3 ?",
+        "propositions": [
+          "Les équipements d'exploitation",
+          "Les aménagements extérieurs",
+          "Le bâtiment",
+          "Les travaux préparatoires"
+        ],
+        "reponse_correcte": "Les équipements d'exploitation",
+        "explication": "CFC 3 = Équipements d'exploitation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 4 ?",
+        "propositions": [
+          "Les aménagements extérieurs",
+          "Les frais secondaires",
+          "Les équipements d'exploitation",
+          "Le terrain"
+        ],
+        "reponse_correcte": "Les aménagements extérieurs",
+        "explication": "CFC 4 = Aménagements extérieurs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Normes SIA et codes de coûts",
+      "content": {
+        "enonce": "À quoi correspond le CFC 5 ?",
+        "propositions": [
+          "Les frais secondaires",
+          "Les aménagements extérieurs",
+          "Le bâtiment",
+          "Les travaux préparatoires"
+        ],
+        "reponse_correcte": "Les frais secondaires",
+        "explication": "CFC 5 = Frais secondaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Comment définir les fondations d'un bâtiment ?",
+        "propositions": [
+          "Ce sont les éléments d'un bâtiment qui assurent la transmission et la répartition des charges de l'ouvrage dans le sol",
+          "Ce sont les murs extérieurs situés au-dessus du terrain",
+          "C'est la couche d'isolation posée sous la toiture",
+          "C'est le réseau de canalisations d'eaux usées"
+        ],
+        "reponse_correcte": "Ce sont les éléments d'un bâtiment qui assurent la transmission et la répartition des charges de l'ouvrage dans le sol",
+        "explication": "Les fondations transmettent et répartissent les charges de l'ouvrage dans le sol."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "À quoi s'opposent les fondations d'un bâtiment ?",
+        "propositions": [
+          "Au tassement et aux infiltrations du terrain",
+          "Au vent et à la neige",
+          "Aux bruits aériens entre étages",
+          "À la propagation du feu"
+        ],
+        "reponse_correcte": "Au tassement et aux infiltrations du terrain",
+        "explication": "Les fondations s'opposent au tassement et aux infiltrations du terrain."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Par qui l'étude du sol doit-elle être faite ?",
+        "propositions": [
+          "Par un ingénieur géologue",
+          "Par le géomètre officiel",
+          "Par le concierge",
+          "Par l'architecte paysagiste"
+        ],
+        "reponse_correcte": "Par un ingénieur géologue",
+        "explication": "L'étude du sol est confiée à un ingénieur géologue."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Comment se nomme la fondation réalisée dans un bon sol, directement à fleur du sol ?",
+        "propositions": [
+          "Le radier",
+          "Le pieu",
+          "Le puits",
+          "La barrette"
+        ],
+        "reponse_correcte": "Le radier",
+        "explication": "Le radier est une fondation superficielle (dalle) posée directement sur un bon sol."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Quelles sont les deux fondations superficielles ?",
+        "propositions": [
+          "Le radier",
+          "La semelle",
+          "Le puits",
+          "Le pieu",
+          "La barrette"
+        ],
+        "reponses_correctes": [
+          "Le radier",
+          "La semelle"
+        ],
+        "explication": "Fondations superficielles : radier et semelle. Semi-profondes : puits. Profondes : pieux et barrettes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Comment se nomme la fondation semi-profonde ?",
+        "propositions": [
+          "Le puits",
+          "Le radier",
+          "La semelle",
+          "Le pieu"
+        ],
+        "reponse_correcte": "Le puits",
+        "explication": "Le puits est la fondation semi-profonde."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Comment se nomment les fondations profondes ?",
+        "propositions": [
+          "Le pieu",
+          "La barrette",
+          "Le radier",
+          "La semelle",
+          "Le puits"
+        ],
+        "reponses_correctes": [
+          "Le pieu",
+          "La barrette"
+        ],
+        "explication": "Fondations profondes : pieux et barrettes, utilisées lorsque le bon sol est situé en profondeur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Qu'est-ce que le drain ?",
+        "propositions": [
+          "Un tuyau percé d'une multitude de trous qui fait le tour du bâtiment",
+          "Une conduite pleine qui amène l'eau potable",
+          "La colonne qui reprend les eaux usées des appareils",
+          "Un regard de visite situé sur le toit"
+        ],
+        "reponse_correcte": "Un tuyau percé d'une multitude de trous qui fait le tour du bâtiment",
+        "explication": "Le drain est un tuyau perforé sur toute sa longueur, posé autour du bâtiment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Quel est le but du drainage ?",
+        "propositions": [
+          "Évacuer l'eau présente dans le sol autour des fondations pour protéger le bâtiment contre l'humidité et les infiltrations",
+          "Alimenter les appartements en eau chaude",
+          "Ventiler la cave",
+          "Évacuer les eaux usées des cuisines"
+        ],
+        "reponse_correcte": "Évacuer l'eau présente dans le sol autour des fondations pour protéger le bâtiment contre l'humidité et les infiltrations",
+        "explication": "Le drainage évacue l'eau du sol autour des fondations, protégeant le bâtiment de l'humidité et des infiltrations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "Quel est le plus grand ennemi du drain ?",
+        "propositions": [
+          "Les racines",
+          "Le gel",
+          "Le calcaire de l'eau potable",
+          "Les rongeurs"
+        ],
+        "reponse_correcte": "Les racines",
+        "explication": "Les racines pénètrent par les trous du drain et l'obstruent : c'est son plus grand ennemi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fondations et drainage",
+      "content": {
+        "enonce": "À quoi le drain est-il en général relié ?",
+        "propositions": [
+          "Au réseau d'eaux pluviales",
+          "Au réseau d'eaux usées",
+          "À la chaudière",
+          "Au réseau d'eau potable"
+        ],
+        "reponse_correcte": "Au réseau d'eaux pluviales",
+        "explication": "Le drain est en général raccordé au réseau d'eaux pluviales (claires)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Quelles fonctions l'enveloppe du bâtiment remplit-elle ?",
+        "propositions": [
+          "Protection thermique",
+          "Protection acoustique",
+          "Sécurité incendie",
+          "Étanchéité",
+          "Stabilité de la construction",
+          "Distribution de l'eau chaude"
+        ],
+        "reponses_correctes": [
+          "Protection thermique",
+          "Protection acoustique",
+          "Sécurité incendie",
+          "Étanchéité",
+          "Stabilité de la construction"
+        ],
+        "explication": "L'enveloppe assure protection thermique, acoustique, sécurité incendie, étanchéité et stabilité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "À quoi sert le revêtement extérieur ?",
+        "propositions": [
+          "À protéger l'ouvrage des intempéries et ainsi améliorer la pérennité de l'enveloppe",
+          "À porter les dalles des étages",
+          "À répartir les charges dans le sol",
+          "À évacuer les eaux pluviales vers le drain"
+        ],
+        "reponse_correcte": "À protéger l'ouvrage des intempéries et ainsi améliorer la pérennité de l'enveloppe",
+        "explication": "Le revêtement extérieur protège l'ouvrage des intempéries et prolonge la durée de vie de l'enveloppe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Que supporte un mur porteur ?",
+        "propositions": [
+          "La charpente et la structure des planchers ou dalles du bâtiment",
+          "Uniquement son propre poids",
+          "Uniquement les fenêtres et les portes",
+          "Les installations sanitaires"
+        ],
+        "reponse_correcte": "La charpente et la structure des planchers ou dalles du bâtiment",
+        "explication": "Un mur porteur supporte la charpente et les planchers/dalles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Comment se nomme un mur porteur situé à l'intérieur d'une construction ?",
+        "propositions": [
+          "Le mur de refend",
+          "Le mur gouttereau",
+          "Le mur pignon",
+          "Le mur d'échiffre"
+        ],
+        "reponse_correcte": "Le mur de refend",
+        "explication": "Le mur de refend est un mur porteur intérieur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Comment se nomme le mur porteur extérieur qui suit la sablière de la toiture (côté égout du toit) ?",
+        "propositions": [
+          "Le mur gouttereau",
+          "Le mur pignon",
+          "Le mur de refend",
+          "Le mur de soutènement"
+        ],
+        "reponse_correcte": "Le mur gouttereau",
+        "explication": "Le mur gouttereau porte la sablière, du côté où l'eau du toit s'écoule (gouttière)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Comment se nomme le mur situé du côté où le toit forme un triangle ?",
+        "propositions": [
+          "Le mur pignon",
+          "Le mur gouttereau",
+          "Le mur d'échiffre",
+          "Le mur de refend"
+        ],
+        "reponse_correcte": "Le mur pignon",
+        "explication": "Le mur pignon est surmonté du triangle formé par les deux pans de toiture."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Comment se nomment les murs qui portent les escaliers ?",
+        "propositions": [
+          "Les murs d'échiffre",
+          "Les murs pignons",
+          "Les murs gouttereaux",
+          "Les galandages"
+        ],
+        "reponse_correcte": "Les murs d'échiffre",
+        "explication": "Les murs d'échiffre supportent les escaliers."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Enveloppe et murs",
+      "content": {
+        "enonce": "Quels indices peuvent indiquer qu'un mur est porteur ?",
+        "propositions": [
+          "Il s'agit d'un mur de façade ou d'un mur de cage d'escalier",
+          "Son épaisseur est d'environ 15 à 20 cm",
+          "Il est en béton ou en brique (ciment ou terre cuite)",
+          "Il se trouve à environ 4 m d'un autre mur porteur (logement)",
+          "Il sonne creux quand on le frappe",
+          "Il mesure environ 5 cm d'épaisseur"
+        ],
+        "reponses_correctes": [
+          "Il s'agit d'un mur de façade ou d'un mur de cage d'escalier",
+          "Son épaisseur est d'environ 15 à 20 cm",
+          "Il est en béton ou en brique (ciment ou terre cuite)",
+          "Il se trouve à environ 4 m d'un autre mur porteur (logement)"
+        ],
+        "explication": "Indices : façades et cages d'escalier, épaisseur 15–20 cm, matériaux béton/brique, distance d'environ 4 m entre deux murs porteurs en logement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "Pour un escalier confortable, quelle formule doit donner 64 cm ?",
+        "propositions": [
+          "2h + g = 64 (deux fois la hauteur de marche plus la profondeur de marche)",
+          "h + 2g = 64",
+          "h × g = 64",
+          "2(h + g) = 64"
+        ],
+        "reponse_correcte": "2h + g = 64 (deux fois la hauteur de marche plus la profondeur de marche)",
+        "explication": "Règle de la foulée : 2 × hauteur + giron (profondeur) ≈ 64 cm."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "Un escalier a des marches de {h} cm de hauteur. Selon la règle 2h + g = 64, quelle doit être la profondeur (giron) des marches, en cm ?",
+        "variables": [
+          {
+            "nom": "h",
+            "min": 15,
+            "max": 19,
+            "unite": "cm",
+            "arrondi": 1
+          }
+        ],
+        "formule": "64 - 2 * h",
+        "unite_reponse": "cm",
+        "arrondi_reponse": 1,
+        "tolerance": 0.05,
+        "explication": "g = 64 − 2h. Par exemple, pour h = 17 cm : g = 64 − 34 = 30 cm."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "Qu'est-ce que la ligne de foulée ?",
+        "propositions": [
+          "Une ligne imaginaire qui représente le chemin habituellement emprunté dans un escalier",
+          "La main courante fixée au mur",
+          "Le nez de chaque marche",
+          "La limite entre deux paliers"
+        ],
+        "reponse_correcte": "Une ligne imaginaire qui représente le chemin habituellement emprunté dans un escalier",
+        "explication": "La ligne de foulée est le tracé imaginaire suivi par l'utilisateur dans l'escalier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "Sur quoi repose une dalle entre étages ?",
+        "propositions": [
+          "Sur les murs porteurs",
+          "Sur les cloisons de distribution",
+          "Sur la chape",
+          "Sur le drain"
+        ],
+        "reponse_correcte": "Sur les murs porteurs",
+        "explication": "La dalle repose sur les murs porteurs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "En quoi une dalle peut-elle être réalisée ?",
+        "propositions": [
+          "En béton, en bois ou en métal",
+          "Uniquement en béton armé",
+          "En plâtre ou en carton",
+          "Uniquement en bois massif"
+        ],
+        "reponse_correcte": "En béton, en bois ou en métal",
+        "explication": "Une dalle peut être en béton, en bois ou métallique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Escaliers, dalles et chapes",
+      "content": {
+        "enonce": "Qu'est-ce que la chape ?",
+        "propositions": [
+          "Une couche de mortier, de résine ou de chaux appliquée au sol pour aplanir le support ou enrober des éléments (ex. chauffage de sol), avant le revêtement final",
+          "Le revêtement final du sol, comme le parquet",
+          "Une isolation posée sous la toiture",
+          "Le mur porteur qui supporte un escalier"
+        ],
+        "reponse_correcte": "Une couche de mortier, de résine ou de chaux appliquée au sol pour aplanir le support ou enrober des éléments (ex. chauffage de sol), avant le revêtement final",
+        "explication": "La chape aplanit/nivelle le support ou enrobe des éléments (chauffage au sol), puis reçoit carrelage, sol souple ou parquet."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "Qu'est-ce que le toit ?",
+        "propositions": [
+          "La surface ou couverture de la partie supérieure d'un édifice, qui protège principalement son intérieur des intempéries",
+          "La dalle du dernier étage habitable",
+          "L'ensemble des murs pignons",
+          "La couche d'isolation sous la dalle"
+        ],
+        "reponse_correcte": "La surface ou couverture de la partie supérieure d'un édifice, qui protège principalement son intérieur des intempéries",
+        "explication": "Le toit couvre la partie supérieure de l'édifice et le protège des intempéries."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "En quoi sont faites les charpentes des toits traditionnels ?",
+        "propositions": [
+          "En bois, en acier ou en béton",
+          "Uniquement en tuiles",
+          "En verre ou en plastique",
+          "Uniquement en pierre"
+        ],
+        "reponse_correcte": "En bois, en acier ou en béton",
+        "explication": "Les toits traditionnels sont en bois, en acier ou en béton."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "Lesquels sont des éléments d'une charpente / d'un toit ?",
+        "propositions": [
+          "La sablière",
+          "La panne faîtière",
+          "Les chevrons",
+          "Les liteaux",
+          "L'entrait et le poinçon",
+          "Les arbalétriers",
+          "Le radier",
+          "Le mur d'échiffre"
+        ],
+        "reponses_correctes": [
+          "La sablière",
+          "La panne faîtière",
+          "Les chevrons",
+          "Les liteaux",
+          "L'entrait et le poinçon",
+          "Les arbalétriers"
+        ],
+        "explication": "Parties du toit : sablière, panne faîtière, liteaux, chevrons, entrait, poinçon, voliges, panne intermédiaire, échantignole, arbalétriers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "Dans quel ordre trouve-t-on les couches d'une toiture, de l'extérieur vers l'intérieur ?",
+        "propositions": [
+          "Couverture – sous-couverture – isolation – frein/pare-vapeur – sous-construction et revêtement intérieur",
+          "Isolation – couverture – pare-vapeur – sous-couverture – revêtement intérieur",
+          "Sous-couverture – couverture – revêtement intérieur – isolation – pare-vapeur",
+          "Pare-vapeur – isolation – couverture – sous-couverture – revêtement intérieur"
+        ],
+        "reponse_correcte": "Couverture – sous-couverture – isolation – frein/pare-vapeur – sous-construction et revêtement intérieur",
+        "explication": "De l'extérieur vers l'intérieur : couverture, sous-couverture, isolation, frein/pare-vapeur, sous-construction et revêtement intérieur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "Qu'est-ce que la couverture d'une toiture ?",
+        "propositions": [
+          "Les matériaux qui recouvrent le bâtiment pour le protéger des intempéries (les tuiles par exemple)",
+          "La couche qui évacue l'eau en cas d'infiltration",
+          "La couche isolante",
+          "Le revêtement intérieur des combles"
+        ],
+        "reponse_correcte": "Les matériaux qui recouvrent le bâtiment pour le protéger des intempéries (les tuiles par exemple)",
+        "explication": "La couverture (tuiles, ardoises…) protège le bâtiment des intempéries."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Toiture",
+      "content": {
+        "enonce": "À quoi sert la sous-couverture ?",
+        "propositions": [
+          "À évacuer l'eau vers l'extérieur en cas d'infiltration",
+          "À isoler thermiquement les combles",
+          "À empêcher la vapeur d'eau intérieure de pénétrer l'isolation",
+          "À porter les tuiles"
+        ],
+        "reponse_correcte": "À évacuer l'eau vers l'extérieur en cas d'infiltration",
+        "explication": "La sous-couverture récupère et évacue vers l'extérieur l'eau qui aurait passé la couverture."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Que désigne le chauffage central ?",
+        "propositions": [
+          "Un mode de chauffage qui chauffe les différentes pièces d'un immeuble à partir d'un seul point, grâce à un générateur de chaleur (chaudière / chaufferie)",
+          "Un radiateur électrique installé dans chaque pièce",
+          "Un poêle à bois situé au centre du séjour",
+          "Un chauffage individuel par appartement sans distribution"
+        ],
+        "reponse_correcte": "Un mode de chauffage qui chauffe les différentes pièces d'un immeuble à partir d'un seul point, grâce à un générateur de chaleur (chaudière / chaufferie)",
+        "explication": "Le chauffage central chauffe tout l'immeuble depuis un seul point (chaudière, chaufferie)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Comment la distribution de chaleur se fait-elle dans un chauffage central ?",
+        "propositions": [
+          "Par des tuyaux vers les radiateurs ou dans le plancher chauffant",
+          "Par des gaines d'air chaud uniquement",
+          "Par les colonnes de chute",
+          "Par le drain périphérique"
+        ],
+        "reponse_correcte": "Par des tuyaux vers les radiateurs ou dans le plancher chauffant",
+        "explication": "La chaleur est distribuée par des tuyaux vers les radiateurs ou le chauffage au sol."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Le circuit de chauffage est-il un circuit ouvert ou fermé ?",
+        "propositions": [
+          "Fermé",
+          "Ouvert",
+          "Ouvert en été, fermé en hiver",
+          "Ouvert vers le réseau d'eau potable"
+        ],
+        "reponse_correcte": "Fermé",
+        "explication": "Le circuit de chauffage est fermé : la même eau circule en boucle."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Par quoi l'eau chaude sanitaire peut-elle être chauffée ?",
+        "propositions": [
+          "La chaudière",
+          "L'électricité",
+          "Le solaire",
+          "Une pompe à chaleur",
+          "Le drain",
+          "La colonne de chute"
+        ],
+        "reponses_correctes": [
+          "La chaudière",
+          "L'électricité",
+          "Le solaire",
+          "Une pompe à chaleur"
+        ],
+        "explication": "L'eau chaude peut être produite par la chaudière, l'électricité, le solaire ou une pompe à chaleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Comment se fait la distribution d'eau dans les étages ?",
+        "propositions": [
+          "Par des colonnes montantes",
+          "Par des colonnes de chute",
+          "Par le drain",
+          "Par les chéneaux"
+        ],
+        "reponse_correcte": "Par des colonnes montantes",
+        "explication": "L'eau est distribuée dans les étages par des colonnes montantes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Comment s'appellent les conduites qui partent des colonnes montantes pour alimenter les différents appareils ?",
+        "propositions": [
+          "Les dérivations",
+          "Les colonnes de chute",
+          "Les drains",
+          "Les ventilations primaires"
+        ],
+        "reponse_correcte": "Les dérivations",
+        "explication": "Les dérivations relient les colonnes montantes aux appareils."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Que reprend la colonne de chute ?",
+        "propositions": [
+          "Les écoulements des eaux usées des appareils",
+          "L'eau potable froide",
+          "L'eau du circuit de chauffage",
+          "L'eau du drain périphérique"
+        ],
+        "reponse_correcte": "Les écoulements des eaux usées des appareils",
+        "explication": "La colonne de chute reprend les eaux usées des appareils sanitaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chauffage et sanitaires",
+      "content": {
+        "enonce": "Que rejoint la colonne de chute ?",
+        "propositions": [
+          "Les canalisations d'eaux usées, puis la station d'épuration",
+          "Le réseau d'eaux pluviales puis le lac",
+          "La chaudière",
+          "Le réservoir d'eau potable"
+        ],
+        "reponse_correcte": "Les canalisations d'eaux usées, puis la station d'épuration",
+        "explication": "La colonne de chute rejoint les canalisations d'eaux usées, conduites vers la station d'épuration."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gros œuvre et second œuvre",
+      "content": {
+        "enonce": "Que comprend le gros œuvre ?",
+        "propositions": [
+          "Tous les travaux qui réalisent la structure de l'ouvrage et garantissent sa solidité et sa stabilité",
+          "Uniquement les travaux de peinture et de finition",
+          "Les travaux d'aménagement du jardin",
+          "L'ameublement et la décoration"
+        ],
+        "reponse_correcte": "Tous les travaux qui réalisent la structure de l'ouvrage et garantissent sa solidité et sa stabilité",
+        "explication": "Le gros œuvre regroupe les travaux de structure qui garantissent solidité et stabilité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gros œuvre et second œuvre",
+      "content": {
+        "enonce": "Que comporte le gros œuvre 1 ?",
+        "propositions": [
+          "Échafaudages et terrassements",
+          "Canalisations intérieures",
+          "Béton et béton armé",
+          "Maçonnerie",
+          "Charpente et escaliers",
+          "Fenêtres et portes extérieures",
+          "Ferblanterie et couverture"
+        ],
+        "reponses_correctes": [
+          "Échafaudages et terrassements",
+          "Canalisations intérieures",
+          "Béton et béton armé",
+          "Maçonnerie",
+          "Charpente et escaliers"
+        ],
+        "explication": "Gros œuvre 1 : échafaudages, terrassements, canalisations intérieures, béton/béton armé, maçonnerie, charpente, escaliers, éléments préfabriqués."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gros œuvre et second œuvre",
+      "content": {
+        "enonce": "Que comporte le gros œuvre 2 ?",
+        "propositions": [
+          "Fenêtres et portes extérieures",
+          "Ferblanterie et couverture",
+          "Crépissage de façade",
+          "Fermetures extérieures et protections contre le soleil",
+          "Terrassements",
+          "Béton armé"
+        ],
+        "reponses_correctes": [
+          "Fenêtres et portes extérieures",
+          "Ferblanterie et couverture",
+          "Crépissage de façade",
+          "Fermetures extérieures et protections contre le soleil"
+        ],
+        "explication": "Gros œuvre 2 : fenêtres, portes extérieures, ferblanterie, couverture, crépissage, fermetures extérieures, protections solaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gros œuvre et second œuvre",
+      "content": {
+        "enonce": "Qu'entend-on par second œuvre (aménagements intérieurs) ?",
+        "propositions": [
+          "Les travaux qui interviennent à la suite du gros œuvre et permettent la finition du bâtiment",
+          "Les travaux de fondation",
+          "La pose de la charpente",
+          "Les travaux réalisés avant le permis de construire"
+        ],
+        "reponse_correcte": "Les travaux qui interviennent à la suite du gros œuvre et permettent la finition du bâtiment",
+        "explication": "Le second œuvre regroupe les travaux de finition qui suivent le gros œuvre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Quand débute le cycle de vie d'un immeuble ?",
+        "propositions": [
+          "Dès la réception de l'ouvrage, ou lorsque l'ouvrage (ou une partie) est mis en exploitation",
+          "Dès le dépôt du permis de construire",
+          "À l'achat du terrain",
+          "Au premier état des lieux de sortie"
+        ],
+        "reponse_correcte": "Dès la réception de l'ouvrage, ou lorsque l'ouvrage (ou une partie) est mis en exploitation",
+        "explication": "Le cycle de vie commence à la réception de l'ouvrage ou à sa mise en exploitation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Par quels effets les éléments de construction peuvent-ils se dégrader ?",
+        "propositions": [
+          "Le vieillissement ou l'usure normale",
+          "Les agressions externes",
+          "Les défauts de construction",
+          "Le changement de propriétaire",
+          "La hausse du taux de référence"
+        ],
+        "reponses_correctes": [
+          "Le vieillissement ou l'usure normale",
+          "Les agressions externes",
+          "Les défauts de construction"
+        ],
+        "explication": "Trois causes : vieillissement/usure normale, agressions externes, défauts de construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Qu'est-ce qu'un défaut ?",
+        "propositions": [
+          "Un ouvrage livré non conforme à celui prévu par contrat ou à la qualité promise",
+          "Toute usure normale constatée après 10 ans",
+          "Un dégât causé par le locataire",
+          "Une modification demandée par le maître d'ouvrage"
+        ],
+        "reponse_correcte": "Un ouvrage livré non conforme à celui prévu par contrat ou à la qualité promise",
+        "explication": "Défaut : l'ouvrage livré n'est pas conforme au contrat ou à la qualité promise."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Quel est le délai de prescription d'un défaut intentionnellement caché ?",
+        "propositions": [
+          "10 ans",
+          "5 ans",
+          "2 ans",
+          "1 an"
+        ],
+        "reponse_correcte": "10 ans",
+        "explication": "Défaut intentionnellement caché : 10 ans ; défaut caché : 5 ans ; délai de garantie : 2 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Quel est le délai de prescription d'un défaut caché ?",
+        "propositions": [
+          "5 ans",
+          "10 ans",
+          "2 ans",
+          "20 ans"
+        ],
+        "reponse_correcte": "5 ans",
+        "explication": "Défaut caché : 5 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Quel est le délai de garantie (défauts de garantie) ?",
+        "propositions": [
+          "2 ans",
+          "5 ans",
+          "10 ans",
+          "6 mois"
+        ],
+        "reponse_correcte": "2 ans",
+        "explication": "Délai de garantie : 2 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Quelle est la différence entre un pont thermique ponctuel et un pont thermique linéaire ?",
+        "propositions": [
+          "Le ponctuel se situe en un seul point, le linéaire suit une ligne (par exemple le long d'un mur ou d'une dalle)",
+          "Le ponctuel est intérieur, le linéaire est extérieur",
+          "Le ponctuel concerne les fenêtres, le linéaire uniquement la toiture",
+          "Il n'y a aucune différence, ce sont deux noms du même phénomène"
+        ],
+        "reponse_correcte": "Le ponctuel se situe en un seul point, le linéaire suit une ligne (par exemple le long d'un mur ou d'une dalle)",
+        "explication": "Pont thermique ponctuel : en un point ; linéaire : le long d'une ligne (jonction mur/dalle, etc.)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Qu'est-ce que l'obsolescence ?",
+        "propositions": [
+          "La dépréciation d'un matériel due au progrès technique et non à son usure",
+          "L'usure normale d'un matériel par son utilisation",
+          "Un défaut de construction caché",
+          "La perte de valeur due à un sinistre"
+        ],
+        "reponse_correcte": "La dépréciation d'un matériel due au progrès technique et non à son usure",
+        "explication": "Obsolescence : l'objet est « périmé » à cause du progrès technique, pas de l'usure."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cycle de vie et défauts",
+      "content": {
+        "enonce": "Qu'est-ce que l'obsolescence programmée ?",
+        "propositions": [
+          "La pratique qui consiste à concevoir un produit avec une durée de fonctionnement limitée ou des mises à jour obligatoires futures",
+          "Le remplacement planifié d'un équipement selon la tabelle des durées de vie",
+          "Le contrôle périodique des installations électriques",
+          "La planification des travaux d'entretien sur 10 ans"
+        ],
+        "reponse_correcte": "La pratique qui consiste à concevoir un produit avec une durée de fonctionnement limitée ou des mises à jour obligatoires futures",
+        "explication": "Obsolescence programmée : un produit est conçu pour avoir une durée de fonctionnement limitée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Maintenance",
+      "content": {
+        "enonce": "Qu'est-ce que la maintenance ?",
+        "propositions": [
+          "L'ensemble des mesures permettant de constater, d'apprécier et de conserver l'état d'un ouvrage",
+          "Le remplacement complet du bâtiment en fin de vie",
+          "Uniquement les réparations d'urgence",
+          "La transformation d'un immeuble en PPE"
+        ],
+        "reponse_correcte": "L'ensemble des mesures permettant de constater, d'apprécier et de conserver l'état d'un ouvrage",
+        "explication": "La maintenance : constater, apprécier et conserver l'état d'un ouvrage."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Maintenance",
+      "content": {
+        "enonce": "Par quelles actions la maintenance se fait-elle pendant la durée d'utilisation d'un bâtiment ?",
+        "propositions": [
+          "La surveillance",
+          "L'entretien",
+          "Le renouvellement",
+          "La démolition",
+          "La revente"
+        ],
+        "reponses_correctes": [
+          "La surveillance",
+          "L'entretien",
+          "Le renouvellement"
+        ],
+        "explication": "La maintenance se fait par la surveillance, l'entretien et le renouvellement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Maintenance",
+      "content": {
+        "enonce": "La maintenance courante concerne surtout l'activité de qui ?",
+        "propositions": [
+          "Du concierge, qui par un entretien méthodique et régulier maintient l'ouvrage en état de fonctionnement",
+          "Du notaire",
+          "Du géomètre officiel",
+          "De l'ingénieur géologue"
+        ],
+        "reponse_correcte": "Du concierge, qui par un entretien méthodique et régulier maintient l'ouvrage en état de fonctionnement",
+        "explication": "Le concierge, par un entretien méthodique et régulier, maintient l'ouvrage en état de fonctionnement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Maintenance",
+      "content": {
+        "enonce": "À quoi est utile la tabelle d'amortissement des durées de vie moyennes des installations et équipements ?",
+        "propositions": [
+          "Lors des états des lieux",
+          "Pour planifier les travaux de rénovation à moyen et long terme",
+          "Pour fixer le loyer initial",
+          "Pour calculer la prime ECA"
+        ],
+        "reponses_correctes": [
+          "Lors des états des lieux",
+          "Pour planifier les travaux de rénovation à moyen et long terme"
+        ],
+        "explication": "La tabelle sert lors des états des lieux (part d'usure) et pour la planification des rénovations à moyen et long terme."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Maintenance",
+      "content": {
+        "enonce": "Que signifie BPA ?",
+        "propositions": [
+          "Bureau de prévention des accidents",
+          "Bureau des permis d'aménagement",
+          "Brigade de protection des ascenseurs",
+          "Bureau paritaire des assurances"
+        ],
+        "reponse_correcte": "Bureau de prévention des accidents",
+        "explication": "BPA = Bureau de prévention des accidents."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Subventions",
+      "content": {
+        "enonce": "Comment une subvention doit-elle être ?",
+        "propositions": [
+          "Incitative",
+          "Énergétiquement efficace",
+          "Bien ciblée",
+          "Rationnelle sur le plan administratif",
+          "Automatique pour tous les propriétaires",
+          "Remboursable avec intérêts"
+        ],
+        "reponses_correctes": [
+          "Incitative",
+          "Énergétiquement efficace",
+          "Bien ciblée",
+          "Rationnelle sur le plan administratif"
+        ],
+        "explication": "Une subvention doit être incitative, énergétiquement efficace, bien ciblée et rationnelle sur le plan administratif."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Subventions",
+      "content": {
+        "enonce": "Quels domaines peuvent bénéficier d'une aide financière du Programme Bâtiments ?",
+        "propositions": [
+          "Les bâtiments ayant reçu leur permis de construire avant l'an 2000 (assainissement)",
+          "Les bâtiments neufs, pour atteindre une haute performance énergétique",
+          "Le chauffage à distance",
+          "L'achat d'électroménager pour les locataires",
+          "La rénovation des cuisines sans gain énergétique"
+        ],
+        "reponses_correctes": [
+          "Les bâtiments ayant reçu leur permis de construire avant l'an 2000 (assainissement)",
+          "Les bâtiments neufs, pour atteindre une haute performance énergétique",
+          "Le chauffage à distance"
+        ],
+        "explication": "Trois domaines : bâtiments existants (permis avant 2000), bâtiments neufs performants, chauffage à distance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Dans quel ordre se déroulent les grandes étapes de la gestion d'un sinistre ?",
+        "propositions": [
+          "Annonce – réparation de la cause – assèchement – devis de remise en état – travaux – clôture",
+          "Devis – annonce – travaux – réparation de la cause – assèchement – clôture",
+          "Annonce – travaux – assèchement – réparation de la cause – devis – clôture",
+          "Assèchement – annonce – devis – clôture – réparation de la cause – travaux"
+        ],
+        "reponse_correcte": "Annonce – réparation de la cause – assèchement – devis de remise en état – travaux – clôture",
+        "explication": "Étapes : annonce du sinistre, réparation de la cause, assèchement des locaux, devis de remise en état, réalisation des travaux, clôture."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Que faire dès qu'une infiltration d'eau est avérée ?",
+        "propositions": [
+          "Chercher les informations (où, depuis quand, quelle ampleur)",
+          "Contacter l'entreprise sanitaire et coordonner l'intervention avec les appartements voisins si nécessaire",
+          "Annoncer le cas à l'assurance de l'immeuble",
+          "Attendre le prochain état des lieux pour constater les dégâts",
+          "Commencer les travaux de peinture immédiatement"
+        ],
+        "reponses_correctes": [
+          "Chercher les informations (où, depuis quand, quelle ampleur)",
+          "Contacter l'entreprise sanitaire et coordonner l'intervention avec les appartements voisins si nécessaire",
+          "Annoncer le cas à l'assurance de l'immeuble"
+        ],
+        "explication": "Dès l'infiltration avérée : recueillir les informations, faire intervenir le sanitaire (coordination avec les voisins) et annoncer le cas à l'assurance."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Comment procède-t-on pour la réparation de la cause d'un dégât d'eau ?",
+        "propositions": [
+          "On met en place des moyens pour déterminer la cause, comme la thermographie des murs",
+          "On ouvre si nécessaire les murs et les gaines",
+          "Dès la cause déterminée, on ordonne la réparation de la conduite",
+          "On repeint d'abord les murs touchés",
+          "On attend l'accord du locataire pour chercher la fuite"
+        ],
+        "reponses_correctes": [
+          "On met en place des moyens pour déterminer la cause, comme la thermographie des murs",
+          "On ouvre si nécessaire les murs et les gaines",
+          "Dès la cause déterminée, on ordonne la réparation de la conduite"
+        ],
+        "explication": "Recherche de la cause (thermographie, ouverture des murs et gaines), puis réparation de la conduite dès la cause trouvée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Que comprend l'établissement des devis de remise en état ?",
+        "propositions": [
+          "Déterminer le genre de travaux et évaluer les coûts de remise en état",
+          "Envoyer les devis des entreprises à la compagnie d'assurance pour accord",
+          "Envoyer à l'assurance la facture attestant de la réparation de la cause",
+          "Faire signer les devis par chaque locataire de l'immeuble",
+          "Publier un appel d'offres public obligatoire"
+        ],
+        "reponses_correctes": [
+          "Déterminer le genre de travaux et évaluer les coûts de remise en état",
+          "Envoyer les devis des entreprises à la compagnie d'assurance pour accord",
+          "Envoyer à l'assurance la facture attestant de la réparation de la cause"
+        ],
+        "explication": "Les devis sont envoyés à l'assurance pour accord, avec la facture de réparation de la cause ; un inspecteur peut venir évaluer les dégâts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion d'un sinistre",
+      "content": {
+        "enonce": "Quand la visite d'un inspecteur de la compagnie d'assurance a-t-elle lieu ?",
+        "propositions": [
+          "Elle est parfois souhaitée pour évaluer l'ampleur des dégâts, ou planifiée d'office lorsque le coût du sinistre est élevé",
+          "Systématiquement avant même l'annonce du sinistre",
+          "Jamais : l'assurance se base uniquement sur les photos",
+          "Uniquement si le locataire la demande"
+        ],
+        "reponse_correcte": "Elle est parfois souhaitée pour évaluer l'ampleur des dégâts, ou planifiée d'office lorsque le coût du sinistre est élevé",
+        "explication": "L'inspecteur vient évaluer l'ampleur des dégâts, parfois à la demande, d'office si le sinistre est coûteux."
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { readGuestAccess } from "@/lib/guest-access";
 import { getQuestionStatuses, summarizeStatuses, type QuestionStatus } from "@/lib/question-progress";
 import { parseQuestionContent } from "@/lib/question-resolver";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildChapterStyle } from "@/lib/chapter-style";
 
 const STATUS_LABEL: Record<QuestionStatus, string> = {
   correct: "Juste",
@@ -72,7 +72,7 @@ export default async function SharedQuizProgressPage({
   return (
     <div
       className="mx-auto w-full max-w-4xl px-6 py-10"
-      style={{ display: "flex", flexDirection: "column", gap: "1.25rem", ...buildThemeStyle(quiz.themeColors) }}
+      style={{ display: "flex", flexDirection: "column", gap: "1.25rem", ...(await buildChapterStyle(quiz.id, quiz.themeColors, themeId)) }}
     >
       <div>
         <Link

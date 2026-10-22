@@ -10,6 +10,8 @@ const themeColorsSchema = z.object({
   success: hexColor.nullable().optional(),
   error: hexColor.nullable().optional(),
   warning: hexColor.nullable().optional(),
+  level2Primary: hexColor.nullable().optional(),
+  level2Card: hexColor.nullable().optional(),
 });
 
 // Owner-only. Body keys set a custom color (hex), `null` resets that key back

@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
-import { buildThemeStyle } from "@/lib/quiz-theme-style";
+import { buildChapterStyle } from "@/lib/chapter-style";
 import TrainingConfigForm, { type SectionOption } from "@/components/TrainingConfigForm";
 
 export default async function ConfigureTrainingPage({
@@ -40,7 +40,7 @@ export default async function ConfigureTrainingPage({
   const missedCount = statuses ? theme.questions.filter((q) => isMissed(q.id)).length : undefined;
 
   return (
-    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={buildThemeStyle(quiz.themeColors)}>
+    <div className="mx-auto w-full max-w-4xl px-6 py-10" style={await buildChapterStyle(id, quiz.themeColors, themeId)}>
       <TrainingConfigForm
         sessionUrl={`/quizzes/${id}/session`}
         themeId={themeId}
