@@ -1,0 +1,857 @@
+{
+  "title": "Résiliation du contrat de bail",
+  "description": "Immobase — Résiliation du contrat de bail : baux de durée déterminée et indéterminée, délais et termes de congé, théorie de la réception, forme du congé et logement de famille, nullité, prolongation, procédure de conciliation, résiliations extraordinaires (non-paiement, manque d'égards, faillite, changement de propriétaire, justes motifs, défaut grave, décès).",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bail de durée déterminée ou indéterminée",
+      "content": {
+        "enonce": "Un bail de durée déterminée doit-il être résilié pour prendre fin ?",
+        "propositions": [
+          "Non, il prend fin automatiquement à l'échéance prévue",
+          "Oui, par formule officielle 3 mois avant l'échéance",
+          "Oui, par lettre recommandée du locataire",
+          "Oui, sinon il se renouvelle d'office pour un an"
+        ],
+        "reponse_correcte": "Non, il prend fin automatiquement à l'échéance prévue",
+        "explication": "Le bail de durée déterminée prend fin sans résiliation : à une date précise, à l'expiration d'une durée convenue ou à la survenance d'un événement déterminé."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Bail de durée déterminée ou indéterminée",
+      "content": {
+        "enonce": "Lesquels de ces exemples sont des baux de durée déterminée ?",
+        "propositions": [
+          "« Le bail prendra fin au 31 décembre 2014 »",
+          "« Le bail est conclu pour six mois »",
+          "« Le bail prend fin à la mort du locataire »",
+          "« Le bail se renouvelle d'année en année sauf résiliation 3 mois avant l'échéance »"
+        ],
+        "reponses_correctes": [
+          "« Le bail prendra fin au 31 décembre 2014 »",
+          "« Le bail est conclu pour six mois »",
+          "« Le bail prend fin à la mort du locataire »"
+        ],
+        "explication": "Un bail renouvelable d'année en année sauf résiliation est de durée indéterminée : il faut le résilier pour y mettre fin."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bail de durée déterminée ou indéterminée",
+      "content": {
+        "enonce": "Dans un bail de durée déterminée, jusqu'à quand le locataire peut-il demander une prolongation ?",
+        "propositions": [
+          "Au plus tard 60 jours avant l'expiration du contrat",
+          "Dans les 30 jours après l'expiration",
+          "Au plus tard 3 mois avant l'expiration",
+          "Il ne peut jamais demander de prolongation"
+        ],
+        "reponse_correcte": "Au plus tard 60 jours avant l'expiration du contrat",
+        "explication": "Art. 273 al. 2 let. b CO : 60 jours au plus tard avant l'expiration d'un bail de durée déterminée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quelle est la différence entre le délai et le terme de congé ?",
+        "propositions": [
+          "Le délai est la durée entre la réception du congé et la fin du bail ; le terme est la date pour laquelle on peut résilier",
+          "Le délai est la date de fin du bail ; le terme est la durée du préavis",
+          "Ce sont deux synonymes",
+          "Le délai concerne le bailleur, le terme concerne le locataire"
+        ],
+        "reponse_correcte": "Le délai est la durée entre la réception du congé et la fin du bail ; le terme est la date pour laquelle on peut résilier",
+        "explication": "Délai = préavis (ex. 3 mois). Terme = échéance (ex. 31 mars, 1er juillet)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quel est le délai de congé légal minimum pour un bail d'habitation ?",
+        "propositions": [
+          "3 mois",
+          "1 mois",
+          "6 mois",
+          "2 semaines"
+        ],
+        "reponse_correcte": "3 mois",
+        "explication": "Délais minimums (art. 266b à 266f CO) : 3 mois pour les habitations, 6 mois pour les locaux commerciaux, 2 semaines pour les places de parc louées indépendamment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quel est le délai de congé légal minimum pour un bail de locaux commerciaux ?",
+        "propositions": [
+          "6 mois",
+          "3 mois",
+          "12 mois",
+          "1 mois"
+        ],
+        "reponse_correcte": "6 mois",
+        "explication": "6 mois pour les baux commerciaux. Les parties peuvent prévoir des délais plus longs, jamais plus courts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quel est le délai de congé minimum pour une place de parc louée indépendamment d'un logement ou d'un local commercial ?",
+        "propositions": [
+          "2 semaines",
+          "1 mois",
+          "3 mois",
+          "Aucun délai"
+        ],
+        "reponse_correcte": "2 semaines",
+        "explication": "2 semaines pour les places de parc qui ne sont pas cédées avec une habitation ou un local commercial."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Le bail prévoit un délai de résiliation de 2 mois pour un appartement. Que vaut cette clause ?",
+        "propositions": [
+          "Elle n'est pas valable : les parties ne peuvent pas abréger le délai légal de 3 mois",
+          "Elle est valable car elle a été signée",
+          "Elle est valable uniquement pour le locataire",
+          "Elle est valable dans le canton de Vaud"
+        ],
+        "reponse_correcte": "Elle n'est pas valable : les parties ne peuvent pas abréger le délai légal de 3 mois",
+        "explication": "Les parties restent libres de prévoir des délais plus longs, mais ne peuvent pas les abréger."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quels sont les termes d'usage local dans le canton de Vaud (art. 36 RULV) ?",
+        "propositions": [
+          "1er avril, 1er juillet et 1er octobre, à midi",
+          "31 mars, 30 juin, 30 septembre et 31 décembre",
+          "Fin de chaque mois",
+          "Il n'y a pas de terme usuel"
+        ],
+        "reponse_correcte": "1er avril, 1er juillet et 1er octobre, à midi",
+        "explication": "VD : 1er avril, 1er juillet, 1er octobre à midi. NE/FR : 31 mars, 30 juin, 30 septembre, 31 décembre. VS/GE : pas de termes usuels."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quels sont les termes usuels à Neuchâtel et Fribourg ?",
+        "propositions": [
+          "31 mars, 30 juin, 30 septembre et 31 décembre",
+          "1er avril, 1er juillet et 1er octobre",
+          "Fin de chaque mois sauf décembre",
+          "Il n'y a pas de terme usuel"
+        ],
+        "reponse_correcte": "31 mars, 30 juin, 30 septembre et 31 décembre",
+        "explication": "NE et FR connaissent quatre termes trimestriels : 31 mars, 30 juin, 30 septembre, 31 décembre."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Dans quels cantons n'existe-t-il pas de terme d'usage local ?",
+        "propositions": [
+          "Valais",
+          "Genève",
+          "Vaud",
+          "Fribourg",
+          "Neuchâtel"
+        ],
+        "reponses_correctes": [
+          "Valais",
+          "Genève"
+        ],
+        "explication": "VS et GE n'ont pas de terme usuel : à défaut de clause, on se réfère au trimestre ou semestre de bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Quand les termes d'usage local s'appliquent-ils ?",
+        "propositions": [
+          "Lorsque les parties n'ont pas convenu de terme (ex. bail oral)",
+          "Toujours, même si le bail prévoit d'autres termes",
+          "Uniquement pour les baux commerciaux",
+          "Uniquement en cas de résiliation par le bailleur"
+        ],
+        "reponse_correcte": "Lorsque les parties n'ont pas convenu de terme (ex. bail oral)",
+        "explication": "Les parties sont libres de fixer les termes dans le contrat ; à défaut, on applique l'usage local."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délais et termes",
+      "content": {
+        "enonce": "Bail renouvelable d'année en année au 1er avril, préavis 3 mois. Le locataire résilie le 1er mars 2014 pour le 1er avril 2014. Quand le bail prend-il fin ?",
+        "propositions": [
+          "Au 1er avril 2015",
+          "Au 1er avril 2014",
+          "Au 1er juin 2014",
+          "Jamais, le congé est nul"
+        ],
+        "reponse_correcte": "Au 1er avril 2015",
+        "explication": "Si le délai ou le terme n'est pas respecté, le congé n'est pas nul : ses effets sont reportés au prochain terme pertinent (art. 266a al. 2 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Théorie de la réception",
+      "content": {
+        "enonce": "Quand le congé doit-il être reçu au plus tard ?",
+        "propositions": [
+          "Le dernier jour avant que le délai de résiliation commence à courir",
+          "Le jour de l'échéance",
+          "Le jour où il est posté",
+          "30 jours avant l'échéance, quelle que soit la date de réception"
+        ],
+        "reponse_correcte": "Le dernier jour avant que le délai de résiliation commence à courir",
+        "explication": "Le congé est un acte soumis à réception : c'est la date de réception, pas celle de l'envoi, qui compte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Théorie de la réception",
+      "content": {
+        "enonce": "Un congé recommandé n'a pas pu être remis : l'avis de retrait indique que le pli est disponible à la poste dès le 4 mars. Quand le congé est-il réputé reçu ?",
+        "propositions": [
+          "Le 4 mars, premier jour du délai de garde",
+          "Le jour de l'envoi",
+          "Le dernier jour du délai de garde de 7 jours",
+          "Le jour où le locataire va effectivement le chercher"
+        ],
+        "reponse_correcte": "Le 4 mars, premier jour du délai de garde",
+        "explication": "Théorie de la réception absolue (congé) : réception le jour de la remise en mains propres ou, à défaut, le premier jour où le pli peut être retiré. Le délai de 30 jours pour contester commence le lendemain, le 5 mars."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Théorie de la réception",
+      "content": {
+        "enonce": "Pour éviter toute contestation sur la date de réception, quand le bailleur devrait-il envoyer la résiliation ?",
+        "propositions": [
+          "Au plus tard 10 jours avant le début du délai de congé",
+          "La veille du début du délai",
+          "Le jour de l'échéance",
+          "Un an avant"
+        ],
+        "reponse_correcte": "Au plus tard 10 jours avant le début du délai de congé",
+        "explication": "Le cours conseille d'envoyer la résiliation au plus tard 10 jours avant, pour absorber les délais postaux et de garde."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Théorie de la réception",
+      "content": {
+        "enonce": "Pour l'avis comminatoire de l'art. 257d CO (délai de paiement), quelle théorie de la réception s'applique ?",
+        "propositions": [
+          "La théorie relative : le pli est réputé reçu le dernier jour du délai de garde de 7 jours",
+          "La théorie absolue : le premier jour du délai de garde",
+          "La date d'envoi",
+          "La date de lecture effective"
+        ],
+        "reponse_correcte": "La théorie relative : le pli est réputé reçu le dernier jour du délai de garde de 7 jours",
+        "explication": "Ex. : avis postal déposé le 11 avril → avis comminatoire réputé reçu le 18 avril. La résiliation elle-même suit la théorie absolue."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Forme du congé",
+      "content": {
+        "enonce": "Quelles règles de forme s'appliquent au congé donné par le bailleur d'un logement ?",
+        "propositions": [
+          "Utiliser la formule officielle agréée par le canton",
+          "Envoyer la résiliation par plis séparés à chacun des conjoints ou partenaires enregistrés",
+          "Envoi recommandé vivement conseillé",
+          "Motiver obligatoirement le congé dans la formule, sous peine de nullité",
+          "Faire contresigner le congé par le locataire"
+        ],
+        "reponses_correctes": [
+          "Utiliser la formule officielle agréée par le canton",
+          "Envoyer la résiliation par plis séparés à chacun des conjoints ou partenaires enregistrés",
+          "Envoi recommandé vivement conseillé"
+        ],
+        "explication": "Art. 266l al. 2 et 266n CO. Le bailleur n'a pas à motiver le congé, sauf à la demande du locataire — mais le faire d'emblée est prudent."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du congé",
+      "content": {
+        "enonce": "Seul le mari figure sur le bail du logement familial. À qui le bailleur doit-il envoyer le congé ?",
+        "propositions": [
+          "Aux deux époux, par deux plis séparés contenant chacun la formule officielle",
+          "Au mari uniquement, car il est seul titulaire du bail",
+          "Aux deux époux dans une seule enveloppe",
+          "À l'épouse uniquement"
+        ],
+        "reponse_correcte": "Aux deux époux, par deux plis séparés contenant chacun la formule officielle",
+        "explication": "Art. 266n CO : envoi séparé au locataire et à son conjoint ou partenaire enregistré, même s'il n'est pas sur le bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du congé",
+      "content": {
+        "enonce": "Pour résilier le bail de colocataires (non mariés), que doit envoyer le bailleur ?",
+        "propositions": [
+          "Une seule formule officielle mentionnant le nom de tous les colocataires suffit",
+          "Une formule séparée à chaque colocataire, sous peine de nullité",
+          "Une simple lettre à l'un d'eux",
+          "Rien, les colocataires doivent résilier eux-mêmes"
+        ],
+        "reponse_correcte": "Une seule formule officielle mentionnant le nom de tous les colocataires suffit",
+        "explication": "L'exigence de plis séparés vise les conjoints et partenaires enregistrés (logement de famille), pas les colocataires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du congé",
+      "content": {
+        "enonce": "Sous quelle forme le locataire d'un logement doit-il résilier ?",
+        "propositions": [
+          "Par écrit (signé par les deux époux ou partenaires s'il s'agit du logement familial)",
+          "Sur formule officielle",
+          "Oralement suffit",
+          "Par courriel suffit toujours"
+        ],
+        "reponse_correcte": "Par écrit (signé par les deux époux ou partenaires s'il s'agit du logement familial)",
+        "explication": "Le locataire n'utilise pas de formule officielle, mais doit résilier par écrit. Art. 266m CO : un époux ne peut résilier le logement de famille sans le consentement exprès de son conjoint."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du congé",
+      "content": {
+        "enonce": "Le bailleur doit-il motiver la résiliation ?",
+        "propositions": [
+          "Non, seulement si le locataire le demande ; mais le faire d'emblée est conseillé",
+          "Oui, toujours, sinon le congé est nul",
+          "Non, jamais, même sur demande",
+          "Oui, mais seulement pour les baux commerciaux"
+        ],
+        "reponse_correcte": "Non, seulement si le locataire le demande ; mais le faire d'emblée est conseillé",
+        "explication": "Un retard inexpliqué ou un refus injustifié de motiver peut être un indice sérieux de congé abusif."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Nullité du congé",
+      "content": {
+        "enonce": "Dans quels cas le congé est-il nul (art. 266o CO) ?",
+        "propositions": [
+          "Le bailleur n'a pas utilisé la formule officielle",
+          "Le bailleur n'a pas envoyé la résiliation séparément à chacun des conjoints",
+          "Le locataire n'a pas résilié par écrit",
+          "Le locataire n'a pas obtenu le consentement exprès de son conjoint pour le logement familial",
+          "Le délai de congé n'a pas été respecté",
+          "Le bailleur n'a pas indiqué de motif"
+        ],
+        "reponses_correctes": [
+          "Le bailleur n'a pas utilisé la formule officielle",
+          "Le bailleur n'a pas envoyé la résiliation séparément à chacun des conjoints",
+          "Le locataire n'a pas résilié par écrit",
+          "Le locataire n'a pas obtenu le consentement exprès de son conjoint pour le logement familial"
+        ],
+        "explication": "Un délai non respecté reporte les effets au prochain terme (pas de nullité). L'absence de motif ne rend pas le congé nul."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Nullité du congé",
+      "content": {
+        "enonce": "Jusqu'à quand peut-on invoquer la nullité d'un congé ?",
+        "propositions": [
+          "En tout temps, sous réserve de l'abus de droit",
+          "Dans les 30 jours suivant la réception",
+          "Dans les 60 jours avant l'échéance",
+          "Dans l'année qui suit"
+        ],
+        "reponse_correcte": "En tout temps, sous réserve de l'abus de droit",
+        "explication": "Le congé nul est considéré comme n'ayant jamais été donné. À distinguer du congé annulable (abusif), qui doit être contesté dans les 30 jours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "Quel est le but de la prolongation du bail ?",
+        "propositions": [
+          "Remédier aux conséquences pénibles de la fin du bail et laisser au locataire le temps de trouver une solution",
+          "Permettre au bailleur d'augmenter le loyer",
+          "Annuler un congé abusif",
+          "Sanctionner le bailleur"
+        ],
+        "reponse_correcte": "Remédier aux conséquences pénibles de la fin du bail et laisser au locataire le temps de trouver une solution",
+        "explication": "Art. 272 à 272d CO. La prolongation s'applique aux baux d'habitations, de locaux commerciaux et à leurs accessoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "Quelle est la durée maximale totale des prolongations ?",
+        "propositions": [
+          "4 ans pour les habitations, 6 ans pour les locaux commerciaux",
+          "2 ans pour les habitations, 4 ans pour les locaux commerciaux",
+          "6 ans pour les habitations, 4 ans pour les locaux commerciaux",
+          "1 an dans tous les cas"
+        ],
+        "reponse_correcte": "4 ans pour les habitations, 6 ans pour les locaux commerciaux",
+        "explication": "Durée maximale totale : 4 ans (habitations), 6 ans (commerciaux)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "Dans quel délai faut-il saisir l'autorité de conciliation pour contester un congé et en demander l'annulation ?",
+        "propositions": [
+          "30 jours dès la réception du congé",
+          "60 jours avant l'échéance",
+          "10 jours dès la réception",
+          "En tout temps"
+        ],
+        "reponse_correcte": "30 jours dès la réception du congé",
+        "explication": "Délai de 30 jours, calculé selon la théorie de la réception absolue."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "Dans quels délais le locataire doit-il saisir l'autorité de conciliation pour obtenir une prolongation ?",
+        "propositions": [
+          "Bail de durée indéterminée : dans les 30 jours suivant la réception du congé",
+          "Bail de durée déterminée : au plus tard 60 jours avant l'expiration",
+          "Seconde prolongation : au plus tard 60 jours avant l'expiration de la première",
+          "Dans tous les cas : 6 mois avant l'échéance"
+        ],
+        "reponses_correctes": [
+          "Bail de durée indéterminée : dans les 30 jours suivant la réception du congé",
+          "Bail de durée déterminée : au plus tard 60 jours avant l'expiration",
+          "Seconde prolongation : au plus tard 60 jours avant l'expiration de la première"
+        ],
+        "explication": "Après une première prolongation, le locataire peut en demander une seconde, dans la limite des 4 ou 6 ans au total."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "Logement de famille : le conjoint qui n'est pas titulaire du bail peut-il demander seul une prolongation ?",
+        "propositions": [
+          "Oui, mais la convention de prolongation n'est valable que signée par les deux époux",
+          "Non, seul le titulaire du bail peut agir",
+          "Oui, et il peut signer seul la convention de prolongation",
+          "Non, seul le bailleur peut proposer une prolongation"
+        ],
+        "reponse_correcte": "Oui, mais la convention de prolongation n'est valable que signée par les deux époux",
+        "explication": "Chaque conjoint ou partenaire, même non titulaire, peut entamer seul la procédure."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "L'audience de conciliation aboutit à un accord. Quelle est sa valeur ?",
+        "propositions": [
+          "C'est une transaction judiciaire qui vaut jugement",
+          "Un simple accord moral sans valeur",
+          "Une proposition que le tribunal doit encore valider",
+          "Un procès-verbal d'échec"
+        ],
+        "reponse_correcte": "C'est une transaction judiciaire qui vaut jugement",
+        "explication": "En cas d'accord : transaction judiciaire. En cas d'échec : autorisation de procéder ou proposition de jugement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "La conciliation échoue et l'autorisation de procéder est délivrée. Dans quel délai faut-il saisir le tribunal des baux ?",
+        "propositions": [
+          "30 jours",
+          "20 jours",
+          "10 jours",
+          "60 jours"
+        ],
+        "reponse_correcte": "30 jours",
+        "explication": "Le tribunal des baux doit être saisi dans les 30 jours suivant la délivrance de l'autorisation de procéder."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prolongation et procédure",
+      "content": {
+        "enonce": "L'autorité de conciliation rend une proposition de jugement. Dans quel délai une partie peut-elle s'y opposer ?",
+        "propositions": [
+          "20 jours",
+          "30 jours",
+          "10 jours",
+          "60 jours"
+        ],
+        "reponse_correcte": "20 jours",
+        "explication": "Sans opposition dans les 20 jours, la proposition entre en force. En cas d'opposition, la partie qui s'oppose reçoit l'autorisation de procéder et doit saisir le tribunal dans les 30 jours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Résiliation extraordinaire",
+      "content": {
+        "enonce": "Qu'est-ce qu'une résiliation extraordinaire ?",
+        "propositions": [
+          "Un congé donné prématurément, hors de l'échéance contractuelle ou légale, suite à des circonstances particulières",
+          "Un congé donné sans formule officielle",
+          "Un congé donné pour l'échéance normale avec un préavis plus long",
+          "Un congé donné par le juge"
+        ],
+        "reponse_correcte": "Un congé donné prématurément, hors de l'échéance contractuelle ou légale, suite à des circonstances particulières",
+        "explication": "La forme est la même que pour un congé ordinaire : écrit pour le locataire, formule officielle pour le bailleur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Résiliation extraordinaire",
+      "content": {
+        "enonce": "Quels motifs de résiliation extraordinaire sont ouverts au bailleur ?",
+        "propositions": [
+          "Non-paiement du loyer (art. 257d CO)",
+          "Manque de diligence et d'égards envers les voisins (art. 257f CO)",
+          "Faillite du locataire (art. 266h CO)",
+          "Changement de propriétaire (art. 261 CO)",
+          "Justes motifs (art. 266g CO)",
+          "Décès du locataire (art. 266i CO)"
+        ],
+        "reponses_correctes": [
+          "Non-paiement du loyer (art. 257d CO)",
+          "Manque de diligence et d'égards envers les voisins (art. 257f CO)",
+          "Faillite du locataire (art. 266h CO)",
+          "Changement de propriétaire (art. 261 CO)",
+          "Justes motifs (art. 266g CO)"
+        ],
+        "explication": "Le décès du locataire ouvre un droit de résiliation à ses héritiers, pas au bailleur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Résiliation extraordinaire",
+      "content": {
+        "enonce": "Quels motifs de résiliation extraordinaire sont ouverts au locataire (ou à ses héritiers) ?",
+        "propositions": [
+          "Défaut grave de la chose louée (art. 259b let. a CO)",
+          "Décès du locataire (art. 266i CO)",
+          "Justes motifs (art. 266g CO)",
+          "Changement de propriétaire",
+          "Faillite du bailleur"
+        ],
+        "reponses_correctes": [
+          "Défaut grave de la chose louée (art. 259b let. a CO)",
+          "Décès du locataire (art. 266i CO)",
+          "Justes motifs (art. 266g CO)"
+        ],
+        "explication": "Les justes motifs sont ouverts aux deux parties."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Non-paiement du loyer",
+      "content": {
+        "enonce": "Le locataire ne paie plus son loyer. De quels moyens de droit le bailleur dispose-t-il ?",
+        "propositions": [
+          "La poursuite (exécution forcée) et/ou la résiliation anticipée selon l'art. 257d CO",
+          "Uniquement la résiliation ordinaire",
+          "Changer la serrure",
+          "Retenir les meubles du locataire"
+        ],
+        "reponse_correcte": "La poursuite (exécution forcée) et/ou la résiliation anticipée selon l'art. 257d CO",
+        "explication": "Deux moyens distincts : recouvrer les loyers et intérêts par l'office des poursuites, et/ou résilier de manière anticipée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Non-paiement du loyer",
+      "content": {
+        "enonce": "Que doit contenir l'avis comminatoire (mise en demeure) de l'art. 257d CO pour un bail d'habitation ?",
+        "propositions": [
+          "Les mois impayés et le montant en souffrance",
+          "Un délai de paiement d'au moins 30 jours",
+          "La menace de résiliation en cas de non-paiement dans le délai",
+          "La formule officielle de résiliation déjà remplie",
+          "Un délai de paiement de 10 jours"
+        ],
+        "reponses_correctes": [
+          "Les mois impayés et le montant en souffrance",
+          "Un délai de paiement d'au moins 30 jours",
+          "La menace de résiliation en cas de non-paiement dans le délai"
+        ],
+        "explication": "Le délai est de 10 jours au moins en général, mais de 30 jours au moins pour les habitations et locaux commerciaux. Pour le logement de famille, l'avis est envoyé séparément aux deux conjoints (art. 266n CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Non-paiement du loyer",
+      "content": {
+        "enonce": "Le locataire d'un appartement n'a pas payé dans le délai de l'avis comminatoire. Comment le bailleur peut-il résilier ?",
+        "propositions": [
+          "Avec un délai de congé d'au moins 30 jours pour la fin d'un mois, sur formule officielle",
+          "Avec effet immédiat",
+          "Pour la prochaine échéance contractuelle uniquement",
+          "Avec un préavis de 3 mois pour un terme usuel"
+        ],
+        "reponse_correcte": "Avec un délai de congé d'au moins 30 jours pour la fin d'un mois, sur formule officielle",
+        "explication": "Art. 257d al. 2 CO. L'effet immédiat ne vaut que pour les baux autres qu'habitations et locaux commerciaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Non-paiement du loyer",
+      "content": {
+        "enonce": "L'avis comminatoire est réputé reçu le 18 avril ; le délai de 30 jours expire sans paiement. Le bailleur envoie le congé le 19 mai. Pour quelle date au plus tôt ?",
+        "propositions": [
+          "Le 30 juin",
+          "Le 31 mai",
+          "Le 18 juin",
+          "Le 1er juillet à midi"
+        ],
+        "reponse_correcte": "Le 30 juin",
+        "explication": "30 jours au moins pour la fin d'un mois : un congé reçu fin mai ne peut pas valoir pour le 31 mai, donc 30 juin. Une requête d'expulsion peut ensuite être déposée dès le 1er juillet."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Manque de diligence",
+      "content": {
+        "enonce": "Un locataire fait régulièrement du bruit la nuit. Quelle est la première étape avant une résiliation selon l'art. 257f CO ?",
+        "propositions": [
+          "Une protestation écrite du bailleur",
+          "Une résiliation immédiate",
+          "Une plainte pénale",
+          "Une réduction de loyer pour les voisins"
+        ],
+        "reponse_correcte": "Une protestation écrite du bailleur",
+        "explication": "Si, malgré la protestation écrite, le locataire persiste et que le maintien du bail devient insupportable, le bailleur peut résilier avec un préavis de 30 jours pour la fin d'un mois."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Manque de diligence",
+      "content": {
+        "enonce": "Lesquels de ces comportements peuvent justifier une résiliation pour manque de diligence ou d'égards (après protestation écrite) ?",
+        "propositions": [
+          "Nuisances répétées (bruits, odeurs insupportables)",
+          "Maintenir une sous-location refusée à bon droit",
+          "Refuser de manière répétée les visites du bailleur",
+          "Modifier l'affectation des locaux sans autorisation",
+          "Saboter l'ascenseur",
+          "Recevoir des amis un samedi soir à une occasion"
+        ],
+        "reponses_correctes": [
+          "Nuisances répétées (bruits, odeurs insupportables)",
+          "Maintenir une sous-location refusée à bon droit",
+          "Refuser de manière répétée les visites du bailleur",
+          "Modifier l'affectation des locaux sans autorisation",
+          "Saboter l'ascenseur"
+        ],
+        "explication": "Seule une violation grave et persistante, rendant le maintien du bail insupportable, permet la résiliation extraordinaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Manque de diligence",
+      "content": {
+        "enonce": "Dans quel cas le bailleur peut-il résilier un bail d'habitation avec effet immédiat pour violation du devoir de diligence ?",
+        "propositions": [
+          "Si le locataire cause volontairement un préjudice grave à la chose",
+          "Dès la première plainte d'un voisin",
+          "Si le locataire paie son loyer avec 5 jours de retard",
+          "Jamais"
+        ],
+        "reponse_correcte": "Si le locataire cause volontairement un préjudice grave à la chose",
+        "explication": "Art. 257f al. 4 CO. Dans les autres cas, le préavis est de 30 jours pour la fin d'un mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Manque de diligence",
+      "content": {
+        "enonce": "Le fils d'une locataire, qui lui rend visite chaque jour, insulte régulièrement les voisins. Le devoir d'égards s'applique-t-il à lui ?",
+        "propositions": [
+          "Oui, il est un auxiliaire de la locataire, qui en répond",
+          "Non, il n'est pas locataire",
+          "Non, seulement s'il vit dans l'appartement",
+          "Oui, mais le bailleur doit agir contre lui directement"
+        ],
+        "reponse_correcte": "Oui, il est un auxiliaire de la locataire, qui en répond",
+        "explication": "Le devoir de diligence vise le locataire et les personnes vivant avec lui ou auxquelles l'usage est permis."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Faillite du locataire",
+      "content": {
+        "enonce": "Le locataire tombe en faillite. Quelle est la conséquence sur le bail ?",
+        "propositions": [
+          "Le bail continue ; le bailleur peut exiger des sûretés pour les loyers à échoir et résilier immédiatement si elles ne sont pas fournies",
+          "Le bail prend fin automatiquement",
+          "Le bailleur peut résilier immédiatement sans autre",
+          "Le bail est transféré à l'office des faillites définitivement"
+        ],
+        "reponse_correcte": "Le bail continue ; le bailleur peut exiger des sûretés pour les loyers à échoir et résilier immédiatement si elles ne sont pas fournies",
+        "explication": "Art. 266h CO : demande écrite au locataire et à l'administration de la faillite avec un délai convenable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Changement de propriétaire",
+      "content": {
+        "enonce": "L'immeuble est vendu. Qu'advient-il des baux en cours ?",
+        "propositions": [
+          "Ils passent à l'acquéreur : « la vente ne rompt pas le bail »",
+          "Ils prennent fin à la date du transfert de propriété",
+          "Ils doivent être renégociés",
+          "Ils restent liés à l'ancien propriétaire"
+        ],
+        "reponse_correcte": "Ils passent à l'acquéreur : « la vente ne rompt pas le bail »",
+        "explication": "Art. 261 al. 1 CO, y compris en cas de réalisation forcée (poursuite, faillite)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Changement de propriétaire",
+      "content": {
+        "enonce": "À quelles conditions le nouveau propriétaire d'un appartement peut-il résilier le bail de manière anticipée ?",
+        "propositions": [
+          "Il invoque un besoin urgent des locaux pour lui-même ou ses proches parents ou alliés",
+          "Ce besoin est sérieux, concret et actuel",
+          "Il respecte le délai de congé légal pour le prochain terme légal",
+          "Il souhaite relouer plus cher",
+          "Il résilie avec effet immédiat"
+        ],
+        "reponses_correctes": [
+          "Il invoque un besoin urgent des locaux pour lui-même ou ses proches parents ou alliés",
+          "Ce besoin est sérieux, concret et actuel",
+          "Il respecte le délai de congé légal pour le prochain terme légal"
+        ],
+        "explication": "Art. 261 al. 2 let. a CO : délai légal (3 mois habitations, 6 mois commerciaux) pour le prochain terme légal."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Changement de propriétaire",
+      "content": {
+        "enonce": "Le nouveau propriétaire résilie plus tôt que ne le permettait le bail (ex. bail de durée déterminée). Qui répond du dommage du locataire ?",
+        "propositions": [
+          "L'ancien bailleur",
+          "Le nouveau propriétaire",
+          "Personne",
+          "Le notaire"
+        ],
+        "reponse_correcte": "L'ancien bailleur",
+        "explication": "Art. 261 al. 3 CO : le bailleur précédent répond de tous les dommages ainsi causés au locataire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Justes motifs",
+      "content": {
+        "enonce": "Quelles conditions définissent les justes motifs de l'art. 266g CO ?",
+        "propositions": [
+          "Circonstances graves",
+          "Imprévisibles lors de la conclusion du contrat",
+          "Non imputables à la partie qui s'en prévaut",
+          "Rendant la poursuite du bail intolérable",
+          "Survenues dans les 6 premiers mois du bail"
+        ],
+        "reponses_correctes": [
+          "Circonstances graves",
+          "Imprévisibles lors de la conclusion du contrat",
+          "Non imputables à la partie qui s'en prévaut",
+          "Rendant la poursuite du bail intolérable"
+        ],
+        "explication": "La partie peut alors résilier à n'importe quel moment en observant le délai légal ; le juge statue sur les conséquences pécuniaires. Ce motif est subsidiaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Justes motifs",
+      "content": {
+        "enonce": "Lesquelles de ces situations peuvent constituer de justes motifs pour le locataire ?",
+        "propositions": [
+          "Décès d'un colocataire",
+          "Il ne peut plus gravir les escaliers menant à son logement",
+          "Son état de santé impose un placement en EMS",
+          "Une mutation professionnelle dans une autre ville",
+          "Des difficultés financières passagères"
+        ],
+        "reponses_correctes": [
+          "Décès d'un colocataire",
+          "Il ne peut plus gravir les escaliers menant à son logement",
+          "Son état de santé impose un placement en EMS"
+        ],
+        "explication": "Selon la jurisprudence, une mutation professionnelle ou des difficultés financières passagères ne sont en principe pas de justes motifs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Justes motifs",
+      "content": {
+        "enonce": "Le propriétaire, qui vit au 3e étage, devient handicapé et a besoin de l'appartement du rez-de-chaussée. Sur quelle base peut-il résilier ?",
+        "propositions": [
+          "Les justes motifs (art. 266g CO), en observant le délai légal",
+          "Le manque d'égards (art. 257f CO)",
+          "Le changement de propriétaire (art. 261 CO)",
+          "Il ne peut pas résilier avant l'échéance"
+        ],
+        "reponse_correcte": "Les justes motifs (art. 266g CO), en observant le délai légal",
+        "explication": "Circonstance grave, imprévisible et non imputable au bailleur, rendant la poursuite du bail intolérable pour lui."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Défaut grave et décès",
+      "content": {
+        "enonce": "À quelles conditions le locataire peut-il résilier avec effet immédiat pour défaut grave (art. 259b let. a CO) ?",
+        "propositions": [
+          "Le défaut exclut ou entrave considérablement l'usage de l'immeuble",
+          "Le bailleur a connaissance du défaut",
+          "Le bailleur n'y a pas remédié dans un délai convenable",
+          "Le locataire a consigné le loyer pendant 6 mois",
+          "Le défaut est de moyenne importance"
+        ],
+        "reponses_correctes": [
+          "Le défaut exclut ou entrave considérablement l'usage de l'immeuble",
+          "Le bailleur a connaissance du défaut",
+          "Le bailleur n'y a pas remédié dans un délai convenable"
+        ],
+        "explication": "Exemples : inondation rendant l'appartement inhabitable, toiture menaçant de s'écrouler."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défaut grave et décès",
+      "content": {
+        "enonce": "Le locataire décède. Que se passe-t-il pour le bail ?",
+        "propositions": [
+          "Le bail passe aux héritiers, qui peuvent le résilier pour le prochain terme légal avec le délai légal",
+          "Le bail prend fin automatiquement au décès",
+          "Le bailleur peut résilier avec effet immédiat",
+          "Les héritiers doivent payer le loyer jusqu'à l'échéance contractuelle sans possibilité de résilier"
+        ],
+        "reponse_correcte": "Le bail passe aux héritiers, qui peuvent le résilier pour le prochain terme légal avec le délai légal",
+        "explication": "Succession universelle (art. 560 CC) et droit de résiliation anticipée des héritiers (art. 266i CO)."
+      }
+    }
+  ]
+}
