@@ -1,0 +1,1102 @@
+{
+  "title": "Introduction à l'état des lieux",
+  "description": "Immobase — Introduction à l'état des lieux : délivrance de l'objet loué (CO 256, art. 3 CCR), état des lieux d'entrée (convocation, remise des clés, défauts annoncés), restitution (CO 267 et 267a, art. 10 CCR), pré-constat, état des lieux de sortie, avis des défauts, convention de sortie, usure normale et tabelle d'amortissement, décompte et libération de la garantie.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions et bases légales",
+      "content": {
+        "enonce": "Que signifie l'abréviation CCR ?",
+        "propositions": [
+          "Contrat-cadre romand",
+          "Code civil romand",
+          "Convention cantonale de résiliation",
+          "Contrat de conciergerie réglementé"
+        ],
+        "reponse_correcte": "Contrat-cadre romand",
+        "explication": "Le Contrat-cadre romand (CCR) est conclu entre l'ASLOCA-Fédération romande (locataires) et la FRI et l'USPI (bailleurs). Il fonde notamment l'obligation de faire un état des lieux d'entrée et de sortie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions et bases légales",
+      "content": {
+        "enonce": "Quelles associations sont parties au Contrat-cadre romand (CCR) ?",
+        "propositions": [
+          "ASLOCA-Fédération romande",
+          "Fédération romande immobilière (FRI)",
+          "Union suisse des professionnels de l'immobilier (USPI)",
+          "Société suisse des ingénieurs et des architectes (SIA)",
+          "Office fédéral du logement (OFL)"
+        ],
+        "reponses_correctes": [
+          "ASLOCA-Fédération romande",
+          "Fédération romande immobilière (FRI)",
+          "Union suisse des professionnels de l'immobilier (USPI)"
+        ],
+        "explication": "Côté locataires : l'ASLOCA-Fédération romande. Côté bailleurs : la FRI et l'USPI. La SIA et l'OFL n'y sont pas parties."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions et bases légales",
+      "content": {
+        "enonce": "Sur quel territoire le Contrat-cadre romand s'applique-t-il ?",
+        "propositions": [
+          "Fribourg",
+          "Vaud",
+          "Neuchâtel",
+          "Genève",
+          "Jura",
+          "Les sept districts du Bas-Valais",
+          "Le Jura bernois"
+        ],
+        "reponses_correctes": [
+          "Fribourg",
+          "Vaud",
+          "Neuchâtel",
+          "Genève",
+          "Jura",
+          "Les sept districts du Bas-Valais"
+        ],
+        "explication": "Le CCR s'applique aux cantons de Fribourg, Vaud, Neuchâtel, Genève et Jura, ainsi qu'aux sept districts du Bas-Valais."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions et bases légales",
+      "content": {
+        "enonce": "Quels baux d'habitation sont exclus du champ d'application du Contrat-cadre romand ?",
+        "propositions": [
+          "Les villas de six pièces et plus (cuisine non comprise)",
+          "Les appartements de luxe de six pièces et plus (cuisine non comprise)",
+          "Les appartements de trois pièces",
+          "Les studios meublés",
+          "Les appartements dans un immeuble neuf"
+        ],
+        "reponses_correctes": [
+          "Les villas de six pièces et plus (cuisine non comprise)",
+          "Les appartements de luxe de six pièces et plus (cuisine non comprise)"
+        ],
+        "explication": "Le CCR s'applique aux baux d'habitation, à l'exception des villas de six pièces et plus et des appartements de luxe de six pièces et plus (cuisine non comprise)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions et bases légales",
+      "content": {
+        "enonce": "Dans un formulaire d'état des lieux, que signifient les abréviations EO, UN et UA ?",
+        "propositions": [
+          "En ordre, usure normale, usure anormale",
+          "État d'origine, usage normal, usage abusif",
+          "Entretien obligatoire, utilisation normale, utilisation accrue",
+          "En observation, urgence normale, urgence absolue"
+        ],
+        "reponse_correcte": "En ordre, usure normale, usure anormale",
+        "explication": "EO = en ordre, UN = usure normale, UA = usure anormale. UN et UA doivent être complétées par des précisions. On parle aussi d'ELE (entrée), d'ELS (sortie) et de PC/ELP (pré-constat, état des lieux préliminaire)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Selon l'art. 256 CO, quelles sont les obligations du bailleur concernant la délivrance de la chose ?",
+        "propositions": [
+          "La délivrer à la date convenue",
+          "La délivrer dans un état approprié à l'usage pour lequel elle a été louée",
+          "L'entretenir dans cet état",
+          "La délivrer entièrement rénovée",
+          "La délivrer meublée"
+        ],
+        "reponses_correctes": [
+          "La délivrer à la date convenue",
+          "La délivrer dans un état approprié à l'usage pour lequel elle a été louée",
+          "L'entretenir dans cet état"
+        ],
+        "explication": "Art. 256 al. 1 CO : le bailleur est tenu de délivrer la chose à la date convenue, dans un état approprié à l'usage pour lequel elle a été louée, et de l'entretenir dans cet état."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Une clause d'un bail d'habitation prévoit que le locataire reprend l'appartement « dans un état non approprié ». Que vaut cette clause ?",
+        "propositions": [
+          "Elle est nulle : l'art. 256 CO est impératif pour les baux d'habitations et de locaux commerciaux",
+          "Elle est valable si le locataire l'a signée",
+          "Elle est valable uniquement si le loyer est réduit",
+          "Elle est valable pour les cinq premières années du bail"
+        ],
+        "reponse_correcte": "Elle est nulle : l'art. 256 CO est impératif pour les baux d'habitations et de locaux commerciaux",
+        "explication": "Les dérogations au détriment du locataire sont nulles si elles figurent dans des conditions générales préimprimées ou dans des baux d'habitations ou de locaux commerciaux (art. 256 al. 2 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "En Suisse romande, l'état des lieux d'entrée pour un bail d'habitation est-il obligatoire ?",
+        "propositions": [
+          "Oui, selon l'art. 3 du Contrat-cadre romand",
+          "Non, il est simplement d'usage",
+          "Oui, mais seulement dans le canton de Vaud",
+          "Oui, mais seulement si l'immeuble a plus de 10 ans"
+        ],
+        "reponse_correcte": "Oui, selon l'art. 3 du Contrat-cadre romand",
+        "explication": "Le CO ne parle pas explicitement d'état des lieux, mais en Suisse romande l'état des lieux d'entrée est obligatoire pour les baux d'habitations (art. 3 al. 2 et 3 CCR)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Que prévoit l'art. 3 du Contrat-cadre romand au sujet de l'état des lieux d'entrée ?",
+        "propositions": [
+          "Il comprend l'inventaire et l'état des accessoires",
+          "Il est dressé en deux exemplaires, en présence des deux parties qui le signent sur place",
+          "Il fait partie intégrante du bail",
+          "À la demande du locataire, le bailleur lui remet une copie de l'état des lieux de sortie du précédent locataire",
+          "Le bailleur doit informer le locataire des défauts dont il a connaissance",
+          "Il peut être établi par le bailleur seul et envoyé ensuite au locataire"
+        ],
+        "reponses_correctes": [
+          "Il comprend l'inventaire et l'état des accessoires",
+          "Il est dressé en deux exemplaires, en présence des deux parties qui le signent sur place",
+          "Il fait partie intégrante du bail",
+          "À la demande du locataire, le bailleur lui remet une copie de l'état des lieux de sortie du précédent locataire",
+          "Le bailleur doit informer le locataire des défauts dont il a connaissance"
+        ],
+        "explication": "L'art. 3 CCR exige un état des lieux contradictoire : deux exemplaires, signés sur place par les deux parties, un exemplaire remis immédiatement à chacune. Il n'est pas établi par le bailleur seul."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Qui doit prouver qu'aucun défaut n'existait lors de la prise de possession des lieux par le locataire ?",
+        "propositions": [
+          "Le bailleur",
+          "Le locataire",
+          "Le concierge",
+          "La commission de conciliation"
+        ],
+        "reponse_correcte": "Le bailleur",
+        "explication": "Il appartient au bailleur de prouver qu'aucun défaut n'existait à la prise de possession (et, par analogie, la nature des équipements faisant partie des locaux). D'où l'importance d'un état des lieux d'entrée précis."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Quelle date fait courir le délai de 30 jours pour contester le loyer initial (art. 270 CO) ?",
+        "propositions": [
+          "La date effective de réception de la chose louée",
+          "La date de signature du bail",
+          "La date d'envoi de la formule officielle",
+          "Le premier jour du mois suivant l'entrée"
+        ],
+        "reponse_correcte": "La date effective de réception de la chose louée",
+        "explication": "C'est la réception effective de la chose louée, attestée par l'état des lieux d'entrée, qui fait courir le délai de 30 jours. C'est le premier élément à contrôler en cas de contestation du loyer initial."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "Le délai de 30 jours pour contester le loyer initial est :",
+        "propositions": [
+          "Péremptoire : passé ce délai, le locataire est déchu de ses droits",
+          "Un délai d'ordre qui peut être prolongé",
+          "Un délai indicatif sans conséquence",
+          "Suspendu pendant les vacances judiciaires"
+        ],
+        "reponse_correcte": "Péremptoire : passé ce délai, le locataire est déchu de ses droits",
+        "explication": "Comme tous les délais en droit du bail, ce délai est péremptoire. Au-delà, le locataire est déchu de ses droits et toute contestation est irrecevable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délivrance de l'objet loué",
+      "content": {
+        "enonce": "L'immeuble est neuf. Faut-il quand même faire un état des lieux d'entrée ?",
+        "propositions": [
+          "Oui, dans tous les cas ; il permet aussi de corroborer l'avis de réception selon les normes SIA",
+          "Non, un immeuble neuf est présumé sans défaut",
+          "Non, la réception SIA de l'ouvrage remplace l'état des lieux",
+          "Seulement si le locataire le demande"
+        ],
+        "reponse_correcte": "Oui, dans tous les cas ; il permet aussi de corroborer l'avis de réception selon les normes SIA",
+        "explication": "L'état des lieux d'entrée doit être effectué dans tous les cas, même dans un immeuble neuf. Il sert alors aussi à corroborer l'avis de réception selon les normes SIA."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Quand faut-il idéalement envoyer la convocation à l'état des lieux d'entrée ?",
+        "propositions": [
+          "10 à 15 jours avant",
+          "La veille",
+          "2 mois avant",
+          "Le jour même, par téléphone"
+        ],
+        "reponse_correcte": "10 à 15 jours avant",
+        "explication": "Idéalement 10 à 15 jours avant l'ELE : on envoie une lettre de convocation et on avertit le concierge."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Quelles obligations le locataire doit-il remplir pour obtenir la remise des clés ?",
+        "propositions": [
+          "Payer le premier loyer",
+          "Constituer la garantie de loyer (paiement et attestation en bonne et due forme)",
+          "Fournir une attestation d'assurance RC",
+          "Payer les frais de dossier",
+          "Fournir un extrait de casier judiciaire",
+          "Payer six mois de loyer d'avance"
+        ],
+        "reponses_correctes": [
+          "Payer le premier loyer",
+          "Constituer la garantie de loyer (paiement et attestation en bonne et due forme)",
+          "Fournir une attestation d'assurance RC",
+          "Payer les frais de dossier"
+        ],
+        "explication": "Avant la remise des clés, on contrôle : 1er loyer, garantie de loyer, attestation RC (art. 6 CCR) et frais de dossier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le locataire refuse de payer les frais de dossier. Que peut faire le gérant ?",
+        "propositions": [
+          "Rien de contraignant : aucune base légale ne permet de les lui imposer",
+          "Refuser définitivement la remise des clés",
+          "Les déduire de la garantie de loyer",
+          "Résilier le bail avec effet immédiat"
+        ],
+        "reponse_correcte": "Rien de contraignant : aucune base légale ne permet de les lui imposer",
+        "explication": "Si le locataire refuse de payer des frais de dossier, il n'y a pas de base légale pour les lui imposer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Selon l'art. 6 CCR, qui doit conclure une assurance responsabilité civile en lien avec le bail ?",
+        "propositions": [
+          "Le bailleur et le locataire",
+          "Le locataire uniquement",
+          "Le bailleur uniquement",
+          "Personne, c'est facultatif"
+        ],
+        "reponse_correcte": "Le bailleur et le locataire",
+        "explication": "Art. 6 CCR : le bailleur et le locataire sont tenus de contracter une assurance couvrant la responsabilité civile qu'ils assument du fait du bail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le locataire peut-il se faire représenter à l'état des lieux d'entrée ?",
+        "propositions": [
+          "Oui, par un tiers (sauf le concierge), avec une procuration écrite indispensable",
+          "Oui, par n'importe qui, y compris le concierge, sans procuration",
+          "Non, sa présence personnelle est obligatoire",
+          "Oui, mais seulement par un avocat"
+        ],
+        "reponse_correcte": "Oui, par un tiers (sauf le concierge), avec une procuration écrite indispensable",
+        "explication": "Le locataire et les colocataires peuvent déléguer à un tiers, sauf au concierge. Une simple procuration écrite suffit, mais elle est indispensable."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Comment se déroule correctement un état des lieux d'entrée ?",
+        "propositions": [
+          "Se présenter et expliquer le déroulement",
+          "Contrôler le paiement du 1er loyer et des frais, la RC et la garantie",
+          "Vérifier l'appartement point par point ainsi que les annexes (cave, galetas, place de parc)",
+          "Commenter le formulaire pour que chaque point soit compris et donner les coordonnées du concierge",
+          "Encaisser le premier loyer en espèces si nécessaire",
+          "Laisser le locataire remplir seul le formulaire"
+        ],
+        "reponses_correctes": [
+          "Se présenter et expliquer le déroulement",
+          "Contrôler le paiement du 1er loyer et des frais, la RC et la garantie",
+          "Vérifier l'appartement point par point ainsi que les annexes (cave, galetas, place de parc)",
+          "Commenter le formulaire pour que chaque point soit compris et donner les coordonnées du concierge"
+        ],
+        "explication": "Le gérant n'accepte pas d'argent comptant et conduit lui-même la visite point par point, annexes comprises, puis commente le formulaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le locataire a payé le premier loyer mais la garantie n'est pas constituée : il attend la libération de la garantie de son ancien bailleur. Que faire ?",
+        "propositions": [
+          "Ne pas remettre les clés : la garantie est un élément essentiel et une condition de la remise des clés",
+          "Remettre les clés, la garantie pourra suivre",
+          "Remettre les clés et majorer le loyer",
+          "Annuler le bail immédiatement"
+        ],
+        "reponse_correcte": "Ne pas remettre les clés : la garantie est un élément essentiel et une condition de la remise des clés",
+        "explication": "Le locataire a été informé que la garantie est une condition de la remise des clés. On peut faire l'ELE et le faire signer, mais les clés ne sont remises qu'une fois la garantie constituée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le locataire n'a payé ni le loyer ni la garantie. Quelles affirmations sont correctes ?",
+        "propositions": [
+          "Aucune remise de clés",
+          "Le gérant n'accepte pas d'argent comptant",
+          "Les clés peuvent être déposées chez le concierge en attendant la régularisation",
+          "Si rien n'est régularisé dans les 3 jours après la prise d'effet du bail, le dossier passe au contentieux",
+          "Le gérant remet les clés et envoie un rappel"
+        ],
+        "reponses_correctes": [
+          "Aucune remise de clés",
+          "Le gérant n'accepte pas d'argent comptant",
+          "Les clés peuvent être déposées chez le concierge en attendant la régularisation",
+          "Si rien n'est régularisé dans les 3 jours après la prise d'effet du bail, le dossier passe au contentieux"
+        ],
+        "explication": "Sans loyer ni garantie, pas de clés. Faute de régularisation dans les 3 jours après la prise d'effet du bail, on traite le dossier sous l'angle du contentieux (résiliation et recouvrement)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le locataire a payé le loyer et la garantie, mais n'a pas encore conclu d'assurance RC. Quelle attitude adopter ?",
+        "propositions": [
+          "Faire preuve de souplesse et remettre les clés s'il s'engage à en conclure une au plus vite",
+          "Refuser catégoriquement la remise des clés",
+          "Conclure une assurance RC à sa place et la lui facturer",
+          "Exiger une garantie de loyer supplémentaire"
+        ],
+        "reponse_correcte": "Faire preuve de souplesse et remettre les clés s'il s'engage à en conclure une au plus vite",
+        "explication": "Normalement, pas de remise des clés sans RC (art. 6 CCR), mais il y a lieu de faire preuve de souplesse si le locataire s'engage à en conclure une rapidement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Le jour de l'ELE, le locataire n'a pas retourné le bail signé. Que recommande le cours ?",
+        "propositions": [
+          "Faire l'ELE, le faire signer, et remettre les clés à la régie une fois le contrat signé rapporté",
+          "Annuler l'ELE et fixer un nouveau rendez-vous",
+          "Remettre les clés, le bail suivra",
+          "Considérer que le bail n'existe pas et relouer"
+        ],
+        "reponse_correcte": "Faire l'ELE, le faire signer, et remettre les clés à la régie une fois le contrat signé rapporté",
+        "explication": "Si vous avez un exemplaire du bail, faites-le signer sur place. Sinon, réalisez l'ELE, faites-le signer et demandez au locataire de repasser à la régie avec le contrat signé pour récupérer les clés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Lors de l'ELE, vous constatez que la cave attribuée n'est pas vide. Quelle est la première démarche ?",
+        "propositions": [
+          "Vérifier qu'il n'y a pas d'erreur d'attribution et contrôler l'ELS du précédent locataire",
+          "Jeter immédiatement le contenu",
+          "Accorder une baisse de loyer au nouveau locataire",
+          "Laisser le nouveau locataire disposer des objets"
+        ],
+        "reponse_correcte": "Vérifier qu'il n'y a pas d'erreur d'attribution et contrôler l'ELS du précédent locataire",
+        "explication": "On vérifie le numéro de cave et l'ELS du précédent locataire, on analyse le contenu (déchets ou objets de valeur) et on contacte l'ancien locataire. Les caves sont souvent mises à disposition à bien plaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux d'entrée",
+      "content": {
+        "enonce": "Lors de l'ELE, vous constatez que les nettoyages n'ont pas été faits. Quelle leçon en tirer pour la suite ?",
+        "propositions": [
+          "Mieux préparer l'ELE : travaux et nettoyages doivent être contrôlés au préalable",
+          "Le nettoyage d'entrée est à la charge du locataire entrant",
+          "Le locataire entrant doit accepter les lieux en l'état",
+          "Il faut reporter l'entrée de six mois"
+        ],
+        "reponse_correcte": "Mieux préparer l'ELE : travaux et nettoyages doivent être contrôlés au préalable",
+        "explication": "Les nettoyages ne sont jamais à la charge du locataire entrant. On peut lui proposer de les faire contre indemnisation ou les faire terminer avant son emménagement, mais surtout contrôler l'objet en amont."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défauts annoncés après l'entrée",
+      "content": {
+        "enonce": "Quelques jours après l'ELE, le locataire signale une rayure sur le plan de travail et des tampons dans un mur. Comment réagir ?",
+        "propositions": [
+          "Accuser réception et les noter sur l'état des lieux, sans intervention",
+          "Commander immédiatement le remplacement du plan de travail",
+          "Se rendre sur place en urgence",
+          "Accorder une réduction de loyer"
+        ],
+        "reponse_correcte": "Accuser réception et les noter sur l'état des lieux, sans intervention",
+        "explication": "Ce sont des menus défauts : le gérant accuse réception en précisant qu'il les notifie sur l'état des lieux, mais qu'ils ne justifient pas une intervention."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défauts annoncés après l'entrée",
+      "content": {
+        "enonce": "Le locataire signale que le four ne chauffe pas et que la ventilation est en panne. De quel type de défaut s'agit-il ?",
+        "propositions": [
+          "Défaut mineur : accuser réception et faire réparer (concierge ou commande directe)",
+          "Menu défaut : simple mention sur l'état des lieux",
+          "Défaut important : intervention sur place en urgence",
+          "Défaut à la charge du locataire"
+        ],
+        "reponse_correcte": "Défaut mineur : accuser réception et faire réparer (concierge ou commande directe)",
+        "explication": "Pour un défaut mineur, le gérant accuse réception et fait quittancer le défaut par le concierge ou commande directement la réparation, éventuellement avec copie de la commande au locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défauts annoncés après l'entrée",
+      "content": {
+        "enonce": "Le locataire signale qu'il pleut dans l'appartement. Que doit faire le gérant ?",
+        "propositions": [
+          "Se rendre sur place, constater le préjudice et prendre immédiatement les mesures pour l'endiguer",
+          "Accuser réception et noter le défaut sur l'état des lieux",
+          "Demander au locataire de réparer et d'envoyer la facture",
+          "Attendre le prochain état des lieux"
+        ],
+        "reponse_correcte": "Se rendre sur place, constater le préjudice et prendre immédiatement les mesures pour l'endiguer",
+        "explication": "C'est un défaut important. Le bailleur doit rétablir l'état approprié (art. 256 al. 1 CO), que le défaut n'ait pas pu être vu à l'ELE ou qu'il soit survenu depuis."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défauts annoncés après l'entrée",
+      "content": {
+        "enonce": "Le bailleur fixe au locataire un délai de 10 jours pour signaler les défauts découverts après l'ELE. Quelle est la nature de ce délai ?",
+        "propositions": [
+          "Un délai d'ordre, non péremptoire",
+          "Un délai péremptoire : passé 10 jours, le locataire perd tout droit",
+          "Un délai légal fixé par l'art. 256 CO",
+          "Un délai de prescription"
+        ],
+        "reponse_correcte": "Un délai d'ordre, non péremptoire",
+        "explication": "Ce délai est un délai d'ordre. L'immédiateté de l'annonce s'apprécie selon les circonstances, les règles de l'abus de droit étant applicables."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Restitution de l'objet loué",
+      "content": {
+        "enonce": "Quels principes découlent des art. 267 et 267a CO sur la restitution de la chose ?",
+        "propositions": [
+          "Le locataire doit restituer la chose dans l'état qui résulte d'un usage conforme au contrat",
+          "Aucune indemnité forfaitaire ne peut être convenue à l'avance à la charge du locataire",
+          "Le bailleur doit vérifier l'état de la chose",
+          "Le bailleur doit aviser immédiatement le locataire des défauts dont il le tient responsable",
+          "Le bailleur qui néglige de le faire est censé avoir renoncé à ses prétentions",
+          "Le locataire doit restituer la chose à l'état neuf"
+        ],
+        "reponses_correctes": [
+          "Le locataire doit restituer la chose dans l'état qui résulte d'un usage conforme au contrat",
+          "Aucune indemnité forfaitaire ne peut être convenue à l'avance à la charge du locataire",
+          "Le bailleur doit vérifier l'état de la chose",
+          "Le bailleur doit aviser immédiatement le locataire des défauts dont il le tient responsable",
+          "Le bailleur qui néglige de le faire est censé avoir renoncé à ses prétentions"
+        ],
+        "explication": "Le locataire ne restitue pas la chose à l'état neuf mais dans l'état résultant d'un usage conforme. Toute convention conclue avant la fin du bail prévoyant une indemnité couvrant autre chose qu'un dommage éventuel est nulle (art. 267 al. 2 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution de l'objet loué",
+      "content": {
+        "enonce": "Le bail prévoit qu'à la sortie, le locataire paiera un forfait de Fr. 500.- pour « remise en état ». Cette clause est-elle valable ?",
+        "propositions": [
+          "Non, elle est nulle (art. 267 al. 2 CO)",
+          "Oui, si elle a été signée",
+          "Oui, si le montant est raisonnable",
+          "Oui, pour les baux de plus de 5 ans"
+        ],
+        "reponse_correcte": "Non, elle est nulle (art. 267 al. 2 CO)",
+        "explication": "Est nulle toute convention conclue avant la fin du bail et prévoyant que le locataire versera une indemnité destinée à couvrir autre chose qu'un dommage éventuel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution de l'objet loué",
+      "content": {
+        "enonce": "Quel article du Contrat-cadre romand rend l'état des lieux de sortie obligatoire pour les baux d'habitation ?",
+        "propositions": [
+          "Art. 10 al. 3 CCR",
+          "Art. 3 CCR",
+          "Art. 6 CCR",
+          "Art. 267a CO"
+        ],
+        "reponse_correcte": "Art. 10 al. 3 CCR",
+        "explication": "L'ELE est fondé sur l'art. 3 CCR, l'ELS sur l'art. 10 al. 3 CCR. L'art. 6 CCR concerne l'assurance RC."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Restitution de l'objet loué",
+      "content": {
+        "enonce": "Quels événements déclenchent un état des lieux de sortie ?",
+        "propositions": [
+          "Une résiliation du locataire (légale ou anticipée)",
+          "Une résiliation du bailleur (ordinaire ou extraordinaire)",
+          "L'arrivée du terme d'un bail de durée déterminée",
+          "Une hausse de loyer",
+          "Le changement de concierge"
+        ],
+        "reponses_correctes": [
+          "Une résiliation du locataire (légale ou anticipée)",
+          "Une résiliation du bailleur (ordinaire ou extraordinaire)",
+          "L'arrivée du terme d'un bail de durée déterminée"
+        ],
+        "explication": "Les éléments déclencheurs de l'ELS sont la résiliation par le locataire, la résiliation par le bailleur et l'échéance d'un bail de durée déterminée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Pré-constat",
+      "content": {
+        "enonce": "À quoi sert le pré-constat (état des lieux préliminaire) ?",
+        "propositions": [
+          "Préparer l'état des lieux de sortie",
+          "Estimer les travaux et leur durée (demandes de devis)",
+          "Fixer les conditions de relocation (travaux, loyer)",
+          "Informer le locataire des défauts qui lui sont imputables et l'inviter à aviser son assurance",
+          "Remplacer l'état des lieux de sortie"
+        ],
+        "reponses_correctes": [
+          "Préparer l'état des lieux de sortie",
+          "Estimer les travaux et leur durée (demandes de devis)",
+          "Fixer les conditions de relocation (travaux, loyer)",
+          "Informer le locataire des défauts qui lui sont imputables et l'inviter à aviser son assurance"
+        ],
+        "explication": "Le pré-constat est fait dès la résiliation notifiée et acceptée. Il est nécessaire mais pas obligatoire (selon le mandat de gérance) et ne remplace pas l'ELS."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Pré-constat",
+      "content": {
+        "enonce": "Quel préavis le bailleur doit-il donner au locataire pour la visite de pré-constat (art. 257h CO et art. 5 CCR) ?",
+        "propositions": [
+          "5 jours en cas de résiliation ordinaire, 24 heures en cas de résiliation anticipée",
+          "24 heures dans tous les cas",
+          "10 jours dans tous les cas",
+          "Aucun préavis, le bailleur est propriétaire"
+        ],
+        "reponse_correcte": "5 jours en cas de résiliation ordinaire, 24 heures en cas de résiliation anticipée",
+        "explication": "Le locataire doit laisser le bailleur inspecter la chose. Le préavis est de 5 jours (résiliation ordinaire), ramené à 24 heures (résiliation anticipée), tous les jours sauf dimanches et jours fériés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Quand faut-il idéalement envoyer la convocation à l'état des lieux de sortie, et avec quoi ?",
+        "propositions": [
+          "10 jours avant, avec un aide-mémoire pour la remise des lieux",
+          "La veille, par SMS",
+          "3 mois avant, avec la facture des réparations",
+          "Le jour de la fin du bail, sans annexe"
+        ],
+        "reponse_correcte": "10 jours avant, avec un aide-mémoire pour la remise des lieux",
+        "explication": "L'aide-mémoire permet au locataire de bien se préparer. On informe aussi le concierge (éventuellement le propriétaire) de la sortie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Qu'est-ce que le locataire doit avoir fait avant l'état des lieux de sortie ?",
+        "propositions": [
+          "Enlever la totalité du mobilier et des objets n'appartenant pas au bailleur",
+          "Nettoyer les locaux",
+          "Effectuer les menus travaux d'entretien",
+          "Faire couper le gaz, l'électricité et le téléréseau auprès des administrations",
+          "Repeindre entièrement l'appartement",
+          "Remplacer tous les appareils ménagers"
+        ],
+        "reponses_correctes": [
+          "Enlever la totalité du mobilier et des objets n'appartenant pas au bailleur",
+          "Nettoyer les locaux",
+          "Effectuer les menus travaux d'entretien",
+          "Faire couper le gaz, l'électricité et le téléréseau auprès des administrations"
+        ],
+        "explication": "Le locataire doit avoir déménagé, nettoyé, fait les menus travaux d'entretien (art. 259 CO) et résilié les abonnements. Il n'a pas à rénover ce qui relève de l'usure normale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Un représentant de l'assurance RC ou de l'ASLOCA accompagne le locataire à l'état des lieux de sortie. Quel est son rôle ?",
+        "propositions": [
+          "Il peut conseiller le locataire mais n'a aucun pouvoir à l'égard du gérant",
+          "Il décide seul des dégâts à la charge du locataire",
+          "Il remplace le gérant",
+          "Sa présence est interdite"
+        ],
+        "reponse_correcte": "Il peut conseiller le locataire mais n'a aucun pouvoir à l'égard du gérant",
+        "explication": "Le représentant RC (en cas de dégâts importants) ou de l'ASLOCA peut conseiller le locataire, mais n'a aucun pouvoir à l'égard du gérant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Après avoir signé le procès-verbal d'état des lieux de sortie, le bailleur peut-il réclamer des dégâts qui n'y figurent pas ?",
+        "propositions": [
+          "Non, sauf défaut caché : il est lié par le procès-verbal",
+          "Oui, pendant 10 ans",
+          "Oui, jusqu'à la libération de la garantie",
+          "Oui, s'il les découvre lors de la relocation"
+        ],
+        "reponse_correcte": "Non, sauf défaut caché : il est lié par le procès-verbal",
+        "explication": "Sauf défaut caché, le bailleur est lié par le procès-verbal qu'il a établi et signé et ne peut exiger que la réparation des dégâts qui y sont mentionnés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "À quoi le bailleur compare-t-il l'état des lieux de sortie pour déterminer les dégâts à charge du locataire ?",
+        "propositions": [
+          "À l'état des lieux d'entrée, complété des travaux exécutés en cours de bail",
+          "Au dernier rapport du concierge",
+          "Aux photos de l'annonce de location",
+          "À l'état d'un appartement neuf"
+        ],
+        "reponse_correcte": "À l'état des lieux d'entrée, complété des travaux exécutés en cours de bail",
+        "explication": "L'ELE est une « photographie » de l'objet loué. Il est complété par les factures des interventions et travaux en cours de bail, qui modifient la situation de départ."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Bien que convoqué, le locataire ne vient pas à l'état des lieux de sortie ; les clés sont dans la boîte aux lettres. Que fait le gérant ?",
+        "propositions": [
+          "S'il peut accéder à l'objet, il procède systématiquement à l'état des lieux",
+          "Il reporte l'état des lieux jusqu'à ce que le locataire soit présent",
+          "Il considère que l'appartement est en parfait état",
+          "Il garde toute la garantie de loyer"
+        ],
+        "reponse_correcte": "S'il peut accéder à l'objet, il procède systématiquement à l'état des lieux",
+        "explication": "Pour autant que le gérant puisse accéder à l'objet, il fait l'état des lieux. En cas de mauvais état, le constat doit être notifié au locataire absent."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Le locataire refuse de signer l'état des lieux de sortie. Que peut lui indiquer le gérant ?",
+        "propositions": [
+          "Qu'à défaut d'accord, le constat sera fait par l'autorité locale compétente, aux frais du locataire",
+          "Que son refus annule l'état des lieux",
+          "Que le bailleur renonce alors à toute prétention",
+          "Que la garantie sera automatiquement versée au bailleur"
+        ],
+        "reponse_correcte": "Qu'à défaut d'accord, le constat sera fait par l'autorité locale compétente, aux frais du locataire",
+        "explication": "Refuser de signer est une erreur : les faits sont consignés par le gérant, sans reconnaissance de responsabilité. Le gérant peut faire établir le constat par l'autorité locale, aux frais du locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "État des lieux de sortie",
+      "content": {
+        "enonce": "Au pré-constat, l'appartement est en très mauvais état (pas nettoyé, dégâts importants, mobilier restant). Que doit prévoir le gérant pour l'état des lieux de sortie ?",
+        "propositions": [
+          "Mandater l'autorité locale compétente (juge de commune, avocat) pour un constat de preuve à futur le jour de l'ELS",
+          "Annuler l'état des lieux",
+          "Demander au concierge de faire l'état des lieux seul",
+          "Vider l'appartement avant l'état des lieux"
+        ],
+        "reponse_correcte": "Mandater l'autorité locale compétente (juge de commune, avocat) pour un constat de preuve à futur le jour de l'ELS",
+        "explication": "Si la situation est connue au pré-constat, on mandate l'autorité locale. À défaut, le gérant organise un « constat d'urgence », dont l'avance de frais est à la charge du bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Avis des défauts",
+      "content": {
+        "enonce": "Dans quel délai le bailleur doit-il envoyer l'avis des défauts après l'état des lieux de sortie ?",
+        "propositions": [
+          "« Immédiatement », soit dans les 2 ou 3 jours ouvrables",
+          "Dans les 30 jours",
+          "Dans les 10 jours",
+          "Dans l'année qui suit la fin du bail"
+        ],
+        "reponse_correcte": "« Immédiatement », soit dans les 2 ou 3 jours ouvrables",
+        "explication": "Art. 267a al. 1 CO : avis immédiat, soit dans les 2-3 jours ouvrables suivant l'ELS. À défaut ou si le délai est trop long, le bailleur est déchu de ses droits (sauf défauts cachés)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Avis des défauts",
+      "content": {
+        "enonce": "Quelles affirmations sur l'avis des défauts sont correctes ?",
+        "propositions": [
+          "Il doit être précis et détaillé (ex. « deux carreaux fendus devant le réfrigérateur »)",
+          "Il n'est soumis à aucune forme particulière, mais on l'envoie en recommandé pour la preuve",
+          "À ce stade, il n'est pas nécessaire de chiffrer les dégâts",
+          "En cas de litige, c'est au bailleur de prouver qu'il l'a donné à temps et qu'il est assez précis",
+          "Il doit obligatoirement être fait sur formule officielle",
+          "Il doit indiquer le montant exact de chaque réparation"
+        ],
+        "reponses_correctes": [
+          "Il doit être précis et détaillé (ex. « deux carreaux fendus devant le réfrigérateur »)",
+          "Il n'est soumis à aucune forme particulière, mais on l'envoie en recommandé pour la preuve",
+          "À ce stade, il n'est pas nécessaire de chiffrer les dégâts",
+          "En cas de litige, c'est au bailleur de prouver qu'il l'a donné à temps et qu'il est assez précis"
+        ],
+        "explication": "L'avis des défauts est un acte soumis à réception, sans forme particulière. Il doit lister de manière reconnaissable les dégâts imputés au locataire ; le chiffrage peut venir plus tard."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Avis des défauts",
+      "content": {
+        "enonce": "Plusieurs semaines après la sortie, on découvre que le locataire a bricolé l'installation électrique, ce qui n'était pas visible à l'ELS. Le bailleur peut-il encore agir ?",
+        "propositions": [
+          "Oui : c'est un défaut caché, il doit en aviser immédiatement le locataire dès sa découverte",
+          "Non, il est déchu de ses droits faute d'avis dans les 2-3 jours suivant l'ELS",
+          "Non, le procès-verbal signé exclut toute réclamation",
+          "Oui, mais seulement via l'assurance du bailleur"
+        ],
+        "reponse_correcte": "Oui : c'est un défaut caché, il doit en aviser immédiatement le locataire dès sa découverte",
+        "explication": "Pour les défauts qui ne pouvaient pas être découverts par les vérifications usuelles, le bailleur doit aviser le locataire immédiatement après leur découverte (art. 267a al. 3 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Avis des défauts",
+      "content": {
+        "enonce": "Selon le cours, une fois l'avis des défauts valablement donné, de quel délai le bailleur dispose-t-il pour agir en justice ?",
+        "propositions": [
+          "10 ans dès la connaissance du défaut (art. 127 CO)",
+          "1 an",
+          "30 jours",
+          "5 ans"
+        ],
+        "reponse_correcte": "10 ans dès la connaissance du défaut (art. 127 CO)",
+        "explication": "Le cours retient la prescription ordinaire de 10 ans des actions en responsabilité contractuelle (art. 127 CO). Si le locataire conteste l'avis, le gérant saisit la commission de conciliation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Avis des défauts",
+      "content": {
+        "enonce": "Le locataire conteste l'avis des défauts. Que fait le gérant ?",
+        "propositions": [
+          "Il saisit la commission de conciliation",
+          "Il prélève directement le montant sur la garantie",
+          "Il renonce à sa prétention",
+          "Il introduit directement une poursuite sans autre démarche"
+        ],
+        "reponse_correcte": "Il saisit la commission de conciliation",
+        "explication": "En cas de contestation de l'avis des défauts, le gérant saisit la commission de conciliation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Convention de sortie",
+      "content": {
+        "enonce": "Quelles affirmations sur la convention de sortie sont correctes ?",
+        "propositions": [
+          "C'est un protocole d'accord soumis au locataire à la fin de l'état des lieux de sortie",
+          "La responsabilité du locataire n'est pas engagée au-delà de ce qui y est indiqué",
+          "Elle peut prévoir un règlement forfaitaire et vaut alors reconnaissance de dette au sens de l'art. 82 LP",
+          "Signée par toutes les parties, elle vaut solde de tout compte",
+          "Elle peut être imposée au locataire sans sa signature"
+        ],
+        "reponses_correctes": [
+          "C'est un protocole d'accord soumis au locataire à la fin de l'état des lieux de sortie",
+          "La responsabilité du locataire n'est pas engagée au-delà de ce qui y est indiqué",
+          "Elle peut prévoir un règlement forfaitaire et vaut alors reconnaissance de dette au sens de l'art. 82 LP",
+          "Signée par toutes les parties, elle vaut solde de tout compte"
+        ],
+        "explication": "La convention de sortie est un accord : elle n'engage le locataire que s'il la signe. Elle peut prévoir la remise en état par le locataire, un forfait, ou la liste des défauts avec décompte sur devis/factures."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Convention de sortie",
+      "content": {
+        "enonce": "Quelle est la valeur d'une convention de sortie non chiffrée, signée par les parties ?",
+        "propositions": [
+          "Elle reconnaît les défauts imputables au locataire et remplace l'avis des défauts",
+          "Elle vaut reconnaissance de dette chiffrée au sens de l'art. 82 LP",
+          "Elle n'a aucune valeur juridique",
+          "Elle libère automatiquement la garantie de loyer"
+        ],
+        "reponse_correcte": "Elle reconnaît les défauts imputables au locataire et remplace l'avis des défauts",
+        "explication": "Non chiffrée, elle n'a pas plus de valeur qu'un état des lieux correctement constaté et signé, mais elle remplace l'avis des défauts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Convention de sortie",
+      "content": {
+        "enonce": "Le locataire refuse de signer la convention de sortie alors que de nombreux dégâts ont été relevés. Quelle est la suite ?",
+        "propositions": [
+          "Un avis des défauts reprenant tous les points lui est notifié, puis le dossier peut aller en poursuite",
+          "Le bailleur perd tout droit à réclamer les dégâts",
+          "La convention devient valable automatiquement après 30 jours",
+          "Le locataire doit refaire un état des lieux"
+        ],
+        "reponse_correcte": "Un avis des défauts reprenant tous les points lui est notifié, puis le dossier peut aller en poursuite",
+        "explication": "On rappelle que la convention se base sur la tabelle d'amortissement élaborée avec l'ASLOCA et que les montants sont estimatifs. En cas de refus, avis des défauts en recommandé, puis éventuellement poursuite."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Lesquels de ces constats relèvent de l'usure normale ?",
+        "propositions": [
+          "Jaunissement des tapisseries",
+          "Traces de meubles et de tableaux sur les murs",
+          "Trous et tampons en nombre raisonnable, propres et rebouchés",
+          "Moquette usée et petites marques sur un parquet",
+          "Parois fortement noircies par la fumée",
+          "Éclat dans un lavabo",
+          "Poignée de porte cassée"
+        ],
+        "reponses_correctes": [
+          "Jaunissement des tapisseries",
+          "Traces de meubles et de tableaux sur les murs",
+          "Trous et tampons en nombre raisonnable, propres et rebouchés",
+          "Moquette usée et petites marques sur un parquet"
+        ],
+        "explication": "Sont de l'usure anormale : parois fortement noircies par des fumeurs, tapisseries déchirées, marques de coups, éclats dans un lavabo, taches sur la moquette, poignée cassée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Le locataire n'a pas fait les nettoyages de fin de bail. Qui les paie ?",
+        "propositions": [
+          "Le locataire sortant, à qui le gérant les facture (forfait ou facture)",
+          "Le locataire entrant",
+          "Le bailleur, car c'est de l'entretien",
+          "Ils sont partagés entre locataire sortant et entrant"
+        ],
+        "reponse_correcte": "Le locataire sortant, à qui le gérant les facture (forfait ou facture)",
+        "explication": "L'obligation de menus travaux et de nettoyage (art. 259 CO) subsiste jusqu'à la restitution. Ces frais ne sont jamais à la charge du locataire entrant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Le locataire répond d'une usure anormale. Son indemnité correspond-elle à la valeur à neuf de l'installation ?",
+        "propositions": [
+          "Non, elle tient compte de l'âge et de la vétusté de l'installation, selon la tabelle d'amortissement",
+          "Oui, il doit toujours payer la valeur à neuf",
+          "Non, il ne paie jamais rien si l'installation a plus de 5 ans",
+          "Oui, mais seulement si le bail le prévoit"
+        ],
+        "reponse_correcte": "Non, elle tient compte de l'âge et de la vétusté de l'installation, selon la tabelle d'amortissement",
+        "explication": "L'indemnité tient compte de la vétusté et de la plus-value que le bailleur retire d'une installation neuve. Le gérant se réfère à la tabelle d'amortissement établie paritairement par la FRI et l'ASLOCA."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Peinture amortie sur 8 ans, refaite neuve en 2015. Le locataire part en 2017 avec des dégâts ; la remise en état coûte Fr. 3'800.-. Quelle part est à la charge du locataire ?",
+        "propositions": [
+          "Fr. 2'850.- (6/8)",
+          "Fr. 950.- (2/8)",
+          "Fr. 3'800.- (100 %)",
+          "Fr. 1'900.- (50 %)"
+        ],
+        "reponse_correcte": "Fr. 2'850.- (6/8)",
+        "explication": "2 ans sur 8 sont amortis : part du propriétaire 2/8 = Fr. 950.-, part du locataire 6/8 = Fr. 2'850.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Base 2020 : un lavabo de 2005 (amortissement 35 ans) est fissuré. Remplacement : Fr. 780.-. Quelle part refacturer au locataire ?",
+        "propositions": [
+          "Environ Fr. 445.- (780 / 35 × 20)",
+          "Fr. 780.-",
+          "Environ Fr. 334.- (780 / 35 × 15)",
+          "Rien, le lavabo est amorti"
+        ],
+        "reponse_correcte": "Environ Fr. 445.- (780 / 35 × 20)",
+        "explication": "Le lavabo a 15 ans ; il reste 35 - 15 = 20 ans d'amortissement. Part du locataire : 780 / 35 × 20 ≈ Fr. 445.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Base 2020 : une vitrocéramique de 2014 (amortissement 15 ans) est fendue. Remplacement : Fr. 900.-. Quelle part refacturer au locataire ?",
+        "propositions": [
+          "Fr. 540.- (900 / 15 × 9)",
+          "Fr. 360.- (900 / 15 × 6)",
+          "Fr. 900.-",
+          "Fr. 450.-"
+        ],
+        "reponse_correcte": "Fr. 540.- (900 / 15 × 9)",
+        "explication": "L'appareil a 6 ans ; il reste 15 - 6 = 9 ans. Part du locataire : 900 / 15 × 9 = Fr. 540.-."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Un parquet (amortissement 40 ans) a {age} ans. Le locataire l'a abîmé et la remise en état coûte Fr. {cout}.-. Quelle part refacturer au locataire (en CHF) ?",
+        "variables": [
+          { "nom": "age", "min": 5, "max": 35, "unite": "", "arrondi": 0 },
+          { "nom": "cout", "min": 800, "max": 4000, "unite": "", "arrondi": 0 }
+        ],
+        "formule": "cout / 40 * (40 - age)",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 0,
+        "tolerance": 1,
+        "explication": "Part du locataire = coût / durée d'amortissement × années restantes. Ex. : parquet de 23 ans, reprise Fr. 3'000.- → 3'000 / 40 × 17 = Fr. 1'275.-."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Une peinture (amortissement 8 ans) a été refaite il y a {age} ans. Le locataire laisse des dégâts et la réfection coûte Fr. {cout}.-. Quelle part est à sa charge (en CHF) ?",
+        "variables": [
+          { "nom": "age", "min": 1, "max": 7, "unite": "", "arrondi": 0 },
+          { "nom": "cout", "min": 1000, "max": 5000, "unite": "", "arrondi": 0 }
+        ],
+        "formule": "cout / 8 * (8 - age)",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 0,
+        "tolerance": 1,
+        "explication": "Part du locataire = coût / 8 × (8 - âge). Ex. : peinture de 4 ans, réfection Fr. 1'500.- → 1'500 / 8 × 4 = Fr. 750.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Le locataire a remplacé, sans accord, l'ancienne baignoire par une neuve. À la fin du bail, le bailleur peut-il exiger qu'il repose l'ancienne ?",
+        "propositions": [
+          "Non, ce serait contraire à la bonne foi et constituerait un abus de droit",
+          "Oui, le locataire doit toujours remettre les locaux dans leur état initial",
+          "Oui, et il doit en plus payer une indemnité",
+          "Oui, si le bail est de durée déterminée"
+        ],
+        "reponse_correcte": "Non, ce serait contraire à la bonne foi et constituerait un abus de droit",
+        "explication": "Le locataire qui a transformé sans accord peut être tenu de remettre les locaux en l'état antérieur, mais dans les limites de la bonne foi et de l'interdiction de l'abus de droit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Le locataire a effectué, sans l'accord du bailleur, des travaux d'entretien selon les règles de l'art et sans diminuer la valeur des locaux. Comment les considérer ?",
+        "propositions": [
+          "Comme résultant d'un usage normal de la chose louée",
+          "Comme un dégât à refacturer",
+          "Comme une violation grave justifiant une résiliation",
+          "Comme une plus-value que le bailleur doit indemniser"
+        ],
+        "reponse_correcte": "Comme résultant d'un usage normal de la chose louée",
+        "explication": "Les travaux d'entretien faits sans accord peuvent être considérés comme usage normal s'ils sont exécutés selon les règles de l'art et n'amoindrissent pas la valeur des locaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Dégâts dont le locataire répond",
+      "content": {
+        "enonce": "Pourquoi le cours conseille-t-il d'éviter la simple mention « usure normale » sur un état des lieux d'entrée ?",
+        "propositions": [
+          "Elle est trop vague et subjective : il faut décrire précisément l'état constaté",
+          "Elle est interdite par le CCR",
+          "Elle oblige le bailleur à tout rénover",
+          "Elle annule l'état des lieux"
+        ],
+        "reponse_correcte": "Elle est trop vague et subjective : il faut décrire précisément l'état constaté",
+        "explication": "L'annotation « usure normale » est propre à chacun. Il faut être précis (UN avec précisions) pour pouvoir comparer à la sortie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Décompte et garantie",
+      "content": {
+        "enonce": "Avant de libérer la garantie de loyer, que doit contrôler le gérant ?",
+        "propositions": [
+          "Que les loyers sont à jour",
+          "Que les charges sont à jour (éventuellement en gardant une provision)",
+          "Que les divers contractuels sont à jour",
+          "Que le nouveau locataire a payé sa garantie",
+          "Que le locataire sortant a retrouvé un logement"
+        ],
+        "reponses_correctes": [
+          "Que les loyers sont à jour",
+          "Que les charges sont à jour (éventuellement en gardant une provision)",
+          "Que les divers contractuels sont à jour"
+        ],
+        "explication": "Le gérant vérifie loyers, charges (provision possible en attendant le décompte) et divers contractuels, et pense à noter la nouvelle adresse du locataire sortant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Décompte et garantie",
+      "content": {
+        "enonce": "À quelles conditions la banque peut-elle restituer la garantie de loyer ?",
+        "propositions": [
+          "Avec l'accord des deux parties, ou sur la base d'un commandement de payer ou d'un jugement exécutoire",
+          "Sur simple demande du locataire",
+          "Sur simple demande du bailleur",
+          "Uniquement après 5 ans"
+        ],
+        "reponse_correcte": "Avec l'accord des deux parties, ou sur la base d'un commandement de payer ou d'un jugement exécutoire",
+        "explication": "La banque restitue les sûretés avec l'accord des deux parties ou sur la base d'un commandement de payer non frappé d'opposition ou d'un jugement exécutoire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Décompte et garantie",
+      "content": {
+        "enonce": "Le bailleur n'a fait valoir aucune prétention contre le locataire depuis la fin du bail. Après combien de temps le locataire peut-il exiger seul la restitution de la garantie auprès de la banque ?",
+        "propositions": [
+          "1 an",
+          "30 jours",
+          "6 mois",
+          "10 ans"
+        ],
+        "reponse_correcte": "1 an",
+        "explication": "Si, dans l'année qui suit la fin du bail, le bailleur n'a fait valoir aucune prétention, le locataire peut exiger de la banque la restitution des sûretés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Décompte et garantie",
+      "content": {
+        "enonce": "Les locaux font l'objet d'une convention de sortie avec le détail des prétentions du bailleur, signée par le locataire. Quelle est la suite ?",
+        "propositions": [
+          "La convention vaut avis des défauts ; le gérant demande les devis, commande les travaux, fait le décompte et facture le locataire",
+          "Le gérant doit encore envoyer un avis des défauts séparé",
+          "Le dossier est clos sans facture",
+          "Le gérant saisit d'office la commission de conciliation"
+        ],
+        "reponse_correcte": "La convention vaut avis des défauts ; le gérant demande les devis, commande les travaux, fait le décompte et facture le locataire",
+        "explication": "Avec une convention détaillée signée, pas besoin d'avis des défauts séparé. Avec une convention forfaitaire pour solde de tout compte, le gérant facture directement le forfait."
+      }
+    }
+  ]
+}

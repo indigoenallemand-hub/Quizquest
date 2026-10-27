@@ -1,0 +1,1044 @@
+{
+  "title": "Thèmes divers droit du bail",
+  "description": "Immobase — Thèmes divers en droit du bail : fixation du loyer et protection contre les loyers abusifs (méthodes absolue et relative), sous-location (CO 262), restitution anticipée (CO 264), modification du bail (CO 269d, 270b), défauts de la chose louée, devoirs et droits du locataire, consignation du loyer et travaux du locataire en cours de bail (CO 260a).",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "Dans un bail à loyer, le loyer de base (hors charges) correspond :",
+        "propositions": [
+          "Au loyer net",
+          "Au loyer brut",
+          "À l'acompte de charges",
+          "Au loyer brut moins la garantie"
+        ],
+        "reponse_correcte": "Au loyer net",
+        "explication": "Le loyer net rémunère la mise à disposition des locaux ; le loyer brut comprend toutes les prestations (ex. : net 1'300.- + acompte de charges 150.- = brut 1'450.-). C'est le loyer net qui est déterminant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "Quel système le Code des obligations (art. 269 à 270e CO) consacre-t-il pour les loyers ?",
+        "propositions": [
+          "La surveillance des loyers : libre fixation, puis possibilité pour le locataire de contester",
+          "Le contrôle des loyers : toute fixation est soumise à autorisation préalable d'une autorité",
+          "La liberté totale sans aucune contestation possible",
+          "Des loyers fixés par la Confédération"
+        ],
+        "reponse_correcte": "La surveillance des loyers : libre fixation, puis possibilité pour le locataire de contester",
+        "explication": "Principe : liberté contractuelle. Exception : surveillance des loyers. Le contrôle des loyers (autorisation préalable) est le régime opposé."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "À quels moments le locataire peut-il agir contre le loyer dans le système de la surveillance des loyers ?",
+        "propositions": [
+          "À la conclusion du bail (contestation du loyer initial, art. 270 CO)",
+          "À la notification d'une majoration de loyer (art. 270b CO)",
+          "Par une demande de baisse de loyer (art. 270a CO)",
+          "À n'importe quel moment, sans délai",
+          "Uniquement à la fin du bail"
+        ],
+        "reponses_correctes": [
+          "À la conclusion du bail (contestation du loyer initial, art. 270 CO)",
+          "À la notification d'une majoration de loyer (art. 270b CO)",
+          "Par une demande de baisse de loyer (art. 270a CO)"
+        ],
+        "explication": "Le locataire doit agir à ces moments et dans les délais. S'il ne le fait pas, le loyer est tenu pour admissible."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "La formule officielle a été notifiée à la signature du bail. À quel moment le locataire peut-il bénéficier de la protection contre les loyers abusifs pour le loyer initial ?",
+        "propositions": [
+          "Lors de la conclusion du bail",
+          "Lors de la résiliation du bail par le bailleur",
+          "6 mois après l'entrée en vigueur du contrat",
+          "Uniquement lors d'une hausse ultérieure"
+        ],
+        "reponse_correcte": "Lors de la conclusion du bail",
+        "explication": "La contestation du loyer initial (art. 270 CO) intervient à la conclusion du bail, dans les 30 jours dès la réception de la chose."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "La protection contre les loyers abusifs s'applique :",
+        "propositions": [
+          "Aux baux d'habitations",
+          "Aux baux de locaux commerciaux",
+          "Aux choses cédées avec ces locaux (ex. garage loué avec l'appartement)",
+          "Par analogie, aux baux à ferme non agricoles",
+          "Aux appartements de vacances loués pour trois mois ou moins"
+        ],
+        "reponses_correctes": [
+          "Aux baux d'habitations",
+          "Aux baux de locaux commerciaux",
+          "Aux choses cédées avec ces locaux (ex. garage loué avec l'appartement)",
+          "Par analogie, aux baux à ferme non agricoles"
+        ],
+        "explication": "Art. 253a et 253b CO. Pour les choses accessoires, il faut un rapport de connexité et les mêmes parties, même si les baux sont séparés ou conclus à des dates différentes."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "À quels baux la protection contre les loyers abusifs NE s'applique-t-elle PAS ?",
+        "propositions": [
+          "Appartements de vacances loués pour trois mois ou moins",
+          "Appartements et maisons familiales de luxe de six pièces ou plus (cuisine non comprise)",
+          "Logements subventionnés dont le loyer est contrôlé par une autorité",
+          "Place de parc ou garage loué indépendamment d'un logement ou local commercial",
+          "Chambre meublée",
+          "Bureau loué par une société"
+        ],
+        "reponses_correctes": [
+          "Appartements de vacances loués pour trois mois ou moins",
+          "Appartements et maisons familiales de luxe de six pièces ou plus (cuisine non comprise)",
+          "Logements subventionnés dont le loyer est contrôlé par une autorité",
+          "Place de parc ou garage loué indépendamment d'un logement ou local commercial"
+        ],
+        "explication": "Une chambre meublée est une habitation selon la jurisprudence, et un bureau est un local commercial : tous deux sont protégés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fixation du loyer",
+      "content": {
+        "enonce": "Un garage est loué à un mécanicien qui l'utilise comme atelier pour réparer de vieilles voitures. Comment le qualifier ?",
+        "propositions": [
+          "Un local commercial, protégé contre les loyers abusifs",
+          "Une simple place de stationnement non protégée",
+          "Une habitation",
+          "Un bail à ferme agricole"
+        ],
+        "reponse_correcte": "Un local commercial, protégé contre les loyers abusifs",
+        "explication": "La notion de local commercial s'interprète largement : tous locaux servant à une activité lucrative ou idéale, ou contribuant à l'épanouissement du locataire (bureau, atelier, local de club de loisirs…)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Quelle méthode examine le loyer par rapport à sa dernière fixation entre les parties ?",
+        "propositions": [
+          "La méthode relative",
+          "La méthode absolue",
+          "La méthode des loyers usuels",
+          "La méthode du rendement brut"
+        ],
+        "reponse_correcte": "La méthode relative",
+        "explication": "La méthode relative se réfère au rapport contractuel et à l'évolution des facteurs de coûts depuis la dernière fixation ; elle est utilisée en cours de bail. La méthode absolue apprécie le loyer en soi, à une date donnée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Quels critères relèvent de la méthode absolue ?",
+        "propositions": [
+          "Le rendement admissible de la chose louée (art. 269 CO)",
+          "Les loyers usuels du quartier ou de la localité (art. 269a let. a CO)",
+          "L'évolution du taux hypothécaire de référence",
+          "La hausse de l'indice suisse des prix à la consommation",
+          "Les prestations supplémentaires du bailleur"
+        ],
+        "reponses_correctes": [
+          "Le rendement admissible de la chose louée (art. 269 CO)",
+          "Les loyers usuels du quartier ou de la localité (art. 269a let. a CO)"
+        ],
+        "explication": "Taux hypothécaire, ISPC, charges et prestations supplémentaires sont des facteurs relatifs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Pour vérifier le rendement admissible, quel rendement calcule-t-on selon l'âge de l'immeuble ?",
+        "propositions": [
+          "Rendement net pour un bâtiment ancien, rendement brut pour un bâtiment récent",
+          "Rendement brut pour un bâtiment ancien, rendement net pour un bâtiment récent",
+          "Toujours le rendement brut",
+          "Toujours le rendement net"
+        ],
+        "reponse_correcte": "Rendement net pour un bâtiment ancien, rendement brut pour un bâtiment récent",
+        "explication": "Rendement net = (revenu net - intérêts hypothécaires - charges d'exploitation) / fonds propres. Rendement brut = état locatif × 100 / coût de revient."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Selon le cours, quel taux de rendement des fonds propres n'est pas considéré comme abusif ?",
+        "propositions": [
+          "Le taux hypothécaire de référence majoré de 2 %",
+          "Le taux hypothécaire de référence majoré de 0,5 %",
+          "Un rendement fixe de 10 %",
+          "Le taux d'inflation"
+        ],
+        "reponse_correcte": "Le taux hypothécaire de référence majoré de 2 %",
+        "explication": "Le rendement admissible est fixé à 2 % en sus du taux hypothécaire de référence."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Pour invoquer les loyers usuels du quartier (art. 11 OBLF), combien de logements comparables faut-il présenter ?",
+        "propositions": [
+          "5",
+          "2",
+          "3",
+          "10"
+        ],
+        "reponse_correcte": "5",
+        "explication": "Il faut 5 logements comparables dans le même quartier (emplacement, dimension, équipement, état, année de construction). Cette méthode est difficile à faire valoir devant les tribunaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Méthodes absolue et relative",
+      "content": {
+        "enonce": "Dans la méthode relative, quelle part de la hausse de l'indice suisse des prix à la consommation (ISPC) peut être répercutée sur le loyer ?",
+        "propositions": [
+          "40 %",
+          "100 %",
+          "60 %",
+          "20 %"
+        ],
+        "reponse_correcte": "40 %",
+        "explication": "Facteurs relatifs : hausse de l'ISPC à raison de 40 %, évolution du taux hypothécaire, charges courantes et d'entretien, prestations supplémentaires du bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Le locataire peut-il sous-louer tout ou partie de la chose louée ?",
+        "propositions": [
+          "Oui, avec le consentement du bailleur (art. 262 CO)",
+          "Oui, librement, sans en informer le bailleur",
+          "Non, la sous-location est interdite",
+          "Seulement pour les locaux commerciaux"
+        ],
+        "reponse_correcte": "Oui, avec le consentement du bailleur (art. 262 CO)",
+        "explication": "Art. 262 al. 1 CO. Selon les dispositions paritaires romandes (art. 8) et le RULV (art. 22), le consentement doit être demandé préalablement par écrit, avec les conditions de la sous-location."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Pour quels motifs le bailleur peut-il refuser son consentement à une sous-location ?",
+        "propositions": [
+          "Le locataire refuse de lui communiquer les conditions de la sous-location",
+          "Les conditions de la sous-location sont abusives par rapport au bail principal",
+          "La sous-location présente pour le bailleur des inconvénients majeurs",
+          "VD : le locataire sous-loue l'entier de la chose pour une durée indéterminée",
+          "Le sous-bail est conclu pour une durée plus courte que le bail principal",
+          "Le bailleur n'aime pas le sous-locataire"
+        ],
+        "reponses_correctes": [
+          "Le locataire refuse de lui communiquer les conditions de la sous-location",
+          "Les conditions de la sous-location sont abusives par rapport au bail principal",
+          "La sous-location présente pour le bailleur des inconvénients majeurs",
+          "VD : le locataire sous-loue l'entier de la chose pour une durée indéterminée"
+        ],
+        "explication": "Art. 262 al. 2 CO (liste exhaustive) et, pour Vaud, art. 22 RULV. Une durée plus courte n'est pas un motif de refus."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Dans quel cas le bailleur peut-il refuser une sous-location ?",
+        "propositions": [
+          "Le sous-loyer est le double du loyer payé par le locataire",
+          "Le sous-bail est conclu pour une durée plus courte que le bail principal",
+          "Le sous-bail est conclu oralement",
+          "Le sous-locataire est étudiant"
+        ],
+        "reponse_correcte": "Le sous-loyer est le double du loyer payé par le locataire",
+        "explication": "Un sous-loyer double est une condition abusive par rapport au bail principal (art. 262 al. 2 let. b CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Dans quel délai le bailleur doit-il se prononcer sur une demande de sous-location ?",
+        "propositions": [
+          "Dans les 30 jours dès réception de la demande",
+          "Dans les 10 jours dès réception de la demande",
+          "Dans les 30 jours dès la date indiquée sur le courrier",
+          "Il n'y a aucun délai"
+        ],
+        "reponse_correcte": "Dans les 30 jours dès réception de la demande",
+        "explication": "Art. 8 des dispositions paritaires romandes : le bailleur doit se prononcer dans les trente jours dès réception de la demande."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Vrai ou faux : le sous-locataire a les mêmes droits envers le sous-bailleur qu'un locataire envers son bailleur.",
+        "propositions": [
+          "Vrai",
+          "Faux"
+        ],
+        "reponse_correcte": "Vrai",
+        "explication": "Le contrat de sous-location est un contrat de bail à part entière entre le locataire principal (sous-bailleur) et le sous-locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Un sous-locataire a causé de nombreux dommages. Contre qui le bailleur principal peut-il se retourner ?",
+        "propositions": [
+          "Contre le locataire principal, car il n'y a pas de relation contractuelle entre le bailleur et le sous-locataire",
+          "Contre le sous-locataire uniquement, car c'est lui le responsable",
+          "Contre le locataire et le sous-locataire solidairement",
+          "Contre personne, l'assurance du bâtiment paie"
+        ],
+        "reponse_correcte": "Contre le locataire principal, car il n'y a pas de relation contractuelle entre le bailleur et le sous-locataire",
+        "explication": "Le locataire principal répond envers le bailleur des faits dommageables de son sous-locataire ; il peut ensuite se retourner contre lui."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Le sous-locataire ne paie plus son sous-loyer. Qui doit payer le loyer au bailleur principal ?",
+        "propositions": [
+          "Le locataire principal, qu'il soit payé ou non par le sous-locataire",
+          "Le sous-locataire directement",
+          "Personne tant que le litige n'est pas réglé",
+          "Le bailleur doit poursuivre le sous-locataire"
+        ],
+        "reponse_correcte": "Le locataire principal, qu'il soit payé ou non par le sous-locataire",
+        "explication": "La relation de bail principale n'est pas modifiée par la sous-location : le locataire reste le seul interlocuteur du bailleur et responsable du loyer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Un locataire héberge gratuitement ses parents. Est-ce une sous-location ?",
+        "propositions": [
+          "Non, sans paiement d'un loyer il n'y a pas de sous-location",
+          "Oui, toute personne logée est un sous-locataire",
+          "Oui, si l'hébergement dépasse 3 mois",
+          "Oui, mais uniquement dans le canton de Vaud"
+        ],
+        "reponse_correcte": "Non, sans paiement d'un loyer il n'y a pas de sous-location",
+        "explication": "En l'absence de sous-loyer, il n'y a pas de contrat de sous-location (ex. : héberger un concubin ou ses parents)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Combien de sous-locations « en chaîne » sont possibles ?",
+        "propositions": [
+          "Autant que le bailleur principal et les sous-bailleurs acceptent",
+          "Une seule, sinon la situation deviendrait trop compliquée",
+          "Trois au maximum",
+          "Aucune limite et aucune autorisation n'est nécessaire"
+        ],
+        "reponse_correcte": "Autant que le bailleur principal et les sous-bailleurs acceptent",
+        "explication": "Le locataire est garant que le sous-locataire ne sous-louera pas à son tour sans l'autorisation du bailleur principal (art. 22 RULV)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sous-location",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue la sous-location de la restitution anticipée et du transfert de bail ?",
+        "propositions": [
+          "En sous-location, le bail entre le bailleur et le locataire subsiste",
+          "En sous-location, le sous-locataire devient le locataire du bailleur",
+          "La sous-location met fin au bail principal",
+          "Il n'y a aucune différence"
+        ],
+        "reponse_correcte": "En sous-location, le bail entre le bailleur et le locataire subsiste",
+        "explication": "Dans la restitution anticipée et le transfert, le bail est repris par un tiers. En sous-location, les contrats se superposent et le bail principal subsiste."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Pour être libéré en restituant la chose hors délai et terme (art. 264 CO), le locataire doit présenter un candidat :",
+        "propositions": [
+          "Solvable",
+          "Disposé à reprendre le bail aux mêmes conditions",
+          "Que le bailleur ne puisse raisonnablement refuser",
+          "Qui accepte un loyer plus élevé",
+          "Qui verse une garantie double"
+        ],
+        "reponses_correctes": [
+          "Solvable",
+          "Disposé à reprendre le bail aux mêmes conditions",
+          "Que le bailleur ne puisse raisonnablement refuser"
+        ],
+        "explication": "Ces trois conditions sont cumulatives. À défaut, le locataire doit le loyer jusqu'à l'expiration du bail ou au prochain terme de congé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Quel est le préavis minimum pour une restitution anticipée (art. 9 dispositions paritaires romandes, art. 35 RULV) ?",
+        "propositions": [
+          "Un mois pour le 15 ou la fin d'un mois",
+          "Le préavis de résiliation prévu dans le bail",
+          "3 mois",
+          "Aucun préavis"
+        ],
+        "reponse_correcte": "Un mois pour le 15 ou la fin d'un mois",
+        "explication": "Le locataire avise le bailleur par écrit en indiquant la date de restitution, avec au minimum un mois de préavis pour le 15 ou la fin d'un mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Un locataire veut partir avant l'échéance de son bail. Que doit-il faire ?",
+        "propositions": [
+          "Présenter un locataire solvable, disposé à reprendre le bail aux mêmes conditions",
+          "Simplement donner un préavis de 3 mois",
+          "Il ne peut en aucun cas partir avant l'échéance",
+          "Payer une indemnité forfaitaire de 3 mois de loyer"
+        ],
+        "reponse_correcte": "Présenter un locataire solvable, disposé à reprendre le bail aux mêmes conditions",
+        "explication": "C'est la restitution anticipée de l'art. 264 CO."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Des colocataires souhaitent quitter le logement de manière anticipée. Que doivent-ils faire ?",
+        "propositions": [
+          "Tous les signataires du bail doivent notifier au bailleur leur volonté de partir",
+          "Un seul colocataire peut écrire au nom de tous",
+          "Un appel téléphonique au bailleur suffit",
+          "Le colocataire principal décide seul"
+        ],
+        "reponse_correcte": "Tous les signataires du bail doivent notifier au bailleur leur volonté de partir",
+        "explication": "Pour être valable, la résiliation doit porter la signature des deux conjoints ou de tous les colocataires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Le locataire présente un candidat qui remplit toutes les conditions de l'art. 264 CO, mais le bailleur ne veut pas conclure avec lui. Quelle est la conséquence ?",
+        "propositions": [
+          "Le locataire est quand même libéré ; le bailleur n'est pas obligé de conclure avec le candidat",
+          "Le bailleur est obligé de conclure avec le candidat",
+          "Le locataire reste tenu jusqu'à l'échéance",
+          "Le locataire doit présenter trois autres candidats"
+        ],
+        "reponse_correcte": "Le locataire est quand même libéré ; le bailleur n'est pas obligé de conclure avec le candidat",
+        "explication": "Le bailleur n'est jamais tenu de conclure avec le candidat proposé, mais la présentation d'un candidat valable libère le locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Le bailleur profite de la restitution anticipée pour exiger du candidat un loyer plus élevé. Quelle est la conséquence ?",
+        "propositions": [
+          "Le locataire sortant est libéré de ses obligations",
+          "Le locataire sortant doit payer la différence",
+          "Le candidat est tenu d'accepter",
+          "La restitution anticipée est annulée"
+        ],
+        "reponse_correcte": "Le locataire sortant est libéré de ses obligations",
+        "explication": "Si le bailleur impose des conditions plus restrictives ou une hausse de loyer, le locataire sortant est libéré."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Un candidat accepté se désiste au moment de signer le bail. Quelle est la situation du locataire sortant ?",
+        "propositions": [
+          "Il reste responsable, son bail n'ayant pas été repris (jusqu'à l'échéance contractuelle au plus tard)",
+          "Il est libéré, car il a présenté un candidat accepté",
+          "Il est solidaire avec le candidat jusqu'à la prochaine échéance",
+          "Le candidat doit payer le loyer à sa place"
+        ],
+        "reponse_correcte": "Il reste responsable, son bail n'ayant pas été repris (jusqu'à l'échéance contractuelle au plus tard)",
+        "explication": "Selon le cours, si le candidat se désiste, le locataire reste tenu jusqu'à l'échéance contractuelle, sauf s'il présente un autre candidat valable."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Pour quels motifs le bailleur peut-il objectivement refuser un candidat de remplacement ?",
+        "propositions": [
+          "Le nombre d'occupants entraînerait une suroccupation des locaux",
+          "L'activité envisagée est incompatible avec celle des autres commerçants de l'immeuble (concurrence)",
+          "Le candidat n'est prêt à payer qu'un loyer sensiblement plus bas",
+          "Le loyer représente environ un tiers du revenu du candidat",
+          "Le candidat a des enfants"
+        ],
+        "reponses_correctes": [
+          "Le nombre d'occupants entraînerait une suroccupation des locaux",
+          "L'activité envisagée est incompatible avec celle des autres commerçants de l'immeuble (concurrence)",
+          "Le candidat n'est prêt à payer qu'un loyer sensiblement plus bas"
+        ],
+        "explication": "Un loyer d'environ 1/3 du revenu global est le repère usuel de solvabilité. Le bailleur peut refuser un candidat qui veut un loyer sensiblement plus bas, même si le sortant offre de payer la différence."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Restitution anticipée",
+      "content": {
+        "enonce": "Pendant une restitution anticipée, le bailleur doit-il aussi chercher un nouveau locataire ?",
+        "propositions": [
+          "Oui, il doit entreprendre les démarches utiles (publicité) pour réduire le dommage",
+          "Non, c'est uniquement l'affaire du locataire",
+          "Non, il peut attendre l'échéance et encaisser le loyer",
+          "Seulement si le locataire le paie pour cela"
+        ],
+        "reponse_correcte": "Oui, il doit entreprendre les démarches utiles (publicité) pour réduire le dommage",
+        "explication": "Même si la recherche incombe au locataire, le bailleur doit faciliter la relocation. Il doit aussi imputer sur le loyer les impenses épargnées et les profits retirés (art. 264 al. 3 CO)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Quels sont les trois types de modifications du bail ?",
+        "propositions": [
+          "Modification unilatérale par le bailleur sur formule officielle",
+          "Modification à la demande du locataire ou d'entente, par avenant signé",
+          "Suppression d'une dérogation accordée à bien plaire",
+          "Modification orale par le concierge",
+          "Modification unilatérale par le locataire"
+        ],
+        "reponses_correctes": [
+          "Modification unilatérale par le bailleur sur formule officielle",
+          "Modification à la demande du locataire ou d'entente, par avenant signé",
+          "Suppression d'une dérogation accordée à bien plaire"
+        ],
+        "explication": "L'avenant est possible pour les modifications qui ne sont pas au détriment du locataire. La dérogation à bien plaire est révocable en tout temps."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Un bailleur veut modifier l'échéance du bail en cours de contrat. Que doit-il faire ?",
+        "propositions": [
+          "Notifier la formule de nouvelles prétentions pour la prochaine échéance, en respectant le préavis de résiliation + 10 jours",
+          "Notifier la formule 30 jours avant la fin d'un mois + 10 jours",
+          "C'est impossible, un contrat est un contrat",
+          "Envoyer une simple lettre recommandée"
+        ],
+        "reponse_correcte": "Notifier la formule de nouvelles prétentions pour la prochaine échéance, en respectant le préavis de résiliation + 10 jours",
+        "explication": "Art. 269d al. 3 CO : modification pour le prochain terme de résiliation, avis motivé sur formule officielle parvenant au locataire 10 jours au moins avant le début du délai de résiliation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Quand une modification unilatérale du bail est-elle nulle (art. 269d al. 3 CO) ?",
+        "propositions": [
+          "Elle n'est pas notifiée sur formule officielle",
+          "Les motifs ne sont pas indiqués",
+          "Elle est assortie d'une résiliation ou d'une menace de résiliation",
+          "Elle n'est pas accompagnée d'une lettre",
+          "Le locataire n'est pas d'accord avec les motifs"
+        ],
+        "reponses_correctes": [
+          "Elle n'est pas notifiée sur formule officielle",
+          "Les motifs ne sont pas indiqués",
+          "Elle est assortie d'une résiliation ou d'une menace de résiliation"
+        ],
+        "explication": "L'absence de lettre d'accompagnement ne rend pas la modification nulle. Si le locataire conteste les motifs, il doit agir devant l'autorité de conciliation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Bail avec échéance au 1er juillet et préavis de 3 mois. Quand la formule de nouvelles prétentions doit-elle parvenir au locataire au plus tard (selon le cours) ?",
+        "propositions": [
+          "Le 20 mars",
+          "Le 31 mars",
+          "Le 1er avril",
+          "Le 1er juin"
+        ],
+        "reponse_correcte": "Le 20 mars",
+        "explication": "Le délai de résiliation débute fin mars ; l'avis doit parvenir 10 jours avant. Un bailleur prévoyant l'enverra vers le 10 mars."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Le locataire estime abusive une modification notifiée correctement. Que peut-il faire ?",
+        "propositions": [
+          "La contester devant l'autorité de conciliation dans les 30 jours dès la réception de l'avis",
+          "La contester dans les 30 jours suivant l'entrée en vigueur de la modification",
+          "Rien, sauf déménager",
+          "Arrêter de payer son loyer"
+        ],
+        "reponse_correcte": "La contester devant l'autorité de conciliation dans les 30 jours dès la réception de l'avis",
+        "explication": "Art. 270b CO. Ex. : avis reçu le 19 mars, contestation possible jusqu'au 18 avril. À défaut, la modification est tenue pour acceptée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Vrai ou faux : bailleur et locataire peuvent modifier le bail, à la demande du locataire, par un avenant signé par les deux parties.",
+        "propositions": [
+          "Vrai",
+          "Faux"
+        ],
+        "reponse_correcte": "Vrai",
+        "explication": "Les modifications demandées par le locataire ou convenues entre les parties, sans être au détriment du locataire, peuvent se faire par avenant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modification du bail",
+      "content": {
+        "enonce": "Comment le bailleur peut-il supprimer une place de jardin mise à disposition « à bien plaire » ?",
+        "propositions": [
+          "En tout temps, sans motif, avec un préavis de 30 jours par lettre recommandée",
+          "Uniquement par formule officielle pour la prochaine échéance",
+          "Seulement avec l'accord du locataire",
+          "C'est impossible"
+        ],
+        "reponse_correcte": "En tout temps, sans motif, avec un préavis de 30 jours par lettre recommandée",
+        "explication": "Une dérogation accordée à bien plaire peut être révoquée en tout temps, sans indication de motif, moyennant 30 jours de préavis."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défaut de la chose louée",
+      "content": {
+        "enonce": "Quand la chose louée est-elle défectueuse ?",
+        "propositions": [
+          "Quand il lui manque une qualité que le contrat lui reconnaît et dont l'absence entrave l'usage prévu",
+          "Dès qu'elle n'est plus neuve",
+          "Uniquement en cas de dégât d'eau ou d'incendie",
+          "Quand le locataire n'aime pas les finitions"
+        ],
+        "reponse_correcte": "Quand il lui manque une qualité que le contrat lui reconnaît et dont l'absence entrave l'usage prévu",
+        "explication": "La notion est relative : elle dépend du contrat, de la destination, du type de construction, du loyer, des promesses du bailleur, et de l'évolution des mœurs et de la technique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défaut de la chose louée",
+      "content": {
+        "enonce": "L'annonce promettait une « tranquillité absolue », mais l'appartement est très bruyant. Peut-il y avoir défaut ?",
+        "propositions": [
+          "Oui, l'absence d'une qualité promise (contrat, annonce ou oralement) peut constituer un défaut",
+          "Non, seul le contrat signé compte",
+          "Non, le bruit n'est jamais un défaut",
+          "Oui, mais seulement pour les locaux commerciaux"
+        ],
+        "reponse_correcte": "Oui, l'absence d'une qualité promise (contrat, annonce ou oralement) peut constituer un défaut",
+        "explication": "Il y a défaut si la chose ne présente pas les qualités promises, par contrat, annonce ou oralement (tranquillité, surface, aménagements…)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défaut de la chose louée",
+      "content": {
+        "enonce": "En cours de bail, une infiltration d'eau apparaît au plafond du séjour. Comment qualifier ce défaut ?",
+        "propositions": [
+          "Matériel, apparent et subséquent",
+          "Matériel, apparent et originel",
+          "Immatériel et subséquent",
+          "Immatériel, caché et originel"
+        ],
+        "reponse_correcte": "Matériel, apparent et subséquent",
+        "explication": "Matériel (il touche la chose), apparent (visible) et subséquent (survenu en cours de bail, par opposition à originel, existant à la délivrance)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Défaut de la chose louée",
+      "content": {
+        "enonce": "Quelle affirmation est FAUSSE sur la mise à disposition d'un appartement au début du bail ?",
+        "propositions": [
+          "La chose peut être délivrée sale, car le nettoyage est un menu travail à la charge du locataire",
+          "La chose doit être délivrée à la date convenue",
+          "La chose doit être délivrée propre : le nettoyage, à la charge du locataire en cours de bail, incombe au bailleur au début",
+          "La chose doit être délivrée dans un état approprié à l'usage prévu"
+        ],
+        "reponse_correcte": "La chose peut être délivrée sale, car le nettoyage est un menu travail à la charge du locataire",
+        "explication": "L'obligation de menus travaux (art. 259 CO) ne s'applique qu'en cours de bail ou à la restitution. Au début du bail, le locataire peut exiger que le bailleur s'en charge."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Quels sont les devoirs du locataire en cas de défaut de la chose louée ?",
+        "propositions": [
+          "Aviser le bailleur (art. 257g CO)",
+          "Tolérer les réparations et l'inspection de la chose (art. 257h CO)",
+          "Exécuter à ses frais les menus travaux (art. 259 CO)",
+          "Réparer lui-même tous les défauts importants",
+          "Cesser de payer le loyer"
+        ],
+        "reponses_correctes": [
+          "Aviser le bailleur (art. 257g CO)",
+          "Tolérer les réparations et l'inspection de la chose (art. 257h CO)",
+          "Exécuter à ses frais les menus travaux (art. 259 CO)"
+        ],
+        "explication": "Le locataire signale les défauts auxquels il n'a pas à remédier lui-même, tolère les travaux nécessaires et se charge des menus nettoyages et réparations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Un locataire n'annonce pas un dégât d'eau, qui s'aggrave faute d'intervention rapide. Quelle est sa situation ?",
+        "propositions": [
+          "Sa responsabilité peut être engagée pour une partie des frais (art. 257g al. 2 CO)",
+          "L'assurance paie tout, il n'a commis aucune faute",
+          "Il n'est jamais responsable, c'est au propriétaire d'assurer l'immeuble",
+          "Il doit payer la totalité des réparations, même celles d'origine"
+        ],
+        "reponse_correcte": "Sa responsabilité peut être engagée pour une partie des frais (art. 257g al. 2 CO)",
+        "explication": "Le locataire répond du dommage résultant de l'omission d'aviser le bailleur, sauf s'il prouve qu'aucune faute ne lui est imputable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Le toit de l'immeuble laisse filtrer l'eau, mais l'appartement du locataire est encore intact. Doit-il prévenir le bailleur ?",
+        "propositions": [
+          "Oui, il doit signaler un défaut en voie de formation, même s'il ne le dérange pas encore",
+          "Non, tant que son logement n'est pas touché",
+          "Non, c'est le rôle du concierge exclusivement",
+          "Seulement par formule officielle"
+        ],
+        "reponse_correcte": "Oui, il doit signaler un défaut en voie de formation, même s'il ne le dérange pas encore",
+        "explication": "Le devoir d'aviser découle du devoir de diligence. Il ne s'étend pas aux défauts que le bailleur (ou ses auxiliaires : concierge, gérant) connaît déjà."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Sous quelle forme le locataire doit-il donner l'avis de défaut ?",
+        "propositions": [
+          "Aucune forme n'est exigée (un avis oral au bailleur, concierge ou gérant suffit), mais l'écrit est prudent pour la preuve",
+          "Obligatoirement par lettre recommandée",
+          "Obligatoirement sur formule officielle",
+          "Uniquement par l'intermédiaire de l'ASLOCA"
+        ],
+        "reponse_correcte": "Aucune forme n'est exigée (un avis oral au bailleur, concierge ou gérant suffit), mais l'écrit est prudent pour la preuve",
+        "explication": "Pas de forme ni de délai fixe, mais l'avis doit arriver assez tôt pour éviter l'aggravation. L'avis écrit est recommandé si le défaut s'aggrave."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Le bail peut-il supprimer l'obligation du locataire de signaler les défauts ?",
+        "propositions": [
+          "Non, mais il peut en préciser les modalités",
+          "Oui, si le loyer est réduit",
+          "Oui, pour les baux commerciaux",
+          "Oui, si le locataire signe une décharge"
+        ],
+        "reponse_correcte": "Non, mais il peut en préciser les modalités",
+        "explication": "Le contrat ne peut pas supprimer l'obligation de signaler les défauts susceptibles de causer un dommage au bailleur, mais il peut organiser la manière de le faire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Un locataire peut-il refuser l'intervention d'une entreprise venue réparer un défaut dans son logement ?",
+        "propositions": [
+          "Non, il doit tolérer les travaux destinés à remédier aux défauts ou à prévenir des dommages",
+          "Oui, si le défaut ne le dérange pas",
+          "Oui, car il doit réparer lui-même",
+          "Oui, en tout temps et sans motif"
+        ],
+        "reponse_correcte": "Non, il doit tolérer les travaux destinés à remédier aux défauts ou à prévenir des dommages",
+        "explication": "Art. 257h al. 1 CO. Le devoir de tolérance est le corollaire de l'obligation d'entretien du bailleur. Il ne vise que les travaux nécessaires, pas des rénovations non indispensables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Le propriétaire peut-il entrer avec son passe-partout, sans l'accord du locataire, pour faire des réparations ?",
+        "propositions": [
+          "Non, ce serait une violation de domicile",
+          "Oui, s'il a prévenu le locataire",
+          "Oui, l'appartement reste sa propriété",
+          "Oui, entre 8h et 18h"
+        ],
+        "reponse_correcte": "Non, ce serait une violation de domicile",
+        "explication": "En cas de refus injustifié, le bailleur peut réclamer des dommages-intérêts, voire résilier dans les cas extrêmes, ou demander au tribunal des baux de contraindre le locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Sauf urgence, quel préavis le bailleur doit-il donner pour visiter les locaux (art. 5 dispositions paritaires romandes, art. 27 RULV) ?",
+        "propositions": [
+          "5 jours",
+          "24 heures",
+          "30 jours",
+          "Aucun"
+        ],
+        "reponse_correcte": "5 jours",
+        "explication": "Le bailleur peut inspecter la chose pour l'entretien, la vente ou la relocation (art. 257h al. 2 CO), en annonçant sa visite à temps : 5 jours, sauf cas urgent (ex. conduite d'eau qui a sauté)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Devoirs du locataire",
+      "content": {
+        "enonce": "Quelles affirmations sur les visites et travaux du bailleur sont correctes ?",
+        "propositions": [
+          "Le locataire n'est pas obligé d'assister personnellement à la visite (il peut laisser les clés au concierge)",
+          "Le bailleur doit annoncer à temps les travaux et tenir compte des intérêts du locataire",
+          "Les travaux peuvent ouvrir un droit à une réduction de loyer",
+          "Si le locataire a consenti aux travaux en connaissance de cause, il n'a en principe pas droit à des dommages-intérêts, sauf retard sur le calendrier",
+          "Le bailleur peut visiter les locaux chaque semaine sans motif"
+        ],
+        "reponses_correctes": [
+          "Le locataire n'est pas obligé d'assister personnellement à la visite (il peut laisser les clés au concierge)",
+          "Le bailleur doit annoncer à temps les travaux et tenir compte des intérêts du locataire",
+          "Les travaux peuvent ouvrir un droit à une réduction de loyer",
+          "Si le locataire a consenti aux travaux en connaissance de cause, il n'a en principe pas droit à des dommages-intérêts, sauf retard sur le calendrier"
+        ],
+        "explication": "Art. 257h al. 3 CO. Les visites doivent rester raisonnables et limitées aux besoins de l'entretien, de la vente ou de la relocation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "En cas de défaut qui ne lui est pas imputable, que peut exiger le locataire du bailleur (art. 259a CO) ?",
+        "propositions": [
+          "La remise en état de la chose",
+          "Une réduction proportionnelle du loyer",
+          "Des dommages-intérêts",
+          "La prise en charge du procès contre un tiers",
+          "La consignation du loyer (locataire d'un immeuble)",
+          "Le remboursement de tous les loyers payés depuis l'entrée"
+        ],
+        "reponses_correctes": [
+          "La remise en état de la chose",
+          "Une réduction proportionnelle du loyer",
+          "Des dommages-intérêts",
+          "La prise en charge du procès contre un tiers",
+          "La consignation du loyer (locataire d'un immeuble)"
+        ],
+        "explication": "Ces droits ne valent que pour des défauts dont le locataire n'est pas responsable et qui ne relèvent pas des menus travaux à sa charge."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "Le bailleur connaît un défaut de moyenne importance mais n'y remédie pas dans un délai convenable. Que peut faire le locataire (art. 259b CO) ?",
+        "propositions": [
+          "Faire remédier au défaut aux frais du bailleur",
+          "Résilier le bail avec effet immédiat",
+          "Cesser de payer le loyer",
+          "Rien, il doit attendre"
+        ],
+        "reponse_correcte": "Faire remédier au défaut aux frais du bailleur",
+        "explication": "Défaut de moyenne importance → exécution aux frais du bailleur. Défaut grave → résiliation possible."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "Un défaut grave compromet la statique du bâtiment. Le locataire peut-il résilier le bail immédiatement ?",
+        "propositions": [
+          "Oui",
+          "Non, il doit respecter au minimum un préavis de 3 mois",
+          "Non, il doit respecter les échéances du contrat",
+          "Seulement avec l'accord du bailleur"
+        ],
+        "reponse_correcte": "Oui",
+        "explication": "En cas de défaut grave auquel le bailleur ne remédie pas dans un délai convenable, le locataire peut résilier le bail avec effet immédiat (art. 259b let. a CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "Le locataire a signalé des défauts par écrit en fixant un délai au bailleur, qui ne réagit pas. Que peut-il faire ?",
+        "propositions": [
+          "Consigner les loyers et saisir la commission de conciliation",
+          "Arrêter de payer son loyer pour faire pression",
+          "Rien, sauf déménager",
+          "Déduire lui-même un montant de son loyer"
+        ],
+        "reponse_correcte": "Consigner les loyers et saisir la commission de conciliation",
+        "explication": "Art. 259g CO : les loyers consignés auprès de l'office désigné par le canton sont réputés payés. Cesser simplement de payer expose le locataire à une résiliation pour défaut de paiement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "Quels loyers le locataire peut-il consigner ?",
+        "propositions": [
+          "Les loyers à échoir, une fois expiré le délai fixé au bailleur pour réparer",
+          "Tous les loyers depuis le début du problème",
+          "Tous les loyers dès l'avis écrit au bailleur",
+          "Uniquement le loyer du mois en cours"
+        ],
+        "reponse_correcte": "Les loyers à échoir, une fois expiré le délai fixé au bailleur pour réparer",
+        "explication": "Le locataire doit d'abord fixer par écrit un délai raisonnable et annoncer son intention de consigner ; il consigne ensuite les loyers à échoir."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits du locataire et consignation",
+      "content": {
+        "enonce": "Dans quels cas la consignation du loyer est-elle exclue ?",
+        "propositions": [
+          "Le locataire a déjà supprimé le défaut",
+          "Le bailleur a déjà réparé et seules restent en litige des prétentions financières",
+          "Le défaut est irréparable",
+          "Le défaut invoqué n'existe pas",
+          "Le bailleur a proposé des locaux de remplacement conformes à l'art. 259c CO",
+          "Le locataire a fixé par écrit un délai raisonnable qui est échu"
+        ],
+        "reponses_correctes": [
+          "Le locataire a déjà supprimé le défaut",
+          "Le bailleur a déjà réparé et seules restent en litige des prétentions financières",
+          "Le défaut est irréparable",
+          "Le défaut invoqué n'existe pas",
+          "Le bailleur a proposé des locaux de remplacement conformes à l'art. 259c CO"
+        ],
+        "explication": "La consignation n'est possible que si le locataire exige la réparation d'un défaut et respecte la procédure (avis, délai écrit, annonce de la consignation)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "Un locataire bricoleur peut-il faire des travaux dans son appartement sans en informer le bailleur ?",
+        "propositions": [
+          "Non, il doit obtenir le consentement écrit du bailleur (art. 260a CO)",
+          "Oui, toute amélioration profite au propriétaire",
+          "Oui, si les travaux sont faits dans les règles de l'art",
+          "Oui, si le bail dure plus de 5 ans"
+        ],
+        "reponse_correcte": "Non, il doit obtenir le consentement écrit du bailleur (art. 260a CO)",
+        "explication": "Le locataire n'a le droit de rénover ou modifier la chose qu'avec le consentement écrit du bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "Le bailleur a accepté par écrit que le locataire peigne une chambre en rose, sans rien prévoir d'autre. À la fin du bail, peut-il exiger qu'il la repeigne en blanc ?",
+        "propositions": [
+          "Non, la remise en état n'est due que si elle a été convenue par écrit",
+          "Oui, le locataire doit toujours rendre l'appartement dans son état initial",
+          "Oui, car le rose n'est pas une couleur neutre",
+          "Oui, s'il retient le montant sur la garantie"
+        ],
+        "reponse_correcte": "Non, la remise en état n'est due que si elle a été convenue par écrit",
+        "explication": "Art. 260a al. 2 CO : lorsque le bailleur a consenti, il ne peut exiger la remise en état que si cela a été convenu par écrit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "À la fin du bail, les travaux acceptés par le bailleur apportent une plus-value considérable. Que peut exiger le locataire ?",
+        "propositions": [
+          "Une indemnité pour cette plus-value (art. 260a al. 3 CO)",
+          "Le remboursement intégral des travaux, quel que soit leur état",
+          "Rien, les travaux appartiennent au bailleur",
+          "Une prolongation automatique du bail"
+        ],
+        "reponse_correcte": "Une indemnité pour cette plus-value (art. 260a al. 3 CO)",
+        "explication": "Les conventions écrites prévoyant des indemnités plus élevées sont réservées."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "Selon l'art. 7.1 des dispositions paritaires romandes, quelles règles s'appliquent quand le locataire veut rénover ou modifier les locaux ?",
+        "propositions": [
+          "Il doit demander préalablement le consentement écrit du bailleur, avec plans et projets",
+          "Le bailleur doit se déterminer dans les trente jours",
+          "Le bailleur peut exiger une garantie pour le paiement des travaux",
+          "Les travaux ne doivent compromettre ni la sécurité, ni la salubrité, ni l'esthétique, ni la valeur du bâtiment",
+          "Le silence du bailleur pendant 10 jours vaut accord"
+        ],
+        "reponses_correctes": [
+          "Il doit demander préalablement le consentement écrit du bailleur, avec plans et projets",
+          "Le bailleur doit se déterminer dans les trente jours",
+          "Le bailleur peut exiger une garantie pour le paiement des travaux",
+          "Les travaux ne doivent compromettre ni la sécurité, ni la salubrité, ni l'esthétique, ni la valeur du bâtiment"
+        ],
+        "explication": "Les travaux doivent aussi respecter les prescriptions réglementaires et administratives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "Pourquoi le bailleur peut-il exiger une « garantie pour travaux » avant d'autoriser des travaux du locataire ?",
+        "propositions": [
+          "Pour éviter l'inscription d'une hypothèque légale des artisans et entrepreneurs si le locataire ne paie pas",
+          "Pour régler d'éventuels loyers impayés",
+          "Pour refaire les travaux s'ils ne lui plaisent pas",
+          "Pour augmenter le loyer"
+        ],
+        "reponse_correcte": "Pour éviter l'inscription d'une hypothèque légale des artisans et entrepreneurs si le locataire ne paie pas",
+        "explication": "Les artisans impayés peuvent faire inscrire une hypothèque légale sur l'immeuble du propriétaire, même si c'est le locataire qui a commandé les travaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Travaux du locataire",
+      "content": {
+        "enonce": "Le locataire a modifié les locaux sans autorisation et refuse de les remettre en état à la fin du bail. Que doit faire le bailleur ?",
+        "propositions": [
+          "S'adresser à la commission de conciliation",
+          "Faire les travaux et les retenir sur la garantie sans autre",
+          "Porter plainte pénale",
+          "Rien, il a perdu ses droits"
+        ],
+        "reponse_correcte": "S'adresser à la commission de conciliation",
+        "explication": "Le bailleur peut exiger la remise en état, dans les limites de la bonne foi et de l'interdiction de l'abus de droit, et saisir la commission de conciliation en cas de refus."
+      }
+    }
+  ]
+}
