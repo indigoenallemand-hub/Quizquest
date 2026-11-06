@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { resolveGuest, loadDuel, buildDuelState, isInviteExpired, getDuelThemes, drawRoundQuestions } from "@/lib/duel";
+import { resolveGuest, loadDuel, buildDuelState, isInviteExpired, getDuelThemes, startRound, tickDuel } from "@/lib/duel";
 
 async function loadForGuest(token: string, duelId: string) {
   const guest = await resolveGuest(token);
@@ -18,7 +18,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ tok
   const { token, duelId } = await params;
   const loaded = await loadForGuest(token, duelId);
   if ("error" in loaded) return loaded.error;
-  return NextResponse.json(await buildDuelState(loaded.duel, loaded.me));
+  const duel = await tickDuel(loaded.duel, loaded.me);
+  if (!duel) return NextResponse.json({ error: "Ce duel a ete supprime (joueurs absents ou duel trop long)." }, { status: 404 });
+  return NextResponse.json(await buildDuelState(duel, loaded.me));
 }
 
 const actionSchema = z.discriminatedUnion("action", [
@@ -48,7 +50,13 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
       // The player choosing the first chapter is drawn at random.
       const firstChooser = Math.random() < 0.5 ? duel.challengerId : duel.opponentId;
       await prisma.$transaction(async (tx) => {
-        const { count } = await tx.duel.updateMany({ where: { id: duel.id, status: "PENDING" }, data: { status: "ACTIVE" } });
+        // Both players count as present from the start, so the idle cleanup
+        // doesn't catch the duel before their duel screens first load.
+        const now = new Date();
+        const { count } = await tx.duel.updateMany({
+          where: { id: duel.id, status: "PENDING" },
+          data: { status: "ACTIVE", challengerSeenAt: now, opponentSeenAt: now },
+        });
         if (count === 1) await tx.duelRound.create({ data: { duelId: duel.id, index: 0, chooserId: firstChooser } });
       });
       break;
@@ -71,11 +79,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
       }
       const theme = (await getDuelThemes(duel.quizId)).find((t) => t.id === body.themeId);
       if (!theme) return NextResponse.json({ error: "Chapitre introuvable." }, { status: 404 });
-      const questions = await drawRoundQuestions(theme.id);
-      await prisma.duelRound.updateMany({
-        where: { id: round.id, themeId: null },
-        data: { themeId: theme.id, themeTitle: theme.title, questions: questions as never },
-      });
+      await startRound(round.id, theme);
       break;
     }
   }

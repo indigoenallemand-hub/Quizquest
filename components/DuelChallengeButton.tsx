@@ -76,7 +76,7 @@ export default function DuelChallengeButton({ token, opponentId, opponentName }:
                   ✕
                 </button>
                 <p className="qz-duel-modal-title">⚔️ Defier {opponentName}</p>
-                <p className="qz-question-grid-modal-answer">Combien de manches ? Chaque manche se joue sur 10 questions d&apos;un chapitre.</p>
+                <p className="qz-question-grid-modal-answer">Combien de manches ? Chaque manche : 10 questions d&apos;un chapitre en 5 minutes.</p>
                 <div className="qz-duel-bo-row">
                   {[1, 3, 5].map((n) => (
                     <button key={n} type="button" className="qz-btn-primary" disabled={sending} onClick={() => send(n)}>

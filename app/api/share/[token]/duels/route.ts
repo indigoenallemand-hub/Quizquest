@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { resolveGuest, DUEL_BEST_OF, DUEL_INVITE_TTL_MS } from "@/lib/duel";
+import { resolveGuest, cleanupDuels, DUEL_BEST_OF, DUEL_INVITE_TTL_MS } from "@/lib/duel";
 
 const createDuelSchema = z.object({
   opponentId: z.string(),
@@ -38,6 +38,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ tok
   const guest = await resolveGuest(token);
   if ("error" in guest) return NextResponse.json({ error: guest.error }, { status: guest.status });
   const me = guest.guestAccessId;
+  await cleanupDuels();
 
   const [invite, active] = await Promise.all([
     prisma.duel.findFirst({

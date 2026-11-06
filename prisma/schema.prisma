@@ -212,16 +212,20 @@ model Attempt {
 // DUEL_INVITE_TTL_MS (lib/duel.ts) are treated as CANCELLED. Every round is
 // played to the end — bestOf is the number of rounds, not a "first to" target.
 model Duel {
-  id            String     @id @default(cuid())
-  quizId        String
-  challengerId  String
-  opponentId    String
-  bestOf        Int
-  status        DuelStatus @default(PENDING)
+  id               String     @id @default(cuid())
+  quizId           String
+  challengerId     String
+  opponentId       String
+  bestOf           Int
+  status           DuelStatus @default(PENDING)
   // Set when status is ABANDONED: the guest who gave up (the other one wins).
-  abandonedById String?
-  createdAt     DateTime   @default(now())
-  updatedAt     DateTime   @updatedAt
+  abandonedById    String?
+  // Last time each player's duel screen polled: when both have been away
+  // for DUEL_IDLE_MS the duel is deleted (see cleanupDuels in lib/duel.ts).
+  challengerSeenAt DateTime?
+  opponentSeenAt   DateTime?
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
 
   quiz       Quiz        @relation(fields: [quizId], references: [id], onDelete: Cascade)
   challenger GuestAccess @relation("DuelChallenger", fields: [challengerId], references: [id], onDelete: Cascade)
@@ -233,20 +237,22 @@ model Duel {
 }
 
 // One round of a duel. Created with only chooserId set; the chooser then
-// picks a chapter, which draws the round's questions. `questions` stores the
+// picks a chapter, which draws the round's questions and starts the clock
+// (startedAt): each player then has DUEL_ROUND_SECONDS (lib/duel.ts) to answer. `questions` stores the
 // public views (lib/question-resolver.ts getPublicView) so both players get
 // exactly the same questions, including the same random CALCUL variables.
 // The (duelId, index) unique constraint is what stops two simultaneous
 // "last answer" requests from both creating the next round.
 model DuelRound {
-  id         String   @id @default(cuid())
+  id         String    @id @default(cuid())
   duelId     String
   index      Int
   chooserId  String
   themeId    String?
   themeTitle String?
   questions  Json?
-  createdAt  DateTime @default(now())
+  startedAt  DateTime?
+  createdAt  DateTime  @default(now())
 
   duel    Duel         @relation(fields: [duelId], references: [id], onDelete: Cascade)
   answers DuelAnswer[]

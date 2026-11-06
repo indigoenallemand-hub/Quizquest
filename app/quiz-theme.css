@@ -642,3 +642,6 @@
 .qz-duel-round-banner { max-width: 780px; margin: 0 auto 0.75rem; text-align: center; font-size: 0.8125rem; font-weight: 600; color: var(--qz-muted); }
 .qz-duel-trophy { animation: qz-duel-pop 0.6s ease; }
 @keyframes qz-duel-pop { 0% { transform: scale(0.3); opacity: 0; } 70% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+.qz-timer-pill { font-variant-numeric: tabular-nums; }
+.qz-timer-pill.is-urgent { background: var(--qz-error-light); color: var(--qz-error); animation: qz-timer-pulse 1s ease-in-out infinite; }
+@keyframes qz-timer-pulse { 50% { opacity: 0.6; } }

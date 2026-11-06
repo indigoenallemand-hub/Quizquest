@@ -25,6 +25,8 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
   const [seen, setSeen] = useState<number | null>(null);
   const [confirmAbandon, setConfirmAbandon] = useState(false);
   const [countdown, setCountdown] = useState(BACK_TO_MENU_SECONDS);
+  // Time of the last poll, used to show the opponent's remaining round time.
+  const [polledAt, setPolledAt] = useState(0);
 
   const refresh = useCallback(async () => {
     const res = await fetch(`/api/share/${token}/duels/${duelId}`);
@@ -34,6 +36,7 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
       return;
     }
     setState(data);
+    setPolledAt(Date.now());
     setSeen((s) => s ?? (data as DuelState).rounds.filter((r) => r.finished).length);
   }, [token, duelId]);
 
@@ -83,6 +86,8 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
     );
   }
   if (!state || seen === null) return <div className="qz-quiz-screen px-6 py-10">Chargement...</div>;
+
+  const secondsUntil = (iso: string | null) => (iso ? Math.max(0, Math.ceil((new Date(iso).getTime() - polledAt) / 1000)) : 0);
 
   const scoreboard = (
     <div className="qz-duel-scoreboard">
@@ -211,6 +216,7 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
           attemptsUrl={`/api/share/${token}/duels/${duelId}/answers`}
           backHref={menuHref}
           allowComment={false}
+          deadline={current.deadline ? new Date(current.deadline).getTime() : undefined}
           onComplete={() => {
             setDoneRound(current.index);
             refresh();
@@ -226,7 +232,8 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
       {!current.themeId && current.iChoose ? (
         <div className="qz-result-card">
           <h1 className="qz-result-title">A vous de choisir le chapitre</h1>
-          <p className="qz-result-message">Vous jouerez tous les deux les memes 10 questions de ce chapitre.</p>
+          <p className="qz-result-message">Vous jouerez tous les deux les memes 10 questions de ce chapitre, en 5 minutes.</p>
+          <p className="qz-question-grid-modal-answer">Sans choix, un chapitre sera tire au hasard dans {secondsUntil(current.chooseDeadline)} s.</p>
           <div className="qz-duel-theme-list">
             {state.themes.map((t) => (
               <button key={t.id} type="button" className="qz-choice" onClick={() => act({ action: "choose", themeId: t.id })}>
@@ -242,6 +249,9 @@ export default function DuelScreen({ token, duelId }: { token: string; duelId: s
             {!current.themeId
               ? `${state.opponent.name} choisit le chapitre de la manche ${current.index + 1}...`
               : `Vous avez termine la manche. ${state.opponent.name} en est a ${current.opponentAnswered}/${current.total} questions...`}
+          </p>
+          <p className="qz-question-grid-modal-answer">
+            {current.themeId ? `Temps restant : ${secondsUntil(current.deadline)} s` : `Choix automatique dans ${secondsUntil(current.chooseDeadline)} s`}
           </p>
         </div>
       )}

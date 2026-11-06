@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { resolveGuest, advanceDuel, type DuelQuestion } from "@/lib/duel";
+import { resolveGuest, advanceDuel, isAnswerTooLate, type DuelQuestion } from "@/lib/duel";
 import { gradeAttempt, InvalidAnswerError } from "@/lib/attempt-grading";
 
 // Same body QuizSession sends to the attempts routes; mode/sessionId/comment
@@ -29,7 +29,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
       status: true,
       challengerId: true,
       opponentId: true,
-      rounds: { orderBy: { index: "desc" }, take: 1, select: { id: true, questions: true } },
+      rounds: { orderBy: { index: "desc" }, take: 1, select: { id: true, questions: true, startedAt: true } },
     },
   });
   if (!duel || duel.quizId !== guest.quizId || (duel.challengerId !== me && duel.opponentId !== me)) {
@@ -37,6 +37,10 @@ export async function POST(request: Request, { params }: { params: Promise<{ tok
   }
   const round = duel.rounds[0];
   if (duel.status !== "ACTIVE" || !round) return NextResponse.json({ error: "Ce duel n'est plus en cours." }, { status: 409 });
+  if (isAnswerTooLate(round)) {
+    await advanceDuel(duelId);
+    return NextResponse.json({ error: "Temps écoulé." }, { status: 409 });
+  }
 
   const drawn = ((round.questions ?? []) as DuelQuestion[]).find((q) => q.id === questionId);
   if (!drawn) return NextResponse.json({ error: "Question hors de cette manche." }, { status: 400 });

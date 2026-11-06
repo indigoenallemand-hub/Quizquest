@@ -62,6 +62,7 @@ export default function QuizSession({
   quizId,
   allowComment = true,
   onComplete,
+  deadline,
 }: {
   mode: Mode;
   questionsUrl: string;
@@ -78,6 +79,9 @@ export default function QuizSession({
   // When set, finishing the series calls this instead of showing the result
   // screen (used by duel rounds, whose results come from the duel itself).
   onComplete?: () => void;
+  // Epoch ms at which the series ends on its own (duel rounds): shown as a
+  // countdown, and reaching it ends the series like answering the last question.
+  deadline?: number;
 }) {
   const [sessionId] = useState(() => (mode === "ENTRAINEMENT" ? undefined : crypto.randomUUID()));
   const [questions, setQuestions] = useState<PublicQuestion[] | null>(null);
@@ -124,7 +128,15 @@ export default function QuizSession({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current?.id]);
 
-  const finished = !!questions && index >= questions.length;
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    if (deadline === undefined) return;
+    const timer = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(timer);
+  }, [deadline]);
+  const secondsLeft = deadline === undefined ? null : Math.max(0, Math.ceil((deadline - now) / 1000));
+
+  const finished = (!!questions && index >= questions.length) || secondsLeft === 0;
   useEffect(() => {
     if (finished && onComplete) onComplete();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -314,6 +326,11 @@ export default function QuizSession({
             Question {index + 1} / {questions.length}
           </span>
           <div className="qz-header-right">
+            {secondsLeft !== null && (
+              <span className={`qz-score-pill qz-timer-pill ${secondsLeft <= 60 ? "is-urgent" : ""}`}>
+                ⏱ {Math.floor(secondsLeft / 60)}:{String(secondsLeft % 60).padStart(2, "0")}
+              </span>
+            )}
             <span className="qz-score-pill">Score : {score}</span>
             <Link href={backHref} className="qz-btn-quit">
               Quitter

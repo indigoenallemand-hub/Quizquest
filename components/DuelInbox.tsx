@@ -61,7 +61,7 @@ export default function DuelInbox({ token }: { token: string }) {
           <div className="qz-question-grid-modal qz-duel-modal">
             <p className="qz-duel-modal-title">⚔️ {invite.from} vous defie !</p>
             <p className="qz-question-grid-modal-answer">
-              Duel en BO {invite.bestOf} : {invite.bestOf} manche{invite.bestOf > 1 ? "s" : ""} de 10 questions, chaque joueur choisit le chapitre a tour de role.
+              Duel en BO {invite.bestOf} : {invite.bestOf} manche{invite.bestOf > 1 ? "s" : ""} de 10 questions en 5 minutes, chaque joueur choisit le chapitre a tour de role.
             </p>
             <div className="qz-duel-bo-row">
               <button type="button" className="qz-btn-primary" disabled={busy} onClick={() => answer(invite.id, "accept")}>
