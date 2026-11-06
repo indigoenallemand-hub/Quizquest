@@ -1,0 +1,1227 @@
+{
+  "title": "Acte de vente et droit du courtage",
+  "description": "Immobase — Acte de vente et droit du courtage : notion d'immeuble, forme authentique, droits d'emption, de préemption et de réméré, obligations du vendeur et de l'acheteur, garantie des défauts, transfert de propriété, profits et risques, formes de vente, LFAIE/LDFR et impôts ; contrat de courtage (art. 412ss CO), résiliation, types de courtage, exclusivité, obligations des parties, commission et réduction de la rémunération.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Selon l'art. 184 al. 1 CO, qu'est-ce que la vente ?",
+        "propositions": [
+          "Un contrat par lequel le vendeur s'oblige à livrer la chose et à en transférer la propriété à l'acheteur, moyennant un prix que l'acheteur s'engage à payer",
+          "Un contrat par lequel une partie cède l'usage d'une chose contre un loyer",
+          "Un contrat par lequel une partie s'engage à construire un ouvrage contre un prix",
+          "Un acte unilatéral par lequel le propriétaire abandonne sa chose"
+        ],
+        "reponse_correcte": "Un contrat par lequel le vendeur s'oblige à livrer la chose et à en transférer la propriété à l'acheteur, moyennant un prix que l'acheteur s'engage à payer",
+        "explication": "Éléments caractéristiques : deux parties (vendeur et acheteur), un transfert de propriété d'un bien, contre paiement d'un prix."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Selon l'art. 655 CC, lesquels de ces biens sont des immeubles ?",
+        "propositions": [
+          "Les bien-fonds",
+          "Les droits distincts et permanents immatriculés au Registre foncier",
+          "Les mines",
+          "Les parts de copropriété d'un immeuble",
+          "Le mobilier d'une villa",
+          "Les actions d'une société immobilière"
+        ],
+        "reponses_correctes": [
+          "Les bien-fonds",
+          "Les droits distincts et permanents immatriculés au Registre foncier",
+          "Les mines",
+          "Les parts de copropriété d'un immeuble"
+        ],
+        "explication": "La liste de l'art. 655 CC est exhaustive : tout bien qui n'y figure pas est considéré comme un bien mobilier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Quelle forme l'art. 216 al. 1 CO impose-t-il pour la vente d'un immeuble ?",
+        "propositions": [
+          "La forme authentique",
+          "La forme écrite simple",
+          "Aucune forme, un accord oral suffit",
+          "La forme écrite avec signature de deux témoins"
+        ],
+        "reponse_correcte": "La forme authentique",
+        "explication": "À défaut de forme authentique (acte notarié), le contrat de vente immobilière est nul."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Un acheteur et un vendeur veulent vendre une parcelle non construite sans passer devant notaire et stipulent qu'ils admettent la forme écrite. Est-ce valable ?",
+        "propositions": [
+          "Non, il s'agit de la vente d'un immeuble : la forme authentique est obligatoire",
+          "Oui, car les parties sont libres de choisir la forme de leur contrat",
+          "Oui, car un terrain non construit n'est pas un immeuble",
+          "Oui, à condition que le contrat soit inscrit au Registre foncier dans les 3 mois"
+        ],
+        "reponse_correcte": "Non, il s'agit de la vente d'un immeuble : la forme authentique est obligatoire",
+        "explication": "Un bien-fonds, même non construit, est un immeuble (art. 655 CC). La forme authentique de l'art. 216 CO est impérative ; les parties ne peuvent pas y renoncer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Dans quel cas la vente d'un immeuble ne nécessite-t-elle pas la forme authentique ?",
+        "propositions": [
+          "En cas d'enchères forcées ou volontaires",
+          "Lorsque le prix est inférieur à CHF 10'000.-",
+          "Lorsque les parties sont de la même famille",
+          "Lorsque l'immeuble est une part de PPE"
+        ],
+        "reponse_correcte": "En cas d'enchères forcées ou volontaires",
+        "explication": "Les enchères forcées ou volontaires constituent l'exception à l'exigence de la forme authentique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Quelle forme suffit pour une vente mobilière ?",
+        "propositions": [
+          "La forme orale, sauf si la loi exige expressément une forme particulière",
+          "La forme authentique",
+          "La forme écrite qualifiée",
+          "La forme écrite avec inscription dans un registre"
+        ],
+        "reponse_correcte": "La forme orale, sauf si la loi exige expressément une forme particulière",
+        "explication": "A contrario de la vente immobilière, le respect de la forme orale suffit pour la vente mobilière. Lorsqu'une forme particulière est requise, la loi le précise expressément."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conditions de la vente immobilière",
+      "content": {
+        "enonce": "Quels sont les éléments objectivement essentiels qui doivent figurer dans le contrat de vente immobilière ?",
+        "propositions": [
+          "L'identité du vendeur",
+          "L'identité de l'acheteur",
+          "L'objet transféré",
+          "Le prix d'acquisition",
+          "L'obligation de transférer et celle d'acquérir",
+          "Le nom du courtier",
+          "La date de remise des clés"
+        ],
+        "reponses_correctes": [
+          "L'identité du vendeur",
+          "L'identité de l'acheteur",
+          "L'objet transféré",
+          "Le prix d'acquisition",
+          "L'obligation de transférer et celle d'acquérir"
+        ],
+        "explication": "Ce sont les cinq éléments objectivement essentiels du contrat de vente immobilière."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Pour lesquels de ces actes la forme authentique est-elle également nécessaire ?",
+        "propositions": [
+          "Une promesse de vente",
+          "Un pacte d'emption",
+          "Un pacte de préemption",
+          "Un pacte de réméré",
+          "Un contrat de courtage immobilier"
+        ],
+        "reponses_correctes": [
+          "Une promesse de vente",
+          "Un pacte d'emption",
+          "Un pacte de préemption",
+          "Un pacte de réméré"
+        ],
+        "explication": "Ces actes portant sur un immeuble requièrent la forme authentique. Le contrat de courtage, lui, n'est soumis à aucune forme."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Qu'est-ce que le droit d'emption ?",
+        "propositions": [
+          "Le droit donné par un vendeur potentiel à un acquéreur potentiel d'acquérir un bien pendant un certain temps, par sa seule volonté",
+          "Le droit d'un tiers d'acquérir prioritairement le bien si le propriétaire le vend à quelqu'un d'autre",
+          "Le droit du vendeur de racheter le bien qu'il a vendu",
+          "Le droit du vendeur de faire inscrire une hypothèque légale"
+        ],
+        "reponse_correcte": "Le droit donné par un vendeur potentiel à un acquéreur potentiel d'acquérir un bien pendant un certain temps, par sa seule volonté",
+        "explication": "Avec le droit d'emption, la seule volonté de l'acquéreur potentiel suffit pour que le contrat de vente soit conclu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Qu'est-ce que le droit de préemption ?",
+        "propositions": [
+          "Le droit donné par un propriétaire à un tiers d'acquérir prioritairement le bien en cas de vente",
+          "Le droit d'acquérir un bien par sa seule volonté pendant un certain temps",
+          "Le droit du vendeur de racheter le bien vendu",
+          "Le droit du locataire de rester dans les locaux après la vente"
+        ],
+        "reponse_correcte": "Le droit donné par un propriétaire à un tiers d'acquérir prioritairement le bien en cas de vente",
+        "explication": "Le droit de préemption suppose qu'un contrat ait été conclu, à titre onéreux, avec un tiers. Il s'exerce dans les 3 mois dès la notification par le notaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Quelles conditions doivent être réunies pour que le titulaire d'un droit de préemption puisse l'exercer ?",
+        "propositions": [
+          "Un contrat de vente a été conclu",
+          "Le contrat a été conclu à titre onéreux",
+          "Le contrat a été conclu avec un tiers",
+          "Le propriétaire a donné son accord à l'exercice du droit",
+          "Le bien a été mis aux enchères"
+        ],
+        "reponses_correctes": [
+          "Un contrat de vente a été conclu",
+          "Le contrat a été conclu à titre onéreux",
+          "Le contrat a été conclu avec un tiers"
+        ],
+        "explication": "Le cas de préemption suppose une vente (1) à titre onéreux (2) avec un tiers (3). Une donation, par exemple, ne déclenche pas le droit de préemption."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Dans quel délai le droit de préemption doit-il être exercé ?",
+        "propositions": [
+          "3 mois dès la notification par le notaire",
+          "30 jours dès la signature de l'acte",
+          "60 jours dès l'inscription au Registre foncier",
+          "1 an dès la conclusion de la vente"
+        ],
+        "reponse_correcte": "3 mois dès la notification par le notaire",
+        "explication": "Le délai pour exercer le droit de préemption est de 3 mois dès la notification par le notaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Qu'est-ce que le droit de réméré ?",
+        "propositions": [
+          "Le droit donné par un acquéreur au vendeur de racheter le bien vendu, par la seule volonté du vendeur originaire",
+          "Le droit de l'acheteur de résilier la vente en cas de défaut",
+          "Le droit d'un voisin d'acquérir prioritairement le bien",
+          "Le droit du notaire de refuser d'instrumenter l'acte"
+        ],
+        "reponse_correcte": "Le droit donné par un acquéreur au vendeur de racheter le bien vendu, par la seule volonté du vendeur originaire",
+        "explication": "Le réméré permet au vendeur originaire de racheter le bien par sa seule volonté."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Pour quelle durée maximale un droit d'emption peut-il être conclu ?",
+        "propositions": [
+          "10 ans",
+          "5 ans",
+          "25 ans",
+          "Sans limite de durée"
+        ],
+        "reponse_correcte": "10 ans",
+        "explication": "Le droit d'emption : 10 ans au maximum. Les droits de préemption et de réméré : 25 ans au maximum."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Pour quelle durée maximale les droits de préemption et de réméré peuvent-ils être conclus ?",
+        "propositions": [
+          "25 ans",
+          "10 ans",
+          "5 ans",
+          "50 ans"
+        ],
+        "reponse_correcte": "25 ans",
+        "explication": "Préemption et réméré : 25 ans au maximum ; emption : 10 ans au maximum."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Emption, préemption et réméré",
+      "content": {
+        "enonce": "Que faut-il pour que les droits d'emption, de préemption et de réméré soient opposables aux tiers ?",
+        "propositions": [
+          "Ils doivent être annotés au Registre foncier",
+          "Ils doivent être publiés dans la Feuille des avis officiels",
+          "Ils doivent être signés devant deux témoins",
+          "Rien, ils sont opposables à tous dès leur conclusion"
+        ],
+        "reponse_correcte": "Ils doivent être annotés au Registre foncier",
+        "explication": "À défaut d'annotation au Registre foncier, ces droits ne lient que les parties."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Obligations du vendeur",
+      "content": {
+        "enonce": "Quelles sont les obligations du vendeur d'un immeuble ?",
+        "propositions": [
+          "Livrer l'objet (transférer la maîtrise de fait)",
+          "Transférer la propriété au Registre foncier",
+          "Garantir l'acheteur contre l'éviction",
+          "Garantir l'acheteur contre les défauts",
+          "Payer les droits de mutation de l'acheteur",
+          "Trouver un financement hypothécaire à l'acheteur"
+        ],
+        "reponses_correctes": [
+          "Livrer l'objet (transférer la maîtrise de fait)",
+          "Transférer la propriété au Registre foncier",
+          "Garantir l'acheteur contre l'éviction",
+          "Garantir l'acheteur contre les défauts"
+        ],
+        "explication": "Livrer (ex. remise des clés), transférer la propriété au Registre foncier, garantir contre l'éviction (art. 192ss CO) et contre les défauts (art. 197ss CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Obligations du vendeur",
+      "content": {
+        "enonce": "Pourquoi la portée de la garantie contre l'éviction est-elle limitée en matière immobilière ?",
+        "propositions": [
+          "Parce que celui qui acquiert de bonne foi en se fondant sur le Registre foncier est maintenu dans son acquisition",
+          "Parce que le vendeur peut toujours l'exclure par une clause du contrat",
+          "Parce qu'elle se prescrit par 60 jours",
+          "Parce qu'elle ne s'applique qu'aux ventes aux enchères"
+        ],
+        "reponse_correcte": "Parce que celui qui acquiert de bonne foi en se fondant sur le Registre foncier est maintenu dans son acquisition",
+        "explication": "Le véritable propriétaire ne peut agir qu'en dommages-intérêts contre le vendeur inscrit à tort au Registre foncier, et non contre l'acquéreur de bonne foi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "Qu'est-ce qu'un défaut au sens de la garantie du vendeur (art. 197ss CO) ?",
+        "propositions": [
+          "L'absence d'une qualité promise par le vendeur ou à laquelle l'acheteur pouvait s'attendre de bonne foi",
+          "Toute usure normale du bâtiment",
+          "Une différence entre le prix payé et la valeur vénale",
+          "Uniquement un dommage causé après la vente"
+        ],
+        "reponse_correcte": "L'absence d'une qualité promise par le vendeur ou à laquelle l'acheteur pouvait s'attendre de bonne foi",
+        "explication": "On distingue les défauts apparents, cachés et intentionnellement cachés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "Qu'est-ce qu'un défaut apparent ?",
+        "propositions": [
+          "Un défaut que l'acheteur peut constater visuellement",
+          "Un défaut que le vendeur connaît mais dissimule",
+          "Un défaut qui n'apparaît qu'après plusieurs années",
+          "Un défaut ignoré du vendeur et non décelable lors d'une visite"
+        ],
+        "reponse_correcte": "Un défaut que l'acheteur peut constater visuellement",
+        "explication": "La garantie ne vaut pas pour les défauts que l'acheteur connaît ou aurait dû connaître en examinant l'immeuble avant la vente. Les défauts apparents doivent être signalés dans les 60 jours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "Défaut caché : dans quel délai l'acheteur doit-il le signaler et quelle est la prescription ?",
+        "propositions": [
+          "Dans les 60 jours dès sa découverte ; prescription de 5 ans",
+          "Dans les 30 jours dès la vente ; prescription de 2 ans",
+          "Dans les 60 jours dès sa découverte ; prescription de 10 ans",
+          "Dans l'année ; prescription de 1 an"
+        ],
+        "reponse_correcte": "Dans les 60 jours dès sa découverte ; prescription de 5 ans",
+        "explication": "Le défaut caché est ignoré du vendeur et ne peut être constaté par une simple visite. Avis dans les 60 jours dès la découverte, prescription 5 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "Quel est le délai de prescription pour un défaut intentionnellement caché ?",
+        "propositions": [
+          "10 ans",
+          "5 ans",
+          "2 ans",
+          "60 jours"
+        ],
+        "reponse_correcte": "10 ans",
+        "explication": "Le défaut intentionnellement caché est connu du vendeur, qui le dissimule à l'acheteur. Prescription : 10 ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "Les parties peuvent-elles déroger à la garantie des défauts ?",
+        "propositions": [
+          "Oui pour les défauts apparents et cachés, mais pas pour les défauts frauduleusement cachés ; et on ne peut pas réduire les délais d'avis et de garantie",
+          "Non, la garantie des défauts est entièrement impérative",
+          "Oui, pour tous les défauts sans exception",
+          "Oui, et on peut aussi réduire librement les délais"
+        ],
+        "reponse_correcte": "Oui pour les défauts apparents et cachés, mais pas pour les défauts frauduleusement cachés ; et on ne peut pas réduire les délais d'avis et de garantie",
+        "explication": "Dérogation possible pour les défauts apparents et cachés (non frauduleusement cachés), mais impossible de réduire la durée du délai d'avis et du délai de garantie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "En cas de défaut, que peut demander l'acheteur ?",
+        "propositions": [
+          "La résiliation de la vente en cas de défaut très important",
+          "Une réduction du prix de vente",
+          "La réfection, uniquement en cas de vente sur plan ou d'immeuble construit moins de deux ans avant la vente",
+          "La réfection dans tous les cas",
+          "Le paiement d'une commission de courtage par le vendeur"
+        ],
+        "reponses_correctes": [
+          "La résiliation de la vente en cas de défaut très important",
+          "Une réduction du prix de vente",
+          "La réfection, uniquement en cas de vente sur plan ou d'immeuble construit moins de deux ans avant la vente"
+        ],
+        "explication": "La réfection n'est possible qu'en cas de vente sur plan ou d'un immeuble construit moins de deux ans avant la vente (cf. contrat d'entreprise)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Garantie des défauts",
+      "content": {
+        "enonce": "A vend sa villa à B en juin. En septembre, B constate que le chauffage ne fonctionne pas. Le problème n'avait pas été évoqué lors de la vente et existait déjà. Que doit faire B ?",
+        "propositions": [
+          "Aviser immédiatement le vendeur ; il peut demander une réduction du prix de vente",
+          "Rien, le transfert de propriété ayant eu lieu, la garantie est éteinte",
+          "Attendre la fin de l'hiver pour constater l'étendue du dommage",
+          "Faire réparer à ses frais, car c'est un défaut apparent"
+        ],
+        "reponse_correcte": "Aviser immédiatement le vendeur ; il peut demander une réduction du prix de vente",
+        "explication": "Il s'agit d'un défaut caché (existant au moment de la vente, non connu de l'acheteur). L'acheteur doit aviser le vendeur dès sa découverte et peut demander une réduction du prix."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Obligations de l'acheteur",
+      "content": {
+        "enonce": "Quelles affirmations concernant les obligations de l'acheteur sont correctes ?",
+        "propositions": [
+          "Il doit payer le prix de vente convenu",
+          "Il doit payer aux échéances fixées contractuellement, à défaut il doit des intérêts de retard",
+          "Le vendeur dispose d'une hypothèque légale pour garantir le paiement du prix",
+          "Il doit obligatoirement payer la commission du courtier du vendeur",
+          "Il doit faire inscrire l'hypothèque légale du vendeur dans les 10 jours"
+        ],
+        "reponses_correctes": [
+          "Il doit payer le prix de vente convenu",
+          "Il doit payer aux échéances fixées contractuellement, à défaut il doit des intérêts de retard",
+          "Le vendeur dispose d'une hypothèque légale pour garantir le paiement du prix"
+        ],
+        "explication": "L'hypothèque légale du vendeur est une garantie offerte par la loi au vendeur ; c'est le vendeur qui doit la faire inscrire au Registre foncier dans les 3 mois dès le transfert de propriété."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Obligations de l'acheteur",
+      "content": {
+        "enonce": "Dans quel délai le vendeur doit-il faire inscrire son hypothèque légale au Registre foncier ?",
+        "propositions": [
+          "3 mois à compter du transfert de propriété",
+          "60 jours à compter de la signature de l'acte",
+          "1 an à compter du paiement partiel",
+          "10 ans à compter de la vente"
+        ],
+        "reponse_correcte": "3 mois à compter du transfert de propriété",
+        "explication": "L'hypothèque légale du vendeur garantit le paiement du prix ; elle doit être inscrite dans les 3 mois dès le transfert de propriété."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Transfert de propriété, profits et risques",
+      "content": {
+        "enonce": "En droit suisse, quand s'effectue le transfert de propriété d'un immeuble ?",
+        "propositions": [
+          "Par l'inscription au Registre foncier",
+          "Dès la conclusion du contrat de vente",
+          "Lors de la remise des clés",
+          "Lors du paiement complet du prix"
+        ],
+        "reponse_correcte": "Par l'inscription au Registre foncier",
+        "explication": "Le transfert de propriété s'effectue par l'inscription au Registre foncier, et non par la conclusion du contrat (contrairement au droit français)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Transfert de propriété, profits et risques",
+      "content": {
+        "enonce": "Sauf stipulation contraire, quand les profits et les risques passent-ils à l'acquéreur ?",
+        "propositions": [
+          "Dès la conclusion du contrat",
+          "Dès l'inscription au Registre foncier",
+          "Dès la remise des clés",
+          "Dès le paiement complet du prix"
+        ],
+        "reponse_correcte": "Dès la conclusion du contrat",
+        "explication": "Les profits et les risques (ex. loyers, risque d'incendie, charges de PPE) passent à l'acquéreur dès la conclusion du contrat, sauf exceptions résultant des circonstances ou de stipulations contraires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Transfert de propriété, profits et risques",
+      "content": {
+        "enonce": "A et B signent la vente de locaux commerciaux. Le soir même, les locaux sont cambriolés et très endommagés. Rien n'est prévu dans le contrat. Qui supporte le risque ?",
+        "propositions": [
+          "L'acheteur, car les risques ont passé à la conclusion du contrat, même s'il n'est pas encore inscrit au Registre foncier",
+          "Le vendeur, car il est encore propriétaire au Registre foncier",
+          "Le locataire, car il occupe les locaux",
+          "Le notaire, qui n'a pas encore transmis la réquisition"
+        ],
+        "reponse_correcte": "L'acheteur, car les risques ont passé à la conclusion du contrat, même s'il n'est pas encore inscrit au Registre foncier",
+        "explication": "En l'absence de clause contraire, la loi s'applique : les risques passent à la conclusion du contrat. L'acheteur supporte le vol et les dégâts alors qu'il n'est pas encore propriétaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Transfert de propriété, profits et risques",
+      "content": {
+        "enonce": "En pratique, quelles dates de transfert des profits et risques peuvent être convenues dans l'acte notarié ?",
+        "propositions": [
+          "À la remise des clés",
+          "À la signature de l'acte",
+          "Au paiement complet du prix de vente",
+          "À une date déterminée",
+          "Aucune, la date est fixée impérativement par la loi"
+        ],
+        "reponses_correctes": [
+          "À la remise des clés",
+          "À la signature de l'acte",
+          "Au paiement complet du prix de vente",
+          "À une date déterminée"
+        ],
+        "explication": "La règle légale est dispositive : convenir d'une date dans l'acte notarié est la solution la plus fréquente en pratique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise la vente immédiate (ou directe) ?",
+        "propositions": [
+          "Un contrat sans conditions qui engage les parties dès la signature ; le prix est payé en main du notaire et la réquisition de transfert est transmise de suite au Registre foncier",
+          "Un précontrat qui engage les parties à conclure ultérieurement la vente",
+          "Une vente dont le transfert est subordonné à une condition suspensive",
+          "Une vente dont le transfert est différé à un terme convenu"
+        ],
+        "reponse_correcte": "Un contrat sans conditions qui engage les parties dès la signature ; le prix est payé en main du notaire et la réquisition de transfert est transmise de suite au Registre foncier",
+        "explication": "Dans la vente immédiate, l'acte précise toutes les conditions du transfert et le prix doit être payé en main du notaire pour le jour de la signature."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Quelles affirmations sur la promesse de vente et d'achat sont correctes ?",
+        "propositions": [
+          "C'est un précontrat qui engage les parties à conclure ultérieurement un contrat de vente",
+          "Un acompte de généralement 10% du prix est payé en main du notaire",
+          "Il n'y a pas de transfert de propriété",
+          "Si une partie se rétracte, l'autre peut l'obliger à conclure le contrat de vente ou invoquer la clause pénale convenue",
+          "Elle peut être conclue par écrit simple"
+        ],
+        "reponses_correctes": [
+          "C'est un précontrat qui engage les parties à conclure ultérieurement un contrat de vente",
+          "Un acompte de généralement 10% du prix est payé en main du notaire",
+          "Il n'y a pas de transfert de propriété",
+          "Si une partie se rétracte, l'autre peut l'obliger à conclure le contrat de vente ou invoquer la clause pénale convenue"
+        ],
+        "explication": "La promesse de vente requiert la forme authentique. Les éléments peuvent ne pas être clairement définis (ex. prix au m²). Il n'y a pas d'action en transfert de la propriété."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Comment appelle-t-on la vente qui prévoit un transfert de propriété différé dans le temps selon un terme défini entre les parties ?",
+        "propositions": [
+          "La vente à terme",
+          "La vente conditionnelle",
+          "La promesse de vente",
+          "La vente immédiate"
+        ],
+        "reponse_correcte": "La vente à terme",
+        "explication": "Un acompte d'usage de 10% est versé ; les parties sont re-convoquées par le notaire pour le paiement complet du prix et la signature de la réquisition de transfert."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Une vente dont le transfert de propriété est subordonné à l'obtention d'une autorisation de construire est une…",
+        "propositions": [
+          "Vente conditionnelle",
+          "Vente à terme",
+          "Vente immédiate",
+          "Vente sur plan clé en main"
+        ],
+        "reponse_correcte": "Vente conditionnelle",
+        "explication": "La vente conditionnelle subordonne le transfert à la réalisation d'une condition suspensive. Si la condition se réalise, les parties sont reconvoquées par le notaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Quel est l'usage concernant l'acompte dans une promesse de vente, une vente à terme ou une vente conditionnelle ?",
+        "propositions": [
+          "Environ 10% du prix d'achat payé en main du notaire le jour de la signature",
+          "Environ 20% du prix payé directement au vendeur",
+          "Aucun acompte n'est versé",
+          "Le prix total est payé au courtier"
+        ],
+        "reponse_correcte": "Environ 10% du prix d'achat payé en main du notaire le jour de la signature",
+        "explication": "Il est d'usage qu'un acompte de généralement 10% du prix soit payé en main du notaire pour le jour de la signature de l'acte."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Quelles affirmations s'appliquent à la vente sur plan « clé en main » ?",
+        "propositions": [
+          "L'acquéreur achète un terrain et une construction à venir pour un prix fixé au départ",
+          "Un descriptif de construction est annexé à l'acte et en fait partie intégrante",
+          "Le transfert de propriété a lieu à la livraison (remise des clés)",
+          "Les frais d'acquisition sont dus sur le montant total",
+          "Les frais d'acquisition sont dus sur le prix du terrain uniquement"
+        ],
+        "reponses_correctes": [
+          "L'acquéreur achète un terrain et une construction à venir pour un prix fixé au départ",
+          "Un descriptif de construction est annexé à l'acte et en fait partie intégrante",
+          "Le transfert de propriété a lieu à la livraison (remise des clés)",
+          "Les frais d'acquisition sont dus sur le montant total"
+        ],
+        "explication": "Le prix peut être versé en totalité à la livraison ou en acomptes selon l'avancement des travaux."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Formes de vente",
+      "content": {
+        "enonce": "Quelles affirmations s'appliquent à la vente sur plan « avec part terrain » ?",
+        "propositions": [
+          "L'acquéreur achète un terrain et signe un contrat d'entreprise pour la construction",
+          "Le prix du terrain est versé au moment de l'achat",
+          "Le transfert de propriété a lieu dès l'achat du terrain",
+          "Les frais d'acquisition sont dus sur le prix du terrain uniquement",
+          "Le transfert de propriété a lieu à la remise des clés du bâtiment"
+        ],
+        "reponses_correctes": [
+          "L'acquéreur achète un terrain et signe un contrat d'entreprise pour la construction",
+          "Le prix du terrain est versé au moment de l'achat",
+          "Le transfert de propriété a lieu dès l'achat du terrain",
+          "Les frais d'acquisition sont dus sur le prix du terrain uniquement"
+        ],
+        "explication": "Le contrat combine une vente (terrain) et un contrat d'entreprise (construction) ; les frais d'acquisition ne portent que sur le terrain."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Divers : autorisations et impôts",
+      "content": {
+        "enonce": "Quelles législations peuvent restreindre le transfert de propriété d'un immeuble ?",
+        "propositions": [
+          "La LFAIE (acquisition par des personnes à l'étranger)",
+          "La LDFR (droit foncier rural)",
+          "La protection du logement familial (art. 169 CC)",
+          "Les lois cantonales comme la LVAL (VD), CVAL (NE), LGZD (GE)",
+          "Le contrat de courtage"
+        ],
+        "reponses_correctes": [
+          "La LFAIE (acquisition par des personnes à l'étranger)",
+          "La LDFR (droit foncier rural)",
+          "La protection du logement familial (art. 169 CC)",
+          "Les lois cantonales comme la LVAL (VD), CVAL (NE), LGZD (GE)"
+        ],
+        "explication": "Si les autorisations spéciales requises font défaut, la vente est nulle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Divers : autorisations et impôts",
+      "content": {
+        "enonce": "Selon la LDFR, à partir de quelle surface un bien est-il soumis à autorisation spéciale ?",
+        "propositions": [
+          "1500 m² pour les vignes, 2500 m² pour les autres biens",
+          "2500 m² pour les vignes, 1500 m² pour les autres biens",
+          "1000 m² pour tous les biens",
+          "5000 m² pour tous les biens"
+        ],
+        "reponse_correcte": "1500 m² pour les vignes, 2500 m² pour les autres biens",
+        "explication": "La LDFR vise à éviter le démantèlement des entreprises agricoles. En Valais, l'autorisation est aussi requise si le prix dépasse CHF 10'000.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Divers : autorisations et impôts",
+      "content": {
+        "enonce": "Quelle est la conséquence d'une vente conclue sans l'autorisation LFAIE ou LDFR requise ?",
+        "propositions": [
+          "La vente est nulle",
+          "La vente est valable mais l'acheteur paie une amende",
+          "La vente est valable si le prix a été payé",
+          "Le notaire peut régulariser l'acte dans les 10 ans"
+        ],
+        "reponse_correcte": "La vente est nulle",
+        "explication": "Si les autorisations spéciales font défaut, la vente est nulle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Divers : autorisations et impôts",
+      "content": {
+        "enonce": "Comment se calcule le gain imposable pour l'impôt sur les gains immobiliers ?",
+        "propositions": [
+          "Prix d'aliénation moins prix d'acquisition, sous déduction des impenses",
+          "Prix de vente multiplié par le taux des droits de mutation",
+          "Valeur fiscale moins dette hypothécaire",
+          "Prix de vente moins commission du courtier uniquement"
+        ],
+        "reponse_correcte": "Prix d'aliénation moins prix d'acquisition, sous déduction des impenses",
+        "explication": "L'impôt sur les gains immobiliers est le principal impôt résultant d'une vente."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Divers : autorisations et impôts",
+      "content": {
+        "enonce": "Que sont les droits de mutation ?",
+        "propositions": [
+          "Une taxe cantonale proportionnelle au prix de vente",
+          "Un impôt fédéral sur la fortune immobilière",
+          "La commission due au notaire",
+          "L'impôt sur le gain réalisé par le vendeur"
+        ],
+        "reponse_correcte": "Une taxe cantonale proportionnelle au prix de vente",
+        "explication": "En Valais s'ajoute une taxe additionnelle communale, pouvant atteindre au maximum 50% des droits du Registre foncier, prélevée par le Registre foncier au bénéfice des communes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notion et conditions du courtage",
+      "content": {
+        "enonce": "Selon l'art. 412 al. 1 CO, qu'est-ce que le courtage ?",
+        "propositions": [
+          "Un contrat par lequel le courtier est chargé, moyennant un salaire, d'indiquer l'occasion de conclure une convention ou de servir d'intermédiaire pour la négociation d'un contrat",
+          "Un contrat par lequel le courtier s'engage à vendre lui-même l'immeuble en son nom",
+          "Un contrat de travail entre un agent immobilier et son employeur",
+          "Un contrat par lequel le courtier garantit la vente au prix demandé"
+        ],
+        "reponse_correcte": "Un contrat par lequel le courtier est chargé, moyennant un salaire, d'indiquer l'occasion de conclure une convention ou de servir d'intermédiaire pour la négociation d'un contrat",
+        "explication": "Base légale : art. 412ss CO. Les règles du mandat s'appliquent en général au courtage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notion et conditions du courtage",
+      "content": {
+        "enonce": "Lequel de ces contrats relève du courtage immobilier au sens de la pratique ?",
+        "propositions": [
+          "Le courtage portant sur la vente d'un immeuble",
+          "Le courtage d'un contrat de bail",
+          "Le courtage d'un crédit hypothécaire",
+          "Le courtage d'une assurance bâtiment"
+        ],
+        "reponse_correcte": "Le courtage portant sur la vente d'un immeuble",
+        "explication": "La loi ne définit pas le courtage immobilier ; la pratique le définit comme une activité d'entremise, exercée à titre onéreux, tendant à la conclusion d'une aliénation immobilière."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notion et conditions du courtage",
+      "content": {
+        "enonce": "Quelles règles du mandat s'appliquent en général au courtage ?",
+        "propositions": [
+          "L'obligation de diligence et de fidélité (art. 398 CO renvoyant à l'art. 321a CO)",
+          "Le droit des parties de résilier en tout temps (art. 404 CO)",
+          "L'obligation pour le mandant de payer indépendamment du résultat",
+          "Le lien de subordination envers le mandant"
+        ],
+        "reponses_correctes": [
+          "L'obligation de diligence et de fidélité (art. 398 CO renvoyant à l'art. 321a CO)",
+          "Le droit des parties de résilier en tout temps (art. 404 CO)"
+        ],
+        "explication": "Contrairement au mandat, la rémunération du courtier dépend du résultat ; le lien de subordination caractérise le contrat de travail."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notion et conditions du courtage",
+      "content": {
+        "enonce": "Pourquoi dit-on que la rémunération du courtier est aléatoire ?",
+        "propositions": [
+          "Parce qu'elle dépend de la conclusion du contrat principal par le mandant, qui reste libre de conclure ou non",
+          "Parce que son montant est fixé par tirage au sort",
+          "Parce qu'elle dépend du nombre de visites effectuées",
+          "Parce que le juge peut toujours la supprimer"
+        ],
+        "reponse_correcte": "Parce qu'elle dépend de la conclusion du contrat principal par le mandant, qui reste libre de conclure ou non",
+        "explication": "Le mandant est libre de conclure ou non l'affaire amenée par le courtier, sauf abus de droit manifeste. Vu cette position précaire, il n'est pas anormal que le courtier perçoive parfois une commission importante pour peu d'efforts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Résiliation du courtage",
+      "content": {
+        "enonce": "Le contrat de courtage peut-il être résilié en tout temps ?",
+        "propositions": [
+          "Oui, chaque partie peut résilier en tout temps (art. 404 CO) ; une clause limitant ce droit est nulle",
+          "Non, il faut respecter le délai prévu dans le contrat",
+          "Oui, mais seulement le courtier",
+          "Non, le contrat prend fin uniquement à la vente du bien"
+        ],
+        "reponse_correcte": "Oui, chaque partie peut résilier en tout temps (art. 404 CO) ; une clause limitant ce droit est nulle",
+        "explication": "L'art. 404 CO est impératif. Une résiliation en temps inopportun peut toutefois exposer la partie qui résilie à des dommages-intérêts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Résiliation du courtage",
+      "content": {
+        "enonce": "Un courtier a trouvé un acheteur et un rendez-vous est pris chez le notaire. Le client résilie le contrat de courtage sans respecter le délai contractuel, puis signe la vente. Le courtier a-t-il droit à sa commission ?",
+        "propositions": [
+          "Oui : la résiliation est possible (art. 404 CO), mais elle ne fait pas perdre la commission, car le travail a été fait pendant le contrat",
+          "Non : le contrat étant résilié, aucune commission n'est due",
+          "Non : la résiliation est nulle, donc le contrat continue mais sans commission",
+          "Seulement la moitié de la commission"
+        ],
+        "reponse_correcte": "Oui : la résiliation est possible (art. 404 CO), mais elle ne fait pas perdre la commission, car le travail a été fait pendant le contrat",
+        "explication": "Ce qui compte, c'est le moment où le travail a été fait : la vente est la conséquence de l'activité du courtier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délimitation avec d'autres contrats",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue le courtage du contrat de mandat ?",
+        "propositions": [
+          "Le mandataire est obligé d'agir et est rémunéré indépendamment du résultat, alors que le courtier n'est pas obligé d'agir et n'est payé qu'en cas de succès",
+          "Le courtier est lié par un rapport de subordination",
+          "Le mandataire intervient à titre permanent pour son mandant",
+          "Il n'y a aucune différence"
+        ],
+        "reponse_correcte": "Le mandataire est obligé d'agir et est rémunéré indépendamment du résultat, alors que le courtier n'est pas obligé d'agir et n'est payé qu'en cas de succès",
+        "explication": "Sauf gratuité voulue entre les parties, le mandant doit une rémunération au mandataire indépendamment du résultat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Délimitation avec d'autres contrats",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue le contrat d'agence du courtage ?",
+        "propositions": [
+          "L'agent s'engage à intervenir à titre permanent pour son mandant, alors que le courtier n'intervient que pour une affaire précise",
+          "L'agent n'est jamais rémunéré",
+          "L'agent est lié par un rapport de subordination",
+          "Le contrat d'agence exige la forme authentique"
+        ],
+        "reponse_correcte": "L'agent s'engage à intervenir à titre permanent pour son mandant, alors que le courtier n'intervient que pour une affaire précise",
+        "explication": "Le contrat de travail se distingue, lui, par le lien de subordination et l'obligation de déployer une activité précise pour l'employeur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Qui est le courtier indicateur ?",
+        "propositions": [
+          "Celui qui est le premier à désigner, comme s'intéressant à l'affaire, la personne qui conclut ensuite le contrat principal",
+          "Celui qui négocie et arrête les termes du contrat principal",
+          "Celui qui rédige l'acte de vente",
+          "Celui qui estime la valeur de l'immeuble"
+        ],
+        "reponse_correcte": "Celui qui est le premier à désigner, comme s'intéressant à l'affaire, la personne qui conclut ensuite le contrat principal",
+        "explication": "Le courtier négociateur, lui, négocie et arrête les termes du contrat principal et harmonise les exigences du mandant et du tiers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Quelle mission le courtier a-t-il en général intérêt à prévoir dans son contrat ?",
+        "propositions": [
+          "Une mission très large, prévoyant l'alternative de l'indication et de la négociation",
+          "Uniquement l'indication",
+          "Uniquement la négociation",
+          "Une mission limitée à la rédaction de l'annonce"
+        ],
+        "reponse_correcte": "Une mission très large, prévoyant l'alternative de l'indication et de la négociation",
+        "explication": "Les modèles USPI Vaud prévoient d'ailleurs que le courtier intervient comme négociateur ou comme indicateur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Si les parties ne prévoient rien, le contrat de courtage est présumé…",
+        "propositions": [
+          "Non exclusif",
+          "Exclusif",
+          "Semi-exclusif",
+          "Conjoint et exclusif"
+        ],
+        "reponse_correcte": "Non exclusif",
+        "explication": "Le client peut alors mandater d'autres courtiers : deux ou trois (mandat non exclusif limité) ou toutes les agences (mandat non exclusif illimité)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Dans un contrat de courtage semi-exclusif (modèle USPI Vaud), que peut faire le mandant ?",
+        "propositions": [
+          "Trouver lui-même un acquéreur, mais uniquement par le biais de son entourage",
+          "Mandater d'autres courtiers en parallèle",
+          "Démarcher librement tout tiers par des annonces",
+          "Rien : il doit obligatoirement vendre par le courtier"
+        ],
+        "reponse_correcte": "Trouver lui-même un acquéreur, mais uniquement par le biais de son entourage",
+        "explication": "Il s'interdit de recourir à d'autres courtiers et de démarcher des tiers hors de son entourage ; en cas de violation, il doit la pleine commission."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Dans un contrat de courtage exclusif (modèle USPI Vaud), le mandant vend lui-même son bien à un acheteur trouvé sans le courtier. Quelle conséquence ?",
+        "propositions": [
+          "Le courtier a droit à la pleine commission, calculée sur le prix de vente effectif",
+          "Aucune, car le courtier n'a pas trouvé l'acheteur",
+          "Le courtier a droit à 25% de la commission",
+          "La vente est nulle"
+        ],
+        "reponse_correcte": "Le courtier a droit à la pleine commission, calculée sur le prix de vente effectif",
+        "explication": "Dans le contrat exclusif, le mandant s'interdit de recourir à d'autres courtiers et de rechercher lui-même un acquéreur. En cas de violation, la pleine commission est due."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de courtage",
+      "content": {
+        "enonce": "Quels sont les avantages du mandat de courtage exclusif ?",
+        "propositions": [
+          "La commission du courtier devient moins aléatoire",
+          "Le client s'assure un travail plus actif du courtier",
+          "Le client obtient une mise sur le marché propre et cohérente de son bien",
+          "Le courtier n'a plus d'obligation d'agir",
+          "Le client peut mandater d'autres courtiers"
+        ],
+        "reponses_correctes": [
+          "La commission du courtier devient moins aléatoire",
+          "Le client s'assure un travail plus actif du courtier",
+          "Le client obtient une mise sur le marché propre et cohérente de son bien"
+        ],
+        "explication": "En contrepartie, le courtier exclusif a une obligation de mener une activité de commercialisation. La clause d'exclusivité doit être bien rédigée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du contrat de courtage",
+      "content": {
+        "enonce": "Quelle forme la loi impose-t-elle pour le contrat de courtage ?",
+        "propositions": [
+          "Aucune : il peut être conclu oralement ou par écrit",
+          "La forme authentique, comme la vente immobilière",
+          "La forme écrite, sous peine de nullité",
+          "La forme écrite avec inscription au Registre foncier"
+        ],
+        "reponse_correcte": "Aucune : il peut être conclu oralement ou par écrit",
+        "explication": "Il est toutefois très recommandé de le conclure par écrit pour éviter des contestations ultérieures."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Forme du contrat de courtage",
+      "content": {
+        "enonce": "Quels sont les éléments essentiels du contrat de courtage ?",
+        "propositions": [
+          "Les parties au contrat",
+          "Le type d'activité à déployer",
+          "L'objet de l'activité à déployer",
+          "Le montant exact de la rémunération",
+          "La durée du contrat"
+        ],
+        "reponses_correctes": [
+          "Les parties au contrat",
+          "Le type d'activité à déployer",
+          "L'objet de l'activité à déployer"
+        ],
+        "explication": "Le montant de la rémunération n'est pas un élément essentiel, mais elle doit être au moins tacitement convenue : un mandat non onéreux n'est pas un courtage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Forme du contrat de courtage",
+      "content": {
+        "enonce": "A confie oralement à B le soin de trouver un acheteur. Avant d'avoir rédigé le contrat, B trouve un amateur au prix demandé. B peut-il prétendre à une commission ?",
+        "propositions": [
+          "Oui, le contrat oral est valable si les conditions du droit à la commission sont réunies ; la commission sera fixée par accord ou selon l'usage",
+          "Non, un contrat de courtage doit être écrit",
+          "Non, car aucun montant n'a été convenu",
+          "Oui, mais au maximum 1% du prix"
+        ],
+        "reponse_correcte": "Oui, le contrat oral est valable si les conditions du droit à la commission sont réunies ; la commission sera fixée par accord ou selon l'usage",
+        "explication": "Conditions : vente signée, lien de causalité, pas de déchéance. La preuve du contrat oral sera toutefois difficile à apporter."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Obligations du courtier",
+      "content": {
+        "enonce": "Quelles sont les obligations du courtier ?",
+        "propositions": [
+          "Agir dans l'intérêt de son mandant (fidélité et diligence)",
+          "Respecter les indications de son mandant",
+          "Exécuter personnellement le mandat, sauf dérogation expresse",
+          "Agir obligatoirement dans tous les cas, même sans exclusivité",
+          "Garantir la vente au prix demandé"
+        ],
+        "reponses_correctes": [
+          "Agir dans l'intérêt de son mandant (fidélité et diligence)",
+          "Respecter les indications de son mandant",
+          "Exécuter personnellement le mandat, sauf dérogation expresse"
+        ],
+        "explication": "Le courtier n'a pas l'obligation d'agir, sauf en cas de contrat exclusif. « Personnellement » vise l'entité à laquelle le mandat a été confié."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Obligations du courtier",
+      "content": {
+        "enonce": "Qu'interdit la jurisprudence actuelle du Tribunal fédéral sur la base de l'art. 415 CO ?",
+        "propositions": [
+          "Le double courtage de négociation, soit négocier à la fois pour l'acheteur et le vendeur",
+          "Le courtage d'indication",
+          "Le courtage exclusif",
+          "La commission forfaitaire"
+        ],
+        "reponse_correcte": "Le double courtage de négociation, soit négocier à la fois pour l'acheteur et le vendeur",
+        "explication": "L'art. 415 CO sanctionne la violation du devoir de fidélité par la déchéance du droit à la commission."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Obligations du mandant et commission",
+      "content": {
+        "enonce": "Quelles conditions doivent être réunies pour que le mandant doive la commission ?",
+        "propositions": [
+          "Le contrat principal est conclu (art. 413 al. 1 CO), valable et ferme",
+          "Le contrat principal est la conséquence de l'activité du courtier (lien de causalité)",
+          "Il n'y a pas de déchéance au sens de l'art. 415 CO",
+          "Le prix a été entièrement payé et la propriété inscrite au Registre foncier",
+          "Le courtier a effectué au moins trois visites"
+        ],
+        "reponses_correctes": [
+          "Le contrat principal est conclu (art. 413 al. 1 CO), valable et ferme",
+          "Le contrat principal est la conséquence de l'activité du courtier (lien de causalité)",
+          "Il n'y a pas de déchéance au sens de l'art. 415 CO"
+        ],
+        "explication": "Le salaire ne dépend pas de l'exécution de la vente (paiement, inscription au RF). Si le contrat principal est conditionnel, la condition doit être réalisée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Obligations du mandant et commission",
+      "content": {
+        "enonce": "Quelle obligation, outre le paiement de la commission, incombe au mandant ?",
+        "propositions": [
+          "Une obligation d'information : donner tous les renseignements nécessaires au courtier",
+          "Une obligation d'exclusivité dans tous les cas",
+          "L'obligation de vendre au premier acheteur présenté",
+          "L'obligation de payer les frais du courtier même si rien n'est prévu"
+        ],
+        "reponse_correcte": "Une obligation d'information : donner tous les renseignements nécessaires au courtier",
+        "explication": "Le mandant reste libre de conclure ou non avec l'acheteur présenté, sauf abus de droit manifeste."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Obligations du mandant et commission",
+      "content": {
+        "enonce": "Les frais du courtier sont-ils remboursés par le mandant ?",
+        "propositions": [
+          "Seulement si cela a été prévu (art. 413 al. 3 CO a contrario)",
+          "Toujours, même si l'affaire n'a pas abouti",
+          "Jamais, ils sont compris dans la commission par la loi",
+          "Seulement si la vente échoue"
+        ],
+        "reponse_correcte": "Seulement si cela a été prévu (art. 413 al. 3 CO a contrario)",
+        "explication": "Les modèles USPI prévoient ainsi une clause « Frais et débours » facturés jusqu'à un plafond, même si l'affaire n'aboutit pas."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Montant de la rémunération",
+      "content": {
+        "enonce": "Lorsque la rémunération n'a pas été déterminée par les parties, que prévoit l'art. 414 CO ?",
+        "propositions": [
+          "Le tarif s'il en existe un, à défaut le salaire usuel est réputé convenu",
+          "Aucune commission n'est due",
+          "Le tarif de l'association professionnelle s'applique obligatoirement",
+          "Une commission fixe de 3% du prix"
+        ],
+        "reponse_correcte": "Le tarif s'il en existe un, à défaut le salaire usuel est réputé convenu",
+        "explication": "La référence au tarif est obsolète (tarifs cantonaux abrogés). Reste l'usage local, très difficile à prouver en justice (témoins)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Montant de la rémunération",
+      "content": {
+        "enonce": "Selon le Tribunal fédéral, les tarifs édictés par les associations professionnelles sont-ils l'expression d'un usage ?",
+        "propositions": [
+          "Non ; tout au plus un indice d'usage selon certains tribunaux, et ils sont aujourd'hui prohibés en courtage immobilier",
+          "Oui, ils s'appliquent automatiquement",
+          "Oui, mais uniquement dans le canton de Vaud",
+          "Oui, s'ils sont publiés dans la Feuille officielle"
+        ],
+        "reponse_correcte": "Non ; tout au plus un indice d'usage selon certains tribunaux, et ils sont aujourd'hui prohibés en courtage immobilier",
+        "explication": "Conseil pratique : définir la rémunération due dès le départ."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réduction de la rémunération",
+      "content": {
+        "enonce": "Que permet l'art. 417 CO ?",
+        "propositions": [
+          "Au juge de réduire équitablement, à la requête du débiteur, un salaire excessif stipulé pour une vente d'immeuble",
+          "Au courtier d'augmenter sa commission si la vente est difficile",
+          "Au mandant de refuser toute commission",
+          "Au notaire de fixer la commission"
+        ],
+        "reponse_correcte": "Au juge de réduire équitablement, à la requête du débiteur, un salaire excessif stipulé pour une vente d'immeuble",
+        "explication": "L'art. 417 CO vise le courtage d'un contrat individuel de travail ou d'une vente d'immeuble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réduction de la rémunération",
+      "content": {
+        "enonce": "Un contrat de courtage peut-il prévoir qu'une commission forfaitaire de CHF 40'000.- ne pourra en aucun cas être remise en question par le mandant ?",
+        "propositions": [
+          "Non, l'art. 417 CO est impératif ; le forfait n'est pas abusif en soi, cela dépend des circonstances",
+          "Oui, la liberté contractuelle prime",
+          "Oui, si le contrat est conclu par écrit",
+          "Non, car une commission forfaitaire est toujours nulle"
+        ],
+        "reponse_correcte": "Non, l'art. 417 CO est impératif ; le forfait n'est pas abusif en soi, cela dépend des circonstances",
+        "explication": "Les parties ne peuvent pas déroger à l'art. 417 CO. Le caractère excessif s'apprécie selon le prix de l'immeuble, le timing, les spécificités, etc."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réduction de la rémunération",
+      "content": {
+        "enonce": "À quelles opérations s'étend le champ d'application de l'art. 417 CO ?",
+        "propositions": [
+          "Les ventes d'immeubles",
+          "L'échange immobilier",
+          "Le pacte d'emption",
+          "Le droit de superficie",
+          "La vente de toutes les actions d'une société immobilière",
+          "Le courtage d'un contrat de bail"
+        ],
+        "reponses_correctes": [
+          "Les ventes d'immeubles",
+          "L'échange immobilier",
+          "Le pacte d'emption",
+          "Le droit de superficie",
+          "La vente de toutes les actions d'une société immobilière"
+        ],
+        "explication": "Les critères pour juger si la rémunération est excessive s'apprécient de cas en cas (particularités de l'objet, activités déployées, etc.)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réduction de la rémunération",
+      "content": {
+        "enonce": "Selon la casuistique, lesquelles de ces commissions ont été jugées excessives ?",
+        "propositions": [
+          "11% du prix alors que le taux usuel est de 2%",
+          "10% du prix d'une villa vendue CHF 250'000.-",
+          "5% pour un prix de vente de CHF 300'000.-",
+          "3% sur un prix de vente inférieur à CHF 200'000.-",
+          "2 à 2.5% sur un prix de vente supérieur à CHF 500'000.-",
+          "3 à 5% pour un terrain non bâti"
+        ],
+        "reponses_correctes": [
+          "11% du prix alors que le taux usuel est de 2%",
+          "10% du prix d'une villa vendue CHF 250'000.-",
+          "5% pour un prix de vente de CHF 300'000.-"
+        ],
+        "explication": "Ont été jugées admissibles : 2 à 2.5% au-delà de CHF 500'000.-, 3% sous CHF 200'000.-, 3.57% pour CHF 2'800'000.- et 1'750'000.-, 3 à 5% pour un terrain non bâti."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Clauses des contrats USPI Vaud",
+      "content": {
+        "enonce": "Selon les modèles de contrat de courtage USPI Vaud, pendant combien de temps après la fin du contrat la commission reste-t-elle due en cas de vente à un acquéreur indiqué ou amené par le courtier ?",
+        "propositions": [
+          "24 mois",
+          "6 mois",
+          "12 mois",
+          "5 ans"
+        ],
+        "reponse_correcte": "24 mois",
+        "explication": "Le mandant doit aussi informer le courtier, durant ces 24 mois, de toute vente à un acquéreur présenté ou indiqué par lui, sous peine de devoir la pleine commission."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Clauses des contrats USPI Vaud",
+      "content": {
+        "enonce": "Selon les modèles USPI Vaud, si le courtier obtient l'acceptation d'une offre ou une promesse de vente et que le mandant renonce à s'exécuter, à quoi a-t-il droit ?",
+        "propositions": [
+          "À une indemnité de 50% de la commission, plus le remboursement des débours convenus",
+          "À la pleine commission",
+          "À 25% du dédit ou de la clause pénale",
+          "À rien, car la vente n'a pas abouti"
+        ],
+        "reponse_correcte": "À une indemnité de 50% de la commission, plus le remboursement des débours convenus",
+        "explication": "Si c'est l'acheteur qui n'exécute pas une promesse de vente / vente à terme, le courtier reçoit 25% du dédit, de la clause pénale ou de l'indemnité, sans dépasser la commission et les frais qu'il aurait touchés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Clauses des contrats USPI Vaud",
+      "content": {
+        "enonce": "Selon les modèles USPI Vaud, sur quel prix la commission est-elle calculée ?",
+        "propositions": [
+          "Sur le prix de vente effectif accepté par le mandant, qu'il soit inférieur ou supérieur au prix demandé",
+          "Toujours sur le prix de vente demandé indiqué dans le contrat",
+          "Sur la valeur fiscale de l'immeuble",
+          "Sur la valeur d'assurance ECA"
+        ],
+        "reponse_correcte": "Sur le prix de vente effectif accepté par le mandant, qu'il soit inférieur ou supérieur au prix demandé",
+        "explication": "Le prix demandé n'a qu'une valeur indicative. Pour la vente d'actions d'une société immobilière, la commission se calcule sur la valeur vénale attribuable à l'immeuble."
+      }
+    }
+  ]
+}

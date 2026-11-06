@@ -1,0 +1,1978 @@
+{
+  "title": "Décompte de chauffage et frais accessoires",
+  "description": "Immobase — Décomptes des charges : bases légales (CO 257a-b, OBLF 4-8, CO 128), énergies et unités, contenu du décompte de chauffage et d'eau chaude, valorisation du stock de mazout (FIFO, moyenne pondérée), répartition chauffage / ECS (clefs usuelles, directives vaudoises), mutations, DIFC, modes de facturation et frais accessoires.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Existe-t-il un modèle type de décompte de chauffage, eau chaude et frais accessoires valable pour toute la Suisse ?",
+        "propositions": [
+          "Non, il n'existe pas de décompte type",
+          "Oui, le modèle officiel de l'OBLF",
+          "Oui, le modèle de l'USPI, obligatoire dans tous les cantons romands",
+          "Oui, mais uniquement pour les immeubles de plus de 5 logements"
+        ],
+        "reponse_correcte": "Non, il n'existe pas de décompte type",
+        "explication": "C'est le premier « impératif à retenir » du cours : il n'existe pas de décompte type. Le contenu se fonde sur le CO et l'OBLF, la répartition varie selon les cantons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "À quelle fréquence le décompte de chauffage et de frais accessoires doit-il être établi lorsque le locataire paie des acomptes ?",
+        "propositions": [
+          "Au moins une fois par année (art. 4 OBLF)",
+          "Une à deux fois par année selon le type de chauffage",
+          "À chaque changement de locataire uniquement",
+          "Tous les trois ans, sur la base d'une moyenne"
+        ],
+        "reponse_correcte": "Au moins une fois par année (art. 4 OBLF)",
+        "explication": "Selon l'art. 4 OBLF, lorsque les frais accessoires sont perçus par acomptes, un décompte doit être établi au moins une fois par an."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Selon l'art. 257a CO, à quelle condition les frais accessoires sont-ils à la charge du locataire ?",
+        "propositions": [
+          "Si cela a été convenu spécialement",
+          "Si la clef de répartition de l'immeuble le prévoit",
+          "Si les anciens décomptes ont toujours compris ces frais",
+          "Toujours, dès lors qu'ils sont en rapport avec l'usage de la chose"
+        ],
+        "reponse_correcte": "Si cela a été convenu spécialement",
+        "explication": "Art. 257a al. 2 CO : les frais accessoires ne sont à la charge du locataire que si cela a été convenu spécialement. Par défaut, ils sont compris dans le loyer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Selon l'art. 257b CO, que représentent les frais accessoires pour les habitations et locaux commerciaux ?",
+        "propositions": [
+          "Les frais de chauffage, d'eau chaude et autres frais d'exploitation, ainsi que les contributions publiques résultant de l'utilisation de la chose",
+          "Tous les frais d'entretien et de rénovation de l'immeuble",
+          "Les frais de chauffage uniquement, l'eau chaude étant comprise dans le loyer",
+          "Les intérêts hypothécaires et les primes d'assurance du bâtiment"
+        ],
+        "reponse_correcte": "Les frais de chauffage, d'eau chaude et autres frais d'exploitation, ainsi que les contributions publiques résultant de l'utilisation de la chose",
+        "explication": "Art. 257b al. 1 CO : il s'agit des frais de chauffage, d'eau chaude et autres frais d'exploitation, ainsi que des contributions publiques qui résultent de l'utilisation de la chose."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Quels articles de l'OBLF régissent les frais accessoires et le décompte de chauffage ?",
+        "propositions": [
+          "Articles 4 à 8 OBLF",
+          "Articles 1 à 3 OBLF",
+          "Articles 19 à 23 OBLF",
+          "Articles 269 à 270 OBLF"
+        ],
+        "reponse_correcte": "Articles 4 à 8 OBLF",
+        "explication": "Les art. 4 à 8 OBLF traitent des frais accessoires en général, des frais imputables ou non, de la centrale extérieure, du contrat de performance énergétique, des locaux non loués et du décompte."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Selon l'art. 4 OBLF, de quelles manières les frais accessoires peuvent-ils être perçus ?",
+        "propositions": [
+          "Sur la base d'un décompte établi au moins une fois par an",
+          "De manière forfaitaire, en se fondant sur la moyenne d'une période de trois ans",
+          "De manière forfaitaire, fixée librement par le bailleur",
+          "Sur la base d'une estimation tous les cinq ans"
+        ],
+        "reponses_correctes": [
+          "Sur la base d'un décompte établi au moins une fois par an",
+          "De manière forfaitaire, en se fondant sur la moyenne d'une période de trois ans"
+        ],
+        "explication": "Art. 4 OBLF : soit par décompte au moins annuel (acomptes), soit par forfait fondé sur la moyenne de trois ans. Le forfait n'est pas fixé librement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Les frais d'administration liés à l'établissement du décompte peuvent-ils être facturés au locataire ?",
+        "propositions": [
+          "Oui",
+          "Non, jamais",
+          "Seulement dans le canton de Vaud",
+          "Seulement pour les locaux commerciaux"
+        ],
+        "reponse_correcte": "Oui",
+        "explication": "L'art. 4 OBLF prévoit que les frais d'administration découlant de l'établissement du décompte peuvent être facturés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Pendant combien de temps la gérance peut-elle réclamer un solde de chauffage ou de frais accessoires ?",
+        "propositions": [
+          "5 ans (art. 128 CO)",
+          "1 an",
+          "3 ans",
+          "10 ans (art. 127 CO)"
+        ],
+        "reponse_correcte": "5 ans (art. 128 CO)",
+        "explication": "Les redevances périodiques se prescrivent par cinq ans (art. 128 ch. 1 CO). Le locataire peut aussi réclamer une ristourne non versée dans le même délai."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Le bailleur encaisse des acomptes mais n'établit jamais de décompte. Que peut exiger le locataire ?",
+        "propositions": [
+          "Le remboursement intégral des acomptes versés, même s'il a consommé du chauffage et de l'eau chaude",
+          "Rien, les acomptes deviennent un forfait",
+          "Uniquement le remboursement de la part d'eau chaude",
+          "Une réduction de loyer de 10 %"
+        ],
+        "reponse_correcte": "Le remboursement intégral des acomptes versés, même s'il a consommé du chauffage et de l'eau chaude",
+        "explication": "Sans décompte, le locataire peut prétendre au remboursement intégral des acomptes, même s'il a effectivement consommé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Quel principe fondamental s'applique à la refacturation des frais de chauffage et frais accessoires ?",
+        "propositions": [
+          "Le bailleur ne peut pas réaliser de bénéfice",
+          "Le bailleur peut ajouter une marge de 10 % sur les coûts",
+          "Les coûts sont répartis à parts égales entre les locataires",
+          "Les acomptes non utilisés reviennent au bailleur"
+        ],
+        "reponse_correcte": "Le bailleur ne peut pas réaliser de bénéfice",
+        "explication": "Le principe qui prévaut est que le bailleur ne peut pas faire de profit : il refacture uniquement les dépenses effectives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Quel est le seul canton de Suisse qui dispose de directives spécifiques pour le décompte de chauffage et d'eau chaude ?",
+        "propositions": [
+          "Vaud",
+          "Genève",
+          "Fribourg",
+          "Valais"
+        ],
+        "reponse_correcte": "Vaud",
+        "explication": "Le canton de Vaud est le seul à disposer de directives spécifiques (calcul de l'ECS, méthode FIFO obligatoire, tableau de répartition mensuelle)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Le contenu du décompte de chauffage et d'eau chaude est-il différent selon les cantons ?",
+        "propositions": [
+          "Non, le contenu est identique en Suisse (CO et OBLF) ; c'est la répartition qui varie",
+          "Oui, chaque canton définit ses propres frais admissibles",
+          "Oui, seul le canton de Vaud applique l'OBLF",
+          "Non, et la répartition est également identique dans toute la Suisse"
+        ],
+        "reponse_correcte": "Non, le contenu est identique en Suisse (CO et OBLF) ; c'est la répartition qui varie",
+        "explication": "Le contenu reste le même selon le CO et l'OBLF ; en revanche la répartition chauffage / eau chaude diffère d'un canton à l'autre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Dans quel ordre établit-on les documents du décompte ?",
+        "propositions": [
+          "Décompte général de l'immeuble → tableau de répartition → décomptes individuels",
+          "Décomptes individuels → tableau de répartition → décompte général",
+          "Tableau de répartition → décompte général → décomptes individuels",
+          "Décompte général → décomptes individuels → tableau de répartition"
+        ],
+        "reponse_correcte": "Décompte général de l'immeuble → tableau de répartition → décomptes individuels",
+        "explication": "Trois étapes indispensables et dans cet ordre : 1) décompte général (tout l'immeuble), 2) tableau de répartition entre locataires, 3) décomptes individuels."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes et bases légales du décompte",
+      "content": {
+        "enonce": "Le décompte général et le tableau de répartition sont-ils envoyés au locataire ?",
+        "propositions": [
+          "Généralement non, mais le locataire peut les demander par écrit",
+          "Oui, obligatoirement avec chaque décompte individuel",
+          "Non, le locataire n'a jamais le droit de les consulter",
+          "Uniquement s'il conteste le décompte devant l'autorité de conciliation"
+        ],
+        "reponse_correcte": "Généralement non, mais le locataire peut les demander par écrit",
+        "explication": "Ces documents ne sont généralement pas envoyés, mais le locataire a le droit de les demander par écrit (et de consulter les pièces justificatives, art. 8 OBLF)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Que signifie l'abréviation CAD ?",
+        "propositions": [
+          "Chauffage à distance",
+          "Certificat administratif détaillé",
+          "Combustible à décompte",
+          "Chaudière à double combustion"
+        ],
+        "reponse_correcte": "Chauffage à distance",
+        "explication": "CAD = chauffage à distance. Environ 3 % des bâtiments du pays en sont équipés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Pourquoi l'électricité n'est-elle pas une énergie primaire ?",
+        "propositions": [
+          "Parce qu'elle doit être produite à partir d'autres énergies (mix énergétique)",
+          "Parce qu'elle est une énergie fossile",
+          "Parce qu'elle est interdite en Suisse",
+          "Parce qu'elle se mesure en litres"
+        ],
+        "reponse_correcte": "Parce qu'elle doit être produite à partir d'autres énergies (mix énergétique)",
+        "explication": "L'électricité résulte d'un mix énergétique (hydraulique, nucléaire, solaire, éolien…) : elle n'est ni fossile ni renouvelable en soi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Un appartement est chauffé par des radiateurs électriques. Qui établit le décompte de chauffage ?",
+        "propositions": [
+          "Personne : le locataire paie directement l'électricité via sa facture personnelle",
+          "La gérance, comme pour un chauffage au mazout",
+          "Une société spécialisée DIFC",
+          "Le fournisseur d'électricité, avec une clef 76 % / 24 %"
+        ],
+        "reponse_correcte": "Personne : le locataire paie directement l'électricité via sa facture personnelle",
+        "explication": "Pour ce type d'installation, aucun décompte n'est réalisé par le propriétaire ou la régie : le locataire paie directement son électricité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Quel type de chauffage est interdit ou fortement restreint par les cantons (sur mandat de la loi fédérale sur l'énergie) pour les nouvelles installations ?",
+        "propositions": [
+          "Le chauffage électrique à résistance",
+          "La géothermie (PAC)",
+          "Le chauffage à distance",
+          "Les pellets"
+        ],
+        "reponse_correcte": "Le chauffage électrique à résistance",
+        "explication": "La loi fédérale sur l'énergie impose aux cantons d'édicter des mesures : le montage ou le renouvellement de chauffages électriques à résistance est interdit ou fortement restreint (ex. VD : LVLEne art. 30a), y compris pour l'eau chaude sanitaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Selon le cours, quelle est la principale source d'énergie de chauffage du parc immobilier suisse ?",
+        "propositions": [
+          "Le mazout",
+          "Le gaz naturel",
+          "Le chauffage à distance",
+          "L'électricité"
+        ],
+        "reponse_correcte": "Le mazout",
+        "explication": "Le mazout reste la principale source d'énergie de chauffage du parc immobilier suisse, malgré la progression des énergies renouvelables."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Quelles installations sont nécessaires pour un chauffage au mazout ?",
+        "propositions": [
+          "Une chaudière",
+          "Un brûleur",
+          "Un canal de cheminée",
+          "Une citerne",
+          "Un système de distribution",
+          "Un compteur de gaz"
+        ],
+        "reponses_correctes": [
+          "Une chaudière",
+          "Un brûleur",
+          "Un canal de cheminée",
+          "Une citerne",
+          "Un système de distribution"
+        ],
+        "explication": "Un chauffage au mazout nécessite chaudière, brûleur, canal de cheminée (d'où le ramonage), citerne et système de distribution."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "En quelle unité mesure-t-on la consommation de mazout dans le décompte ?",
+        "propositions": [
+          "En litres",
+          "En m3",
+          "En kWh uniquement",
+          "En kg"
+        ],
+        "reponse_correcte": "En litres",
+        "explication": "Mazout : litres. Gaz naturel : m3 ou kWh. Bois (pellets) : m3, kg ou conversion en MJ/kWh. CAD : kWh."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "En quelle unité est généralement facturé le chauffage à distance (CAD) ?",
+        "propositions": [
+          "En kWh",
+          "En litres",
+          "En m3 de gaz",
+          "En kg"
+        ],
+        "reponse_correcte": "En kWh",
+        "explication": "Le CAD est facturé en kWh (énergie livrée)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Que signifient les abréviations MJ et kWh ?",
+        "propositions": [
+          "Mégajoules et kilowattheures",
+          "Mètres journaliers et kilowatts horaires",
+          "Mazout journalier et kilowatts habitation",
+          "Mégajoules et kilowatts hebdomadaires"
+        ],
+        "reponse_correcte": "Mégajoules et kilowattheures",
+        "explication": "MJ = mégajoules, kWh = kilowattheures. 1 kWh = 3,6 MJ."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Que signifie SRE ?",
+        "propositions": [
+          "Surface de référence énergétique",
+          "Service de relevé énergétique",
+          "Surface réelle d'étage",
+          "Système de répartition des énergies"
+        ],
+        "reponse_correcte": "Surface de référence énergétique",
+        "explication": "SRE = surface de référence énergétique, base de comparaison de la consommation (litres, kWh ou MJ par m2 SRE et par an)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Énergies et unités de mesure",
+      "content": {
+        "enonce": "Ordre de grandeur : combien consomme un bâtiment d'habitation construit avant 1970 pour le chauffage et l'eau chaude ?",
+        "propositions": [
+          "12 à 15 litres de mazout / m2 SRE / an",
+          "4,2 litres / m2 SRE / an",
+          "6 à 8 litres / m2 SRE / an",
+          "30 à 40 litres / m2 SRE / an"
+        ],
+        "reponse_correcte": "12 à 15 litres de mazout / m2 SRE / an",
+        "explication": "Avant 1970 : 12-15 l/m2 an (120-150 kWh). Neuf (2005) : 6-8 l. Minergie rénovation : 8 l. Minergie neuf : 4,2 l (42 kWh)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Selon l'art. 5 OBLF, lesquelles de ces dépenses peuvent figurer dans le décompte de chauffage et d'eau chaude ?",
+        "propositions": [
+          "Le combustible et l'énergie consommés",
+          "L'énergie électrique utilisée pour les brûleurs et les pompes",
+          "Le nettoyage de l'installation de chauffage et de la cheminée",
+          "La révision périodique de la citerne et le détartrage de l'installation d'eau chaude",
+          "Les primes d'assurance se rapportant exclusivement à l'installation de chauffage",
+          "Le travail administratif qu'occasionne l'exploitation de l'installation",
+          "La réparation de la chaudière",
+          "L'amortissement de l'installation de chauffage"
+        ],
+        "reponses_correctes": [
+          "Le combustible et l'énergie consommés",
+          "L'énergie électrique utilisée pour les brûleurs et les pompes",
+          "Le nettoyage de l'installation de chauffage et de la cheminée",
+          "La révision périodique de la citerne et le détartrage de l'installation d'eau chaude",
+          "Les primes d'assurance se rapportant exclusivement à l'installation de chauffage",
+          "Le travail administratif qu'occasionne l'exploitation de l'installation"
+        ],
+        "explication": "L'art. 5 OBLF liste les dépenses effectives imputables. La réparation et l'amortissement sont exclus par l'art. 6 OBLF."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Selon l'art. 6 OBLF, quelles dépenses n'entrent PAS en ligne de compte comme frais de chauffage et d'eau chaude ?",
+        "propositions": [
+          "La réparation et la réfection des installations",
+          "Le service de l'intérêt et l'amortissement des installations",
+          "Le ramonage",
+          "La maintenance"
+        ],
+        "reponses_correctes": [
+          "La réparation et la réfection des installations",
+          "Le service de l'intérêt et l'amortissement des installations"
+        ],
+        "explication": "Art. 6 OBLF : sont exclues la réparation/réfection ainsi que l'intérêt et l'amortissement des installations. Ramonage et maintenance sont admis (art. 5)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Lequel de ces frais ne peut PAS être incorporé dans le décompte de chauffage ?",
+        "propositions": [
+          "Les pièces de rechange du brûleur",
+          "Les révisions périodiques",
+          "Les frais administratifs du décompte",
+          "Le ramonage"
+        ],
+        "reponse_correcte": "Les pièces de rechange du brûleur",
+        "explication": "Les contrats d'abonnement (brûleur, compteurs) sont admis hors fourniture de pièces de rechange et remplacement, qui relèvent de la réparation (charge du propriétaire)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Quel contrat d'abonnement ne peut PAS être intégré dans un décompte de chauffage ?",
+        "propositions": [
+          "Le contrat d'entretien de la machine à laver de la buanderie",
+          "Le contrat d'abonnement du brûleur",
+          "Le contrat d'abonnement des compteurs de chaleur",
+          "Le contrat de relevage de la citerne à distance"
+        ],
+        "reponse_correcte": "Le contrat d'entretien de la machine à laver de la buanderie",
+        "explication": "La machine à laver n'a rien à voir avec la production de chaleur : c'est éventuellement un frais accessoire (rubrique séparée), pas un frais de chauffage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Comment les révisions périodiques (citerne, ébouage, détartrage) se répartissent-elles dans le décompte ?",
+        "propositions": [
+          "Sur 3 à 5 périodes de chauffage selon l'objet révisé",
+          "Sur une seule période de chauffe",
+          "Selon un arrangement entre locataires et gérance",
+          "Elles sont toujours à la charge du propriétaire"
+        ],
+        "reponse_correcte": "Sur 3 à 5 périodes de chauffage selon l'objet révisé",
+        "explication": "Ces frais doivent être répartis sur 3 ou 5 périodes de chauffe. Fréquence : 10 ans pour les citernes et l'ébouage, 3 à 5 ans pour les détartrages."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "À quelle fréquence la révision d'une citerne et l'ébouage des installations sont-ils généralement effectués ?",
+        "propositions": [
+          "Tous les 10 ans",
+          "Chaque année",
+          "Tous les 3 ans",
+          "Tous les 25 ans"
+        ],
+        "reponse_correcte": "Tous les 10 ans",
+        "explication": "Fréquence = 10 ans pour les citernes et l'ébouage, tous les 3 à 5 ans pour les détartrages des bouilleurs."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "La révision de la citerne a coûté CHF {cout}. Elle est répartie sur 3 périodes de chauffage. Quel montant figure dans le décompte de cette saison (en CHF) ?",
+        "variables": [
+          {
+            "nom": "cout",
+            "min": 900,
+            "max": 3600,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "cout / 3",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Les révisions périodiques sont réparties sur plusieurs périodes : coût / 3. Ex. : 1'500 / 3 = CHF 500.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Quelle partie des frais de surveillance (concierge) peut être incluse dans le décompte de chauffage ?",
+        "propositions": [
+          "La part du salaire correspondant à la surveillance du chauffage (chauffeur)",
+          "La totalité du salaire du concierge",
+          "Aucune, le concierge est toujours à la charge du propriétaire",
+          "Uniquement les charges sociales"
+        ],
+        "reponse_correcte": "La part du salaire correspondant à la surveillance du chauffage (chauffeur)",
+        "explication": "Frais de surveillance = salaire du chauffeur, soit une partie du salaire du concierge. Le barème diffère selon les cantons."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Quelles charges sont ABSENTES d'un décompte d'un immeuble chauffé au CAD ou par PAC ?",
+        "propositions": [
+          "Le ramonage",
+          "Le contrat de relevage de la citerne",
+          "La révision de la citerne",
+          "Les frais administratifs",
+          "L'électricité des pompes de circulation"
+        ],
+        "reponses_correctes": [
+          "Le ramonage",
+          "Le contrat de relevage de la citerne",
+          "La révision de la citerne"
+        ],
+        "explication": "Sans combustion ni stockage, il n'y a ni ramonage ni citerne. Les frais administratifs et l'électricité des pompes restent présents."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Pour un chauffage au mazout, quels éléments les directives vaudoises imposent-elles de faire figurer dans le décompte ?",
+        "propositions": [
+          "Le stock initial, la chronologie des livraisons et le stock final",
+          "Uniquement le total des factures de la période",
+          "Le prix moyen du mazout en Suisse",
+          "Uniquement la quantité consommée"
+        ],
+        "reponse_correcte": "Le stock initial, la chronologie des livraisons et le stock final",
+        "explication": "Les directives vaudoises obligent à fournir : 1) le stock en citerne en début de période, 2) la chronologie des livraisons, 3) le stock final."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Pour une énergie autre que le mazout (gaz, CAD), que contient le poste « combustible » du décompte ?",
+        "propositions": [
+          "La récapitulation des factures payées durant la période",
+          "Une valorisation FIFO du stock",
+          "Une estimation selon la surface",
+          "La moyenne des trois dernières années"
+        ],
+        "reponse_correcte": "La récapitulation des factures payées durant la période",
+        "explication": "Sans stock (pas de citerne), on reprend simplement les factures du fournisseur de la période."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Les frais d'électricité des pompes sont facturés sans compteur séparé. Comment les détermine-t-on ?",
+        "propositions": [
+          "Selon un barème, différent selon les cantons",
+          "On ne peut pas les facturer",
+          "Au prorata du nombre de locataires",
+          "Ils sont fixés par le fournisseur de mazout"
+        ],
+        "reponse_correcte": "Selon un barème, différent selon les cantons",
+        "explication": "Avec compteur individuel : consommation effective. Sans compteur : barème (différent selon les cantons)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contenu du décompte de chauffage et ECS",
+      "content": {
+        "enonce": "Quelle période de décompte est usuelle pour le chauffage et l'eau chaude ?",
+        "propositions": [
+          "Du 1er juillet au 30 juin",
+          "Du 1er janvier au 31 décembre",
+          "Du 1er octobre au 30 avril",
+          "Du 1er avril au 31 mars"
+        ],
+        "reponse_correcte": "Du 1er juillet au 30 juin",
+        "explication": "La saison de chauffage court généralement du 01.07 au 30.06 (le stock de mazout est donc valorisé au 30.06)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Que signifie la méthode FIFO ?",
+        "propositions": [
+          "Premier entré, premier sorti",
+          "Dernier entré, premier sorti",
+          "Prix moyen pondéré",
+          "Premier facturé, premier payé"
+        ],
+        "reponse_correcte": "Premier entré, premier sorti",
+        "explication": "FIFO = First In, First Out : le mazout le plus ancien est consommé en premier ; le stock final est donc valorisé au prix des dernières livraisons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Quelle méthode de valorisation du stock de mazout est obligatoire dans le canton de Vaud ?",
+        "propositions": [
+          "La méthode FIFO",
+          "La méthode de la moyenne pondérée",
+          "La méthode LIFO",
+          "Le prix de la dernière facture pour tout le stock, sans exception"
+        ],
+        "reponse_correcte": "La méthode FIFO",
+        "explication": "La méthode FIFO est obligatoire dans le canton de Vaud. Dans les autres cantons, pas de directives : on se réfère à la pratique (FIFO ou moyenne pondérée)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Selon la méthode FIFO, à quel prix valorise-t-on le stock final ?",
+        "propositions": [
+          "Au prix de la ou des dernières livraisons",
+          "Au prix du stock initial",
+          "Au prix moyen de la période",
+          "Au prix du jour du 30 juin"
+        ],
+        "reponse_correcte": "Au prix de la ou des dernières livraisons",
+        "explication": "Le mazout le plus ancien étant consommé d'abord, ce qui reste en citerne provient des dernières livraisons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Avec la méthode FIFO, le stock final (4'500 l) est supérieur à la dernière livraison (4'125 l). Comment le valorise-t-on ?",
+        "propositions": [
+          "4'125 l au prix de la dernière livraison + 375 l au prix de l'avant-dernière livraison",
+          "4'500 l au prix de la dernière livraison",
+          "4'500 l au prix moyen pondéré",
+          "4'500 l au prix du stock initial"
+        ],
+        "reponse_correcte": "4'125 l au prix de la dernière livraison + 375 l au prix de l'avant-dernière livraison",
+        "explication": "Attention : si le stock final dépasse la dernière livraison, on remonte aux livraisons précédentes pour le solde."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Comment calcule-t-on le prix selon la méthode de la moyenne pondérée ?",
+        "propositions": [
+          "Total CHF (stock initial + livraisons) ÷ total litres (stock initial + livraisons)",
+          "Moyenne simple des prix au litre de chaque livraison",
+          "Prix de la dernière livraison ÷ 2",
+          "Total CHF des livraisons ÷ litres consommés"
+        ],
+        "reponse_correcte": "Total CHF (stock initial + livraisons) ÷ total litres (stock initial + livraisons)",
+        "explication": "Le prix moyen trouvé s'applique au stock final et à la consommation. Attention aux différences d'arrondi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Comment détermine-t-on la quantité de mazout consommée durant la saison ?",
+        "propositions": [
+          "Stock initial + livraisons − stock final",
+          "Livraisons − stock initial",
+          "Stock final − stock initial",
+          "Somme des livraisons uniquement"
+        ],
+        "reponse_correcte": "Stock initial + livraisons − stock final",
+        "explication": "Consommation = tout ce qui était disponible (stock initial + livraisons) moins ce qui reste en citerne."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "FIFO — stock initial 500 l ; livraisons de 1'000 l, 750 l et 500 l. 1'000 l ont été consommés. Quel est le stock final ?",
+        "propositions": [
+          "1'750 litres",
+          "2'750 litres",
+          "1'000 litres",
+          "1'250 litres"
+        ],
+        "reponse_correcte": "1'750 litres",
+        "explication": "Disponible : 500 + 1'000 + 750 + 500 = 2'750 l. Stock final : 2'750 − 1'000 = 1'750 l."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "FIFO — stock initial 1'000 l pour CHF 900.- ; livraisons : 500 l pour CHF 550.-, 750 l pour CHF 600.-, 500 l pour CHF 450.-. Il reste 750 l en fin d'exercice. Quelle est la valeur du stock final ?",
+        "propositions": [
+          "CHF 650.-",
+          "CHF 600.-",
+          "CHF 675.-",
+          "CHF 1'850.-"
+        ],
+        "reponse_correcte": "CHF 650.-",
+        "explication": "Le stock provient des dernières livraisons : 500 l × 0.90 = 450.- + 250 l × 0.80 (3e fût) = 200.- → CHF 650.-. Coût consommé : 2'500 − 650 = CHF 1'850.- pour 2'000 l."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "FIFO — solde initial 1'300 l pour CHF 1'265.- ; livraisons 2'700 l pour CHF 2'403.- et 1'500 l pour CHF 1'530.- ; stock final 1'300 l. Quel est le bon résultat ?",
+        "propositions": [
+          "Stock CHF 1'326.- / consommation 4'200 l / coût CHF 3'872.-",
+          "Stock CHF 1'157.- / consommation 6'800 l / coût CHF 6'624.-",
+          "Stock CHF 1'210.95 / consommation 5'500 l / coût CHF 5'198.-",
+          "Stock CHF 1'228.50 / consommation 4'200 l / coût CHF 3'969.50"
+        ],
+        "reponse_correcte": "Stock CHF 1'326.- / consommation 4'200 l / coût CHF 3'872.-",
+        "explication": "Dernière livraison : 1'530 / 1'500 = 1.02/l → 1'300 × 1.02 = 1'326.-. Consommation : 5'500 − 1'300 = 4'200 l. Coût : 5'198 − 1'326 = 3'872.-. (La 4e proposition correspond à la moyenne pondérée.)"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Moyenne pondérée — mêmes données : 1'300 l pour CHF 1'265.- ; 2'700 l pour CHF 2'403.- ; 1'500 l pour CHF 1'530.- ; stock final 1'300 l. Quel est le bon résultat ?",
+        "propositions": [
+          "Stock CHF 1'228.50 / consommation 4'200 l / coût CHF 3'969.50",
+          "Stock CHF 1'326.- / consommation 4'200 l / coût CHF 3'872.-",
+          "Stock CHF 1'249.30 / consommation 4'200 l / coût CHF 4'036.20",
+          "Stock CHF 1'157.- / consommation 6'800 l / coût CHF 6'624.-"
+        ],
+        "reponse_correcte": "Stock CHF 1'228.50 / consommation 4'200 l / coût CHF 3'969.50",
+        "explication": "Prix moyen : 5'198 / 5'500 = 0.945/l → stock 1'300 × 0.945 = 1'228.50 ; coût 5'198 − 1'228.50 = 3'969.50."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "FIFO — solde initial 18'700 l pour CHF 18'164.05 ; livraison 14'016 l pour CHF 10'624.15 ; stock final 10'000 l. Quel est le bon résultat ?",
+        "propositions": [
+          "Stock CHF 7'580.- / consommation 22'716 l / coût CHF 21'208.20",
+          "Stock CHF 9'713.- / consommation 32'716 l / coût CHF 28'788.20",
+          "Stock CHF 32'716.- / consommation 4'200 l / coût CHF 41'768.20",
+          "Stock CHF 8'888.- / consommation 22'716 l / coût CHF 19'900.20"
+        ],
+        "reponse_correcte": "Stock CHF 7'580.- / consommation 22'716 l / coût CHF 21'208.20",
+        "explication": "Prix dernière livraison : 10'624.15 / 14'016 = 0.758/l → 10'000 × 0.758 = 7'580.-. Consommation : 32'716 − 10'000 = 22'716 l. Coût : 28'788.20 − 7'580 = 21'208.20."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Stock initial 15'000 l à CHF 1.05 ; livraisons 10'000 l à CHF 1.10 et 7'000 l à CHF 0.95 ; stock final 12'500 l. Valeur du stock final selon FIFO ?",
+        "propositions": [
+          "CHF 12'700.-",
+          "CHF 13'046.90",
+          "CHF 11'875.-",
+          "CHF 13'125.-"
+        ],
+        "reponse_correcte": "CHF 12'700.-",
+        "explication": "FIFO : 7'000 l × 0.95 = 6'650.- + 5'500 l × 1.10 = 6'050.- → 12'700.-. Consommation : 19'500 l pour 33'400 − 12'700 = CHF 20'700.-."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Mêmes données (15'000 l à 1.05 ; 10'000 l à 1.10 ; 7'000 l à 0.95 ; stock final 12'500 l). Valeur du stock selon la moyenne pondérée ?",
+        "propositions": [
+          "Env. CHF 13'046.90",
+          "CHF 12'700.-",
+          "CHF 13'125.-",
+          "CHF 11'875.-"
+        ],
+        "reponse_correcte": "Env. CHF 13'046.90",
+        "explication": "Prix moyen : 33'400 / 32'000 = 1.04375 → 12'500 × 1.04375 = 13'046.90 (arrondi). Consommation : 19'500 l pour env. CHF 20'353.10."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "FIFO — Stock initial : {si} litres à CHF {psi} les 100 l. Livraison 1 : {l1} l à CHF {p1} les 100 l. Livraison 2 : {l2} l à CHF {p2} les 100 l. Stock final au 30.06 : {sf} litres. Quel est le coût du combustible consommé durant la saison (en CHF) ?",
+        "variables": [
+          {
+            "nom": "si",
+            "min": 500,
+            "max": 2000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "psi",
+            "min": 80,
+            "max": 100,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "l1",
+            "min": 2000,
+            "max": 4000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "p1",
+            "min": 90,
+            "max": 115,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "l2",
+            "min": 3000,
+            "max": 5000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "p2",
+            "min": 100,
+            "max": 135,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "sf",
+            "min": 800,
+            "max": 2800,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "(si*psi + l1*p1 + l2*p2)/100 - sf*p2/100",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.5,
+        "explication": "Coût total disponible − valeur du stock final. En FIFO, le stock final (inférieur ici à la dernière livraison) est valorisé au prix de la dernière livraison : coût = (si×psi + l1×p1 + l2×p2)/100 − sf×p2/100."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Valorisation du stock de mazout",
+      "content": {
+        "enonce": "Moyenne pondérée — Stock initial : {si} l à CHF {p0} le litre. Livraison : {l1} l à CHF {p1} le litre. Stock final : {sf} l. Quelle est la valeur du stock final (en CHF) ?",
+        "variables": [
+          {
+            "nom": "si",
+            "min": 1000,
+            "max": 4000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "p0",
+            "min": 0.85,
+            "max": 1.1,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "l1",
+            "min": 3000,
+            "max": 8000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "p1",
+            "min": 0.9,
+            "max": 1.35,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "sf",
+            "min": 500,
+            "max": 2500,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "sf * (si * p0 + l1 * p1) / (si + l1)",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 1,
+        "explication": "Prix moyen = (CHF stock initial + CHF livraison) / (litres stock initial + litres livraison). Valeur du stock = stock final × prix moyen."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Hors canton de Vaud et sans compteurs, quelle est la clef de répartition la plus courante entre chauffage et eau chaude ?",
+        "propositions": [
+          "76 % chauffage / 24 % eau chaude",
+          "50 % / 50 %",
+          "90 % / 10 %",
+          "Il n'y a pas de clef usuelle"
+        ],
+        "reponse_correcte": "76 % chauffage / 24 % eau chaude",
+        "explication": "Dans les cantons de Fribourg, Valais et Genève (et précédemment Vaud), on applique généralement 76/24 (ou 70/30)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Quelles clefs de répartition chauffage / eau chaude rencontre-t-on en Valais (pas de directives, usage) ?",
+        "propositions": [
+          "64 % / 36 %",
+          "50 % / 50 %",
+          "76 % / 24 %",
+          "95 % / 5 %"
+        ],
+        "reponses_correctes": [
+          "64 % / 36 %",
+          "50 % / 50 %",
+          "76 % / 24 %"
+        ],
+        "explication": "En Valais, pas de directives : certaines régies appliquent 64/36, d'autres 50/50, la clef 76/24 (ou 70/30) étant la plus courante en Suisse romande."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Sur quelle base le canton de Fribourg répartit-il le chauffage et l'eau chaude ?",
+        "propositions": [
+          "Sur des directives de 1988, toujours utilisées",
+          "Sur les directives vaudoises",
+          "Sur l'usage, sans directives",
+          "Uniquement sur compteurs individuels"
+        ],
+        "reponse_correcte": "Sur des directives de 1988, toujours utilisées",
+        "explication": "Fribourg : directives de 1988, toujours appliquées, l'accord paritaire avec l'Asloca n'ayant pas abouti. Genève et Valais : usage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Dans le canton de Vaud, la répartition entre chauffage et eau chaude est-elle fixe d'année en année ?",
+        "propositions": [
+          "Non, elle est recalculée chaque année selon le besoin en ECS",
+          "Oui, 76 / 24",
+          "Oui, 70 / 30",
+          "Oui, fixée dans le bail"
+        ],
+        "reponse_correcte": "Non, elle est recalculée chaque année selon le besoin en ECS",
+        "explication": "Avec les directives vaudoises, on calcule le besoin en kWh d'ECS puis on le rapporte à l'énergie totale consommée : la répartition change chaque année."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Directives vaudoises (tableau 3) : quel coefficient s'applique au volume d'une habitation pour calculer le besoin en ECS ?",
+        "propositions": [
+          "8.03 kWh/m3",
+          "2.68 kWh/m3",
+          "21.37 kWh/m3",
+          "0.55 kWh/m3"
+        ],
+        "reponse_correcte": "8.03 kWh/m3",
+        "explication": "Tableau 3 : habitation 8.03 ; commerce/bureau 2.68 ; restaurant 21.37 ; dépôt 0.55 (kWh par m3 de volume)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Associez correctement : quels coefficients du tableau 3 des directives vaudoises sont exacts ?",
+        "propositions": [
+          "Commerce, bureau : 2.68",
+          "Restaurant : 21.37",
+          "Dépôt : 0.55",
+          "Habitation : 2.68",
+          "Restaurant : 8.03"
+        ],
+        "reponses_correctes": [
+          "Commerce, bureau : 2.68",
+          "Restaurant : 21.37",
+          "Dépôt : 0.55"
+        ],
+        "explication": "Habitation (H) 8.03, commerce/bureau (C) 2.68, restaurant (R) 21.37, dépôt (D) 0.55."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Immeuble vaudois sans compteurs d'eau : {nb} appartements totalisant {vh} m3 et un commerce de {vc} m3. Quel est le besoin théorique en ECS (en kWh) ?",
+        "variables": [
+          {
+            "nom": "nb",
+            "min": 3,
+            "max": 8,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "vh",
+            "min": 400,
+            "max": 1600,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "vc",
+            "min": 150,
+            "max": 500,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "vh * 8.03 + vc * 2.68",
+        "unite_reponse": "kWh",
+        "arrondi_reponse": 2,
+        "tolerance": 0.5,
+        "explication": "Habitation : volume × 8.03 ; commerce : volume × 2.68. Ex. : 528 × 8.03 + 324 × 2.68 = 4'239.84 + 868.32 = 5'108.16 kWh."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Directives vaudoises : l'immeuble est équipé de compteurs d'eau chaude. Comment calcule-t-on le besoin en ECS ?",
+        "propositions": [
+          "Consommation en m3 × 60 kWh",
+          "Volume du logement × 8.03",
+          "Consommation en m3 × 8.766",
+          "Nombre d'occupants × 400 kWh"
+        ],
+        "reponse_correcte": "Consommation en m3 × 60 kWh",
+        "explication": "Avec compteurs, la consommation individuelle en m3 est multipliée par 60 kWh (tableau 7 des directives)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Directives vaudoises : 5 m2 de panneaux solaires thermiques sont installés. Que fait-on ?",
+        "propositions": [
+          "On déduit 400 kWh par m2, soit 2'000 kWh, du besoin en ECS",
+          "On ajoute 2'000 kWh au besoin en ECS",
+          "Rien, le solaire n'est pas pris en compte",
+          "On déduit 5 % des frais de chauffage"
+        ],
+        "reponse_correcte": "On déduit 400 kWh par m2, soit 2'000 kWh, du besoin en ECS",
+        "explication": "Les panneaux solaires thermiques couvrent une partie de l'ECS : déduction de 5 m2 × 400 kWh = 2'000 kWh."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Directives vaudoises (tableau 4) : quel pouvoir calorifique est retenu pour 1 litre de mazout ?",
+        "propositions": [
+          "8.766 kWh",
+          "10 kWh",
+          "3.6 kWh",
+          "60 kWh"
+        ],
+        "reponse_correcte": "8.766 kWh",
+        "explication": "Tableau 4 : 1 litre de mazout = 8.766 kWh (valeur corrigée). Ex. : 7'350 l × 8.766 = 64'430 kWh."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "7'350 litres de mazout consommés (× 8.766 = 64'430 kWh). Le besoin en ECS est de 8'252.80 kWh. Quelle est la part d'eau chaude ?",
+        "propositions": [
+          "12.80 %",
+          "24 %",
+          "87.20 %",
+          "8.25 %"
+        ],
+        "reponse_correcte": "12.80 %",
+        "explication": "ECS : 8'252.80 / 64'430 = 12.80 % ; chauffage : (64'430 − 8'252.80) / 64'430 = 87.20 %."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Immeuble vaudois : {litres} l de mazout consommés (pouvoir calorifique 8.766 kWh/l). Le besoin en ECS calculé est de {ecs} kWh. Quelle est la part d'eau chaude, en % ?",
+        "variables": [
+          {
+            "nom": "litres",
+            "min": 6000,
+            "max": 15000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "ecs",
+            "min": 4000,
+            "max": 12000,
+            "unite": "",
+            "arrondi": 2
+          }
+        ],
+        "formule": "ecs / (litres * 8.766) * 100",
+        "unite_reponse": "%",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Énergie totale = litres × 8.766 kWh. Part ECS = besoin ECS / énergie totale × 100 ; le solde est la part chauffage."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Immeuble vaudois avec compteurs d'eau chaude : la consommation totale relevée est de {m3} m3. Des panneaux solaires thermiques de {pan} m2 sont installés. Quel est le besoin en ECS retenu pour le décompte (en kWh) ?",
+        "variables": [
+          {
+            "nom": "m3",
+            "min": 120,
+            "max": 400,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "pan",
+            "min": 2,
+            "max": 10,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "m3 * 60 - pan * 400",
+        "unite_reponse": "kWh",
+        "arrondi_reponse": 0,
+        "tolerance": 0,
+        "explication": "Besoin = m3 consommés × 60 kWh − m2 de panneaux × 400 kWh. Ex. : 174 × 60 − 5 × 400 = 10'440 − 2'000 = 8'440 kWh."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Dans un immeuble vaudois avec compteurs d'eau, à quel poste ajoute-t-on les frais de relevé de ces compteurs ?",
+        "propositions": [
+          "Au poste eau chaude",
+          "Au poste chauffage",
+          "Aux frais accessoires",
+          "Ils restent à la charge du propriétaire"
+        ],
+        "reponse_correcte": "Au poste eau chaude",
+        "explication": "Les frais de relevé des compteurs d'eau sont ajoutés au poste eau et non chauffage (certains locataires n'ont peut-être pas de compteur)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Immeuble mixte (FR/GE/VS) : 4 commerces sans eau chaude et 1 appartement équipé. Pourquoi ne faut-il pas appliquer tel quel la clef 76 / 24 ?",
+        "propositions": [
+          "Parce que l'appartement supporterait seul 24 % de la production alors que la chaufferie a surtout produit du chauffage",
+          "Parce que la clef 76 / 24 est interdite pour les commerces",
+          "Parce que les commerces doivent payer 100 % de l'eau chaude",
+          "Parce que la clef doit être 50 / 50 dans un immeuble mixte"
+        ],
+        "reponse_correcte": "Parce que l'appartement supporterait seul 24 % de la production alors que la chaufferie a surtout produit du chauffage",
+        "explication": "Dans un immeuble mixte où tous les locaux ne reçoivent pas d'ECS, la clef doit être modifiée pour refléter la production réelle."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition chauffage / eau chaude",
+      "content": {
+        "enonce": "Clef 76 % / 24 % : le coût total de production de chauffage et d'eau chaude s'élève à CHF {cout}. Quel montant est attribué à l'eau chaude (en CHF) ?",
+        "variables": [
+          {
+            "nom": "cout",
+            "min": 8000,
+            "max": 25000,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "cout * 0.24",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Eau chaude = coût total × 24 % ; chauffage = coût total × 76 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Sans compteurs, sur quelle base répartit-on les frais de chauffage entre les objets ?",
+        "propositions": [
+          "Au volume (m3) des locaux",
+          "Au nombre d'occupants",
+          "Au nombre de pièces",
+          "À parts égales"
+        ],
+        "reponse_correcte": "Au volume (m3) des locaux",
+        "explication": "Schématiquement : frais de chauffage répartis au volume (m3) ; eau chaude au volume si pas de compteurs, au m3 consommé si compteurs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Un locataire quitte son logement en cours de saison. Que fait la gérance ?",
+        "propositions": [
+          "Elle répartit le coût de l'objet entre les locataires selon la période d'occupation, à la fin de la saison",
+          "Le locataire sortant perd ses acomptes",
+          "Elle établit immédiatement un décompte complet de l'immeuble",
+          "Le nouveau locataire paie la totalité de la saison"
+        ],
+        "reponse_correcte": "Elle répartit le coût de l'objet entre les locataires selon la période d'occupation, à la fin de la saison",
+        "explication": "La répartition ne peut être calculée qu'avec le coût général de l'immeuble et le coût par objet : le locataire sortant attend donc la fin de la période (+ le délai du canton)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Comment répartit-on les frais de chauffage d'un objet en cas de mutation ?",
+        "propositions": [
+          "Selon un pourcentage mensuel tenant compte de la saison (ex. tableau 5 des directives VD)",
+          "Au prorata du nombre de jours, chaque jour ayant le même poids",
+          "50 % pour chaque locataire",
+          "Selon le montant des acomptes versés"
+        ],
+        "reponse_correcte": "Selon un pourcentage mensuel tenant compte de la saison (ex. tableau 5 des directives VD)",
+        "explication": "Le chauffage se consomme surtout en hiver : on utilise un barème mensuel (0 % en juillet-août-juin, 18 % en décembre et janvier…). L'eau chaude, elle, se répartit prorata temporis ou selon compteur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Comment répartit-on les frais d'eau chaude d'un objet en cas de mutation ?",
+        "propositions": [
+          "Prorata temporis (mois ou jours) ou selon compteur s'il existe",
+          "Selon le barème mensuel du chauffage",
+          "Entièrement au nouveau locataire",
+          "Entièrement au locataire sortant"
+        ],
+        "reponse_correcte": "Prorata temporis (mois ou jours) ou selon compteur s'il existe",
+        "explication": "L'eau chaude est consommée de manière régulière toute l'année : prorata temporis ou relevé de compteur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Selon le barème mensuel de répartition du chauffage, quelle part est attribuée aux mois de décembre et de janvier ?",
+        "propositions": [
+          "18 % chacun",
+          "8.33 % chacun",
+          "13 % chacun",
+          "25 % chacun"
+        ],
+        "reponse_correcte": "18 % chacun",
+        "explication": "Barème : juil. 0, août 0, sept. 2, oct. 8, nov. 13, déc. 18, janv. 18, févr. 15, mars 14, avr. 8, mai 4, juin 0 → total 100 %."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Selon le barème mensuel de répartition du chauffage, quels mois comptent pour 0 % ?",
+        "propositions": [
+          "Juillet",
+          "Août",
+          "Juin",
+          "Septembre",
+          "Mai"
+        ],
+        "reponses_correctes": [
+          "Juillet",
+          "Août",
+          "Juin"
+        ],
+        "explication": "Juillet, août et juin = 0 %. Septembre = 2 %, mai = 4 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Saison 01.07–30.06 : le locataire sort au 30.11 (nouveau locataire dès le 01.12). Quelle part du chauffage de l'objet supporte le locataire sortant ?",
+        "propositions": [
+          "23 %",
+          "41 %",
+          "42 %",
+          "33 %"
+        ],
+        "reponse_correcte": "23 %",
+        "explication": "Juillet 0 + août 0 + septembre 2 + octobre 8 + novembre 13 = 23 %. Le nouveau locataire supporte 77 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Saison 01.07–30.06 : un locataire déménage au 1er février. Quelle part du chauffage revient au locataire sortant (occupation du 01.07 au 31.01) ?",
+        "propositions": [
+          "59 %",
+          "58 %",
+          "41 %",
+          "50 %"
+        ],
+        "reponse_correcte": "59 %",
+        "explication": "0 + 0 + 2 + 8 + 13 + 18 + 18 = 59 % ; le nouveau locataire (01.02–30.06) : 15 + 14 + 8 + 4 + 0 = 41 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Saison 01.07–30.06 : le locataire sortant a occupé l'objet jusqu'au 30.09. Quelle part du chauffage lui revient ?",
+        "propositions": [
+          "2 %",
+          "25 %",
+          "0 %",
+          "10 %"
+        ],
+        "reponse_correcte": "2 %",
+        "explication": "Juillet 0 + août 0 + septembre 2 = 2 %. En pratique, il paie surtout sa part d'eau chaude (prorata) puisqu'il n'a presque pas chauffé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Un local commercial change de locataire au 01.03. Quelle part du chauffage de la saison (01.07–30.06) revient au nouveau locataire ?",
+        "propositions": [
+          "26 %",
+          "33 %",
+          "74 %",
+          "40 %"
+        ],
+        "reponse_correcte": "26 %",
+        "explication": "Mars 14 + avril 8 + mai 4 + juin 0 = 26 %. L'ancien locataire (juillet à février) supporte 74 %."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Le coût de l'eau chaude d'un objet pour la saison est de CHF {ecs}. Le locataire sortant a occupé l'objet {mois} mois sur 12. Quelle est sa part d'eau chaude (prorata temporis, en CHF) ?",
+        "variables": [
+          {
+            "nom": "ecs",
+            "min": 200,
+            "max": 900,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "mois",
+            "min": 1,
+            "max": 11,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "ecs * mois / 12",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "L'eau chaude se répartit prorata temporis : coût ECS × mois d'occupation / 12."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Répartition entre locataires et mutations",
+      "content": {
+        "enonce": "Frais accessoires de l'immeuble : CHF {fa}, répartis au volume. Le logement mesure {v} m3 sur un total de {vt} m3 et a été occupé {j} jours sur 365. Quelle est la part du locataire (en CHF) ?",
+        "variables": [
+          {
+            "nom": "fa",
+            "min": 2000,
+            "max": 6000,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "v",
+            "min": 90,
+            "max": 160,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "vt",
+            "min": 500,
+            "max": 900,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "j",
+            "min": 30,
+            "max": 335,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "fa * v / vt * j / 365",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Part = frais totaux × m3 de l'objet / m3 total × jours d'occupation / 365 (base annuelle 365 jours, comme dans l'exercice de la rue de la Paix)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Que signifie DIFC ?",
+        "propositions": [
+          "Décompte individuel des frais de chauffage",
+          "Directive intercantonale sur les frais de chauffage",
+          "Décompte intermédiaire des frais communs",
+          "Déclaration individuelle de fourniture de combustible"
+        ],
+        "reponse_correcte": "Décompte individuel des frais de chauffage",
+        "explication": "DIFC = décompte individuel des frais de chauffage ; DIFEC = décompte individuel des frais d'eau chaude."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Depuis la loi fédérale sur l'énergie (1998), quelles constructions doivent être équipées de compteurs individuels d'énergie ?",
+        "propositions": [
+          "Les nouvelles constructions de plus de 5 logements (4 dans certains cantons)",
+          "Tous les immeubles existants",
+          "Uniquement les immeubles commerciaux",
+          "Les villas individuelles"
+        ],
+        "reponse_correcte": "Les nouvelles constructions de plus de 5 logements (4 dans certains cantons)",
+        "explication": "La loi fédérale sur l'énergie, en vigueur dès 1998, impose des compteurs individuels dans les nouvelles constructions de plus de 5 logements (4 dans certains cantons)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Quelles sont les particularités d'un décompte DIFC / DIFEC ?",
+        "propositions": [
+          "Des compteurs individuels pour l'eau chaude et le chauffage",
+          "La notion de frais fixes (volume) et de frais variables (consommation)",
+          "Un pourcentage eau chaude / chauffage calculé selon l'énergie utilisée, avec calcul de déperdition",
+          "Une clef fixe de 76 % / 24 %",
+          "L'absence de frais administratifs"
+        ],
+        "reponses_correctes": [
+          "Des compteurs individuels pour l'eau chaude et le chauffage",
+          "La notion de frais fixes (volume) et de frais variables (consommation)",
+          "Un pourcentage eau chaude / chauffage calculé selon l'énergie utilisée, avec calcul de déperdition"
+        ],
+        "explication": "Trois particularités : compteurs individuels, frais fixes / variables, et répartition ECS / chauffage calculée selon l'énergie avec déperdition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Dans un décompte DIFC, sur quelle base sont répartis les frais fixes ?",
+        "propositions": [
+          "Sur le volume des locaux",
+          "Sur la consommation relevée",
+          "À parts égales",
+          "Sur le nombre d'occupants"
+        ],
+        "reponse_correcte": "Sur le volume des locaux",
+        "explication": "Frais fixes = indépendants de la consommation, répartis selon le volume. Frais variables = selon la consommation mesurée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Qui établit généralement un décompte DIFC ?",
+        "propositions": [
+          "Une société spécialisée, sur la base des dépenses et de la liste des locataires fournies par la gérance",
+          "Le concierge",
+          "Le locataire lui-même",
+          "Le fournisseur de mazout"
+        ],
+        "reponse_correcte": "Une société spécialisée, sur la base des dépenses et de la liste des locataires fournies par la gérance",
+        "explication": "C'est un décompte complexe : la gérance fournit la liste des dépenses et des locataires, la société spécialisée établit les décomptes individuels."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compteurs individuels (DIFC / DIFEC)",
+      "content": {
+        "enonce": "Quel est le principe d'un décompte avec compteurs individuels de chaleur ?",
+        "propositions": [
+          "Facturer l'énergie effectivement consommée selon le comportement de l'utilisateur",
+          "Facturer uniquement selon le volume habité",
+          "Facturer un forfait identique à tous",
+          "Supprimer les acomptes"
+        ],
+        "reponse_correcte": "Facturer l'énergie effectivement consommée selon le comportement de l'utilisateur",
+        "explication": "Le principe : mesurer puis facturer selon le comportement de l'utilisateur, et non plus seulement selon le volume habité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Dans quel mode de facturation un décompte doit-il être établi ?",
+        "propositions": [
+          "Acompte provisionnel",
+          "Forfait",
+          "Loyer tout compris",
+          "Dans aucun des trois"
+        ],
+        "reponse_correcte": "Acompte provisionnel",
+        "explication": "Mnémotechnique : acomptes = décompte ; forfait / loyer tout compris = pas de décompte."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Quels modes de facturation des frais de chauffage et accessoires dispensent le bailleur d'établir un décompte ?",
+        "propositions": [
+          "Le forfait",
+          "Le loyer tout compris",
+          "L'acompte provisionnel"
+        ],
+        "reponses_correctes": [
+          "Le forfait",
+          "Le loyer tout compris"
+        ],
+        "explication": "Forfait et loyer tout compris : pas de décompte. Acomptes : décompte annuel obligatoire (art. 4 OBLF)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Quel est le principal avantage du système des acomptes ?",
+        "propositions": [
+          "La précision : le locataire paie ce qu'il a consommé",
+          "La simplicité : pas de décompte",
+          "Le bailleur peut réaliser un bénéfice",
+          "Aucune adaptation n'est jamais nécessaire"
+        ],
+        "reponse_correcte": "La précision : le locataire paie ce qu'il a consommé",
+        "explication": "Acompte : avantage = précision ; inconvénient = obligation d'établir un décompte annuel."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Quels sont les inconvénients du forfait ?",
+        "propositions": [
+          "Le bailleur ne peut pas réclamer de supplément",
+          "Le système est défavorable au locataire si les coûts sont inférieurs",
+          "Le bailleur doit établir un décompte annuel",
+          "Le locataire peut exiger une ristourne chaque année"
+        ],
+        "reponses_correctes": [
+          "Le bailleur ne peut pas réclamer de supplément",
+          "Le système est défavorable au locataire si les coûts sont inférieurs"
+        ],
+        "explication": "Le forfait est simple mais imprécis : pas de supplément pour le bailleur, pas de ristourne pour le locataire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Dans quelles situations le loyer « tout compris » est-il pratique ?",
+        "propositions": [
+          "Chambres, studios, logements d'étudiants ou en montagne, où il est difficile de refacturer",
+          "Grands immeubles locatifs avec compteurs",
+          "Centres commerciaux",
+          "Immeubles chauffés au mazout uniquement"
+        ],
+        "reponse_correcte": "Chambres, studios, logements d'étudiants ou en montagne, où il est difficile de refacturer",
+        "explication": "Le loyer tout compris est pratique lorsqu'il est difficile de refacturer ; sa contrainte : adapter le montant demande une formule officielle, le respect de l'échéance, etc."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Le bailleur souhaite modifier le montant d'un forfait ou d'un loyer tout compris. Quelle est la contrainte ?",
+        "propositions": [
+          "Il doit se fonder sur la moyenne de 3 ans et notifier la modification sur formule officielle pour l'échéance contractuelle",
+          "Il peut le modifier librement par simple lettre",
+          "Il doit obtenir l'accord de tous les locataires de l'immeuble",
+          "Il ne peut jamais le modifier"
+        ],
+        "reponse_correcte": "Il doit se fonder sur la moyenne de 3 ans et notifier la modification sur formule officielle pour l'échéance contractuelle",
+        "explication": "Contrainte importante pour le bailleur : moyenne de trois ans, formule officielle, échéance contractuelle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Le décompte individuel d'un locataire s'élève à CHF 972.05 (chauffage 656.50 + eau chaude 315.55). Il a payé CHF 80.- d'acompte par mois. Quel est le résultat ?",
+        "propositions": [
+          "Supplément de CHF 12.05",
+          "Ristourne de CHF 12.05",
+          "Supplément de CHF 892.05",
+          "Ristourne de CHF 827.95"
+        ],
+        "reponse_correcte": "Supplément de CHF 12.05",
+        "explication": "Acomptes : 80 × 12 = 960.- ; 972.05 − 960 = CHF 12.05 à payer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Même décompte de CHF 972.05, mais le locataire a payé CHF 150.- d'acompte par mois. Quel est le résultat ?",
+        "propositions": [
+          "Ristourne de CHF 827.95",
+          "Supplément de CHF 827.95",
+          "Ristourne de CHF 177.95",
+          "Ristourne de CHF 1'800.-"
+        ],
+        "reponse_correcte": "Ristourne de CHF 827.95",
+        "explication": "Acomptes : 150 × 12 = 1'800.- ; 1'800 − 972.05 = CHF 827.95 remboursés au locataire."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Modes de facturation et décompte individuel",
+      "content": {
+        "enonce": "Décompte individuel : chauffage CHF {ch}, eau chaude CHF {ec}. Le locataire a versé CHF {ac}.- d'acompte par mois pendant 12 mois. Quel est le solde (positif = supplément à payer, négatif = ristourne), en CHF ?",
+        "variables": [
+          {
+            "nom": "ch",
+            "min": 400,
+            "max": 1400,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "ec",
+            "min": 150,
+            "max": 600,
+            "unite": "",
+            "arrondi": 2
+          },
+          {
+            "nom": "ac",
+            "min": 50,
+            "max": 150,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "ch + ec - ac * 12",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Solde = (chauffage + eau chaude) − acomptes annuels (acompte mensuel × 12)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Par défaut (sans clause dans le bail), les frais accessoires sont :",
+        "propositions": [
+          "Compris dans le loyer",
+          "Facturés selon l'usage local",
+          "Facturés à 50 % au locataire",
+          "Facturés selon la clef de l'immeuble"
+        ],
+        "reponse_correcte": "Compris dans le loyer",
+        "explication": "Le loyer rémunère la chose louée et son maintien en état : la fourniture des prestations accessoires incombe donc au bailleur, sauf convention spéciale."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Pour pouvoir être refacturés, les frais accessoires doivent :",
+        "propositions": [
+          "Être mentionnés expressément et de façon exhaustive dans le bail",
+          "Faire l'objet d'une rubrique distincte dans le décompte",
+          "Être réclamés distinctement au locataire",
+          "Être intégrés dans le récapitulatif des frais de chauffage",
+          "Être simplement cités pour information dans le bail"
+        ],
+        "reponses_correctes": [
+          "Être mentionnés expressément et de façon exhaustive dans le bail",
+          "Faire l'objet d'une rubrique distincte dans le décompte",
+          "Être réclamés distinctement au locataire"
+        ],
+        "explication": "Le locataire doit pouvoir distinguer clairement le chauffage, l'eau chaude et les frais accessoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Le bail prévoit : « frais accessoires : conciergerie, électricité des communs, etc. ». Que vaut le « etc. » ?",
+        "propositions": [
+          "Rien : la mention « etc. » est prohibée, seuls les postes énumérés sont facturables",
+          "Il permet de facturer tous les frais d'exploitation usuels",
+          "Il permet de facturer les frais admis par l'usage local",
+          "Il rend toute la clause nulle"
+        ],
+        "reponse_correcte": "Rien : la mention « etc. » est prohibée, seuls les postes énumérés sont facturables",
+        "explication": "Les frais accessoires doivent être indiqués clairement et de façon exhaustive dans le contrat. La notion d'« etc. » est prohibée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Lesquels de ces frais accessoires sont admissibles (s'ils sont prévus dans le bail) ?",
+        "propositions": [
+          "Consommation réelle d'eau froide",
+          "Électricité des parties communes et fournitures (ampoules, néons, fusibles)",
+          "Abonnement d'entretien de l'ascenseur",
+          "Conciergerie : salaire, charges sociales, produits de nettoyage",
+          "Sel adoucisseur pour l'eau",
+          "Redevance du téléréseau",
+          "Taxes d'épuration et d'enlèvement des ordures",
+          "Impôt foncier"
+        ],
+        "reponses_correctes": [
+          "Consommation réelle d'eau froide",
+          "Électricité des parties communes et fournitures (ampoules, néons, fusibles)",
+          "Abonnement d'entretien de l'ascenseur",
+          "Conciergerie : salaire, charges sociales, produits de nettoyage",
+          "Sel adoucisseur pour l'eau",
+          "Redevance du téléréseau",
+          "Taxes d'épuration et d'enlèvement des ordures"
+        ],
+        "explication": "Tous sont admissibles sauf l'impôt foncier, qui est exclu (comme les autres impôts)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Quels frais sont EXCLUS des frais accessoires refacturables ?",
+        "propositions": [
+          "Le remplacement et l'entretien de l'immeuble et des appartements",
+          "L'impôt foncier et les autres impôts",
+          "Les primes d'assurance ECA et RC du bâtiment",
+          "Les intérêts hypothécaires et amortissements",
+          "L'amortissement des installations et appareils",
+          "Le salaire du concierge"
+        ],
+        "reponses_correctes": [
+          "Le remplacement et l'entretien de l'immeuble et des appartements",
+          "L'impôt foncier et les autres impôts",
+          "Les primes d'assurance ECA et RC du bâtiment",
+          "Les intérêts hypothécaires et amortissements",
+          "L'amortissement des installations et appareils"
+        ],
+        "explication": "Ces charges incombent au propriétaire (elles sont couvertes par le loyer). La conciergerie est admissible si le bail la prévoit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Lequel de ces frais ne peut PAS être mis à la charge des locataires ?",
+        "propositions": [
+          "Les impôts",
+          "Les frais de conciergerie",
+          "L'abonnement d'entretien de l'ascenseur",
+          "Le sel adoucisseur"
+        ],
+        "reponse_correcte": "Les impôts",
+        "explication": "L'impôt foncier et les autres impôts sont exclus des frais accessoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Exception à l'exclusion des primes d'assurance : quelle assurance peut être refacturée aux locataires commerciaux ?",
+        "propositions": [
+          "L'assurance bris de glace des vitrines",
+          "L'assurance ECA du bâtiment",
+          "La RC immeuble",
+          "L'assurance incendie du mobilier du bailleur"
+        ],
+        "reponse_correcte": "L'assurance bris de glace des vitrines",
+        "explication": "Les primes ECA, RC et bris de glace sont exclues, sauf le bris de glace des vitrines pour les locaux commerciaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Quels frais administratifs (honoraires) sont usuellement facturés sur les frais accessoires ?",
+        "propositions": [
+          "4 à 5 % du coût total (+ TVA)",
+          "10 % du coût total",
+          "1 % du coût total",
+          "Un montant fixe de CHF 100.- par locataire"
+        ],
+        "reponse_correcte": "4 à 5 % du coût total (+ TVA)",
+        "explication": "Honoraires usuels de 4-5 % sur le coût total : 4 % dans le canton de Vaud, 5 % en Valais, 4 ou 5 % dans les autres cantons."
+      }
+    },
+    {
+      "type": "CALCUL",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Frais accessoires vaudois : taxe d'épuration CHF {ep} et taxe ordures CHF {ord}. Quels frais administratifs à 4 % (+ TVA 7.7 %) facture-t-on (en CHF) ?",
+        "variables": [
+          {
+            "nom": "ep",
+            "min": 1000,
+            "max": 4000,
+            "unite": "",
+            "arrondi": 0
+          },
+          {
+            "nom": "ord",
+            "min": 300,
+            "max": 1500,
+            "unite": "",
+            "arrondi": 0
+          }
+        ],
+        "formule": "(ep + ord) * 0.04 * 1.077",
+        "unite_reponse": "CHF",
+        "arrondi_reponse": 2,
+        "tolerance": 0.05,
+        "explication": "Frais administratifs = (taxe épuration + taxe ordures) × 4 % × 1.077. Ex. : 3'300 × 4 % = 132.- + TVA 7.7 % = CHF 142.15."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Dans le canton de Vaud, quels frais accessoires sont historiquement insérés dans le décompte de chauffage et d'eau chaude ?",
+        "propositions": [
+          "Uniquement les taxes d'épuration et d'ordures",
+          "La conciergerie et l'ascenseur",
+          "Tous les frais d'exploitation",
+          "Aucun frais accessoire"
+        ],
+        "reponse_correcte": "Uniquement les taxes d'épuration et d'ordures",
+        "explication": "Historiquement, dans le canton de Vaud, seules les taxes d'épuration et d'ordures (si elles peuvent être facturées) figurent avec le décompte de chauffage. Pour les nouvelles constructions, la liste est plus étendue, comme dans les autres cantons."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Comment répartit-on généralement les frais accessoires ?",
+        "propositions": [
+          "En m2 pour les baux commerciaux et en m3 pour les logements",
+          "En mètres linéaires",
+          "Selon le nombre d'occupants",
+          "Selon le montant du loyer"
+        ],
+        "reponse_correcte": "En m2 pour les baux commerciaux et en m3 pour les logements",
+        "explication": "Aucune exigence légale (sauf convention contraire) : le plus souvent m2 (commerces) et m3 (logements), parfois à l'unité ou au forfait."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Un monte-charge n'est utilisé que par deux locataires commerciaux. Comment répartir son coût ?",
+        "propositions": [
+          "Créer une clef de répartition spécifique ne concernant que ces deux locataires",
+          "Le répartir sur tous les locataires au m3",
+          "Le laisser à la charge du propriétaire",
+          "Le répartir à parts égales sur tous les locataires"
+        ],
+        "reponse_correcte": "Créer une clef de répartition spécifique ne concernant que ces deux locataires",
+        "explication": "Selon les caractéristiques de l'immeuble, plusieurs clefs peuvent être instaurées (ex. 1re clef monte-charge pour 2 locataires, 2e clef éclairage des communs pour tous)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "À quelles exigences les décomptes de frais accessoires des centres commerciaux sont-ils généralement soumis ?",
+        "propositions": [
+          "Aux exigences de l'OTVA (TVA)",
+          "Aux directives vaudoises sur l'ECS",
+          "À la LCAP",
+          "Au règlement de PPE"
+        ],
+        "reponse_correcte": "Aux exigences de l'OTVA (TVA)",
+        "explication": "Les décomptes des centres commerciaux sont généralement soumis à l'OTVA (Info TVA 17 : administration, location et vente d'immeubles)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Quelle est la pratique en Suisse concernant les frais accessoires des baux commerciaux ?",
+        "propositions": [
+          "Il est d'usage dans toute la Suisse de les facturer aux locataires commerciaux",
+          "Ils sont toujours compris dans le loyer",
+          "Ils sont interdits",
+          "Seul le canton de Vaud les autorise"
+        ],
+        "reponse_correcte": "Il est d'usage dans toute la Suisse de les facturer aux locataires commerciaux",
+        "explication": "Baux commerciaux : facturation usuelle partout. Baux d'habitation : la pratique varie selon le canton et l'ancienneté des baux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Quelle loi fédérale prévoit (art. 38) que les frais accessoires peuvent être comptés séparément selon les dépenses faites ?",
+        "propositions": [
+          "La LCAP (loi encourageant la construction et l'accession à la propriété de logements)",
+          "La loi fédérale sur l'énergie",
+          "La LP",
+          "Le CC"
+        ],
+        "reponse_correcte": "La LCAP (loi encourageant la construction et l'accession à la propriété de logements)",
+        "explication": "Art. 38 LCAP : les frais accessoires peuvent être comptés séparément aux locataires selon les dépenses faites."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Frais accessoires",
+      "content": {
+        "enonce": "Le bail prévoit la refacturation de la conciergerie. Le concierge a coûté CHF 2'210.- et le matériel CHF 147.55. La saison de décompte couvre la moitié de ces frais annuels. Quel montant figure dans le décompte ?",
+        "propositions": [
+          "CHF 1'178.80",
+          "CHF 2'357.55",
+          "CHF 1'105.00",
+          "CHF 73.80"
+        ],
+        "reponse_correcte": "CHF 1'178.80",
+        "explication": "(2'210 + 147.55) / 2 = 2'357.55 / 2 = CHF 1'178.78, arrondi à CHF 1'178.80. Il faut tenir compte de la périodicité des factures par rapport à la saison du décompte."
+      }
+    }
+  ]
+}

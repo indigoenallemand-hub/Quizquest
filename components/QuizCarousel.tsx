@@ -59,7 +59,6 @@ function ChapterCard({
     <div ref={cardRef} className={`qz-chapter-card ${className}`} style={style}>
       <span className="qz-chapter-counter">{counter}</span>
       <h2 className="qz-chapter-title">{chapter.title}</h2>
-      {chapter.description && <p className="qz-chapter-questions-count">{chapter.description}</p>}
       <p className="qz-chapter-questions-count">{chapter.questionCount} questions</p>
 
       {showBadges && <BadgeRow key={`badges-${chapter.id}`} earned={earned} reponseLibreBadgeEnabled={reponseLibreBadgeEnabled} />}
