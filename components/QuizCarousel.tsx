@@ -72,9 +72,6 @@ function ChapterCard({
         <Link href={`${basePath}/session?mode=QCM&themeId=${chapter.id}${pointsSuffix}${gridSuffix}`} className="qz-btn-secondary">
           Test complet du chapitre (QCM)
         </Link>
-        <Link href={`${basePath}/session?mode=REPONSE_LIBRE&themeId=${chapter.id}${pointsSuffix}${gridSuffix}`} className="qz-btn-secondary">
-          Reponse libre
-        </Link>
         <Link href={`${basePath}/progress?themeId=${chapter.id}`} className="qz-btn-secondary">
           Recapitulatif
         </Link>
