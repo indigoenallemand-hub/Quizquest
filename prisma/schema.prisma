@@ -34,6 +34,15 @@ enum AttemptMode {
   REPONSE_LIBRE
 }
 
+enum DuelStatus {
+  PENDING
+  ACTIVE
+  DECLINED
+  CANCELLED
+  FINISHED
+  ABANDONED
+}
+
 model User {
   id           String   @id @default(cuid())
   email        String   @unique
@@ -70,6 +79,7 @@ model Quiz {
   creator    User          @relation(fields: [creatorId], references: [id], onDelete: Cascade)
   themes     QuizTheme[]
   guestLinks GuestAccess[]
+  duels      Duel[]
 }
 
 model Theme {
@@ -85,17 +95,17 @@ model Theme {
 
 // Join table for the many-to-many Quiz <-> Theme relation.
 model QuizTheme {
-  quizId  String
-  themeId String
+  quizId        String
+  themeId       String
   // Display position of this chapter within the quiz, set by the creator via
   // drag-and-drop. No @@unique constraint: a reorder updates many rows in one
   // transaction and could transiently collide with a uniqueness check.
   // Consistency is enforced at the application layer instead.
-  order   Int
+  order         Int
   // Lets the creator hide a chapter from this quiz without deleting it (or its
   // questions/attempts): disabled chapters are left out of the chapter
   // selection, the question sets, progress pages and points totals.
-  enabled Boolean @default(true)
+  enabled       Boolean @default(true)
   // Set on a "niveau 2" chapter: the themeId of the chapter of this same quiz
   // it extends. Level-2 chapters are left out of the main carousel and shown
   // under their parent instead, once every badge of the parent is earned.
@@ -159,9 +169,12 @@ model GuestAccess {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
-  quiz     Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
-  attempts Attempt[]
-  badges   Badge[]
+  quiz          Quiz         @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  attempts      Attempt[]
+  badges        Badge[]
+  duelsSent     Duel[]       @relation("DuelChallenger")
+  duelsReceived Duel[]       @relation("DuelOpponent")
+  duelAnswers   DuelAnswer[]
 
   @@index([quizId])
 }
@@ -191,4 +204,69 @@ model Attempt {
   @@index([guestAccessId])
   @@index([questionId])
   @@index([sessionId])
+}
+
+// A best-of-N quiz duel between two guest links of the same quiz. The
+// challenger picks bestOf (1, 3 or 5) when sending it; it stays PENDING until
+// the opponent accepts (ACTIVE) or declines, and PENDING duels older than
+// DUEL_INVITE_TTL_MS (lib/duel.ts) are treated as CANCELLED. Every round is
+// played to the end — bestOf is the number of rounds, not a "first to" target.
+model Duel {
+  id            String     @id @default(cuid())
+  quizId        String
+  challengerId  String
+  opponentId    String
+  bestOf        Int
+  status        DuelStatus @default(PENDING)
+  // Set when status is ABANDONED: the guest who gave up (the other one wins).
+  abandonedById String?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  quiz       Quiz        @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  challenger GuestAccess @relation("DuelChallenger", fields: [challengerId], references: [id], onDelete: Cascade)
+  opponent   GuestAccess @relation("DuelOpponent", fields: [opponentId], references: [id], onDelete: Cascade)
+  rounds     DuelRound[]
+
+  @@index([challengerId, status])
+  @@index([opponentId, status])
+}
+
+// One round of a duel. Created with only chooserId set; the chooser then
+// picks a chapter, which draws the round's questions. `questions` stores the
+// public views (lib/question-resolver.ts getPublicView) so both players get
+// exactly the same questions, including the same random CALCUL variables.
+// The (duelId, index) unique constraint is what stops two simultaneous
+// "last answer" requests from both creating the next round.
+model DuelRound {
+  id         String   @id @default(cuid())
+  duelId     String
+  index      Int
+  chooserId  String
+  themeId    String?
+  themeTitle String?
+  questions  Json?
+  createdAt  DateTime @default(now())
+
+  duel    Duel         @relation(fields: [duelId], references: [id], onDelete: Cascade)
+  answers DuelAnswer[]
+
+  @@unique([duelId, index])
+}
+
+// Kept apart from Attempt on purpose: duel answers don't count towards a
+// guest's progress, badges or leaderboard points.
+model DuelAnswer {
+  id            String   @id @default(cuid())
+  roundId       String
+  guestAccessId String
+  questionId    String
+  isCorrect     Boolean
+  answerGiven   Json
+  createdAt     DateTime @default(now())
+
+  round       DuelRound   @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  guestAccess GuestAccess @relation(fields: [guestAccessId], references: [id], onDelete: Cascade)
+
+  @@unique([roundId, guestAccessId, questionId])
 }

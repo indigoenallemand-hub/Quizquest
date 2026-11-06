@@ -576,3 +576,69 @@
 }
 .qz-level2-locked > span { font-size: 1.5rem; opacity: 0.7; }
 .qz-level2-locked strong { color: var(--qz-primary); display: block; }
+
+/* ── Guest duels ── */
+.qz-duel-challenge-btn {
+  flex-shrink: 0;
+  background: var(--qz-primary-light);
+  color: var(--qz-primary);
+  border: none;
+  border-radius: 9999px;
+  padding: 0.125rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.qz-duel-challenge-btn:hover { background: var(--qz-primary); color: #fff; }
+
+.qz-duel-modal { align-items: center; text-align: center; }
+.qz-duel-modal-title { font-size: 1.0625rem; font-weight: 700; color: var(--qz-text); }
+.qz-duel-bo-row { display: flex; gap: 0.625rem; width: 100%; }
+
+.qz-duel-spinner {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 4px solid var(--qz-primary-light);
+  border-top-color: var(--qz-primary);
+  animation: qz-duel-spin 0.9s linear infinite;
+  margin: 0 auto;
+}
+@keyframes qz-duel-spin { to { transform: rotate(360deg); } }
+
+.qz-duel-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: var(--qz-warning-light);
+  color: var(--qz-text);
+  border-radius: var(--qz-radius-sm);
+  padding: 0.625rem 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.qz-duel-scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--qz-card);
+  border-radius: var(--qz-radius);
+  box-shadow: var(--qz-shadow-md);
+  padding: 1rem 1.5rem;
+}
+.qz-duel-player { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; flex: 1; min-width: 0; }
+.qz-duel-player-name { font-size: 0.875rem; font-weight: 600; color: var(--qz-muted); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.qz-duel-player-score { font-size: 2.25rem; font-weight: 800; color: var(--qz-primary); line-height: 1; }
+.qz-duel-vs { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; font-weight: 800; color: var(--qz-text); }
+.qz-duel-round-label { font-size: 0.75rem; font-weight: 600; color: var(--qz-muted); white-space: nowrap; }
+
+.qz-duel-theme-list { display: flex; flex-direction: column; gap: 0.5rem; width: 100%; }
+.qz-duel-abandon { display: flex; align-items: center; justify-content: center; gap: 0.5rem; font-size: 0.875rem; color: var(--qz-muted); }
+.qz-duel-round-banner { max-width: 780px; margin: 0 auto 0.75rem; text-align: center; font-size: 0.8125rem; font-weight: 600; color: var(--qz-muted); }
+.qz-duel-trophy { animation: qz-duel-pop 0.6s ease; }
+@keyframes qz-duel-pop { 0% { transform: scale(0.3); opacity: 0; } 70% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }

@@ -1,6 +1,15 @@
 import type { GuestLeaderboardEntry } from "@/lib/guest-leaderboard";
+import DuelChallengeButton from "@/components/DuelChallengeButton";
 
-export default function GuestLeaderboard({ entries }: { entries: GuestLeaderboardEntry[] }) {
+// `challenge` is passed on a guest's own share-link menu: every other guest
+// of the list then gets a "Défier" button.
+export default function GuestLeaderboard({
+  entries,
+  challenge,
+}: {
+  entries: GuestLeaderboardEntry[];
+  challenge?: { token: string; currentGuestId: string };
+}) {
   if (entries.length === 0) return null;
 
   return (
@@ -12,6 +21,9 @@ export default function GuestLeaderboard({ entries }: { entries: GuestLeaderboar
             <span className="qz-leaderboard-rank">{i + 1}</span>
             <span className="qz-leaderboard-name">{entry.guestName ?? "Invite sans nom"}</span>
             <span className="qz-leaderboard-points">{entry.points} pts</span>
+            {challenge && entry.guestAccessId !== challenge.currentGuestId && (
+              <DuelChallengeButton token={challenge.token} opponentId={entry.guestAccessId} opponentName={entry.guestName ?? "Invite sans nom"} />
+            )}
           </li>
         ))}
       </ol>

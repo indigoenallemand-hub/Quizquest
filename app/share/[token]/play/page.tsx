@@ -9,6 +9,7 @@ import { buildThemeStyle, buildLevel2Style } from "@/lib/quiz-theme-style";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
 import GuestLeaderboard from "@/components/GuestLeaderboard";
+import DuelInbox from "@/components/DuelInbox";
 
 export default async function SharedQuizPlayPage({
   params,
@@ -73,6 +74,8 @@ export default async function SharedQuizPlayPage({
         reponseLibreBadgeEnabled={quiz.reponseLibreBadgeEnabled}
       />
 
+      <DuelInbox token={token} />
+
       <div className="qz-start-header">
         <h1 className="qz-start-title">{quiz.title}</h1>
         {quiz.description && <p className="qz-start-subtitle">{quiz.description}</p>}
@@ -99,7 +102,7 @@ export default async function SharedQuizPlayPage({
 
       {leaderboard.length > 0 && (
         <div className="mt-6">
-          <GuestLeaderboard entries={leaderboard} />
+          <GuestLeaderboard entries={leaderboard} challenge={{ token, currentGuestId: guestAccessId }} />
         </div>
       )}
     </div>

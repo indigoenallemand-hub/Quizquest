@@ -60,6 +60,8 @@ export default function QuizSession({
   count,
   onlyMissed,
   quizId,
+  allowComment = true,
+  onComplete,
 }: {
   mode: Mode;
   questionsUrl: string;
@@ -72,6 +74,10 @@ export default function QuizSession({
   // already answered correctly. Needs `questionsUrl` to request statuses.
   onlyMissed?: boolean;
   quizId?: string;
+  allowComment?: boolean;
+  // When set, finishing the series calls this instead of showing the result
+  // screen (used by duel rounds, whose results come from the duel itself).
+  onComplete?: () => void;
 }) {
   const [sessionId] = useState(() => (mode === "ENTRAINEMENT" ? undefined : crypto.randomUUID()));
   const [questions, setQuestions] = useState<PublicQuestion[] | null>(null);
@@ -117,6 +123,12 @@ export default function QuizSession({
     return shuffleArray(current.propositions).map((text, i) => ({ text, label: LABELS[i] ?? String(i + 1) }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current?.id]);
+
+  const finished = !!questions && index >= questions.length;
+  useEffect(() => {
+    if (finished && onComplete) onComplete();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
 
   function resetAnswerState() {
     setSelectedSingle("");
@@ -205,7 +217,7 @@ export default function QuizSession({
     setIndex((i) => i + 1);
   }
 
-  if (loading) return <div className="qz-quiz-screen px-6 py-10">Chargement...</div>;
+  if (loading || (finished && onComplete)) return <div className="qz-quiz-screen px-6 py-10">Chargement...</div>;
   if (!questions || questions.length === 0) {
     return <div className="qz-quiz-screen px-6 py-10">Aucune question disponible.</div>;
   }
@@ -415,7 +427,7 @@ export default function QuizSession({
         </div>
       )}
 
-      <div className="qz-question-comment">
+      {allowComment && <div className="qz-question-comment">
         <label className="qz-question-comment-label" htmlFor="qz-question-comment">
           Un commentaire sur cette question ? (optionnel)
         </label>
@@ -428,7 +440,7 @@ export default function QuizSession({
           placeholder="Ecrivez votre message ici..."
           disabled={!!result}
         />
-      </div>
+      </div>}
 
       {result && (
         <>
