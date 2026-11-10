@@ -1,0 +1,1163 @@
+{
+  "title": "Financement immobilier",
+  "description": "Immobase — Financement immobilier : fonds propres (directive ASB, 2e et 3e piliers, nantissement), financement bancaire et taux d'avance, valeur de nantissement, types d'hypothèques (fixe, variable, SARON), 1er et 2e rangs, amortissement direct et indirect, crédit de construction et entreprise générale, cédule hypothécaire, faisabilité financière et calcul de la tenue des charges.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Que sont les fonds propres dans le cadre d'un achat immobilier ?",
+        "propositions": [
+          "Le montant prêté par la banque",
+          "Les apports de l'acquéreur investis dans l'acquisition du bien",
+          "La valeur de nantissement retenue par la banque",
+          "Les frais d'acte notarié"
+        ],
+        "reponse_correcte": "Les apports de l'acquéreur investis dans l'acquisition du bien",
+        "explication": "Le financement bancaire correspond au prêt mis à disposition sous déduction des fonds propres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Selon la directive de l'ASB (en vigueur depuis le 1er juillet 2012), quelle part minimale de fonds propres ne doit PAS provenir du 2e pilier ?",
+        "propositions": [
+          "5 % de la valeur de nantissement",
+          "10 % de la valeur de nantissement",
+          "20 % de la valeur de nantissement",
+          "33 % de la valeur de nantissement"
+        ],
+        "reponse_correcte": "10 % de la valeur de nantissement",
+        "explication": "Ces 10 % « durs » ne peuvent provenir ni du 2e pilier (versement anticipé ou mise en gage), ni de travaux personnels, ni d'un prêt de tiers. La règle ne s'applique pas aux reprises avec montant de crédit inchangé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Prix d'achat CHF 900'000.–, valeur de nantissement retenue par la banque CHF 850'000.–. Quel est le minimum de fonds propres ne provenant pas du 2e pilier ?",
+        "propositions": [
+          "CHF 85'000.–",
+          "CHF 90'000.–",
+          "CHF 135'000.–",
+          "CHF 180'000.–"
+        ],
+        "reponse_correcte": "CHF 135'000.–",
+        "explication": "10 % de la valeur de nantissement (CHF 85'000.–) + la différence entre le prix d'achat et la valeur de nantissement (CHF 50'000.–), qui doit être financée intégralement par des fonds propres hors 2e pilier."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Lesquels de ces éléments peuvent être considérés comme fonds propres de l'acquéreur ?",
+        "propositions": [
+          "L'épargne (compte courant, compte épargne, espèces)",
+          "Les titres (actions, obligations, fonds de placement)",
+          "La valeur de rachat d'une police d'assurance libre (3b)",
+          "Un avancement d'hoirie",
+          "Un prêt rémunéré et remboursable consenti par la banque prêteuse",
+          "Le futur 13e salaire"
+        ],
+        "reponses_correctes": [
+          "L'épargne (compte courant, compte épargne, espèces)",
+          "Les titres (actions, obligations, fonds de placement)",
+          "La valeur de rachat d'une police d'assurance libre (3b)",
+          "Un avancement d'hoirie"
+        ],
+        "explication": "Selon la directive ASB, les prêts rémunérés et/ou remboursables ne font pas partie des fonds propres. L'avancement d'hoirie, en revanche, est admis."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Quelles sources de fonds propres ne peuvent être admises qu'au-delà des 10 % de départ ?",
+        "propositions": [
+          "Les fonds du 2e pilier",
+          "Le prêt d'un tiers",
+          "Les travaux personnels",
+          "L'épargne sur un compte bancaire",
+          "Les titres détenus en portefeuille"
+        ],
+        "reponses_correctes": [
+          "Les fonds du 2e pilier",
+          "Le prêt d'un tiers",
+          "Les travaux personnels"
+        ],
+        "explication": "Pour les travaux personnels, la banque évalue de manière critique la capacité de l'emprunteur à les réaliser. Pour un prêt de tiers, il est conseillé d'établir un contrat (montant, durée, taux, remboursement)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Le 2e pilier peut être utilisé comme fonds propres pour l'acquisition…",
+        "propositions": [
+          "d'une résidence principale uniquement",
+          "d'une résidence secondaire uniquement",
+          "de tout type de bien immobilier",
+          "d'un objet de rendement uniquement"
+        ],
+        "reponse_correcte": "d'une résidence principale uniquement",
+        "explication": "Le 2e pilier et le pilier 3a sont uniquement utilisables pour l'acquisition d'une résidence principale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Monsieur Dupond, 54 ans, veut acheter une résidence secondaire. Ses principaux fonds propres proviennent de son 3e pilier A. Que peut-il faire ?",
+        "propositions": [
+          "Il peut utiliser la totalité et devra payer un impôt",
+          "Il ne peut disposer que de la moitié car il a plus de 50 ans",
+          "Il ne peut pas utiliser son 3e pilier A",
+          "Il peut l'utiliser après avoir apporté 10 % de fonds propres en cash"
+        ],
+        "reponse_correcte": "Il ne peut pas utiliser son 3e pilier A",
+        "explication": "Les avoirs 3a sont strictement liés à l'achat d'une résidence principale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Monsieur Dupond veut acquérir sa résidence principale et dispose d'un 3e pilier A. Peut-il l'utiliser ?",
+        "propositions": [
+          "Oui, il peut utiliser son avoir 3a, en respectant les exigences de fonds propres",
+          "Non, le 3a ne peut jamais servir de fonds propres",
+          "Seulement s'il a plus de 50 ans",
+          "Seulement pour payer les frais d'acte"
+        ],
+        "reponse_correcte": "Oui, il peut utiliser son avoir 3a, en respectant les exigences de fonds propres",
+        "explication": "Le 3a est lié à la résidence principale. Un impôt identique à celui du retrait du 2e pilier est perçu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Fonds propres requis : 20 % du prix. Le client dispose de l'équivalent de 15 % en 2e pilier et de 5 % en liquidités. Le financement est-il possible ?",
+        "propositions": [
+          "Oui, puisque le total des fonds propres atteint 20 %",
+          "Non, pas sans un apport supplémentaire de fonds propres",
+          "Oui, si le client a plus de 50 ans",
+          "Oui, si la banque accepte un taux d'avance de 85 %"
+        ],
+        "reponse_correcte": "Non, pas sans un apport supplémentaire de fonds propres",
+        "explication": "Au moins 10 % doivent provenir de fonds propres hors 2e pilier : ici, il n'y en a que 5 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Fonds propres requis : 20 % du prix. Le client dispose de l'équivalent de 15 % en 3e pilier A et de 5 % en liquidités, pour sa résidence principale. Le financement est-il possible ?",
+        "propositions": [
+          "Oui, le total des fonds propres atteint 20 %",
+          "Non, pas sans un apport supplémentaire de fonds propres",
+          "Non, le 3e pilier A ne compte jamais comme fonds propres",
+          "Oui, mais seulement à 50 % pour le 3e pilier A"
+        ],
+        "reponse_correcte": "Oui, le total des fonds propres atteint 20 %",
+        "explication": "Contrairement au 2e pilier, le 3e pilier A ne fait pas partie de la restriction des 10 % « hors LPP »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Un client possède CHF 300'000.– d'actions cotées et a besoin de CHF 150'000.– de fonds propres. Il ne peut pas vendre ses actions. Peut-il acheter ?",
+        "propositions": [
+          "Non, les fonds propres doivent être en cash",
+          "Oui, en obtenant un prêt complémentaire contre nantissement des actions",
+          "Non, les actions ne sont jamais prises en compte",
+          "Oui, mais uniquement pour une résidence secondaire"
+        ],
+        "reponse_correcte": "Oui, en obtenant un prêt complémentaire contre nantissement des actions",
+        "explication": "Les valeurs mobilières ne doivent pas forcément être réalisées : une mise en gage (nantissement) permet d'obtenir un crédit complémentaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Monsieur Y. veut utiliser son 2e pilier pour aider sa concubine à acheter un bien en son nom propre à elle. Est-ce possible ?",
+        "propositions": [
+          "Oui, car il s'agit de leur résidence principale",
+          "Non, car il n'est pas propriétaire du bien",
+          "Oui, avec le consentement de sa concubine",
+          "Oui, jusqu'à CHF 20'000.–"
+        ],
+        "reponse_correcte": "Non, car il n'est pas propriétaire du bien",
+        "explication": "L'avoir LPP ne peut être utilisé que pour le logement dont l'assuré est lui-même propriétaire et qu'il occupe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "M. A. achète à CHF 1'000'000.– un appartement à Sion destiné à la location (résidence principale du locataire). Il dispose de CHF 200'000.– de 2e pilier et de CHF 200'000.– de cash. Que peut-il utiliser comme fonds propres ?",
+        "propositions": [
+          "L'intégralité du cash",
+          "L'intégralité de son avoir 2e pilier",
+          "10 % de cash + son 2e pilier",
+          "Le cash et le 2e pilier à parts égales"
+        ],
+        "reponse_correcte": "L'intégralité du cash",
+        "explication": "Le bien n'est pas sa propre résidence principale (c'est un objet loué) : le 2e pilier ne peut donc pas être utilisé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "M. B. veut acheter sa résidence principale à CHF 600'000.–. Revenu : CHF 90'000.–, avoir LPP : CHF 150'000.–, sans autres fonds propres (frais d'acte et impôt couverts). Que peut-il faire ?",
+        "propositions": [
+          "Mettre en gage son avoir LPP et obtenir le financement global",
+          "Retirer son avoir LPP pour obtenir le financement",
+          "Il ne peut pas obtenir de financement",
+          "Utiliser son LPP comme 10 % de fonds propres durs"
+        ],
+        "reponse_correcte": "Il ne peut pas obtenir de financement",
+        "explication": "Il lui manque les 10 % de fonds propres ne provenant pas du 2e pilier (CHF 60'000.–)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les fonds propres",
+      "content": {
+        "enonce": "Même situation que M. B. (résidence principale à CHF 600'000.–, revenu CHF 90'000.–, LPP CHF 150'000.–), mais avec CHF 60'000.– de cash en plus. Que peut-il faire ?",
+        "propositions": [
+          "Mettre en gage son avoir LPP et obtenir le financement global",
+          "Retirer son avoir LPP pour obtenir le financement",
+          "Il ne peut toujours pas obtenir de financement",
+          "Emprunter 100 % du prix"
+        ],
+        "reponse_correcte": "Retirer son avoir LPP pour obtenir le financement",
+        "explication": "Avec un revenu de CHF 90'000.–, une simple mise en gage laisserait une dette trop élevée pour la tenue des charges (1/3 du revenu) : le retrait diminue le montant emprunté."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Quelles conditions s'appliquent au versement anticipé du 2e pilier pour l'accession à la propriété ?",
+        "propositions": [
+          "Le consentement du conjoint",
+          "Un retrait minimum de CHF 20'000.–",
+          "Un délai de 5 ans minimum entre chaque retrait",
+          "Une mention inscrite au registre foncier",
+          "L'accord du vendeur du bien",
+          "Un âge minimum de 40 ans"
+        ],
+        "reponses_correctes": [
+          "Le consentement du conjoint",
+          "Un retrait minimum de CHF 20'000.–",
+          "Un délai de 5 ans minimum entre chaque retrait",
+          "Une mention inscrite au registre foncier"
+        ],
+        "explication": "La mention au RF garantit le remboursement du retrait en cas de revente du bien."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Un assuré de plus de 50 ans veut retirer son 2e pilier pour acheter son logement. Quel montant maximum peut-il obtenir ?",
+        "propositions": [
+          "La totalité de sa prestation de libre passage",
+          "La PLP à laquelle il avait droit à 50 ans, ou la moitié de la PLP actuelle",
+          "CHF 20'000.– au maximum",
+          "Rien, le retrait est interdit après 50 ans"
+        ],
+        "reponse_correcte": "La PLP à laquelle il avait droit à 50 ans, ou la moitié de la PLP actuelle",
+        "explication": "Il obtient le plus élevé de ces deux montants."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Un client a utilisé son 2e pilier pour acheter son logement principal. Que se passe-t-il s'il revend le bien ?",
+        "propositions": [
+          "Il garde le montant, puisqu'il s'agit de son 2e pilier",
+          "Il doit rembourser le montant retiré à sa caisse de pension",
+          "Le montant est versé à la banque",
+          "Le montant est automatiquement versé sur un 3e pilier A"
+        ],
+        "reponse_correcte": "Il doit rembourser le montant retiré à sa caisse de pension",
+        "explication": "L'impôt payé lors du retrait peut alors être réclamé en retour dans les trois ans."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Jusqu'à quand le propriétaire peut-il reconstituer volontairement son 2e pilier retiré (tranches d'au moins CHF 20'000.–) ?",
+        "propositions": [
+          "Jusqu'à 50 ans",
+          "Jusqu'à 3 ans avant la retraite",
+          "Jusqu'à l'âge de la retraite",
+          "Il n'est jamais possible de le reconstituer"
+        ],
+        "reponse_correcte": "Jusqu'à 3 ans avant la retraite",
+        "explication": "En cas de remboursement, l'impôt payé lors du retrait peut être réclamé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Comment est imposé le retrait anticipé du 2e pilier pour l'accession à la propriété ?",
+        "propositions": [
+          "Il est ajouté au revenu ordinaire de l'année",
+          "Il n'est pas imposé",
+          "Par un impôt unique et distinct, à taux réduit (en général entre 3 % et 15 % selon le canton)",
+          "Par un impôt de 35 % prélevé à la source"
+        ],
+        "reponse_correcte": "Par un impôt unique et distinct, à taux réduit (en général entre 3 % et 15 % selon le canton)",
+        "explication": "Un tiers des taux cantonaux et communaux, un cinquième du taux fédéral. Les retraits 2e et 3e piliers d'un couple durant la même année civile sont additionnés pour déterminer le taux."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Sur quels avoirs un nantissement (mise en gage) est-il possible ?",
+        "propositions": [
+          "Polices d'assurance (3a / 3b) avec valeur de rachat",
+          "Fonds du 2e pilier",
+          "Portefeuille de titres",
+          "Avoirs en compte",
+          "Le salaire futur de l'emprunteur"
+        ],
+        "reponses_correctes": [
+          "Polices d'assurance (3a / 3b) avec valeur de rachat",
+          "Fonds du 2e pilier",
+          "Portefeuille de titres",
+          "Avoirs en compte"
+        ],
+        "explication": "Si le 2e pilier est nanti, la banque exige souvent des garanties complémentaires : nantissement aussi couvert par hypothèque et police d'assurance risque décès/invalidité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Contre nantissement d'une police d'assurance avec capital garanti à l'échéance, quel crédit complémentaire peut-on généralement obtenir ?",
+        "propositions": [
+          "50 % de la valeur de rachat",
+          "70 % de la valeur de rachat",
+          "90 % de la valeur de rachat",
+          "100 % du capital à l'échéance"
+        ],
+        "reponse_correcte": "90 % de la valeur de rachat",
+        "explication": "À condition qu'un capital soit garanti à l'échéance de la police."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "M. Marchand achète sa résidence principale à CHF 1'000'000.– (fonds propres requis : 20 %, soit CHF 200'000.–). Il a CHF 100'000.– d'épargne et CHF 300'000.– de 2e pilier. Quelles combinaisons de fonds propres sont admissibles ?",
+        "propositions": [
+          "CHF 100'000.– de cash et CHF 100'000.– de 2e pilier",
+          "CHF 50'000.– de cash et CHF 150'000.– de 2e pilier",
+          "CHF 80'000.– de cash, CHF 20'000.– de donation et CHF 100'000.– de 2e pilier",
+          "CHF 200'000.– de 2e pilier"
+        ],
+        "reponses_correctes": [
+          "CHF 100'000.– de cash et CHF 100'000.– de 2e pilier",
+          "CHF 80'000.– de cash, CHF 20'000.– de donation et CHF 100'000.– de 2e pilier"
+        ],
+        "explication": "Au moins 10 % (CHF 100'000.–) doivent provenir de fonds hors 2e pilier ; une donation (ou un avancement d'hoirie) compte dans ces 10 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le 2e et le 3e pilier",
+      "content": {
+        "enonce": "Cas : achat d'une résidence secondaire à CHF 500'000.– (30 % de fonds propres, soit CHF 150'000.–). Le client a CHF 50'000.– de liquidités, CHF 200'000.– de titres et CHF 150'000.– de 2e pilier. Quelle variante est possible ?",
+        "propositions": [
+          "CHF 150'000.– de 2e pilier",
+          "CHF 50'000.– de liquidités + CHF 100'000.– de 2e pilier",
+          "CHF 50'000.– de liquidités + CHF 100'000.– de crédit contre nantissement des titres",
+          "Aucune, le financement est impossible"
+        ],
+        "reponse_correcte": "CHF 50'000.– de liquidités + CHF 100'000.– de crédit contre nantissement des titres",
+        "explication": "Le 2e pilier est exclu pour une résidence secondaire. Autre variante possible : CHF 150'000.– de crédit contre nantissement des titres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Que représente le taux d'avance ?",
+        "propositions": [
+          "La part en % financée par la banque par rapport à la valeur retenue de l'objet",
+          "La part en % de l'apport de l'acquéreur",
+          "Le taux d'intérêt hypothécaire",
+          "Le pourcentage d'amortissement annuel"
+        ],
+        "reponse_correcte": "La part en % financée par la banque par rapport à la valeur retenue de l'objet",
+        "explication": "Le taux d'avance est appliqué à la valeur de nantissement retenue par l'établissement financier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Plus le risque est élevé, plus le taux d'avance est…",
+        "propositions": [
+          "élevé",
+          "bas",
+          "identique, il ne dépend pas du risque",
+          "remplacé par un taux fixe"
+        ],
+        "reponse_correcte": "bas",
+        "explication": "Ex. : résidence principale 80 %, résidence secondaire 70 %, objet de luxe 50 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Quel est le taux d'avance indicatif pour une résidence principale ?",
+        "propositions": [
+          "50 %",
+          "60 %",
+          "70 %",
+          "80 %"
+        ],
+        "reponse_correcte": "80 %",
+        "explication": "Taux indicatifs : résidence principale 80 %, résidence secondaire 70 %, objet de luxe 50 %, objet de rendement 70–80 %, terrain à bâtir 60 %, immeuble commercial 70 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Quel est le taux d'avance indicatif pour un objet de luxe ?",
+        "propositions": [
+          "50 %",
+          "66 %",
+          "70 %",
+          "80 %"
+        ],
+        "reponse_correcte": "50 %",
+        "explication": "L'objet de luxe présente le risque le plus élevé : le taux d'avance est réduit et l'exigence de fonds propres augmentée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Quel est le taux d'avance indicatif pour un terrain à bâtir (destiné à une résidence principale) ?",
+        "propositions": [
+          "50 %",
+          "60 %",
+          "70 %",
+          "80 %"
+        ],
+        "reponse_correcte": "60 %",
+        "explication": "Le terrain à bâtir présente plus de risque qu'un bien construit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "M. Y. veut acheter un chalet à Verbier. Quel montant de fonds propres est requis ?",
+        "propositions": [
+          "30 %, puisqu'un chalet à Verbier est une résidence secondaire",
+          "À déterminer, car on ne sait pas s'il s'agit d'une résidence principale, secondaire ou de luxe",
+          "20 % dans tous les cas",
+          "50 % dans tous les cas"
+        ],
+        "reponse_correcte": "À déterminer, car on ne sait pas s'il s'agit d'une résidence principale, secondaire ou de luxe",
+        "explication": "C'est l'usage et le standing de l'objet, et non sa localisation, qui déterminent le taux d'avance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Quel bien peut être considéré comme un objet de luxe ?",
+        "propositions": [
+          "Uniquement une résidence principale",
+          "Uniquement une résidence secondaire",
+          "L'un ou l'autre",
+          "Uniquement un immeuble commercial"
+        ],
+        "reponse_correcte": "L'un ou l'autre",
+        "explication": "Le caractère de luxe tient au standing de l'objet, pas à son usage."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Quelle est l'incidence d'un objet de luxe sur le financement ?",
+        "propositions": [
+          "Un taux d'avance réduit",
+          "Une exigence de fonds propres supplémentaires",
+          "Une exigence de fonds propres réduite",
+          "Un taux d'intérêt théorique de 2 %"
+        ],
+        "reponses_correctes": [
+          "Un taux d'avance réduit",
+          "Une exigence de fonds propres supplémentaires"
+        ],
+        "explication": "L'amortissement peut aussi être plus élevé : jusqu'à 3 % par an pour un objet de luxe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Les frais d'acte (notaire, registre foncier, droits de mutation) sont…",
+        "propositions": [
+          "toujours financés par la banque",
+          "parfois financés par certains organismes financiers, mais en principe à la charge de l'acheteur en plus des fonds propres",
+          "inclus d'office dans les 20 % de fonds propres",
+          "payés par le vendeur"
+        ],
+        "reponse_correcte": "parfois financés par certains organismes financiers, mais en principe à la charge de l'acheteur en plus des fonds propres",
+        "explication": "La banque doit s'assurer que le client dispose des fonds nécessaires aux frais d'acte, en plus des fonds propres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Qu'est-ce que la valeur de nantissement ?",
+        "propositions": [
+          "Le prix demandé par le vendeur",
+          "La valeur que la banque attribue au gage, au maximum la valeur de marché",
+          "La valeur fiscale du bien",
+          "La valeur d'assurance incendie du bâtiment"
+        ],
+        "reponse_correcte": "La valeur que la banque attribue au gage, au maximum la valeur de marché",
+        "explication": "Selon l'objet, elle repose sur la valeur vénale ou sur la valeur de rendement. Certaines banques utilisent des systèmes experts (CIFI, Wüest Partner)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Le financement bancaire",
+      "content": {
+        "enonce": "Pour un objet de rendement, de quoi dépend principalement la viabilité financière ?",
+        "propositions": [
+          "Du revenu salarial de l'acquéreur uniquement",
+          "De la capacité du revenu locatif annuel à couvrir intérêts, amortissement, entretien, taxes et frais de gérance",
+          "De la valeur d'assurance du bâtiment",
+          "De la nationalité de l'acquéreur"
+        ],
+        "reponse_correcte": "De la capacité du revenu locatif annuel à couvrir intérêts, amortissement, entretien, taxes et frais de gérance",
+        "explication": "Pour l'objet de rendement, la valeur déterminante est la valeur de rendement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Un prêt hypothécaire est…",
+        "propositions": [
+          "un emprunt à long terme",
+          "un emprunt à court terme",
+          "un compte courant à utiliser selon l'avancement des travaux",
+          "un crédit lombard"
+        ],
+        "reponse_correcte": "un emprunt à long terme",
+        "explication": "Il finance l'acquisition d'un immeuble ou consolide un crédit de construction. Il prend la forme d'un prêt."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Sur quelle durée l'hypothèque à taux fixe permet-elle de bloquer la charge hypothécaire ?",
+        "propositions": [
+          "3 à 6 mois",
+          "1 à 25 ans",
+          "Uniquement 5 ou 10 ans",
+          "Jusqu'à la retraite seulement"
+        ],
+        "reponse_correcte": "1 à 25 ans",
+        "explication": "Elle est choisie environ 9 fois sur 10 : on connaît la charge au franc près. Inconvénient : de fortes pénalités en cas de sortie anticipée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise un prêt hypothécaire au taux SARON ?",
+        "propositions": [
+          "Un taux fixe sur une durée de 1 à 15 ans",
+          "Un taux variable réadapté périodiquement (tous les 3 à 6 mois), composé du taux SARON et de la marge de la banque",
+          "Un taux indexé sur le taux de référence des loyers",
+          "Un taux fixé une fois pour toutes par la BNS"
+        ],
+        "reponse_correcte": "Un taux variable réadapté périodiquement (tous les 3 à 6 mois), composé du taux SARON et de la marge de la banque",
+        "explication": "SARON = Swiss Average Rate Overnight (il remplace le LIBOR). Avantage : un taux parmi les plus bas. Inconvénients : il peut monter rapidement et ne permet pas de budget stable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Quel est le principal avantage de l'hypothèque à taux variable ?",
+        "propositions": [
+          "C'est toujours le taux le plus bas du marché",
+          "Sa flexibilité : on peut en sortir moyennant un préavis de 3 à 6 mois",
+          "Le taux est garanti pendant 10 ans",
+          "Elle ne nécessite pas d'amortissement"
+        ],
+        "reponse_correcte": "Sa flexibilité : on peut en sortir moyennant un préavis de 3 à 6 mois",
+        "explication": "Elle a perdu son attrait depuis 2008, quand le taux de référence des loyers a cessé d'en dépendre. Son taux est souvent plus élevé que celui des autres produits."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Le couple Besson fixe son prêt hypothécaire sur 10 ans pour sa résidence principale. Quelles affirmations sont correctes ?",
+        "propositions": [
+          "À la fin des 10 ans, ils pourront choisir une hypothèque SARON",
+          "Ils peuvent modifier leur prêt en tout temps, mais avec une pénalité",
+          "Leur prêt peut être modifié en tout temps sans pénalité",
+          "Ils ne pourront plus jamais bloquer leur taux après les 10 ans"
+        ],
+        "reponses_correctes": [
+          "À la fin des 10 ans, ils pourront choisir une hypothèque SARON",
+          "Ils peuvent modifier leur prêt en tout temps, mais avec une pénalité"
+        ],
+        "explication": "À l'échéance, ils peuvent aussi rebloquer leur taux pour la durée de leur choix."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prêt hypothécaire et types d'hypothèques",
+      "content": {
+        "enonce": "Qu'est-ce qu'un taux « forward » ?",
+        "propositions": [
+          "Un taux SARON à 12 mois",
+          "Un taux fixé à l'avance, contre une prime, pour un prêt qui débutera plus tard",
+          "Le taux théorique de 5 % utilisé pour la tenue des charges",
+          "Le taux de l'hypothèque de 2e rang"
+        ],
+        "reponse_correcte": "Un taux fixé à l'avance, contre une prime, pour un prêt qui débutera plus tard",
+        "explication": "Selon les établissements, il est possible de bloquer un taux jusqu'à deux ans à l'avance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "En principe, quelle part de la valeur du bien représente l'hypothèque de 1er rang ?",
+        "propositions": [
+          "50 %",
+          "66 % (2/3)",
+          "80 %",
+          "14 %"
+        ],
+        "reponse_correcte": "66 % (2/3)",
+        "explication": "C'est la part pour laquelle la banque ne prend mathématiquement aucun risque. Elle n'a pas besoin d'être amortie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "Dans un financement classique à 80 %, quelle part représente l'hypothèque de 2e rang ?",
+        "propositions": [
+          "10 %",
+          "14 %",
+          "20 %",
+          "34 %"
+        ],
+        "reponse_correcte": "14 %",
+        "explication": "80 % − 66 % = 14 %. Cette tranche comporte un risque pour la banque et doit être amortie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "En combien de temps la dette hypothécaire doit-elle être ramenée aux 2/3 de la valeur de nantissement ?",
+        "propositions": [
+          "5 ans maximum",
+          "10 ans maximum",
+          "15 ans maximum",
+          "Jusqu'à la retraite"
+        ],
+        "reponse_correcte": "15 ans maximum",
+        "explication": "L'amortissement doit être linéaire et commencer au plus tard 12 mois après le versement du prêt."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "Valeur de nantissement CHF 1'000'000.–, financement à 80 %. Quel est l'amortissement annuel minimum ?",
+        "propositions": [
+          "CHF 6'667.–",
+          "CHF 9'333.–",
+          "CHF 14'000.–",
+          "CHF 53'333.–"
+        ],
+        "reponse_correcte": "CHF 9'333.–",
+        "explication": "2e rang = 14 % × 1'000'000 = CHF 140'000.– ; 140'000 ÷ 15 ans = CHF 9'333.– par an."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "En quoi consiste l'amortissement indirect ?",
+        "propositions": [
+          "Rembourser chaque année une partie du prêt à la banque",
+          "Verser les intérêts hypothécaires sur un 3e pilier A",
+          "Verser le montant de l'amortissement sur un 3e pilier A nanti en faveur de la banque",
+          "Ne rien amortir du tout"
+        ],
+        "reponse_correcte": "Verser le montant de l'amortissement sur un 3e pilier A nanti en faveur de la banque",
+        "explication": "La dette et les intérêts restent inchangés (intérêts déductibles), et les versements 3a sont déductibles fiscalement. Le remboursement a lieu au plus tard à la retraite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "Quelle est la conséquence fiscale de l'amortissement direct ?",
+        "propositions": [
+          "La dette et les intérêts diminuent, donc les déductions fiscales aussi (hausse des impôts)",
+          "Les impôts diminuent car l'amortissement est déductible",
+          "Aucune conséquence fiscale",
+          "La valeur locative est supprimée"
+        ],
+        "reponse_correcte": "La dette et les intérêts diminuent, donc les déductions fiscales aussi (hausse des impôts)",
+        "explication": "C'est pourquoi l'amortissement indirect par le 3a est souvent plus avantageux fiscalement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "Quel amortissement minimum annuel les établissements exigent-ils généralement pour une résidence principale ?",
+        "propositions": [
+          "0,5 % du prêt",
+          "1 % du prêt (dans la limite des 15 ans pour revenir aux 2/3)",
+          "3 % du prêt",
+          "5 % du prêt"
+        ],
+        "reponse_correcte": "1 % du prêt (dans la limite des 15 ans pour revenir aux 2/3)",
+        "explication": "Le taux peut être plus élevé selon l'objet et le taux d'avance : jusqu'à 3 % pour un objet de luxe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rangs et amortissement",
+      "content": {
+        "enonce": "Qu'est-ce que l'amortissement extraordinaire ?",
+        "propositions": [
+          "L'amortissement annuel obligatoire du 2e rang",
+          "Le remboursement partiel ou total du prêt, souvent à l'échéance du taux fixe",
+          "L'amortissement exigé pour les objets de luxe",
+          "Les intérêts payés pendant la construction"
+        ],
+        "reponse_correcte": "Le remboursement partiel ou total du prêt, souvent à l'échéance du taux fixe",
+        "explication": "Il s'agit souvent de fonds des 2e ou 3e piliers ou d'un montant cash important. Hors échéance ou sans clause dans le contrat, une pénalité peut être exigée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Comment le crédit de construction est-il utilisé ?",
+        "propositions": [
+          "En une fois, à la fin des travaux",
+          "Au fur et à mesure de l'avancement des travaux, sur présentation de bons de paiement",
+          "En une fois, à la signature du permis de construire",
+          "Uniquement pour payer le terrain"
+        ],
+        "reponse_correcte": "Au fur et à mesure de l'avancement des travaux, sur présentation de bons de paiement",
+        "explication": "C'est un emprunt à court terme sous forme de limite en compte courant, garanti par une hypothèque. Les bons sont signés par l'architecte et le maître d'œuvre."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Que doit remettre le client pour que le crédit de construction soit consolidé en prêt hypothécaire ?",
+        "propositions": [
+          "Le décompte de construction",
+          "Une déclaration de paiement intégral attestant que toutes les entreprises ont été payées",
+          "Le permis de construire initial",
+          "Son certificat de salaire de l'année de construction"
+        ],
+        "reponses_correctes": [
+          "Le décompte de construction",
+          "Une déclaration de paiement intégral attestant que toutes les entreprises ont été payées"
+        ],
+        "explication": "La consolidation intervient après inspection de la nouvelle construction par la banque."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Que sont les intérêts intercalaires ?",
+        "propositions": [
+          "Les pénalités de sortie d'une hypothèque fixe",
+          "Les intérêts payés pendant la construction jusqu'à la consolidation",
+          "Les intérêts du 2e rang",
+          "Les intérêts d'un prêt de tiers"
+        ],
+        "reponse_correcte": "Les intérêts payés pendant la construction jusqu'à la consolidation",
+        "explication": "Ils sont en général ajoutés au prix d'achat, pour éviter au client de payer un double loyer."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Quels sont les avantages d'une construction en entreprise générale (clé en main) ?",
+        "propositions": [
+          "Un coût de construction fixe",
+          "L'entreprise générale répond de la qualité et du respect des délais",
+          "Les dates et montants des acomptes sont fixés à l'avance",
+          "Aucun risque d'hypothèque légale des artisans"
+        ],
+        "reponses_correctes": [
+          "Un coût de construction fixe",
+          "L'entreprise générale répond de la qualité et du respect des délais",
+          "Les dates et montants des acomptes sont fixés à l'avance"
+        ],
+        "explication": "Principal inconvénient : si l'entreprise générale ne paie pas les artisans, ceux-ci peuvent inscrire une hypothèque légale, et le maître d'ouvrage risque de payer deux fois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Lors d'un achat clé en main en entreprise générale, au nom de qui est ouvert le compte dit « miroir » ?",
+        "propositions": [
+          "De l'entreprise générale",
+          "De l'acquéreur",
+          "De la banque",
+          "Du notaire"
+        ],
+        "reponse_correcte": "De l'entreprise générale",
+        "explication": "Il permet à la banque de contrôler l'utilisation des acomptes. Alternative : une attestation de revers d'une banque tierce."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Crédit de construction",
+      "content": {
+        "enonce": "Quelle est la différence entre le maître d'ouvrage et le maître d'œuvre ?",
+        "propositions": [
+          "Le maître d'ouvrage commande l'ouvrage ; le maître d'œuvre (architecte, entreprise générale) le conçoit et le réalise pour lui",
+          "Le maître d'ouvrage est l'architecte ; le maître d'œuvre est le propriétaire",
+          "Ce sont deux synonymes",
+          "Le maître d'œuvre est la banque qui finance"
+        ],
+        "reponse_correcte": "Le maître d'ouvrage commande l'ouvrage ; le maître d'œuvre (architecte, entreprise générale) le conçoit et le réalise pour lui",
+        "explication": "Un particulier qui fait construire sa maison est le maître d'ouvrage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gages immobiliers",
+      "content": {
+        "enonce": "Qu'est-ce que la cédule hypothécaire ?",
+        "propositions": [
+          "Un contrat de bail enregistré au registre foncier",
+          "Une créance personnelle garantie par un gage immobilier, incorporée dans un papier-valeur",
+          "Une assurance du bâtiment",
+          "Un crédit garanti par des titres"
+        ],
+        "reponse_correcte": "Une créance personnelle garantie par un gage immobilier, incorporée dans un papier-valeur",
+        "explication": "Le débiteur répond sur l'immeuble et sur tous ses biens. Créance et gage sont indissociables. (Un crédit garanti par des titres est un crédit lombard.)"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gages immobiliers",
+      "content": {
+        "enonce": "Le rang d'une cédule hypothécaire correspond-il au rang (1er / 2e) du prêt hypothécaire ?",
+        "propositions": [
+          "Oui, la cédule de 1er rang garantit toujours l'hypothèque de 1er rang",
+          "Non, le rang de la cédule détermine l'ordre de remboursement en cas de réalisation forcée",
+          "Oui, sauf pour les résidences secondaires",
+          "Non, les cédules n'ont pas de rang"
+        ],
+        "reponse_correcte": "Non, le rang de la cédule détermine l'ordre de remboursement en cas de réalisation forcée",
+        "explication": "Le porteur de la cédule de 1er rang est remboursé en premier, puis le 2e rang, etc."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Sur quels éléments est fixée la capacité d'emprunt maximum ?",
+        "propositions": [
+          "La valeur de nantissement",
+          "Le taux d'avance",
+          "La part de fonds propres",
+          "L'amortissement",
+          "La capacité financière",
+          "La nationalité de l'acquéreur"
+        ],
+        "reponses_correctes": [
+          "La valeur de nantissement",
+          "Le taux d'avance",
+          "La part de fonds propres",
+          "L'amortissement",
+          "La capacité financière"
+        ],
+        "explication": "La capacité financière doit reposer sur des revenus et des charges durables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Quels facteurs cumulés les établissements financiers analysent-ils pour accorder un prêt ?",
+        "propositions": [
+          "Le métier de l'acquéreur, les fonds propres, le lieu de situation du bien",
+          "Les revenus, la valeur du bien, les fonds propres",
+          "La valeur du bien, la charge financière, la nationalité de l'acquéreur",
+          "L'âge de l'acquéreur, son état civil, son canton de domicile"
+        ],
+        "reponse_correcte": "Les revenus, la valeur du bien, les fonds propres",
+        "explication": "La banque vérifie la tenue des charges par rapport aux revenus, la justesse de la valeur du bien et la traçabilité des fonds propres."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Quelles charges entrent dans le calcul théorique de la tenue des charges pour un logement à usage propre ?",
+        "propositions": [
+          "Les intérêts théoriques à 5 % sur la dette",
+          "L'amortissement annuel du 2e rang",
+          "Les frais d'entretien d'environ 1 % de la valeur du bien",
+          "Les impôts sur le revenu",
+          "Les primes d'assurance-maladie"
+        ],
+        "reponses_correctes": [
+          "Les intérêts théoriques à 5 % sur la dette",
+          "L'amortissement annuel du 2e rang",
+          "Les frais d'entretien d'environ 1 % de la valeur du bien"
+        ],
+        "explication": "Le total ne doit pas dépasser 1/3 du revenu brut durable. Leasings, crédits et pensions s'ajoutent aux charges ou se déduisent des revenus."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Quelle part maximale du revenu brut les charges théoriques du logement (intérêts, amortissement, entretien) peuvent-elles représenter ?",
+        "propositions": [
+          "20 %",
+          "25 %",
+          "1/3 (environ 33 %)",
+          "50 %"
+        ],
+        "reponse_correcte": "1/3 (environ 33 %)",
+        "explication": "D'où la règle pratique : revenu brut minimum = charges théoriques × 3."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Pourquoi utilise-t-on un taux d'intérêt théorique de 5 % pour calculer la tenue des charges ?",
+        "propositions": [
+          "Parce que c'est le taux réel du marché",
+          "Pour se prémunir contre une éventuelle hausse des taux et sécuriser l'emprunteur",
+          "Parce que c'est le taux de référence des loyers",
+          "Parce que la loi l'impose pour toutes les hypothèques"
+        ],
+        "reponse_correcte": "Pour se prémunir contre une éventuelle hausse des taux et sécuriser l'emprunteur",
+        "explication": "Le taux réel payé (ex. 1,5 %) est généralement bien inférieur au taux théorique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Faisabilité financière",
+      "content": {
+        "enonce": "Comment les bonus sont-ils usuellement pris en compte dans le revenu déterminant ?",
+        "propositions": [
+          "À 100 % du dernier bonus versé",
+          "Sur la moyenne des trois dernières années, voire seulement partiellement (30 % ou 50 %)",
+          "Jamais",
+          "Uniquement s'ils dépassent CHF 50'000.–"
+        ],
+        "reponse_correcte": "Sur la moyenne des trois dernières années, voire seulement partiellement (30 % ou 50 %)",
+        "explication": "La capacité financière doit reposer sur des revenus durables."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "Appartement à CHF 1'000'000.–, financement 80/20, revenu brut CHF 180'000.–. Quelle est la charge financière théorique ?",
+        "propositions": [
+          "CHF 47'666.– (26,5 %) : OK",
+          "CHF 59'333.– (32,96 %) : OK",
+          "CHF 71'000.– (39,4 %) : KO",
+          "CHF 50'000.– (27,8 %) : OK"
+        ],
+        "reponse_correcte": "CHF 59'333.– (32,96 %) : OK",
+        "explication": "Intérêts 5 % × 800'000 = 40'000 ; amortissement 140'000 ÷ 15 = 9'333 ; entretien 1 % × 1'000'000 = 10'000. Total 59'333 ÷ 180'000 = 32,96 % < 33 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "Même cas (CHF 1'000'000.–, 80/20, revenu CHF 180'000.–, charge CHF 59'350.–), mais le client a un leasing de CHF 650.–/mois. Le dossier passe-t-il ?",
+        "propositions": [
+          "Oui, le leasing n'est pas pris en compte",
+          "Oui, la charge reste à 32,96 %",
+          "Non, la charge atteint 37,3 % (> 33 %)",
+          "Non, car un leasing interdit tout financement"
+        ],
+        "reponse_correcte": "Non, la charge atteint 37,3 % (> 33 %)",
+        "explication": "Leasing 650 × 12 = 7'800 ; 59'350 + 7'800 = 67'150 ; 67'150 ÷ 180'000 = 37,3 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "Appartement à CHF 1'000'000.–, financement 90/10 (2e rang de 24 %), revenu CHF 180'000.–. Quelle est la conclusion ?",
+        "propositions": [
+          "Charge CHF 59'333.– : OK",
+          "Charge CHF 47'666.– : OK",
+          "Charge CHF 71'000.– (39,44 %) : KO",
+          "Charge CHF 61'000.– (33,9 %) : OK"
+        ],
+        "reponse_correcte": "Charge CHF 71'000.– (39,44 %) : KO",
+        "explication": "Intérêts 5 % × 900'000 = 45'000 ; amortissement 240'000 ÷ 15 = 16'000 ; entretien 10'000. Total 71'000, soit 39,44 % > 33 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "M. et Mme Duvoisin veulent acheter un bien à CHF 1'560'000.– avec un financement de 80 %. Quel revenu brut minimum leur faut-il ?",
+        "propositions": [
+          "CHF 185'000.–",
+          "CHF 230'400.–",
+          "CHF 277'680.–",
+          "CHF 311'502.–"
+        ],
+        "reponse_correcte": "CHF 277'680.–",
+        "explication": "Crédit 1'248'000 × 5 % = 62'400 ; amortissement (14 % × 1'560'000) ÷ 15 = 14'560 ; entretien 1 % = 15'600. Total 92'560 × 3 = 277'680."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "M. Marchand achète une villa à CHF 1'750'000.– avec un prêt de CHF 1'400'000.– (20 % de fonds propres), sans leasing ni dette. Quel revenu annuel brut minimum lui faut-il ?",
+        "propositions": [
+          "CHF 253'400.–",
+          "CHF 286'300.–",
+          "CHF 311'502.–",
+          "CHF 350'000.–"
+        ],
+        "reponse_correcte": "CHF 311'502.–",
+        "explication": "Intérêts 1'400'000 × 5 % = 70'000 ; amortissement 245'000 ÷ 15 = 16'334 ; entretien 1 % = 17'500. Total 103'834 × 3 = 311'502."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "M. Lopez, retraité, a amorti son 2e rang. Son appartement vaut CHF 950'000.–. Quel revenu (rentes AVS + LPP) lui faut-il au minimum pour conserver son bien ?",
+        "propositions": [
+          "CHF 89'500.–",
+          "CHF 122'550.–",
+          "CHF 143'200.–",
+          "CHF 98'000.–"
+        ],
+        "reponse_correcte": "CHF 122'550.–",
+        "explication": "Dette restante 66 % = 627'000 × 5 % = 31'350 ; plus d'amortissement ; entretien 1 % = 9'500. Total 40'850 × 3 = 122'550."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "Les Duvoisin achètent un appartement à CHF 1'560'000.– en nantissant leur LPP pour un financement de 90 %. Taux réel 1,5 %, charges PPE 0,8 %, amortissement du 2e rang (24 %) sur 15 ans. Quelle est leur charge effective annuelle ?",
+        "propositions": [
+          "CHF 46'020.–",
+          "CHF 58'500.–",
+          "CHF 92'560.–",
+          "CHF 104'000.–"
+        ],
+        "reponse_correcte": "CHF 58'500.–",
+        "explication": "Intérêts 1'404'000 × 1,5 % = 21'060 ; amortissement (24 % × 1'560'000) ÷ 15 = 24'960 ; charges PPE 0,8 % = 12'480. Total 58'500."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Calculs de faisabilité",
+      "content": {
+        "enonce": "Villa à CHF 1'120'000.– : 1er rang 66 % + 2e rang 13,3 % (soit 79,3 %), taux théorique 5 %, revenu du couple CHF 185'000.–. Peuvent-ils acheter ?",
+        "propositions": [
+          "Oui, il faut CHF 150'000.– de revenu",
+          "Oui, il faut CHF 180'000.– de revenu",
+          "Non, il faut au moins CHF 196'617.– de revenu",
+          "Non, il faut au moins CHF 250'000.– de revenu"
+        ],
+        "reponse_correcte": "Non, il faut au moins CHF 196'617.– de revenu",
+        "explication": "Crédit 888'160 × 5 % = 44'408 ; amortissement (13,3 % × 1'120'000) ÷ 15 = 9'931 ; entretien 11'200. Total 65'539 × 3 = 196'617 > 185'000."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Chiffres clés",
+      "content": {
+        "enonce": "Quelles normes de financement sont à retenir ?",
+        "propositions": [
+          "Taux d'intérêt théorique : 5 %",
+          "1er rang : 66 % de la valeur de nantissement",
+          "2e rang : 14 %, amorti en 15 ans",
+          "Frais d'entretien : 1 % du prix",
+          "Charge financière maximum : 1/3 du revenu brut",
+          "Taux d'intérêt théorique : 2 %"
+        ],
+        "reponses_correctes": [
+          "Taux d'intérêt théorique : 5 %",
+          "1er rang : 66 % de la valeur de nantissement",
+          "2e rang : 14 %, amorti en 15 ans",
+          "Frais d'entretien : 1 % du prix",
+          "Charge financière maximum : 1/3 du revenu brut"
+        ],
+        "explication": "Ce sont les normes de base de la faisabilité financière pour un logement à usage propre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Chiffres clés",
+      "content": {
+        "enonce": "À partir de quelle plus-value par rapport au standard initial la plupart des établissements considèrent-ils un bien comme de standing supérieur ?",
+        "propositions": [
+          "1 %",
+          "5 %",
+          "15 %",
+          "25 %"
+        ],
+        "reponse_correcte": "5 %",
+        "explication": "La plus-value est une amélioration des matériaux ou installations par rapport au standard initial."
+      }
+    }
+  ]
+}
