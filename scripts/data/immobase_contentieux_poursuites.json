@@ -1,0 +1,1658 @@
+{
+  "title": "Contentieux et poursuites",
+  "description": "Immobase — Contentieux et poursuites (LP) : organisation et mission des offices, délais, droit de consultation (art. 8a LP), for de la poursuite, modes de poursuite, temps prohibés et féries, réquisition de poursuite, commandement de payer et opposition, mainlevée, continuation, saisie, réalisation, acte de défaut de biens, faillite, droit de rétention du bailleur et inventaire PPE.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Quelle loi fédérale régit la procédure de poursuite et de faillite en Suisse ?",
+        "propositions": [
+          "Le Code des obligations (CO)",
+          "La loi fédérale sur la poursuite pour dettes et la faillite (LP)",
+          "Le Code de procédure civile (CPC)",
+          "Le Code civil (CC)"
+        ],
+        "reponse_correcte": "La loi fédérale sur la poursuite pour dettes et la faillite (LP)",
+        "explication": "La LP date du 11 avril 1889, est entrée en vigueur le 1er janvier 1892 et a été révisée totalement le 16 décembre 1994 (entrée en vigueur le 1er janvier 1997)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Quelle est la particularité du droit suisse des poursuites quant à la personne qui peut engager une poursuite ?",
+        "propositions": [
+          "Seul un créancier muni d'un jugement peut engager une poursuite",
+          "Le créancier doit prouver sa créance à l'office avant la notification du commandement de payer",
+          "Toute personne peut engager une poursuite, même si elle n'est pas créancière",
+          "Seul un avocat peut déposer une réquisition de poursuite"
+        ],
+        "reponse_correcte": "Toute personne peut engager une poursuite, même si elle n'est pas créancière",
+        "explication": "Le requérant n'a pas à prouver, à ce stade, sa qualité de créancier (ATF 102 III 5), à l'exception de la poursuite pour effets de change."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Qui détermine le nombre et l'étendue des arrondissements de poursuite et de faillite ?",
+        "propositions": [
+          "Les cantons",
+          "La Confédération",
+          "Le Tribunal fédéral",
+          "Les communes"
+        ],
+        "reponse_correcte": "Les cantons",
+        "explication": "Art. 1 al. 2 LP : les cantons déterminent le nombre et l'étendue des arrondissements. L'organisation interne de l'office est du ressort du préposé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Quelle affirmation est correcte concernant la manière d'agir de l'office des poursuites ?",
+        "propositions": [
+          "Il agit d'office dès qu'il apprend qu'une dette est impayée",
+          "Il n'agit que sur réquisition expresse du créancier",
+          "Il agit uniquement sur ordre du juge",
+          "Il agit automatiquement à chaque étape après la première réquisition"
+        ],
+        "reponse_correcte": "Il n'agit que sur réquisition expresse du créancier",
+        "explication": "L'office des poursuites n'agit que sur réquisition expresse. À l'inverse, l'office des faillites procède automatiquement, sans réquisition supplémentaire, à toutes les opérations de liquidation de la faillite."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Parmi ces tâches, lesquelles relèvent de l'office des poursuites ?",
+        "propositions": [
+          "Notifier les commandements de payer",
+          "Prendre note des oppositions",
+          "Exécuter les saisies",
+          "Délivrer les actes de défaut de biens après saisie",
+          "Établir l'état de collocation de la faillite",
+          "Prononcer la faillite"
+        ],
+        "reponses_correctes": [
+          "Notifier les commandements de payer",
+          "Prendre note des oppositions",
+          "Exécuter les saisies",
+          "Délivrer les actes de défaut de biens après saisie"
+        ],
+        "explication": "L'état de collocation est établi par l'office des faillites ; la faillite est prononcée par le juge."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Généralités et organisation",
+      "content": {
+        "enonce": "Par qui la faillite est-elle prononcée ?",
+        "propositions": [
+          "Par l'office des poursuites",
+          "Par l'office des faillites",
+          "Par le juge",
+          "Par l'assemblée des créanciers"
+        ],
+        "reponse_correcte": "Par le juge",
+        "explication": "Le jugement de faillite est ensuite transmis à l'office des faillites compétent à raison du domicile ou du siège du failli."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les délais",
+      "content": {
+        "enonce": "Quel type de délai est imposé aux organes de la poursuite et dont l'inobservation peut entraîner une plainte (art. 17 LP) ?",
+        "propositions": [
+          "Le délai de péremption",
+          "Le délai de prescription",
+          "Le délai d'ordre",
+          "Le délai de forclusion"
+        ],
+        "reponse_correcte": "Le délai d'ordre",
+        "explication": "Exemples : notification du CDP le lendemain de la réquisition (art. 71 LP), exécution de la saisie dans les 3 jours (art. 89 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les délais",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise un délai de péremption ?",
+        "propositions": [
+          "Il peut toujours être interrompu par le créancier ou le débiteur",
+          "Il s'impose uniquement à l'office des poursuites",
+          "Il peut être prolongé sur simple demande",
+          "Il entraîne la perte du droit s'il n'est pas respecté et ne peut être ni interrompu ni suspendu, sauf disposition expresse"
+        ],
+        "reponse_correcte": "Il entraîne la perte du droit s'il n'est pas respecté et ne peut être ni interrompu ni suspendu, sauf disposition expresse",
+        "explication": "Exemples : délai d'opposition de 10 jours (art. 74 LP), délai de 30 jours pour participer à la saisie (art. 110 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les délais",
+      "content": {
+        "enonce": "Le délai d'opposition de 10 jours au commandement de payer est un délai…",
+        "propositions": [
+          "d'ordre",
+          "de péremption",
+          "de prescription",
+          "indicatif"
+        ],
+        "reponse_correcte": "de péremption",
+        "explication": "Faute de former opposition dans les 10 jours (art. 74 al. 1 LP), le débiteur perd ce droit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les délais",
+      "content": {
+        "enonce": "Un délai fixé par jours commence à courir le lundi 3 mars (jour de la notification). Comment le calcule-t-on ?",
+        "propositions": [
+          "Le 3 mars compte comme premier jour",
+          "Le jour de la notification ne compte pas : le délai commence le lendemain",
+          "Le délai commence le premier jour ouvrable de la semaine suivante",
+          "Le délai commence à courir le premier du mois suivant"
+        ],
+        "reponse_correcte": "Le jour de la notification ne compte pas : le délai commence le lendemain",
+        "explication": "Le délai fixé par jours ne comprend pas celui duquel il court. S'il échoit un samedi, un dimanche ou un jour férié, il expire le premier jour utile qui suit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Les délais",
+      "content": {
+        "enonce": "Le dernier jour d'un délai tombe un dimanche. Quand expire-t-il ?",
+        "propositions": [
+          "Le vendredi précédent",
+          "Le samedi précédent",
+          "Le dimanche à minuit",
+          "Le premier jour utile qui suit"
+        ],
+        "reponse_correcte": "Le premier jour utile qui suit",
+        "explication": "Lorsque le dernier jour est un samedi, un dimanche ou un jour légalement férié, le délai expire le premier jour utile qui suit (art. 31 LP, art. 142 ss CPC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "À quelle condition une personne peut-elle consulter les registres de l'office des poursuites et obtenir un extrait (art. 8a LP) ?",
+        "propositions": [
+          "Elle doit rendre son intérêt vraisemblable",
+          "Elle doit être créancière de la personne concernée",
+          "Elle doit obtenir l'accord écrit de la personne concernée",
+          "Aucune condition, l'extrait est délivré à tout le monde"
+        ],
+        "reponse_correcte": "Elle doit rendre son intérêt vraisemblable",
+        "explication": "L'intérêt est notamment rendu vraisemblable lorsque la demande est directement liée à la conclusion ou à la liquidation d'un contrat (ex. : conclusion d'un bail). Il n'est pas nécessaire d'être créancier."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "Quelles poursuites l'office ne doit-il PAS porter à la connaissance de tiers (art. 8a al. 3 LP) ?",
+        "propositions": [
+          "Les poursuites nulles ou annulées sur plainte ou à la suite d'un jugement",
+          "Les poursuites pour lesquelles le débiteur a obtenu gain de cause dans l'action en répétition de l'indu",
+          "Les poursuites retirées par le créancier",
+          "Les poursuites frappées d'opposition depuis moins de trois mois",
+          "Les poursuites ayant abouti à un acte de défaut de biens"
+        ],
+        "reponses_correctes": [
+          "Les poursuites nulles ou annulées sur plainte ou à la suite d'un jugement",
+          "Les poursuites pour lesquelles le débiteur a obtenu gain de cause dans l'action en répétition de l'indu",
+          "Les poursuites retirées par le créancier"
+        ],
+        "explication": "S'y ajoutent, depuis 2019 (let. d), les poursuites pour lesquelles le débiteur en fait la demande après 3 mois dès la notification du CDP, si le créancier ne prouve pas dans les 20 jours avoir engagé une procédure d'annulation de l'opposition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "Combien de temps après la clôture de la procédure le droit de consultation des tiers s'éteint-il ?",
+        "propositions": [
+          "2 ans",
+          "5 ans",
+          "10 ans",
+          "20 ans"
+        ],
+        "reponse_correcte": "5 ans",
+        "explication": "Art. 8a al. 4 LP. Les poursuites frappées d'opposition n'apparaissent plus après 6 ans (poursuite ordinaire ou gage mobilier) ou 7 ans (gage immobilier)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "Un débiteur estime qu'une poursuite contre lui est injustifiée et souhaite qu'elle ne soit plus communiquée aux tiers (art. 8a al. 3 let. d LP). Après quel délai peut-il déposer sa demande ?",
+        "propositions": [
+          "10 jours après la notification du commandement de payer",
+          "20 jours après la notification du commandement de payer",
+          "3 mois après la notification du commandement de payer",
+          "1 an après la notification du commandement de payer"
+        ],
+        "reponse_correcte": "3 mois après la notification du commandement de payer",
+        "explication": "L'office invite alors le créancier à prouver, dans un délai de 20 jours, qu'il a engagé une procédure d'annulation de l'opposition. À défaut, la poursuite n'est plus communiquée aux tiers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "Quel émolument forfaitaire est perçu pour une demande de non-divulgation d'une poursuite (art. 8a al. 3 let. d LP) ?",
+        "propositions": [
+          "CHF 17.00",
+          "CHF 18.00",
+          "CHF 40.00 par poursuite",
+          "Aucun émolument"
+        ],
+        "reponse_correcte": "CHF 40.00 par poursuite",
+        "explication": "Art. 12b OELP. L'émolument est dû dans tous les cas, quelle que soit l'issue. (Un extrait coûte CHF 17.00 au guichet et CHF 18.00 par envoi postal.)"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de consultation",
+      "content": {
+        "enonce": "Pour quel registre nul n'est tenu de justifier d'un intérêt pour le consulter ?",
+        "propositions": [
+          "Le registre des poursuites",
+          "Le registre des pactes de réserve de propriété",
+          "Le registre des faillites",
+          "Le registre des actes de défaut de biens"
+        ],
+        "reponse_correcte": "Le registre des pactes de réserve de propriété",
+        "explication": "Art. 715 CC et 17 OIPR : la consultation du registre des pactes de réserve de propriété est libre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Où se trouve le for ordinaire de la poursuite contre une personne physique ?",
+        "propositions": [
+          "À son lieu d'origine",
+          "Au lieu où ses papiers sont déposés",
+          "À son domicile, c'est-à-dire au lieu où elle réside avec l'intention de s'y établir",
+          "Au lieu de domicile du créancier"
+        ],
+        "reponse_correcte": "À son domicile, c'est-à-dire au lieu où elle réside avec l'intention de s'y établir",
+        "explication": "Art. 23 CC. L'inscription au contrôle des habitants n'est pas déterminante : ce qui compte, c'est le lieu où le débiteur réside effectivement et exerce son activité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Un débiteur séjourne dans un hôpital à Lausanne mais est domicilié à Sion. Où doit-il être poursuivi ?",
+        "propositions": [
+          "À Sion, son domicile",
+          "À Lausanne, son lieu de séjour",
+          "Au choix du créancier",
+          "Au domicile du créancier"
+        ],
+        "reponse_correcte": "À Sion, son domicile",
+        "explication": "Le séjour dans un hôpital, un home, une institution de formation ou une maison de détention ne constitue pas en soi un domicile. La poursuite est intentée au domicile."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Où une société anonyme inscrite au registre du commerce doit-elle être poursuivie ?",
+        "propositions": [
+          "Au domicile de son administrateur",
+          "Au lieu de sa succursale qui a contracté la dette",
+          "Au lieu où elle exerce l'essentiel de son activité",
+          "À son siège social inscrit au RC"
+        ],
+        "reponse_correcte": "À son siège social inscrit au RC",
+        "explication": "Art. 46 al. 2 LP. Une succursale, même inscrite au RC, ne peut pas être poursuivie : le principe de l'unité de la poursuite impose le for de l'établissement principal."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Où se trouve le for de la poursuite d'une communauté des propriétaires par étages ?",
+        "propositions": [
+          "Au domicile de l'administrateur",
+          "Au lieu de situation de l'immeuble",
+          "Au domicile du copropriétaire ayant la plus grande quote-part",
+          "Au siège de la gérance"
+        ],
+        "reponse_correcte": "Au lieu de situation de l'immeuble",
+        "explication": "Art. 46 al. 4 LP."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Où peut être poursuivi un débiteur qui n'a de domicile fixe ni en Suisse ni à l'étranger ?",
+        "propositions": [
+          "Il ne peut pas être poursuivi",
+          "À son dernier domicile connu uniquement",
+          "À son lieu de séjour (une présence de pur hasard ne suffit pas)",
+          "Au domicile du créancier"
+        ],
+        "reponse_correcte": "À son lieu de séjour (une présence de pur hasard ne suffit pas)",
+        "explication": "Art. 48 LP."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Dans quels cas un débiteur domicilié à l'étranger peut-il être poursuivi en Suisse ?",
+        "propositions": [
+          "S'il possède un établissement en Suisse, pour les dettes de celui-ci",
+          "S'il a élu domicile en Suisse pour l'exécution d'une obligation, pour cette dette",
+          "Dès qu'un lieu de paiement en Suisse a été stipulé",
+          "Dès qu'il est de nationalité suisse"
+        ],
+        "reponses_correctes": [
+          "S'il possède un établissement en Suisse, pour les dettes de celui-ci",
+          "S'il a élu domicile en Suisse pour l'exécution d'une obligation, pour cette dette"
+        ],
+        "explication": "Art. 50 LP. La simple stipulation d'un lieu de paiement en Suisse ne suffit pas pour une élection de domicile."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Où s'opère la poursuite lorsque la créance est garantie par une hypothèque ?",
+        "propositions": [
+          "Au domicile du débiteur uniquement",
+          "Au domicile du créancier",
+          "Au lieu de situation de l'immeuble (ou de la partie de plus grande valeur s'il y en a plusieurs)",
+          "Au lieu du registre foncier du domicile du débiteur"
+        ],
+        "reponse_correcte": "Au lieu de situation de l'immeuble (ou de la partie de plus grande valeur s'il y en a plusieurs)",
+        "explication": "Art. 51 al. 2 LP."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Pour une créance garantie par un gage mobilier, où la poursuite peut-elle s'opérer ?",
+        "propositions": [
+          "Uniquement au domicile du débiteur",
+          "Uniquement au lieu où se trouve le gage",
+          "Au domicile du créancier",
+          "Au choix : au domicile du débiteur ou au lieu où se trouve le gage (ou sa partie de plus grande valeur)"
+        ],
+        "reponse_correcte": "Au choix : au domicile du débiteur ou au lieu où se trouve le gage (ou sa partie de plus grande valeur)",
+        "explication": "Art. 51 al. 1 LP. Une fois engagée au lieu choisi par le poursuivant, la poursuite doit y être continuée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "For de la poursuite",
+      "content": {
+        "enonce": "Si le débiteur change de domicile, après quels actes la poursuite se continue-t-elle au même (ancien) domicile (art. 53 LP) ?",
+        "propositions": [
+          "Après l'avis de saisie",
+          "Après la commination de faillite",
+          "Après la notification du commandement de payer pour effets de change",
+          "Après la notification d'un commandement de payer ordinaire",
+          "Après le dépôt de la réquisition de poursuite"
+        ],
+        "reponses_correctes": [
+          "Après l'avis de saisie",
+          "Après la commination de faillite",
+          "Après la notification du commandement de payer pour effets de change"
+        ],
+        "explication": "Attention : c'est l'avis de saisie qui fixe le for, et non l'exécution de la saisie. Après un simple CDP ordinaire, le créancier doit continuer auprès de l'office du nouveau domicile."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Qui décide si une poursuite ordinaire se continue par voie de saisie ou par voie de faillite ?",
+        "propositions": [
+          "Le créancier, dans sa réquisition",
+          "Le débiteur",
+          "Le préposé de l'office des poursuites",
+          "Le juge de la faillite"
+        ],
+        "reponse_correcte": "Le préposé de l'office des poursuites",
+        "explication": "Les indications du créancier (« réquisition de saisie », « demande de commination de faillite ») ne sont pas décisives ; il peut se borner à requérir la continuation et attaquer la décision du préposé par voie de plainte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Un bailleur poursuit son locataire qui n'a jamais constitué la garantie de loyer prévue au bail. Quel mode de poursuite est adapté ?",
+        "propositions": [
+          "La poursuite pour effets de change",
+          "La poursuite en prestation de sûretés",
+          "La poursuite en réalisation de gage immobilier",
+          "La faillite sans poursuite préalable"
+        ],
+        "reponse_correcte": "La poursuite en prestation de sûretés",
+        "explication": "Elle vise à faire constituer des sûretés dues en vertu d'un contrat, d'une décision ou de la loi (ex. : garantie locative). Le créancier doit indiquer la valeur des sûretés requises."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Quelles affirmations sont correctes concernant la poursuite en prestation de sûretés ?",
+        "propositions": [
+          "Elle se continue toujours par voie de saisie, même contre un débiteur inscrit au RC",
+          "Les fonds obtenus sont consignés et non versés au créancier",
+          "Si un ADB est délivré, le créancier ne peut introduire qu'une nouvelle poursuite en prestation de sûretés",
+          "Les fonds obtenus sont versés immédiatement au créancier",
+          "Elle se continue par voie de faillite si le débiteur est inscrit au RC"
+        ],
+        "reponses_correctes": [
+          "Elle se continue toujours par voie de saisie, même contre un débiteur inscrit au RC",
+          "Les fonds obtenus sont consignés et non versés au créancier",
+          "Si un ADB est délivré, le créancier ne peut introduire qu'une nouvelle poursuite en prestation de sûretés"
+        ],
+        "explication": "Art. 43 al. 3 LP. Le montant consigné n'est remis au poursuivant qu'avec l'accord du poursuivi, au vu d'un jugement ou au terme d'une poursuite en réalisation de gage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Dans une poursuite en réalisation de gage mobilier, quel est le délai de paiement imparti au débiteur ?",
+        "propositions": [
+          "10 jours",
+          "20 jours",
+          "Un mois",
+          "Six mois"
+        ],
+        "reponse_correcte": "Un mois",
+        "explication": "La réalisation du gage mobilier peut être requise un mois au plus tôt et un an au plus tard après la notification du CDP (art. 154 al. 1 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Dans une poursuite en réalisation de gage immobilier, dans quel délai le créancier peut-il requérir la réalisation ?",
+        "propositions": [
+          "Un mois au plus tôt, un an au plus tard après la notification du CDP",
+          "Six mois au plus tôt, deux ans au plus tard après la notification du CDP",
+          "20 jours au plus tôt, un an au plus tard après la notification du CDP",
+          "Dès le lendemain de la notification du CDP"
+        ],
+        "reponse_correcte": "Six mois au plus tôt, deux ans au plus tard après la notification du CDP",
+        "explication": "Art. 154 al. 1 LP. Le délai de paiement est de six mois ; la réalisation forcée des immeubles est régie par l'ORFI."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "Dans la poursuite en réalisation de gage (mobilier ou immobilier), si le débiteur forme opposition, dans quel délai le créancier doit-il requérir la mainlevée ou ouvrir action ?",
+        "propositions": [
+          "10 jours à compter de la communication de l'opposition",
+          "20 jours à compter de la communication de l'opposition",
+          "Un mois à compter de la communication de l'opposition",
+          "Un an à compter de la notification du CDP"
+        ],
+        "reponse_correcte": "10 jours à compter de la communication de l'opposition",
+        "explication": "Art. 153a al. 1 LP. S'il n'obtient pas gain de cause en mainlevée, il peut ouvrir action dans les 10 jours dès la notification de la décision."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Modes de poursuite",
+      "content": {
+        "enonce": "À quelle condition la poursuite pour effets de change (lettre de change, chèque) peut-elle être requise ?",
+        "propositions": [
+          "Le débiteur doit être sujet à la poursuite par voie de faillite",
+          "Le débiteur doit être une personne physique non inscrite au RC",
+          "La créance doit être garantie par un gage immobilier",
+          "Le créancier doit disposer d'un jugement exécutoire"
+        ],
+        "reponse_correcte": "Le débiteur doit être sujet à la poursuite par voie de faillite",
+        "explication": "Art. 177 LP. Le créancier joint à sa réquisition l'original de l'effet de change ou du chèque. Il n'y a pas de féries dans cette poursuite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Temps prohibés, féries et suspension",
+      "content": {
+        "enonce": "Entre quelles heures un acte de poursuite est-il interdit (temps prohibés) ?",
+        "propositions": [
+          "Entre 18 heures et 8 heures",
+          "Entre 22 heures et 6 heures",
+          "Entre 20 heures et 7 heures",
+          "Entre midi et 14 heures"
+        ],
+        "reponse_correcte": "Entre 20 heures et 7 heures",
+        "explication": "Art. 56 LP : sont aussi des temps prohibés les dimanches et jours légalement fériés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Temps prohibés, féries et suspension",
+      "content": {
+        "enonce": "Quelles périodes constituent des féries de poursuite ?",
+        "propositions": [
+          "Sept jours avant et sept jours après Pâques",
+          "Sept jours avant et sept jours après Noël",
+          "Du 15 juillet au 31 juillet",
+          "Du 15 juillet au 15 août",
+          "Du 18 décembre au 2 janvier"
+        ],
+        "reponses_correctes": [
+          "Sept jours avant et sept jours après Pâques",
+          "Sept jours avant et sept jours après Noël",
+          "Du 15 juillet au 31 juillet"
+        ],
+        "explication": "Art. 56 ch. 2 LP. Attention à ne pas confondre avec les féries judiciaires du CPC (15 juillet – 15 août ; 18 décembre – 2 janvier)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Temps prohibés, féries et suspension",
+      "content": {
+        "enonce": "Quelles mesures peuvent être exécutées malgré les temps prohibés ou les féries ?",
+        "propositions": [
+          "Le séquestre",
+          "Les mesures conservatoires urgentes (ex. : prise d'inventaire du droit de rétention)",
+          "Les actes dans la poursuite pour effets de change (pas de féries)",
+          "La saisie de salaire ordinaire",
+          "La vente aux enchères des biens saisis"
+        ],
+        "reponses_correctes": [
+          "Le séquestre",
+          "Les mesures conservatoires urgentes (ex. : prise d'inventaire du droit de rétention)",
+          "Les actes dans la poursuite pour effets de change (pas de féries)"
+        ],
+        "explication": "Art. 56 LP. La prise d'inventaire pour sauvegarde du droit de rétention est une mesure conservatoire urgente."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Temps prohibés, féries et suspension",
+      "content": {
+        "enonce": "Pour quels motifs un débiteur peut-il bénéficier d'une suspension des poursuites selon les art. 57 à 61 LP ?",
+        "propositions": [
+          "Service militaire, service civil ou protection civile",
+          "Décès dans la famille",
+          "Maladie grave",
+          "Emprisonnement",
+          "Vacances à l'étranger",
+          "Perte d'emploi"
+        ],
+        "reponses_correctes": [
+          "Service militaire, service civil ou protection civile",
+          "Décès dans la famille",
+          "Maladie grave",
+          "Emprisonnement"
+        ],
+        "explication": "Il existe aussi la suspension en cas de sursis concordataire ou de règlement amiable des dettes, et celle ordonnée en cas d'épidémie, de calamité publique ou de guerre (art. 62 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Temps prohibés, féries et suspension",
+      "content": {
+        "enonce": "Pour quelles créances le débiteur peut-il être poursuivi même pendant une suspension ?",
+        "propositions": [
+          "Les loyers d'habitation",
+          "Les impôts",
+          "Les contributions périodiques d'entretien ou d'aliments découlant du droit de la famille",
+          "Les primes d'assurance-maladie"
+        ],
+        "reponse_correcte": "Les contributions périodiques d'entretien ou d'aliments découlant du droit de la famille",
+        "explication": "Art. 57 al. 3 LP. Dans la poursuite en réalisation de gage immobilier, le CDP doit aussi être notifié pendant la suspension pourvu que celle-ci ait duré trois mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Quelle forme la réquisition de poursuite doit-elle respecter ?",
+        "propositions": [
+          "Elle doit être faite par acte notarié",
+          "Aucune forme particulière : elle peut être écrite ou verbale",
+          "Elle doit obligatoirement être faite sur la formule officielle n° 1",
+          "Elle doit être déposée par un avocat"
+        ],
+        "reponse_correcte": "Aucune forme particulière : elle peut être écrite ou verbale",
+        "explication": "Art. 67 al. 1 LP. La formule n° 1 n'est pas obligatoire, mais sert pratiquement de modèle ; une réquisition verbale est reproduite par l'office sur cette formule."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Quelles indications doivent figurer dans la réquisition de poursuite ?",
+        "propositions": [
+          "Le nom et l'adresse exacte du débiteur (et de son représentant légal le cas échéant)",
+          "Le nom et le domicile du créancier et, le cas échéant, de son mandataire",
+          "Le montant de la créance en francs suisses, avec le taux et le point de départ des intérêts",
+          "Le titre de la créance et sa date ou, à défaut, la cause de l'obligation",
+          "Les preuves écrites de l'existence de la créance",
+          "La mention « et autres prestations éventuelles »"
+        ],
+        "reponses_correctes": [
+          "Le nom et l'adresse exacte du débiteur (et de son représentant légal le cas échéant)",
+          "Le nom et le domicile du créancier et, le cas échéant, de son mandataire",
+          "Le montant de la créance en francs suisses, avec le taux et le point de départ des intérêts",
+          "Le titre de la créance et sa date ou, à défaut, la cause de l'obligation"
+        ],
+        "explication": "Art. 67 LP. L'office n'examine pas l'existence de la créance ; le montant doit être chiffré : on ne peut pas poursuivre pour « d'autres prestations éventuelles »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Un bailleur veut poursuivre deux colocataires codébiteurs solidaires d'un arriéré de loyer. Que doit-il faire ?",
+        "propositions": [
+          "Déposer une seule réquisition au nom des deux colocataires",
+          "Poursuivre uniquement le premier signataire du bail",
+          "Déposer autant de réquisitions de poursuite qu'il y a de débiteurs",
+          "Attendre la fin du bail pour les poursuivre"
+        ],
+        "reponse_correcte": "Déposer autant de réquisitions de poursuite qu'il y a de débiteurs",
+        "explication": "Lorsque des codébiteurs sont poursuivis, un commandement de payer est notifié à chacun d'eux (art. 70 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Le débiteur vit sous le régime de la communauté de biens. Quelle précaution le créancier doit-il prendre ?",
+        "propositions": [
+          "Aucune, le conjoint n'est pas concerné",
+          "Poursuivre uniquement le conjoint",
+          "Indiquer aussi les nom, prénom et adresse du conjoint, à qui tous les actes seront notifiés",
+          "Obtenir l'accord du conjoint avant de déposer la réquisition"
+        ],
+        "reponse_correcte": "Indiquer aussi les nom, prénom et adresse du conjoint, à qui tous les actes seront notifiés",
+        "explication": "Art. 68a LP : le conjoint reçoit tous les actes de poursuite et peut aussi former opposition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "À quel moment la réquisition de poursuite interrompt-elle la prescription de la créance ?",
+        "propositions": [
+          "Dès sa remise à la poste ou à l'office",
+          "Dès la notification du commandement de payer",
+          "Dès que la mainlevée est prononcée",
+          "Dès la réquisition de continuer la poursuite"
+        ],
+        "reponse_correcte": "Dès sa remise à la poste ou à l'office",
+        "explication": "Art. 135 ch. 2 CO. Peu importe que la poursuite soit continuée ou non. La prescription n'est interrompue que pour le montant indiqué ; une réquisition nulle n'a aucun effet interruptif."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Qui doit avancer les frais de la poursuite à l'office ?",
+        "propositions": [
+          "Le débiteur",
+          "L'État",
+          "Le créancier, qui pourra les récupérer auprès du débiteur",
+          "Les frais sont partagés par moitié"
+        ],
+        "reponse_correcte": "Le créancier, qui pourra les récupérer auprès du débiteur",
+        "explication": "Les frais sont en principe à la charge du débiteur mais avancés par le créancier. Les versements du débiteur couvrent d'abord les frais, puis la créance. S'ils restent impayés, l'office peut considérer la réquisition comme caduque."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réquisition de poursuite",
+      "content": {
+        "enonce": "Dans quels cas la procédure ne commence-t-elle PAS par une réquisition de poursuite ?",
+        "propositions": [
+          "Le créancier agit dans les six mois suivant la délivrance d'un premier ADB après saisie",
+          "Le créancier agit dans le mois suivant la délivrance d'un certificat d'insuffisance de gage",
+          "En cas de faillite sans poursuite préalable",
+          "En cas de demande de participation privilégiée",
+          "En cas de premier retard de loyer"
+        ],
+        "reponses_correctes": [
+          "Le créancier agit dans les six mois suivant la délivrance d'un premier ADB après saisie",
+          "Le créancier agit dans le mois suivant la délivrance d'un certificat d'insuffisance de gage",
+          "En cas de faillite sans poursuite préalable",
+          "En cas de demande de participation privilégiée"
+        ],
+        "explication": "Art. 149 al. 3, 158 al. 2, 190 ss et 111 LP."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Que se passe-t-il pour une mesure d'exécution qui n'a pas été précédée d'un commandement de payer (hors exceptions légales) ?",
+        "propositions": [
+          "Elle est valable si le débiteur ne s'y oppose pas",
+          "Elle est annulable dans les 10 jours",
+          "Elle est valable si le créancier a un jugement",
+          "Elle est radicalement nulle"
+        ],
+        "reponse_correcte": "Elle est radicalement nulle",
+        "explication": "Le commandement de payer est la base indispensable de toute poursuite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Le commandement de payer est établi en deux exemplaires. Si ceux-ci diffèrent, lequel fait foi ?",
+        "propositions": [
+          "Celui du créancier",
+          "Celui du débiteur",
+          "Celui conservé par l'office",
+          "Aucun, le commandement de payer est nul"
+        ],
+        "reponse_correcte": "Celui du débiteur",
+        "explication": "La date de notification indiquée sur l'exemplaire du débiteur fait aussi règle pour le calcul du délai d'opposition."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Que contient le commandement de payer dans une poursuite ordinaire ?",
+        "propositions": [
+          "Les indications figurant sur la réquisition de poursuite",
+          "La sommation de payer la dette et les frais dans les 20 jours",
+          "L'avis que le débiteur doit former opposition dans les 10 jours s'il conteste la dette",
+          "L'avertissement que, faute de payer ou de former opposition, la poursuite suivra son cours",
+          "Les preuves de la créance fournies par le créancier"
+        ],
+        "reponses_correctes": [
+          "Les indications figurant sur la réquisition de poursuite",
+          "La sommation de payer la dette et les frais dans les 20 jours",
+          "L'avis que le débiteur doit former opposition dans les 10 jours s'il conteste la dette",
+          "L'avertissement que, faute de payer ou de former opposition, la poursuite suivra son cours"
+        ],
+        "explication": "Art. 69 LP. Le débiteur peut toutefois demander que le créancier présente ses moyens de preuve à l'office avant l'expiration du délai d'opposition (art. 73 LP)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Parmi ces modes de remise du commandement de payer, lesquels sont INADMISSIBLES ?",
+        "propositions": [
+          "Le dépôt dans la case postale du débiteur",
+          "L'envoi par lettre recommandée",
+          "Le dépôt dans la boîte aux lettres du débiteur",
+          "La remise à une personne adulte du ménage en l'absence du débiteur",
+          "La remise au débiteur à son lieu de travail habituel"
+        ],
+        "reponses_correctes": [
+          "Le dépôt dans la case postale du débiteur",
+          "L'envoi par lettre recommandée",
+          "Le dépôt dans la boîte aux lettres du débiteur"
+        ],
+        "explication": "La notification se fait par le préposé, un employé de l'office ou la poste, au domicile ou au lieu de travail (mis sur le même plan), ou à une personne adulte du ménage ou à un employé (art. 64 et 72 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Un débiteur sous-loue simplement une chambre. Le commandement de payer est remis à son logeur (le bailleur de la chambre). La notification est-elle valable ?",
+        "propositions": [
+          "Oui, le logeur est assimilé à une personne du ménage",
+          "Non, en cas de simple location d'une chambre, la remise au bailleur n'est pas valable",
+          "Oui, si le logeur signe l'accusé de réception",
+          "Oui, si le débiteur est absent depuis plus de 3 jours"
+        ],
+        "reponse_correcte": "Non, en cas de simple location d'une chambre, la remise au bailleur n'est pas valable",
+        "explication": "En revanche, la remise à la personne chez qui le débiteur prend chambre et pension est valable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "À qui le commandement de payer est-il notifié lorsque le débiteur est une société anonyme ?",
+        "propositions": [
+          "À n'importe quel actionnaire",
+          "Uniquement au président du conseil d'administration",
+          "À un membre de l'administration, à un directeur ou à un fondé de procuration",
+          "À l'organe de révision"
+        ],
+        "reponse_correcte": "À un membre de l'administration, à un directeur ou à un fondé de procuration",
+        "explication": "Art. 65 al. 1 ch. 2 LP. S'ils ne sont pas rencontrés au bureau, la notification peut être faite à un autre employé."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commandement de payer",
+      "content": {
+        "enonce": "Dans quels cas la notification se fait-elle par publication (FOSC et feuille officielle cantonale) ?",
+        "propositions": [
+          "Le débiteur n'a pas de domicile connu",
+          "Le débiteur se soustrait obstinément à la notification",
+          "Le débiteur est domicilié à l'étranger et la notification ne peut être obtenue dans un délai convenable",
+          "Le débiteur est absent lors du premier passage du facteur",
+          "Le créancier souhaite accélérer la procédure"
+        ],
+        "reponses_correctes": [
+          "Le débiteur n'a pas de domicile connu",
+          "Le débiteur se soustrait obstinément à la notification",
+          "Le débiteur est domicilié à l'étranger et la notification ne peut être obtenue dans un délai convenable"
+        ],
+        "explication": "La publication est un ultime moyen : toutes les recherches pour trouver une adresse doivent avoir été entreprises auparavant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Opposition",
+      "content": {
+        "enonce": "Dans quel délai et comment le débiteur doit-il former opposition au commandement de payer ?",
+        "propositions": [
+          "Dans les 20 jours, par écrit recommandé uniquement",
+          "Dans les 10 jours dès la notification, verbalement ou par écrit",
+          "Dans les 30 jours, par écrit motivé",
+          "Dans les 10 jours, uniquement par l'intermédiaire d'un avocat"
+        ],
+        "reponse_correcte": "Dans les 10 jours dès la notification, verbalement ou par écrit",
+        "explication": "Art. 74 al. 1 LP : immédiatement à la personne qui remet le CDP ou à l'office dans les 10 jours. Aucune forme particulière ni langage juridique n'est exigé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Opposition",
+      "content": {
+        "enonce": "Un débiteur refuse de prendre le commandement de payer que lui présente le facteur. Ce refus vaut-il opposition ?",
+        "propositions": [
+          "Oui, le refus est une opposition tacite",
+          "Oui, si le débiteur le confirme par écrit dans les 20 jours",
+          "Non, le refus d'un commandement de payer ne doit pas être interprété comme une opposition",
+          "Cela dépend du montant de la créance"
+        ],
+        "reponse_correcte": "Non, le refus d'un commandement de payer ne doit pas être interprété comme une opposition",
+        "explication": "L'opposition doit être une déclaration exprimant la contestation de la dette ou du droit de poursuivre."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Opposition",
+      "content": {
+        "enonce": "Le débiteur ne conteste qu'une partie de la dette mais n'indique pas le montant contesté. Quelle est la conséquence ?",
+        "propositions": [
+          "La dette entière est réputée contestée",
+          "L'opposition est nulle",
+          "La dette entière est réputée reconnue",
+          "L'office fixe lui-même le montant contesté"
+        ],
+        "reponse_correcte": "La dette entière est réputée contestée",
+        "explication": "Art. 74 al. 2 LP. S'il indique le montant contesté, la poursuite peut être continuée pour la somme reconnue."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Opposition",
+      "content": {
+        "enonce": "En principe l'opposition n'a pas à être motivée. Dans quels cas doit-elle néanmoins l'être ?",
+        "propositions": [
+          "Dans la poursuite pour effets de change",
+          "Lorsque le débiteur soulève l'exception de non-retour à meilleure fortune",
+          "Dans la poursuite en réalisation de gage, si le débiteur entend contester uniquement le droit de gage",
+          "Dans toute poursuite pour loyer impayé",
+          "Dès que la créance dépasse CHF 10'000.–"
+        ],
+        "reponses_correctes": [
+          "Dans la poursuite pour effets de change",
+          "Lorsque le débiteur soulève l'exception de non-retour à meilleure fortune",
+          "Dans la poursuite en réalisation de gage, si le débiteur entend contester uniquement le droit de gage"
+        ],
+        "explication": "Art. 75, 179 et 265a LP, art. 85 ORFI. Le cas de la communauté de biens (biens propres vs biens communs) exige aussi une motivation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Opposition",
+      "content": {
+        "enonce": "Quel est l'effet de l'opposition ?",
+        "propositions": [
+          "Elle annule définitivement la poursuite",
+          "Elle suspend la poursuite",
+          "Elle prolonge le délai de paiement de 20 jours",
+          "Elle oblige l'office à vérifier la créance"
+        ],
+        "reponse_correcte": "Elle suspend la poursuite",
+        "explication": "Art. 78 al. 1 LP. Le créancier doit alors faire écarter l'opposition (action en reconnaissance de dette ou mainlevée)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Un créancier dispose de simples factures non signées par le débiteur, qui a formé opposition. Quelle voie doit-il suivre ?",
+        "propositions": [
+          "La mainlevée provisoire",
+          "La mainlevée définitive",
+          "L'action en reconnaissance de dette (procédure civile ordinaire)",
+          "La réquisition de continuer la poursuite"
+        ],
+        "reponse_correcte": "L'action en reconnaissance de dette (procédure civile ordinaire)",
+        "explication": "Art. 79 LP : sans reconnaissance de dette ni jugement, le créancier doit agir au fond. Les frais et dépens de ce procès ne sont pas compris dans les frais de la poursuite et font l'objet d'une poursuite distincte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Sur quelle base le créancier peut-il demander la mainlevée DÉFINITIVE de l'opposition ?",
+        "propositions": [
+          "Une reconnaissance de dette sous seing privé",
+          "Un contrat de bail signé",
+          "Un jugement exécutoire ou un titre assimilé (transaction judiciaire, titre authentique exécutoire, décision administrative suisse)",
+          "Un acte de défaut de biens"
+        ],
+        "reponse_correcte": "Un jugement exécutoire ou un titre assimilé (transaction judiciaire, titre authentique exécutoire, décision administrative suisse)",
+        "explication": "Art. 80 LP. Le débiteur ne peut s'y opposer qu'en prouvant par titre l'extinction de la dette, un sursis postérieur au jugement ou en invoquant la prescription (art. 81 LP)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Parmi ces documents, lesquels permettent de requérir la mainlevée PROVISOIRE ?",
+        "propositions": [
+          "Un contrat de bail signé par le locataire fixant le loyer",
+          "Une reconnaissance de dette signée par le débiteur",
+          "Un acte de défaut de biens après saisie",
+          "Un certificat d'insuffisance de gage",
+          "Une facture non signée",
+          "Un jugement exécutoire"
+        ],
+        "reponses_correctes": [
+          "Un contrat de bail signé par le locataire fixant le loyer",
+          "Une reconnaissance de dette signée par le débiteur",
+          "Un acte de défaut de biens après saisie",
+          "Un certificat d'insuffisance de gage"
+        ],
+        "explication": "Art. 82 LP : tout écrit signé par le débiteur constatant l'engagement de payer une somme déterminée. L'ADB après faillite l'est aussi si le débiteur a reconnu la créance. Le jugement exécutoire permet la mainlevée définitive."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Quelle procédure s'applique à la mainlevée de l'opposition, et devant quel juge ?",
+        "propositions": [
+          "La procédure ordinaire, au domicile du créancier",
+          "La procédure sommaire (art. 251 let. a CPC), devant le juge du for de la poursuite",
+          "La procédure simplifiée, devant le tribunal des baux",
+          "La procédure administrative, devant l'autorité de surveillance"
+        ],
+        "reponse_correcte": "La procédure sommaire (art. 251 let. a CPC), devant le juge du for de la poursuite",
+        "explication": "Art. 84 LP : le juge donne au débiteur l'occasion de répondre verbalement ou par écrit, puis notifie sa décision."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Après une mainlevée provisoire, de quel délai le débiteur dispose-t-il pour intenter une action en libération de dette ?",
+        "propositions": [
+          "10 jours",
+          "20 jours",
+          "30 jours",
+          "Un an"
+        ],
+        "reponse_correcte": "20 jours",
+        "explication": "Art. 83 al. 2 LP : action au for de la poursuite, en procédure ordinaire. Sans action (ou s'il est débouté), la mainlevée et la saisie provisoire deviennent définitives."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mainlevée de l'opposition",
+      "content": {
+        "enonce": "Après avoir fait opposition, le débiteur verse le montant de la créance directement à l'office des poursuites. Quelle en est la conséquence ?",
+        "propositions": [
+          "L'opposition est maintenue et le créancier doit requérir la mainlevée",
+          "Le paiement équivaut à un retrait de l'opposition ; la poursuite peut être continuée pour les frais",
+          "La poursuite est radiée avec effet rétroactif",
+          "L'office rembourse le débiteur"
+        ],
+        "reponse_correcte": "Le paiement équivaut à un retrait de l'opposition ; la poursuite peut être continuée pour les frais",
+        "explication": "En revanche, un paiement fait directement au créancier (ou par virement sur son compte) ne vaut pas retrait de l'opposition : le débiteur conserve les droits acquis par celle-ci."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Continuation de la poursuite",
+      "content": {
+        "enonce": "À partir de quand et jusqu'à quand le créancier peut-il requérir la continuation de la poursuite ?",
+        "propositions": [
+          "Dès 10 jours et au plus tard 6 mois après la notification du CDP",
+          "Dès 20 jours et au plus tard un an après la notification du CDP",
+          "Dès 30 jours et au plus tard deux ans après la notification du CDP",
+          "Dès le lendemain de la notification et sans limite de temps"
+        ],
+        "reponse_correcte": "Dès 20 jours et au plus tard un an après la notification du CDP",
+        "explication": "Art. 88 LP. En cas d'opposition, le délai d'un an ne court pas entre l'introduction de la procédure judiciaire ou administrative et le jugement définitif."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Continuation de la poursuite",
+      "content": {
+        "enonce": "Un créancier dépose sa réquisition de continuer la poursuite 5 jours avant l'échéance du délai de 20 jours. Que fait l'office ?",
+        "propositions": [
+          "Il la traite immédiatement",
+          "Il la conserve et y donne suite le jour de l'échéance",
+          "Il la retourne au créancier avec la mention « Anticipé, il ne pourra être donné suite que le … »",
+          "Il annule la poursuite"
+        ],
+        "reponse_correcte": "Il la retourne au créancier avec la mention « Anticipé, il ne pourra être donné suite que le … »",
+        "explication": "Art. 9 Oform : seule une réquisition déposée dans les deux jours qui précèdent l'échéance est conservée et traitée le jour où le délai échoit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Continuation de la poursuite",
+      "content": {
+        "enonce": "Que doit joindre le créancier à sa réquisition de continuer la poursuite après une procédure de mainlevée ?",
+        "propositions": [
+          "Rien, l'office est informé automatiquement par le juge",
+          "Une nouvelle réquisition de poursuite",
+          "Une copie du contrat de bail",
+          "Le jugement ordonnant la mainlevée et l'état des frais de mainlevée"
+        ],
+        "reponse_correcte": "Le jugement ordonnant la mainlevée et l'état des frais de mainlevée",
+        "explication": "Les frais d'une instance ordinaire (action en reconnaissance de dette) doivent en revanche faire l'objet d'une poursuite séparée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Quel est le délai minimal pour aviser le débiteur de l'exécution d'une saisie ?",
+        "propositions": [
+          "La veille au plus tard",
+          "Trois jours à l'avance",
+          "Dix jours à l'avance",
+          "Aucun avis n'est nécessaire"
+        ],
+        "reponse_correcte": "La veille au plus tard",
+        "explication": "Art. 90 LP. Seul l'office du domicile du débiteur est compétent pour conduire la saisie, qui doit être exécutée sans retard."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Quelles obligations incombent au débiteur lors de la saisie ?",
+        "propositions": [
+          "Assister à la saisie ou s'y faire représenter",
+          "Indiquer tous ses biens, même ceux qui ne sont pas en sa possession, ainsi que ses créances contre des tiers",
+          "Ouvrir ses locaux et ses meubles à la réquisition du préposé",
+          "Payer immédiatement la totalité de la dette",
+          "Fournir une liste de ses créanciers"
+        ],
+        "reponses_correctes": [
+          "Assister à la saisie ou s'y faire représenter",
+          "Indiquer tous ses biens, même ceux qui ne sont pas en sa possession, ainsi que ses créances contre des tiers",
+          "Ouvrir ses locaux et ses meubles à la réquisition du préposé"
+        ],
+        "explication": "Art. 91 LP, sous menace de sanctions pénales. S'il ne se présente pas sans excuse, l'office peut le faire amener par la police. Les tiers détenteurs et les autorités ont la même obligation de renseigner."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Dans quel ordre l'office procède-t-il en principe à la saisie (art. 95 LP) ?",
+        "propositions": [
+          "D'abord les immeubles, puis les biens meubles",
+          "D'abord les biens meubles (y c. créances), puis les immeubles, et en dernier lieu les biens séquestrés ou revendiqués par des tiers",
+          "D'abord les biens revendiqués par des tiers, puis les meubles",
+          "Au choix du créancier uniquement"
+        ],
+        "reponse_correcte": "D'abord les biens meubles (y c. créances), puis les immeubles, et en dernier lieu les biens séquestrés ou revendiqués par des tiers",
+        "explication": "Parmi les meubles, on saisit en premier les objets de valeur courante dont le débiteur peut le plus aisément se passer. Le préposé peut s'écarter de cet ordre si les circonstances le justifient ou si créancier et débiteur le demandent ensemble."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Parmi ces biens, lesquels sont absolument insaisissables (art. 92 LP) ?",
+        "propositions": [
+          "Les objets réservés à l'usage personnel du débiteur et de sa famille",
+          "Les animaux vivant en milieu domestique",
+          "Les outils et instruments nécessaires à l'exercice de la profession",
+          "La rente AVS",
+          "Une voiture de luxe",
+          "Une collection de tableaux de valeur"
+        ],
+        "reponses_correctes": [
+          "Les objets réservés à l'usage personnel du débiteur et de sa famille",
+          "Les animaux vivant en milieu domestique",
+          "Les outils et instruments nécessaires à l'exercice de la profession",
+          "La rente AVS"
+        ],
+        "explication": "Sont aussi insaisissables les objets du culte et les denrées alimentaires et combustibles nécessaires pour les deux mois qui suivent la saisie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Le salaire du débiteur est-il saisissable ?",
+        "propositions": [
+          "Non, il est absolument insaisissable",
+          "Oui, en totalité",
+          "Oui, mais uniquement pour les dettes de loyer",
+          "Partiellement : seule la part qui dépasse le minimum vital du débiteur et de sa famille peut être saisie"
+        ],
+        "reponse_correcte": "Partiellement : seule la part qui dépasse le minimum vital du débiteur et de sa famille peut être saisie",
+        "explication": "Art. 93 LP (biens relativement saisissables). Le minimum vital est calculé selon les directives de la conférence des préposés ; la saisie de salaire dure au maximum 12 mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Saisie",
+      "content": {
+        "enonce": "Que vaut le procès-verbal de saisie lorsqu'il n'y a aucun bien saisissable ?",
+        "propositions": [
+          "Il est sans effet",
+          "Il vaut acte de défaut de biens (art. 115 al. 1 LP)",
+          "Il vaut jugement de faillite",
+          "Il vaut retrait de la poursuite"
+        ],
+        "reponse_correcte": "Il vaut acte de défaut de biens (art. 115 al. 1 LP)",
+        "explication": "Si les biens saisis sont insuffisants d'après l'estimation, il tient lieu d'ADB provisoire (art. 115 al. 2 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "Dans quel délai le créancier doit-il requérir la vente de biens MEUBLES saisis (y compris les créances) ?",
+        "propositions": [
+          "20 jours au plus tôt, 6 mois au plus tard dès la saisie",
+          "Un mois au plus tôt, un an au plus tard dès l'exécution de la saisie",
+          "Six mois au plus tôt, deux ans au plus tard dès l'exécution de la saisie",
+          "Il n'y a pas de délai"
+        ],
+        "reponse_correcte": "Un mois au plus tôt, un an au plus tard dès l'exécution de la saisie",
+        "explication": "Art. 116 LP. Pour les immeubles : six mois au plus tôt, deux ans au plus tard. Si la réquisition est tardive, la poursuite s'éteint."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "Plusieurs créanciers participent à la même série de saisie. Un seul d'entre eux requiert la vente à temps. Quel est l'effet pour les autres ?",
+        "propositions": [
+          "Leur poursuite s'éteint faute de réquisition propre",
+          "Ils doivent déposer leur propre réquisition dans les 10 jours",
+          "La réquisition vaut pour tous les créanciers de la série",
+          "Ils sont colloqués en dernier rang"
+        ],
+        "reponse_correcte": "La réquisition vaut pour tous les créanciers de la série",
+        "explication": "Principe de l'égalité de traitement des créanciers de la même série : il suffit qu'un créancier requière la vente à temps pour empêcher la péremption à l'égard de tous."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "Dans quels cas une réquisition de vente du créancier est-elle superflue ?",
+        "propositions": [
+          "La saisie porte sur de l'argent comptant",
+          "Le débiteur demande lui-même la vente des biens saisis",
+          "Les biens se déprécient rapidement ou sont dispendieux à conserver",
+          "La saisie porte sur un immeuble",
+          "Le créancier est domicilié à l'étranger"
+        ],
+        "reponses_correctes": [
+          "La saisie porte sur de l'argent comptant",
+          "Le débiteur demande lui-même la vente des biens saisis",
+          "Les biens se déprécient rapidement ou sont dispendieux à conserver"
+        ],
+        "explication": "Art. 124 LP. L'argent comptant est distribué à l'échéance des délais de participation et de plainte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "Le débiteur rend vraisemblable qu'il peut payer par acomptes et effectue un premier versement. Pour combien de temps au maximum le préposé peut-il renvoyer la réalisation (art. 123 LP) ?",
+        "propositions": [
+          "3 mois",
+          "6 mois",
+          "12 mois",
+          "24 mois"
+        ],
+        "reponse_correcte": "12 mois",
+        "explication": "Pour les créances colloquées en première classe, le renvoi est de six mois au plus."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "Aux enchères publiques, à quelle condition l'objet est-il adjugé après trois criées au plus offrant ?",
+        "propositions": [
+          "L'offre doit atteindre la valeur d'estimation de l'office",
+          "L'offre doit être supérieure à la somme des créances garanties par gage préférables à celle du poursuivant",
+          "L'offre doit couvrir la totalité de la créance du poursuivant",
+          "Aucune condition"
+        ],
+        "reponse_correcte": "L'offre doit être supérieure à la somme des créances garanties par gage préférables à celle du poursuivant",
+        "explication": "Art. 126 LP (principe de couverture). La vente est interrompue dès que les créances, intérêts et frais sont couverts (art. 119 LP)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réquisition de vente et réalisation",
+      "content": {
+        "enonce": "À quoi sert en premier lieu le produit de la réalisation ?",
+        "propositions": [
+          "À payer le créancier ayant déposé la première réquisition",
+          "À couvrir les frais d'administration, de réalisation et de distribution",
+          "À payer les intérêts moratoires",
+          "À rembourser le débiteur"
+        ],
+        "reponse_correcte": "À couvrir les frais d'administration, de réalisation et de distribution",
+        "explication": "Art. 144 al. 3 LP. Le produit net est ensuite distribué aux créanciers. S'il est insuffisant, l'office exécute aussitôt une saisie complémentaire (art. 145 LP)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acte de défaut de biens",
+      "content": {
+        "enonce": "Quels sont les effets de l'acte de défaut de biens (ADB) ?",
+        "propositions": [
+          "Il vaut reconnaissance de dette au sens de l'art. 82 LP (mainlevée provisoire)",
+          "Il permet le séquestre et l'action révocatoire",
+          "Il arrête le cours des intérêts",
+          "La créance constatée se prescrit par 20 ans",
+          "Il éteint définitivement la dette",
+          "Il interdit toute nouvelle poursuite contre le débiteur"
+        ],
+        "reponses_correctes": [
+          "Il vaut reconnaissance de dette au sens de l'art. 82 LP (mainlevée provisoire)",
+          "Il permet le séquestre et l'action révocatoire",
+          "Il arrête le cours des intérêts",
+          "La créance constatée se prescrit par 20 ans"
+        ],
+        "explication": "Art. 149 LP. Le créancier peut, dans les six mois, requérir la continuation sans nouveau commandement de payer."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acte de défaut de biens",
+      "content": {
+        "enonce": "Dans quels cas un acte de défaut de biens après saisie (art. 149 LP) est-il délivré ?",
+        "propositions": [
+          "La réalisation des biens meubles saisis ne désintéresse pas entièrement les créanciers",
+          "La saisie de salaire, arrivée à son terme de 12 mois, ne solde pas toutes les poursuites",
+          "La réalisation des immeubles saisis ne désintéresse pas entièrement les créanciers",
+          "Le créancier renonce par écrit à la saisie et demande la délivrance d'un ADB",
+          "Le débiteur forme opposition au commandement de payer"
+        ],
+        "reponses_correctes": [
+          "La réalisation des biens meubles saisis ne désintéresse pas entièrement les créanciers",
+          "La saisie de salaire, arrivée à son terme de 12 mois, ne solde pas toutes les poursuites",
+          "La réalisation des immeubles saisis ne désintéresse pas entièrement les créanciers",
+          "Le créancier renonce par écrit à la saisie et demande la délivrance d'un ADB"
+        ],
+        "explication": "L'ADB de l'art. 115 LP, lui, est délivré lorsqu'il n'y a d'emblée aucun bien saisissable (ni meuble, ni immeuble, ni salaire au-dessus du minimum vital)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Quel acte l'office des poursuites adresse-t-il, après la réquisition de continuer, à un débiteur inscrit au registre du commerce ?",
+        "propositions": [
+          "Un avis de saisie",
+          "Une commination de faillite",
+          "Un acte de défaut de biens",
+          "Un second commandement de payer"
+        ],
+        "reponse_correcte": "Une commination de faillite",
+        "explication": "Art. 159 LP. Elle avertit que le créancier pourra requérir la faillite après 20 jours et que le débiteur peut porter plainte dans les 10 jours s'il estime ne pas être sujet à la faillite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Dans quel délai le droit de requérir la faillite se périme-t-il ?",
+        "propositions": [
+          "Un an à compter de la notification du CDP",
+          "Quinze mois à compter de la notification du CDP",
+          "Deux ans à compter de la commination de faillite",
+          "20 jours à compter de la commination de faillite"
+        ],
+        "reponse_correcte": "Quinze mois à compter de la notification du CDP",
+        "explication": "Art. 166 al. 2 LP. La faillite peut être requise au juge au plus tôt 20 jours après la notification de la commination, avec le CDP et la commination."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Qui répond des frais de la faillite jusqu'à la suspension faute d'actif ou jusqu'à l'appel aux créanciers ?",
+        "propositions": [
+          "L'État",
+          "Le failli uniquement",
+          "Le créancier qui requiert la faillite",
+          "L'ensemble des créanciers à parts égales"
+        ],
+        "reponse_correcte": "Le créancier qui requiert la faillite",
+        "explication": "Art. 169 LP ; le juge peut exiger qu'il en fasse l'avance. Point important à considérer avant de requérir la faillite d'un locataire commercial."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Dans quel délai peut-on recourir contre le jugement de faillite ?",
+        "propositions": [
+          "5 jours",
+          "10 jours",
+          "20 jours",
+          "30 jours"
+        ],
+        "reponse_correcte": "10 jours",
+        "explication": "Art. 174 LP. L'autorité de recours peut annuler la faillite si le débiteur rend vraisemblable sa solvabilité et prouve par titre le paiement de la dette, la consignation du montant ou le retrait de la réquisition."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Dans quel délai les créanciers doivent-ils produire leurs créances après la publication de l'ouverture de la faillite ?",
+        "propositions": [
+          "10 jours",
+          "20 jours",
+          "Un mois",
+          "Six mois"
+        ],
+        "reponse_correcte": "Un mois",
+        "explication": "La production doit être accompagnée des moyens de preuve ; elle est gratuite et sans formulaire obligatoire. L'office établit ensuite l'état de collocation (art. 219 LP)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Poursuite par voie de faillite",
+      "content": {
+        "enonce": "Après l'inventaire des actifs, quels modes de liquidation l'office des faillites peut-il retenir ?",
+        "propositions": [
+          "La liquidation ordinaire",
+          "La liquidation sommaire",
+          "La suspension faute d'actif",
+          "La saisie de salaire du failli",
+          "La poursuite en prestation de sûretés"
+        ],
+        "reponses_correctes": [
+          "La liquidation ordinaire",
+          "La liquidation sommaire",
+          "La suspension faute d'actif"
+        ],
+        "explication": "Si les créanciers ne sont pas intégralement payés à l'issue de la liquidation, un acte de défaut de biens après faillite leur est délivré."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Pour quels loyers le bailleur de locaux commerciaux bénéficie-t-il d'un droit de rétention (art. 268 CO) ?",
+        "propositions": [
+          "Le loyer de l'année écoulée et du semestre courant",
+          "Le loyer des trois dernières années",
+          "Uniquement le loyer du mois courant",
+          "Le loyer du semestre écoulé et de l'année courante"
+        ],
+        "reponse_correcte": "Le loyer de l'année écoulée et du semestre courant",
+        "explication": "Pour le bail à ferme (art. 299c CO) : l'année écoulée et l'année courante. Le droit de rétention n'existe pas pour les logements, seulement pour les locaux commerciaux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Le bailleur d'un appartement (logement privé) peut-il requérir une prise d'inventaire pour sauvegarde du droit de rétention ?",
+        "propositions": [
+          "Oui, dans tous les cas",
+          "Oui, si le loyer est impayé depuis plus de 3 mois",
+          "Non, le droit de rétention n'appartient qu'au bailleur de locaux commerciaux",
+          "Oui, mais uniquement pour le loyer courant"
+        ],
+        "reponse_correcte": "Non, le droit de rétention n'appartient qu'au bailleur de locaux commerciaux",
+        "explication": "Art. 268 CO et 283 LP : il ne vise que les meubles servant à l'aménagement ou à l'usage des locaux commerciaux loués."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Quels objets NE peuvent PAS faire l'objet du droit de rétention du bailleur ?",
+        "propositions": [
+          "Les biens insaisissables selon la LP",
+          "Les meubles appartenant à des tiers dont le bailleur savait ou devait savoir qu'ils n'appartenaient pas au locataire",
+          "Le mobilier d'un restaurant appartenant au locataire",
+          "Les meubles du sous-locataire qui n'a pas payé son loyer au locataire"
+        ],
+        "reponses_correctes": [
+          "Les biens insaisissables selon la LP",
+          "Les meubles appartenant à des tiers dont le bailleur savait ou devait savoir qu'ils n'appartenaient pas au locataire"
+        ],
+        "explication": "Art. 268 al. 2-3 et 268a CO. Le droit de rétention grève aussi les meubles du sous-locataire dans la mesure où celui-ci n'a pas payé son loyer au locataire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Quelles créances sont garanties par le droit de rétention du bailleur ?",
+        "propositions": [
+          "Le loyer proprement dit",
+          "Les indemnités pour l'eau, le gaz, l'électricité et le chauffage",
+          "Les frais de poursuite et de rétention",
+          "L'indemnité pour occupation des locaux après l'expiration du bail",
+          "Une créance en dommages-intérêts",
+          "Les frais de la procédure d'expulsion",
+          "La garantie de loyer (sûretés) non versée"
+        ],
+        "reponses_correctes": [
+          "Le loyer proprement dit",
+          "Les indemnités pour l'eau, le gaz, l'électricité et le chauffage",
+          "Les frais de poursuite et de rétention",
+          "L'indemnité pour occupation des locaux après l'expiration du bail"
+        ],
+        "explication": "L'indemnité de remise en état est aussi couverte si elle est convenue dans le bail. Ne sont pas couverts : dommages-intérêts, frais d'expulsion, frais d'agent d'affaires, sûretés, réparations urgentes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "À quelle condition supplémentaire le bailleur peut-il obtenir une prise d'inventaire pour le loyer COURANT ?",
+        "propositions": [
+          "Il doit disposer d'un jugement",
+          "Il doit rendre vraisemblable un péril réel et immédiat (ex. : locataire qui déménage ou emporte des objets)",
+          "Le locataire doit avoir déjà reçu un commandement de payer",
+          "Aucune condition supplémentaire"
+        ],
+        "reponse_correcte": "Il doit rendre vraisemblable un péril réel et immédiat (ex. : locataire qui déménage ou emporte des objets)",
+        "explication": "Si le péril n'est pas rendu vraisemblable, l'office refuse de dresser l'inventaire pour le loyer courant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Loyer payable par mois le 1er du mois. Une réquisition d'inventaire est déposée le 20 juillet. Quelle période constitue le semestre courant ?",
+        "propositions": [
+          "De janvier à juin",
+          "De juillet à décembre",
+          "De février à juillet",
+          "D'août à janvier"
+        ],
+        "reponse_correcte": "De juillet à décembre",
+        "explication": "Le loyer courant part du 1er jour de la période entamée et non entièrement écoulée. Le dernier loyer échu est celui de juin (échu au 30 juin)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Les objets soumis au droit de rétention ont été emportés clandestinement par le locataire. Dans quel délai peuvent-ils être réintégrés avec l'aide de la force publique ?",
+        "propositions": [
+          "3 jours",
+          "10 jours dès leur déplacement",
+          "20 jours dès leur déplacement",
+          "Un mois dès leur déplacement"
+        ],
+        "reponse_correcte": "10 jours dès leur déplacement",
+        "explication": "Art. 284 LP. Sont réservés les droits des tiers de bonne foi ; le juge tranche en cas de contestation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Quels sont les effets de la prise d'inventaire à l'égard du locataire ?",
+        "propositions": [
+          "Il ne peut plus disposer des objets inventoriés",
+          "Il ne peut plus les sortir des locaux loués, sous menace de sanctions pénales",
+          "Il peut fournir des sûretés pour libérer les objets",
+          "Il perd immédiatement la propriété des objets au profit du bailleur",
+          "Le bail est automatiquement résilié"
+        ],
+        "reponses_correctes": [
+          "Il ne peut plus disposer des objets inventoriés",
+          "Il ne peut plus les sortir des locaux loués, sous menace de sanctions pénales",
+          "Il peut fournir des sûretés pour libérer les objets"
+        ],
+        "explication": "L'inventaire peut être requis même sans poursuite préalable (art. 283 LP) ; l'office assigne ensuite au bailleur un délai pour requérir la poursuite en réalisation de gage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "L'inventaire pour un loyer ÉCHU s'est révélé fructueux. Que doit faire le bailleur, et dans quel délai ?",
+        "propositions": [
+          "Introduire une poursuite ordinaire dans les 20 jours",
+          "Introduire une poursuite en réalisation de gage mobilier dans les 10 jours dès réception du procès-verbal d'inventaire",
+          "Requérir la faillite du locataire dans le mois",
+          "Introduire une poursuite en réalisation de gage immobilier dans les 6 mois"
+        ],
+        "reponse_correcte": "Introduire une poursuite en réalisation de gage mobilier dans les 10 jours dès réception du procès-verbal d'inventaire",
+        "explication": "Inventaire fructueux = poursuite en réalisation de gage mobilier ; inventaire infructueux = poursuite ordinaire. Si le délai n'est pas respecté, le droit de rétention tombe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Pour le loyer COURANT, dans quel délai le bailleur doit-il valider l'inventaire par une réquisition de poursuite ?",
+        "propositions": [
+          "10 jours à compter de la réception du procès-verbal",
+          "10 jours à compter de l'échéance du dernier terme de la période pour laquelle le loyer est garanti",
+          "20 jours à compter de la prise d'inventaire",
+          "Six mois à compter de la prise d'inventaire"
+        ],
+        "reponse_correcte": "10 jours à compter de l'échéance du dernier terme de la période pour laquelle le loyer est garanti",
+        "explication": "Si le bailleur ne respecte pas ce délai, son droit de rétention tombe."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit de rétention du bailleur",
+      "content": {
+        "enonce": "Un bailleur valide un inventaire fructueux par une poursuite en réalisation de gage mobilier, puis veut la transformer en poursuite ordinaire par voie de saisie. Est-ce possible ?",
+        "propositions": [
+          "Oui, à tout moment",
+          "Oui, avec l'accord de l'office",
+          "Non, il ne peut en aucun cas modifier le mode de poursuite en cours de procédure",
+          "Oui, si le locataire forme opposition"
+        ],
+        "reponse_correcte": "Non, il ne peut en aucun cas modifier le mode de poursuite en cours de procédure",
+        "explication": "Une renonciation au droit de gage est sans effet sur la poursuite si elle intervient après la notification du commandement de payer (ATF 87 III 50)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Inventaire PPE",
+      "content": {
+        "enonce": "Pour quelle période de contributions la communauté des propriétaires par étages bénéficie-t-elle d'une hypothèque légale et d'un droit de rétention (art. 712i et 712k CC) ?",
+        "propositions": [
+          "L'année écoulée et le semestre courant",
+          "Les trois dernières années",
+          "Les cinq dernières années",
+          "Uniquement l'exercice en cours"
+        ],
+        "reponse_correcte": "Les trois dernières années",
+        "explication": "Le droit de rétention porte sur les meubles garnissant les locaux d'un copropriétaire et servant à leur aménagement ou à leur usage, comme celui du bailleur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Inventaire PPE",
+      "content": {
+        "enonce": "Quel document l'administrateur de la PPE doit-il joindre à sa demande d'inventaire pour contributions aux charges ?",
+        "propositions": [
+          "Le règlement d'administration et d'utilisation",
+          "Un extrait du registre foncier",
+          "Le procès-verbal de la dernière assemblée",
+          "Un extrait du registre des poursuites du copropriétaire"
+        ],
+        "reponse_correcte": "Un extrait du registre foncier",
+        "explication": "Il permet à l'office de vérifier les conditions de l'art. 712k CC et de déterminer le lieu de la prise d'inventaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Inventaire PPE",
+      "content": {
+        "enonce": "Quand les effets de l'inventaire PPE tombent-ils ?",
+        "propositions": [
+          "Si la communauté n'introduit pas la poursuite dans les 10 jours dès réception du procès-verbal",
+          "Si, dans les 10 jours de la communication de l'opposition, elle ne demande pas la mainlevée ni n'intente l'action en reconnaissance de dette",
+          "Dès que le copropriétaire vend son lot",
+          "Automatiquement après 30 jours"
+        ],
+        "reponses_correctes": [
+          "Si la communauté n'introduit pas la poursuite dans les 10 jours dès réception du procès-verbal",
+          "Si, dans les 10 jours de la communication de l'opposition, elle ne demande pas la mainlevée ni n'intente l'action en reconnaissance de dette"
+        ],
+        "explication": "Inventaire abouti = poursuite en réalisation de gage mobilier ; inventaire infructueux = poursuite ordinaire (ou autres mesures selon l'art. 712i CC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Inventaire PPE",
+      "content": {
+        "enonce": "L'hypothèque légale de la PPE pour contributions impayées prend rang à quelle date ?",
+        "propositions": [
+          "À la date de l'inscription provisoire",
+          "À la date de l'inscription définitive",
+          "À la date de l'échéance de la contribution",
+          "À la date de l'assemblée ayant approuvé les comptes"
+        ],
+        "reponse_correcte": "À la date de l'inscription provisoire",
+        "explication": "La procédure suit celle de l'hypothèque des artisans et entrepreneurs : inscription provisoire, puis délai du juge pour ouvrir action en inscription définitive."
+      }
+    }
+  ]
+}
