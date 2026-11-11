@@ -424,7 +424,10 @@ export default function QuizSession({
                   className={`qz-choice ${selectedMultiple.includes(text) ? "is-selected" : ""}`}
                   onClick={() => toggleMultiple(text)}
                 >
-                  <span className="qz-choice-id">{selectedMultiple.includes(text) ? "✓" : label}</span>
+                  <span aria-hidden="true" style={{ fontSize: "1.25rem", lineHeight: 1, flexShrink: 0 }}>
+                    {selectedMultiple.includes(text) ? "☑" : "☐"}
+                  </span>
+                  <span className="qz-choice-id">{label}</span>
                   <span className="qz-choice-text">{text}</span>
                 </button>
               ))}
