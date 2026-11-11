@@ -208,14 +208,25 @@ export default function QuizSession({
     submitAnswer({ selected: selectedMultiple }, selectedMultiple.join(" ; "));
   }
 
-  // Keyboard shortcuts for QCM: 1-9 or A-H pick the matching choice;
-  // Enter validates a multiple-choice selection.
+  // Keyboard shortcuts: once a question is answered, Enter or Space goes to
+  // the next one. For QCM, 1-9 or A-H pick the matching choice and Enter
+  // validates a multiple-choice selection.
   useEffect(() => {
-    if (mode === "REPONSE_LIBRE" || shuffledChoices.length === 0) return;
+    if (!current) return;
     function onKeyDown(e: KeyboardEvent) {
-      if (result || submitting || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (submitting || e.ctrlKey || e.metaKey || e.altKey) return;
       const target = e.target as HTMLElement | null;
       if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable)) return;
+
+      if (result) {
+        if ((e.key === "Enter" || e.key === " ") && !e.repeat) {
+          // preventDefault also stops a focused button from firing its own click.
+          e.preventDefault();
+          next();
+        }
+        return;
+      }
+      if (mode === "REPONSE_LIBRE" || shuffledChoices.length === 0) return;
 
       if (e.key === "Enter" && current?.type === "QCM_MULTIPLE") {
         e.preventDefault();
