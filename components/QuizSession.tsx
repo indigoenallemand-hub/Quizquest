@@ -208,6 +208,34 @@ export default function QuizSession({
     submitAnswer({ selected: selectedMultiple }, selectedMultiple.join(" ; "));
   }
 
+  // Keyboard shortcuts for QCM: 1-9 or A-H pick the matching choice;
+  // Enter validates a multiple-choice selection.
+  useEffect(() => {
+    if (mode === "REPONSE_LIBRE" || shuffledChoices.length === 0) return;
+    function onKeyDown(e: KeyboardEvent) {
+      if (result || submitting || e.ctrlKey || e.metaKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable)) return;
+
+      if (e.key === "Enter" && current?.type === "QCM_MULTIPLE") {
+        e.preventDefault();
+        submitMultiple();
+        return;
+      }
+
+      const key = e.key.toUpperCase();
+      let i = LABELS.indexOf(key);
+      if (i === -1 && /^[1-9]$/.test(key)) i = Number(key) - 1;
+      const choice = shuffledChoices[i];
+      if (!choice) return;
+      e.preventDefault();
+      if (current?.type === "QCM_SIMPLE") selectSingle(choice.text);
+      else if (current?.type === "QCM_MULTIPLE") toggleMultiple(choice.text);
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  });
+
   function submitDate() {
     if (!dateValue) return;
     submitAnswer({ date: dateValue }, dateValue);
@@ -389,14 +417,14 @@ export default function QuizSession({
             </div>
           ) : q.type === "QCM_MULTIPLE" ? (
             <div className="qz-choices">
-              {shuffledChoices.map(({ text }) => (
+              {shuffledChoices.map(({ text, label }) => (
                 <button
                   key={text}
                   type="button"
                   className={`qz-choice ${selectedMultiple.includes(text) ? "is-selected" : ""}`}
                   onClick={() => toggleMultiple(text)}
                 >
-                  <span className="qz-choice-id">{selectedMultiple.includes(text) ? "☑" : "☐"}</span>
+                  <span className="qz-choice-id">{selectedMultiple.includes(text) ? "✓" : label}</span>
                   <span className="qz-choice-text">{text}</span>
                 </button>
               ))}
