@@ -1,0 +1,1669 @@
+{
+  "title": "Connaissances juridiques générales",
+  "description": "Institutions suisses, définition, sources et hiérarchie du droit, droit public et privé, droit des personnes, de la famille, régimes matrimoniaux, successions, droits réels, contrats et éthique (ImmoBase – USPI Formation).",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Qu'est-ce que le fédéralisme ?",
+        "propositions": [
+          "Un régime politique qui répartit la souveraineté entre un État central et des États locaux",
+          "Un régime dans lequel tout le pouvoir est concentré dans l'État central",
+          "Une alliance d'États indépendants sans organe commun",
+          "Un régime dans lequel les communes détiennent la souveraineté"
+        ],
+        "reponse_correcte": "Un régime politique qui répartit la souveraineté entre un État central et des États locaux",
+        "explication": "Le fédéralisme opère une répartition de la souveraineté entre un État central (la Confédération) et des États locaux (les cantons)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Quelles affirmations sur l'organisation de la Suisse sont correctes ?",
+        "propositions": [
+          "La Confédération se superpose aux cantons, dont elle a reçu une partie de la souveraineté",
+          "Les cantons sont subdivisés en communes",
+          "La Confédération et chaque canton ont leur propre constitution",
+          "Seule la Confédération dispose de pouvoirs législatif, exécutif et judiciaire"
+        ],
+        "reponses_correctes": [
+          "La Confédération se superpose aux cantons, dont elle a reçu une partie de la souveraineté",
+          "Les cantons sont subdivisés en communes",
+          "La Confédération et chaque canton ont leur propre constitution"
+        ],
+        "explication": "La Confédération et tous les cantons ont chacun une constitution, ainsi que des organes et des pouvoirs législatifs, exécutifs et judiciaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Quelle est l'autorité suprême de la Confédération ?",
+        "propositions": [
+          "L'Assemblée fédérale",
+          "Le Conseil fédéral",
+          "Le Tribunal fédéral",
+          "La Conférence des gouvernements cantonaux"
+        ],
+        "reponse_correcte": "L'Assemblée fédérale",
+        "explication": "L'Assemblée fédérale est l'autorité suprême de la Confédération. Elle exerce la haute surveillance sur le Conseil fédéral, l'administration et les tribunaux fédéraux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Combien de membres compte le Conseil national ?",
+        "propositions": ["200", "46", "246", "7"],
+        "reponse_correcte": "200",
+        "explication": "Le Conseil national compte 200 membres élus au prorata de la population."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Combien de membres compte le Conseil des États ?",
+        "propositions": ["46", "200", "26", "52"],
+        "reponse_correcte": "46",
+        "explication": "2 conseillers aux États par canton et 1 par demi-canton, soit 46 membres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Comment sont désignés les sièges du Conseil national ?",
+        "propositions": [
+          "Ils sont élus au prorata de la population",
+          "Chaque canton élit 2 conseillers",
+          "Ils sont nommés par le Conseil fédéral",
+          "Ils sont tirés au sort parmi les députés cantonaux"
+        ],
+        "reponse_correcte": "Ils sont élus au prorata de la population",
+        "explication": "Le Conseil national représente le peuple : ses 200 membres sont élus au prorata de la population. Le Conseil des États représente les cantons."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Quelles sont les missions de l'Assemblée fédérale ?",
+        "propositions": [
+          "Légiférer",
+          "Élaborer les modifications constitutionnelles",
+          "Élire les membres du Conseil fédéral et les plus hauts magistrats",
+          "Exercer la haute surveillance du pouvoir exécutif et du pouvoir judiciaire",
+          "Juger les litiges entre particuliers en dernière instance"
+        ],
+        "reponses_correctes": [
+          "Légiférer",
+          "Élaborer les modifications constitutionnelles",
+          "Élire les membres du Conseil fédéral et les plus hauts magistrats",
+          "Exercer la haute surveillance du pouvoir exécutif et du pouvoir judiciaire"
+        ],
+        "explication": "Juger en dernière instance est le rôle du Tribunal fédéral. L'Assemblée fédérale est un parlement de milice."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Combien de membres compte le Conseil fédéral et pour quelle durée sont-ils élus ?",
+        "propositions": [
+          "7 membres élus pour 4 ans par l'Assemblée fédérale",
+          "7 membres élus pour 4 ans par le peuple",
+          "9 membres élus pour 5 ans par l'Assemblée fédérale",
+          "5 membres élus pour 4 ans par les cantons"
+        ],
+        "reponse_correcte": "7 membres élus pour 4 ans par l'Assemblée fédérale",
+        "explication": "Le Conseil fédéral, autorité directoriale et exécutive suprême, compte 7 membres élus pour 4 ans par l'Assemblée fédérale. Chacun dirige un département."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Quelle est l'autorité judiciaire suprême de la Confédération ?",
+        "propositions": [
+          "Le Tribunal fédéral",
+          "Le Tribunal administratif fédéral",
+          "Le Tribunal pénal fédéral",
+          "Le Conseil des États"
+        ],
+        "reponse_correcte": "Le Tribunal fédéral",
+        "explication": "Le Tribunal fédéral est l'autorité judiciaire suprême. Les autres tribunaux fédéraux sont le Tribunal pénal fédéral, le Tribunal administratif fédéral et le Tribunal fédéral des brevets."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Comment s'appelle en général l'exécutif collégial d'un canton ?",
+        "propositions": ["Le Conseil d'État", "Le Grand Conseil", "Le Conseil communal", "Le Conseil fédéral"],
+        "reponse_correcte": "Le Conseil d'État",
+        "explication": "Organisation cantonale : une assemblée législative (souvent le Grand Conseil), un exécutif collégial (le Conseil d'État) et une organisation judiciaire complète."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Cadre politique suisse",
+      "content": {
+        "enonce": "Dans quels domaines une commune est-elle autonome ?",
+        "propositions": [
+          "Dans les domaines que la législation cantonale ne règle pas de façon exhaustive",
+          "Dans tous les domaines, sans restriction",
+          "Uniquement en matière fiscale fédérale",
+          "Dans aucun domaine : elle applique seulement le droit cantonal"
+        ],
+        "reponse_correcte": "Dans les domaines que la législation cantonale ne règle pas de façon exhaustive",
+        "explication": "Une commune est autonome dans les domaines que la législation cantonale ne règle pas de façon exhaustive."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "Que signifie qu'une règle de droit est « générale » ?",
+        "propositions": [
+          "Elle régit un nombre indéterminé de personnes",
+          "Elle s'applique à un nombre indéterminé de situations concrètes",
+          "Elle est valable dans toute la Suisse",
+          "Elle a été adoptée par le peuple"
+        ],
+        "reponse_correcte": "Elle régit un nombre indéterminé de personnes",
+        "explication": "Générale : elle régit un nombre indéterminé de personnes. Abstraite : elle s'applique à un nombre indéterminé de situations concrètes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "Que signifie qu'une règle de droit est « abstraite » ?",
+        "propositions": [
+          "Elle s'applique à un nombre indéterminé de situations concrètes",
+          "Elle régit un nombre indéterminé de personnes",
+          "Elle n'a pas de sanction",
+          "Elle est difficile à comprendre"
+        ],
+        "reponse_correcte": "Elle s'applique à un nombre indéterminé de situations concrètes",
+        "explication": "Le droit est un ensemble de règles générales (nombre indéterminé de personnes) et abstraites (nombre indéterminé de situations)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "Quelles caractéristiques de la règle de droit le cours retient-il ?",
+        "propositions": [
+          "Elle est édictée ou reconnue par un organe officiel",
+          "Elle dicte un devoir : elle indique ce qui devrait être",
+          "Elle régit l'organisation et le déroulement des relations sociales",
+          "Elle est sanctionnée par la contrainte",
+          "Elle décrit ce qui est, sans rien imposer"
+        ],
+        "reponses_correctes": [
+          "Elle est édictée ou reconnue par un organe officiel",
+          "Elle dicte un devoir : elle indique ce qui devrait être",
+          "Elle régit l'organisation et le déroulement des relations sociales",
+          "Elle est sanctionnée par la contrainte"
+        ],
+        "explication": "La règle de droit indique ce qui devrait être et non ce qui est. Son caractère officiel et sa force contraignante la distinguent des autres règles sociales."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue le droit des autres règles sociales (morale, politesse) ?",
+        "propositions": [
+          "Son caractère officiel et sa force contraignante",
+          "Le fait qu'il soit écrit",
+          "Le fait qu'il soit ancien",
+          "Le fait qu'il ne s'applique qu'aux commerçants"
+        ],
+        "reponse_correcte": "Son caractère officiel et sa force contraignante",
+        "explication": "« Le caractère officiel et la force contraignante du droit représentent ce qui le distingue des autres règles sociales. »"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "La condamnation à des dommages-intérêts est une sanction :",
+        "propositions": ["Indirecte", "Directe", "Disciplinaire", "Politique"],
+        "reponse_correcte": "Indirecte",
+        "explication": "Sanctions directes : elles rétablissent le droit violé, au besoin par la contrainte (police, armée, douane). Sanctions indirectes : elles assurent indirectement le respect (peines pénales, dommages-intérêts)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Définition du droit",
+      "content": {
+        "enonce": "L'intervention de la police pour rétablir une situation conforme au droit est une sanction :",
+        "propositions": ["Directe", "Indirecte", "Morale", "Contractuelle"],
+        "reponse_correcte": "Directe",
+        "explication": "Les sanctions directes permettent de rétablir le droit violé, au besoin par la contrainte (police, armée, douane)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Quelles sont les sources du droit selon le cours ?",
+        "propositions": ["La loi", "La coutume", "La doctrine", "La jurisprudence", "La presse"],
+        "reponses_correctes": ["La loi", "La coutume", "La doctrine", "La jurisprudence"],
+        "explication": "Les sources du droit sont la loi, la coutume, la doctrine et la jurisprudence."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Selon l'art. 1 al. 2 CC, que fait le juge à défaut d'une disposition légale applicable ?",
+        "propositions": [
+          "Il prononce selon le droit coutumier et, à défaut d'une coutume, selon les règles qu'il établirait s'il avait à faire acte de législateur",
+          "Il refuse de statuer, faute de loi",
+          "Il renvoie la question au Parlement",
+          "Il applique le droit étranger le plus proche"
+        ],
+        "reponse_correcte": "Il prononce selon le droit coutumier et, à défaut d'une coutume, selon les règles qu'il établirait s'il avait à faire acte de législateur",
+        "explication": "Art. 1 al. 2 CC. Le juge doit statuer, sous peine de commettre un déni de justice. Il s'inspire des solutions consacrées par la doctrine et la jurisprudence (al. 3)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Comment appelle-t-on le fait, pour un juge, de refuser de statuer au motif que la loi ne règle pas la question ?",
+        "propositions": ["Un déni de justice", "Un abus de droit", "Un excès de pouvoir", "Une lacune proprement dite"],
+        "reponse_correcte": "Un déni de justice",
+        "explication": "Le juge doit statuer sous peine de commettre un déni de justice, c'est-à-dire un manquement au devoir de rendre justice."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Dans quel ordre l'art. 1 CC fait-il appel aux sources pour combler une lacune de la loi ?",
+        "propositions": [
+          "D'abord la coutume, puis, à défaut, le droit prétorien (le juge comme législateur)",
+          "D'abord le droit prétorien, puis la coutume",
+          "D'abord la doctrine, puis la coutume",
+          "D'abord le droit étranger, puis la coutume"
+        ],
+        "reponse_correcte": "D'abord la coutume, puis, à défaut, le droit prétorien (le juge comme législateur)",
+        "explication": "Le législateur a institué deux sources subsidiaires : en premier lieu la coutume, puis, à défaut, le droit prétorien."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Quelles affirmations sur la portée de l'art. 1 CC sont correctes ?",
+        "propositions": [
+          "Il s'applique à tout le droit privé (CC, CO)",
+          "On peut s'y référer aussi en droit constitutionnel et administratif",
+          "Il concerne aussi les particuliers qui gèrent leurs affaires",
+          "Il ne s'applique qu'au droit de la famille"
+        ],
+        "reponses_correctes": [
+          "Il s'applique à tout le droit privé (CC, CO)",
+          "On peut s'y référer aussi en droit constitutionnel et administratif",
+          "Il concerne aussi les particuliers qui gèrent leurs affaires"
+        ],
+        "explication": "L'art. 1 CC vise expressément le juge, mais concerne tous ceux qui mettent en œuvre le droit, y compris les particuliers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Qu'est-ce que la Constitution fédérale ?",
+        "propositions": [
+          "La loi fondamentale de l'État suisse, à laquelle toutes les autres lois nationales sont subordonnées",
+          "Un recueil de jurisprudence du Tribunal fédéral",
+          "Une ordonnance du Conseil fédéral",
+          "Un concordat entre les cantons"
+        ],
+        "reponse_correcte": "La loi fondamentale de l'État suisse, à laquelle toutes les autres lois nationales sont subordonnées",
+        "explication": "La Constitution fédérale renferme en principe toutes les bases de l'État. C'est la première des lois nationales ; chaque canton a aussi sa constitution."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Qu'est-ce qu'une ordonnance législative ?",
+        "propositions": [
+          "Une loi au sens matériel, de rang inférieur à la loi au sens formel, non soumise à référendum",
+          "Une loi au sens formel adoptée par le peuple",
+          "Une décision de justice",
+          "Un contrat entre cantons"
+        ],
+        "reponse_correcte": "Une loi au sens matériel, de rang inférieur à la loi au sens formel, non soumise à référendum",
+        "explication": "L'ordonnance est élaborée selon une procédure propre par une autorité exécutive, législative ou judiciaire, et n'est pas soumise à référendum."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Une loi fédérale est en principe :",
+        "propositions": [
+          "À la fois une loi au sens formel (élaborée par le législatif) et au sens matériel (contenant des règles de droit)",
+          "Uniquement une loi au sens formel",
+          "Uniquement une loi au sens matériel",
+          "Une ordonnance du Conseil fédéral"
+        ],
+        "reponse_correcte": "À la fois une loi au sens formel (élaborée par le législatif) et au sens matériel (contenant des règles de droit)",
+        "explication": "Sauf exception, une loi fédérale est une loi au sens formel (élaborée par le pouvoir législatif) et au sens matériel (énonçant des règles de droit)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Comment s'appellent les accords conclus entre cantons pour régler des problèmes communs ?",
+        "propositions": [
+          "Des concordats (conventions intercantonales)",
+          "Des ordonnances fédérales",
+          "Des arrêtés communaux",
+          "Des traités internationaux"
+        ],
+        "reponse_correcte": "Des concordats (conventions intercantonales)",
+        "explication": "Le droit intercantonal est formé des conventions ou concordats intercantonaux."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Quelles conditions doivent être réunies pour qu'il y ait une coutume ?",
+        "propositions": [
+          "Un usage",
+          "La conviction que l'usage est juridiquement obligatoire",
+          "Une coutume raisonnable (conforme à l'ordre public et aux mœurs)",
+          "Une inscription au registre foncier",
+          "Une adoption par le Parlement"
+        ],
+        "reponses_correctes": [
+          "Un usage",
+          "La conviction que l'usage est juridiquement obligatoire",
+          "Une coutume raisonnable (conforme à l'ordre public et aux mœurs)"
+        ],
+        "explication": "La coutume résulte d'un usage tenu comme juridiquement obligatoire par une collectivité ; elle doit être raisonnable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Quelle est la principale différence entre la loi et la coutume ?",
+        "propositions": [
+          "Leur mode de création : la loi est l'œuvre du législateur, la coutume celle de la pratique",
+          "La loi est orale, la coutume écrite",
+          "La coutume prime toujours la loi",
+          "La loi ne s'applique qu'aux cantons"
+        ],
+        "reponse_correcte": "Leur mode de création : la loi est l'œuvre du législateur, la coutume celle de la pratique",
+        "explication": "La coutume est subsidiaire à la loi et secondaire, l'État ayant légiféré dans presque tous les domaines."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Quels sont les inconvénients de la coutume relevés par le cours ?",
+        "propositions": [
+          "Elle manque souvent de précision et de sûreté",
+          "Sa preuve est souvent difficile à apporter",
+          "Elle est la plus récente des sources du droit",
+          "Elle prime la loi écrite"
+        ],
+        "reponses_correctes": [
+          "Elle manque souvent de précision et de sûreté",
+          "Sa preuve est souvent difficile à apporter"
+        ],
+        "explication": "La coutume est la plus ancienne des sources du droit ; elle est subsidiaire à la loi."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Que désigne la doctrine ?",
+        "propositions": [
+          "L'ensemble des écrits et opinions des auteurs juridiques (traités, manuels, commentaires, articles)",
+          "L'ensemble des décisions des tribunaux",
+          "L'ensemble des lois fédérales",
+          "Les usages commerciaux locaux"
+        ],
+        "reponse_correcte": "L'ensemble des écrits et opinions des auteurs juridiques (traités, manuels, commentaires, articles)",
+        "explication": "La doctrine étudie le droit existant, propose des réformes, ordonne le droit et assure son enseignement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Que désigne la jurisprudence ?",
+        "propositions": [
+          "L'ensemble des décisions de justice et des autorités administratives",
+          "L'ensemble des ouvrages de droit",
+          "Le texte de la Constitution",
+          "Les usages professionnels de l'immobilier"
+        ],
+        "reponse_correcte": "L'ensemble des décisions de justice et des autorités administratives",
+        "explication": "La jurisprudence désigne les solutions retenues dans les décisions des juridictions et autres autorités d'application du droit."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Sources du droit",
+      "content": {
+        "enonce": "Pourquoi les précédents (décisions antérieures sur des cas semblables) font-ils autorité ?",
+        "propositions": [
+          "La sécurité du droit exige unité et continuité dans l'application des normes",
+          "L'égalité des citoyens exige que le droit leur soit appliqué de la même façon dans une situation identique",
+          "Parce qu'ils ont force de loi au sens formel",
+          "Parce qu'ils sont votés par le peuple"
+        ],
+        "reponses_correctes": [
+          "La sécurité du droit exige unité et continuité dans l'application des normes",
+          "L'égalité des citoyens exige que le droit leur soit appliqué de la même façon dans une situation identique"
+        ],
+        "explication": "Les précédents font autorité pour des raisons de sécurité du droit et d'égalité des citoyens devant le droit."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Hiérarchie du droit",
+      "content": {
+        "enonce": "Quel est l'ordre de la hiérarchie des normes, du rang le plus élevé au plus bas ?",
+        "propositions": [
+          "Traités internationaux, Constitution, lois, ordonnances",
+          "Constitution, traités internationaux, ordonnances, lois",
+          "Lois, Constitution, ordonnances, traités internationaux",
+          "Ordonnances, lois, Constitution, traités internationaux"
+        ],
+        "reponse_correcte": "Traités internationaux, Constitution, lois, ordonnances",
+        "explication": "Hiérarchie du droit selon le cours : traités internationaux, Constitution, lois, ordonnances."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Hiérarchie du droit",
+      "content": {
+        "enonce": "Un règlement communal contredit une loi cantonale. Quelle règle s'applique ?",
+        "propositions": [
+          "La loi cantonale, car le droit communal ne peut pas être contraire au droit cantonal",
+          "Le règlement communal, car il est plus récent",
+          "Le règlement communal, car il est plus proche des citoyens",
+          "Aucune des deux : le juge doit choisir librement"
+        ],
+        "reponse_correcte": "La loi cantonale, car le droit communal ne peut pas être contraire au droit cantonal",
+        "explication": "Hiérarchie fédérale : droit fédéral > droit cantonal > droit communal. Le droit communal ne peut pas être contraire au droit cantonal, ni le cantonal au fédéral."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Hiérarchie du droit",
+      "content": {
+        "enonce": "Selon le tableau des sources, quelle autorité adopte les ordonnances fédérales ?",
+        "propositions": [
+          "Le Conseil fédéral (pouvoir exécutif)",
+          "L'Assemblée fédérale (pouvoir législatif)",
+          "Le peuple",
+          "Le Tribunal fédéral"
+        ],
+        "reponse_correcte": "Le Conseil fédéral (pouvoir exécutif)",
+        "explication": "Constitution fédérale : peuple ; lois et arrêtés fédéraux : Assemblée fédérale ; ordonnances fédérales : Conseil fédéral, sur délégation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Hiérarchie du droit",
+      "content": {
+        "enonce": "Un canton peut-il légiférer en matière de droit privé (par exemple modifier les règles du contrat de vente) ?",
+        "propositions": [
+          "Non : le droit civil relève de la Confédération (art. 122 Cst.), il n'existe pas de droit privé cantonal autonome",
+          "Oui, librement, dans le cadre de sa constitution",
+          "Oui, si le Grand Conseil vote à l'unanimité",
+          "Oui, à condition d'obtenir l'accord des communes"
+        ],
+        "reponse_correcte": "Non : le droit civil relève de la Confédération (art. 122 Cst.), il n'existe pas de droit privé cantonal autonome",
+        "explication": "La législation en matière de droit civil relève de la Confédération (art. 122 Cst.) ; le tableau du cours précise qu'il n'existe pas de droit privé cantonal (sauf réserves du droit fédéral)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Que régit le droit privé ?",
+        "propositions": [
+          "Les relations entre particuliers, personnes physiques ou morales",
+          "L'organisation de l'État",
+          "Les relations entre l'État et les citoyens lorsque l'État agit comme puissance publique",
+          "Uniquement les infractions pénales"
+        ],
+        "reponse_correcte": "Les relations entre particuliers, personnes physiques ou morales",
+        "explication": "Le droit public organise l'État et régit les relations où les pouvoirs publics agissent comme détenteurs de la puissance publique ; le droit privé régit les relations entre particuliers."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Quels sont les critères de distinction entre droit public et droit privé ?",
+        "propositions": [
+          "La nature des intérêts en cause",
+          "Les personnes impliquées",
+          "Les relations en jeu (sujétion ou égalité)",
+          "La nature de la sanction",
+          "L'ancienneté de la règle"
+        ],
+        "reponses_correctes": [
+          "La nature des intérêts en cause",
+          "Les personnes impliquées",
+          "Les relations en jeu (sujétion ou égalité)",
+          "La nature de la sanction"
+        ],
+        "explication": "Aucun des 4 critères ne suffit seul ; ils sont complémentaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Selon le critère des relations en jeu, une norme qui consacre un rapport de sujétion entre les personnes relève :",
+        "propositions": ["Du droit public", "Du droit privé", "Du droit international privé", "De la coutume"],
+        "reponse_correcte": "Du droit public",
+        "explication": "Rapport de sujétion → droit public ; rapport d'égalité → droit privé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Selon le critère de la sanction, comment une règle de droit privé est-elle sanctionnée ?",
+        "propositions": [
+          "Par l'annulation de l'acte contraire et/ou l'obligation d'indemniser la personne lésée",
+          "Par une révocation d'autorisation administrative",
+          "Par une mesure d'exécution forcée de l'État uniquement",
+          "Par une peine privative de liberté"
+        ],
+        "reponse_correcte": "Par l'annulation de l'acte contraire et/ou l'obligation d'indemniser la personne lésée",
+        "explication": "Une règle de droit public est sanctionnée par une mesure d'exécution ou de contrainte ou par une révocation d'autorisation administrative."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Quelles branches relèvent du droit public selon le cours ?",
+        "propositions": [
+          "Le droit constitutionnel",
+          "Le droit administratif",
+          "Le droit de la procédure et de l'exécution forcée",
+          "Le droit des successions",
+          "Le droit des obligations"
+        ],
+        "reponses_correctes": [
+          "Le droit constitutionnel",
+          "Le droit administratif",
+          "Le droit de la procédure et de l'exécution forcée"
+        ],
+        "explication": "Le droit pénal est traditionnellement rattaché au droit public. Les successions et les obligations relèvent du droit privé (droit civil)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Le droit fiscal fait partie :",
+        "propositions": ["Du droit administratif", "Du droit des obligations", "Du droit de la famille", "Du droit international privé"],
+        "reponse_correcte": "Du droit administratif",
+        "explication": "Le droit administratif comprend notamment le droit fiscal, le droit rural, le droit des transports, des assurances sociales, de la santé, etc."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Depuis quand le Code de procédure civile (CPC) et le Code de procédure pénale (CPP) fédéraux sont-ils en vigueur ?",
+        "propositions": ["1er janvier 2011", "1er janvier 2000", "1er janvier 2023", "1er janvier 1912"],
+        "reponse_correcte": "1er janvier 2011",
+        "explication": "Le CPC et le CPP sont en vigueur depuis le 1er janvier 2011."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Quelles particularités du droit pénal le cours relève-t-il ?",
+        "propositions": [
+          "Il obéit au principe de légalité des délits et des peines",
+          "Le juge ne peut pas créer de nouvelles infractions (nullum crimen sine lege)",
+          "La loi contient la liste des sanctions possibles (nulla poena sine lege)",
+          "Le juge peut créer une peine nouvelle s'il l'estime juste"
+        ],
+        "reponses_correctes": [
+          "Il obéit au principe de légalité des délits et des peines",
+          "Le juge ne peut pas créer de nouvelles infractions (nullum crimen sine lege)",
+          "La loi contient la liste des sanctions possibles (nulla poena sine lege)"
+        ],
+        "explication": "Le droit pénal est dominé par le respect des droits de l'homme et le principe de légalité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Quelles branches composent le droit civil selon le cours ?",
+        "propositions": [
+          "Droit des personnes",
+          "Droit de la famille",
+          "Droit des successions",
+          "Droit des biens (droits réels)",
+          "Droit des obligations",
+          "Droit pénal"
+        ],
+        "reponses_correctes": [
+          "Droit des personnes",
+          "Droit de la famille",
+          "Droit des successions",
+          "Droit des biens (droits réels)",
+          "Droit des obligations"
+        ],
+        "explication": "Le droit pénal n'est pas une branche du droit civil."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit public et droit privé",
+      "content": {
+        "enonce": "Que règle le droit international privé ?",
+        "propositions": [
+          "Le juge compétent et la loi applicable à un conflit de droit privé comportant un élément d'extranéité",
+          "Les relations entre États souverains",
+          "Le commerce international des marchandises uniquement",
+          "L'acquisition d'immeubles par les étrangers"
+        ],
+        "reponse_correcte": "Le juge compétent et la loi applicable à un conflit de droit privé comportant un élément d'extranéité",
+        "explication": "Le droit international privé est une branche du droit privé qui désigne le juge compétent et la loi applicable lorsqu'un litige comporte un élément étranger."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "Qu'est-ce qu'une personne morale ?",
+        "propositions": [
+          "Une entité (de personnes ou de patrimoine) avec une existence juridique propre, indépendante des personnes qui la composent",
+          "Un être humain majeur et capable de discernement",
+          "Toute personne qui respecte les règles morales",
+          "Un groupe de personnes sans existence juridique propre"
+        ],
+        "reponse_correcte": "Une entité (de personnes ou de patrimoine) avec une existence juridique propre, indépendante des personnes qui la composent",
+        "explication": "Exemples : association, fondation, SA, Sàrl. La personne physique est l'être humain."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "Lesquelles de ces entités sont des personnes morales ?",
+        "propositions": [
+          "Une société anonyme (SA)",
+          "Une fondation",
+          "Une association",
+          "Une société simple",
+          "Une entreprise en raison individuelle"
+        ],
+        "reponses_correctes": ["Une société anonyme (SA)", "Une fondation", "Une association"],
+        "explication": "Ne sont pas des personnes morales : l'entreprise en raison individuelle, la société simple, la société en nom collectif et la société en commandite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "Une fondation est une personne morale de type :",
+        "propositions": [
+          "Établissement (biens) de droit privé",
+          "Corporation (personnes) de droit privé",
+          "Corporation de droit public",
+          "Établissement de droit public"
+        ],
+        "reponse_correcte": "Établissement (biens) de droit privé",
+        "explication": "Les personnes morales se divisent en corporations (personnes) et établissements (biens). La fondation est un établissement de droit privé."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "En quoi consiste la jouissance des droits civils (art. 11 CC) ?",
+        "propositions": [
+          "La faculté de se voir attribuer des droits et des obligations",
+          "La capacité de conclure seul des contrats",
+          "La capacité d'ester en justice",
+          "Le droit de vote"
+        ],
+        "reponse_correcte": "La faculté de se voir attribuer des droits et des obligations",
+        "explication": "Toute personne jouit des droits civils (art. 11 CC ; art. 53 CC pour les personnes morales). L'exercice des droits civils est une autre notion."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "Quelles conditions faut-il réunir pour avoir l'exercice des droits civils ?",
+        "propositions": [
+          "Être capable de discernement (art. 16 CC)",
+          "Être majeur (art. 14 CC)",
+          "Ne pas être sous curatelle de portée générale (art. 17 CC)",
+          "Être de nationalité suisse",
+          "Être propriétaire d'un bien immobilier"
+        ],
+        "reponses_correctes": [
+          "Être capable de discernement (art. 16 CC)",
+          "Être majeur (art. 14 CC)",
+          "Ne pas être sous curatelle de portée générale (art. 17 CC)"
+        ],
+        "explication": "Capacité de discernement + majorité + absence de curatelle privant de l'exercice des droits civils = exercice des droits civils."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "Que permet l'exercice des droits civils ?",
+        "propositions": [
+          "Faire des actes juridiques (capacité contractuelle)",
+          "Répondre du préjudice causé (capacité délictuelle)",
+          "Ester en justice (être partie à un procès)",
+          "Être élu au Conseil fédéral"
+        ],
+        "reponses_correctes": [
+          "Faire des actes juridiques (capacité contractuelle)",
+          "Répondre du préjudice causé (capacité délictuelle)",
+          "Ester en justice (être partie à un procès)"
+        ],
+        "explication": "Les trois capacités : contracter, répondre d'un dommage causé délictuellement et ester en justice."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droit des personnes",
+      "content": {
+        "enonce": "La capacité civile active peut-elle être partielle ?",
+        "propositions": [
+          "Non, elle ne souffre pas de gradation : elle est totale ou n'existe pas",
+          "Oui, elle augmente progressivement entre 16 et 18 ans",
+          "Oui, elle peut être de 50 % ou 75 %",
+          "Oui, elle dépend du montant de l'acte"
+        ],
+        "reponse_correcte": "Non, elle ne souffre pas de gradation : elle est totale ou n'existe pas",
+        "explication": "Sans capacité civile active, l'acte est d'emblée privé d'effet juridique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Quelles sont les conditions du mariage (art. 94 à 96 CC) ?",
+        "propositions": [
+          "Deux personnes",
+          "Être âgé de 18 ans",
+          "Avoir la capacité de discernement",
+          "Absence de mariage ou dissolution du mariage précédent",
+          "Avoir conclu un contrat de mariage"
+        ],
+        "reponses_correctes": [
+          "Deux personnes",
+          "Être âgé de 18 ans",
+          "Avoir la capacité de discernement",
+          "Absence de mariage ou dissolution du mariage précédent"
+        ],
+        "explication": "S'ajoute l'absence de lien de parenté prohibé. Le contrat de mariage n'est pas obligatoire : à défaut, c'est le régime légal qui s'applique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Quels sont les effets généraux du mariage (art. 159 à 179 CC) ?",
+        "propositions": [
+          "La célébration crée l'union conjugale",
+          "Chacun des époux conserve son nom",
+          "Les époux choisissent ensemble la demeure commune",
+          "Le consentement exprès du conjoint est nécessaire pour résilier/aliéner le logement de famille",
+          "Le mari choisit seul le domicile conjugal"
+        ],
+        "reponses_correctes": [
+          "La célébration crée l'union conjugale",
+          "Chacun des époux conserve son nom",
+          "Les époux choisissent ensemble la demeure commune",
+          "Le consentement exprès du conjoint est nécessaire pour résilier/aliéner le logement de famille"
+        ],
+        "explication": "S'y ajoutent l'entretien de la famille et le devoir de renseigner. Les époux choisissent ensemble la demeure commune."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Un époux veut vendre la maison familiale inscrite à son seul nom. Que faut-il ?",
+        "propositions": [
+          "Le consentement exprès de son conjoint (art. 169 CC)",
+          "Rien : il est seul propriétaire",
+          "L'accord des enfants majeurs",
+          "L'autorisation de la commune"
+        ],
+        "reponse_correcte": "Le consentement exprès de son conjoint (art. 169 CC)",
+        "explication": "Le logement de famille est protégé : il ne peut être aliéné sans le consentement exprès du conjoint, même si un seul époux est propriétaire. Le cours y voit une restriction légale de la propriété foncière."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Quelles mesures le juge peut-il prendre dans le cadre des mesures protectrices de l'union conjugale (art. 172 ss CC) ?",
+        "propositions": [
+          "Autoriser la suspension de la vie commune",
+          "Fixer la contribution d'entretien",
+          "Régler l'attribution du logement et du mobilier de ménage",
+          "Ordonner la séparation de biens",
+          "Prononcer le divorce"
+        ],
+        "reponses_correctes": [
+          "Autoriser la suspension de la vie commune",
+          "Fixer la contribution d'entretien",
+          "Régler l'attribution du logement et du mobilier de ménage",
+          "Ordonner la séparation de biens"
+        ],
+        "explication": "Il peut aussi prendre les mesures nécessaires pour les enfants mineurs. Le divorce fait l'objet d'une procédure distincte."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Combien de temps les époux doivent-ils avoir vécu séparés pour qu'un seul d'entre eux puisse demander le divorce (requête unilatérale) ?",
+        "propositions": ["Au moins deux ans", "Au moins six mois", "Au moins un an", "Au moins cinq ans"],
+        "reponse_correcte": "Au moins deux ans",
+        "explication": "Un époux peut demander le divorce lorsque, au moment de l'introduction de sa demande, les conjoints ont vécu séparés pendant deux ans au moins."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mariage et divorce",
+      "content": {
+        "enonce": "Quelles formes de divorce sur requête commune le cours distingue-t-il ?",
+        "propositions": [
+          "Divorce avec accord complet",
+          "Divorce avec accord partiel",
+          "Divorce pour faute",
+          "Divorce par consentement présumé"
+        ],
+        "reponses_correctes": ["Divorce avec accord complet", "Divorce avec accord partiel"],
+        "explication": "Divorce sur requête commune (accord complet ou partiel) ou sur requête unilatérale (après 2 ans de séparation)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Quel est le régime matrimonial légal (ordinaire) lorsque les époux n'ont pas conclu de contrat de mariage ?",
+        "propositions": [
+          "La participation aux acquêts",
+          "La séparation de biens",
+          "La communauté de biens",
+          "La communauté universelle"
+        ],
+        "reponse_correcte": "La participation aux acquêts",
+        "explication": "La participation aux acquêts est le régime ordinaire. La séparation de biens et la communauté de biens nécessitent un contrat de mariage (ou, pour la séparation, une décision du juge)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans la participation aux acquêts, lesquels de ces biens sont des acquêts (art. 197 CC) ?",
+        "propositions": [
+          "Le salaire (revenus du travail)",
+          "Les prestations d'assurances sociales",
+          "Les revenus des biens propres",
+          "Un héritage reçu pendant le mariage",
+          "Les effets personnels"
+        ],
+        "reponses_correctes": [
+          "Le salaire (revenus du travail)",
+          "Les prestations d'assurances sociales",
+          "Les revenus des biens propres"
+        ],
+        "explication": "Acquêts : revenus du travail, prestations d'assurances sociales, revenus des biens propres, remplois d'acquêts. L'héritage et les effets personnels sont des biens propres."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans la participation aux acquêts, lesquels de ces biens sont des biens propres (art. 198 CC) ?",
+        "propositions": [
+          "Les effets personnels",
+          "Les biens existants au début du régime",
+          "Les biens acquis par succession ou donation",
+          "Un appartement acheté pendant le mariage avec le salaire"
+        ],
+        "reponses_correctes": [
+          "Les effets personnels",
+          "Les biens existants au début du régime",
+          "Les biens acquis par succession ou donation"
+        ],
+        "explication": "Un bien acheté avec le salaire pendant le mariage est un acquêt."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans la participation aux acquêts, comment se fait en principe la liquidation des acquêts ?",
+        "propositions": [
+          "Chaque époux a droit à la moitié du bénéfice de l'autre (ou à une autre fraction convenue), les biens propres restant à chacun",
+          "Tous les biens, propres compris, sont partagés par moitié",
+          "Chacun garde tout ce qui est à son nom, sans partage",
+          "Le conjoint survivant reçoit tous les biens"
+        ],
+        "reponse_correcte": "Chaque époux a droit à la moitié du bénéfice de l'autre (ou à une autre fraction convenue), les biens propres restant à chacun",
+        "explication": "Selon la fiche du cours : les acquêts sont partagés ½ - ½ (ou autre fraction convenue) ; chacun reprend ses biens propres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans le régime de la séparation de biens, que se passe-t-il à la liquidation ?",
+        "propositions": [
+          "Il n'y a pas de liquidation, car les biens ont déjà été dissociés",
+          "Tous les biens sont partagés par moitié",
+          "Les acquêts sont partagés par moitié",
+          "Les biens communs sont partagés par moitié"
+        ],
+        "reponse_correcte": "Il n'y a pas de liquidation, car les biens ont déjà été dissociés",
+        "explication": "Chaque époux garde ses biens. Les biens dont la propriété exclusive ne peut être prouvée sont présumés appartenir en copropriété aux deux époux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "En séparation de biens, à qui appartient un bien dont aucun des époux ne peut prouver la propriété exclusive ?",
+        "propositions": [
+          "Il est présumé appartenir en copropriété aux deux époux",
+          "Il appartient au mari",
+          "Il appartient à l'époux qui l'utilise le plus",
+          "Il appartient à l'État"
+        ],
+        "reponse_correcte": "Il est présumé appartenir en copropriété aux deux époux",
+        "explication": "C'est ce qu'indique la fiche « Séparation des biens » du cours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans la communauté universelle (art. 222 CC), quels biens restent des biens propres ?",
+        "propositions": [
+          "Les effets personnels et les créances en réparation du tort moral",
+          "Les biens existant avant le mariage",
+          "Les héritages et donations",
+          "Les revenus du travail"
+        ],
+        "reponse_correcte": "Les effets personnels et les créances en réparation du tort moral",
+        "explication": "Dans la communauté universelle, tous les biens sont communs, hormis les effets personnels et les créances en réparation du tort moral."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Dans la communauté d'acquêts (art. 223 CC), quels biens sont communs ?",
+        "propositions": [
+          "Les biens qui correspondent aux acquêts du régime de la participation aux acquêts",
+          "Tous les biens sans exception",
+          "Uniquement les héritages",
+          "Aucun bien : chacun garde tout"
+        ],
+        "reponse_correcte": "Les biens qui correspondent aux acquêts du régime de la participation aux acquêts",
+        "explication": "Dans la communauté d'acquêts, les acquêts sont communs ; tous les autres biens sont des biens propres."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "En communauté de biens, en cas de décès d'un époux (art. 241 CC), comment sont partagés les biens communs ?",
+        "propositions": [
+          "Par moitié entre le conjoint survivant et la succession, ou selon une autre fraction prévue par contrat de mariage",
+          "Entièrement au conjoint survivant, toujours",
+          "Entièrement aux enfants",
+          "Selon la contribution de chacun prouvée par factures"
+        ],
+        "reponse_correcte": "Par moitié entre le conjoint survivant et la succession, ou selon une autre fraction prévue par contrat de mariage",
+        "explication": "Art. 241 CC : partage ½ - ½ (autre fraction possible dans le contrat de mariage). En cas de divorce (art. 242 CC), chacun reprend d'abord ce qui serait des biens propres en participation aux acquêts, puis le solde est partagé par moitié."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Régimes matrimoniaux",
+      "content": {
+        "enonce": "Quand un régime matrimonial est-il dissous ?",
+        "propositions": [
+          "Au décès d'un conjoint",
+          "Au moment du divorce",
+          "Lors du changement de régime matrimonial",
+          "Lors de l'achat d'un bien immobilier commun"
+        ],
+        "reponses_correctes": ["Au décès d'un conjoint", "Au moment du divorce", "Lors du changement de régime matrimonial"],
+        "explication": "Ce sont les trois cas de dissolution cités par le cours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Qu'est-ce que la succession légale ?",
+        "propositions": [
+          "La succession d'un défunt qui n'a laissé ni testament ni pacte successoral : la loi désigne les héritiers et leurs parts",
+          "La succession réglée par un testament authentique",
+          "La succession qui revient toujours à l'État",
+          "La succession réglée par un pacte successoral"
+        ],
+        "reponse_correcte": "La succession d'un défunt qui n'a laissé ni testament ni pacte successoral : la loi désigne les héritiers et leurs parts",
+        "explication": "Succession légale : art. 457 à 466 CC. Succession testamentaire : art. 467 à 536 CC."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Qui sont les héritiers légaux selon le cours ?",
+        "propositions": [
+          "Le conjoint survivant",
+          "Les descendants (enfants, petits-enfants)",
+          "Les parents du défunt et leurs descendants (frères, sœurs, neveux…)",
+          "Les grands-parents et leurs descendants (oncles, tantes, cousins…)",
+          "Le concubin"
+        ],
+        "reponses_correctes": [
+          "Le conjoint survivant",
+          "Les descendants (enfants, petits-enfants)",
+          "Les parents du défunt et leurs descendants (frères, sœurs, neveux…)",
+          "Les grands-parents et leurs descendants (oncles, tantes, cousins…)"
+        ],
+        "explication": "Le concubin n'est pas héritier légal ; il ne peut hériter que par testament ou pacte successoral."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Par quels actes une personne peut-elle régler sa succession ?",
+        "propositions": [
+          "Testament olographe (écrit de sa main)",
+          "Testament authentique (devant notaire)",
+          "Pacte successoral (conclu en forme authentique devant notaire)",
+          "Simple courriel envoyé à ses héritiers"
+        ],
+        "reponses_correctes": [
+          "Testament olographe (écrit de sa main)",
+          "Testament authentique (devant notaire)",
+          "Pacte successoral (conclu en forme authentique devant notaire)"
+        ],
+        "explication": "Ce sont les trois formes de dispositions pour cause de mort présentées dans le cours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue le pacte successoral du testament ?",
+        "propositions": [
+          "Il est conclu entre plusieurs parties, en forme authentique devant notaire",
+          "Il est écrit à la main par le seul testateur",
+          "Il peut être oral",
+          "Il ne peut concerner que des biens mobiliers"
+        ],
+        "reponse_correcte": "Il est conclu entre plusieurs parties, en forme authentique devant notaire",
+        "explication": "Le testament est un acte unilatéral (olographe ou authentique) ; le pacte successoral est conclu entre plusieurs personnes devant notaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Qui sont les héritiers réservataires depuis le 1er janvier 2023 ?",
+        "propositions": [
+          "Le conjoint survivant ou le partenaire enregistré",
+          "Les descendants",
+          "Le père et la mère",
+          "Les frères et sœurs"
+        ],
+        "reponses_correctes": ["Le conjoint survivant ou le partenaire enregistré", "Les descendants"],
+        "explication": "Depuis le 1er janvier 2023, les parents (père et mère) ne sont plus réservataires. Les frères et sœurs ne l'ont jamais été."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Quelle est la réserve héréditaire d'un descendant depuis 2023 ?",
+        "propositions": [
+          "La moitié de son droit de succession",
+          "Les trois quarts de son droit de succession",
+          "La totalité de son droit de succession",
+          "Un quart de son droit de succession"
+        ],
+        "reponse_correcte": "La moitié de son droit de succession",
+        "explication": "La réserve est de ½ du droit de succession, aussi bien pour un descendant que pour le conjoint ou le partenaire enregistré survivant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt laisse son conjoint et des enfants. Quelle est la part légale du conjoint ?",
+        "propositions": ["1/2 de la succession", "3/4 de la succession", "1/4 de la succession", "Toute la succession"],
+        "reponse_correcte": "1/2 de la succession",
+        "explication": "Le conjoint survivant a droit à ½ de la succession en concours avec les descendants, ¾ en concours avec la famille des parents, et 100 % à défaut."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt laisse son conjoint et son père. Quelle est la part légale du conjoint ?",
+        "propositions": ["3/4 de la succession", "1/2 de la succession", "1/4 de la succession", "Toute la succession"],
+        "reponse_correcte": "3/4 de la succession",
+        "explication": "En concours avec le père, la mère ou leur postérité, le conjoint a droit aux ¾ ; le quart restant revient à la parentèle des parents."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt laisse son conjoint et des enfants. Quelle est la quotité disponible (part dont il peut disposer librement) ?",
+        "propositions": ["1/2", "1/4", "3/8", "5/8"],
+        "reponse_correcte": "1/2",
+        "explication": "Conjoint : part légale ½, réserve ½ × ½ = ¼. Descendants : part légale ½, réserve ½ × ½ = ¼. Total des réserves = ½, donc quotité disponible = ½."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt laisse son conjoint et ses parents. Quelle est la quotité disponible ?",
+        "propositions": ["5/8", "1/2", "3/8", "1/4"],
+        "reponse_correcte": "5/8",
+        "explication": "Le conjoint a une part légale de ¾ et une réserve de ½ × ¾ = 3/8. Les parents ne sont plus réservataires : la quotité disponible est de 1 − 3/8 = 5/8."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt, sans conjoint ni descendants, laisse seulement ses frères et sœurs. Quelle est la quotité disponible ?",
+        "propositions": ["La totalité (1/1)", "1/2", "3/4", "Aucune"],
+        "reponse_correcte": "La totalité (1/1)",
+        "explication": "Les frères et sœurs ne sont pas réservataires : le défunt peut disposer librement de toute sa succession."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Le défunt laisse plusieurs héritiers. Comment détiennent-ils les biens jusqu'au partage ?",
+        "propositions": [
+          "Ils forment une hoirie, propriétaire en commun des biens du défunt",
+          "Chacun devient immédiatement propriétaire exclusif d'une part déterminée",
+          "Les biens appartiennent à l'État jusqu'au partage",
+          "L'aîné devient seul propriétaire"
+        ],
+        "reponse_correcte": "Ils forment une hoirie, propriétaire en commun des biens du défunt",
+        "explication": "Plusieurs héritiers forment une hoirie (communauté héréditaire). Tout membre peut demander le partage en tout temps. Avec un seul héritier, il n'y a pas de partage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Successions",
+      "content": {
+        "enonce": "Quand un membre d'une hoirie peut-il demander le partage de la succession ?",
+        "propositions": ["En tout temps", "Seulement après 10 ans", "Seulement avec l'accord unanime des héritiers", "Jamais : seul le juge peut l'ordonner"],
+        "reponse_correcte": "En tout temps",
+        "explication": "Tout membre de la communauté héréditaire peut demander le partage de la succession en tout temps."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Que sont les droits réels ?",
+        "propositions": [
+          "Des droits qui confèrent à leur titulaire un pouvoir immédiat sur une chose mobilière ou immobilière",
+          "Des droits qui permettent d'exiger une prestation d'une personne déterminée",
+          "Des droits accordés uniquement aux personnes morales",
+          "Des droits politiques"
+        ],
+        "reponse_correcte": "Des droits qui confèrent à leur titulaire un pouvoir immédiat sur une chose mobilière ou immobilière",
+        "explication": "Le pouvoir peut être total (propriété) ou partiel (droits réels restreints). Art. 641 à 977 CC."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Quel droit réel confère à son titulaire la maîtrise totale et exclusive d'une chose, dans les limites de la loi ?",
+        "propositions": ["La propriété", "L'usufruit", "La servitude", "Le gage"],
+        "reponse_correcte": "La propriété",
+        "explication": "La propriété comprend le droit d'usage, de jouissance et de disposition, ainsi que le droit de revendiquer la chose contre quiconque la détient sans droit."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Lesquels de ces droits sont des droits réels restreints (limités) ?",
+        "propositions": ["Les servitudes", "Les charges foncières", "Les gages", "La propriété", "Le bail à loyer"],
+        "reponses_correctes": ["Les servitudes", "Les charges foncières", "Les gages"],
+        "explication": "Les droits réels restreints confèrent une maîtrise partielle sur la chose. La propriété est un droit réel complet ; le bail est un droit personnel (contrat)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Selon l'art. 667 CC, jusqu'où s'étend la propriété du sol verticalement ?",
+        "propositions": [
+          "Au-dessus et au-dessous, dans toute la hauteur et la profondeur utiles à son exercice",
+          "Sans aucune limite, jusqu'au centre de la Terre",
+          "Uniquement à la surface du sol",
+          "Jusqu'à 10 mètres au-dessus et au-dessous"
+        ],
+        "reponse_correcte": "Au-dessus et au-dessous, dans toute la hauteur et la profondeur utiles à son exercice",
+        "explication": "Délimitation verticale (art. 667 CC). La délimitation horizontale est déterminée par le plan et la démarcation sur le terrain (art. 668 CC)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "De quelles manières peut-on acquérir la propriété foncière selon le cours ?",
+        "propositions": [
+          "Par contrat (acte de vente en forme authentique)",
+          "Par succession",
+          "Par jugement (par ex. attribution à un époux après divorce)",
+          "Par adjudication (vente aux enchères de l'office des poursuites)",
+          "Par simple occupation prolongée d'un an"
+        ],
+        "reponses_correctes": [
+          "Par contrat (acte de vente en forme authentique)",
+          "Par succession",
+          "Par jugement (par ex. attribution à un époux après divorce)",
+          "Par adjudication (vente aux enchères de l'office des poursuites)"
+        ],
+        "explication": "Ce sont les quatre modes d'acquisition cités par le cours."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "En principe, quel est l'effet de l'inscription au registre foncier pour l'acquisition de la propriété foncière (art. 656 CC) ?",
+        "propositions": [
+          "Elle est constitutive de propriété",
+          "Elle est purement déclarative",
+          "Elle est facultative",
+          "Elle n'a d'effet qu'à l'égard du fisc"
+        ],
+        "reponse_correcte": "Elle est constitutive de propriété",
+        "explication": "En principe, on ne devient propriétaire d'un immeuble que par l'inscription au RF."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Un héritier devient propriétaire d'un immeuble au décès du défunt. Quel est alors l'effet de l'inscription au registre foncier ?",
+        "propositions": [
+          "Déclaratif : elle reste nécessaire pour opposer son droit aux tiers, mais la propriété est déjà acquise",
+          "Constitutif : il n'est pas propriétaire avant l'inscription",
+          "Aucun : l'inscription est interdite en cas de succession",
+          "Elle transfère la propriété à l'État"
+        ],
+        "reponse_correcte": "Déclaratif : elle reste nécessaire pour opposer son droit aux tiers, mais la propriété est déjà acquise",
+        "explication": "Exceptions au principe de l'inscription constitutive : succession, expropriation, jugement ou exécution forcée."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits réels et propriété foncière",
+      "content": {
+        "enonce": "Quelles restrictions légales de la propriété foncière le cours cite-t-il ?",
+        "propositions": [
+          "L'obligation de s'abstenir d'immissions excessives (bruit, fumée…) – art. 684 CC",
+          "L'obligation de tolérer le libre accès aux forêts et pâturages – art. 699 CC",
+          "L'interdiction d'aliéner le logement de famille sans l'accord du conjoint – art. 169 CC",
+          "L'interdiction de louer son bien à des étrangers"
+        ],
+        "reponses_correctes": [
+          "L'obligation de s'abstenir d'immissions excessives (bruit, fumée…) – art. 684 CC",
+          "L'obligation de tolérer le libre accès aux forêts et pâturages – art. 699 CC",
+          "L'interdiction d'aliéner le logement de famille sans l'accord du conjoint – art. 169 CC"
+        ],
+        "explication": "Ce sont des restrictions légales en faveur de voisins ou d'autres groupes de particuliers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Pourquoi les droits réels restreints immobiliers sont-ils opposables à tous ?",
+        "propositions": [
+          "Parce qu'ils sont constitués par l'inscription au registre foncier, sur le feuillet de l'immeuble concerné",
+          "Parce qu'ils sont publiés dans la presse",
+          "Parce qu'ils sont signés devant témoins",
+          "Parce qu'ils sont enregistrés à la commune"
+        ],
+        "reponse_correcte": "Parce qu'ils sont constitués par l'inscription au registre foncier, sur le feuillet de l'immeuble concerné",
+        "explication": "L'inscription au RF rend ces droits opposables à tous."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Un droit de passage en faveur de la parcelle voisine est :",
+        "propositions": [
+          "Une servitude foncière",
+          "Une servitude personnelle",
+          "Une charge foncière",
+          "Une annotation"
+        ],
+        "reponse_correcte": "Une servitude foncière",
+        "explication": "La servitude foncière est une charge imposée sur un immeuble en faveur d'un autre immeuble (ex. droit de passage, servitude de non-bâtir)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise une servitude personnelle ?",
+        "propositions": [
+          "Elle est imposée sur un immeuble en faveur d'une personne",
+          "Elle est imposée sur un immeuble en faveur d'un autre immeuble",
+          "Elle garantit le paiement d'une créance",
+          "Elle oblige le propriétaire à verser une rente"
+        ],
+        "reponse_correcte": "Elle est imposée sur un immeuble en faveur d'une personne",
+        "explication": "Exemples de servitudes personnelles : usufruit, droit d'habitation, droit de superficie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Lesquels de ces droits sont présentés comme des servitudes personnelles ?",
+        "propositions": ["L'usufruit", "Le droit d'habitation", "Le droit de superficie", "Le droit de passage", "La cédule hypothécaire"],
+        "reponses_correctes": ["L'usufruit", "Le droit d'habitation", "Le droit de superficie"],
+        "explication": "Le droit de passage est en général une servitude foncière ; la cédule hypothécaire est un gage immobilier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Quelle servitude permet à une personne d'être propriétaire de constructions élevées sur le fonds d'autrui ?",
+        "propositions": ["Le droit de superficie", "L'usufruit", "Le droit d'habitation", "Le droit de passage"],
+        "reponse_correcte": "Le droit de superficie",
+        "explication": "Le droit de superficie confère la faculté d'être propriétaire de constructions élevées sur le fonds grevé qui appartient à autrui."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Quelle servitude confère à une personne déterminée l'usage et la jouissance d'un immeuble ?",
+        "propositions": ["L'usufruit", "Le droit de superficie", "La charge foncière", "L'hypothèque"],
+        "reponse_correcte": "L'usufruit",
+        "explication": "L'usufruit confère l'usage et la jouissance ; le droit d'habitation, le seul droit d'habiter une maison."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "À quoi sert un gage immobilier ?",
+        "propositions": [
+          "À garantir une créance : le créancier peut faire réaliser l'immeuble pour être payé",
+          "À transférer la propriété au créancier",
+          "À permettre au créancier d'habiter l'immeuble",
+          "À interdire la vente de l'immeuble"
+        ],
+        "reponse_correcte": "À garantir une créance : le créancier peut faire réaliser l'immeuble pour être payé",
+        "explication": "Les gages fournissent une garantie réelle d'exécution d'une obligation. Ils servent en principe à obtenir un financement bancaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Quels types de gages immobiliers le cours cite-t-il ?",
+        "propositions": [
+          "L'hypothèque",
+          "La cédule hypothécaire au porteur",
+          "La cédule hypothécaire de registre",
+          "L'obligation hypothécaire au porteur",
+          "Le nantissement"
+        ],
+        "reponses_correctes": [
+          "L'hypothèque",
+          "La cédule hypothécaire au porteur",
+          "La cédule hypothécaire de registre",
+          "L'obligation hypothécaire au porteur"
+        ],
+        "explication": "Le nantissement est un gage mobilier, pas immobilier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Qu'est-ce qu'une mention au registre foncier ?",
+        "propositions": [
+          "Elle signale un fait dont découlent des conséquences juridiques, une restriction légale au droit de propriété ou une dérogation à une telle restriction",
+          "Elle renforce un droit personnel, comme un droit de préemption",
+          "Elle constitue une servitude",
+          "Elle crée un gage immobilier"
+        ],
+        "reponse_correcte": "Elle signale un fait dont découlent des conséquences juridiques, une restriction légale au droit de propriété ou une dérogation à une telle restriction",
+        "explication": "Exemple : mention LPP. C'est l'annotation qui renforce un droit personnel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits réels restreints",
+      "content": {
+        "enonce": "Un droit de préemption ou un bail à loyer peut être inscrit au registre foncier sous forme :",
+        "propositions": ["D'annotation", "De mention", "De servitude foncière", "De gage"],
+        "reponse_correcte": "D'annotation",
+        "explication": "L'annotation renforce un droit personnel, une prétention ou une décision judiciaire exécutoire, pour en garantir l'exécution (ex. droit d'emption, de préemption, bail annoté)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "Selon l'art. 1 CO, quand un contrat est-il parfait (conclu) ?",
+        "propositions": [
+          "Lorsque les parties ont, réciproquement et d'une manière concordante, manifesté leur volonté",
+          "Uniquement lorsqu'il est signé devant notaire",
+          "Lorsque le prix a été payé",
+          "Lorsqu'une seule partie a manifesté sa volonté par écrit"
+        ],
+        "reponse_correcte": "Lorsque les parties ont, réciproquement et d'une manière concordante, manifesté leur volonté",
+        "explication": "Il faut un échange de manifestations de volonté concordantes et réciproques. Cette manifestation peut être expresse ou tacite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "La manifestation de volonté nécessaire à la conclusion d'un contrat peut-elle être tacite ?",
+        "propositions": [
+          "Oui, elle peut être expresse ou tacite",
+          "Non, elle doit toujours être écrite",
+          "Non, elle doit toujours être orale et expresse",
+          "Oui, mais seulement pour les contrats immobiliers"
+        ],
+        "reponse_correcte": "Oui, elle peut être expresse ou tacite",
+        "explication": "Art. 1 al. 2 CO : la manifestation de volonté peut être expresse ou tacite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "En règle générale, faut-il respecter une forme spéciale pour conclure valablement un contrat ?",
+        "propositions": [
+          "Non, la forme écrite ou orale est possible, sauf exception prévue par la loi",
+          "Oui, la forme écrite est toujours obligatoire",
+          "Oui, tous les contrats doivent être passés devant notaire",
+          "Oui, la forme orale est interdite"
+        ],
+        "reponse_correcte": "Non, la forme écrite ou orale est possible, sauf exception prévue par la loi",
+        "explication": "Le principe est la liberté de la forme, mais un contrat oral peut poser problème quand il faut interpréter la volonté des parties."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "Lesquels de ces actes doivent être passés en la forme authentique (devant notaire) ?",
+        "propositions": [
+          "Le contrat de vente d'un bien immobilier",
+          "L'avancement d'hoirie d'un bien immobilier",
+          "L'acte d'échange de deux terrains",
+          "Un contrat de bail à loyer d'appartement",
+          "Un mandat de gérance"
+        ],
+        "reponses_correctes": [
+          "Le contrat de vente d'un bien immobilier",
+          "L'avancement d'hoirie d'un bien immobilier",
+          "L'acte d'échange de deux terrains"
+        ],
+        "explication": "Les actes relatifs à des transferts de propriété immobilière exigent la forme authentique. Le bail et le mandat ne sont pas soumis à cette forme."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "Que contient la partie générale du Code des obligations ?",
+        "propositions": [
+          "La formation des obligations (contrat, acte illicite, enrichissement illégitime)",
+          "Les effets, l'extinction et les modalités des obligations",
+          "Les règles particulières du contrat de bail",
+          "Les règles particulières du contrat de travail"
+        ],
+        "reponses_correctes": [
+          "La formation des obligations (contrat, acte illicite, enrichissement illégitime)",
+          "Les effets, l'extinction et les modalités des obligations"
+        ],
+        "explication": "Les diverses espèces de contrats (vente, bail, prêt, travail, mandat…) figurent dans la partie spéciale."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Code des obligations",
+      "content": {
+        "enonce": "Le Code des obligations est formellement :",
+        "propositions": [
+          "Le 5e livre du Code civil",
+          "Le 1er livre du Code civil",
+          "Une ordonnance du Conseil fédéral",
+          "Un concordat intercantonal"
+        ],
+        "reponse_correcte": "Le 5e livre du Code civil",
+        "explication": "Le CO constitue le 5e livre du Code civil suisse."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Éthique et déontologie",
+      "content": {
+        "enonce": "Quelles obligations du mandataire fondent sa responsabilité selon le cours ?",
+        "propositions": [
+          "Diligence + fidélité = responsabilité",
+          "Rapidité + rentabilité = responsabilité",
+          "Discrétion + neutralité = responsabilité",
+          "Obéissance + gratuité = responsabilité"
+        ],
+        "reponse_correcte": "Diligence + fidélité = responsabilité",
+        "explication": "Les obligations d'un professionnel de l'immobilier dépendent du contrat, mais aussi des règles du mandat : diligence + fidélité = responsabilité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Éthique et déontologie",
+      "content": {
+        "enonce": "Quels sont les trois objectifs principaux des codes d'éthique ?",
+        "propositions": [
+          "Le respect de l'intérêt public",
+          "Le service au client",
+          "La confraternité",
+          "La maximisation des commissions"
+        ],
+        "reponses_correctes": ["Le respect de l'intérêt public", "Le service au client", "La confraternité"],
+        "explication": "Les codes d'éthique définissent et diffusent les valeurs d'une organisation ; chaque section cantonale de l'USPI Suisse a son propre code de déontologie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Éthique et déontologie",
+      "content": {
+        "enonce": "Quelles sanctions peuvent toucher un membre d'une association professionnelle qui viole le code d'éthique ?",
+        "propositions": [
+          "Des sanctions disciplinaires (amende, avertissement, exclusion)",
+          "Des sanctions civiles et pénales (loi fédérale contre la concurrence déloyale)",
+          "Le retrait de sa nationalité",
+          "Aucune sanction"
+        ],
+        "reponses_correctes": [
+          "Des sanctions disciplinaires (amende, avertissement, exclusion)",
+          "Des sanctions civiles et pénales (loi fédérale contre la concurrence déloyale)"
+        ],
+        "explication": "Les non-membres ne risquent pas de sanctions disciplinaires, mais restent exposés aux sanctions civiles et pénales de la LCD."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Éthique et déontologie",
+      "content": {
+        "enonce": "Un professionnel de l'immobilier non membre de l'USPI a un comportement déloyal. À quelles sanctions s'expose-t-il ?",
+        "propositions": [
+          "Uniquement aux sanctions civiles et pénales (loi fédérale contre la concurrence déloyale)",
+          "Aux sanctions disciplinaires de l'USPI",
+          "À aucune sanction, n'étant pas membre",
+          "À l'exclusion de l'USPI"
+        ],
+        "reponse_correcte": "Uniquement aux sanctions civiles et pénales (loi fédérale contre la concurrence déloyale)",
+        "explication": "Les sanctions disciplinaires ne visent que les membres de l'association ; la LCD s'applique à tous."
+      }
+    }
+  ]
+}
