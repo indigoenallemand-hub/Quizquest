@@ -1,0 +1,1615 @@
+{
+  "title": "Courtage immobilier",
+  "description": "Rôle et responsabilité du courtier, types d'objets, étapes d'un mandat de vente, documents à réunir, commission, réseau et lois spécifiques à l'immobilier (ImmoBase – USPI Formation).",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Selon la définition du cours, qu'est-ce qu'un courtier immobilier ?",
+        "propositions": [
+          "Un intermédiaire entre le vendeur et l'acquéreur qui intervient en tant qu'indicateur et/ou négociateur",
+          "Un officier public chargé d'instrumenter l'acte de vente",
+          "Le représentant légal du vendeur, autorisé à signer l'acte de vente à sa place",
+          "Un expert mandaté par la banque pour fixer la valeur de gage"
+        ],
+        "reponse_correcte": "Un intermédiaire entre le vendeur et l'acquéreur qui intervient en tant qu'indicateur et/ou négociateur",
+        "explication": "Le courtier est un intermédiaire entre vendeur et acquéreur, qui agit comme indicateur (il indique une occasion de conclure) et/ou négociateur (il négocie la conclusion du contrat)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Quand le courtier est-il rétribué de sa commission ?",
+        "propositions": [
+          "Une fois le contrat de vente conclu",
+          "À la signature du mandat de courtage",
+          "À chaque visite organisée",
+          "Mensuellement, pendant toute la durée du mandat"
+        ],
+        "reponse_correcte": "Une fois le contrat de vente conclu",
+        "explication": "Le courtier est rétribué à la commission, une fois le contrat de vente conclu. Il accompagne ensuite toute la transaction jusque chez le notaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Par qui le courtier immobilier est-il chargé de sa mission ?",
+        "propositions": [
+          "Par le vendeur pour trouver un acheteur, ou inversement par l'acheteur pour trouver un bien",
+          "Uniquement par le vendeur",
+          "Uniquement par la banque qui finance l'opération",
+          "Par le notaire qui instrumente la vente"
+        ],
+        "reponse_correcte": "Par le vendeur pour trouver un acheteur, ou inversement par l'acheteur pour trouver un bien",
+        "explication": "Le courtier est chargé par le vendeur d'un bien immobilier de trouver l'acheteur, ou l'inverse (mandat de recherche pour un acquéreur)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Lesquels de ces devoirs font partie du rôle du courtier selon le cours ?",
+        "propositions": [
+          "Être informé des conditions réelles du marché (économiques, légales)",
+          "Veiller à une publicité réaliste et justifiée",
+          "Refuser un mandat pouvant créer des conflits d'intérêts",
+          "Accepter les avantages personnels offerts par l'acheteur s'ils facilitent la vente",
+          "Présenter le bien sous son meilleur jour en taisant les défauts connus"
+        ],
+        "reponses_correctes": [
+          "Être informé des conditions réelles du marché (économiques, légales)",
+          "Veiller à une publicité réaliste et justifiée",
+          "Refuser un mandat pouvant créer des conflits d'intérêts"
+        ],
+        "explication": "Le courtier doit connaître le marché, présenter loyalement les objets, veiller à une publicité réaliste, défendre son mandant, refuser les mandats sources de conflits d'intérêts et n'accepter aucune rémunération ou avantage autre que ceux découlant de son mandat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Un acheteur propose au courtier un cadeau personnel s'il « pousse » le vendeur à accepter son offre. Que doit faire le courtier ?",
+        "propositions": [
+          "Refuser : il ne doit accepter aucune rémunération ou avantage autre que ceux découlant de son mandat",
+          "Accepter, à condition d'en informer le vendeur après la vente",
+          "Accepter si le cadeau est inférieur à CHF 500.-",
+          "Accepter, car l'acheteur n'est pas son mandant"
+        ],
+        "reponse_correcte": "Refuser : il ne doit accepter aucune rémunération ou avantage autre que ceux découlant de son mandat",
+        "explication": "Le rôle du courtier inclut de ne pas accepter de rémunération ou avantage personnel autre que ceux découlant de son mandat, et de défendre les intérêts de son mandant."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Fonction et rôle du courtier",
+      "content": {
+        "enonce": "Selon quelles règles le courtier défend-il les intérêts de son mandant ?",
+        "propositions": [
+          "Selon les règles professionnelles, déontologiques et éthiques",
+          "Selon les seules instructions de l'acheteur",
+          "Selon les règles fixées par la banque prêteuse",
+          "Selon son intérêt personnel à toucher la commission la plus élevée"
+        ],
+        "reponse_correcte": "Selon les règles professionnelles, déontologiques et éthiques",
+        "explication": "Le courtier défend les intérêts de son mandant selon les règles professionnelles, déontologiques et éthiques."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Quelle est la définition de la déontologie (Larousse) retenue dans le cours ?",
+        "propositions": [
+          "Ensemble des règles et des devoirs qui régissent une profession, la conduite de ceux qui l'exercent, les rapports entre ceux-ci et leurs clients et le public",
+          "Ensemble des principes moraux qui sont à la base de la conduite de quelqu'un",
+          "Ensemble des lois fédérales applicables aux professions immobilières",
+          "Ensemble des usages commerciaux d'une région"
+        ],
+        "reponse_correcte": "Ensemble des règles et des devoirs qui régissent une profession, la conduite de ceux qui l'exercent, les rapports entre ceux-ci et leurs clients et le public",
+        "explication": "La déontologie vise les règles et devoirs d'une profession. L'éthique, elle, est l'ensemble des principes moraux à la base de la conduite de quelqu'un."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Quelle est la définition de l'éthique (Larousse) retenue dans le cours ?",
+        "propositions": [
+          "Ensemble des principes moraux qui sont à la base de la conduite de quelqu'un",
+          "Ensemble des règles et des devoirs qui régissent une profession",
+          "Code de conduite édicté par l'USPI Suisse et applicable dans toute la Suisse",
+          "Ensemble des sanctions disciplinaires d'une profession"
+        ],
+        "reponse_correcte": "Ensemble des principes moraux qui sont à la base de la conduite de quelqu'un",
+        "explication": "L'éthique est l'ensemble des principes moraux à la base de la conduite de quelqu'un ; la déontologie concerne les règles et devoirs propres à une profession."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Concernant le code de déontologie de l'USPI, quelle affirmation est correcte ?",
+        "propositions": [
+          "Chaque USPI cantonale a son propre code de déontologie",
+          "Il existe un code unique, identique dans tous les cantons",
+          "Il n'existe aucun code de déontologie pour les courtiers",
+          "Le code de déontologie est fixé par le Code des obligations"
+        ],
+        "reponse_correcte": "Chaque USPI cantonale a son propre code de déontologie",
+        "explication": "Le cours précise que chaque USPI cantonale a son code de déontologie."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Un client pose au courtier une question technique dont il ne connaît pas la réponse. Que doit faire le courtier ?",
+        "propositions": [
+          "Se renseigner auprès d'un professionnel compétent avant de répondre",
+          "Donner une réponse approximative pour ne pas perdre la confiance du client",
+          "Répondre qu'il n'est pas responsable des informations techniques",
+          "Renvoyer le client vers le vendeur sans plus s'en occuper"
+        ],
+        "reponse_correcte": "Se renseigner auprès d'un professionnel compétent avant de répondre",
+        "explication": "Le courtier est responsable des informations qu'il donne. Il ne peut pas tout savoir, mais en cas de doute ou si la réponse n'est pas connue, il a le devoir de se renseigner auprès d'un professionnel compétent."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Quelles affirmations sur la responsabilité du courtier sont correctes ?",
+        "propositions": [
+          "Il est responsable des informations qu'il donne et de leur précision",
+          "Il doit contrôler chaque information donnée",
+          "Il est censé tout savoir sur le bien qu'il vend",
+          "Il n'est responsable que des informations écrites, pas des informations orales"
+        ],
+        "reponses_correctes": [
+          "Il est responsable des informations qu'il donne et de leur précision",
+          "Il doit contrôler chaque information donnée"
+        ],
+        "explication": "Il est impossible à un courtier de tout savoir, mais il est responsable des informations qu'il donne et doit contrôler chacune d'elles."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Déontologie, éthique et responsabilité",
+      "content": {
+        "enonce": "Quelle est, selon le cours, la valeur essentielle du courtier ?",
+        "propositions": [
+          "Respecter la confiance que lui accorde son mandant et travailler avec diligence",
+          "Conclure le plus grand nombre de ventes possible",
+          "Obtenir systématiquement le prix le plus élevé, quels que soient les moyens",
+          "Travailler seul pour garder toute la commission"
+        ],
+        "reponse_correcte": "Respecter la confiance que lui accorde son mandant et travailler avec diligence",
+        "explication": "« Le courtier doit respecter la confiance que lui accorde son mandant et travailler avec diligence ! »"
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Lesquels de ces biens sont classés par le cours parmi les bâtiments résidentiels à usage propre ?",
+        "propositions": [
+          "Maison individuelle",
+          "Maison mitoyenne",
+          "Appartement",
+          "Bâtiment administratif",
+          "Immeuble de logements de rendement"
+        ],
+        "reponses_correctes": ["Maison individuelle", "Maison mitoyenne", "Appartement"],
+        "explication": "Bâtiments résidentiels à usage propre : maison individuelle, mitoyenne, jumelle, contiguë, appartement, maison locative. Le bâtiment administratif est un bâtiment professionnel ; l'immeuble de logements de rendement est un immeuble d'investissement."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Dans quelle catégorie d'objets le cours classe-t-il un bâtiment industriel/artisanal utilisé par son propriétaire pour sa propre entreprise ?",
+        "propositions": [
+          "Bâtiment professionnel à usage propre",
+          "Bâtiment résidentiel à usage propre",
+          "Immeuble d'investissement",
+          "Terrain constructible"
+        ],
+        "reponse_correcte": "Bâtiment professionnel à usage propre",
+        "explication": "Les bâtiments professionnels à usage propre comprennent : administratif, industriel/artisanal, commercial, mixte (habitat/activité) et commerce."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Quelles affectations peut avoir un immeuble d'investissement selon le cours ?",
+        "propositions": [
+          "Logement",
+          "Activité (industriel, commercial, etc.)",
+          "Mixte (habitat/activité)",
+          "Usage exclusivement personnel du propriétaire"
+        ],
+        "reponses_correctes": ["Logement", "Activité (industriel, commercial, etc.)", "Mixte (habitat/activité)"],
+        "explication": "Un immeuble d'investissement peut être affecté au logement, à l'activité ou être mixte. Il est destiné à produire un rendement, pas à l'usage propre du propriétaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Quelles catégories de zones le cours mentionne-t-il pour les terrains constructibles ?",
+        "propositions": [
+          "Zone faible densité",
+          "Zone moyenne densité",
+          "Zone haute densité",
+          "Zone d'activité",
+          "Zone agricole"
+        ],
+        "reponses_correctes": ["Zone faible densité", "Zone moyenne densité", "Zone haute densité", "Zone d'activité"],
+        "explication": "Terrain constructible : zone faible, moyenne ou haute densité, ou zone d'activité. Une zone agricole n'est en principe pas constructible."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Quels sont les deux types de propriété présentés dans le cours ?",
+        "propositions": [
+          "En nom propre (personne physique ou morale) et en société immobilière (personne morale)",
+          "En propriété individuelle et en propriété par étages",
+          "En droit de superficie et en usufruit",
+          "En propriété publique et en propriété privée"
+        ],
+        "reponse_correcte": "En nom propre (personne physique ou morale) et en société immobilière (personne morale)",
+        "explication": "Le type de propriété distingue la détention en nom propre (personne physique ou morale) et en société immobilière (personne morale). Les régimes juridiques (individuelle, commune, copropriété) sont une autre classification."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "Quels régimes juridiques de propriété le cours mentionne-t-il ?",
+        "propositions": [
+          "Propriété individuelle",
+          "Propriété commune",
+          "Copropriété ordinaire",
+          "Propriété par étages",
+          "Bail à ferme"
+        ],
+        "reponses_correctes": ["Propriété individuelle", "Propriété commune", "Copropriété ordinaire", "Propriété par étages"],
+        "explication": "Régimes juridiques : propriété individuelle, propriété commune et copropriété, cette dernière se déclinant en copropriété ordinaire et propriété par étages (PPE). Le bail à ferme est un contrat, pas un régime de propriété."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Types d'objets et régimes de propriété",
+      "content": {
+        "enonce": "La propriété par étages (PPE) est une forme particulière de :",
+        "propositions": [
+          "Copropriété",
+          "Propriété commune",
+          "Propriété individuelle",
+          "Société immobilière"
+        ],
+        "reponse_correcte": "Copropriété",
+        "explication": "Le cours range la copropriété ordinaire et la propriété par étages sous le régime de la copropriété."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Marché primaire et secondaire",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise le secteur primaire du marché immobilier ?",
+        "propositions": [
+          "La vente d'objets sur plans (neuf)",
+          "La revente d'objets déjà construits",
+          "La location d'objets neufs",
+          "La vente de terrains agricoles"
+        ],
+        "reponse_correcte": "La vente d'objets sur plans (neuf)",
+        "explication": "Secteur primaire : vente d'objets sur plans (neuf), en part terrain ou clé en main. Secteur secondaire : revente d'objets déjà construits."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Marché primaire et secondaire",
+      "content": {
+        "enonce": "Un courtier est mandaté pour revendre une villa construite en 1990. Sur quel secteur du marché intervient-il ?",
+        "propositions": [
+          "Le secteur secondaire",
+          "Le secteur primaire",
+          "Le secteur tertiaire",
+          "Le secteur de la promotion"
+        ],
+        "reponse_correcte": "Le secteur secondaire",
+        "explication": "La revente d'objets déjà construits relève du secteur secondaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Marché primaire et secondaire",
+      "content": {
+        "enonce": "Dans le secteur primaire (vente sur plans), sous quelles formes un objet neuf peut-il être vendu selon le cours ?",
+        "propositions": [
+          "Part terrain",
+          "Clé en main",
+          "En viager",
+          "En location-vente"
+        ],
+        "reponses_correctes": ["Part terrain", "Clé en main"],
+        "explication": "La vente d'objets sur plans se fait en « part terrain » ou « clé en main »."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Dans quel ordre se succèdent les grandes étapes d'un mandat de vente ?",
+        "propositions": [
+          "Acquisition du mandat, commercialisation, conclusion de la vente",
+          "Commercialisation, acquisition du mandat, conclusion de la vente",
+          "Conclusion de la vente, acquisition du mandat, commercialisation",
+          "Acquisition du mandat, conclusion de la vente, commercialisation"
+        ],
+        "reponse_correcte": "Acquisition du mandat, commercialisation, conclusion de la vente",
+        "explication": "Les étapes : acquisition du mandat de vente, commercialisation du mandat, conclusion de la vente (puis déroulement de l'achat)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Que comprend la pré-analyse des caractéristiques du futur mandat ?",
+        "propositions": [
+          "La zone d'affectation du terrain",
+          "L'extrait du registre foncier (servitudes, mentions, annotations, charges foncières)",
+          "La rédaction des textes de présentation",
+          "L'organisation des visites"
+        ],
+        "reponses_correctes": [
+          "La zone d'affectation du terrain",
+          "L'extrait du registre foncier (servitudes, mentions, annotations, charges foncières)"
+        ],
+        "explication": "La pré-analyse porte sur la zone d'affectation et l'extrait RF. Les textes de présentation et les visites relèvent de la commercialisation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Quels éléments du règlement communal le courtier doit-il analyser pour un terrain ?",
+        "propositions": [
+          "L'affectation de la zone (village, industrielle, etc.)",
+          "Le coefficient d'utilisation du sol (CUS, IBUS, coefficient de masse)",
+          "Les distances aux limites",
+          "Le taux hypothécaire de référence",
+          "Le nom des voisins"
+        ],
+        "reponses_correctes": [
+          "L'affectation de la zone (village, industrielle, etc.)",
+          "Le coefficient d'utilisation du sol (CUS, IBUS, coefficient de masse)",
+          "Les distances aux limites"
+        ],
+        "explication": "Le courtier analyse l'affectation de la zone, le CUS/IBUS/coefficient de masse, le coefficient du sol (IOS), les distances aux limites et les hauteurs (sablière, faîtière, acrotère)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "À quoi se rapporte l'IOS (indice d'occupation du sol) mentionné dans le cours ?",
+        "propositions": [
+          "À l'emprise au sol des constructions",
+          "À la hauteur maximale des bâtiments",
+          "À la surface de plancher totale constructible",
+          "Au nombre maximal de logements"
+        ],
+        "reponse_correcte": "À l'emprise au sol des constructions",
+        "explication": "Le cours cite le « coefficient du sol (IOS, autres règles pour empreinte au sol) ». La surface de plancher se rattache plutôt au CUS/IBUS."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Quelles références de hauteur le cours cite-t-il pour les distances à la hauteur ?",
+        "propositions": [
+          "Sablière",
+          "Faîtière",
+          "Acrotère",
+          "Corniche de fondation"
+        ],
+        "reponses_correctes": ["Sablière", "Faîtière", "Acrotère"],
+        "explication": "Distances à la hauteur : sablière, faîtière, acrotère."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Quelles méthodes d'estimation de la valeur du bien sont citées dans le cours ?",
+        "propositions": [
+          "Valeur hédoniste/marché (comparaison)",
+          "Valeur intrinsèque",
+          "Valeur de rendement",
+          "Valeur fiscale uniquement"
+        ],
+        "reponses_correctes": ["Valeur hédoniste/marché (comparaison)", "Valeur intrinsèque", "Valeur de rendement"],
+        "explication": "Estimation de la valeur du bien : valeur hédoniste/marché (comparaison), valeur intrinsèque et valeur de rendement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Que faut-il définir lors de l'établissement du mandat de vente ?",
+        "propositions": [
+          "Le type de mandat",
+          "Le prix de vente sur le marché",
+          "Le commissionnement",
+          "Les frais éventuels à la charge du mandant",
+          "La durée",
+          "Le taux hypothécaire de l'acheteur"
+        ],
+        "reponses_correctes": [
+          "Le type de mandat",
+          "Le prix de vente sur le marché",
+          "Le commissionnement",
+          "Les frais éventuels à la charge du mandant",
+          "La durée"
+        ],
+        "explication": "Établissement du mandat : type de mandat, prix de vente, commissionnement, frais à la charge du mandant, durée, et signatures de tous les propriétaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Un bien appartient à deux copropriétaires. Qui doit signer le mandat de vente ?",
+        "propositions": [
+          "Tous les propriétaires",
+          "Le copropriétaire détenant la plus grande part",
+          "Un seul des deux, l'autre étant informé",
+          "Le notaire au nom des propriétaires"
+        ],
+        "reponse_correcte": "Tous les propriétaires",
+        "explication": "Lors de l'établissement du mandat, le cours exige les signatures de tous les propriétaires."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Quels objectifs du mandant le courtier doit-il déterminer lors de la prise de mandat ?",
+        "propositions": [
+          "Quand vendre et pour quand",
+          "Le prix plancher accepté",
+          "Le type de diffusion",
+          "Les particularités lors des visites",
+          "Le montant de l'hypothèque de l'acheteur"
+        ],
+        "reponses_correctes": [
+          "Quand vendre et pour quand",
+          "Le prix plancher accepté",
+          "Le type de diffusion",
+          "Les particularités lors des visites"
+        ],
+        "explication": "Objectifs du mandant : quand ? pour quand ? prix plancher accepté ? type de diffusion ? particularités lors des visites ?"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Lors d'un entretien de prise de mandat, quelle approche est recommandée par le cours ?",
+        "propositions": [
+          "Poser d'abord des questions ouvertes pour collecter un maximum d'informations, puis des questions fermées pour valider sa compréhension, et conclure par la prise de mandat",
+          "Poser uniquement des questions fermées pour gagner du temps",
+          "Présenter immédiatement le contrat à signer avant toute discussion",
+          "Commencer par annoncer le prix de vente estimé"
+        ],
+        "reponse_correcte": "Poser d'abord des questions ouvertes pour collecter un maximum d'informations, puis des questions fermées pour valider sa compréhension, et conclure par la prise de mandat",
+        "explication": "Les jeux de rôle demandent de poser d'abord des questions ouvertes, puis des questions fermées pour quittancer les informations collectées, et de conclure par la prise de mandat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Acquisition du mandat de vente",
+      "content": {
+        "enonce": "Lors de la prise de mandat, quel est l'objectif premier de l'entretien avec le propriétaire selon le jeu de rôle du cours ?",
+        "propositions": [
+          "Découvrir sa motivation à vendre",
+          "Lui faire baisser immédiatement son prix",
+          "Visiter toutes les pièces de la maison",
+          "Obtenir ses relevés bancaires"
+        ],
+        "reponse_correcte": "Découvrir sa motivation à vendre",
+        "explication": "L'objectif premier est de découvrir la motivation du mandant ; l'objectif final est de réussir à prendre le mandat. Ce sont surtout les compétences humaines et l'écoute active qui sont sollicitées."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Que comprend la commercialisation du mandat ?",
+        "propositions": [
+          "Constituer le dossier général",
+          "Obtenir toutes les pièces nécessaires au dossier",
+          "Rédiger les textes de présentation",
+          "Accompagner les parties devant le notaire"
+        ],
+        "reponses_correctes": [
+          "Constituer le dossier général",
+          "Obtenir toutes les pièces nécessaires au dossier",
+          "Rédiger les textes de présentation"
+        ],
+        "explication": "Accompagner les parties chez le notaire relève de la conclusion de la vente (gestion de la transaction)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Sur quels thèmes portent les textes de présentation d'un bien ?",
+        "propositions": [
+          "Situation/commodités",
+          "Construction/technique",
+          "Distribution/matériaux de finitions",
+          "Situation financière du vendeur"
+        ],
+        "reponses_correctes": ["Situation/commodités", "Construction/technique", "Distribution/matériaux de finitions"],
+        "explication": "Les textes de présentation portent sur la situation et les commodités, la construction et la technique, la distribution et les matériaux de finitions."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Quelles actions relèvent de la mise en valeur du bien ?",
+        "propositions": [
+          "Dépersonnaliser et ranger (« home staging »)",
+          "Faire des photos",
+          "Estimer les éventuels travaux/potentiel",
+          "Rédiger le projet d'acte de vente"
+        ],
+        "reponses_correctes": [
+          "Dépersonnaliser et ranger (« home staging »)",
+          "Faire des photos",
+          "Estimer les éventuels travaux/potentiel"
+        ],
+        "explication": "Mise en valeur : home staging, photos, estimation des travaux/potentiel. Le projet d'acte est demandé au notaire au moment de la conclusion."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Quelles questions définissent la stratégie de communication/présentation du bien ?",
+        "propositions": [
+          "À qui ? Quand ? Comment ?",
+          "Combien ? Pourquoi ? Où ?",
+          "Qui paie ? Qui signe ? Qui visite ?",
+          "Quel notaire ? Quelle banque ? Quel assureur ?"
+        ],
+        "reponse_correcte": "À qui ? Quand ? Comment ?",
+        "explication": "La communication/présentation du bien (= stratégie) répond à : à qui ? quand ? comment ?"
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Que comprend le traitement des acheteurs potentiels ?",
+        "propositions": [
+          "L'envoi du dossier (client connu/nouveau client)",
+          "L'organisation des visites",
+          "La transmission des indications nécessaires",
+          "La vérification de son pouvoir d'achat (financement)",
+          "La signature de l'acte authentique"
+        ],
+        "reponses_correctes": [
+          "L'envoi du dossier (client connu/nouveau client)",
+          "L'organisation des visites",
+          "La transmission des indications nécessaires",
+          "La vérification de son pouvoir d'achat (financement)"
+        ],
+        "explication": "Traitement des acheteurs potentiels : envoi du dossier, organisation des visites, transmission des indications, vérification du pouvoir d'achat. Le tout avec un suivi perpétuel des acheteurs et des vendeurs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Pourquoi le courtier doit-il vérifier le pouvoir d'achat d'un acheteur potentiel ?",
+        "propositions": [
+          "Pour s'assurer qu'il pourra financer l'achat avant d'engager la négociation",
+          "Pour calculer sa propre commission",
+          "Pour fixer le prix de vente du bien",
+          "Parce que la loi interdit de faire visiter un bien sans preuve de fonds"
+        ],
+        "reponse_correcte": "Pour s'assurer qu'il pourra financer l'achat avant d'engager la négociation",
+        "explication": "Vérifier/s'informer sur le pouvoir d'achat (financement) fait partie du traitement des acheteurs potentiels : un acheteur sans financement ne pourra pas conclure."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commercialisation du mandat",
+      "content": {
+        "enonce": "Lors de la visite d'un appartement avec un acquéreur inconnu, quel est l'objectif final selon le jeu de rôle du cours ?",
+        "propositions": [
+          "Conclure la visite avec une éventuelle prise de position de l'acquéreur sur son intérêt pour le bien",
+          "Faire signer une offre ferme dès la fin de la visite",
+          "Obtenir un acompte en espèces",
+          "Montrer le plus de défauts possible pour être transparent"
+        ],
+        "reponse_correcte": "Conclure la visite avec une éventuelle prise de position de l'acquéreur sur son intérêt pour le bien",
+        "explication": "Objectif premier : découvrir la motivation de l'acquéreur. Objectif final : conclure la visite avec une éventuelle prise de position sur son intérêt."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "À la réception d'offres d'achat, que fait le courtier ?",
+        "propositions": [
+          "Il transmet les offres au propriétaire",
+          "Il organise une rencontre",
+          "Il cherche si possible le « point de rencontre »",
+          "Il choisit lui-même l'offre retenue sans consulter le vendeur"
+        ],
+        "reponses_correctes": [
+          "Il transmet les offres au propriétaire",
+          "Il organise une rencontre",
+          "Il cherche si possible le « point de rencontre »"
+        ],
+        "explication": "Réception d'offres : transmission au propriétaire, organisation d'une rencontre et recherche du « point de rencontre ». La décision appartient au vendeur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Que comprend la gestion de la transaction par le courtier ?",
+        "propositions": [
+          "S'assurer du financement du client",
+          "Demander un projet d'acte de vente auprès d'un notaire",
+          "Organiser la date de signature",
+          "Accompagner les parties devant le notaire",
+          "Rédiger lui-même l'acte authentique"
+        ],
+        "reponses_correctes": [
+          "S'assurer du financement du client",
+          "Demander un projet d'acte de vente auprès d'un notaire",
+          "Organiser la date de signature",
+          "Accompagner les parties devant le notaire"
+        ],
+        "explication": "L'acte authentique est instrumenté par le notaire ; le courtier en demande le projet et accompagne les parties."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Quel est l'ordre du déroulement d'un achat présenté dans le cours ?",
+        "propositions": [
+          "Offre d'achat → Négociation → Accord → Projet d'acte → Signature",
+          "Négociation → Offre d'achat → Projet d'acte → Accord → Signature",
+          "Offre d'achat → Projet d'acte → Négociation → Signature → Accord",
+          "Accord → Offre d'achat → Négociation → Signature → Projet d'acte"
+        ],
+        "reponse_correcte": "Offre d'achat → Négociation → Accord → Projet d'acte → Signature",
+        "explication": "Déroulement d'un achat : offre d'achat, négociation, accord, projet d'acte, signature."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Le vendeur souhaite fixer le « dernier prix » acceptable après plusieurs offres inférieures au prix affiché. Sur quoi le courtier doit-il principalement s'appuyer pour négocier avec lui ?",
+        "propositions": [
+          "Sur les motivations du vendeur, qu'il doit déceler",
+          "Sur la menace de résilier le mandat",
+          "Sur sa commission, qu'il propose de réduire",
+          "Sur l'avis du notaire"
+        ],
+        "reponse_correcte": "Sur les motivations du vendeur, qu'il doit déceler",
+        "explication": "Selon le jeu de rôle « Offre – Vendeur », c'est principalement en décelant les motivations du vendeur que le courtier pourra mener à bien la négociation sur le prix."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Un appartement estimé CHF 595'000.- est commercialisé à CHF 630'000.-. Après 4 mois et 17 visites, le courtier reçoit deux offres à CHF 575'000.- et une à CHF 600'000.-. Quelle affirmation est correcte ?",
+        "propositions": [
+          "La meilleure offre dépasse l'estimation, ce qui est un argument pour amener le vendeur à l'accepter",
+          "Toutes les offres sont inférieures à l'estimation du courtier",
+          "Le courtier doit refuser toutes les offres, car elles sont inférieures au prix affiché",
+          "Le courtier doit accepter lui-même l'offre à CHF 600'000.-"
+        ],
+        "reponse_correcte": "La meilleure offre dépasse l'estimation, ce qui est un argument pour amener le vendeur à l'accepter",
+        "explication": "L'offre à CHF 600'000.- est supérieure à l'estimation de CHF 595'000.-, même si elle reste sous le prix de commercialisation. Le but de l'exercice est d'amener le mandant à accepter une offre plus basse que le prix affiché ; la décision reste au vendeur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Face à un acquéreur ayant fait une offre basse, quel est l'objectif du courtier selon le jeu de rôle « Offre – Acquéreur » ?",
+        "propositions": [
+          "L'amener à produire sa meilleure offre en soulignant les atouts du bien selon ses critères",
+          "Lui dire que l'offre est refusée sans discussion",
+          "Lui révéler le prix plancher fixé par les vendeurs",
+          "Lui proposer de partager la commission"
+        ],
+        "reponse_correcte": "L'amener à produire sa meilleure offre en soulignant les atouts du bien selon ses critères",
+        "explication": "L'objectif est d'amener l'intéressé à faire sa meilleure offre, en découvrant pourquoi il a offert bas et en argumentant dans l'intérêt des mandants. Révéler le prix plancher irait contre les intérêts du vendeur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Quelles informations faut-il transmettre au notaire ?",
+        "propositions": [
+          "Coordonnées des vendeurs et acquéreurs (pièces d'identité, livret de famille, attestation de domicile si permis)",
+          "Prix de vente et éventuels acomptes",
+          "Type de vente (direct, à terme ou promesse)",
+          "Entrée en jouissance",
+          "Cédule (reprise, constitution)",
+          "Liste des autres acheteurs intéressés"
+        ],
+        "reponses_correctes": [
+          "Coordonnées des vendeurs et acquéreurs (pièces d'identité, livret de famille, attestation de domicile si permis)",
+          "Prix de vente et éventuels acomptes",
+          "Type de vente (direct, à terme ou promesse)",
+          "Entrée en jouissance",
+          "Cédule (reprise, constitution)"
+        ],
+        "explication": "Il faut aussi transmettre l'objet de la vente, les documents de l'objet, les éventuelles conditions suspensives, le CECB/OIBT, les assurances privées et les baux si le bien est loué."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Parmi ces documents, lesquels font partie de ce qui doit être transmis au notaire pour un bien loué ?",
+        "propositions": [
+          "Les baux",
+          "La copie des assurances privées",
+          "Le CECB / rapport OIBT",
+          "Les relevés de salaire du vendeur"
+        ],
+        "reponses_correctes": ["Les baux", "La copie des assurances privées", "Le CECB / rapport OIBT"],
+        "explication": "La liste des informations à transmettre au notaire inclut le CECB/OIBT, la copie des assurances privées et les baux si le bien est loué."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Pourquoi le courtier doit-il vérifier l'article 169 CC lors de la vente d'une maison ?",
+        "propositions": [
+          "Parce qu'un époux ne peut pas aliéner le logement de la famille sans le consentement exprès de son conjoint",
+          "Parce que cet article fixe le montant de la commission de courtage",
+          "Parce qu'il impose la forme authentique du mandat de courtage",
+          "Parce qu'il interdit la vente d'un bien loué"
+        ],
+        "reponse_correcte": "Parce qu'un époux ne peut pas aliéner le logement de la famille sans le consentement exprès de son conjoint",
+        "explication": "Art. 169 al. 1 CC : un époux ne peut, sans le consentement exprès de son conjoint, ni résilier le bail, ni aliéner la maison ou l'appartement familial, ni restreindre par d'autres actes juridiques les droits dont dépend le logement de la famille."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Conclusion de la vente",
+      "content": {
+        "enonce": "Selon l'art. 169 al. 2 CC, que peut faire un époux si son conjoint refuse sans motif légitime de consentir à la vente du logement familial ?",
+        "propositions": [
+          "En appeler au juge",
+          "Vendre quand même, le consentement étant présumé",
+          "Demander l'autorisation au notaire",
+          "Demander l'autorisation au registre foncier"
+        ],
+        "reponse_correcte": "En appeler au juge",
+        "explication": "Art. 169 al. 2 CC : s'il n'est pas possible de recueillir ce consentement ou s'il est refusé sans motif légitime, l'époux intéressé peut en appeler au juge."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Qu'est-ce qu'un protocole d'accord (ou réservation) selon le cours ?",
+        "propositions": [
+          "Une convention écrite non notariée, signée par les deux parties, qui fixe leurs volontés",
+          "Un acte authentique qui transfère la propriété",
+          "Une promesse de vente notariée obligatoire",
+          "Un contrat de courtage exclusif"
+        ],
+        "reponse_correcte": "Une convention écrite non notariée, signée par les deux parties, qui fixe leurs volontés",
+        "explication": "Le protocole d'accord ou réservation est une convention écrite non notariée, signée par les deux parties, qui fixe leurs volontés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Un acquéreur a signé une réservation non notariée puis refuse de signer l'acte de vente. Le vendeur peut-il le forcer à acheter ?",
+        "propositions": [
+          "Non, les parties ne peuvent pas être légalement forcées à vendre ou à acheter sur la base d'une telle convention",
+          "Oui, la réservation a la même force qu'un acte authentique",
+          "Oui, si la réservation a été signée devant témoins",
+          "Oui, si un acompte a été versé"
+        ],
+        "reponse_correcte": "Non, les parties ne peuvent pas être légalement forcées à vendre ou à acheter sur la base d'une telle convention",
+        "explication": "Faute de forme authentique, la réservation ne permet pas de contraindre à vendre ou à acheter. Une peine conventionnelle (dédit) peut toutefois être prévue."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue la réservation ferme du simple protocole d'accord dans le cours ?",
+        "propositions": [
+          "Elle donne souvent lieu à un premier versement modeste, gage de bonne foi",
+          "Elle est signée devant notaire",
+          "Elle oblige légalement les parties à conclure la vente",
+          "Elle est inscrite au registre foncier"
+        ],
+        "reponse_correcte": "Elle donne souvent lieu à un premier versement modeste, gage de bonne foi",
+        "explication": "La réservation ferme est aussi une convention écrite non notariée, mais elle donne souvent lieu à un premier versement modeste, gage de bonne foi. Les parties ne peuvent toujours pas être forcées à vendre ou acheter."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Dans la convention de réservation type du cours, l'acquéreur verse CHF 20'000.- et la réservation est conditionnée à l'obtention de son financement. Que se passe-t-il s'il n'obtient pas son financement ?",
+        "propositions": [
+          "Le montant lui est restitué sous déduction de frais de dossier forfaitaires de CHF 2'000.- retenus par le courtier",
+          "Le montant de CHF 20'000.- est entièrement acquis au vendeur",
+          "Le montant lui est restitué intégralement, sans aucune déduction",
+          "Il doit payer CHF 20'000.- supplémentaires à titre de pénalité"
+        ],
+        "reponse_correcte": "Le montant lui est restitué sous déduction de frais de dossier forfaitaires de CHF 2'000.- retenus par le courtier",
+        "explication": "Point 6 de la convention : les CHF 20'000.- valent acompte et sont restitués en cas de non-obtention du financement, sous déduction de CHF 2'000.- de frais de dossier retenus par le courtier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Dans la même convention, l'acquéreur obtient son financement mais renonce à acheter. Qu'advient-il des CHF 20'000.- ?",
+        "propositions": [
+          "Ils valent dédit et sont acquis à titre de peine conventionnelle",
+          "Ils lui sont restitués intégralement",
+          "Ils lui sont restitués sous déduction de CHF 2'000.-",
+          "Ils sont reversés à la banque"
+        ],
+        "reponse_correcte": "Ils valent dédit et sont acquis à titre de peine conventionnelle",
+        "explication": "Point 7 : en cas de renonciation alors que la condition de financement est réalisée, les CHF 20'000.- valent dédit et sont acquis à titre de peine conventionnelle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réservation et protocole d'accord",
+      "content": {
+        "enonce": "Dans la convention de réservation type, à qui l'acquéreur doit-il remettre la confirmation écrite de son financement ?",
+        "propositions": [
+          "Au courtier, d'ici à la date fixée dans la convention",
+          "Au registre foncier",
+          "Au vendeur, le jour de la signature de l'acte",
+          "À l'administration fiscale"
+        ],
+        "reponse_correcte": "Au courtier, d'ici à la date fixée dans la convention",
+        "explication": "Point 5 : l'acquéreur s'engage à constituer un dossier complet auprès de l'établissement financier et à remettre au courtier une confirmation écrite de financement d'ici à la date convenue."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Pourquoi le courtier doit-il obtenir tous les documents et informations disponibles sur le bien à vendre ?",
+        "propositions": [
+          "Pour pouvoir effectuer correctement son mandat de négociateur",
+          "Parce que la loi lui impose de les transmettre au registre foncier",
+          "Pour calculer l'impôt sur le gain immobilier du vendeur",
+          "Uniquement pour satisfaire la banque de l'acheteur"
+        ],
+        "reponse_correcte": "Pour pouvoir effectuer correctement son mandat de négociateur",
+        "explication": "« Pour que le courtier puisse effectuer son mandat de négociateur correctement, il est nécessaire d'obtenir tous les documents et informations disponibles concernant le bien à vendre. »"
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels documents faut-il réunir pour un terrain constructible ?",
+        "propositions": [
+          "Extrait du registre foncier",
+          "Plan cadastral",
+          "Plan de zone de la commune",
+          "Règlement de la police des constructions de la commune",
+          "Police d'assurance incendie du bâtiment"
+        ],
+        "reponses_correctes": [
+          "Extrait du registre foncier",
+          "Plan cadastral",
+          "Plan de zone de la commune",
+          "Règlement de la police des constructions de la commune"
+        ],
+        "explication": "Terrain constructible : extrait RF, détail des servitudes/mentions/annotations/charges foncières, plan cadastral, plan de zone, règlement de police des constructions. Un terrain nu n'a pas de police d'assurance incendie de bâtiment."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quelles informations complémentaires faut-il réunir pour un terrain constructible ?",
+        "propositions": [
+          "Plans de situation, équipement, topographie",
+          "Attestation de site pollué (cadastre des sites pollués) si surveillé et/ou à assainir",
+          "Qualité du sol (étude, sondage, composition, rapport)",
+          "Taux fiscaux (commune et canton)",
+          "Procès-verbaux des assemblées PPE"
+        ],
+        "reponses_correctes": [
+          "Plans de situation, équipement, topographie",
+          "Attestation de site pollué (cadastre des sites pollués) si surveillé et/ou à assainir",
+          "Qualité du sol (étude, sondage, composition, rapport)",
+          "Taux fiscaux (commune et canton)"
+        ],
+        "explication": "S'y ajoutent les guichets cartographiques et les commodités/infrastructures. Les PV PPE concernent les lots en PPE."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels sites le cours cite-t-il comme guichets cartographiques utiles au courtier ?",
+        "propositions": [
+          "sitn.ch, geo.vd.ch, map.geo.fr, vs.ch, ge.ch/sitg",
+          "google.ch, bing.ch, yahoo.ch",
+          "homegate.ch, immoscout24.ch, comparis.ch",
+          "admin.ch, fedlex.admin.ch, bger.ch"
+        ],
+        "reponse_correcte": "sitn.ch, geo.vd.ch, map.geo.fr, vs.ch, ge.ch/sitg",
+        "explication": "Les guichets cartographiques cantonaux (NE, VD, FR, VS, GE) permettent de consulter plans, zones et données du territoire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels documents supplémentaires faut-il pour une maison en propriété individuelle (par rapport à un terrain) ?",
+        "propositions": [
+          "Police d'assurance incendie",
+          "Plans et coupes",
+          "Descriptif de construction",
+          "Factures des charges d'entretien courantes (électricité, eau, chauffage, contrats d'entretien)",
+          "Règlement PPE"
+        ],
+        "reponses_correctes": [
+          "Police d'assurance incendie",
+          "Plans et coupes",
+          "Descriptif de construction",
+          "Factures des charges d'entretien courantes (électricité, eau, chauffage, contrats d'entretien)"
+        ],
+        "explication": "Le règlement PPE ne concerne que les lots en propriété par étages."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels contrôles le cours mentionne-t-il pour une maison individuelle ?",
+        "propositions": [
+          "Contrôle électrique (OIBT)",
+          "Contrôle énergétique (CECB)",
+          "Amiante",
+          "Contrôle du taux hypothécaire"
+        ],
+        "reponses_correctes": ["Contrôle électrique (OIBT)", "Contrôle énergétique (CECB)", "Amiante"],
+        "explication": "Contrôles : électrique (OIBT), énergétique (CECB) et amiante."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Pour un bâtiment classé, quel document le courtier doit-il obtenir ?",
+        "propositions": [
+          "La fiche du recensement des monuments et sites",
+          "Le règlement PPE",
+          "L'état locatif",
+          "Le permis d'habiter"
+        ],
+        "reponse_correcte": "La fiche du recensement des monuments et sites",
+        "explication": "Bâtiment classé → fiche du recensement des monuments et sites."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels documents supplémentaires faut-il réunir pour des lots PPE ?",
+        "propositions": [
+          "Extrait du registre foncier du/des lots PPE",
+          "Règlement PPE",
+          "Plans PPE",
+          "Procès-verbaux des 3 dernières années",
+          "Comptes d'exploitation des 3 dernières années, dont la teneur du fonds de rénovation et le montant des acomptes de charges",
+          "Procès-verbaux des 10 dernières années"
+        ],
+        "reponses_correctes": [
+          "Extrait du registre foncier du/des lots PPE",
+          "Règlement PPE",
+          "Plans PPE",
+          "Procès-verbaux des 3 dernières années",
+          "Comptes d'exploitation des 3 dernières années, dont la teneur du fonds de rénovation et le montant des acomptes de charges"
+        ],
+        "explication": "Pour des lots PPE : extrait RF, règlement, plans, PV et comptes des 3 dernières années, éventuel bail à loyer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Sur combien d'années le courtier doit-il réunir les procès-verbaux et comptes d'exploitation d'une PPE ?",
+        "propositions": ["3 ans", "1 an", "5 ans", "10 ans"],
+        "reponse_correcte": "3 ans",
+        "explication": "Le cours demande les procès-verbaux et les comptes d'exploitation des 3 dernières années."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Pour un lot PPE précédemment loué, quel document faut-il obtenir ?",
+        "propositions": [
+          "La copie du bail à loyer",
+          "Le contrat de travail du concierge",
+          "Le permis de construire",
+          "Le budget de travaux du promoteur"
+        ],
+        "reponse_correcte": "La copie du bail à loyer",
+        "explication": "Lot précédemment loué ? Si oui → copie du bail à loyer."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Quels documents supplémentaires faut-il pour un immeuble de rendement ?",
+        "propositions": [
+          "Polices d'assurance du bâtiment (bâtiment, incendie)",
+          "Contrats d'entretien",
+          "Contrats de travail éventuels (concierge)",
+          "État locatif actuel",
+          "Baux à loyer",
+          "Règlement PPE"
+        ],
+        "reponses_correctes": [
+          "Polices d'assurance du bâtiment (bâtiment, incendie)",
+          "Contrats d'entretien",
+          "Contrats de travail éventuels (concierge)",
+          "État locatif actuel",
+          "Baux à loyer"
+        ],
+        "explication": "Immeuble de rendement : assurances, contrats d'entretien, contrats de travail (concierge), état locatif, baux. Il faut aussi les coordonnées du concierge et des locataires disponibles pour les visites."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Pour un immeuble de rendement, quelle information pratique le courtier doit-il obtenir pour les visites ?",
+        "propositions": [
+          "Les coordonnées du concierge et des locataires disponibles (coopératifs et sans revendications)",
+          "Le revenu imposable de chaque locataire",
+          "La liste des anciens propriétaires depuis la construction",
+          "Les horaires d'ouverture du registre foncier"
+        ],
+        "reponse_correcte": "Les coordonnées du concierge et des locataires disponibles (coopératifs et sans revendications)",
+        "explication": "Informations en plus pour un immeuble de rendement : coordonnées du concierge et locataires disponibles (coopératifs et sans revendications)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Selon la liste « Documents à réunir », quels documents sont impératifs pour tous les types de biens (terrain, villa, appartement, local, immeuble, promotion) ?",
+        "propositions": [
+          "Extrait du registre foncier (RF)",
+          "Plans",
+          "Plan de situation",
+          "Police ECA",
+          "CECB"
+        ],
+        "reponses_correctes": ["Extrait du registre foncier (RF)", "Plans", "Plan de situation"],
+        "explication": "RF, plans et plan de situation sont impératifs pour tous les biens. L'ECA n'est pas requise pour un terrain ni pour une promotion ; le CECB n'est pas requis pour un terrain."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Où le courtier peut-il obtenir la police ECA d'un bien selon la liste du cours ?",
+        "propositions": [
+          "Auprès du propriétaire ou de l'agence ECA de la région, avec procuration",
+          "Sur le site internet du registre foncier",
+          "Sur le Geoplanet du canton",
+          "Auprès de la commune uniquement"
+        ],
+        "reponse_correcte": "Auprès du propriétaire ou de l'agence ECA de la région, avec procuration",
+        "explication": "ECA : propriétaire ou agence ECA de la région avec procuration. Le RF s'obtient sur le site du RF (code d'accès), le plan de situation sur le Geoplanet du canton."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Où trouve-t-on le plan de situation selon la liste « Documents à réunir » ?",
+        "propositions": [
+          "Sur le Geoplanet du canton",
+          "Auprès de l'administrateur PPE",
+          "Auprès de la gérance",
+          "Auprès de l'agence ECA"
+        ],
+        "reponse_correcte": "Sur le Geoplanet du canton",
+        "explication": "Le plan de situation s'obtient sur le Geoplanet (guichet cartographique) du canton."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents et informations essentiels",
+      "content": {
+        "enonce": "Qui fournit en général les comptes et les PV d'une PPE ?",
+        "propositions": [
+          "Le propriétaire ou l'administrateur PPE",
+          "La commune",
+          "Le registre foncier",
+          "L'agence ECA"
+        ],
+        "reponse_correcte": "Le propriétaire ou l'administrateur PPE",
+        "explication": "Comptes PPE et PV PPE : propriétaire ou administrateur PPE. Le règlement PPE peut aussi être obtenu sur le site du RF."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Que prévoit l'art. 414 CO lorsque la rémunération du courtier n'a pas été déterminée ?",
+        "propositions": [
+          "S'il existe un tarif, le salaire qui y est prévu est dû ; à défaut de tarif, le salaire usuel est réputé convenu",
+          "Le courtier n'a droit à aucune rémunération",
+          "Le juge fixe librement la rémunération selon le temps passé",
+          "La rémunération est fixée à 3 % du prix de vente"
+        ],
+        "reponse_correcte": "S'il existe un tarif, le salaire qui y est prévu est dû ; à défaut de tarif, le salaire usuel est réputé convenu",
+        "explication": "Art. 414 CO : la rémunération non déterminée est le salaire prévu par le tarif s'il en existe un ; à défaut, le salaire usuel est réputé convenu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Pourquoi la pratique préfère-t-elle les termes « provision » ou « commission » au terme « salaire » utilisé par le Code ?",
+        "propositions": [
+          "Parce qu'ils font ressortir que la rémunération dépend du montant de l'affaire et non de l'importance des efforts consacrés",
+          "Parce que le courtier est un employé du vendeur",
+          "Parce que la commission est exonérée d'impôt",
+          "Parce que le terme « salaire » est interdit par la loi"
+        ],
+        "reponse_correcte": "Parce qu'ils font ressortir que la rémunération dépend du montant de l'affaire et non de l'importance des efforts consacrés",
+        "explication": "La rémunération du courtier est généralement fixée en fonction du montant de l'affaire et non des efforts : « Résultat et non quantité de travail ! »"
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue le courtier des avocats, notaires, architectes ou fiduciaires, qui sont aussi des mandataires ?",
+        "propositions": [
+          "Il n'est pas rémunéré si l'affaire ne se conclut pas",
+          "Il est payé à l'heure",
+          "Il est rémunéré par l'État",
+          "Il est toujours payé d'avance"
+        ],
+        "reponse_correcte": "Il n'est pas rémunéré si l'affaire ne se conclut pas",
+        "explication": "C'est presque l'un des seuls métiers non rémunérés si l'affaire ne se conclut pas : le mandant rémunère uniquement le succès du courtier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Un courtier bénéficie d'un mandat exclusif. Peut-il collaborer avec d'autres courtiers ?",
+        "propositions": [
+          "Oui, mais sous sa responsabilité, et c'est lui qui les rémunère",
+          "Non, l'exclusivité lui interdit toute collaboration",
+          "Oui, et c'est le vendeur qui rémunère chaque courtier séparément",
+          "Oui, à condition que le notaire l'autorise"
+        ],
+        "reponse_correcte": "Oui, mais sous sa responsabilité, et c'est lui qui les rémunère",
+        "explication": "Un mandat exclusif ne signifie pas que le courtier travaille seul. Il peut collaborer avec d'autres courtiers ou des tiers, sous sa responsabilité et en étant chargé de les rémunérer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Quand les règles de partage de la commission entre courtiers doivent-elles être fixées ?",
+        "propositions": [
+          "Au début des négociations, et confirmées par écrit",
+          "Après la signature de l'acte de vente",
+          "Au moment du paiement de la commission",
+          "Il n'est pas nécessaire de les fixer : le partage est toujours 50/50"
+        ],
+        "reponse_correcte": "Au début des négociations, et confirmées par écrit",
+        "explication": "Sauf rapport de confiance très élevé, il est indispensable de définir les règles de partage de commission au début des négociations et de les confirmer par écrit. La répartition se fait souvent selon le travail réalisé, mais tout autre accord est possible."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Quelles affirmations sur le remboursement des frais du courtier sont correctes ?",
+        "propositions": [
+          "Le contrat peut prévoir le remboursement des frais, dissocié de la rémunération liée au succès",
+          "Cette indemnité ne couvre qu'une petite partie des frais réellement engagés (ex. : publicité)",
+          "Elle ne couvre pas les frais liés à l'activité propre du courtier (heures de travail, logistique)",
+          "Les frais sont toujours remboursés intégralement par le mandant, même sans clause"
+        ],
+        "reponses_correctes": [
+          "Le contrat peut prévoir le remboursement des frais, dissocié de la rémunération liée au succès",
+          "Cette indemnité ne couvre qu'une petite partie des frais réellement engagés (ex. : publicité)",
+          "Elle ne couvre pas les frais liés à l'activité propre du courtier (heures de travail, logistique)"
+        ],
+        "explication": "Le remboursement des frais doit être prévu par le contrat. Il ne couvre qu'une partie des frais réels (publicité), pas le travail du courtier."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Comment le tarif du courtage peut-il être fixé ?",
+        "propositions": [
+          "En % du prix de vente effectif",
+          "Par un montant forfaitaire convenu à l'avance (non lié au prix de vente effectif)",
+          "Au tarif horaire du temps passé uniquement",
+          "Par le registre foncier"
+        ],
+        "reponses_correctes": [
+          "En % du prix de vente effectif",
+          "Par un montant forfaitaire convenu à l'avance (non lié au prix de vente effectif)"
+        ],
+        "explication": "Le tarif du courtage est fixé soit en % du prix de vente effectif, soit par un forfait convenu à l'avance."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Quels facteurs peuvent influencer le tarif de courtage ?",
+        "propositions": [
+          "Le montant de la transaction",
+          "La fidélité du client",
+          "Le volume des transactions",
+          "Les disparités géographiques",
+          "La nationalité du vendeur"
+        ],
+        "reponses_correctes": [
+          "Le montant de la transaction",
+          "La fidélité du client",
+          "Le volume des transactions",
+          "Les disparités géographiques"
+        ],
+        "explication": "Le tarif dépend du montant de la transaction, de la fidélité du client, du volume des transactions et des disparités géographiques."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Pourquoi la commission « par opération » doit-elle être suffisante ?",
+        "propositions": [
+          "Parce qu'elle doit couvrir les frais généraux du bureau et compenser les échecs rencontrés sur d'autres opérations",
+          "Parce qu'elle sert à payer les frais de notaire de l'acheteur",
+          "Parce qu'elle est entièrement reversée à l'USPI",
+          "Parce qu'elle remplace l'impôt sur le gain immobilier"
+        ],
+        "reponse_correcte": "Parce qu'elle doit couvrir les frais généraux du bureau et compenser les échecs rencontrés sur d'autres opérations",
+        "explication": "La commission doit couvrir les frais généraux et de fonctionnement (salaires, loyers…) et, le salaire du courtier étant aléatoire, compenser les échecs sur d'autres opérations pour assurer la pérennité du bureau."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Commission de courtage",
+      "content": {
+        "enonce": "Pourquoi le salaire du courtier est-il qualifié d'aléatoire ?",
+        "propositions": [
+          "Parce que, malgré le travail effectué, des éléments indépendants de sa volonté peuvent empêcher la conclusion du contrat principal",
+          "Parce que son montant est tiré au sort",
+          "Parce que le vendeur peut choisir de ne pas le payer après la vente",
+          "Parce qu'il varie selon le nombre de visites"
+        ],
+        "reponse_correcte": "Parce que, malgré le travail effectué, des éléments indépendants de sa volonté peuvent empêcher la conclusion du contrat principal",
+        "explication": "Plusieurs éléments indépendants de la volonté du courtier peuvent empêcher l'aboutissement du contrat principal, auquel cas il n'est pas rémunéré."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Quelles sont les deux formes de réseau présentées dans le cours ?",
+        "propositions": [
+          "Réel et virtuel",
+          "Public et privé",
+          "Local et international",
+          "Payant et gratuit"
+        ],
+        "reponse_correcte": "Réel et virtuel",
+        "explication": "Réseau réel : réunions, workshops, manifestations. Réseau virtuel : réseaux sociaux (LinkedIn, Facebook, Twitter…)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Lesquels de ces exemples relèvent du réseau « réel » ?",
+        "propositions": ["Réunions", "Workshops", "Manifestations", "LinkedIn", "Facebook"],
+        "reponses_correctes": ["Réunions", "Workshops", "Manifestations"],
+        "explication": "LinkedIn et Facebook sont des réseaux virtuels."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Quelles sont les trois composantes d'un réseau selon le cours ?",
+        "propositions": [
+          "Professionnel, associatif et privé",
+          "Réel, virtuel et mixte",
+          "Local, cantonal et fédéral",
+          "Clients, fournisseurs et concurrents"
+        ],
+        "reponse_correcte": "Professionnel, associatif et privé",
+        "explication": "Professionnel (courtiers, gérants, experts, acteurs de l'immobilier, autres métiers), associatif (sport, professionnel, culturel), privé (famille, amis, proches)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Un courtier fait partie d'un club de sport. À quelle composante de son réseau cela correspond-il ?",
+        "propositions": ["Associatif", "Professionnel", "Privé", "Virtuel"],
+        "reponse_correcte": "Associatif",
+        "explication": "Le réseau associatif comprend les associations sportives, professionnelles et culturelles."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Quels sont les buts et avantages du réseautage selon le cours ?",
+        "propositions": [
+          "Développer son entreprise (apport et échange de compétences, opportunités d'affaires)",
+          "Pérenniser son nom et son chiffre d'affaires",
+          "Créer un climat de confiance entre les protagonistes",
+          "Amener de la culture et des connaissances",
+          "Éviter de devoir partager les commissions"
+        ],
+        "reponses_correctes": [
+          "Développer son entreprise (apport et échange de compétences, opportunités d'affaires)",
+          "Pérenniser son nom et son chiffre d'affaires",
+          "Créer un climat de confiance entre les protagonistes",
+          "Amener de la culture et des connaissances"
+        ],
+        "explication": "Le réseau développe l'entreprise, crée la confiance et apporte culture et connaissances : en un mot, des synergies."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Réseau du courtier",
+      "content": {
+        "enonce": "Quel mot résume, selon le cours, l'ensemble des avantages du réseau ?",
+        "propositions": ["Synergies", "Exclusivité", "Rentabilité", "Indépendance"],
+        "reponse_correcte": "Synergies",
+        "explication": "Le cours conclut la présentation des avantages du réseau par : → Synergies."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Que régit la LFAIE ?",
+        "propositions": [
+          "L'acquisition d'immeubles par des personnes à l'étranger",
+          "Les résidences secondaires",
+          "Le droit foncier rural",
+          "L'aménagement du territoire"
+        ],
+        "reponse_correcte": "L'acquisition d'immeubles par des personnes à l'étranger",
+        "explication": "LFAIE (1983) : loi fédérale sur l'acquisition d'immeubles par des personnes à l'étranger."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Quelle loi fédérale de 2015 concerne les résidences secondaires ?",
+        "propositions": ["LRS", "LAT", "LDFR", "LCAP"],
+        "reponse_correcte": "LRS",
+        "explication": "LRS (2015) : loi fédérale sur les résidences secondaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Que signifie LAT ?",
+        "propositions": [
+          "Loi sur l'aménagement du territoire",
+          "Loi sur l'acquisition de terrains",
+          "Loi sur l'aliénation des terrains",
+          "Loi sur les affectations territoriales"
+        ],
+        "reponse_correcte": "Loi sur l'aménagement du territoire",
+        "explication": "LAT (1979) : loi fédérale sur l'aménagement du territoire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Quelle loi fédérale régit le droit foncier rural ?",
+        "propositions": ["LDFR", "LFAIE", "LBFA", "LPN"],
+        "reponse_correcte": "LDFR",
+        "explication": "LDFR (1991) : loi sur le droit foncier rural. La LBFA concerne le bail à ferme agricole."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Lesquels de ces textes sont des actes fédéraux cités dans le cours ?",
+        "propositions": [
+          "ORF : ordonnance sur le registre foncier",
+          "OBLF : ordonnance sur le bail à loyer et le bail à ferme d'habitations et de locaux commerciaux",
+          "LPN : loi sur la protection de la nature et du paysage",
+          "LATC : loi sur l'aménagement du territoire et les constructions",
+          "LDTR : loi sur les démolitions, transformations et rénovations"
+        ],
+        "reponses_correctes": [
+          "ORF : ordonnance sur le registre foncier",
+          "OBLF : ordonnance sur le bail à loyer et le bail à ferme d'habitations et de locaux commerciaux",
+          "LPN : loi sur la protection de la nature et du paysage"
+        ],
+        "explication": "ORF, OBLF et LPN sont fédérales. La LATC est vaudoise ; la LDTR est cantonale (Vaud et Genève)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Que régit la LCAP (1974) ?",
+        "propositions": [
+          "L'encouragement à la construction et à l'accession à la propriété de logements",
+          "Le contrôle des acquisitions par les personnes à l'étranger",
+          "La protection de la nature et du paysage",
+          "Le bail à ferme agricole"
+        ],
+        "reponse_correcte": "L'encouragement à la construction et à l'accession à la propriété de logements",
+        "explication": "LCAP (1974) : loi fédérale encourageant la construction et l'accession à la propriété de logements."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Dans le canton de Vaud, quelle loi régit l'aménagement du territoire et les constructions ?",
+        "propositions": ["LATC", "LCAT", "LaLAT", "LATeC"],
+        "reponse_correcte": "LATC",
+        "explication": "Vaud : LATC (1985). LCAT est neuchâteloise, LaLAT genevoise, LATeC fribourgeoise."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Dans le canton de Vaud, quelle loi de 2018 a remplacé/modifié la LAAL et la LDTR ?",
+        "propositions": [
+          "LPPPL : loi sur la préservation et la promotion du parc locatif",
+          "LL : loi sur le logement",
+          "RULV : règles et usages locatifs du canton de Vaud",
+          "LVLEne : loi sur l'énergie"
+        ],
+        "reponse_correcte": "LPPPL : loi sur la préservation et la promotion du parc locatif",
+        "explication": "La LPPPL (2018) a modifié la LAAL (aliénation d'appartements loués) et la LDTR (démolition, transformation et rénovation de maisons)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Que régissait la LAAL vaudoise (1989) ?",
+        "propositions": [
+          "L'aliénation d'appartements loués",
+          "L'aménagement du territoire",
+          "L'acquisition d'immeubles par des étrangers",
+          "Les assurances des bâtiments"
+        ],
+        "reponse_correcte": "L'aliénation d'appartements loués",
+        "explication": "LAAL (1989) : loi sur l'aliénation d'appartements loués, modifiée par la LPPPL (2018)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Que sont les RULV dans le canton de Vaud ?",
+        "propositions": [
+          "Les règles et usages locatifs du canton de Vaud",
+          "Le règlement d'urbanisme de Lausanne",
+          "Le registre unique des logements vaudois",
+          "Le règlement sur l'utilisation des locaux vacants"
+        ],
+        "reponse_correcte": "Les règles et usages locatifs du canton de Vaud",
+        "explication": "RULV (2008) : règles et usages locatifs du canton de Vaud."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Dans quel canton se trouve la LVAL, loi limitant la mise en vente d'appartements loués ?",
+        "propositions": ["Neuchâtel", "Vaud", "Genève", "Fribourg"],
+        "reponse_correcte": "Neuchâtel",
+        "explication": "Neuchâtel : LVAL (1989), loi limitant la mise en vente d'appartements loués. L'équivalent vaudois était la LAAL."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "La LDTR genevoise (1996) porte sur :",
+        "propositions": [
+          "Les démolitions, transformations et rénovations de maisons d'habitation",
+          "Le droit de timbre sur les transactions",
+          "La délimitation des terrains à bâtir",
+          "Le droit transitoire du registre foncier"
+        ],
+        "reponse_correcte": "Les démolitions, transformations et rénovations de maisons d'habitation",
+        "explication": "Genève : LDTR (1996), loi sur les démolitions, transformations et rénovations de maisons d'habitation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Dans le canton de Fribourg, quelle loi régit l'aménagement du territoire et les constructions ?",
+        "propositions": ["LATeC", "LATC", "LCAT", "LCI"],
+        "reponse_correcte": "LATeC",
+        "explication": "Fribourg : LATeC (2008). LATC est vaudoise, LCAT neuchâteloise, LCI genevoise (constructions et installations diverses)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Lois spécifiques à l'immobilier",
+      "content": {
+        "enonce": "Au-delà des lois, quelles autres sources le courtier doit-il consulter selon le cours ?",
+        "propositions": [
+          "Les ordonnances, la jurisprudence, ainsi que les règlements et arrêtés cantonaux",
+          "Uniquement le Code civil",
+          "Les seules recommandations des banques",
+          "Les sites d'annonces immobilières"
+        ],
+        "reponse_correcte": "Les ordonnances, la jurisprudence, ainsi que les règlements et arrêtés cantonaux",
+        "explication": "Le cours insiste : « Ordonnances et jurisprudences ! » au niveau fédéral, et « Règlements + arrêtés ! » au niveau cantonal."
+      }
+    }
+  ]
+}
