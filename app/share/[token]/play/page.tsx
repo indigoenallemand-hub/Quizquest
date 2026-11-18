@@ -6,6 +6,7 @@ import { buildCarouselChapters, flattenChapters } from "@/lib/carousel-data";
 import { getGlobalPoints } from "@/lib/points";
 import { getGuestLeaderboard } from "@/lib/guest-leaderboard";
 import { buildThemeStyle, buildLevel2Style } from "@/lib/quiz-theme-style";
+import ExamLauncher from "@/components/ExamLauncher";
 import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
 import GuestLeaderboard from "@/components/GuestLeaderboard";
@@ -99,6 +100,8 @@ export default async function SharedQuizPlayPage({
           />
         )}
       </div>
+
+      {chapters.length > 0 && <ExamLauncher href={`/share/${token}/session?mode=EXAM`} />}
 
       {leaderboard.length > 0 && (
         <div className="mt-6">

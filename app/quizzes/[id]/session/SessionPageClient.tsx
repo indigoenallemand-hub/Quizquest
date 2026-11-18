@@ -14,11 +14,14 @@ export default function SessionPageClient({
 }) {
   const { id: quizId } = use(params);
   const { mode: modeParam, themeId, section, count, missed, points, grid } = use(searchParams);
-  const mode = modeParam === "QCM" || modeParam === "REPONSE_LIBRE" ? modeParam : "ENTRAINEMENT";
+  // mode=EXAM is "LE TEST": graded like a QCM session, see QuizSession's `exam`.
+  const exam = modeParam === "EXAM";
+  const mode = exam ? "QCM" : modeParam === "QCM" || modeParam === "REPONSE_LIBRE" ? modeParam : "ENTRAINEMENT";
   const onlyMissed = mode === "ENTRAINEMENT" && missed === "1";
 
   const questionsParams = new URLSearchParams();
-  if (themeId) questionsParams.set("themeId", themeId);
+  if (exam) questionsParams.set("exam", "1");
+  else if (themeId) questionsParams.set("themeId", themeId);
   if (onlyMissed) questionsParams.set("status", "1");
   const questionsUrl = `/api/quizzes/${quizId}/questions${questionsParams.size ? `?${questionsParams.toString()}` : ""}`;
   const backParams = new URLSearchParams();
@@ -36,6 +39,8 @@ export default function SessionPageClient({
       section={section}
       count={count ? Number(count) : undefined}
       onlyMissed={onlyMissed}
+      exam={exam}
+      allowComment={!exam}
       quizId={isOwner ? quizId : undefined}
     />
   );

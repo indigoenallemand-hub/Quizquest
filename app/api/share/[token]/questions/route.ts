@@ -3,12 +3,15 @@ import { prisma } from "@/lib/prisma";
 import { getPublicView } from "@/lib/question-resolver";
 import { readGuestAccess } from "@/lib/guest-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
+import { drawExamQuestions } from "@/lib/exam";
 
 export async function GET(request: Request, { params }: { params: Promise<{ token: string }> }) {
   const { token } = await params;
   const searchParams = new URL(request.url).searchParams;
   const themeId = searchParams.get("themeId");
   const withStatus = searchParams.get("status") === "1";
+  // ?exam=1: "LE TEST", a weighted random draw across every enabled chapter.
+  const exam = searchParams.get("exam") === "1";
 
   const link = await prisma.guestAccess.findUnique({
     where: { token },
@@ -20,6 +23,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ toke
             where: { enabled: true },
             orderBy: { order: "asc" },
             select: {
+              parentThemeId: true,
               theme: {
                 select: {
                   id: true,
@@ -37,6 +41,18 @@ export async function GET(request: Request, { params }: { params: Promise<{ toke
 
   const guestAccessId = await readGuestAccess(token);
   if (!guestAccessId) return NextResponse.json({ error: "Accès expiré." }, { status: 401 });
+
+  if (exam) {
+    const drawn = drawExamQuestions(
+      link.quiz.themes.map(({ parentThemeId, theme }) => ({
+        themeId: theme.id,
+        title: theme.title,
+        parentThemeId,
+        questions: theme.questions,
+      }))
+    );
+    return NextResponse.json({ themes: [{ id: "exam", title: "LE TEST", questions: drawn.map((q) => getPublicView(q)) }] });
+  }
 
   const selectedThemes = themeId ? link.quiz.themes.filter((t) => t.theme.id === themeId) : link.quiz.themes;
 

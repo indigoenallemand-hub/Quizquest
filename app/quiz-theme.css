@@ -659,3 +659,14 @@
 .qz-timer-pill { font-variant-numeric: tabular-nums; }
 .qz-timer-pill.is-urgent { background: var(--qz-error-light); color: var(--qz-error); animation: qz-timer-pulse 1s ease-in-out infinite; }
 @keyframes qz-timer-pulse { 50% { opacity: 0.6; } }
+
+/* ── "LE TEST" launcher, under the chapter carousel ── */
+.qz-exam-launcher {
+  display: flex; flex-direction: column; align-items: center; gap: 0.875rem;
+  width: 100%; max-width: 480px; margin: 2rem auto 0; padding: 1.25rem 1.5rem;
+  background: var(--qz-card); border: 2px solid var(--qz-primary); border-radius: var(--qz-radius);
+  box-shadow: var(--qz-shadow-md); text-align: center;
+}
+.qz-exam-launcher-title { display: block; color: var(--qz-primary); font-size: 1.125rem; letter-spacing: 0.06em; }
+.qz-exam-launcher-text { margin: 0.25rem 0 0; color: var(--qz-muted); font-size: 0.875rem; line-height: 1.5; }
+.qz-exam-launcher-btn { display: inline-block; width: auto; padding-left: 2rem; padding-right: 2rem; }

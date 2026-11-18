@@ -11,6 +11,7 @@ import QuizCarousel from "@/components/QuizCarousel";
 import PointsSummary from "@/components/PointsSummary";
 import GuestLeaderboard from "@/components/GuestLeaderboard";
 import ShareSection from "@/components/ShareSection";
+import ExamLauncher from "@/components/ExamLauncher";
 
 export default async function QuizDetailPage({
   params,
@@ -86,6 +87,8 @@ export default async function QuizDetailPage({
           />
         )}
       </div>
+
+      {chapters.length > 0 && <ExamLauncher href={`/quizzes/${quiz.id}/session?mode=EXAM`} />}
 
       {isOwner && leaderboard.length > 0 && (
         <div className="mt-6">

@@ -4,8 +4,18 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Calculator from "@/components/Calculator";
 import type { QuestionStatus } from "@/lib/status-summary";
+import { EXAM_DURATION_MS, swissGrade } from "@/lib/exam";
 
 const LABELS = ["A", "B", "C", "D", "E", "F", "G", "H"];
+
+// h:mm:ss above an hour, m:ss below.
+function formatDuration(totalSeconds: number): string {
+  const s = Math.max(0, Math.round(totalSeconds));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = String(s % 60).padStart(2, "0");
+  return h > 0 ? `${h}:${String(m).padStart(2, "0")}:${sec}` : `${m}:${sec}`;
+}
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -64,6 +74,7 @@ export default function QuizSession({
   allowComment = true,
   onComplete,
   deadline,
+  exam = false,
 }: {
   mode: Mode;
   questionsUrl: string;
@@ -83,6 +94,10 @@ export default function QuizSession({
   // Epoch ms at which the series ends on its own (duel rounds): shown as a
   // countdown, and reaching it ends the series like answering the last question.
   deadline?: number;
+  // "LE TEST": no correction between questions (answering moves straight on),
+  // a 3-hour countdown starting once the questions are loaded, the average
+  // time per answer, and a Swiss grade (1-6) on the result screen.
+  exam?: boolean;
 }) {
   const [sessionId] = useState(() => (mode === "ENTRAINEMENT" ? undefined : crypto.randomUUID()));
   const [questions, setQuestions] = useState<PublicQuestion[] | null>(null);
@@ -94,6 +109,9 @@ export default function QuizSession({
   const [earnedBadges, setEarnedBadges] = useState<string[]>([]);
   const [answers, setAnswers] = useState<AnsweredRecord[]>([]);
   const [showReview, setShowReview] = useState(false);
+  const [startedAt, setStartedAt] = useState<number | null>(null);
+  const [endedAt, setEndedAt] = useState<number | null>(null);
+  const [endedEarly, setEndedEarly] = useState(false);
 
   const [selectedSingle, setSelectedSingle] = useState("");
   const [selectedMultiple, setSelectedMultiple] = useState<string[]>([]);
@@ -118,6 +136,7 @@ export default function QuizSession({
         if (count) pool = pool.slice(0, count);
         setQuestions(pool);
         setLoading(false);
+        setStartedAt(Date.now());
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionsUrl]);
@@ -149,19 +168,34 @@ export default function QuizSession({
     submitAnswer({ order: orderItems }, orderItems.map((el, i) => `${i + 1}. ${el}`).join(" ; "));
   }
 
+  const effectiveDeadline = deadline ?? (exam && startedAt !== null ? startedAt + EXAM_DURATION_MS : undefined);
   const [now, setNow] = useState(() => Date.now());
   useEffect(() => {
-    if (deadline === undefined) return;
+    // endedAt is set when the test is handed in: the clock stops there.
+    if (effectiveDeadline === undefined || endedAt !== null) return;
     const timer = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(timer);
-  }, [deadline]);
-  const secondsLeft = deadline === undefined ? null : Math.max(0, Math.ceil((deadline - now) / 1000));
+  }, [effectiveDeadline, endedAt]);
+  const secondsLeft = effectiveDeadline === undefined ? null : Math.max(0, Math.ceil((effectiveDeadline - now) / 1000));
 
-  const finished = (!!questions && index >= questions.length) || secondsLeft === 0;
+  const finished = (!!questions && index >= questions.length) || secondsLeft === 0 || endedEarly;
   useEffect(() => {
     if (finished && onComplete) onComplete();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [finished]);
+
+  // Leaving the page mid-test loses it: ask the browser to confirm.
+  useEffect(() => {
+    if (!exam || finished || !questions) return;
+    const onBeforeUnload = (e: BeforeUnloadEvent) => e.preventDefault();
+    window.addEventListener("beforeunload", onBeforeUnload);
+    return () => window.removeEventListener("beforeunload", onBeforeUnload);
+  }, [exam, finished, questions]);
+
+  const timedOut = endedAt === null && secondsLeft === 0;
+  const endTime = endedAt ?? (timedOut && effectiveDeadline !== undefined ? effectiveDeadline : now);
+  const elapsedSeconds = startedAt === null ? 0 : Math.max(0, (endTime - startedAt) / 1000);
+  const averageSeconds = answers.length > 0 ? elapsedSeconds / answers.length : null;
 
   function resetAnswerState() {
     setSelectedSingle("");
@@ -197,7 +231,7 @@ export default function QuizSession({
     });
     const data: AttemptResult = await res.json();
     setSubmitting(false);
-    setResult(data);
+    if (!exam) setResult(data);
     if (data.isCorrect) setScore((s) => s + 1);
     if (data.newlyEarnedBadges?.length) {
       setEarnedBadges((prev) => [...prev, ...data.newlyEarnedBadges!]);
@@ -211,6 +245,8 @@ export default function QuizSession({
         isCorrect: data.isCorrect,
       },
     ]);
+    // In the test, answering moves straight on: corrections come at the end.
+    if (exam) next();
   }
 
   function selectSingle(proposition: string) {
@@ -291,6 +327,7 @@ export default function QuizSession({
   }
 
   function next() {
+    if (exam && questions && index + 1 >= questions.length) setEndedAt(Date.now());
     resetAnswerState();
     setIndex((i) => i + 1);
   }
@@ -298,6 +335,93 @@ export default function QuizSession({
   if (loading || (finished && onComplete)) return <div className="qz-quiz-screen px-6 py-10">Chargement...</div>;
   if (!questions || questions.length === 0) {
     return <div className="qz-quiz-screen px-6 py-10">Aucune question disponible.</div>;
+  }
+
+  if (exam && finished) {
+    const total = questions.length;
+    const grade = swissGrade(score, total);
+    const halfGrade = Math.round(grade * 2) / 2;
+    const passed = grade >= 4;
+    const unanswered = total - answers.length;
+    const wrongAnswers = answers.filter((a) => !a.isCorrect);
+    const gradeColor = grade >= 5 ? "var(--qz-success)" : passed ? "var(--qz-warning)" : "var(--qz-error)";
+
+    return (
+      <div className="qz-quiz-screen px-6 py-10">
+        <div className="qz-result-card">
+          <div className="qz-result-emoji">{passed ? "🎓" : "📝"}</div>
+          <h1 className="qz-result-title">{timedOut ? "Temps ecoule !" : "Test termine !"}</h1>
+
+          <div className="qz-score-display" style={{ color: gradeColor }}>
+            <span className="qz-score-fraction">Note : {grade.toFixed(2)}</span>
+            <span className="qz-score-percent">
+              Arrondie au demi-point : {halfGrade.toFixed(1)} · {passed ? "Reussi" : "Echoue"}
+            </span>
+          </div>
+
+          <p className="qz-result-message">
+            {score} bonne(s) reponse(s) sur {total} questions : note = {score} / {total} x 5 + 1
+          </p>
+
+          <div className="qz-result-progress">
+            <div className="qz-result-progress-fill" style={{ width: `${((grade - 1) / 5) * 100}%`, background: gradeColor }} />
+          </div>
+
+          <div className="qz-result-stats">
+            <div className="qz-stat qz-stat-correct">
+              <span className="qz-stat-value">{score}</span>
+              <span className="qz-stat-label">Bonnes reponses</span>
+            </div>
+            <div className="qz-stat qz-stat-wrong">
+              <span className="qz-stat-value">{wrongAnswers.length}</span>
+              <span className="qz-stat-label">Mauvaises reponses</span>
+            </div>
+            {unanswered > 0 && (
+              <div className="qz-stat">
+                <span className="qz-stat-value">{unanswered}</span>
+                <span className="qz-stat-label">Sans reponse</span>
+              </div>
+            )}
+          </div>
+
+          <div className="qz-result-stats">
+            <div className="qz-stat">
+              <span className="qz-stat-value">{formatDuration(elapsedSeconds)}</span>
+              <span className="qz-stat-label">Temps utilise (max 3:00:00)</span>
+            </div>
+            <div className="qz-stat">
+              <span className="qz-stat-value">{averageSeconds === null ? "-" : formatDuration(averageSeconds)}</span>
+              <span className="qz-stat-label">Temps moyen par question</span>
+            </div>
+          </div>
+
+          {wrongAnswers.length > 0 && (
+            <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1rem" }}>
+              <button type="button" className="qz-btn-secondary" onClick={() => setShowReview((v) => !v)}>
+                {showReview ? "Masquer" : "Revoir"} les {wrongAnswers.length} mauvaises reponses
+              </button>
+              {showReview && (
+                <div className="qz-review-list">
+                  {wrongAnswers.map((a, i) => (
+                    <div key={i} className="qz-review-item">
+                      <p className="qz-review-question">
+                        {i + 1}. {a.question}
+                      </p>
+                      <p className="qz-review-wrong">Reponse donnee : {a.selectedText || "(pas de reponse)"}</p>
+                      <p className="qz-review-correct">Bonne reponse : {a.correctText}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          <Link href={backHref} className="qz-btn-primary">
+            Retour au quiz
+          </Link>
+        </div>
+      </div>
+    );
   }
 
   if (index >= questions.length) {
@@ -393,11 +517,28 @@ export default function QuizSession({
           </span>
           <div className="qz-header-right">
             {secondsLeft !== null && (
-              <span className={`qz-score-pill qz-timer-pill ${secondsLeft <= 60 ? "is-urgent" : ""}`}>
-                ⏱ {Math.floor(secondsLeft / 60)}:{String(secondsLeft % 60).padStart(2, "0")}
+              <span
+                className={`qz-score-pill qz-timer-pill ${secondsLeft <= (exam ? 600 : 60) ? "is-urgent" : ""}`}
+                title="Temps restant"
+              >
+                ⏱ {formatDuration(secondsLeft)}
               </span>
             )}
-            <span className="qz-score-pill">Score : {score}</span>
+            {exam ? (
+              <span className="qz-score-pill" title="Temps moyen par question repondue">
+                Moy. {averageSeconds === null ? "-" : formatDuration(averageSeconds)} / question
+              </span>
+            ) : (
+              <span className="qz-score-pill">Score : {score}</span>
+            )}
+            {exam && (
+              <button type="button" className="qz-btn-quit" onClick={() => {
+                  setEndedAt(Date.now());
+                  setEndedEarly(true);
+                }} disabled={submitting}>
+                Terminer le test
+              </button>
+            )}
             <Link href={backHref} className="qz-btn-quit">
               Quitter
             </Link>

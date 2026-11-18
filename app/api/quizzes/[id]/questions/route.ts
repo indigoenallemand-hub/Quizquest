@@ -4,6 +4,7 @@ import { getPublicView } from "@/lib/question-resolver";
 import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
+import { drawExamQuestions } from "@/lib/exam";
 
 // Returns the resolved, answer-safe question set for a full quiz session:
 // CALCUL questions get fresh server-generated variables on every call.
@@ -15,6 +16,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
   const searchParams = new URL(request.url).searchParams;
   const themeId = searchParams.get("themeId");
   const withStatus = searchParams.get("status") === "1";
+  // ?exam=1: "LE TEST", a weighted random draw across every enabled chapter.
+  const exam = searchParams.get("exam") === "1";
 
   const quiz = await prisma.quiz.findUnique({
     where: { id },
@@ -25,6 +28,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
         where: { enabled: true },
         orderBy: { order: "asc" },
         select: {
+          parentThemeId: true,
           theme: {
             select: {
               id: true,
@@ -37,6 +41,20 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
     },
   });
   if (!quiz || !canAccessQuiz(quiz, userId)) return NextResponse.json({ error: "Quiz introuvable." }, { status: 404 });
+
+  if (exam) {
+    const drawn = drawExamQuestions(
+      quiz.themes.map(({ parentThemeId, theme }) => ({
+        themeId: theme.id,
+        title: theme.title,
+        parentThemeId,
+        questions: theme.questions.map((q) => ({ ...q, themeId: theme.id })),
+      }))
+    );
+    return NextResponse.json({
+      themes: [{ id: "exam", title: "LE TEST", questions: drawn.map((q) => ({ ...getPublicView(q), themeId: q.themeId })) }],
+    });
+  }
 
   const selectedThemes = themeId ? quiz.themes.filter((t) => t.theme.id === themeId) : quiz.themes;
 
