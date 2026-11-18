@@ -94,9 +94,9 @@ export default function QuizSession({
   // Epoch ms at which the series ends on its own (duel rounds): shown as a
   // countdown, and reaching it ends the series like answering the last question.
   deadline?: number;
-  // "LE TEST": no correction between questions (answering moves straight on),
-  // a 3-hour countdown starting once the questions are loaded, the average
-  // time per answer, and a Swiss grade (1-6) on the result screen.
+  // "LE TEST": a 3-hour countdown starting once the questions are loaded, the
+  // average time per answer, and a Swiss grade (1-6) on the result screen.
+  // Each answer is still corrected right away, like a regular session.
   exam?: boolean;
 }) {
   const [sessionId] = useState(() => (mode === "ENTRAINEMENT" ? undefined : crypto.randomUUID()));
@@ -231,7 +231,7 @@ export default function QuizSession({
     });
     const data: AttemptResult = await res.json();
     setSubmitting(false);
-    if (!exam) setResult(data);
+    setResult(data);
     if (data.isCorrect) setScore((s) => s + 1);
     if (data.newlyEarnedBadges?.length) {
       setEarnedBadges((prev) => [...prev, ...data.newlyEarnedBadges!]);
@@ -245,8 +245,6 @@ export default function QuizSession({
         isCorrect: data.isCorrect,
       },
     ]);
-    // In the test, answering moves straight on: corrections come at the end.
-    if (exam) next();
   }
 
   function selectSingle(proposition: string) {

@@ -10,7 +10,7 @@ export default function ExamLauncher({ href }: { href: string }) {
         <strong className="qz-exam-launcher-title">LE TEST</strong>
         <p className="qz-exam-launcher-text">
           {EXAM_QUESTION_COUNT} questions tirées de tout le quiz (1/3 droit du bail, puis administration PPE et gérance
-          technique), {hours} heures maximum, note suisse de 1 à 6. Les corrections s&apos;affichent à la fin.
+          technique), {hours} heures maximum, note suisse de 1 à 6. La bonne réponse s&apos;affiche après chaque question.
         </p>
       </div>
       <Link href={href} className="qz-btn-primary qz-exam-launcher-btn">
