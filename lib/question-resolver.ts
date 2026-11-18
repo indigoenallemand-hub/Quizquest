@@ -3,6 +3,8 @@ import {
   qcmMultipleContentSchema,
   dateContentSchema,
   calculContentSchema,
+  ordreContentSchema,
+  type OrdreContent,
   type QcmSimpleContent,
   type QcmMultipleContent,
   type DateContent,
@@ -22,7 +24,21 @@ export type ParsedContent =
   | { type: "QCM_SIMPLE"; content: QcmSimpleContent }
   | { type: "QCM_MULTIPLE"; content: QcmMultipleContent }
   | { type: "DATE"; content: DateContent }
-  | { type: "CALCUL"; content: CalculContent };
+  | { type: "CALCUL"; content: CalculContent }
+  | { type: "ORDRE"; content: OrdreContent };
+
+// Fisher-Yates shuffle that never hands back the already-correct order.
+function shuffleUnlessTrivial(items: string[]): string[] {
+  const a = [...items];
+  for (let attempt = 0; attempt < 10; attempt++) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    if (a.some((item, i) => item !== items[i])) return a;
+  }
+  return [...items.slice(1), items[0]];
+}
 
 export function parseQuestionContent(question: QuestionRow): ParsedContent {
   switch (question.type) {
@@ -34,6 +50,8 @@ export function parseQuestionContent(question: QuestionRow): ParsedContent {
       return { type: "DATE", content: dateContentSchema.parse(question.content) };
     case "CALCUL":
       return { type: "CALCUL", content: calculContentSchema.parse(question.content) };
+    case "ORDRE":
+      return { type: "ORDRE", content: ordreContentSchema.parse(question.content) };
   }
 }
 
@@ -70,6 +88,15 @@ export function getPublicView(question: QuestionRow) {
         section,
         enonce: parsed.content.enonce,
       };
+    case "ORDRE":
+      // Shuffled here so the stored (correct) order never reaches the client.
+      return {
+        id: question.id,
+        type: parsed.type,
+        section,
+        enonce: parsed.content.enonce,
+        elements: shuffleUnlessTrivial(parsed.content.elements),
+      };
     case "CALCUL": {
       const variables = generateVariables(parsed.content);
       return {
@@ -96,6 +123,8 @@ export function getCorrectAnswerText(question: QuestionRow, variables?: Record<s
       return parsed.content.reponses_correctes.join(", ");
     case "DATE":
       return parsed.content.reponse_correcte;
+    case "ORDRE":
+      return parsed.content.elements.map((el, i) => `${i + 1}. ${el}`).join(" ; ");
     case "CALCUL": {
       const vars = variables ?? generateVariables(parsed.content);
       const expected = evaluateFormula(parsed.content, vars);

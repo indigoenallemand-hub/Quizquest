@@ -20,6 +20,8 @@ enum QuestionType {
   QCM_MULTIPLE
   DATE
   CALCUL
+  // Put a list of elements back in the right order.
+  ORDRE
 }
 
 enum BadgeType {
@@ -108,7 +110,7 @@ model QuizTheme {
   enabled       Boolean @default(true)
   // Set on a "niveau 2" chapter: the themeId of the chapter of this same quiz
   // it extends. Level-2 chapters are left out of the main carousel and shown
-  // under their parent instead, once every badge of the parent is earned.
+  // under their parent instead (always accessible, no badge required).
   parentThemeId String?
 
   quiz  Quiz  @relation(fields: [quizId], references: [id], onDelete: Cascade)

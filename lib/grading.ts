@@ -5,6 +5,7 @@ import { evaluateFormula, isCalcAnswerCorrect } from "@/lib/calc";
 export const qcmSimpleAnswerSchema = z.object({ selected: z.string() });
 export const qcmMultipleAnswerSchema = z.object({ selected: z.array(z.string()) });
 export const dateAnswerSchema = z.object({ date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/) });
+export const ordreAnswerSchema = z.object({ order: z.array(z.string()) });
 export const calculAnswerSchema = z.object({
   value: z.number(),
   variables: z.record(z.string(), z.number()),
@@ -35,6 +36,11 @@ export function gradeAnswer(parsed: ParsedContent, rawAnswer: unknown): boolean 
     case "DATE": {
       const { date } = dateAnswerSchema.parse(rawAnswer);
       return dayDiff(date, parsed.content.reponse_correcte) <= parsed.content.tolerance_jours;
+    }
+    case "ORDRE": {
+      const { order } = ordreAnswerSchema.parse(rawAnswer);
+      const expected = parsed.content.elements;
+      return order.length === expected.length && order.every((item, i) => item === expected[i]);
     }
     case "CALCUL": {
       const { value, variables } = calculAnswerSchema.parse(rawAnswer);

@@ -17,15 +17,9 @@ export interface CarouselChapter {
   stats: { correct: number; wrong: number; unanswered: number; total: number };
   earnedBadges: string[];
   cells: GridCell[];
-  // "Niveau 2" of this chapter (QuizTheme.parentThemeId), shown under the
-  // carousel once every badge of this chapter is earned.
+  // "Niveau 2" of this chapter (QuizTheme.parentThemeId), always shown under
+  // the carousel when this chapter is selected.
   level2: CarouselChapter | null;
-}
-
-// Every badge shown for the chapter must be earned to unlock its level 2.
-function hasAllBadges(chapter: CarouselChapter, reponseLibreBadgeEnabled: boolean): boolean {
-  const required = reponseLibreBadgeEnabled ? ["EXPLORATEUR", "QCM", "REPONSE_LIBRE"] : ["EXPLORATEUR", "QCM"];
-  return required.every((type) => chapter.earnedBadges.includes(type));
 }
 
 function ChapterCard({
@@ -89,7 +83,6 @@ export default function QuizCarousel({
   pointsBefore,
   entryGrid,
   level2Style,
-  alwaysUnlockLevel2 = false,
 }: {
   basePath: string;
   chapters: CarouselChapter[];
@@ -100,8 +93,6 @@ export default function QuizCarousel({
   entryGrid?: string;
   // CSS variable overrides for the level-2 card (lib/quiz-theme-style.ts buildLevel2Style).
   level2Style?: CSSProperties;
-  // The quiz creator sees level 2 without having to earn the badges first.
-  alwaysUnlockLevel2?: boolean;
 }) {
   // initialChapterId may point at a level-2 chapter (coming back from one of
   // its sessions): open its parent, then scroll down to it.
@@ -138,7 +129,6 @@ export default function QuizCarousel({
   const level2EntryStatuses = initialIsLevel2 ? entryStatuses : undefined;
 
   const level2 = chapter.level2;
-  const level2Unlocked = !!level2 && (alwaysUnlockLevel2 || hasAllBadges(chapter, reponseLibreBadgeEnabled));
 
   const goPrev = () => setIndex((i) => (i - 1 + chapters.length) % chapters.length);
   const goNext = () => setIndex((i) => (i + 1) % chapters.length);
@@ -189,14 +179,14 @@ export default function QuizCarousel({
         ))}
       </div>
 
-      {level2 && level2Unlocked && (
+      {level2 && (
         <div className="qz-level2-section" style={level2Style}>
           <button
             type="button"
             className="qz-level2-hint"
             onClick={() => level2Ref.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
           >
-            Niveau 2 debloque
+            Niveau 2 disponible
             <span className="qz-level2-hint-arrow" aria-hidden>
               &darr;
             </span>
@@ -216,15 +206,6 @@ export default function QuizCarousel({
         </div>
       )}
 
-      {level2 && !level2Unlocked && (
-        <div className="qz-level2-locked" style={level2Style}>
-          <span aria-hidden>&#128274;</span>
-          <div>
-            <strong>Niveau 2 · {level2.questionCount} questions</strong>
-            <p>Obtenez tous les badges de ce chapitre pour debloquer le niveau 2.</p>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

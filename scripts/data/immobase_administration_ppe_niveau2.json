@@ -1,0 +1,1224 @@
+{
+  "title": "Administration PPE — Niveau 2",
+  "description": "Niveau 2 de l'administration PPE : droits réels et formes de propriété collective, parties privatives et communes, droit exclusif, constitution, droit impératif, RAU et règlement de maison, organes, assemblée générale et ordre du jour, quorum et majorités, administrateur, extinction et documents comptables.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Selon le schéma des droits réels du Code civil, de quoi se compose le droit réel ?",
+        "propositions": [
+          "De la propriété et des droits réels limités",
+          "De la propriété individuelle et de la propriété commune uniquement (les servitudes et les gages relevant du droit des obligations)",
+          "Des droits personnels et des créances (art. 641 ss CC)",
+          "De la possession et de la copropriété ordinaire"
+        ],
+        "reponse_correcte": "De la propriété et des droits réels limités",
+        "explication": "Le droit réel comprend la propriété (individuelle ou collective : copropriété dont la PPE, propriété commune) et les droits réels limités (servitude, droit de gage, charges foncières)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "La part de copropriété par étages est-elle elle-même un immeuble ?",
+        "propositions": [
+          "Oui, elle est immatriculée comme tel au Registre foncier",
+          "Non, seul le bien-fonds de base est un immeuble ; les parts figurent uniquement dans l'acte constitutif (annexe notariale)",
+          "Non, c'est un droit réel limité (assimilé à une servitude personnelle)",
+          "Oui, mais seulement une fois le bâtiment achevé et l'achèvement des travaux communiqué au Registre foncier"
+        ],
+        "reponse_correcte": "Oui, elle est immatriculée comme tel au Registre foncier",
+        "explication": "La part de copropriété par étages est elle-même un immeuble et elle est immatriculée comme tel au Registre foncier — y compris lorsque la PPE est constituée avant la construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Quel autre nom donne-t-on à la communauté des héritiers, exemple type de propriété commune ?",
+        "propositions": [
+          "L'indivision successorale par quotes-parts (copropriété ordinaire)",
+          "L'hoirie",
+          "La communauté des copropriétaires (art. 712l CC)",
+          "La SIAL"
+        ],
+        "reponse_correcte": "L'hoirie",
+        "explication": "Dans la propriété commune, chacun est propriétaire de la chose dans son entier sans disposer de part individuelle : c'est le cas de l'hoirie (communauté des héritiers) ou de la communauté de biens entre époux."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Que signifie le sigle SIAL ?",
+        "propositions": [
+          "Société immobilière d'administration des lots (PPE)",
+          "Société immobilière d'actionnaires-locataires",
+          "Système d'inscription des actes au livre foncier",
+          "Société individuelle d'acquisition de logements (coopérative d'habitation)"
+        ],
+        "reponse_correcte": "Société immobilière d'actionnaires-locataires",
+        "explication": "La SIAL est une société anonyme qui gère l'ensemble des appartements d'un immeuble et les loue à ses actionnaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Avant l'introduction de la PPE dans le Code civil, quelle était la forme de copropriété la plus courante ?",
+        "propositions": [
+          "La copropriété ordinaire (villas jumelles)",
+          "L'hoirie (communauté héréditaire)",
+          "La SIAL ou la coopérative",
+          "Le droit de superficie distinct et permanent, inscrit comme immeuble au Registre foncier"
+        ],
+        "reponse_correcte": "La SIAL ou la coopérative",
+        "explication": "Avant 1965, la SIAL (société anonyme louant les appartements à ses actionnaires) ou la coopérative était la forme de copropriété la plus courante."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Quelle est la forme de propriété collective la plus élaborée et la plus réglementée par le Code civil suisse ?",
+        "propositions": [
+          "La propriété commune (hoirie, communauté de biens entre époux)",
+          "La copropriété ordinaire (villas jumelles)",
+          "La PPE",
+          "La coopérative d'habitation"
+        ],
+        "reponse_correcte": "La PPE",
+        "explication": "La PPE est la forme la plus élaborée, réglementée par le Code civil : les parts sont quantifiées par des quotes-parts et les parties communes et privatives sont clairement définies."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Comment la part de chaque copropriétaire est-elle quantifiée en PPE ?",
+        "propositions": [
+          "Par une part égale pour chaque copropriétaire, quelle que soit la taille de son lot (une tête = une part)",
+          "Par des quotes-parts",
+          "Par le nombre de pièces de chaque lot",
+          "Par la surface habitable nette uniquement (norme SIA 416)"
+        ],
+        "reponse_correcte": "Par des quotes-parts",
+        "explication": "Les parts de chaque copropriétaire sont quantifiées par des quotes-parts, exprimées en millièmes (‰), parfois en dix-millièmes ou en centièmes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Combien d'unités l'immeuble doit-il compter au minimum pour pouvoir être constitué en PPE ?",
+        "propositions": [
+          "1",
+          "2",
+          "3",
+          "4 (une PPE de moins de 4 lots étant une copropriété ordinaire)"
+        ],
+        "reponse_correcte": "2",
+        "explication": "Parmi les éléments constitutifs de la PPE figure un immeuble comptant au minimum 2 unités."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "Quel droit exclusif la part de copropriété par étages confère-t-elle à son titulaire ?",
+        "propositions": [
+          "Un droit exclusif de disposer seul des parties communes attenantes à son lot (palier, façade, cage d'escalier)",
+          "Un droit de préemption légal sur les autres lots de l'immeuble",
+          "Un droit exclusif de jouissance et d'utilisation sur une partie de la chose",
+          "Un usufruit sur l'immeuble entier"
+        ],
+        "reponse_correcte": "Un droit exclusif de jouissance et d'utilisation sur une partie de la chose",
+        "explication": "Le titulaire a un droit exclusif de jouissance et d'utilisation sur une partie de la chose, ce qui le place dans une situation similaire à celle d'un propriétaire individuel."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Notions de base",
+      "content": {
+        "enonce": "De quoi chaque titulaire d'une part de PPE est-il propriétaire ? (2 réponses)",
+        "propositions": [
+          "De l'immeuble dans son entier, à raison de sa quote-part",
+          "D'un droit de jouissance exclusif sur une portion de l'immeuble, appelée partie privative",
+          "Uniquement de son appartement, à l'exclusion du terrain (le bien-fonds restant au promoteur)",
+          "Des murs porteurs qui entourent son lot",
+          "D'une action de la société propriétaire de l'immeuble"
+        ],
+        "reponses_correctes": [
+          "De l'immeuble dans son entier, à raison de sa quote-part",
+          "D'un droit de jouissance exclusif sur une portion de l'immeuble, appelée partie privative"
+        ],
+        "explication": "Chaque titulaire est propriétaire de l'immeuble dans son entier à raison de sa quote-part (en ‰) et bénéficie d'un droit de jouissance exclusif sur sa partie privative."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Quelles conditions une partie privée doit-elle remplir ? (3 réponses)",
+        "propositions": [
+          "Former un tout tridimensionnel (appartement)",
+          "Disposer d'un accès propre depuis une partie commune (ou l'extérieur)",
+          "Ne pas constituer une partie commune",
+          "Avoir une surface minimale de 20 m² (selon la norme SIA)",
+          "Disposer de sa propre adresse postale et de ses propres compteurs d'eau et d'électricité"
+        ],
+        "reponses_correctes": [
+          "Former un tout tridimensionnel (appartement)",
+          "Disposer d'un accès propre depuis une partie commune (ou l'extérieur)",
+          "Ne pas constituer une partie commune"
+        ],
+        "explication": "La partie privée doit former un tout tridimensionnel, disposer d'un accès propre (direct sur une partie commune ou sur l'extérieur) et ne pas constituer une partie commune."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Quels sont les deux types de parties privatives ?",
+        "propositions": [
+          "Les parties principales (appartement) et les parties accessoires (cave, galetas), seules les premières étant inscrites au Registre foncier",
+          "Les parties ordinaires et les parties visibles depuis l'extérieur",
+          "Les parties impératives et les parties dispositives",
+          "Les parties intérieures et les parties communes à usage exclusif"
+        ],
+        "reponse_correcte": "Les parties ordinaires et les parties visibles depuis l'extérieur",
+        "explication": "On distingue les parties privatives ordinaires (à l'intérieur des locaux, pas visibles de l'extérieur) et celles qui sont visibles depuis l'extérieur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Qu'est-ce qu'une partie privative « ordinaire » ?",
+        "propositions": [
+          "Une partie visible depuis l'extérieur mais réservée à l'usage d'un seul copropriétaire (balcon, terrasse)",
+          "Une partie située à l'intérieur des locaux, non visible depuis l'extérieur",
+          "Une partie commune attribuée en droit d'usage exclusif par le règlement",
+          "Toute partie de l'immeuble inscrite au Registre foncier"
+        ],
+        "reponse_correcte": "Une partie située à l'intérieur des locaux, non visible depuis l'extérieur",
+        "explication": "Les parties privatives ordinaires se trouvent à l'intérieur des locaux et ne sont pas visibles de l'extérieur."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Parmi ces éléments, lesquels sont des parties privatives ? (4 réponses)",
+        "propositions": [
+          "Les revêtements intérieurs (sol, paroi, plafond)",
+          "Les aménagements intérieurs (cuisine, sanitaires)",
+          "L'armoire murale",
+          "Le mur intérieur non porteur",
+          "Le mur intérieur porteur (lorsqu'il se trouve entièrement à l'intérieur du lot)",
+          "La chaudière du chauffage central",
+          "L'étanchéité du balcon"
+        ],
+        "reponses_correctes": [
+          "Les revêtements intérieurs (sol, paroi, plafond)",
+          "Les aménagements intérieurs (cuisine, sanitaires)",
+          "L'armoire murale",
+          "Le mur intérieur non porteur"
+        ],
+        "explication": "Sont privatifs les revêtements et aménagements intérieurs, l'armoire murale et le mur intérieur non porteur. Les murs porteurs (même intérieurs), la chaudière et l'étanchéité sont des parties communes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "À partir de quand le câble de la liaison internet devient-il une partie privative ?",
+        "propositions": [
+          "Dès son entrée dans le bâtiment (local technique)",
+          "Jamais : toutes les conduites servant plusieurs propriétaires sont impérativement communes (art. 712b al. 2 ch. 3 CC)",
+          "Dès l'endroit où il se sépare de la conduite générale pour devenir câble individuel",
+          "Uniquement à partir de la prise murale"
+        ],
+        "reponse_correcte": "Dès l'endroit où il se sépare de la conduite générale pour devenir câble individuel",
+        "explication": "L'antenne a été remplacée par le câble, qui est privatif dès l'endroit où il se sépare de la conduite générale pour devenir câble individuel."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Que considère la doctrine à propos du balcon ?",
+        "propositions": [
+          "Le balcon entier, étanchéité et barrière comprises, est privatif puisqu'il n'est accessible que depuis le lot",
+          "Le balcon est entièrement commun, sans aucun élément privatif",
+          "Sa partie intérieure est privative",
+          "C'est une partie privative ordinaire, non visible de l'extérieur"
+        ],
+        "reponse_correcte": "Sa partie intérieure est privative",
+        "explication": "Visible de l'extérieur, le balcon est une annexe au lot. La doctrine considère sa partie intérieure comme privative : le revêtement de sol est privatif, mais l'étanchéité et les barrières sont communes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "La cheminée (foyer et conduit) d'un appartement est-elle une partie privative ou commune ?",
+        "propositions": [
+          "Commune, car le conduit traverse plusieurs étages (art. 712b al. 2 ch. 3 CC)",
+          "Le foyer est privatif, mais le conduit est commun",
+          "Privative",
+          "Cela dépend de la valeur de la quote-part du lot"
+        ],
+        "reponse_correcte": "Privative",
+        "explication": "Selon le cours, le foyer et le conduit de la cheminée sont des parties privées."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Pour le chauffage, comment se répartissent les parties privatives et communes ?",
+        "propositions": [
+          "Les radiateurs sont privatifs, la chaudière est commune",
+          "La chaudière est privative si elle se trouve dans le lot du plus grand copropriétaire (quote-part la plus élevée), les radiateurs restant communs",
+          "Radiateurs et chaudière sont tous deux communs",
+          "Radiateurs et chaudière sont tous deux privatifs"
+        ],
+        "reponse_correcte": "Les radiateurs sont privatifs, la chaudière est commune",
+        "explication": "Radiateurs = parties privées ; chaudière = partie commune (la question du chauffage au sol reste discutée)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Au contrôle de qui les parties communes sont-elles soumises ?",
+        "propositions": [
+          "De l'administrateur seul, qui en dispose librement (art. 712s CC)",
+          "De la communauté des copropriétaires",
+          "Du Registre foncier",
+          "Du copropriétaire dont le lot est le plus proche"
+        ],
+        "reponse_correcte": "De la communauté des copropriétaires",
+        "explication": "Les parties communes sont soumises au contrôle de la communauté des copropriétaires."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Quelles parties le Code civil déclare-t-il impérativement communes ? (4 réponses)",
+        "propositions": [
+          "L'immeuble de base (le bien-fonds ou le droit de superficie)",
+          "Les parties importantes pour l'existence, la disposition et la solidité du bâtiment",
+          "Les parties déterminant l'aspect ou la forme extérieure du bâtiment",
+          "Les parties servant plusieurs propriétaires d'étages",
+          "Les lots dont la quote-part dépasse 100 millièmes",
+          "Les revêtements de sol des appartements (hors étanchéité)"
+        ],
+        "reponses_correctes": [
+          "L'immeuble de base (le bien-fonds ou le droit de superficie)",
+          "Les parties importantes pour l'existence, la disposition et la solidité du bâtiment",
+          "Les parties déterminant l'aspect ou la forme extérieure du bâtiment",
+          "Les parties servant plusieurs propriétaires d'étages"
+        ],
+        "explication": "Sont impérativement communs : l'immeuble de base, les parties importantes pour l'existence, la disposition et la solidité du bâtiment, celles qui en déterminent l'aspect extérieur et celles qui servent plusieurs propriétaires d'étages."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Parties privatives et communes",
+      "content": {
+        "enonce": "Parmi ces éléments, lesquels sont des parties communes ? (4 réponses)",
+        "propositions": [
+          "Le bien-fonds",
+          "La circulation (paliers et cage d'escalier)",
+          "Les murs porteurs extérieurs et intérieurs",
+          "Les barrières des balcons",
+          "Le revêtement de sol du balcon",
+          "Les radiateurs des appartements",
+          "L'armoire murale"
+        ],
+        "reponses_correctes": [
+          "Le bien-fonds",
+          "La circulation (paliers et cage d'escalier)",
+          "Les murs porteurs extérieurs et intérieurs",
+          "Les barrières des balcons"
+        ],
+        "explication": "Parties communes : bien-fonds (toujours commun), locaux techniques, circulation, ascenseur, murs porteurs, barrières des balcons, locaux annexes (salle commune, appartement du concierge). Le revêtement du balcon, les radiateurs et l'armoire murale sont privatifs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Selon l'art. 712a al. 2 CC, quels pouvoirs le copropriétaire a-t-il sur sa partie privative ?",
+        "propositions": [
+          "Administrer, utiliser et aménager",
+          "Administrer, utiliser et aliéner séparément ses locaux (indépendamment de la quote-part)",
+          "Utiliser et louer uniquement",
+          "Aménager et modifier librement les parties communes attenantes"
+        ],
+        "reponse_correcte": "Administrer, utiliser et aménager",
+        "explication": "« Le copropriétaire a le pouvoir d'administrer, d'utiliser et d'aménager » ses locaux (art. 712a al. 2 CC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Que recouvre le pouvoir d'administrer un lot de PPE ?",
+        "propositions": [
+          "Gérer les parties communes attenantes à son lot (palier, façade) sans autorisation de l'assemblée",
+          "Changer librement l'affectation des locaux (par ex. transformer un logement en cabinet), sans restriction",
+          "Tout acte destiné à entretenir ou améliorer l'unité, ou à la modifier dans le sens de son affectation",
+          "Convoquer l'assemblée générale"
+        ],
+        "reponse_correcte": "Tout acte destiné à entretenir ou améliorer l'unité, ou à la modifier dans le sens de son affectation",
+        "explication": "Administrer = tout acte destiné à entretenir, améliorer l'état de l'unité, la modifier dans le sens de son affectation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Que recouvre le pouvoir d'utiliser ?",
+        "propositions": [
+          "Utiliser les locaux à n'importe quelle fin, l'affectation prévue n'ayant aucune portée juridique",
+          "Utiliser les parties communes en priorité sur les autres copropriétaires",
+          "Utiliser les locaux conformément à leur affectation (les habiter, y exploiter un commerce, etc.)",
+          "Uniquement habiter les locaux soi-même (la location étant exclue)"
+        ],
+        "reponse_correcte": "Utiliser les locaux conformément à leur affectation (les habiter, y exploiter un commerce, etc.)",
+        "explication": "Le copropriétaire peut utiliser les locaux conformément à leur affectation : les habiter, exploiter un commerce, etc."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Que permet le pouvoir d'aménager ? (3 réponses)",
+        "propositions": [
+          "Ériger ou déplacer des murs non porteurs",
+          "Changer les papiers peints",
+          "Changer les revêtements de sol",
+          "Déplacer un mur porteur (avec l'accord d'un ingénieur civil)",
+          "Modifier la face extérieure de la porte palière selon ses goûts"
+        ],
+        "reponses_correctes": [
+          "Ériger ou déplacer des murs non porteurs",
+          "Changer les papiers peints",
+          "Changer les revêtements de sol"
+        ],
+        "explication": "Aménager = aménager les locaux selon son bon vouloir : ériger, déplacer des murs non porteurs, changer les papiers peints et les revêtements de sol. Les murs porteurs sont communs, et la partie extérieure de la porte ne peut pas être librement aménagée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "De quoi l'acte constitutif de la PPE fait-il mention ?",
+        "propositions": [
+          "De la liste nominative des locataires de chaque lot",
+          "Des parts d'étages et de leur valeur",
+          "Du budget annuel et du montant du fonds de rénovation",
+          "Du règlement de maison (horaires de buanderie, tolérance du bruit, local à ski)"
+        ],
+        "reponse_correcte": "Des parts d'étages et de leur valeur",
+        "explication": "Le droit de chacun est mesuré par une quote-part : l'acte constitutif fait mention des parts d'étages et de leur valeur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Existe-t-il une base légale pour le calcul des quotes-parts ?",
+        "propositions": [
+          "Oui, l'art. 712e CC impose un calcul proportionnel à la surface de chaque lot",
+          "Non",
+          "Oui, la norme SIA 416 est obligatoire",
+          "Oui, le Registre foncier fixe la quote-part selon la valeur fiscale du lot"
+        ],
+        "reponse_correcte": "Non",
+        "explication": "Aucune base légale n'existe. La quote-part est calculée sur la valeur du lot, selon des critères objectifs (surfaces, volumes) ou plus subjectifs (orientation, étage, vue…). L'USPI met à disposition un mode de calcul unifié."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Droits du copropriétaire",
+      "content": {
+        "enonce": "Le droit de chacun portant sur la chose entière, quelles en sont les conséquences ? (4 réponses)",
+        "propositions": [
+          "L'aliénation (mise en vente) de la part est possible",
+          "L'engagement (mise en gage) de la part est possible",
+          "L'exercice de droits personnels sur la part",
+          "La réalisation forcée de la part est possible",
+          "Chaque copropriétaire peut exiger le partage en nature de l'immeuble",
+          "La location de la part requiert l'accord préalable de l'assemblée (double majorité)"
+        ],
+        "reponses_correctes": [
+          "L'aliénation (mise en vente) de la part est possible",
+          "L'engagement (mise en gage) de la part est possible",
+          "L'exercice de droits personnels sur la part",
+          "La réalisation forcée de la part est possible"
+        ],
+        "explication": "Conséquences : aliénation possible, engagement (mise en gage) de la part, exercice de droits personnels sur la part et réalisation forcée possible."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Selon l'art. 712d al. 2 CC, comment une PPE peut-elle être constituée ? (2 réponses)",
+        "propositions": [
+          "Par contrat",
+          "Par acte unilatéral",
+          "Par décision du juge, à la demande d'un copropriétaire ordinaire",
+          "Par l'octroi du permis de construire (autorité communale)",
+          "Par prescription acquisitive (après 30 ans d'occupation)"
+        ],
+        "reponses_correctes": ["Par contrat", "Par acte unilatéral"],
+        "explication": "Une PPE peut être constituée par contrat ou par acte unilatéral (art. 712d al. 2 CC)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "En quoi consiste la constitution d'une PPE par contrat ?",
+        "propositions": [
+          "Un propriétaire unique décide de soumettre son immeuble au régime de la PPE",
+          "Plusieurs personnes acquièrent un immeuble pour en devenir propriétaires d'étages, ou sont déjà copropriétaires de l'immeuble (par ex. succession)",
+          "L'administrateur signe un contrat de gestion avec le promoteur (mandat, art. 394 ss CO)",
+          "Les futurs acquéreurs signent chacun une promesse d'achat"
+        ],
+        "reponse_correcte": "Plusieurs personnes acquièrent un immeuble pour en devenir propriétaires d'étages, ou sont déjà copropriétaires de l'immeuble (par ex. succession)",
+        "explication": "Par contrat : plusieurs personnes acquièrent un immeuble pour en devenir propriétaires d'étages (achat et constitution simultanés), ou elles en sont déjà propriétaires collectifs (succession)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "En quoi consiste la constitution d'une PPE par acte unilatéral ?",
+        "propositions": [
+          "L'assemblée d'une copropriété ordinaire décide, à la double majorité, de se transformer en PPE",
+          "Un propriétaire décide de soumettre son immeuble au régime de la PPE",
+          "Le notaire constitue d'office la PPE lors d'une succession",
+          "Le Registre foncier divise l'immeuble en lots à la demande de la commune"
+        ],
+        "reponse_correcte": "Un propriétaire décide de soumettre son immeuble au régime de la PPE",
+        "explication": "Par acte unilatéral, un propriétaire (souvent un promoteur) décide de soumettre son immeuble au régime de la PPE."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Quelles sont les indications impératives de l'acte constitutif (art. 712e CC) ? (2 réponses)",
+        "propositions": [
+          "La délimitation des parts d'étages et les quotes-parts",
+          "La désignation de l'immeuble de base constitué en PPE",
+          "L'adoption d'un règlement d'administration et d'utilisation",
+          "La nomination d'un administrateur",
+          "Le droit de préemption entre copropriétaires"
+        ],
+        "reponses_correctes": [
+          "La délimitation des parts d'étages et les quotes-parts",
+          "La désignation de l'immeuble de base constitué en PPE"
+        ],
+        "explication": "Seules la délimitation des parts d'étages et des quotes-parts, ainsi que la désignation de l'immeuble de base, sont impératives. Règlement, administrateur et droit de préemption sont des indications dispositives."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Quelles indications de l'acte constitutif sont dispositives (non obligatoires mais utiles) ? (5 réponses)",
+        "propositions": [
+          "L'adoption d'un règlement",
+          "La précision sur la destination des locaux",
+          "Le droit de préemption",
+          "La nomination d'un administrateur",
+          "La constitution de servitudes et de charges foncières",
+          "La délimitation des parts d'étages et des quotes-parts",
+          "La désignation de l'immeuble de base"
+        ],
+        "reponses_correctes": [
+          "L'adoption d'un règlement",
+          "La précision sur la destination des locaux",
+          "Le droit de préemption",
+          "La nomination d'un administrateur",
+          "La constitution de servitudes et de charges foncières"
+        ],
+        "explication": "Indications dispositives : adoption d'un règlement, destination des locaux, droit de préemption, nomination d'un administrateur, servitudes et charges foncières. Les parts d'étages/quotes-parts et l'immeuble de base sont impératifs."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Comment l'acte constitutif de la PPE peut-il être modifié ?",
+        "propositions": [
+          "À la double majorité (têtes et quotes-parts), puis par simple annonce au Registre foncier",
+          "Par décision de l'administrateur, ratifiée lors de la prochaine assemblée",
+          "À l'unanimité, sans passage chez le notaire (le procès-verbal de l'assemblée faisant foi)",
+          "À l'unanimité des copropriétaires, avec réouverture de l'acte devant notaire et réinscription au Registre foncier"
+        ],
+        "reponse_correcte": "À l'unanimité des copropriétaires, avec réouverture de l'acte devant notaire et réinscription au Registre foncier",
+        "explication": "La modification est possible mais nécessite l'unanimité des copropriétaires, la réouverture de l'acte devant notaire et sa réinscription auprès du RF."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "À quoi la constitution d'une PPE équivaut-elle ?",
+        "propositions": [
+          "À la signature du règlement d'administration et d'utilisation (RAU) par tous les copropriétaires",
+          "À l'inscription au feuillet du bien-fonds qui en est l'objet",
+          "À la tenue de la première assemblée générale",
+          "À l'achèvement du bâtiment"
+        ],
+        "reponse_correcte": "À l'inscription au feuillet du bien-fonds qui en est l'objet",
+        "explication": "Constitution d'une PPE = inscription au feuillet du bien-fonds qui en est l'objet, en la forme authentique."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "À qui la réquisition de constitution d'une PPE doit-elle être adressée ?",
+        "propositions": [
+          "Au Registre foncier du domicile du notaire instrumentant",
+          "Au Registre du commerce",
+          "Au Registre foncier du lieu de situation de l'immeuble",
+          "À la commune (service des constructions)"
+        ],
+        "reponse_correcte": "Au Registre foncier du lieu de situation de l'immeuble",
+        "explication": "La réquisition doit être adressée au Registre foncier du lieu de situation de l'immeuble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Par qui la réquisition d'inscription de la PPE doit-elle être faite ?",
+        "propositions": [
+          "Par le notaire, de sa propre initiative",
+          "Par les propriétaires de l'immeuble ou les bénéficiaires du droit de superficie",
+          "Par l'administrateur pressenti, en tant que représentant de la future communauté",
+          "Par les futurs acquéreurs des lots (sur présentation de leur promesse d'achat)"
+        ],
+        "reponse_correcte": "Par les propriétaires de l'immeuble ou les bénéficiaires du droit de superficie",
+        "explication": "La réquisition doit être faite par les personnes qui ont le pouvoir de disposer : les propriétaires de l'immeuble ou les bénéficiaires du droit de superficie. Ils produisent un titre d'acquisition valable (l'acte constitutif)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Constitution de la PPE",
+      "content": {
+        "enonce": "Une PPE a été constituée sur un bâtiment pas encore achevé. À qui les propriétaires doivent-ils communiquer l'achèvement des travaux ?",
+        "propositions": [
+          "À l'administrateur",
+          "À la commune, pour l'obtention du permis d'habiter (seule formalité requise)",
+          "Au Registre foncier",
+          "Au notaire ayant instrumenté l'acte constitutif"
+        ],
+        "reponse_correcte": "Au Registre foncier",
+        "explication": "La PPE est constituée dès l'inscription, même si la construction n'a pas débuté. Une fois le bâtiment achevé, les propriétaires doivent communiquer l'achèvement des travaux au Registre foncier."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que prévoit l'art. 647 al. 2 CC, l'une des trois règles impératives de la PPE ?",
+        "propositions": [
+          "Que l'unanimité est requise pour modifier les règles sur les actes d'administration",
+          "Qu'on ne peut pas priver un copropriétaire de son droit d'accomplir seul les actes urgents",
+          "Que l'assemblée des copropriétaires doit être organisée chaque année",
+          "Que l'administrateur peut engager seul tous les travaux nécessaires, sans limite de montant (ex. réfection complète de la toiture)"
+        ],
+        "reponse_correcte": "Qu'on ne peut pas priver un copropriétaire de son droit d'accomplir seul les actes urgents",
+        "explication": "L'art. 647 al. 2 CC interdit de priver un copropriétaire de son droit d'accomplir seul des actes urgents (ex. dégât d'eau : commande du travail — attention aux finances !)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que prévoit l'art. 712g al. 2 CC (droit impératif) ?",
+        "propositions": [
+          "La double majorité suffit pour modifier les règles relatives aux travaux de construction",
+          "L'unanimité est indispensable pour modifier les règles dispositives concernant les actes d'administration et les travaux de construction",
+          "L'administrateur fixe seul les règles d'administration",
+          "L'assemblée doit se tenir au moins une fois par année"
+        ],
+        "reponse_correcte": "L'unanimité est indispensable pour modifier les règles dispositives concernant les actes d'administration et les travaux de construction",
+        "explication": "Art. 712g al. 2 CC : l'unanimité est indispensable pour pouvoir modifier les règles dispositives concernant les actes d'administration et les travaux de construction."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que prévoit l'art. 712m al. 1 CC (droit impératif) ?",
+        "propositions": [
+          "L'assemblée des copropriétaires doit être organisée annuellement",
+          "L'assemblée doit être convoquée par lettre recommandée au moins 30 jours à l'avance, faute de quoi ses décisions sont nulles",
+          "Un organe de contrôle doit obligatoirement être désigné chaque année",
+          "Chaque copropriétaire dispose d'autant de voix que de lots"
+        ],
+        "reponse_correcte": "L'assemblée des copropriétaires doit être organisée annuellement",
+        "explication": "Art. 712m al. 1 CC : l'assemblée des copropriétaires doit être organisée annuellement. Au-delà des trois articles impératifs (647 al. 2, 712g al. 2, 712m al. 1 CC), il est possible de déroger aux règles du Code civil."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que signifie le sigle RAU ?",
+        "propositions": [
+          "Registre des actes d'utilisation",
+          "Règlement d'application uniforme (USPI)",
+          "Règlement d'administration et d'utilisation",
+          "Répartition annuelle unifiée des charges"
+        ],
+        "reponse_correcte": "Règlement d'administration et d'utilisation",
+        "explication": "RAU = règlement d'administration et d'utilisation de la PPE."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que comporte notamment le RAU ? (4 réponses)",
+        "propositions": [
+          "La répartition et l'utilisation des parties communes et privées",
+          "Les droits et obligations du copropriétaire",
+          "Les types de majorités nécessaires à la prise de décision",
+          "La gestion du fonds de rénovation",
+          "Les horaires de la buanderie et la tolérance du bruit (relevant du règlement de maison)",
+          "La délimitation des parts d'étages et des quotes-parts (relevant de l'acte constitutif)"
+        ],
+        "reponses_correctes": [
+          "La répartition et l'utilisation des parties communes et privées",
+          "Les droits et obligations du copropriétaire",
+          "Les types de majorités nécessaires à la prise de décision",
+          "La gestion du fonds de rénovation"
+        ],
+        "explication": "Le RAU comporte notamment : répartition et utilisation des parties communes et privées, droits et obligations, organisation de la PPE, répartition des charges, types de majorités, compétences de l'administrateur, du comité et du vérificateur, gestion du fonds de rénovation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "À quoi sert le règlement de maison ?",
+        "propositions": [
+          "À fixer la répartition des charges et les majorités nécessaires aux décisions de l'assemblée",
+          "À régler les problèmes liés à l'utilisation domestique de l'immeuble",
+          "À délimiter les parts d'étages",
+          "À fixer les honoraires de l'administrateur"
+        ],
+        "reponse_correcte": "À régler les problèmes liés à l'utilisation domestique de l'immeuble",
+        "explication": "Le règlement de maison permet de régler les problèmes liés à l'utilisation domestique de l'immeuble (buanderie, fermeture des portes, bruit, etc.)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Que peut régler le règlement de maison ? (4 réponses)",
+        "propositions": [
+          "Les horaires et le mode d'utilisation de la buanderie",
+          "La fermeture des portes d'entrée de l'immeuble",
+          "La tolérance du bruit (horaires)",
+          "L'utilisation du local à ski",
+          "Les types de majorités requis pour les travaux",
+          "L'attribution annuelle au fonds de rénovation"
+        ],
+        "reponses_correctes": [
+          "Les horaires et le mode d'utilisation de la buanderie",
+          "La fermeture des portes d'entrée de l'immeuble",
+          "La tolérance du bruit (horaires)",
+          "L'utilisation du local à ski"
+        ],
+        "explication": "Le règlement de maison traite de la buanderie, de la fermeture des portes, du nettoyage des parties communes, de l'utilisation des balcons, du bruit et du local à ski. Majorités et fonds de rénovation relèvent du RAU."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Quel est le seul organe légalement obligatoire en PPE ?",
+        "propositions": [
+          "L'administrateur, sans lequel la PPE ne peut pas fonctionner (art. 712q CC)",
+          "L'organe de contrôle (vérificateur des comptes)",
+          "L'assemblée générale",
+          "Le comité"
+        ],
+        "reponse_correcte": "L'assemblée générale",
+        "explication": "L'assemblée générale est le seul organe obligatoire légalement en PPE. L'administrateur n'est légalement pas indispensable."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Qu'est-ce que la communauté des copropriétaires ?",
+        "propositions": [
+          "Le regroupement de tous les copropriétaires d'étages, sous forme de communauté",
+          "L'organe exécutif élu par l'assemblée pour gérer les affaires courantes (comité restreint)",
+          "L'association des locataires de l'immeuble",
+          "La société anonyme propriétaire de l'immeuble"
+        ],
+        "reponse_correcte": "Le regroupement de tous les copropriétaires d'étages, sous forme de communauté",
+        "explication": "La communauté des copropriétaires regroupe tous les copropriétaires d'étages, sous forme de communauté."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Règles et organes",
+      "content": {
+        "enonce": "Quelles compétences sont attribuées à la communauté des copropriétaires ? (4 réponses)",
+        "propositions": [
+          "Les contributions aux frais et charges communs",
+          "Les créances contre des tiers (factures impayées)",
+          "Les prestations d'assurance suite à des dommages subis par l'immeuble",
+          "Le produit de location de parties communes",
+          "L'aménagement intérieur des lots privatifs",
+          "La fixation des loyers des lots loués par les copropriétaires"
+        ],
+        "reponses_correctes": [
+          "Les contributions aux frais et charges communs",
+          "Les créances contre des tiers (factures impayées)",
+          "Les prestations d'assurance suite à des dommages subis par l'immeuble",
+          "Le produit de location de parties communes"
+        ],
+        "explication": "La communauté a notamment compétence pour : les contributions aux frais et charges communs et au fonds de rénovation, les créances contre des tiers, les prestations d'assurance, la gestion du matériel d'entretien et le produit de location de parties communes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Qu'est-ce que l'assemblée des copropriétaires ?",
+        "propositions": [
+          "L'organe exécutif chargé d'appliquer les décisions de l'administrateur",
+          "Un organe consultatif dont les décisions doivent être validées par le Registre foncier",
+          "L'organe suprême (législatif) de la communauté, qui doit se tenir au moins une fois par année",
+          "Un organe facultatif, réuni uniquement en cas de travaux importants"
+        ],
+        "reponse_correcte": "L'organe suprême (législatif) de la communauté, qui doit se tenir au moins une fois par année",
+        "explication": "L'assemblée est l'organe suprême, ou législatif, de la communauté ; sa tenue au moins annuelle est imposée par le droit impératif."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "De quels pouvoirs réglementaires l'assemblée des copropriétaires dispose-t-elle ? (4 réponses)",
+        "propositions": [
+          "Modifier ses règlements (majorité spécifique)",
+          "Contrôler l'activité de l'administrateur (engagement, révocation)",
+          "Approuver les comptes et le budget",
+          "Engager des travaux de rénovation importants",
+          "Autoriser les aménagements intérieurs d'un lot (papiers peints, murs non porteurs)",
+          "Modifier les quotes-parts à la majorité simple"
+        ],
+        "reponses_correctes": [
+          "Modifier ses règlements (majorité spécifique)",
+          "Contrôler l'activité de l'administrateur (engagement, révocation)",
+          "Approuver les comptes et le budget",
+          "Engager des travaux de rénovation importants"
+        ],
+        "explication": "L'assemblée peut modifier ses règlements, contrôler l'administrateur, nommer un comité et un vérificateur des comptes, approuver comptes et budget, engager des travaux de rénovation importants et fixer la contribution au fonds de rénovation. Les aménagements intérieurs relèvent du droit exclusif ; les quotes-parts exigent l'unanimité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Selon le règlement, jusqu'à quand une assemblée générale ordinaire peut-elle se tenir après la clôture des comptes ?",
+        "propositions": [
+          "3 mois",
+          "30 jours, faute de quoi les comptes sont réputés approuvés",
+          "6 mois",
+          "12 mois (il suffit qu'elle se tienne une fois par année civile)"
+        ],
+        "reponse_correcte": "6 mois",
+        "explication": "L'AGO doit se tenir une fois par année (art. 712m CC) et, selon le règlement, au maximum six mois après la clôture des comptes — qui ne doit pas forcément intervenir au 31.12."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "À la demande de quelle part des copropriétaires une assemblée générale extraordinaire peut-elle être valablement convoquée ?",
+        "propositions": [
+          "1/5",
+          "1/3",
+          "La moitié des copropriétaires, représentant au moins 500 millièmes",
+          "1/10"
+        ],
+        "reponse_correcte": "1/5",
+        "explication": "Une assemblée générale extraordinaire peut être valablement convoquée à la demande d'un cinquième des copropriétaires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Qu'est-ce qu'une assemblée universelle ?",
+        "propositions": [
+          "Une assemblée réunissant au moins la moitié des copropriétaires représentant 500 millièmes (quorum)",
+          "Une assemblée tenue par visioconférence",
+          "Une assemblée valable sans convocation, si la totalité des copropriétaires est réunie spontanément",
+          "L'assemblée commune de plusieurs PPE voisines"
+        ],
+        "reponse_correcte": "Une assemblée valable sans convocation, si la totalité des copropriétaires est réunie spontanément",
+        "explication": "L'assemblée universelle (souvent dans les petites PPE) n'est valable que si tous les copropriétaires sont présents ; sinon, elle n'est pas valable."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Qui peut convoquer l'assemblée générale (art. 712n CC) ? (3 réponses)",
+        "propositions": [
+          "L'administrateur",
+          "Les copropriétaires",
+          "Les délégués / le comité",
+          "Le notaire ayant instrumenté l'acte constitutif",
+          "Le Registre foncier, lorsque l'assemblée n'a pas eu lieu depuis plus d'un an"
+        ],
+        "reponses_correctes": ["L'administrateur", "Les copropriétaires", "Les délégués / le comité"],
+        "explication": "L'AG peut être convoquée par l'administrateur, par les copropriétaires ou par les délégués / le comité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "La convocation doit-elle mentionner le lieu de l'assemblée ?",
+        "propositions": [
+          "Non, l'assemblée se tient par défaut au siège de l'administrateur",
+          "Oui",
+          "Seulement pour les assemblées extraordinaires",
+          "Non, il suffit de l'annoncer en début de séance (le procès-verbal le mentionne)"
+        ],
+        "reponse_correcte": "Oui",
+        "explication": "La convocation contient la date et le lieu de l'assemblée (à ne pas omettre, en tenant compte des éventuelles infirmités), l'ordre du jour précis et le rappel du quorum et des procurations."
+      }
+    },
+    {
+      "type": "ORDRE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Remettez les points de l'ordre du jour d'une assemblée générale ordinaire dans le bon ordre.",
+        "elements": [
+          "Contrôle des présences",
+          "Adoption du procès-verbal précédent",
+          "Présentation des comptes de l'exercice écoulé",
+          "Rapport de l'organe de contrôle des comptes",
+          "Adoption des comptes et décharge à l'administrateur pour sa gestion",
+          "Nominations statutaires (administrateur, contrôle, comité / délégués)",
+          "Adoption du budget avec attribution au fonds de rénovation",
+          "Points spécifiques où l'assemblée doit prendre une décision (travaux, aménagements, etc.)",
+          "Divers"
+        ],
+        "explication": "On vérifie d'abord le quorum (présences), on adopte le PV précédent, puis on traite les comptes (présentation → rapport de contrôle → adoption et décharge) avant les nominations, le budget, les points spécifiques et enfin les divers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Pour les décisions sans grandes conséquences patrimoniales, quelle règle de vote le droit suisse retient-il en PPE ?",
+        "propositions": [
+          "Le vote par quotes-parts uniquement (millièmes)",
+          "Le vote par tête",
+          "La combinaison du vote par tête et du vote par parts",
+          "L'unanimité des copropriétaires présents et représentés"
+        ],
+        "reponse_correcte": "Le vote par tête",
+        "explication": "Décisions sans grandes conséquences patrimoniales/financières : vote par tête (une tête = une voix)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Pour les décisions avec des conséquences patrimoniales importantes, quelle règle de vote le droit suisse retient-il ?",
+        "propositions": [
+          "Le vote par tête uniquement (une tête = une voix)",
+          "Le vote par quotes-parts uniquement",
+          "Le vote par tête combiné au vote par parts",
+          "Le vote à bulletin secret, obligatoire dès que la décision engage le fonds de rénovation"
+        ],
+        "reponse_correcte": "Le vote par tête combiné au vote par parts",
+        "explication": "Décisions avec conséquences patrimoniales/financières importantes : combinaison du vote par tête et du vote par parts."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "M. Dupont est propriétaire, en son nom propre, de 3 appartements dans le même immeuble. De combien de voix dispose-t-il ?",
+        "propositions": [
+          "3 voix, une par lot, ses millièmes étant comptés séparément pour chaque lot",
+          "D'une seule voix, mais ses millièmes sont cumulés",
+          "D'aucune voix tant qu'il n'a pas désigné un représentant (art. 712o CC)",
+          "D'une seule voix, et seuls les millièmes de son plus grand lot sont comptés"
+        ],
+        "reponse_correcte": "D'une seule voix, mais ses millièmes sont cumulés",
+        "explication": "Propriétaire de 3 appartements en son nom propre, M. Dupont ne dispose que d'une voix, mais ses millièmes sont cumulés. S'il détenait un lot en commun avec son épouse, il aurait une voix de plus pour ce lot."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Assemblée générale",
+      "content": {
+        "enonce": "Que doit relater le procès-verbal d'assemblée ?",
+        "propositions": [
+          "Uniquement les décisions prises, les discussions n'ayant pas à y figurer",
+          "L'ensemble des décisions prises et des discussions qui se sont tenues lors de l'assemblée",
+          "La liste des présents et le résultat des votes",
+          "Un résumé libre rédigé par l'administrateur après coup"
+        ],
+        "reponse_correcte": "L'ensemble des décisions prises et des discussions qui se sont tenues lors de l'assemblée",
+        "explication": "Le PV, document important à rédiger minutieusement, relate l'ensemble des décisions et discussions. Il peut être contesté auprès du juge dans les 30 jours dès sa réception."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Quorum et majorités",
+      "content": {
+        "enonce": "Qu'est-ce que le quorum ?",
+        "propositions": [
+          "La majorité nécessaire pour qu'une décision soit adoptée (plus de la moitié des voix exprimées)",
+          "Le nombre de copropriétaires nécessairement présents à l'assemblée pour que celle-ci puisse délibérer",
+          "Le nombre minimal de lots pour constituer une PPE",
+          "La part du budget attribuée au fonds de rénovation"
+        ],
+        "reponse_correcte": "Le nombre de copropriétaires nécessairement présents à l'assemblée pour que celle-ci puisse délibérer",
+        "explication": "Le quorum est le nombre de copropriétaires nécessairement présents pour que l'assemblée puisse délibérer. S'il n'est pas atteint, l'assemblée ne peut pas se tenir."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Quorum et majorités",
+      "content": {
+        "enonce": "Quelle est la double exigence fixée par le législateur pour le quorum ? (2 réponses)",
+        "propositions": [
+          "La moitié des copropriétaires, mais au moins 2, présents ou représentés",
+          "Au moins la moitié de la valeur des quotes-parts (500 millièmes)",
+          "Les deux tiers des copropriétaires présents personnellement (les procurations ne comptant pas)",
+          "Au moins 667 millièmes",
+          "La présence de l'administrateur et de l'organe de contrôle"
+        ],
+        "reponses_correctes": [
+          "La moitié des copropriétaires, mais au moins 2, présents ou représentés",
+          "Au moins la moitié de la valeur des quotes-parts (500 millièmes)"
+        ],
+        "explication": "Exigence personnelle : la moitié des copropriétaires, mais au moins 2, présents ou représentés. Exigence économique : au moins la moitié de la valeur des quotes-parts, soit 500 ‰. Ex. : 6/10 présents représentant 490 ‰ → quorum pas atteint."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Quorum et majorités",
+      "content": {
+        "enonce": "Quels sont les quatre types de majorités prévus ? (4 réponses)",
+        "propositions": [
+          "La majorité simple",
+          "La double majorité",
+          "La majorité absolue",
+          "L'unanimité des propriétaires d'étages",
+          "La majorité qualifiée des deux tiers des millièmes",
+          "La majorité relative des seuls millièmes présents"
+        ],
+        "reponses_correctes": [
+          "La majorité simple",
+          "La double majorité",
+          "La majorité absolue",
+          "L'unanimité des propriétaires d'étages"
+        ],
+        "explication": "Simple (vote par tête des présents), double (têtes + millièmes des présents), absolue (têtes + millièmes des présents et absents) et unanimité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Quorum et majorités",
+      "content": {
+        "enonce": "Quelles décisions de l'assemblée sont nulles ?",
+        "propositions": [
+          "Celles prises sans respecter le délai de convocation",
+          "Celles qui ne respectent pas le droit impératif ou sont contraires à la structure de la PPE",
+          "Celles qui portent sur un point ne figurant pas à l'ordre du jour",
+          "Celles contestées par au moins un copropriétaire dans le mois"
+        ],
+        "reponse_correcte": "Celles qui ne respectent pas le droit impératif ou sont contraires à la structure de la PPE",
+        "explication": "Sont nulles les décisions contraires au droit impératif ou à la structure de la PPE (ex. supprimer le droit de vote de certains copropriétaires, décision sans quorum). La nullité se constate d'office et peut être invoquée en tout temps."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Quorum et majorités",
+      "content": {
+        "enonce": "Quelles raisons rendent une décision annulable ? (3 réponses)",
+        "propositions": [
+          "Le non-respect du délai de convocation",
+          "Une décision prise à l'assemblée alors qu'elle ne figurait pas à l'ordre du jour",
+          "La convocation incomplète des copropriétaires",
+          "La suppression du droit de vote de certains copropriétaires",
+          "Une décision prise alors que le quorum n'était pas atteint"
+        ],
+        "reponses_correctes": [
+          "Le non-respect du délai de convocation",
+          "Une décision prise à l'assemblée alors qu'elle ne figurait pas à l'ordre du jour",
+          "La convocation incomplète des copropriétaires"
+        ],
+        "explication": "Ces trois cas rendent la décision annulable (demande d'annulation dans le mois dès la connaissance). Supprimer un droit de vote ou décider sans quorum rend la décision nulle."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Administrateur et organe de contrôle",
+      "content": {
+        "enonce": "Quelles sont les trois catégories de tâches de l'administrateur ? (3 réponses)",
+        "propositions": [
+          "Administratives et techniques",
+          "Financières",
+          "Surveillance",
+          "Juridictionnelles (trancher définitivement les litiges entre copropriétaires)",
+          "Notariales (instrumenter les modifications de l'acte constitutif)"
+        ],
+        "reponses_correctes": ["Administratives et techniques", "Financières", "Surveillance"],
+        "explication": "Les tâches de l'administrateur (selon le RAU ou les recommandations USPI) sont administratives et techniques, financières et de surveillance."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Administrateur et organe de contrôle",
+      "content": {
+        "enonce": "Parmi ces tâches de l'administrateur, lesquelles sont administratives et techniques ? (4 réponses)",
+        "propositions": [
+          "Prendre toutes mesures urgentes visant à empêcher ou réparer un dommage",
+          "Convoquer les assemblées",
+          "Conclure les contrats (assurances, concierge, entretiens)",
+          "Commander et suivre les travaux",
+          "Tenir la comptabilité (compte d'exploitation et bilan)",
+          "Planifier le budget annuel"
+        ],
+        "reponses_correctes": [
+          "Prendre toutes mesures urgentes visant à empêcher ou réparer un dommage",
+          "Convoquer les assemblées",
+          "Conclure les contrats (assurances, concierge, entretiens)",
+          "Commander et suivre les travaux"
+        ],
+        "explication": "Tâches administratives et techniques : mesures urgentes, convocation des assemblées, conclusion des contrats, commande et suivi des travaux, correspondance, conservation des archives. Comptabilité et budget sont des tâches financières."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Administrateur et organe de contrôle",
+      "content": {
+        "enonce": "Parmi ces tâches de l'administrateur, lesquelles sont financières ? (4 réponses)",
+        "propositions": [
+          "Tenir la comptabilité : compte d'exploitation et bilan",
+          "Répartir les charges entre copropriétaires",
+          "Régler les factures",
+          "Gérer les fonds de rénovation",
+          "Conserver les archives",
+          "Gérer les conflits entre copropriétaires"
+        ],
+        "reponses_correctes": [
+          "Tenir la comptabilité : compte d'exploitation et bilan",
+          "Répartir les charges entre copropriétaires",
+          "Régler les factures",
+          "Gérer les fonds de rénovation"
+        ],
+        "explication": "Tâches financières : comptabilité, répartition des charges, règlement des factures, planification du budget annuel, gestion des fonds de rénovation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Administrateur et organe de contrôle",
+      "content": {
+        "enonce": "Quelles sont les tâches de surveillance de l'administrateur ? (2 réponses)",
+        "propositions": [
+          "Être le garant du bon fonctionnement domestique de la PPE",
+          "Gérer les conflits",
+          "Conclure les contrats d'entretien",
+          "Régler les factures des fournisseurs"
+        ],
+        "reponses_correctes": ["Être le garant du bon fonctionnement domestique de la PPE", "Gérer les conflits"],
+        "explication": "Surveillance : garant du bon fonctionnement domestique de la PPE et gestion des conflits (en gardant à l'esprit la question de l'impartialité)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Administrateur et organe de contrôle",
+      "content": {
+        "enonce": "Quel est le rôle de l'organe de contrôle (comité ou délégué) ?",
+        "propositions": [
+          "Il remplace l'administrateur et engage sa responsabilité personnelle en cas de malversation non constatée",
+          "Il conseille sur la gestion de l'administrateur et des comptes, et étudie les travaux de rénovation",
+          "Il convoque seul l'assemblée générale",
+          "Il fixe le montant du fonds de rénovation sans passer par l'assemblée"
+        ],
+        "reponse_correcte": "Il conseille sur la gestion de l'administrateur et des comptes, et étudie les travaux de rénovation",
+        "explication": "Le comité ou délégué conseille dans la gestion de l'administrateur et des comptes et, pour les travaux de rénovation, mène conseil et études auprès de l'administrateur. Il n'a pas de responsabilité en cas de malversation non constatée."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Extinction de la PPE",
+      "content": {
+        "enonce": "Quels sont les deux types d'extinction possibles d'une PPE ?",
+        "propositions": [
+          "Volontaire et forcée",
+          "Partielle et totale (selon la part des quotes-parts concernées)",
+          "Relative et absolue",
+          "Ordinaire et extraordinaire"
+        ],
+        "reponse_correcte": "Relative et absolue",
+        "explication": "On distingue l'extinction relative (un copropriétaire perd sa qualité) et absolue (perte de la chose, extinction du droit de superficie, extinction par acte juridique)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Extinction de la PPE",
+      "content": {
+        "enonce": "À quoi se rapporte l'extinction relative ?",
+        "propositions": [
+          "À la perte de la chose (par ex. destruction de l'immeuble)",
+          "À l'extinction du droit de superficie sur lequel repose la PPE",
+          "À tout acte par lequel un propriétaire d'étages perd cette qualité, la PPE continuant d'exister",
+          "À la dissolution de la PPE décidée à l'unanimité, après radiation au Registre foncier"
+        ],
+        "reponse_correcte": "À tout acte par lequel un propriétaire d'étages perd cette qualité, la PPE continuant d'exister",
+        "explication": "L'extinction relative vise tout acte par lequel un propriétaire d'étages perd cette qualité (aliénation, réalisation forcée, exclusion) ; la PPE continue d'exister."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion financière",
+      "content": {
+        "enonce": "En règle générale, quels documents comptables chaque copropriétaire reçoit-il avec la convocation à l'assemblée générale ? (3 réponses)",
+        "propositions": [
+          "Le bilan",
+          "Le compte d'exploitation général",
+          "Le décompte de charges individuel",
+          "Une copie de l'acte constitutif notarié (avec la liste des quotes-parts)",
+          "Le décompte de charges détaillé de chacun des autres copropriétaires"
+        ],
+        "reponses_correctes": ["Le bilan", "Le compte d'exploitation général", "Le décompte de charges individuel"],
+        "explication": "Chaque copropriétaire reçoit en général le bilan (disponible, débiteurs, créanciers, fonds de rénovation…), le compte d'exploitation général (charges et produits) et son décompte de charges individuel."
+      }
+    }
+  ]
+}

@@ -79,7 +79,7 @@ function Row({
         <span style={{ fontWeight: 600 }}>
           {chapter.level2Of && (
             <span
-              title={`Débloqué sous « ${chapter.level2Of} » une fois tous ses badges obtenus.`}
+              title={`Affiché sous « ${chapter.level2Of} », accessible en tout temps.`}
               style={{ fontSize: "0.7rem", fontWeight: 700, color: "#fff", background: "#7c3aed", borderRadius: "999px", padding: "0.1rem 0.5rem", marginRight: "0.5rem" }}
             >
               Niveau 2

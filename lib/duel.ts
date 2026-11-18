@@ -57,8 +57,8 @@ export function isInviteExpired(duel: { status: DuelStatus; createdAt: Date }): 
   return duel.status === "PENDING" && Date.now() - duel.createdAt.getTime() > DUEL_INVITE_TTL_MS;
 }
 
-// Chapters a round can be played on: enabled, regular (not "niveau 2", which
-// may still be locked for one of the players) and with at least one question.
+// Chapters a round can be played on: enabled, regular (not "niveau 2") and
+// with at least one question.
 export async function getDuelThemes(quizId: string) {
   const links = await prisma.quizTheme.findMany({
     where: { quizId, enabled: true, parentThemeId: null },

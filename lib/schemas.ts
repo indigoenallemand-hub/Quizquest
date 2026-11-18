@@ -43,7 +43,19 @@ export const calculContentSchema = z.object({
 });
 export type CalculContent = z.infer<typeof calculContentSchema>;
 
-export const questionTypeEnum = z.enum(["QCM_SIMPLE", "QCM_MULTIPLE", "DATE", "CALCUL"]);
+// "Remettre dans l'ordre": `elements` is stored in the CORRECT order; the
+// player gets them shuffled and has to rebuild that order.
+export const ordreContentSchema = z.object({
+  enonce: z.string().min(1),
+  elements: z
+    .array(z.string().min(1))
+    .min(2)
+    .refine((els) => new Set(els).size === els.length, "Les elements doivent etre tous differents"),
+  explication: z.string().optional(),
+});
+export type OrdreContent = z.infer<typeof ordreContentSchema>;
+
+export const questionTypeEnum = z.enum(["QCM_SIMPLE", "QCM_MULTIPLE", "DATE", "CALCUL", "ORDRE"]);
 
 // Discriminates on question type to validate `content` against the right shape.
 export const questionInputSchema = z.discriminatedUnion("type", [
@@ -51,6 +63,7 @@ export const questionInputSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("QCM_MULTIPLE"), content: qcmMultipleContentSchema, section: z.string().optional() }),
   z.object({ type: z.literal("DATE"), content: dateContentSchema, section: z.string().optional() }),
   z.object({ type: z.literal("CALCUL"), content: calculContentSchema, section: z.string().optional() }),
+  z.object({ type: z.literal("ORDRE"), content: ordreContentSchema, section: z.string().optional() }),
 ]);
 export type QuestionInput = z.infer<typeof questionInputSchema>;
 

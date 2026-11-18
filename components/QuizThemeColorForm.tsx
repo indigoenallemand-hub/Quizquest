@@ -50,7 +50,7 @@ export default function QuizThemeColorForm({ quizId, initialColors }: { quizId: 
       <ColorFields fields={FIELDS} colors={colors} saving={saving} onChange={handleChange} onReset={handleReset} />
       <h3 style={{ fontWeight: 600, marginTop: "0.5rem" }}>Chapitres niveau 2</h3>
       <p className="qz-chapter-questions-count" style={{ marginTop: "-0.25rem" }}>
-        Couleurs du niveau 2, débloqué sous un chapitre une fois tous ses badges obtenus.
+        Couleurs du niveau 2, affiché sous son chapitre parent.
       </p>
       <ColorFields fields={LEVEL2_FIELDS} colors={colors} saving={saving} onChange={handleChange} onReset={handleReset} />
     </div>

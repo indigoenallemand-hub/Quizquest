@@ -13,6 +13,7 @@ const TYPE_LABEL: Record<string, string> = {
   QCM_MULTIPLE: "QCM multiple",
   DATE: "Date",
   CALCUL: "Calcul",
+  ORDRE: "Remettre dans l'ordre",
 };
 
 function questionPreview(question: Parameters<typeof parseQuestionContent>[0]): string {

@@ -83,7 +83,6 @@ export default async function QuizDetailPage({
             pointsBefore={earned}
             entryGrid={grid}
             level2Style={buildLevel2Style(quiz.themeColors)}
-            alwaysUnlockLevel2={isOwner}
           />
         )}
       </div>

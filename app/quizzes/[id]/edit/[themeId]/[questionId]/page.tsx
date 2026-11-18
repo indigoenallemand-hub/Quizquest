@@ -62,6 +62,14 @@ export default async function EditQuestionPage({
               .map((r) => parsed.content.propositions.indexOf(r))
               .filter((i) => i !== -1),
           }
+        : parsed.type === "ORDRE"
+          ? {
+              ...base,
+              type: "ORDRE" as const,
+              enonce: parsed.content.enonce,
+              explication: parsed.content.explication ?? "",
+              propositions: parsed.content.elements,
+            }
         : parsed.type === "DATE"
           ? {
               ...base,

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-type FormType = "QCM_SIMPLE" | "QCM_MULTIPLE" | "DATE" | "CALCUL";
+type FormType = "QCM_SIMPLE" | "QCM_MULTIPLE" | "DATE" | "CALCUL" | "ORDRE";
 
 interface VariableRow {
   nom: string;
@@ -53,6 +53,7 @@ const TYPE_LABELS: Record<FormType, string> = {
   QCM_MULTIPLE: "QCM (plusieurs bonnes reponses)",
   DATE: "Date",
   CALCUL: "Calcul",
+  ORDRE: "Remettre dans l'ordre",
 };
 
 export default function QuestionEditForm({
@@ -92,6 +93,15 @@ export default function QuestionEditForm({
       "correctIndexes",
       values.correctIndexes.filter((i) => i !== index).map((i) => (i > index ? i - 1 : i))
     );
+  }
+
+  // ORDRE reuses `propositions` as the elements, kept in their correct order.
+  function moveProposition(index: number, to: number) {
+    if (to < 0 || to >= values.propositions.length) return;
+    const next = [...values.propositions];
+    const [moved] = next.splice(index, 1);
+    next.splice(to, 0, moved);
+    update("propositions", next);
   }
 
   function toggleCorrectIndex(index: number) {
@@ -145,6 +155,23 @@ export default function QuestionEditForm({
         type: "QCM_MULTIPLE",
         section,
         content: { enonce: values.enonce, propositions, reponses_correctes: correctes, explication: values.explication || undefined },
+      };
+    }
+
+    if (values.type === "ORDRE") {
+      const elements = values.propositions.map((p) => p.trim()).filter(Boolean);
+      if (elements.length < 2) {
+        setError("Au moins 2 elements sont requis.");
+        return null;
+      }
+      if (new Set(elements).size !== elements.length) {
+        setError("Les elements doivent etre tous differents.");
+        return null;
+      }
+      return {
+        type: "ORDRE",
+        section,
+        content: { enonce: values.enonce, elements, explication: values.explication || undefined },
       };
     }
 
@@ -274,6 +301,36 @@ export default function QuestionEditForm({
           ))}
           <button type="button" className="qz-btn-secondary" onClick={addProposition}>
             + Ajouter une proposition
+          </button>
+        </div>
+      )}
+
+      {values.type === "ORDRE" && (
+        <div className="qz-form-group">
+          <label>Elements, dans le BON ordre (ils seront melanges pour le joueur)</label>
+          {values.propositions.map((p, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+              <span style={{ minWidth: "1.5rem", fontWeight: 700 }}>{i + 1}.</span>
+              <input className="qz-calc-input" style={{ flex: 1 }} value={p} onChange={(e) => updateProposition(i, e.target.value)} />
+              <button type="button" className="qz-btn-quit" onClick={() => moveProposition(i, i - 1)} disabled={i === 0} aria-label="Monter">
+                ▲
+              </button>
+              <button
+                type="button"
+                className="qz-btn-quit"
+                onClick={() => moveProposition(i, i + 1)}
+                disabled={i === values.propositions.length - 1}
+                aria-label="Descendre"
+              >
+                ▼
+              </button>
+              <button type="button" className="qz-btn-quit" onClick={() => removeProposition(i)}>
+                Retirer
+              </button>
+            </div>
+          ))}
+          <button type="button" className="qz-btn-secondary" onClick={addProposition}>
+            + Ajouter un element
           </button>
         </div>
       )}

@@ -22,6 +22,7 @@ type PublicQuestion =
   | { id: string; type: "QCM_SIMPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string }
   | { id: string; type: "QCM_MULTIPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string }
   | { id: string; type: "DATE"; section: string | null; enonce: string; themeId?: string }
+  | { id: string; type: "ORDRE"; section: string | null; enonce: string; elements: string[]; themeId?: string }
   | {
       id: string;
       type: "CALCUL";
@@ -100,6 +101,10 @@ export default function QuizSession({
   const [numberValue, setNumberValue] = useState("");
   const [freeText, setFreeText] = useState("");
   const [comment, setComment] = useState("");
+  // ORDRE: the player's current arrangement, keyed by question so it resets
+  // to the server-shuffled order whenever a new question comes up.
+  const [orderState, setOrderState] = useState<{ id: string; items: string[] } | null>(null);
+  const [dragIndex, setDragIndex] = useState<number | null>(null);
 
   useEffect(() => {
     fetch(questionsUrl)
@@ -127,6 +132,22 @@ export default function QuizSession({
     return shuffleArray(current.propositions).map((text, i) => ({ text, label: LABELS[i] ?? String(i + 1) }));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current?.id]);
+
+  const orderItems =
+    current?.type === "ORDRE" ? (orderState?.id === current.id ? orderState.items : current.elements) : [];
+
+  function moveOrderItem(from: number, to: number) {
+    if (result || !current || to < 0 || to >= orderItems.length || from === to) return;
+    const items = [...orderItems];
+    const [moved] = items.splice(from, 1);
+    items.splice(to, 0, moved);
+    setOrderState({ id: current.id, items });
+  }
+
+  function submitOrder() {
+    if (orderItems.length === 0) return;
+    submitAnswer({ order: orderItems }, orderItems.map((el, i) => `${i + 1}. ${el}`).join(" ; "));
+  }
 
   const [now, setNow] = useState(() => Date.now());
   useEffect(() => {
@@ -226,7 +247,13 @@ export default function QuizSession({
         }
         return;
       }
-      if (mode === "REPONSE_LIBRE" || shuffledChoices.length === 0) return;
+      if (mode === "REPONSE_LIBRE") return;
+      if (e.key === "Enter" && current?.type === "ORDRE" && !e.repeat) {
+        e.preventDefault();
+        submitOrder();
+        return;
+      }
+      if (shuffledChoices.length === 0) return;
 
       if (e.key === "Enter" && current?.type === "QCM_MULTIPLE") {
         e.preventDefault();
@@ -451,6 +478,64 @@ export default function QuizSession({
                 Valider ({selectedMultiple.length} selectionnee{selectedMultiple.length > 1 ? "s" : ""})
               </button>
             </div>
+          ) : q.type === "ORDRE" ? (
+            <div className="qz-choices">
+              <p className="qz-order-hint">
+                Remettez les elements dans le bon ordre : glissez-les ou utilisez les fleches.
+              </p>
+              {orderItems.map((text, i) => (
+                <div
+                  key={text}
+                  className={`qz-choice qz-order-item ${dragIndex === i ? "is-selected" : ""}`}
+                  draggable={!submitting}
+                  onDragStart={(e) => {
+                    setDragIndex(i);
+                    e.dataTransfer.effectAllowed = "move";
+                  }}
+                  onDragOver={(e) => {
+                    e.preventDefault();
+                    if (dragIndex !== null && dragIndex !== i) {
+                      moveOrderItem(dragIndex, i);
+                      setDragIndex(i);
+                    }
+                  }}
+                  onDragEnd={() => setDragIndex(null)}
+                  onDrop={(e) => {
+                    e.preventDefault();
+                    setDragIndex(null);
+                  }}
+                >
+                  <span className="qz-order-handle" aria-hidden="true">
+                    ⠿
+                  </span>
+                  <span className="qz-choice-id">{i + 1}</span>
+                  <span className="qz-choice-text">{text}</span>
+                  <span className="qz-order-arrows">
+                    <button
+                      type="button"
+                      className="qz-order-arrow"
+                      onClick={() => moveOrderItem(i, i - 1)}
+                      disabled={i === 0 || submitting}
+                      aria-label={`Monter « ${text} »`}
+                    >
+                      ▲
+                    </button>
+                    <button
+                      type="button"
+                      className="qz-order-arrow"
+                      onClick={() => moveOrderItem(i, i + 1)}
+                      disabled={i === orderItems.length - 1 || submitting}
+                      aria-label={`Descendre « ${text} »`}
+                    >
+                      ▼
+                    </button>
+                  </span>
+                </div>
+              ))}
+              <button type="button" className="qz-btn-primary qz-btn-valider" disabled={submitting} onClick={submitOrder}>
+                {submitting ? "Envoi..." : "Valider l'ordre"}
+              </button>
+            </div>
           ) : q.type === "DATE" ? (
             <>
               <input type="date" value={dateValue} onChange={(e) => setDateValue(e.target.value)} className="qz-calc-input" />
@@ -548,10 +633,38 @@ export default function QuizSession({
             </div>
           )}
 
+          {q.type === "ORDRE" && mode !== "REPONSE_LIBRE" && (
+            <div className="qz-choices">
+              {orderItems.map((text, i) => {
+                const expected = result.correctChoices ?? [];
+                const ok = expected[i] === text;
+                const correctPos = expected.indexOf(text);
+                return (
+                  <div key={text} className={`qz-choice ${ok ? "is-correct" : "is-wrong"}`}>
+                    <span className="qz-choice-id">{ok ? "✓" : "✗"}</span>
+                    <span className="qz-choice-text">
+                      {i + 1}. {text}
+                      {!ok && correctPos !== -1 && <em className="qz-order-correct-pos"> (position correcte : {correctPos + 1})</em>}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
           <div className={`qz-feedback ${result.isCorrect ? "qz-feedback-correct" : "qz-feedback-wrong"}`}>
             {result.isCorrect
               ? "Bonne reponse !"
-              : `Mauvaise reponse${result.correctAnswerText ? ` -- La bonne reponse : ${result.correctAnswerText}` : ""}`}
+              : q.type === "ORDRE" && result.correctChoices
+                ? "Mauvais ordre -- L'ordre correct :"
+                : `Mauvaise reponse${result.correctAnswerText ? ` -- La bonne reponse : ${result.correctAnswerText}` : ""}`}
+            {!result.isCorrect && q.type === "ORDRE" && result.correctChoices && (
+              <ol className="qz-order-solution">
+                {result.correctChoices.map((el) => (
+                  <li key={el}>{el}</li>
+                ))}
+              </ol>
+            )}
           </div>
 
           {result.feedback && (

@@ -16,6 +16,7 @@ export class InvalidAnswerError extends Error {}
 // Grades a submitted answer against a question, reused by both the
 // authenticated (/api/attempts) and guest (/api/share/[token]/attempts)
 // submission routes — everything here is identity-agnostic.
+// For ORDRE, the elements in their correct order.
 // For QCM_SIMPLE/QCM_MULTIPLE, the exact list of correct proposition texts —
 // used by the client to highlight choices. Kept as a real array rather than
 // folded into correctAnswerText's joined string, since a proposition's own
@@ -26,6 +27,8 @@ function getCorrectChoices(parsedContent: ReturnType<typeof parseQuestionContent
       return [parsedContent.content.reponse_correcte];
     case "QCM_MULTIPLE":
       return parsedContent.content.reponses_correctes;
+    case "ORDRE":
+      return parsedContent.content.elements;
     default:
       return undefined;
   }
