@@ -1,0 +1,771 @@
+{
+  "title": "Mandat de gérance-propriétaire — Niveau 2",
+  "description": "Niveau 2 du mandat de gérance : contrat de gérance, base du mandat, gestion financière, locative et administrative, gestion technique, rémunération, prestations particulières, formes de propriété, types de propriétaires et passeport client.",
+  "questions": [
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Que définit le contrat de gérance ?",
+        "propositions": [
+          "Les obligations du régisseur et du propriétaire",
+          "Les droits et obligations du locataire envers le propriétaire (conditions générales du bail)",
+          "Le montant des loyers de l'immeuble",
+          "Le règlement de maison"
+        ],
+        "reponse_correcte": "Les obligations du régisseur et du propriétaire",
+        "explication": "Le contrat de gérance (contrat de mandat) définit les obligations du régisseur et du propriétaire ; il énumère les prestations du gérant, en précise le contenu et les limites, et règle sa rémunération."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Sous quelle forme le contrat de gérance peut-il être conclu ?",
+        "propositions": [
+          "Uniquement en la forme authentique, devant notaire",
+          "Uniquement par écrit, sur formule agréée par le canton",
+          "Sous forme orale ou écrite",
+          "Par écrit, avec inscription au Registre foncier"
+        ],
+        "reponse_correcte": "Sous forme orale ou écrite",
+        "explication": "Le contrat de gérance (contrat de mandat) peut être conclu sous forme orale ou écrite."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Que contient le contrat de gérance ? (4 réponses)",
+        "propositions": [
+          "L'immeuble et son numéro de parcelle",
+          "Les obligations du régisseur et du propriétaire",
+          "Les prestations du gérant, avec le contenu et les limites du mandat",
+          "La rémunération du gérant",
+          "Le loyer et l'identité de chaque locataire",
+          "Le nom du concierge et son salaire"
+        ],
+        "reponses_correctes": [
+          "L'immeuble et son numéro de parcelle",
+          "Les obligations du régisseur et du propriétaire",
+          "Les prestations du gérant, avec le contenu et les limites du mandat",
+          "La rémunération du gérant"
+        ],
+        "explication": "Le contrat mentionne l'immeuble et le numéro de parcelle, définit les obligations des parties, énumère les prestations du gérant (contenu et limites) et règle sa rémunération."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "À quoi la régie s'engage-t-elle notamment auprès du propriétaire ? (3 réponses)",
+        "propositions": [
+          "Défendre ses intérêts",
+          "Préserver les biens confiés selon ses instructions",
+          "Faire respecter les règles et usages locatifs et les obligations des locataires",
+          "Lui garantir un rendement minimal sur l'immeuble",
+          "Prendre en charge personnellement les loyers impayés (ducroire)"
+        ],
+        "reponses_correctes": [
+          "Défendre ses intérêts",
+          "Préserver les biens confiés selon ses instructions",
+          "Faire respecter les règles et usages locatifs et les obligations des locataires"
+        ],
+        "explication": "La régie s'engage à défendre les intérêts du propriétaire, à préserver les biens confiés selon ses instructions et à faire respecter les règles et usages locatifs, en trouvant le bon équilibre entre client locataire et client propriétaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Entre qui la régie doit-elle trouver le bon équilibre ?",
+        "propositions": [
+          "Entre le propriétaire et les autorités communales",
+          "Entre le client locataire et le client propriétaire",
+          "Entre les entreprises mandatées (mise en concurrence des devis)",
+          "Entre le gérant et le comptable"
+        ],
+        "reponse_correcte": "Entre le client locataire et le client propriétaire",
+        "explication": "La régie doit trouver le bon équilibre entre le client locataire et le client propriétaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "À quoi le contrat type de gérance (exemple vaudois) se réfère-t-il expressément ?",
+        "propositions": [
+          "Au Code civil, art. 712a ss",
+          "Aux Prestations des membres de l'USPI (édition 2009 ou ultérieures), qui font partie intégrante du contrat",
+          "Au contrat-cadre romand de bail à loyer",
+          "Aux recommandations de l'ASLOCA (pour la protection des locataires)"
+        ],
+        "reponse_correcte": "Aux Prestations des membres de l'USPI (édition 2009 ou ultérieures), qui font partie intégrante du contrat",
+        "explication": "Le préambule se réfère expressément aux Prestations des membres de l'USPI (édition 2009 ou ultérieures), conditions générales qui font partie intégrante du contrat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Dans le contrat type, comment le contrat se renouvelle-t-il après sa première année ?",
+        "propositions": [
+          "Il prend fin automatiquement et doit être re-signé",
+          "Par tacite reconduction d'année en année, sauf dénonciation écrite à l'avance",
+          "Pour une durée indéterminée, résiliable seulement pour justes motifs",
+          "Par tacite reconduction de 5 ans en 5 ans"
+        ],
+        "reponse_correcte": "Par tacite reconduction d'année en année, sauf dénonciation écrite à l'avance",
+        "explication": "Le contrat type dure un an puis se renouvelle par tacite reconduction d'année en année, sauf dénonciation écrite donnée par l'une des parties quelques mois à l'avance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Le contrat de gérance peut-il être résilié en tout temps ?",
+        "propositions": [
+          "Non, seulement à son échéance annuelle",
+          "Oui, sous réserve d'une indemnité pour résiliation en temps inopportun (art. 404 CO)",
+          "Non, une résiliation anticipée nécessite l'accord du juge",
+          "Oui, sans aucune indemnité possible"
+        ],
+        "reponse_correcte": "Oui, sous réserve d'une indemnité pour résiliation en temps inopportun (art. 404 CO)",
+        "explication": "Le contrat est résiliable en tout temps ; une indemnité pour résiliation en temps inopportun est réservée (art. 404 CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Selon le contrat type, sur quoi le taux des honoraires de gérance est-il appliqué ?",
+        "propositions": [
+          "Sur la valeur d'assurance incendie de l'immeuble",
+          "Sur le total des sommes perçues par la régie, hors TVA",
+          "Sur le nombre de logements gérés",
+          "Sur le bénéfice net du propriétaire (après intérêts hypothécaires)"
+        ],
+        "reponse_correcte": "Sur le total des sommes perçues par la régie, hors TVA",
+        "explication": "Le taux des honoraires de gérance est fixé à … % hors TVA du total des sommes perçues par la régie ; les autres honoraires suivent le descriptif des prestations USPI."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Contrat de gérance",
+      "content": {
+        "enonce": "Que prévoit le contrat type au sujet de la conciergerie ?",
+        "propositions": [
+          "Le concierge est engagé et salarié par la régie, en son propre nom",
+          "Le mandataire est autorisé à engager un concierge au nom et pour le compte du mandant",
+          "Le propriétaire doit engager lui-même le concierge",
+          "La conciergerie est obligatoirement confiée à une entreprise de nettoyage"
+        ],
+        "reponse_correcte": "Le mandataire est autorisé à engager un concierge au nom et pour le compte du mandant",
+        "explication": "Le mandataire a l'autorisation d'engager un concierge au nom et pour le compte du mandant (le propriétaire)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Mandat de base",
+      "content": {
+        "enonce": "Que couvre la « base du mandat » ? (3 réponses)",
+        "propositions": [
+          "L'infrastructure (les différents locaux nécessaires)",
+          "La logistique (informatique, papeterie, etc.)",
+          "Le personnel (salaires des collaborateurs)",
+          "Les frais de contentieux et d'avocat",
+          "Les travaux d'entretien de l'immeuble"
+        ],
+        "reponses_correctes": [
+          "L'infrastructure (les différents locaux nécessaires)",
+          "La logistique (informatique, papeterie, etc.)",
+          "Le personnel (salaires des collaborateurs)"
+        ],
+        "explication": "La base du mandat couvre l'infrastructure, la logistique et le personnel ; elle représente 30 % de la rémunération du mandat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mandat de base",
+      "content": {
+        "enonce": "Comment se répartit la rémunération du mandat de gérance selon le cours ?",
+        "propositions": [
+          "Base 30 %, gestion financière 20 %, gestion locative et administrative 25 %, gestion technique 25 %",
+          "Base 25 %, gestion financière 25 %, gestion locative et administrative 25 %, gestion technique 25 %",
+          "Base 30 %, gestion financière 30 %, gestion locative 20 %, gestion technique 20 %",
+          "Base 10 %, gestion financière 40 % (encaissements), gestion locative 25 %, gestion technique 25 %"
+        ],
+        "reponse_correcte": "Base 30 %, gestion financière 20 %, gestion locative et administrative 25 %, gestion technique 25 %",
+        "explication": "Base du mandat 30 %, gestion financière 20 %, gestion locative et administrative 25 %, gestion technique 25 %."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Mandat de base",
+      "content": {
+        "enonce": "Quelle part de la rémunération du mandat la gestion financière représente-t-elle ?",
+        "propositions": ["30 %", "25 %", "20 %", "15 % (le reste étant couvert par les frais et débours)"],
+        "reponse_correcte": "20 %",
+        "explication": "La gestion financière représente 20 % du mandat, la gestion locative et administrative 25 %, la gestion technique 25 % et la base 30 %."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion financière",
+      "content": {
+        "enonce": "Quelles prestations relèvent de la gestion financière du mandat de base ? (5 réponses)",
+        "propositions": [
+          "L'encaissement des loyers, frais de chauffage et d'eau chaude, frais annexes et autres produits",
+          "Le traitement des rappels et du contentieux",
+          "L'établissement des décomptes de gérance, propriétaire ou copropriétaire",
+          "Le paiement des intérêts hypothécaires et bancaires",
+          "Le versement du disponible",
+          "Le suivi des contrats d'assurance, garanties et cautions",
+          "La gestion des sinistres (annonce et suivi)"
+        ],
+        "reponses_correctes": [
+          "L'encaissement des loyers, frais de chauffage et d'eau chaude, frais annexes et autres produits",
+          "Le traitement des rappels et du contentieux",
+          "L'établissement des décomptes de gérance, propriétaire ou copropriétaire",
+          "Le paiement des intérêts hypothécaires et bancaires",
+          "Le versement du disponible"
+        ],
+        "explication": "Gestion financière : encaissements, contrôle des versements, rappels et contentieux, avances de frais pour procédures, organisation et contrôle des paiements, décomptes de gérance, décompte de chauffage, intérêts hypothécaires, disponible, impôts et taxes. Le suivi des assurances relève de la gestion locative, les sinistres de la gestion technique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion financière",
+      "content": {
+        "enonce": "Que comprennent les décomptes de gérance établis au titre de la gestion financière ? (4 réponses)",
+        "propositions": [
+          "Le compte d'exploitation / bilan",
+          "L'état locatif",
+          "La situation des locataires / copropriétaires",
+          "Le budget",
+          "L'inventaire des travaux à effectuer",
+          "Le rapport d'état des lieux de sortie"
+        ],
+        "reponses_correctes": ["Le compte d'exploitation / bilan", "L'état locatif", "La situation des locataires / copropriétaires", "Le budget"],
+        "explication": "Les décomptes de gérance comprennent le compte d'exploitation / bilan, l'état locatif, la situation locataire / copropriétaire et le budget."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion financière",
+      "content": {
+        "enonce": "Le paiement des impôts et taxes (taxes immobilières) fait-il partie du mandat de base ?",
+        "propositions": [
+          "Oui, au titre de la gestion financière",
+          "Non, c'est une prestation particulière facturée en sus",
+          "Oui, au titre de la gestion technique",
+          "Non, la loi interdit à la régie de payer les impôts du propriétaire"
+        ],
+        "reponse_correcte": "Oui, au titre de la gestion financière",
+        "explication": "Le paiement des impôts et des taxes (taxes immobilières) fait partie des prestations de gestion financière du mandat de base."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion locative et administrative",
+      "content": {
+        "enonce": "Quelles tâches relèvent de la gestion locative et administrative ? (5 réponses)",
+        "propositions": [
+          "L'accueil des locataires et des candidats",
+          "La présentation et la visite des objets à louer",
+          "Le traitement des candidatures",
+          "Le suivi administratif des baux",
+          "La présentation du rapport de gestion au propriétaire",
+          "Les états des lieux et conventions de sortie",
+          "Le versement du disponible"
+        ],
+        "reponses_correctes": [
+          "L'accueil des locataires et des candidats",
+          "La présentation et la visite des objets à louer",
+          "Le traitement des candidatures",
+          "Le suivi administratif des baux",
+          "La présentation du rapport de gestion au propriétaire"
+        ],
+        "explication": "Gestion locative et administrative : accueil, visites, candidatures, suivi des baux, suivi des assurances / garanties / cautions, rapport de gestion, relocation, représentation du propriétaire, affichage. Les états des lieux relèvent de la gestion technique ; le disponible de la gestion financière."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion locative et administrative",
+      "content": {
+        "enonce": "Dans le mandat de base, auprès de qui la régie représente-t-elle le propriétaire ?",
+        "propositions": [
+          "Devant l'autorité de conciliation en matière de bail",
+          "Auprès des autorités et des services publics",
+          "Devant le tribunal des baux",
+          "Auprès de l'office des poursuites, pour la procédure d'expulsion"
+        ],
+        "reponse_correcte": "Auprès des autorités et des services publics",
+        "explication": "La représentation du propriétaire auprès des autorités et des services publics fait partie du mandat de base. La représentation devant l'autorité de conciliation et les démarches à l'OP / expulsion sont des prestations particulières."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion locative et administrative",
+      "content": {
+        "enonce": "Que comprend la mise à jour de l'affichage ?",
+        "propositions": [
+          "La publication des annonces de location sur les portails immobiliers (frais de publicité inclus)",
+          "Le règlement de maison, les informations sur le concierge et diverses informations",
+          "L'affichage des loyers de chaque appartement dans l'entrée",
+          "Les avis officiels de hausse de loyer"
+        ],
+        "reponse_correcte": "Le règlement de maison, les informations sur le concierge et diverses informations",
+        "explication": "La mise à jour de l'affichage porte sur le règlement de maison, le concierge et diverses informations."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion technique",
+      "content": {
+        "enonce": "Quelles prestations relèvent de la gestion technique ? (5 réponses)",
+        "propositions": [
+          "L'entretien courant et les réparations",
+          "Les inspections régulières de l'immeuble et l'inventaire des travaux à effectuer",
+          "La surveillance des installations techniques",
+          "Les états des lieux et conventions de sortie",
+          "La gestion des sinistres",
+          "Le traitement des candidatures",
+          "Le paiement des taxes immobilières"
+        ],
+        "reponses_correctes": [
+          "L'entretien courant et les réparations",
+          "Les inspections régulières de l'immeuble et l'inventaire des travaux à effectuer",
+          "La surveillance des installations techniques",
+          "Les états des lieux et conventions de sortie",
+          "La gestion des sinistres"
+        ],
+        "explication": "Gestion technique : entretien courant et réparations, commandes de travaux, inspections et inventaire des travaux, surveillance des installations, contrats d'entretien, pré-constats pour la revalorisation, états des lieux et conventions de sortie, relevés d'énergie, gestion des concierges et des sinistres."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion technique",
+      "content": {
+        "enonce": "Que comprend la gestion des concierges ? (3 réponses)",
+        "propositions": [
+          "L'établissement du contrat",
+          "La gestion des fournitures",
+          "Le suivi du cahier des charges",
+          "Le versement du salaire depuis les fonds propres de la régie",
+          "La formation professionnelle obligatoire du concierge (brevet fédéral)"
+        ],
+        "reponses_correctes": ["L'établissement du contrat", "La gestion des fournitures", "Le suivi du cahier des charges"],
+        "explication": "La gestion des concierges comprend l'établissement du contrat, la gestion des fournitures et le suivi du cahier des charges."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Gestion technique",
+      "content": {
+        "enonce": "Quelles installations sont visées par la surveillance des installations techniques ?",
+        "propositions": [
+          "Uniquement l'ascenseur, seule installation soumise à contrôle légal",
+          "Chauffage, ascenseur, ventilations, climatisations, buanderies…",
+          "Les appareils électroménagers privés des locataires",
+          "Le réseau informatique de la régie"
+        ],
+        "reponse_correcte": "Chauffage, ascenseur, ventilations, climatisations, buanderies…",
+        "explication": "La surveillance des installations techniques porte notamment sur le chauffage, l'ascenseur, les ventilations, les climatisations et les buanderies."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Gestion technique",
+      "content": {
+        "enonce": "Que comprend la gestion des sinistres dans le mandat de base ? (2 réponses)",
+        "propositions": [
+          "L'annonce des sinistres",
+          "La gestion et le suivi des sinistres",
+          "L'expertise du dommage par le gérant lui-même, qui fixe l'indemnité",
+          "Le paiement des franchises par la régie"
+        ],
+        "reponses_correctes": ["L'annonce des sinistres", "La gestion et le suivi des sinistres"],
+        "explication": "La gestion des sinistres comprend l'annonce des sinistres ainsi que leur gestion et leur suivi."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rémunération",
+      "content": {
+        "enonce": "Quelles sont les différentes formes de rémunération du mandat de gérance ? (4 réponses)",
+        "propositions": [
+          "Les honoraires de gérance",
+          "Les honoraires sur travaux",
+          "Les menus frais",
+          "Des honoraires négociés pour des activités particulières",
+          "Un pourcentage sur la valeur vénale de l'immeuble",
+          "Une prime de rendement versée par les locataires"
+        ],
+        "reponses_correctes": ["Les honoraires de gérance", "Les honoraires sur travaux", "Les menus frais", "Des honoraires négociés pour des activités particulières"],
+        "explication": "La rémunération comprend les honoraires de gérance, les honoraires sur travaux, les menus frais et des honoraires négociés pour des activités particulières."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rémunération",
+      "content": {
+        "enonce": "Sur quoi les honoraires de gérance peuvent-ils être calculés ? (2 réponses)",
+        "propositions": [
+          "Un pourcentage sur les encaissements nets ou bruts",
+          "Un pourcentage sur l'état locatif théorique",
+          "Un montant forfaitaire par logement fixé par l'USPI",
+          "Un pourcentage sur la valeur fiscale de l'immeuble"
+        ],
+        "reponses_correctes": ["Un pourcentage sur les encaissements nets ou bruts", "Un pourcentage sur l'état locatif théorique"],
+        "explication": "Les honoraires de gérance se calculent en pourcentage sur les encaissements nets ou bruts, ou sur l'état locatif théorique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rémunération",
+      "content": {
+        "enonce": "Sur quoi les honoraires sur travaux sont-ils calculés ? (2 réponses)",
+        "propositions": [
+          "Un pourcentage sur les factures d'entretien courant et les fournitures",
+          "Un pourcentage sur le montant des travaux spéciaux (selon négociation)",
+          "Un pourcentage sur les loyers encaissés",
+          "Un tarif horaire unique imposé dans toute la Suisse romande"
+        ],
+        "reponses_correctes": [
+          "Un pourcentage sur les factures d'entretien courant et les fournitures",
+          "Un pourcentage sur le montant des travaux spéciaux (selon négociation)"
+        ],
+        "explication": "Honoraires sur travaux : un pourcentage sur les factures d'entretien courant et les fournitures, et un pourcentage sur le montant des travaux spéciaux, selon négociation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rémunération",
+      "content": {
+        "enonce": "Comment les menus frais sont-ils calculés ?",
+        "propositions": [
+          "Au réel, sur présentation de chaque justificatif",
+          "En pourcentage des honoraires de gérance",
+          "En pourcentage des factures de travaux",
+          "Forfaitairement à fr. 100.– par logement et par an"
+        ],
+        "reponse_correcte": "En pourcentage des honoraires de gérance",
+        "explication": "Les menus frais sont calculés en pourcentage des honoraires de gérance."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rémunération",
+      "content": {
+        "enonce": "Les tarifs de gérance sont-ils imposés ?",
+        "propositions": [
+          "Oui, par l'USPI, de manière uniforme dans toute la Suisse",
+          "Oui, par chaque canton au moyen d'un tarif officiel",
+          "Non, chacun est libre de fixer son prix, mais attention aux différences cantonales",
+          "Non, mais ils ne peuvent pas dépasser 5 % de l'état locatif (art. 394 CO)"
+        ],
+        "reponse_correcte": "Non, chacun est libre de fixer son prix, mais attention aux différences cantonales",
+        "explication": "Libre à chacun de pratiquer le prix qu'il entend facturer ; attention toutefois aux différences cantonales (taux horaire, taux de gestion…)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Prestations particulières",
+      "content": {
+        "enonce": "Quelles prestations sont hors mandat de base et soumises à des honoraires particuliers ? (5 réponses)",
+        "propositions": [
+          "La représentation du propriétaire devant les autorités de conciliation",
+          "Les démarches auprès de l'office des poursuites et la procédure d'expulsion",
+          "La constitution et la gestion d'un fonds de rénovation",
+          "Le bouclement mensuel, trimestriel ou semestriel",
+          "La négociation des conditions des emprunts hypothécaires",
+          "L'encaissement des loyers",
+          "Le versement du disponible"
+        ],
+        "reponses_correctes": [
+          "La représentation du propriétaire devant les autorités de conciliation",
+          "Les démarches auprès de l'office des poursuites et la procédure d'expulsion",
+          "La constitution et la gestion d'un fonds de rénovation",
+          "Le bouclement mensuel, trimestriel ou semestriel",
+          "La négociation des conditions des emprunts hypothécaires"
+        ],
+        "explication": "Ces prestations sont hors mandat de base, tout comme la gestion des travaux de rénovation, le calcul et la notification des hausses ou baisses de loyers, le décompte acheteur-vendeur, la participation à l'estimation cadastrale… L'encaissement des loyers et le versement du disponible font partie de la gestion financière de base."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prestations particulières",
+      "content": {
+        "enonce": "Le calcul et la notification par lots de hausses ou de baisses de loyers font-ils partie du mandat de base ?",
+        "propositions": [
+          "Oui, au titre du suivi administratif des baux",
+          "Non, ce sont des prestations particulières soumises à honoraires particuliers",
+          "Oui, au titre de la gestion financière",
+          "Non, seul le propriétaire peut notifier une hausse"
+        ],
+        "reponse_correcte": "Non, ce sont des prestations particulières soumises à honoraires particuliers",
+        "explication": "Le calcul et la notification par lots (hausses ou baisses de loyers, confirmation d'échelons, nouvelles prétentions) figurent dans la liste des prestations particulières, hors mandat de base."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Prestations particulières",
+      "content": {
+        "enonce": "L'établissement d'un décompte acheteur-vendeur fait-il partie du mandat de base ?",
+        "propositions": [
+          "Oui, il est compris dans les décomptes de gérance",
+          "Non, c'est une prestation particulière",
+          "Oui, mais seulement pour les copropriétés",
+          "Non, il est établi exclusivement par le notaire"
+        ],
+        "reponse_correcte": "Non, c'est une prestation particulière",
+        "explication": "L'établissement d'un décompte acheteur-vendeur fait partie des prestations hors mandat de base, soumises à honoraires particuliers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Quelles formes de propriété collective le droit suisse reconnaît-il ?",
+        "propositions": [
+          "La propriété commune et la copropriété (dont la PPE est une forme particulière)",
+          "La propriété commune, la copropriété et la coopérative (trois formes du CC)",
+          "Uniquement la PPE",
+          "La propriété individuelle et la SIAL"
+        ],
+        "reponse_correcte": "La propriété commune et la copropriété (dont la PPE est une forme particulière)",
+        "explication": "On parle de propriété collective lorsqu'un bien appartient à plusieurs personnes. Le droit suisse n'en reconnaît que deux formes : la propriété commune et la copropriété, dont la PPE est une forme particulière."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise la propriété commune (art. 652 CC) ?",
+        "propositions": [
+          "Chacun est propriétaire de la chose entière, sans part idéale dont il puisse disposer",
+          "Chacun a une quote-part dont il peut disposer librement",
+          "Chacun a un droit exclusif sur un appartement, inscrit sur un feuillet spécial au Registre foncier",
+          "Les décisions se prennent à la majorité simple"
+        ],
+        "reponse_correcte": "Chacun est propriétaire de la chose entière, sans part idéale dont il puisse disposer",
+        "explication": "En propriété commune, chacun est propriétaire de la chose entière ; le propriétaire en main commune n'a pas de part idéale dont il puisse disposer."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Quelle règle de décision s'applique en propriété commune (par ex. une hoirie) ?",
+        "propositions": [
+          "La majorité simple",
+          "La double majorité (têtes et parts)",
+          "L'unanimité",
+          "La décision de l'aîné des héritiers"
+        ],
+        "reponse_correcte": "L'unanimité",
+        "explication": "En propriété commune, le principe de l'unanimité est la règle, ce qui peut constituer un inconvénient majeur."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Une hoirie (4 enfants et l'épouse du défunt) possède un immeuble de 10 appartements. Que peut-on dire ?",
+        "propositions": [
+          "Chaque héritier a la jouissance exclusive de 2 appartements",
+          "Ils sont ensemble propriétaires du tout et n'ont pas individuellement la jouissance de 2 appartements",
+          "L'épouse détient d'office la moitié des appartements (part successorale), les enfants se partageant le reste",
+          "Chaque héritier peut vendre seul sa part"
+        ],
+        "reponse_correcte": "Ils sont ensemble propriétaires du tout et n'ont pas individuellement la jouissance de 2 appartements",
+        "explication": "En propriété commune, les héritiers sont ensemble propriétaires du tout et n'ont pas individuellement la jouissance de 2 appartements."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise la copropriété ordinaire (art. 646 al. 1 CC) ?",
+        "propositions": [
+          "Chacun a une quote-part de la chose, dont il peut disposer",
+          "Chacun est propriétaire de la chose entière, sans part individuelle",
+          "Elle exige un acte authentique et un feuillet spécial pour chaque copropriétaire (comme la PPE)",
+          "Les décisions se prennent à l'unanimité"
+        ],
+        "reponse_correcte": "Chacun a une quote-part de la chose, dont il peut disposer",
+        "explication": "En copropriété ordinaire, chacun a une quote-part de la chose, dont il peut disposer ; le principe de la majorité est la règle."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Trois frères et sœurs sont copropriétaires d'une maison familiale à parts égales. Quel est leur droit d'usage ?",
+        "propositions": [
+          "Chacun a l'usage exclusif d'un tiers de la maison",
+          "Chacun a un droit d'usage égal sur la maison entière",
+          "Seul celui qui y habite a un droit d'usage",
+          "L'usage est attribué par le juge (à défaut d'accord unanime)"
+        ],
+        "reponse_correcte": "Chacun a un droit d'usage égal sur la maison entière",
+        "explication": "Chacun a une quote-part d'un tiers et un droit d'usage égal sur la maison entière."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Formes de propriété",
+      "content": {
+        "enonce": "Qu'est-ce qui distingue la PPE de la copropriété ordinaire ?",
+        "propositions": [
+          "La PPE est une forme de propriété commune où l'unanimité est requise pour toute décision",
+          "Chaque copropriétaire a un droit exclusif sur une partie du bâtiment ; la PPE est constituée par acte authentique et chacun reçoit un feuillet spécial au RF",
+          "Il n'y a pas de quotes-parts",
+          "Elle n'est pas inscrite au Registre foncier"
+        ],
+        "reponse_correcte": "Chaque copropriétaire a un droit exclusif sur une partie du bâtiment ; la PPE est constituée par acte authentique et chacun reçoit un feuillet spécial au RF",
+        "explication": "La PPE est un aménagement de la copropriété, l'immeuble restant une chose unique : chacun a un droit exclusif sur une partie du bâtiment. Elle est constituée par acte authentique, inscrite au RF, chaque copropriétaire recevant un feuillet spécial ; plusieurs majorités s'appliquent selon le règlement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de propriétaires",
+      "content": {
+        "enonce": "Quels sont les différents types de propriétaires présentés dans le cours ? (4 réponses)",
+        "propositions": [
+          "Le propriétaire privé",
+          "L'investisseur institutionnel",
+          "Le professionnel de l'immobilier",
+          "L'institution publique",
+          "Le locataire principal (sous-location)",
+          "La régie elle-même"
+        ],
+        "reponses_correctes": ["Le propriétaire privé", "L'investisseur institutionnel", "Le professionnel de l'immobilier", "L'institution publique"],
+        "explication": "Le cours distingue le propriétaire privé, l'investisseur institutionnel, le professionnel de l'immobilier et l'institution publique."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de propriétaires",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise en général le propriétaire privé ? (4 réponses)",
+        "propositions": [
+          "Il est attaché à l'objet",
+          "Il a une vision patrimoniale",
+          "Il connaît parfaitement l'immeuble et son histoire",
+          "Il désire être informé « sur tout »",
+          "Il exige un reporting selon les normes IFRS",
+          "Il raisonne avant tout en notion de rendement"
+        ],
+        "reponses_correctes": [
+          "Il est attaché à l'objet",
+          "Il a une vision patrimoniale",
+          "Il connaît parfaitement l'immeuble et son histoire",
+          "Il désire être informé « sur tout »"
+        ],
+        "explication": "Le propriétaire privé est en général attaché à l'objet, a une vision patrimoniale, connaît l'immeuble et son histoire et veut être informé sur tout. Reporting et rendement caractérisent plutôt l'institutionnel."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Types de propriétaires",
+      "content": {
+        "enonce": "Qu'est-ce qui caractérise l'investisseur institutionnel ou le professionnel de l'immobilier ? (4 réponses)",
+        "propositions": [
+          "Une vision financière",
+          "Le reporting",
+          "Le maintien de l'actif / la valorisation",
+          "La notion de rendement",
+          "Un fort attachement affectif à l'objet",
+          "Le souhait d'être informé de chaque petite intervention (même les menues réparations)"
+        ],
+        "reponses_correctes": ["Une vision financière", "Le reporting", "Le maintien de l'actif / la valorisation", "La notion de rendement"],
+        "explication": "L'institutionnel ou le professionnel a une vision financière, attend du reporting, vise le maintien de l'actif / la valorisation et raisonne en notion de rendement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stratégie et politique",
+      "content": {
+        "enonce": "Sur quels domaines le « passeport client » recense-t-il les attentes du propriétaire ? (4 réponses)",
+        "propositions": [
+          "L'état locatif et le rendement",
+          "La gestion locative",
+          "La gestion technique",
+          "L'acquisition et la vente",
+          "La gestion du personnel de la régie",
+          "Le choix du fournisseur d'électricité des locataires"
+        ],
+        "reponses_correctes": ["L'état locatif et le rendement", "La gestion locative", "La gestion technique", "L'acquisition et la vente"],
+        "explication": "La stratégie et la politique du client (passeport client) portent sur l'état locatif et le rendement, la gestion locative, la gestion technique, et l'acquisition / vente."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Stratégie et politique",
+      "content": {
+        "enonce": "Dans le passeport client, quelle option NE figure PAS parmi les choix de maximisation des loyers ?",
+        "propositions": [
+          "Sans condition",
+          "Maximum légal",
+          "Minimum social",
+          "Alignement automatique sur l'indice des loyers de l'OFS (hausse annuelle systématique)"
+        ],
+        "reponse_correcte": "Alignement automatique sur l'indice des loyers de l'OFS (hausse annuelle systématique)",
+        "explication": "Pour la maximisation des loyers (en cours de bail / à la location), le passeport client prévoit : sans condition, maximum légal ou minimum social."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stratégie et politique",
+      "content": {
+        "enonce": "Quelles options le passeport client prévoit-il pour la gestion des relations avec les locataires ? (3 réponses)",
+        "propositions": [
+          "Éviter les conflits (règlement à l'amiable)",
+          "Ne pas faire de concession sur les droits du propriétaire",
+          "Accepter les conflits",
+          "Déléguer tous les conflits à un avocat",
+          "Résilier systématiquement le bail au premier litige"
+        ],
+        "reponses_correctes": [
+          "Éviter les conflits (règlement à l'amiable)",
+          "Ne pas faire de concession sur les droits du propriétaire",
+          "Accepter les conflits"
+        ],
+        "explication": "Pour les relations locataires, le propriétaire peut souhaiter éviter les conflits (règlement à l'amiable), ne pas faire de concession sur ses droits, ou accepter les conflits."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Stratégie et politique",
+      "content": {
+        "enonce": "Quelles options le passeport client prévoit-il pour les travaux d'entretien ? (3 réponses)",
+        "propositions": [
+          "Amélioration continue",
+          "Conservation du bien",
+          "Minimum obligatoire",
+          "Rénovation totale tous les 5 ans",
+          "Aucun entretien jusqu'à la revente (stratégie de liquidation)"
+        ],
+        "reponses_correctes": ["Amélioration continue", "Conservation du bien", "Minimum obligatoire"],
+        "explication": "En gestion technique, le passeport client prévoit pour les travaux d'entretien : amélioration continue, conservation du bien ou minimum obligatoire, avec un retour sur investissement à court, moyen ou long terme."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Stratégie et politique",
+      "content": {
+        "enonce": "Pourquoi est-il primordial de connaître le régime juridique d'un bien immobilier ?",
+        "propositions": [
+          "Pour pouvoir le gérer",
+          "Pour calculer la TVA sur les loyers d'habitation",
+          "Parce que seul le régime de la PPE autorise le recours à une régie",
+          "Pour fixer le taux hypothécaire de référence"
+        ],
+        "reponse_correcte": "Pour pouvoir le gérer",
+        "explication": "Il est primordial de connaître le régime juridique auquel un bien immobilier est soumis pour pouvoir le gérer (règles de décision, interlocuteurs, etc.)."
+      }
+    }
+  ]
+}

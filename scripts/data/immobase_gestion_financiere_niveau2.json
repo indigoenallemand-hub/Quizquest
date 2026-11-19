@@ -1,0 +1,1021 @@
+{
+  "title": "Gestion financière — Niveau 2",
+  "description": "Niveau 2 de la gestion financière : rôle et cahier des charges du service comptable, comptes de liquidités (cas A à D) et disponible, plan comptable, TVA et non-compensation, décompte de gérance, compte d'exploitation, compte courant et compte de gestion, compte de chauffage, bouclements et honoraires.",
+  "questions": [
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "Quel est le rôle principal d'un service comptable dans une régie ? (2 réponses)",
+        "propositions": [
+          "Établir les états financiers à chaque fin d'exercice",
+          "Assurer la fiabilité des informations",
+          "Fixer le loyer initial des nouveaux baux (art. 269 CO)",
+          "Signer les baux au nom du propriétaire",
+          "Négocier les conditions des emprunts hypothécaires"
+        ],
+        "reponses_correctes": ["Établir les états financiers à chaque fin d'exercice", "Assurer la fiabilité des informations"],
+        "explication": "Le rôle principal du service comptable est d'établir les états financiers à chaque fin d'exercice et d'assurer la fiabilité des informations."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "Que doit être capable de faire le service comptable à chaque instant ?",
+        "propositions": [
+          "Verser au propriétaire la totalité des loyers encaissés depuis le début de l'exercice (sans attendre le bouclement)",
+          "Connaître la position exacte des comptes et les éventuels risques financiers",
+          "Produire un bilan complet audité selon les normes IFRS",
+          "Établir le décompte de chauffage de la saison en cours"
+        ],
+        "reponse_correcte": "Connaître la position exacte des comptes et les éventuels risques financiers",
+        "explication": "À chaque instant, le service comptable est en mesure de connaître la position exacte des comptes et les éventuels risques financiers."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "Quelle est la mission du service comptable (mandat financier délivré au travers d'un contrat) ? (3 réponses)",
+        "propositions": [
+          "Encaisser les loyers",
+          "Payer les différentes charges",
+          "Regrouper le tout dans différents documents comptables",
+          "Rédiger les contrats de bail (formule officielle comprise)",
+          "Organiser les visites des objets à louer"
+        ],
+        "reponses_correctes": ["Encaisser les loyers", "Payer les différentes charges", "Regrouper le tout dans différents documents comptables"],
+        "explication": "Le service comptable a pour mission d'encaisser les loyers, de payer les différentes charges et de regrouper le tout dans différents documents comptables."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "De quoi le service comptable se chargera-t-il ? (5 réponses)",
+        "propositions": [
+          "Encaisser les loyers bruts ou les appels copropriétaires",
+          "Gérer le contentieux (rappel, mise en demeure, poursuite)",
+          "Comptabiliser les factures fournisseurs",
+          "Établir les factures (refacturations locataires ou factures QR code)",
+          "Gérer les ordres bancaires ou postaux des différents propriétaires",
+          "Effectuer les états des lieux de sortie",
+          "Choisir les locataires parmi les candidats"
+        ],
+        "reponses_correctes": [
+          "Encaisser les loyers bruts ou les appels copropriétaires",
+          "Gérer le contentieux (rappel, mise en demeure, poursuite)",
+          "Comptabiliser les factures fournisseurs",
+          "Établir les factures (refacturations locataires ou factures QR code)",
+          "Gérer les ordres bancaires ou postaux des différents propriétaires"
+        ],
+        "explication": "Le service comptable encaisse les loyers bruts ou les appels copropriétaires, gère le contentieux, comptabilise les factures fournisseurs, établit les factures et gère les ordres bancaires ou postaux, en respectant le plan comptable approprié."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "Les gérances établissent-elles toujours des comptes complets (bilans) pour leurs propriétaires ?",
+        "propositions": [
+          "Oui, c'est une obligation légale (art. 957 CO)",
+          "Oui, dès que l'immeuble compte plus de 6 logements",
+          "Non, certaines le font, mais ce n'est pas une généralité",
+          "Non, c'est interdit : seul le propriétaire peut établir son bilan"
+        ],
+        "reponse_correcte": "Non, certaines le font, mais ce n'est pas une généralité",
+        "explication": "Certaines gérances / régies établissent des comptes complets (bilans) pour le ou les propriétaires ; ce n'est pas une généralité."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "Qu'établira notamment le service comptable à travers son cahier des charges ? (5 réponses)",
+        "propositions": [
+          "Le décompte de gérance",
+          "Les bouclements mensuels, trimestriels, semestriels ou annuels",
+          "Les décomptes de chauffage / eau chaude et frais accessoires",
+          "Les décomptes vendeur / acheteur",
+          "Les reportings pour la clientèle institutionnelle",
+          "L'estimation cadastrale de l'immeuble (et la valeur d'assurance incendie)",
+          "Les contrats de bail et leurs avenants"
+        ],
+        "reponses_correctes": [
+          "Le décompte de gérance",
+          "Les bouclements mensuels, trimestriels, semestriels ou annuels",
+          "Les décomptes de chauffage / eau chaude et frais accessoires",
+          "Les décomptes vendeur / acheteur",
+          "Les reportings pour la clientèle institutionnelle"
+        ],
+        "explication": "Le cahier des charges comprend le décompte de gérance, les bouclements, les décomptes de chauffage / eau chaude et frais accessoires, les décomptes vendeur / acheteur et les reportings pour la clientèle institutionnelle."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Rôle du service comptable",
+      "content": {
+        "enonce": "De quoi le décompte de gérance établi par le service comptable est-il composé ? (2 réponses)",
+        "propositions": [
+          "Les comptes de gestion et d'exploitation pour chaque immeuble",
+          "Les comptes courants propriétaires en fonction des immeubles",
+          "Le bilan de la régie elle-même",
+          "Le décompte de chauffage (qui y est toujours intégré ligne par ligne)"
+        ],
+        "reponses_correctes": [
+          "Les comptes de gestion et d'exploitation pour chaque immeuble",
+          "Les comptes courants propriétaires en fonction des immeubles"
+        ],
+        "explication": "Le décompte de gérance comprend les comptes de gestion et d'exploitation pour chaque immeuble et les comptes courants propriétaires. Le décompte de chauffage est un compte auxiliaire distinct."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Quelles sont les 4 possibilités de comptes de liquidités ? (4 réponses)",
+        "propositions": [
+          "Au nom de la gérance, commun pour tous les propriétaires",
+          "Au nom de la gérance, avec une rubrique par propriétaire",
+          "Au nom du propriétaire, compte global",
+          "Au nom du propriétaire, avec une rubrique par immeuble",
+          "Au nom du locataire (compte de garantie de loyer)",
+          "Au nom du notaire (compte de consignation)"
+        ],
+        "reponses_correctes": [
+          "Au nom de la gérance, commun pour tous les propriétaires",
+          "Au nom de la gérance, avec une rubrique par propriétaire",
+          "Au nom du propriétaire, compte global",
+          "Au nom du propriétaire, avec une rubrique par immeuble"
+        ],
+        "explication": "Cas A : au nom de la gérance (commun). Cas B : au nom de la gérance (une rubrique par propriétaire). Cas C : au nom du propriétaire (global). Cas D : au nom du propriétaire (une rubrique par immeuble)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas A et B (compte au nom de la gérance), sur quel compte les loyers sont-ils encaissés et les factures payées ?",
+        "propositions": [
+          "Sur un compte distinct par immeuble, ouvert au nom de chaque propriétaire",
+          "Sur un même compte bancaire ou postal au nom de la gérance, quel que soit le propriétaire",
+          "Sur le compte de garantie de loyer de chaque locataire",
+          "Les loyers sur le compte de la gérance, les factures sur celui du propriétaire (pour séparer recettes et charges)"
+        ],
+        "reponse_correcte": "Sur un même compte bancaire ou postal au nom de la gérance, quel que soit le propriétaire",
+        "explication": "Dans les cas A et B, quel que soit le propriétaire, les loyers sont encaissés et les factures payées sur un même compte bancaire ou postal."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas A et B, quand l'immeuble concerné par une écriture est-il déterminé ?",
+        "propositions": [
+          "Au moment de l'encaissement, grâce au numéro de compte du locataire",
+          "Lors de la comptabilisation des pièces comptables",
+          "Au bouclement annuel uniquement",
+          "Lors du versement du disponible au propriétaire"
+        ],
+        "reponse_correcte": "Lors de la comptabilisation des pièces comptables",
+        "explication": "C'est uniquement à la comptabilisation des pièces comptables que la détermination de l'immeuble concerné a lieu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Qu'est-ce que le disponible ?",
+        "propositions": [
+          "Le solde du compte de chauffage restitué aux locataires",
+          "Le montant que la gérance conserve en réserve toute l'année (provision pour imprévus)",
+          "Le montant versé mensuellement au propriétaire",
+          "Le loyer net encaissé, avant déduction des charges"
+        ],
+        "reponse_correcte": "Le montant versé mensuellement au propriétaire",
+        "explication": "Le disponible est le montant versé mensuellement au propriétaire, en fonction d'un budget prévisionnel ou de l'état du compte de l'immeuble."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "À quelle fréquence le disponible est-il normalement versé au propriétaire ?",
+        "propositions": [
+          "Une fois par année, au bouclement",
+          "Chaque trimestre",
+          "Chaque mois",
+          "À chaque encaissement de loyer, le jour même (virement automatique)"
+        ],
+        "reponse_correcte": "Chaque mois",
+        "explication": "Chaque mois, en fonction d'un budget prévisionnel ou sur la base de l'état du compte de l'immeuble, un disponible est versé au propriétaire. La différence finale est versée au bouclement."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Quelles affirmations sont vraies à propos du disponible ? (3 réponses)",
+        "propositions": [
+          "C'est la différence entre les recettes et les charges, y compris les travaux en cours",
+          "La gérance ne peut pas garder le montant global toute l'année",
+          "Son montant est défini avec le propriétaire selon l'immeuble et le budget, et généralement indiqué dans le mandat",
+          "Il est fixé par l'USPI à 1/12 de l'état locatif brut",
+          "La gérance peut le conserver jusqu'au bouclement annuel (pour couvrir les imprévus)"
+        ],
+        "reponses_correctes": [
+          "C'est la différence entre les recettes et les charges, y compris les travaux en cours",
+          "La gérance ne peut pas garder le montant global toute l'année",
+          "Son montant est défini avec le propriétaire selon l'immeuble et le budget, et généralement indiqué dans le mandat"
+        ],
+        "explication": "Le disponible = recettes - charges, y compris travaux en cours (engagements et soldes débiteurs). La gérance ne peut pas garder le montant global toute l'année ; le montant est défini avec le propriétaire et figure généralement dans le mandat."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Un immeuble rapporte fr. 100'000.– de revenu annuel et fr. 3'000.– d'encaissements divers, pour fr. 30'000.– de charges. Quel disponible mensuel le cours retient-il ?",
+        "propositions": [
+          "Environ fr. 8'583.– (103'000 / 12)",
+          "Environ fr. 6'000.–",
+          "Environ fr. 2'500.– (30'000 / 12)",
+          "Environ fr. 5'250.– (63'000 / 12, après une provision de 10'000.– pour rénovation)"
+        ],
+        "reponse_correcte": "Environ fr. 6'000.–",
+        "explication": "Revenu total 103'000.– ./. charges 30'000.– = résultat 73'000.– ; 73'000.– / 12 ≈ fr. 6'000.– par mois. La différence finale est versée au bouclement et, en pratique, la régie garde une provision supplémentaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas A et B, le propriétaire a-t-il accès au compte bancaire ?",
+        "propositions": [
+          "Oui, en lecture seule via l'e-banking de la régie",
+          "Oui, il peut prélever librement sur sa rubrique",
+          "Non, il n'a ni accès au compte ni visualisation de celui-ci",
+          "Seulement s'il possède plus de la moitié des immeubles gérés sur ce compte"
+        ],
+        "reponse_correcte": "Non, il n'a ni accès au compte ni visualisation de celui-ci",
+        "explication": "Dans les cas A et B, le propriétaire n'a jamais accès au compte bancaire, ni à une visualisation de celui-ci."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas A et B, à quoi faut-il être particulièrement attentif ?",
+        "propositions": [
+          "Au compte auxiliaire de chauffage, que le propriétaire ne voit pas",
+          "Au taux de TVA appliqué aux loyers d'habitation",
+          "À l'état locatif théorique, qui doit être publié chaque mois aux locataires",
+          "Aux intérêts hypothécaires"
+        ],
+        "reponse_correcte": "Au compte auxiliaire de chauffage, que le propriétaire ne voit pas",
+        "explication": "Il faut être attentif au compte auxiliaire de chauffage (acomptes de chauffage, d'eau chaude et frais accessoires moins charges liées), que le propriétaire ne voit pas."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Pourquoi certaines gérances mentionnent-elles le solde du décompte de chauffage dans le décompte de gérance mensuel ou trimestriel ?",
+        "propositions": [
+          "Pour pouvoir facturer des honoraires supplémentaires sur le chauffage",
+          "Parce que l'OBLF l'impose à chaque décompte",
+          "Pour ne pas verser au propriétaire un montant qu'il n'aurait pas à lui seul sur son compte, et éviter d'avancer des fonds",
+          "Pour que les locataires puissent consulter le solde"
+        ],
+        "reponse_correcte": "Pour ne pas verser au propriétaire un montant qu'il n'aurait pas à lui seul sur son compte, et éviter d'avancer des fonds",
+        "explication": "Mentionner le solde du décompte de chauffage évite de verser au propriétaire un montant qu'il n'aurait pas à lui seul sur son compte et d'avancer des fonds."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas A et B, quel est le risque pour le propriétaire si la gérance fait faillite ?",
+        "propositions": [
+          "Aucun : les fonds de tiers sont automatiquement protégés par la garantie des dépôts (jusqu'à fr. 100'000.–)",
+          "La banque considère que le compte est la propriété de la gérance, y compris les fonds déposés dessus",
+          "Les locataires doivent payer leurs loyers une seconde fois",
+          "Le bail est automatiquement résilié"
+        ],
+        "reponse_correcte": "La banque considère que le compte est la propriété de la gérance, y compris les fonds déposés dessus",
+        "explication": "Attention : en cas de faillite de la gérance, la banque considère que le compte est propriété de la gérance, y compris les fonds qui sont déposés dessus."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom de la gérance : quels sont les avantages pour le service comptable ? (3 réponses)",
+        "propositions": [
+          "Gain de temps",
+          "Paiement des factures par un seul débit",
+          "Paiement des disponibles en bloc",
+          "Transparence totale envers le propriétaire",
+          "Facilité en cas d'erreur (volume d'écritures restreint)"
+        ],
+        "reponses_correctes": ["Gain de temps", "Paiement des factures par un seul débit", "Paiement des disponibles en bloc"],
+        "explication": "Au nom de la gérance : démarches facilitées pour l'encaissement, gain de temps, paiement des factures par un seul débit, paiement des disponibles en bloc, tenue des comptes au jour le jour. Transparence et facilité en cas d'erreur sont des avantages du compte au nom du propriétaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom de la gérance : quel est l'avantage pour le propriétaire ?",
+        "propositions": [
+          "Il touche les intérêts bancaires",
+          "Des honoraires de gestion moindres",
+          "Il garde un accès permanent à ses relevés",
+          "Ses fonds sont protégés en cas de faillite de la régie (compte séparé)"
+        ],
+        "reponse_correcte": "Des honoraires de gestion moindres",
+        "explication": "L'avantage pour le propriétaire est des honoraires de gestion moindres ; en contrepartie, il n'a aucune visibilité et ses fonds sont exposés en cas de faillite de la régie."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom de la gérance : quels sont les inconvénients pour le service comptable ? (3 réponses)",
+        "propositions": [
+          "Attention aux avances de fonds",
+          "Difficile en cas d'erreur d'imputation",
+          "Intérêts négatifs",
+          "Nombreux comptes et logins à gérer",
+          "Édition de factures QR code pour chaque propriétaire"
+        ],
+        "reponses_correctes": ["Attention aux avances de fonds", "Difficile en cas d'erreur d'imputation", "Intérêts négatifs"],
+        "explication": "Inconvénients au nom de la gérance : avances de fonds, difficulté en cas d'erreur d'imputation, intérêts négatifs. Les nombreux comptes/logins et les QR code par propriétaire sont les inconvénients du compte au nom du propriétaire."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom de la gérance : quels sont les inconvénients pour le propriétaire ? (2 réponses)",
+        "propositions": [
+          "Les fonds sont propriété de la régie en cas de faillite",
+          "Aucune visibilité sur le compte",
+          "Des honoraires plus élevés",
+          "L'obligation de gérer lui-même les ordres de paiement"
+        ],
+        "reponses_correctes": ["Les fonds sont propriété de la régie en cas de faillite", "Aucune visibilité sur le compte"],
+        "explication": "Pour le propriétaire, le compte au nom de la gérance présente deux inconvénients : propriété de la régie en cas de faillite et aucune visibilité."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Dans les cas C et D (compte au nom du propriétaire), qu'en est-il de la notion de disponible ?",
+        "propositions": [
+          "Elle n'existe plus : le propriétaire est libre de prélever sur le compte à tout moment",
+          "Elle est maintenue, mais versée trimestriellement",
+          "Elle est remplacée par un acompte fixé par l'USPI",
+          "Elle est doublée, la régie versant un disponible sur chaque rubrique"
+        ],
+        "reponse_correcte": "Elle n'existe plus : le propriétaire est libre de prélever sur le compte à tout moment",
+        "explication": "Dans les cas C et D, le propriétaire a accès aux relevés bancaires et la notion du disponible n'existe plus : il est libre de prélever sur le compte à tout moment."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Pourquoi une divergence entre le compte bancaire et le résultat de l'immeuble est-elle plus facile à trouver lorsque le compte est au nom du propriétaire ?",
+        "propositions": [
+          "Parce que la banque effectue elle-même le rapprochement chaque mois",
+          "Parce que le volume d'écritures est plus restreint",
+          "Parce que le propriétaire tient sa propre comptabilité en parallèle (contrôle croisé obligatoire)",
+          "Parce que la TVA n'y est pas comptabilisée"
+        ],
+        "reponse_correcte": "Parce que le volume d'écritures est plus restreint",
+        "explication": "En cas de divergence, la gérance trouve l'erreur plus facilement dans les cas C et D, car le volume des écritures est plus restreint."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Qui demande très souvent un compte de liquidités au nom du propriétaire ?",
+        "propositions": [
+          "Les locataires commerciaux",
+          "Les copropriétés",
+          "Les petits propriétaires privés d'un seul immeuble (pour réduire les honoraires)",
+          "Les banques hypothécaires"
+        ],
+        "reponse_correcte": "Les copropriétés",
+        "explication": "Le compte au nom du propriétaire est très demandé par les copropriétés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom du propriétaire : quels sont les avantages pour le service comptable ? (3 réponses)",
+        "propositions": [
+          "Facilité en cas d'erreur",
+          "Transparence",
+          "Consolidation facilitée",
+          "Paiement des disponibles en bloc",
+          "Paiement de toutes les factures par un seul débit"
+        ],
+        "reponses_correctes": ["Facilité en cas d'erreur", "Transparence", "Consolidation facilitée"],
+        "explication": "Au nom du propriétaire, le service comptable gagne en facilité en cas d'erreur, en transparence et en consolidation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom du propriétaire : quels sont les avantages pour le propriétaire ? (4 réponses)",
+        "propositions": [
+          "Accès au compte",
+          "Liberté de transactions",
+          "Il est titulaire du compte (sécuritaire)",
+          "Il perçoit les intérêts bancaires",
+          "Des honoraires de gestion moindres"
+        ],
+        "reponses_correctes": ["Accès au compte", "Liberté de transactions", "Il est titulaire du compte (sécuritaire)", "Il perçoit les intérêts bancaires"],
+        "explication": "Le propriétaire a accès au compte, est libre de ses transactions, en est titulaire (sécuritaire) et touche les intérêts. En revanche, les honoraires sont plus élevés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom du propriétaire : quels sont les inconvénients pour le service comptable ? (2 réponses)",
+        "propositions": [
+          "De nombreux comptes et logins",
+          "L'édition de factures QR code pour chacun",
+          "La difficulté en cas d'erreur d'imputation",
+          "Le risque de faillite de la régie"
+        ],
+        "reponses_correctes": ["De nombreux comptes et logins", "L'édition de factures QR code pour chacun"],
+        "explication": "Pour le service comptable, le compte au nom du propriétaire implique de nombreux comptes et logins et l'édition de factures QR code pour chacun."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Principes de trésorerie",
+      "content": {
+        "enonce": "Compte de liquidités au nom du propriétaire : quel est l'inconvénient pour le propriétaire ?",
+        "propositions": [
+          "Aucune visibilité sur ses fonds",
+          "Des honoraires plus élevés",
+          "Le risque de perdre ses fonds en cas de faillite de la gérance",
+          "Il doit valider personnellement chaque facture avant paiement (art. 397 CO)"
+        ],
+        "reponse_correcte": "Des honoraires plus élevés",
+        "explication": "Le compte au nom du propriétaire entraîne des honoraires plus élevés."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Qu'est-ce qu'un plan comptable ?",
+        "propositions": [
+          "Le budget prévisionnel de l'immeuble",
+          "Le document sur lequel figurent tous les numéros de comptes",
+          "Le calendrier des bouclements convenu avec le propriétaire",
+          "La liste des locataires avec leur loyer et leurs acomptes (état locatif)"
+        ],
+        "reponse_correcte": "Le document sur lequel figurent tous les numéros de comptes",
+        "explication": "Le plan comptable est le document sur lequel figurent tous les numéros de comptes ; il permet l'enregistrement des encaissements et décaissements et fixe les règles et principes en matière de comptes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Existe-t-il un plan comptable universel ?",
+        "propositions": [
+          "Oui, celui de l'USPI, obligatoire pour toutes les régies",
+          "Oui, celui annexé au Code des obligations",
+          "Non, mais des normes existent (CO, RPC, IFRS)",
+          "Non, et aucune norme ne s'applique aux régies"
+        ],
+        "reponse_correcte": "Non, mais des normes existent (CO, RPC, IFRS)",
+        "explication": "Il n'y a pas de plan comptable universel, mais des normes : CO (Code des obligations), RPC (Recommandations relatives à la présentation des comptes) et IFRS."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Un immeuble entièrement commercial ou mixte peut-il être soumis à la TVA ?",
+        "propositions": [
+          "Non, les immeubles sont toujours exonérés de TVA",
+          "Oui, obligatoirement dès fr. 100'000.– de loyers annuels",
+          "Oui, si le propriétaire décide d'opter (totalement ou partiellement)",
+          "Uniquement pour les places de parc extérieures"
+        ],
+        "reponse_correcte": "Oui, si le propriétaire décide d'opter (totalement ou partiellement)",
+        "explication": "Les immeubles d'habitation ne sont pas soumis à la TVA. Un immeuble entièrement commercial ou mixte peut l'être : le propriétaire décide d'opter ou de partiellement opter. La TVA est alors comptabilisée selon la LTVA."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Les places de parc peuvent-elles être soumises à la TVA ?",
+        "propositions": [
+          "Jamais, elles suivent le régime du logement",
+          "Oui, s'il s'agit d'une prestation indépendante",
+          "Toujours, même lorsqu'elles sont louées avec l'appartement dans le même bail",
+          "Seulement les places intérieures"
+        ],
+        "reponse_correcte": "Oui, s'il s'agit d'une prestation indépendante",
+        "explication": "Les places de parc peuvent être soumises à la TVA s'il s'agit d'une prestation indépendante."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Qu'interdit le principe de non-compensation (art. 958c CO) ?",
+        "propositions": [
+          "De compenser une créance de loyer avec la garantie du locataire",
+          "D'opérer des compensations entre postes d'actif et de passif, ou entre postes de charges et de produits",
+          "De verser un disponible tant que les charges ne sont pas payées",
+          "D'enregistrer une écriture sans pièce justificative"
+        ],
+        "reponse_correcte": "D'opérer des compensations entre postes d'actif et de passif, ou entre postes de charges et de produits",
+        "explication": "Le principe de non-compensation interdit d'opérer des compensations entre les postes de l'actif et ceux du passif, ou entre les postes de charges et de produits (art. 958c CO)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Outils et principes comptables",
+      "content": {
+        "enonce": "Le concierge est malade ; la gérance paie un remplaçant 2 mois et l'assurance perte de gain rembourse un mois. Quelle comptabilisation NE faut-il PAS faire ?",
+        "propositions": [
+          "Enregistrer le remboursement dans les recettes",
+          "Enregistrer le remboursement en diminution des charges, sur une ligne distincte",
+          "Compenser directement le remboursement avec le salaire, de sorte que les deux montants ne soient plus visibles",
+          "Enregistrer le salaire du remplaçant dans les charges de conciergerie"
+        ],
+        "reponse_correcte": "Compenser directement le remboursement avec le salaire, de sorte que les deux montants ne soient plus visibles",
+        "explication": "Deux possibilités sont admises : dans les recettes (ce qui fausse toutefois les recettes) ou en diminution des charges sur une ligne distincte. Compenser les deux montants pour qu'ils ne soient plus visibles distinctement viole le principe de non-compensation."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "À travers quels documents se font les regroupements des écritures comptables pour les immeubles ? (3 réponses)",
+        "propositions": [
+          "Le décompte de gérance",
+          "Le décompte de chauffage (auxiliaire)",
+          "Le décompte de frais accessoires",
+          "Le bilan de la régie",
+          "Le registre foncier (feuillet de l'immeuble)"
+        ],
+        "reponses_correctes": ["Le décompte de gérance", "Le décompte de chauffage (auxiliaire)", "Le décompte de frais accessoires"],
+        "explication": "Les écritures se regroupent dans le décompte de gérance (compte d'exploitation + compte courant propriétaire), le décompte de chauffage (auxiliaire) et le décompte de frais accessoires."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "À quoi le décompte de gérance peut-il être assimilé ?",
+        "propositions": [
+          "À un bilan d'entreprise audité",
+          "À un relevé de compte-courant bancaire",
+          "À une facture adressée au propriétaire (TVA comprise)",
+          "À un budget"
+        ],
+        "reponse_correcte": "À un relevé de compte-courant bancaire",
+        "explication": "Le décompte de gérance peut être assimilé à un relevé de compte-courant bancaire. Il se compose du compte d'exploitation et du compte courant propriétaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Qu'est-ce que le compte d'exploitation ?",
+        "propositions": [
+          "Le regroupement des écritures d'encaissements et de décaissements propres à chaque immeuble",
+          "Le compte qui regroupe tous les immeubles d'un même propriétaire, y compris ses dépenses privées",
+          "Le compte bancaire sur lequel les loyers sont versés",
+          "Le récapitulatif des disponibles versés"
+        ],
+        "reponse_correcte": "Le regroupement des écritures d'encaissements et de décaissements propres à chaque immeuble",
+        "explication": "Le compte d'exploitation regroupe les écritures d'encaissements et de décaissements propres à chaque immeuble ; il ne comptabilise pas d'écriture sans lien avec l'immeuble."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Quels produits (encaissements) figurent au crédit du compte d'exploitation ? (4 réponses)",
+        "propositions": [
+          "Les loyers",
+          "Les subventions",
+          "Les produits divers ou recettes de buanderie",
+          "Les remboursements de locataires ou d'assurances",
+          "Les intérêts hypothécaires",
+          "Les disponibles versés au propriétaire"
+        ],
+        "reponses_correctes": ["Les loyers", "Les subventions", "Les produits divers ou recettes de buanderie", "Les remboursements de locataires ou d'assurances"],
+        "explication": "Au crédit : loyers (appartements, locaux commerciaux, places de parc), subventions, produits divers ou buanderie, remboursements locataires ou assurances (ces derniers peuvent aussi être comptabilisés en diminution des charges dans un compte distinct)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Quelles sont les 3 catégories principales de charges du compte d'exploitation ? (3 réponses)",
+        "propositions": [
+          "Les charges courantes ou d'exploitation (récurrentes)",
+          "Les charges d'entretien (variables)",
+          "Les charges financières",
+          "Les charges privées du propriétaire",
+          "Les charges de chauffage (production de chaleur et eau chaude)"
+        ],
+        "reponses_correctes": [
+          "Les charges courantes ou d'exploitation (récurrentes)",
+          "Les charges d'entretien (variables)",
+          "Les charges financières"
+        ],
+        "explication": "Les charges se décomposent en charges courantes ou d'exploitation (récurrentes), charges d'entretien (variables) et charges financières. Les factures de production de chauffage vont dans le compte auxiliaire de chauffage."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Lesquelles sont des charges courantes ou d'exploitation ? (4 réponses)",
+        "propositions": [
+          "Conciergerie et matériel",
+          "Eau et électricité",
+          "Assurances",
+          "Honoraires de gérance",
+          "Entretien des appartements",
+          "Impôt foncier"
+        ],
+        "reponses_correctes": ["Conciergerie et matériel", "Eau et électricité", "Assurances", "Honoraires de gérance"],
+        "explication": "Charges courantes : conciergerie et matériel, eau, électricité, assurances, honoraires de gérance, frais divers, frais publicitaires. L'entretien des appartements est une charge d'entretien, l'impôt foncier une charge financière."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Lesquelles sont des charges d'entretien ? (4 réponses)",
+        "propositions": [
+          "L'entretien de l'immeuble",
+          "L'entretien des appartements",
+          "Les contrats d'entretien (frais fixes d'entretien)",
+          "Les aménagements extérieurs",
+          "Les frais bancaires",
+          "Les frais publicitaires"
+        ],
+        "reponses_correctes": [
+          "L'entretien de l'immeuble",
+          "L'entretien des appartements",
+          "Les contrats d'entretien (frais fixes d'entretien)",
+          "Les aménagements extérieurs"
+        ],
+        "explication": "Charges d'entretien (variables) : entretien immeuble, entretien appartements, contrats d'entretien, aménagements extérieurs, ainsi que les rénovations (distinctement précisées)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Dans quelle catégorie le contrat d'entretien de l'ascenseur est-il comptabilisé ?",
+        "propositions": [
+          "Dans les charges courantes, puisqu'il est fixe et récurrent",
+          "Dans les charges d'entretien, même s'il est fixe",
+          "Dans les charges financières",
+          "Dans le compte auxiliaire de chauffage et frais accessoires"
+        ],
+        "reponse_correcte": "Dans les charges d'entretien, même s'il est fixe",
+        "explication": "Certains contrats d'entretien, comme celui de l'ascenseur, sont comptabilisés dans les charges d'entretien, même s'ils sont fixes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Pourquoi les rénovations sont-elles distinctement précisées dans le compte d'exploitation ?",
+        "propositions": [
+          "Pour des raisons fiscales, et pour l'historique des frais d'exploitation (augmentation des loyers)",
+          "Parce que la loi interdit de les payer avec les loyers",
+          "Pour pouvoir les refacturer directement aux locataires dans les frais accessoires",
+          "Uniquement pour le calcul des honoraires de gérance"
+        ],
+        "reponse_correcte": "Pour des raisons fiscales, et pour l'historique des frais d'exploitation (augmentation des loyers)",
+        "explication": "Les rénovations (appartements ou immeuble) sont distinctement précisées pour des questions fiscales d'une part, et pour l'historique des frais d'exploitation d'autre part (augmentation des loyers)."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Lesquelles sont des charges financières ? (3 réponses)",
+        "propositions": [
+          "Les frais bancaires",
+          "Les intérêts hypothécaires",
+          "L'impôt foncier",
+          "Les primes d'assurance",
+          "Les honoraires de gérance (calculés en pourcentage des encaissements)"
+        ],
+        "reponses_correctes": ["Les frais bancaires", "Les intérêts hypothécaires", "L'impôt foncier"],
+        "explication": "Charges financières : frais bancaires, intérêts hypothécaires, impôt foncier. Assurances et honoraires de gérance sont des charges courantes."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Qui gère souvent le poste « intérêts hypothécaires » ?",
+        "propositions": [
+          "Le service contentieux de la régie",
+          "Le propriétaire directement",
+          "La banque, qui les déduit des loyers avant de les verser à la régie",
+          "Le gérant technique"
+        ],
+        "reponse_correcte": "Le propriétaire directement",
+        "explication": "Le poste « intérêts hypothécaires » n'est pas toujours en mains de la gérance : il est souvent géré directement par le propriétaire, qui paie les frais liés à sa dette avec le disponible."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Revenu total fr. 103'000.–, charges fr. 30'000.–, rénovation d'un appartement fr. 10'000.–, disponible versé fr. 5'000.– × 12. Quel est le solde final ?",
+        "propositions": [
+          "fr. 13'000.– (la rénovation étant activée au bilan)",
+          "fr. 3'000.–",
+          "fr. 63'000.–",
+          "fr. -7'000.–"
+        ],
+        "reponse_correcte": "fr. 3'000.–",
+        "explication": "103'000.– ./. 30'000.– ./. 10'000.– = résultat d'exploitation 63'000.– ; ./. disponible versé 60'000.– = solde final fr. 3'000.–."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Qu'est-il vrai à propos du compte courant du propriétaire ? (3 réponses)",
+        "propositions": [
+          "Il regroupe les mouvements des disponibles versés dans l'année",
+          "Son insertion dans le compte d'exploitation est possible",
+          "Il permet de payer une facture pour le propriétaire sans lien avec l'immeuble",
+          "Il remplace le compte d'exploitation dans les cas C et D",
+          "Il est obligatoirement transmis aux locataires"
+        ],
+        "reponses_correctes": [
+          "Il regroupe les mouvements des disponibles versés dans l'année",
+          "Son insertion dans le compte d'exploitation est possible",
+          "Il permet de payer une facture pour le propriétaire sans lien avec l'immeuble"
+        ],
+        "explication": "Le compte courant du propriétaire regroupe les disponibles versés dans l'année ; il peut être inséré dans le compte d'exploitation et permet de payer une facture pour le propriétaire qui n'est pas liée à l'immeuble."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Que regroupe le compte de gestion ? (3 réponses)",
+        "propositions": [
+          "Le résultat du compte d'exploitation",
+          "Le récapitulatif des disponibles versés",
+          "Le solde à verser en fin d'année",
+          "Le détail des loyers impayés de chaque locataire (situation des locataires)",
+          "Le plan comptable de la régie"
+        ],
+        "reponses_correctes": ["Le résultat du compte d'exploitation", "Le récapitulatif des disponibles versés", "Le solde à verser en fin d'année"],
+        "explication": "Le compte de gestion regroupe toutes les opérations liées à l'immeuble et au propriétaire : résultat du compte d'exploitation, récapitulatif des disponibles versés et solde à verser en fin d'année."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Combien de présentations du compte de gestion existe-t-il ?",
+        "propositions": [
+          "Une seule, imposée par le CO",
+          "2 : avec ou sans les comptes auxiliaires de chauffage",
+          "3 : mensuelle, trimestrielle et annuelle",
+          "4 : une par cas de compte de liquidités (A, B, C, D)"
+        ],
+        "reponse_correcte": "2 : avec ou sans les comptes auxiliaires de chauffage",
+        "explication": "Il existe 2 présentations du compte de gestion : avec ou sans les comptes auxiliaires de chauffage."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compte de chauffage",
+      "content": {
+        "enonce": "Quand les acomptes ou forfaits de chauffage, d'eau chaude et de frais accessoires sont-ils comptabilisés ?",
+        "propositions": [
+          "À la fin de la saison de chauffage seulement",
+          "En même temps que les loyers",
+          "Lors de l'établissement du décompte de chauffage (une fois les relevés de compteurs effectués)",
+          "Au bouclement annuel du compte d'exploitation"
+        ],
+        "reponse_correcte": "En même temps que les loyers",
+        "explication": "Les encaissements des acomptes ou forfaits de chauffage, eau chaude et frais accessoires sont comptabilisés en même temps que les loyers."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compte de chauffage",
+      "content": {
+        "enonce": "Où sont comptabilisées les factures liées à la production du chauffage et de l'eau chaude ?",
+        "propositions": [
+          "Dans le compte d'exploitation, parmi les charges courantes",
+          "Dans le compte auxiliaire de chauffage, et non dans le compte d'exploitation",
+          "Dans le compte courant du propriétaire",
+          "Directement à charge des locataires, hors comptabilité de l'immeuble"
+        ],
+        "reponse_correcte": "Dans le compte auxiliaire de chauffage, et non dans le compte d'exploitation",
+        "explication": "Les factures liées à la production du chauffage et de l'eau chaude sont comptabilisées dans le compte auxiliaire de chauffage, et non dans le compte d'exploitation."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compte de chauffage",
+      "content": {
+        "enonce": "À quelle condition les charges de chauffage et d'eau chaude sont-elles à la charge des locataires ?",
+        "propositions": [
+          "Toujours, elles font partie du loyer brut par définition",
+          "Si et seulement si cela a été expressément convenu",
+          "Seulement si l'immeuble compte plus de 4 logements",
+          "Si le propriétaire les annonce par avis officiel en cours de bail (art. 269d CO)"
+        ],
+        "reponse_correcte": "Si et seulement si cela a été expressément convenu",
+        "explication": "Le propriétaire avance les fonds ; les charges de chauffage et d'eau chaude sont à charge des locataires SI et SEULEMENT SI cela a été expressément convenu."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compte de chauffage",
+      "content": {
+        "enonce": "En cas de locaux vacants, le propriétaire doit-il assumer une part du chauffage ?",
+        "propositions": [
+          "Non, la part des vacants est répartie entre les autres locataires",
+          "Oui, selon l'OBLF",
+          "Non, sauf si le vacant dure plus de 6 mois",
+          "Oui, mais uniquement pour l'eau chaude"
+        ],
+        "reponse_correcte": "Oui, selon l'OBLF",
+        "explication": "En cas de vacants, le propriétaire assume une part du chauffage (Ordonnance sur le bail à loyer et le bail à ferme d'habitations et de locaux commerciaux, OBLF)."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Compte de chauffage",
+      "content": {
+        "enonce": "Qu'apparaît-il au bouclement de la saison de chauffage ?",
+        "propositions": [
+          "Soit un montant dû par le locataire, soit un montant dû par le propriétaire",
+          "Toujours un remboursement aux locataires",
+          "Un solde automatiquement viré dans le fonds de rénovation (sans décompte individuel)",
+          "Un nouveau montant de loyer net"
+        ],
+        "reponse_correcte": "Soit un montant dû par le locataire, soit un montant dû par le propriétaire",
+        "explication": "Au bouclement de la saison de chauffage, il y a soit un dû par le locataire, soit un dû par le propriétaire."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Dans quel cas établit-on un décompte acheteur / vendeur ?",
+        "propositions": [
+          "À chaque changement de locataire",
+          "En cas de transfert de propriété, pour répartir recettes et charges à la date du transfert",
+          "Lorsque le propriétaire change de régie",
+          "À chaque bouclement trimestriel demandé par un institutionnel (en complément du reporting)"
+        ],
+        "reponse_correcte": "En cas de transfert de propriété, pour répartir recettes et charges à la date du transfert",
+        "explication": "Le décompte acheteur / vendeur est établi en cas de transfert de propriété : il répartit les recettes et les charges à la date du transfert."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Pour quelle clientèle le reporting est-il établi ?",
+        "propositions": [
+          "Les locataires commerciaux",
+          "La clientèle institutionnelle (normes IFRS : budgets, rapports, analyse financière)",
+          "Les copropriétaires PPE uniquement",
+          "L'administration fiscale"
+        ],
+        "reponse_correcte": "La clientèle institutionnelle (normes IFRS : budgets, rapports, analyse financière)",
+        "explication": "Le reporting est destiné à la clientèle institutionnelle ; il est exigé selon les normes IFRS pour l'élaboration des budgets, rapports et analyses financières."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Documents comptables",
+      "content": {
+        "enonce": "Que doit faire la gérance lorsqu'un locataire ne paie pas son loyer dans les délais ?",
+        "propositions": [
+          "Prélever le montant sur la garantie de loyer sans autre formalité",
+          "Engager la procédure de mise en demeure et de poursuite",
+          "Attendre le bouclement annuel pour en informer le propriétaire",
+          "Réduire le disponible du propriétaire et clôturer le dossier"
+        ],
+        "reponse_correcte": "Engager la procédure de mise en demeure et de poursuite",
+        "explication": "La gérance doit veiller à ce que les locataires paient leurs loyers dans les délais ; si ce n'est pas le cas, elle engage la procédure de mise en demeure et de poursuite."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bouclements et honoraires",
+      "content": {
+        "enonce": "Quelle fréquence de bouclement est la plus fréquente pour les propriétaires privés ?",
+        "propositions": [
+          "Mensuelle",
+          "Trimestrielle (comme pour les institutionnels)",
+          "Annuelle",
+          "Semestrielle"
+        ],
+        "reponse_correcte": "Annuelle",
+        "explication": "Le bouclement est décidé avec le propriétaire : annuel (le plus fréquent pour les privés), semestriel, trimestriel (assez demandé par les institutionnels) ou mensuel (assez rare). Hors annuel, un récapitulatif annuel est présenté et des honoraires plus élevés peuvent être demandés."
+      }
+    },
+    {
+      "type": "QCM_MULTIPLE",
+      "section": "Bouclements et honoraires",
+      "content": {
+        "enonce": "Qu'est-il vrai à propos des honoraires de gérance ? (4 réponses)",
+        "propositions": [
+          "Ils sont convenus dans le mandat et exprimés en %",
+          "Ils ne changent pas, sauf s'ils sont renégociés entre les deux parties",
+          "S'y ajoutent 0.5 % de frais et débours (impression des factures QR code, enveloppes, papier…)",
+          "Ils sont soumis à la TVA",
+          "Ils sont indexés chaque année sur l'indice des prix à la consommation",
+          "Leur taux est fixé par l'USPI pour chaque canton"
+        ],
+        "reponses_correctes": [
+          "Ils sont convenus dans le mandat et exprimés en %",
+          "Ils ne changent pas, sauf s'ils sont renégociés entre les deux parties",
+          "S'y ajoutent 0.5 % de frais et débours (impression des factures QR code, enveloppes, papier…)",
+          "Ils sont soumis à la TVA"
+        ],
+        "explication": "Les honoraires de gérance sont convenus dans le mandat (en %), ne changent pas sauf négociation, sont majorés de 0.5 % de frais et débours et sont soumis à la TVA."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bouclements et honoraires",
+      "content": {
+        "enonce": "Sur quelle base les honoraires de gérance sont-ils le plus souvent calculés ?",
+        "propositions": [
+          "Sur l'état locatif théorique",
+          "Sur les loyers, les acomptes de chauffage encaissés et les autres encaissements",
+          "Sur la valeur vénale de l'immeuble",
+          "Sur le résultat net du compte d'exploitation (après déduction de toutes les charges)"
+        ],
+        "reponse_correcte": "Sur les loyers, les acomptes de chauffage encaissés et les autres encaissements",
+        "explication": "Deux principes existent : calcul sur les loyers, acomptes de chauffage encaissés et autres encaissements, ou calcul sur l'état locatif. La seconde solution est très rare."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bouclements et honoraires",
+      "content": {
+        "enonce": "Mandat à 4.5 % + 0.5 % de débours, TVA 8.1 %. Loyer net mensuel fr. 1'000.– et acompte de chauffage fr. 150.–. Quels sont les honoraires mensuels ?",
+        "propositions": [
+          "fr. 51.75 (4.5 % de 1'150.–, débours compris)",
+          "fr. 54.05",
+          "fr. 62.15",
+          "fr. 57.50"
+        ],
+        "reponse_correcte": "fr. 62.15",
+        "explication": "1'150.– × 5 % (4.5 % + 0.5 %) = 57.50 ; + TVA 8.1 % = 4.65 ; total fr. 62.15 par mois."
+      }
+    },
+    {
+      "type": "QCM_SIMPLE",
+      "section": "Bouclements et honoraires",
+      "content": {
+        "enonce": "Honoraires de la gérance technique à 5 % sur une facture de travaux de fr. 20'000.– TTC, TVA 8.1 %. Quel est le montant des honoraires ?",
+        "propositions": [
+          "fr. 1'000.–",
+          "fr. 925.05 (5 % du montant hors TVA)",
+          "fr. 1'081.–",
+          "fr. 1'620.–"
+        ],
+        "reponse_correcte": "fr. 1'081.–",
+        "explication": "Les honoraires techniques sont en pratique le plus souvent calculés sur le montant brut (TTC) : 20'000.– × 5 % = 1'000.– HT + TVA 8.1 % (81.–) = fr. 1'081.–."
+      }
+    }
+  ]
+}
