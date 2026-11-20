@@ -52,6 +52,20 @@ export interface ExamChapter<Q> {
   questions: Q[];
 }
 
+// Display title of each chapter, keyed by theme id: a level-2 chapter is
+// shown as "Parent › Chapter" so the exam says where a question comes from.
+export function chapterTitles(
+  themes: { parentThemeId: string | null; theme: { id: string; title: string } }[]
+): Map<string, string> {
+  const byId = new Map(themes.map(({ theme }) => [theme.id, theme.title]));
+  return new Map(
+    themes.map(({ parentThemeId, theme }) => {
+      const parent = parentThemeId ? byId.get(parentThemeId) : undefined;
+      return [theme.id, parent ? `${parent} › ${theme.title}` : theme.title];
+    })
+  );
+}
+
 function shuffle<T>(items: T[]): T[] {
   const a = [...items];
   for (let i = a.length - 1; i > 0; i--) {

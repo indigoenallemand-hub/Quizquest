@@ -280,6 +280,7 @@
 
 .qz-question-card { position: relative; background: var(--qz-card); border-radius: var(--qz-radius); box-shadow: var(--qz-shadow-md); padding: 1.75rem; }
 .qz-question-text { font-size: 1.125rem; font-weight: 500; line-height: 1.65; color: var(--qz-text); padding-right: 2rem; }
+.qz-question-theme { margin: 0 0 0.5rem; padding-right: 2rem; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--qz-primary); }
 
 .qz-question-edit-link {
   position: absolute;

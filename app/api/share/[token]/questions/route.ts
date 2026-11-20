@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { getPublicView } from "@/lib/question-resolver";
 import { readGuestAccess } from "@/lib/guest-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
-import { drawExamQuestions } from "@/lib/exam";
+import { chapterTitles, drawExamQuestions } from "@/lib/exam";
 
 export async function GET(request: Request, { params }: { params: Promise<{ token: string }> }) {
   const { token } = await params;
@@ -43,15 +43,20 @@ export async function GET(request: Request, { params }: { params: Promise<{ toke
   if (!guestAccessId) return NextResponse.json({ error: "Accès expiré." }, { status: 401 });
 
   if (exam) {
+    const titles = chapterTitles(link.quiz.themes);
     const drawn = drawExamQuestions(
       link.quiz.themes.map(({ parentThemeId, theme }) => ({
         themeId: theme.id,
         title: theme.title,
         parentThemeId,
-        questions: theme.questions,
+        questions: theme.questions.map((q) => ({ ...q, themeTitle: titles.get(theme.id) })),
       }))
     );
-    return NextResponse.json({ themes: [{ id: "exam", title: "LE TEST", questions: drawn.map((q) => getPublicView(q)) }] });
+    return NextResponse.json({
+      themes: [
+        { id: "exam", title: "LE TEST", questions: drawn.map((q) => ({ ...getPublicView(q), themeTitle: q.themeTitle })) },
+      ],
+    });
   }
 
   const selectedThemes = themeId ? link.quiz.themes.filter((t) => t.theme.id === themeId) : link.quiz.themes;

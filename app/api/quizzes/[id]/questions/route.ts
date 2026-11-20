@@ -4,7 +4,7 @@ import { getPublicView } from "@/lib/question-resolver";
 import { getSessionUserId } from "@/lib/session-user";
 import { canAccessQuiz } from "@/lib/quiz-access";
 import { getQuestionStatuses } from "@/lib/question-progress";
-import { drawExamQuestions } from "@/lib/exam";
+import { chapterTitles, drawExamQuestions } from "@/lib/exam";
 
 // Returns the resolved, answer-safe question set for a full quiz session:
 // CALCUL questions get fresh server-generated variables on every call.
@@ -43,16 +43,23 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
   if (!quiz || !canAccessQuiz(quiz, userId)) return NextResponse.json({ error: "Quiz introuvable." }, { status: 404 });
 
   if (exam) {
+    const titles = chapterTitles(quiz.themes);
     const drawn = drawExamQuestions(
       quiz.themes.map(({ parentThemeId, theme }) => ({
         themeId: theme.id,
         title: theme.title,
         parentThemeId,
-        questions: theme.questions.map((q) => ({ ...q, themeId: theme.id })),
+        questions: theme.questions.map((q) => ({ ...q, themeId: theme.id, themeTitle: titles.get(theme.id) })),
       }))
     );
     return NextResponse.json({
-      themes: [{ id: "exam", title: "LE TEST", questions: drawn.map((q) => ({ ...getPublicView(q), themeId: q.themeId })) }],
+      themes: [
+        {
+          id: "exam",
+          title: "LE TEST",
+          questions: drawn.map((q) => ({ ...getPublicView(q), themeId: q.themeId, themeTitle: q.themeTitle })),
+        },
+      ],
     });
   }
 

@@ -29,10 +29,10 @@ function shuffleArray<T>(arr: T[]): T[] {
 type Mode = "ENTRAINEMENT" | "QCM" | "REPONSE_LIBRE";
 
 type PublicQuestion =
-  | { id: string; type: "QCM_SIMPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string }
-  | { id: string; type: "QCM_MULTIPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string }
-  | { id: string; type: "DATE"; section: string | null; enonce: string; themeId?: string }
-  | { id: string; type: "ORDRE"; section: string | null; enonce: string; elements: string[]; themeId?: string }
+  | { id: string; type: "QCM_SIMPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string; themeTitle?: string }
+  | { id: string; type: "QCM_MULTIPLE"; section: string | null; enonce: string; propositions: string[]; themeId?: string; themeTitle?: string }
+  | { id: string; type: "DATE"; section: string | null; enonce: string; themeId?: string; themeTitle?: string }
+  | { id: string; type: "ORDRE"; section: string | null; enonce: string; elements: string[]; themeId?: string; themeTitle?: string }
   | {
       id: string;
       type: "CALCUL";
@@ -42,6 +42,7 @@ type PublicQuestion =
       uniteReponse: string | null;
       arrondiReponse: number;
       themeId?: string;
+      themeTitle?: string;
     };
 
 type ThemeBlock = { id: string; title: string; questions: (PublicQuestion & { status?: QuestionStatus })[] };
@@ -548,6 +549,7 @@ export default function QuizSession({
       </div>
 
       <div className="qz-question-card">
+        {exam && q.themeTitle && <p className="qz-question-theme">{q.themeTitle}</p>}
         <p className="qz-question-text">{q.enonce}</p>
         {quizId && q.themeId && (
           <Link
